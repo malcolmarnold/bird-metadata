@@ -13,10 +13,42 @@
   "cube_link_type" : "TR",
   "logical_transformation_rule_id" : "WUDEN__BIRD_FNNCL_CNTRCT_EIL_1__01_01_1990",
   "cube_structure_item_link" : [ {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_FNNCL_CNTRCT_EIL_1__01_01_1990__BIRD_SNGL_FNNCL_CNTRCT_ELDM_1__1__FNNCL_CNTRCT_ACCNTNG_CNSLDTN_LVL__ACCNTNG_CNSLDTN_LVL",
+    "cube_link_id" : "WUDEN__BIRD_FNNCL_CNTRCT_EIL_1__01_01_1990__BIRD_SNGL_FNNCL_CNTRCT_ELDM_1__1",
+    "foreign_cube_variable_code" : "ACCNTNG_CNSLDTN_LVL",
+    "primary_cube_variable_code" : "FNNCL_CNTRCT_ACCNTNG_CNSLDTN_LVL",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_FNNCL_CNTRCT_EIL_1__01_01_1990__BIRD_SNGL_FNNCL_CNTRCT_ELDM_1__1__FNNCL_CNTRCT_ACCNTNG_STNDRD__ACCNTNG_STNDRD",
+    "cube_link_id" : "WUDEN__BIRD_FNNCL_CNTRCT_EIL_1__01_01_1990__BIRD_SNGL_FNNCL_CNTRCT_ELDM_1__1",
+    "foreign_cube_variable_code" : "ACCNTNG_STNDRD",
+    "primary_cube_variable_code" : "FNNCL_CNTRCT_ACCNTNG_STNDRD",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
     "cube_structure_item_link_id" : "WUDEN__BIRD_FNNCL_CNTRCT_EIL_1__01_01_1990__BIRD_SNGL_FNNCL_CNTRCT_ELDM_1__1__FNNCL_CNTRCT_ID__FNNCL_CNTRCT_ID",
     "cube_link_id" : "WUDEN__BIRD_FNNCL_CNTRCT_EIL_1__01_01_1990__BIRD_SNGL_FNNCL_CNTRCT_ELDM_1__1",
     "foreign_cube_variable_code" : "FNNCL_CNTRCT_ID",
     "primary_cube_variable_code" : "FNNCL_CNTRCT_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_FNNCL_CNTRCT_EIL_1__01_01_1990__BIRD_SNGL_FNNCL_CNTRCT_ELDM_1__1__FNNCL_CNTRCT_RFRNC_DT__DT_RFRNC",
+    "cube_link_id" : "WUDEN__BIRD_FNNCL_CNTRCT_EIL_1__01_01_1990__BIRD_SNGL_FNNCL_CNTRCT_ELDM_1__1",
+    "foreign_cube_variable_code" : "DT_RFRNC",
+    "primary_cube_variable_code" : "FNNCL_CNTRCT_RFRNC_DT",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_FNNCL_CNTRCT_EIL_1__01_01_1990__BIRD_SNGL_FNNCL_CNTRCT_ELDM_1__1__FNNCL_CNTRCT_RPRTNG_AGNT_ID__RPRTNG_AGNT_ID",
+    "cube_link_id" : "WUDEN__BIRD_FNNCL_CNTRCT_EIL_1__01_01_1990__BIRD_SNGL_FNNCL_CNTRCT_ELDM_1__1",
+    "foreign_cube_variable_code" : "RPRTNG_AGNT_ID",
+    "primary_cube_variable_code" : "FNNCL_CNTRCT_RPRTNG_AGNT_ID",
     "comparator" : null,
     "aggregation_function" : null,
     "member_link" : [ ]

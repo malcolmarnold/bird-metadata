@@ -9,12 +9,6 @@
   "description" : "Advance type",
   "is_natural" : "false",
   "subdomain_enumeration" : [ {
-    "member_id" : "TYP_INSTRMNT_120",
-    "subdomain_id" : "ADVNC_TYP",
-    "valid_from" : "2022-03-01",
-    "valid_to" : "9999-12-31",
-    "order" : "0"
-  }, {
     "member_id" : "TYP_INSTRMNT_130",
     "subdomain_id" : "ADVNC_TYP",
     "valid_from" : "2022-03-01",
@@ -22,6 +16,12 @@
     "order" : "0"
   }, {
     "member_id" : "TYP_INSTRMNT_140",
+    "subdomain_id" : "ADVNC_TYP",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_INSTRMNT_120",
     "subdomain_id" : "ADVNC_TYP",
     "valid_from" : "2022-03-01",
     "valid_to" : "9999-12-31",

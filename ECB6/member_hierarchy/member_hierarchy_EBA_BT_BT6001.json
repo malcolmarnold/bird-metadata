@@ -8,6 +8,15 @@
   "is_main_hierarchy" : null,
   "member_hierarchy_node" : [ {
     "member_hierarchy_id" : "EBA_BT_BT6001",
+    "member_id" : "EBA_BT_EBA_x0",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_BT_BT6001",
     "member_id" : "EBA_BT_ECB6_x6001",
     "level" : "2",
     "parent_member_id" : "EBA_BT_EBA_x0",
@@ -20,15 +29,6 @@
     "member_id" : "EBA_BT_ECB6_x6002",
     "level" : "2",
     "parent_member_id" : "EBA_BT_EBA_x0",
-    "comparator" : ">=",
-    "operator" : null,
-    "valid_from" : "1900-01-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "EBA_BT_BT6001",
-    "member_id" : "EBA_BT_EBA_x0",
-    "level" : "1",
-    "parent_member_id" : null,
     "comparator" : ">=",
     "operator" : null,
     "valid_from" : "1900-01-01",

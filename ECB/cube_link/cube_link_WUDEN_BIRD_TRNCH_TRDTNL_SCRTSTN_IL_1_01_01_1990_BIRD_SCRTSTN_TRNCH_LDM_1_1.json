@@ -2,7 +2,7 @@
   "maintenance_agency_id" : "ECB",
   "cube_link_id" : "WUDEN__BIRD_TRNCH_TRDTNL_SCRTSTN_IL_1__01_01_1990__BIRD_SCRTSTN_TRNCH_LDM_1__1",
   "code" : "WUDEN__BIRD_TRNCH_TRDTNL_SCRTSTN_IL_1__01_01_1990__BIRD_SCRTSTN_TRNCH_LDM_1",
-  "name" : "The LDM: Securitisation tranche (BIRD_SCRTSTN_TRNCH_LDM) is forward engineered into the IL: Tranche in a Traditional securitisation (BIRD_TRNCH_TRDTNL_SCRTSTN_IL)",
+  "name" : "The LDM: Securitisation tranche (BIRD_SCRTSTN_TRNCH_ELDM) is forward engineered into the IL: Tranche in a Traditional securitisation (BIRD_TRNCH_TRDTNL_SCRTSTN_IL)",
   "description" : null,
   "valid_from" : "1900-01-01",
   "valid_to" : "9999-12-31",
@@ -19,14 +19,7 @@
     "primary_cube_variable_code" : "SCRTSTN_TRNCH_TYP",
     "comparator" : null,
     "aggregation_function" : null,
-    "member_link" : [ {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_TRNCH_TRDTNL_SCRTSTN_IL_1__01_01_1990__BIRD_SCRTSTN_TRNCH_LDM_1__1__SCRTSTN_TRNCH_TYP__SCRTSTN_TRNCH_TYP",
-      "foreign_member_id" : "SCRTSTN_TRNCH_TYP_3",
-      "primary_member_id" : "SCRTSTN_TRNCH_TYP_3",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    } ]
+    "member_link" : [ ]
   }, {
     "cube_structure_item_link_id" : "WUDEN__BIRD_TRNCH_TRDTNL_SCRTSTN_IL_1__01_01_1990__BIRD_SCRTSTN_TRNCH_LDM_1__1__TRNCH_ID__TRNCH_ID",
     "cube_link_id" : "WUDEN__BIRD_TRNCH_TRDTNL_SCRTSTN_IL_1__01_01_1990__BIRD_SCRTSTN_TRNCH_LDM_1__1",

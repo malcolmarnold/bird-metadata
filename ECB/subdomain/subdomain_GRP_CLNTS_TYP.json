@@ -9,12 +9,6 @@
   "description" : "Group of clients type",
   "is_natural" : "false",
   "subdomain_enumeration" : [ {
-    "member_id" : "GRP_TYP_13",
-    "subdomain_id" : "GRP_CLNTS_TYP",
-    "valid_from" : "2022-03-01",
-    "valid_to" : "9999-12-31",
-    "order" : "0"
-  }, {
     "member_id" : "GRP_TYP_4",
     "subdomain_id" : "GRP_CLNTS_TYP",
     "valid_from" : "2022-03-01",
@@ -22,6 +16,12 @@
     "order" : "0"
   }, {
     "member_id" : "GRP_TYP_6",
+    "subdomain_id" : "GRP_CLNTS_TYP",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "GRP_TYP_13",
     "subdomain_id" : "GRP_CLNTS_TYP",
     "valid_from" : "2022-03-01",
     "valid_to" : "9999-12-31",

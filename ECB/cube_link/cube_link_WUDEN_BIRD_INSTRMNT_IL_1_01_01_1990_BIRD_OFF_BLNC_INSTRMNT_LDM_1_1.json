@@ -2,7 +2,7 @@
   "maintenance_agency_id" : "ECB",
   "cube_link_id" : "WUDEN__BIRD_INSTRMNT_IL_1__01_01_1990__BIRD_OFF_BLNC_INSTRMNT_LDM_1__1",
   "code" : "WUDEN__BIRD_INSTRMNT_IL_1__01_01_1990__BIRD_OFF_BLNC_INSTRMNT_LDM_1",
-  "name" : "The LDM: Off-balance instrument (BIRD_OFF_BLNC_INSTRMNT_LDM) is forward engineered into the IL: Instrument (BIRD_INSTRMNT_IL)",
+  "name" : "The LDM: Off-balance instrument (BIRD_OFF_BLNC_INSTRMNT_ELDM) is forward engineered into the IL: Instrument (BIRD_INSTRMNT_IL)",
   "description" : null,
   "valid_from" : "1900-01-01",
   "valid_to" : "9999-12-31",
@@ -13,10 +13,18 @@
   "cube_link_type" : "TR",
   "logical_transformation_rule_id" : "WUDEN__BIRD_INSTRMNT_IL_1__01_01_1990",
   "cube_structure_item_link" : [ {
-    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_IL_1__01_01_1990__BIRD_OFF_BLNC_INSTRMNT_LDM_1__1__NMNL_AMNT__NMNL_AMNT",
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_IL_1__01_01_1990__BIRD_OFF_BLNC_INSTRMNT_LDM_1__1__INSTRMNT_ACCNTNG_CNSLDTN_LVL__INSTRMNT_ACCNTNG_CNSLDTN_LVL",
     "cube_link_id" : "WUDEN__BIRD_INSTRMNT_IL_1__01_01_1990__BIRD_OFF_BLNC_INSTRMNT_LDM_1__1",
-    "foreign_cube_variable_code" : "NMNL_AMNT",
-    "primary_cube_variable_code" : "NMNL_AMNT",
+    "foreign_cube_variable_code" : "INSTRMNT_ACCNTNG_CNSLDTN_LVL",
+    "primary_cube_variable_code" : "INSTRMNT_ACCNTNG_CNSLDTN_LVL",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_IL_1__01_01_1990__BIRD_OFF_BLNC_INSTRMNT_LDM_1__1__INSTRMNT_ACCNTNG_STNDRD__INSTRMNT_ACCNTNG_STNDRD",
+    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_IL_1__01_01_1990__BIRD_OFF_BLNC_INSTRMNT_LDM_1__1",
+    "foreign_cube_variable_code" : "INSTRMNT_ACCNTNG_STNDRD",
+    "primary_cube_variable_code" : "INSTRMNT_ACCNTNG_STNDRD",
     "comparator" : null,
     "aggregation_function" : null,
     "member_link" : [ ]
@@ -25,6 +33,30 @@
     "cube_link_id" : "WUDEN__BIRD_INSTRMNT_IL_1__01_01_1990__BIRD_OFF_BLNC_INSTRMNT_LDM_1__1",
     "foreign_cube_variable_code" : "INSTRMNT_ID",
     "primary_cube_variable_code" : "INSTRMNT_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_IL_1__01_01_1990__BIRD_OFF_BLNC_INSTRMNT_LDM_1__1__INSTRMNT_RFRNC_DT__DT_RFRNC",
+    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_IL_1__01_01_1990__BIRD_OFF_BLNC_INSTRMNT_LDM_1__1",
+    "foreign_cube_variable_code" : "DT_RFRNC",
+    "primary_cube_variable_code" : "INSTRMNT_RFRNC_DT",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_IL_1__01_01_1990__BIRD_OFF_BLNC_INSTRMNT_LDM_1__1__INSTRMNT_RPRTNG_AGNT_ID__RPRTNG_AGNT_ID",
+    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_IL_1__01_01_1990__BIRD_OFF_BLNC_INSTRMNT_LDM_1__1",
+    "foreign_cube_variable_code" : "RPRTNG_AGNT_ID",
+    "primary_cube_variable_code" : "INSTRMNT_RPRTNG_AGNT_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_IL_1__01_01_1990__BIRD_OFF_BLNC_INSTRMNT_LDM_1__1__NMNL_AMNT__NMNL_AMNT",
+    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_IL_1__01_01_1990__BIRD_OFF_BLNC_INSTRMNT_LDM_1__1",
+    "foreign_cube_variable_code" : "NMNL_AMNT",
+    "primary_cube_variable_code" : "NMNL_AMNT",
     "comparator" : null,
     "aggregation_function" : null,
     "member_link" : [ ]

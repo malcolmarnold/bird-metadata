@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_DPST_LDM_1__BIRD_SYNTHTC_SCRTSTN_WTHT_SSPE_LDM_1__SYNTHTC_SCRTSTN_ID_1",
+  "code" : "BIRD_TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_DPST_LDM_1__BIRD_SYNTHTC_SCRTSTN_WTHT_SSPE_LDM_1__SYNTHTC_SCRTSTN_ID",
+  "name" : "Synthetic securitisation without involvement of an SSPE may have many Tranche in a synthetic securitisation without securitisation special purpose entity (SSPE) being a deposit",
+  "description" : "Synthetic securitisation without involvement of an SSPE comprises Tranche in a synthetic securitisation without securitisation special purpose entity (SSPE) being a deposit",
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_SYNTHTC_SCRTSTN_WTHT_SSPE_LDM_1",
+  "primary_cube_variable_code" : "SCRTSTN_ID",
+  "foreign_cube_id" : "BIRD_TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_DPST_LDM_1",
+  "foreign_cube_variable_code" : "SYNTHTC_SCRTSTN_ID",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "false"
+}

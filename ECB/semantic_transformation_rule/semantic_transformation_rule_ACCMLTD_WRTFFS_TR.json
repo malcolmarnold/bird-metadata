@@ -6,10 +6,20 @@
   "name" : "Accumulated write-off derivation rule",
   "code" : "ACCMLTD_WRTFFS_TR",
   "description" : "This derivation rule aims to obtain the Accumulated write-off from its building blocks.",
-  "algorithm" : "SET ACCMLTD_TTL_WRTFFS = \n      CASE\n        WHEN GRSS_CRRYNG_AMNT = 0 AND CRRYNG_AMNT = 0 THEN ACCMLTD_WRTFFS\n        ELSE N/A\n      END;\n\n    SET ACCMLTD_PRTL_WRTFFS = \n      CASE\n        WHEN CRRYNG_AMNT <> 0 THEN ACCMLTD_WRTFFS\n        ELSE N/A\n      END;",
+  "algorithm" : "SET ACCMLTD_TTL_WRTFFS = \n  CASE\n    WHEN GRSS_CRRYNG_AMNT = 0 AND CRRYNG_AMNT = 0 THEN ACCMLTD_WRTFFS\n    ELSE N/A\n  END;\n\nSET ACCMLTD_PRTL_WRTFFS = \n  CASE\n    WHEN CRRYNG_AMNT <> 0 THEN ACCMLTD_WRTFFS\n    ELSE N/A\n  END;",
   "valid_from" : "2024-02-28",
   "valid_to" : "9999-12-31",
   "logical_transformation_rule" : [ {
+    "logical_transformation_rule_id" : "DER__BIRD_INSTRMNT_RL_EIL_1__ACCMLTD_TTL_WRTFFS__01_01_1990",
+    "semantic_transformation_rule_id" : "ACCMLTD_WRTFFS_TR",
+    "algorithm" : "SET BIRD_INSTRMNT_RL_EIL.ACCMLTD_TTL_WRTFFS = \n      CASE\n        WHEN BIRD_INSTRMNT_RL_EIL.GRSS_CRRYNG_AMNT = 0 AND BIRD_INSTRMNT_RL_IL.CRRYNG_AMNT = 0 THEN BIRD_INSTRMNT_RL_IL.ACCMLTD_WRTFFS\n        ELSE N/A\n      END;",
+    "additional_filters" : null,
+    "source_layer" : "IL",
+    "destination_layer" : "EIL",
+    "transformation_type" : "DER",
+    "valid_from" : "1990-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
     "logical_transformation_rule_id" : "DER__BIRD_INSTRMNT_RL_EIL_1__ACCMLTD_PRTL_WRTFFS__01_01_1990",
     "semantic_transformation_rule_id" : "ACCMLTD_WRTFFS_TR",
     "algorithm" : "SET BIRD_INSTRMNT_RL_EIL.ACCMLTD_PRTL_WRTFFS = \n      CASE\n        WHEN BIRD_INSTRMNT_RL_IL.CRRYNG_AMNT <> 0 THEN BIRD_INSTRMNT_RL_IL.ACCMLTD_WRTFFS\n        ELSE N/A\n      END;",
@@ -23,16 +33,6 @@
     "logical_transformation_rule_id" : "DER__BIRD_LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_ACCNTNG_CLSSFCTN_FNNCL_ASSTS_ASSGNMNT_EIL_1__ACCMLTD_PRTL_WRTFFS__01_01_1990",
     "semantic_transformation_rule_id" : "ACCMLTD_WRTFFS_TR",
     "algorithm" : "SET BIRD_LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_ACCNTNG_CLSSFCTN_FNNCL_ASSTS_ASSGNMNT_EIL.ACCMLTD_PRTL_WRTFFS = \n      CASE\n        WHEN BIRD_LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_ACCNTNG_CLSSFCTN_FNNCL_ASSTS_ASSGNMNT_IL.CRRYNG_AMNT <> 0 THEN BIRD_LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_ACCNTNG_CLSSFCTN_FNNCL_ASSTS_ASSGNMNT_IL.ACCMLTD_WRTFFS\n        ELSE N/A\n      END;",
-    "additional_filters" : null,
-    "source_layer" : "IL",
-    "destination_layer" : "EIL",
-    "transformation_type" : "DER",
-    "valid_from" : "1990-01-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "logical_transformation_rule_id" : "DER__BIRD_INSTRMNT_RL_EIL_1__ACCMLTD_TTL_WRTFFS__01_01_1990",
-    "semantic_transformation_rule_id" : "ACCMLTD_WRTFFS_TR",
-    "algorithm" : "SET BIRD_INSTRMNT_RL_EIL.ACCMLTD_TTL_WRTFFS = \n      CASE\n        WHEN BIRD_INSTRMNT_RL_EIL.GRSS_CRRYNG_AMNT = 0 AND BIRD_INSTRMNT_RL_IL.CRRYNG_AMNT = 0 THEN BIRD_INSTRMNT_RL_IL.ACCMLTD_WRTFFS\n        ELSE N/A\n      END;",
     "additional_filters" : null,
     "source_layer" : "IL",
     "destination_layer" : "EIL",

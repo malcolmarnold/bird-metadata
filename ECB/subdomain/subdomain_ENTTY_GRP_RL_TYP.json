@@ -9,15 +9,15 @@
   "description" : "Entity group role type",
   "is_natural" : "false",
   "subdomain_enumeration" : [ {
-    "member_id" : "ENTTY_RL_TYP_29",
-    "subdomain_id" : "ENTTY_GRP_RL_TYP",
-    "valid_from" : "2023-01-01",
-    "valid_to" : "9999-12-31",
-    "order" : "0"
-  }, {
     "member_id" : "ENTTY_RL_TYP_40",
     "subdomain_id" : "ENTTY_GRP_RL_TYP",
     "valid_from" : "2024-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "ENTTY_RL_TYP_29",
+    "subdomain_id" : "ENTTY_GRP_RL_TYP",
+    "valid_from" : "2023-01-01",
     "valid_to" : "9999-12-31",
     "order" : "0"
   } ]

@@ -9,12 +9,6 @@
   "description" : "Subsidiary, joint venture and associate Other organisation role assignment",
   "is_natural" : "false",
   "subdomain_enumeration" : [ {
-    "member_id" : "SBSDRY_JNT_VNTR_ASSCT_OTHR_ORGNSTN_ASSGNMNT_TYP_1",
-    "subdomain_id" : "SBSDRY_JNT_VNTR_ASSCT_OTHR_ORGNSTN_ASSGNMNT_TYP",
-    "valid_from" : "2022-03-01",
-    "valid_to" : "9999-12-31",
-    "order" : "0"
-  }, {
     "member_id" : "SBSDRY_JNT_VNTR_ASSCT_OTHR_ORGNSTN_ASSGNMNT_TYP_2",
     "subdomain_id" : "SBSDRY_JNT_VNTR_ASSCT_OTHR_ORGNSTN_ASSGNMNT_TYP",
     "valid_from" : "2022-03-01",
@@ -22,6 +16,12 @@
     "order" : "0"
   }, {
     "member_id" : "SBSDRY_JNT_VNTR_ASSCT_OTHR_ORGNSTN_ASSGNMNT_TYP_3",
+    "subdomain_id" : "SBSDRY_JNT_VNTR_ASSCT_OTHR_ORGNSTN_ASSGNMNT_TYP",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "SBSDRY_JNT_VNTR_ASSCT_OTHR_ORGNSTN_ASSGNMNT_TYP_1",
     "subdomain_id" : "SBSDRY_JNT_VNTR_ASSCT_OTHR_ORGNSTN_ASSGNMNT_TYP",
     "valid_from" : "2022-03-01",
     "valid_to" : "9999-12-31",

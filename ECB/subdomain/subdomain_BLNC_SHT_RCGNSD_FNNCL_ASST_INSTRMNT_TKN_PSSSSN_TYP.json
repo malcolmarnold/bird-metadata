@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "BLNC_SHT_RCGNSD_FNNCL_ASST_INSTRMNT_TKN_PSSSSN_TYP",
+  "name" : "Balance sheet recognised financial asset instrument taken into possession type",
+  "domain_id" : "ABSTRCT_INSTRMNT_RL_TYP",
+  "is_listed" : "true",
+  "code" : "BLNC_SHT_RCGNSD_FNNCL_ASST_INSTRMNT_TKN_PSSSSN_TYP",
+  "facet_id" : null,
+  "description" : null,
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "ABSTRCT_INSTRMNT_RL_TYP_50",
+    "subdomain_id" : "BLNC_SHT_RCGNSD_FNNCL_ASST_INSTRMNT_TKN_PSSSSN_TYP",
+    "valid_from" : "2025-11-07",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "ABSTRCT_INSTRMNT_RL_TYP_51",
+    "subdomain_id" : "BLNC_SHT_RCGNSD_FNNCL_ASST_INSTRMNT_TKN_PSSSSN_TYP",
+    "valid_from" : "2025-11-07",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

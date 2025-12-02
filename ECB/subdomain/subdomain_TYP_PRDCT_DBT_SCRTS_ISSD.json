@@ -9,19 +9,7 @@
   "description" : "Lists the type of products for debt securities issued in FinRep F08.01.",
   "is_natural" : "false",
   "subdomain_enumeration" : [ {
-    "member_id" : "TYP_PRDCT_610",
-    "subdomain_id" : "TYP_PRDCT_DBT_SCRTS_ISSD",
-    "valid_from" : "2018-03-31",
-    "valid_to" : "2999-12-31",
-    "order" : "0"
-  }, {
-    "member_id" : "TYP_PRDCT_620",
-    "subdomain_id" : "TYP_PRDCT_DBT_SCRTS_ISSD",
-    "valid_from" : "2018-03-31",
-    "valid_to" : "2999-12-31",
-    "order" : "0"
-  }, {
-    "member_id" : "TYP_PRDCT_630",
+    "member_id" : "TYP_PRDCT_652",
     "subdomain_id" : "TYP_PRDCT_DBT_SCRTS_ISSD",
     "valid_from" : "2018-03-31",
     "valid_to" : "2999-12-31",
@@ -33,19 +21,31 @@
     "valid_to" : "9999-12-31",
     "order" : "0"
   }, {
-    "member_id" : "TYP_PRDCT_650",
-    "subdomain_id" : "TYP_PRDCT_DBT_SCRTS_ISSD",
-    "valid_from" : "2018-03-31",
-    "valid_to" : "2999-12-31",
-    "order" : "0"
-  }, {
     "member_id" : "TYP_PRDCT_651",
     "subdomain_id" : "TYP_PRDCT_DBT_SCRTS_ISSD",
     "valid_from" : "2018-03-31",
     "valid_to" : "2999-12-31",
     "order" : "0"
   }, {
-    "member_id" : "TYP_PRDCT_652",
+    "member_id" : "TYP_PRDCT_630",
+    "subdomain_id" : "TYP_PRDCT_DBT_SCRTS_ISSD",
+    "valid_from" : "2018-03-31",
+    "valid_to" : "2999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_PRDCT_610",
+    "subdomain_id" : "TYP_PRDCT_DBT_SCRTS_ISSD",
+    "valid_from" : "2018-03-31",
+    "valid_to" : "2999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_PRDCT_650",
+    "subdomain_id" : "TYP_PRDCT_DBT_SCRTS_ISSD",
+    "valid_from" : "2018-03-31",
+    "valid_to" : "2999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_PRDCT_620",
     "subdomain_id" : "TYP_PRDCT_DBT_SCRTS_ISSD",
     "valid_from" : "2018-03-31",
     "valid_to" : "2999-12-31",

@@ -53,15 +53,6 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "TM_INTRVL_HIER_2",
-    "member_id" : "TM_INTRVL_-1",
-    "level" : "7",
-    "parent_member_id" : "TM_INTRVL_37",
-    "comparator" : "=",
-    "operator" : "+",
-    "valid_from" : "1900-01-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "TM_INTRVL_HIER_2",
     "member_id" : "TM_INTRVL_27",
     "level" : "2",
     "parent_member_id" : "TM_INTRVL_-1",
@@ -109,6 +100,15 @@
     "member_hierarchy_id" : "TM_INTRVL_HIER_2",
     "member_id" : "TM_INTRVL_85",
     "level" : "4",
+    "parent_member_id" : "TM_INTRVL_37",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TM_INTRVL_HIER_2",
+    "member_id" : "TM_INTRVL_-1",
+    "level" : "7",
     "parent_member_id" : "TM_INTRVL_37",
     "comparator" : "=",
     "operator" : "+",

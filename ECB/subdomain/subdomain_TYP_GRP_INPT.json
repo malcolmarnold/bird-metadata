@@ -9,36 +9,6 @@
   "description" : "Type of groups (Input Layer)",
   "is_natural" : "false",
   "subdomain_enumeration" : [ {
-    "member_id" : "GRP_TYP_11",
-    "subdomain_id" : "TYP_GRP_INPT",
-    "valid_from" : "2022-03-01",
-    "valid_to" : "2024-03-31",
-    "order" : "0"
-  }, {
-    "member_id" : "GRP_TYP_13",
-    "subdomain_id" : "TYP_GRP_INPT",
-    "valid_from" : "2022-03-01",
-    "valid_to" : "9999-12-31",
-    "order" : "0"
-  }, {
-    "member_id" : "GRP_TYP_14",
-    "subdomain_id" : "TYP_GRP_INPT",
-    "valid_from" : "2022-03-01",
-    "valid_to" : "9999-12-31",
-    "order" : "0"
-  }, {
-    "member_id" : "GRP_TYP_15",
-    "subdomain_id" : "TYP_GRP_INPT",
-    "valid_from" : "2022-03-01",
-    "valid_to" : "9999-12-31",
-    "order" : "0"
-  }, {
-    "member_id" : "GRP_TYP_16",
-    "subdomain_id" : "TYP_GRP_INPT",
-    "valid_from" : "2022-03-01",
-    "valid_to" : "9999-12-31",
-    "order" : "0"
-  }, {
     "member_id" : "GRP_TYP_4",
     "subdomain_id" : "TYP_GRP_INPT",
     "valid_from" : "2022-03-01",
@@ -51,9 +21,33 @@
     "valid_to" : "9999-12-31",
     "order" : "0"
   }, {
+    "member_id" : "GRP_TYP_16",
+    "subdomain_id" : "TYP_GRP_INPT",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "GRP_TYP_15",
+    "subdomain_id" : "TYP_GRP_INPT",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "GRP_TYP_13",
+    "subdomain_id" : "TYP_GRP_INPT",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
     "member_id" : "GRP_TYP_17",
     "subdomain_id" : "TYP_GRP_INPT",
     "valid_from" : "2024-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "GRP_TYP_14",
+    "subdomain_id" : "TYP_GRP_INPT",
+    "valid_from" : "2022-03-01",
     "valid_to" : "9999-12-31",
     "order" : "0"
   }, {
@@ -61,6 +55,12 @@
     "subdomain_id" : "TYP_GRP_INPT",
     "valid_from" : "2024-04-01",
     "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "GRP_TYP_11",
+    "subdomain_id" : "TYP_GRP_INPT",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "2024-03-31",
     "order" : "0"
   } ]
 }

@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_GRNTR_DBT_SCRTY_ASSGNMNT_LDM_1",
+  "name" : "Guarantor Debt security assignment",
+  "code" : "BIRD_GRNTR_DBT_SCRTY_ASSGNMNT_LDM",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_GRNTR_DBT_SCRTY_ASSGNMNT_LDM_1",
+  "cube_type" : "LDM",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "A Guarantor Debt security assignment assignment is the combination of Guarantor and Debt security that indicates which Guarantor is providing the guarantee for which Debt security.\n\nThe guarantor is obliged to make payments to the holder of the security if the issuer fails to meet the obligation to make repayments arising under the instrument secured by the guarantor. Providers of a \"financial guarantee\", as defined in Annex V to Regulation (EU) No 680/2014, should be covered.\nProtection may be provided by several guarantors, in which case only one of the guarantors is to be reported based on reasonable and risk-prudent considerations (e.g., subordination of liabilities, extent of the contribution to the joint protection).\nIf the attribute is not applicable to the security due to the unavailability of guarantees,the relevant NCB may dispense with the requirement to fill the attribute. (Guidance notes to reporting agents on SHS regulation)",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

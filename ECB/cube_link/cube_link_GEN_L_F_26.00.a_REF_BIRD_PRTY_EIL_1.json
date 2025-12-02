@@ -18,7 +18,7 @@
     "foreign_cube_variable_code" : "INSTTTNL_SCTR",
     "primary_cube_variable_code" : "INSTTTNL_SCTR",
     "comparator" : "=",
-    "aggregation_function" : null,
+    "aggregation_function" : "SUM",
     "member_link" : [ {
       "cube_structure_item_link_id" : "GEN_L__F_26.00.a_REF__GEN_L__F_26.00.a_REF__BIRD_PRTY_EIL__1__INSTTTNL_SCTR__INSTTTNL_SCTR",
       "foreign_member_id" : "INSTTTNL_SCTR_S1_A",

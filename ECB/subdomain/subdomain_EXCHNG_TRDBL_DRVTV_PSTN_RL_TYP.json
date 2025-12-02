@@ -9,18 +9,6 @@
   "description" : "Exchange tradable derivative position role type",
   "is_natural" : "false",
   "subdomain_enumeration" : [ {
-    "member_id" : "EXCHNG_TRDBL_DRVTV_PSTN_RL_TYP_1",
-    "subdomain_id" : "EXCHNG_TRDBL_DRVTV_PSTN_RL_TYP",
-    "valid_from" : "2023-01-01",
-    "valid_to" : "2024-03-31",
-    "order" : "0"
-  }, {
-    "member_id" : "EXCHNG_TRDBL_DRVTV_PSTN_RL_TYP_2",
-    "subdomain_id" : "EXCHNG_TRDBL_DRVTV_PSTN_RL_TYP",
-    "valid_from" : "2023-01-01",
-    "valid_to" : "2024-03-31",
-    "order" : "0"
-  }, {
     "member_id" : "EXCHNG_TRDBL_DRVTV_PSTN_RL_TYP_3",
     "subdomain_id" : "EXCHNG_TRDBL_DRVTV_PSTN_RL_TYP",
     "valid_from" : "2024-04-01",
@@ -31,6 +19,18 @@
     "subdomain_id" : "EXCHNG_TRDBL_DRVTV_PSTN_RL_TYP",
     "valid_from" : "2024-04-01",
     "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "EXCHNG_TRDBL_DRVTV_PSTN_RL_TYP_1",
+    "subdomain_id" : "EXCHNG_TRDBL_DRVTV_PSTN_RL_TYP",
+    "valid_from" : "2023-01-01",
+    "valid_to" : "2024-03-31",
+    "order" : "0"
+  }, {
+    "member_id" : "EXCHNG_TRDBL_DRVTV_PSTN_RL_TYP_2",
+    "subdomain_id" : "EXCHNG_TRDBL_DRVTV_PSTN_RL_TYP",
+    "valid_from" : "2023-01-01",
+    "valid_to" : "2024-03-31",
     "order" : "0"
   } ]
 }

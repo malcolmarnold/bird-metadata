@@ -40,22 +40,6 @@
     "description" : "The rating system's name.",
     "is_implemented" : "true"
   }, {
-    "cube_structure_item_id" : "BIRD_RTNG_SYSTM_ELDM_1__RTNG_SYSTM_TYP_BY_TRGT",
-    "cube_structure_id" : "BIRD_RTNG_SYSTM_ELDM_1",
-    "cube_variable_code" : "RTNG_SYSTM_TYP_BY_TRGT",
-    "variable_id" : "RTNG_SYSTM_TYP_BY_TRGT",
-    "role" : "O",
-    "order" : "3",
-    "subdomain_id" : "RTNG_SYSTM_TYP_TRGT",
-    "variable_set_id" : null,
-    "member_id" : null,
-    "dimension_type" : null,
-    "attribute_associated_variable" : null,
-    "is_flow" : "false",
-    "is_mandatory" : "true",
-    "description" : "A discriminator to distinguish between different rating systems by target type, like issue based or issuer based rating systems.",
-    "is_implemented" : "true"
-  }, {
     "cube_structure_item_id" : "BIRD_RTNG_SYSTM_ELDM_1__RTNG_SYSTM_TYP_BY_NTR",
     "cube_structure_id" : "BIRD_RTNG_SYSTM_ELDM_1",
     "cube_variable_code" : "RTNG_SYSTM_TYP_BY_NTR",
@@ -70,6 +54,22 @@
     "is_flow" : "false",
     "is_mandatory" : "true",
     "description" : "A discriminator to distinguish between different rating systems by nature, like grade based or numeric rating systems.",
+    "is_implemented" : "true"
+  }, {
+    "cube_structure_item_id" : "BIRD_RTNG_SYSTM_ELDM_1__RTNG_SYSTM_TYP_BY_TRGT",
+    "cube_structure_id" : "BIRD_RTNG_SYSTM_ELDM_1",
+    "cube_variable_code" : "RTNG_SYSTM_TYP_BY_TRGT",
+    "variable_id" : "RTNG_SYSTM_TYP_BY_TRGT",
+    "role" : "O",
+    "order" : "3",
+    "subdomain_id" : "RTNG_SYSTM_TYP_TRGT",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "true",
+    "description" : "A discriminator to distinguish between different rating systems by target type, like issue based or issuer based rating systems.",
     "is_implemented" : "true"
   }, {
     "cube_structure_item_id" : "BIRD_RTNG_SYSTM_ELDM_1__SHRT_TRM_CRDT_ASSSSMNT_INDCTR",

@@ -9,19 +9,7 @@
   "description" : "Type of non-financial asset",
   "is_natural" : "false",
   "subdomain_enumeration" : [ {
-    "member_id" : "TYP_ACCNTNG_ITM_0",
-    "subdomain_id" : "TYP_NN_FNNCL_ASST",
-    "valid_from" : "2018-06-01",
-    "valid_to" : "2022-02-28",
-    "order" : "0"
-  }, {
     "member_id" : "TYP_ACCNTNG_ITM_440",
-    "subdomain_id" : "TYP_NN_FNNCL_ASST",
-    "valid_from" : "2018-06-01",
-    "valid_to" : "2022-02-28",
-    "order" : "0"
-  }, {
-    "member_id" : "TYP_ACCNTNG_ITM_450",
     "subdomain_id" : "TYP_NN_FNNCL_ASST",
     "valid_from" : "2018-06-01",
     "valid_to" : "2022-02-28",
@@ -31,6 +19,24 @@
     "subdomain_id" : "TYP_NN_FNNCL_ASST",
     "valid_from" : "2022-03-01",
     "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_ACCNTNG_ITM_450",
+    "subdomain_id" : "TYP_NN_FNNCL_ASST",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "2022-02-28",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_ACCNTNG_ITM_451",
+    "subdomain_id" : "TYP_NN_FNNCL_ASST",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_ACCNTNG_ITM_0",
+    "subdomain_id" : "TYP_NN_FNNCL_ASST",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "2022-02-28",
     "order" : "0"
   }, {
     "member_id" : "TYP_ACCNTNG_ITM_413",
@@ -52,12 +58,6 @@
     "order" : "0"
   }, {
     "member_id" : "TYP_ACCNTNG_ITM_430",
-    "subdomain_id" : "TYP_NN_FNNCL_ASST",
-    "valid_from" : "2022-03-01",
-    "valid_to" : "9999-12-31",
-    "order" : "0"
-  }, {
-    "member_id" : "TYP_ACCNTNG_ITM_451",
     "subdomain_id" : "TYP_NN_FNNCL_ASST",
     "valid_from" : "2022-03-01",
     "valid_to" : "9999-12-31",

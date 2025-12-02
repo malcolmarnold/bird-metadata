@@ -9,19 +9,7 @@
   "description" : "AnaCredit Payment frequency",
   "is_natural" : "false",
   "subdomain_enumeration" : [ {
-    "member_id" : "FRQNCY_8",
-    "subdomain_id" : "FRQNCY_PYMNT_ANCRDT_CLLCTN",
-    "valid_from" : "1900-01-01",
-    "valid_to" : "9999-12-31",
-    "order" : "0"
-  }, {
     "member_id" : "FRQNCY_1",
-    "subdomain_id" : "FRQNCY_PYMNT_ANCRDT_CLLCTN",
-    "valid_from" : "1900-01-01",
-    "valid_to" : "9999-12-31",
-    "order" : "0"
-  }, {
-    "member_id" : "FRQNCY_4",
     "subdomain_id" : "FRQNCY_PYMNT_ANCRDT_CLLCTN",
     "valid_from" : "1900-01-01",
     "valid_to" : "9999-12-31",
@@ -33,7 +21,7 @@
     "valid_to" : "9999-12-31",
     "order" : "0"
   }, {
-    "member_id" : "FRQNCY_22",
+    "member_id" : "FRQNCY_18",
     "subdomain_id" : "FRQNCY_PYMNT_ANCRDT_CLLCTN",
     "valid_from" : "1900-01-01",
     "valid_to" : "9999-12-31",
@@ -45,7 +33,19 @@
     "valid_to" : "9999-12-31",
     "order" : "0"
   }, {
-    "member_id" : "FRQNCY_18",
+    "member_id" : "FRQNCY_22",
+    "subdomain_id" : "FRQNCY_PYMNT_ANCRDT_CLLCTN",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "FRQNCY_4",
+    "subdomain_id" : "FRQNCY_PYMNT_ANCRDT_CLLCTN",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "FRQNCY_8",
     "subdomain_id" : "FRQNCY_PYMNT_ANCRDT_CLLCTN",
     "valid_from" : "1900-01-01",
     "valid_to" : "9999-12-31",

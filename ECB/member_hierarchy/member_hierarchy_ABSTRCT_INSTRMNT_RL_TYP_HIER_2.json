@@ -17,15 +17,6 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "ABSTRCT_INSTRMNT_RL_TYP_HIER_2",
-    "member_id" : "ABSTRCT_INSTRMNT_RL_TYP_45",
-    "level" : "2",
-    "parent_member_id" : "ABSTRCT_INSTRMNT_RL_TYP_-1",
-    "comparator" : "=",
-    "operator" : "+",
-    "valid_from" : "1900-01-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "ABSTRCT_INSTRMNT_RL_TYP_HIER_2",
     "member_id" : "ABSTRCT_INSTRMNT_RL_TYP_7",
     "level" : "3",
     "parent_member_id" : "ABSTRCT_INSTRMNT_RL_TYP_45",
@@ -39,6 +30,15 @@
     "level" : "3",
     "parent_member_id" : "ABSTRCT_INSTRMNT_RL_TYP_45",
     "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ABSTRCT_INSTRMNT_RL_TYP_HIER_2",
+    "member_id" : "ABSTRCT_INSTRMNT_RL_TYP_45",
+    "level" : "2",
+    "parent_member_id" : "ABSTRCT_INSTRMNT_RL_TYP_-1",
+    "comparator" : "=",
     "operator" : "+",
     "valid_from" : "1900-01-01",
     "valid_to" : "9999-12-31"

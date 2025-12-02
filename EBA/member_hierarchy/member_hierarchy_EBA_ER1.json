@@ -17,6 +17,15 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "EBA_ER1",
+    "member_id" : "EBA_ER_EBA_x7",
+    "level" : "2",
+    "parent_member_id" : "EBA_ER_EBA_x0",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ER1",
     "member_id" : "EBA_ER_EBA_x9",
     "level" : "2",
     "parent_member_id" : "EBA_ER_EBA_x0",
@@ -26,9 +35,9 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "EBA_ER1",
-    "member_id" : "EBA_ER_EBA_x7",
-    "level" : "2",
-    "parent_member_id" : "EBA_ER_EBA_x0",
+    "member_id" : "EBA_ER_EBA_x1",
+    "level" : "3",
+    "parent_member_id" : "EBA_ER_EBA_x7",
     "comparator" : "=",
     "operator" : "+",
     "valid_from" : "2013-12-01",
@@ -44,10 +53,10 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "EBA_ER1",
-    "member_id" : "EBA_ER_EBA_x1",
-    "level" : "3",
-    "parent_member_id" : "EBA_ER_EBA_x7",
-    "comparator" : "=",
+    "member_id" : "EBA_ER_EBA_x8",
+    "level" : "4",
+    "parent_member_id" : "EBA_ER_EBA_x4",
+    "comparator" : null,
     "operator" : "+",
     "valid_from" : "2013-12-01",
     "valid_to" : "9999-12-31"
@@ -62,18 +71,9 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "EBA_ER1",
-    "member_id" : "EBA_ER_EBA_x2",
+    "member_id" : "EBA_ER_EBA_x3",
     "level" : "4",
     "parent_member_id" : "EBA_ER_EBA_x1",
-    "comparator" : null,
-    "operator" : "+",
-    "valid_from" : "2013-12-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "EBA_ER1",
-    "member_id" : "EBA_ER_EBA_x8",
-    "level" : "4",
-    "parent_member_id" : "EBA_ER_EBA_x4",
     "comparator" : null,
     "operator" : "+",
     "valid_from" : "2013-12-01",
@@ -89,7 +89,7 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "EBA_ER1",
-    "member_id" : "EBA_ER_EBA_x3",
+    "member_id" : "EBA_ER_EBA_x2",
     "level" : "4",
     "parent_member_id" : "EBA_ER_EBA_x1",
     "comparator" : null,

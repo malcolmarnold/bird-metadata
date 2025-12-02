@@ -24,12 +24,12 @@
     "description" : "The rating agency's name.",
     "is_implemented" : "true"
   }, {
-    "cube_structure_item_id" : "BIRD_RTNG_GRD_IL_1__RTNG_SYSTM_NM",
+    "cube_structure_item_id" : "BIRD_RTNG_GRD_IL_1__RTNG_GRD",
     "cube_structure_id" : "BIRD_RTNG_GRD_IL_1",
-    "cube_variable_code" : "RTNG_SYSTM_NM",
-    "variable_id" : "RTNG_SYSTM_NM",
+    "cube_variable_code" : "RTNG_GRD",
+    "variable_id" : "RTNG_GRD",
     "role" : "D",
-    "order" : "0",
+    "order" : "2",
     "subdomain_id" : "STRNG_ASCII_250",
     "variable_set_id" : null,
     "member_id" : null,
@@ -37,7 +37,7 @@
     "attribute_associated_variable" : null,
     "is_flow" : "false",
     "is_mandatory" : "true",
-    "description" : "The rating system's name.",
+    "description" : "The rating grade, e.g. AAA.",
     "is_implemented" : "true"
   }, {
     "cube_structure_item_id" : "BIRD_RTNG_GRD_IL_1__RTNG_GRD_CRDT_QLTY",
@@ -56,26 +56,10 @@
     "description" : "Rating grade credit quality distinguishes Central bank and private sector company according to the credit quality of their investment grade.",
     "is_implemented" : "true"
   }, {
-    "cube_structure_item_id" : "BIRD_RTNG_GRD_IL_1__RTNG_GRD",
+    "cube_structure_item_id" : "BIRD_RTNG_GRD_IL_1__RTNG_GRD_TYP",
     "cube_structure_id" : "BIRD_RTNG_GRD_IL_1",
-    "cube_variable_code" : "RTNG_GRD",
-    "variable_id" : "RTNG_GRD",
-    "role" : "D",
-    "order" : "2",
-    "subdomain_id" : "STRNG_ASCII_250",
-    "variable_set_id" : null,
-    "member_id" : null,
-    "dimension_type" : null,
-    "attribute_associated_variable" : null,
-    "is_flow" : "false",
-    "is_mandatory" : "true",
-    "description" : "The rating grade, e.g. AAA.",
-    "is_implemented" : "true"
-  }, {
-    "cube_structure_item_id" : "BIRD_RTNG_GRD_IL_1__TYP_RTNG_GRD",
-    "cube_structure_id" : "BIRD_RTNG_GRD_IL_1",
-    "cube_variable_code" : "TYP_RTNG_GRD",
-    "variable_id" : "TYP_RTNG_GRD",
+    "cube_variable_code" : "RTNG_GRD_TYP",
+    "variable_id" : "RTNG_GRD_TYP",
     "role" : "O",
     "order" : "4",
     "subdomain_id" : "TYP_RTNG_GRD_INPT",
@@ -85,7 +69,23 @@
     "attribute_associated_variable" : null,
     "is_flow" : "false",
     "is_mandatory" : "true",
-    "description" : null,
+    "description" : "A discriminator to distinguish between different types of rating grades.",
+    "is_implemented" : "true"
+  }, {
+    "cube_structure_item_id" : "BIRD_RTNG_GRD_IL_1__RTNG_SYSTM_NM",
+    "cube_structure_id" : "BIRD_RTNG_GRD_IL_1",
+    "cube_variable_code" : "RTNG_SYSTM_NM",
+    "variable_id" : "RTNG_SYSTM_NM",
+    "role" : "D",
+    "order" : "0",
+    "subdomain_id" : "STRNG_ASCII_250",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "true",
+    "description" : "The rating system's name.",
     "is_implemented" : "true"
   } ]
 }

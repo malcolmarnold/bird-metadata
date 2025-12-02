@@ -1,0 +1,10 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "variable_id" : "ULTMT_PRNT_UNDRT_CD",
+  "code" : "ULTMT_PRNT_UNDRT_CD",
+  "name" : "Ultimate parent undertaking identifier (identifier type: RIAD code)",
+  "domain_id" : "STRNG",
+  "description" : "Counterparty identifier of the legal entity which is the ultimate parent undertaking of the counterparty. This ultimate parent undertaking has no parent undertaking. If the counterparty has no parent undertaking, the counterparty identifier for the counterparty itself is to be reported.Parent undertaking has the same meaning as defined in Article 4(1)(15)(a) of Regulation (EU) No 575/2013.",
+  "primary_concept" : "ENTTY_RIAD_CD",
+  "is_decomposed" : "true"
+}

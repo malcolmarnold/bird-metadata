@@ -18,7 +18,7 @@
     "foreign_cube_variable_code" : "CRDT_RTNG_AGNCY_NM",
     "primary_cube_variable_code" : "RTNG_AGNCY_NM",
     "comparator" : "=",
-    "aggregation_function" : null,
+    "aggregation_function" : "SUM",
     "member_link" : [ ]
   } ]
 }

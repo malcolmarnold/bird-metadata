@@ -1,12 +1,16 @@
 {
   "maintenance_agency_id" : "ECB",
-  "facet_id" : "ID_1_TO_2_3_TO_5_OR_D_4D_2D_OR_2D_2D_4D_2D",
-  "code" : "ID_1_TO_2_3_TO_5_OR_D_4D_2D_OR_2D_2D_4D_2D",
-  "name" : "ID_1_TO_2_3_TO_5_OR_D_4D_2D_OR_2D_2D_4D_2D",
+  "facet_id" : "RSTRCTD_ID_60",
+  "code" : "RSTRCTD_ID_60",
+  "name" : "RSTRCTD_ID_60",
   "facet_value_type" : "String",
   "facet_enumeration" : [ {
-    "facet_id" : "ID_1_TO_2_3_TO_5_OR_D_4D_2D_OR_2D_2D_4D_2D",
+    "facet_id" : "RSTRCTD_ID_60",
     "facet_type" : "pattern",
-    "observation_value" : "\\d{1,2}-\\d{3,5}|\\d{1}-\\d{4}-\\d{2}|\\d{2}-\\d{2}-\\d{4}-\\d{2}"
+    "observation_value" : "^[!-~]|([!-~][ -~]*[!-~])$"
+  }, {
+    "facet_id" : "RSTRCTD_ID_60",
+    "facet_type" : "maxLength",
+    "observation_value" : "60"
   } ]
 }

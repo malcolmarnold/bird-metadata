@@ -13,19 +13,11 @@
   "cube_link_type" : "TR",
   "logical_transformation_rule_id" : "DER__BIRD_CRDT_FCLTY_EIL_1__TM_PST_DU_BND__01_01_1990",
   "cube_structure_item_link" : [ {
-    "cube_structure_item_link_id" : "DER__BIRD_CRDT_FCLTY_EIL_1__TM_PST_DU_BND__01_01_1990__BIRD_CRDT_FCLTY_IL_1__1__DT_PST_D",
-    "cube_link_id" : "DER__BIRD_CRDT_FCLTY_EIL_1__TM_PST_DU_BND__01_01_1990__BIRD_CRDT_FCLTY_IL_1__1",
-    "foreign_cube_variable_code" : "TM_PST_DU_BND",
-    "primary_cube_variable_code" : "DT_PST_D",
-    "comparator" : null,
-    "aggregation_function" : null,
-    "member_link" : [ ]
-  }, {
     "cube_structure_item_link_id" : "DER__BIRD_CRDT_FCLTY_EIL_1__TM_PST_DU_BND__01_01_1990__BIRD_CRDT_FCLTY_IL_1__1__DT_RFRNC",
     "cube_link_id" : "DER__BIRD_CRDT_FCLTY_EIL_1__TM_PST_DU_BND__01_01_1990__BIRD_CRDT_FCLTY_IL_1__1",
     "foreign_cube_variable_code" : "TM_PST_DU_BND",
     "primary_cube_variable_code" : "DT_RFRNC",
-    "comparator" : null,
+    "comparator" : "0",
     "aggregation_function" : null,
     "member_link" : [ ]
   } ]

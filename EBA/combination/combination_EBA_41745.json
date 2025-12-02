@@ -5,20 +5,8 @@
   "maintenance_agency_id" : "EBA",
   "version" : "AE 2014-03",
   "valid_from" : "2014-09-30",
-  "valid_to" : "9999-12-31",
+  "valid_to" : "2025-06-29",
   "combination_item" : [ {
-    "combination_id" : "EBA_41745",
-    "variable_id" : "EBA_Reported_Period",
-    "subdomain_id" : "EBA_11035014428738272585",
-    "variable_set_id" : null,
-    "member_id" : null
-  }, {
-    "combination_id" : "EBA_41745",
-    "variable_id" : "EBA_Entity_Id",
-    "subdomain_id" : "EBA_9060459832829800078",
-    "variable_set_id" : null,
-    "member_id" : null
-  }, {
     "combination_id" : "EBA_41745",
     "variable_id" : "EBA_ENC",
     "subdomain_id" : null,
@@ -28,7 +16,7 @@
     "combination_id" : "EBA_41745",
     "variable_id" : "EBA_ATY",
     "subdomain_id" : null,
-    "variable_set_id" : "EBA_8231468321123390510",
+    "variable_set_id" : "EBA_8474109268473617164",
     "member_id" : null
   }, {
     "combination_id" : "EBA_41745",
@@ -75,13 +63,25 @@
   }, {
     "combination_id" : "EBA_41745",
     "variable_id" : "EBA_Unit",
-    "subdomain_id" : "EBA_9060459832829800078",
+    "subdomain_id" : "EBA_11150720025798450824",
     "variable_set_id" : null,
     "member_id" : null
   }, {
     "combination_id" : "EBA_41745",
     "variable_id" : "EBA_Observation_Value",
-    "subdomain_id" : "EBA_9060459832829800078",
+    "subdomain_id" : "EBA_11150720025798450824",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "EBA_41745",
+    "variable_id" : "EBA_Reported_Period",
+    "subdomain_id" : "EBA_12340467568925953343",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "EBA_41745",
+    "variable_id" : "EBA_Entity_Id",
+    "subdomain_id" : "EBA_11150720025798450824",
     "variable_set_id" : null,
     "member_id" : null
   } ]

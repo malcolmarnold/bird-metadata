@@ -53,15 +53,6 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_6",
-    "member_id" : "INSTTTNL_SCTR_S1_A",
-    "level" : "2",
-    "parent_member_id" : "INSTTTNL_SCTR_4",
-    "comparator" : null,
-    "operator" : "+",
-    "valid_from" : "1900-01-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_6",
     "member_id" : "INSTTTNL_SCTR_3",
     "level" : "2",
     "parent_member_id" : "INSTTTNL_SCTR_4",
@@ -71,7 +62,16 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_6",
-    "member_id" : "INSTTTNL_SCTR_S121",
+    "member_id" : "INSTTTNL_SCTR_S1_A",
+    "level" : "2",
+    "parent_member_id" : "INSTTTNL_SCTR_4",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_6",
+    "member_id" : "INSTTTNL_SCTR_IO",
     "level" : "3",
     "parent_member_id" : "INSTTTNL_SCTR_3",
     "comparator" : null,
@@ -80,7 +80,7 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_6",
-    "member_id" : "INSTTTNL_SCTR_S122_A",
+    "member_id" : "INSTTTNL_SCTR_S11",
     "level" : "3",
     "parent_member_id" : "INSTTTNL_SCTR_3",
     "comparator" : null,
@@ -98,7 +98,7 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_6",
-    "member_id" : "INSTTTNL_SCTR_IO",
+    "member_id" : "INSTTTNL_SCTR_S121",
     "level" : "3",
     "parent_member_id" : "INSTTTNL_SCTR_3",
     "comparator" : null,
@@ -116,7 +116,7 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_6",
-    "member_id" : "INSTTTNL_SCTR_S11",
+    "member_id" : "INSTTTNL_SCTR_S122_A",
     "level" : "3",
     "parent_member_id" : "INSTTTNL_SCTR_3",
     "comparator" : null,

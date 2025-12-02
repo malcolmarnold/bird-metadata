@@ -9,12 +9,6 @@
   "description" : "Collateral type",
   "is_natural" : "false",
   "subdomain_enumeration" : [ {
-    "member_id" : "TYP_PRTCTN_109",
-    "subdomain_id" : "CLLTRL_TYP",
-    "valid_from" : "2024-01-01",
-    "valid_to" : "9999-12-31",
-    "order" : "0"
-  }, {
     "member_id" : "TYP_PRTCTN_75",
     "subdomain_id" : "CLLTRL_TYP",
     "valid_from" : "2024-04-01",
@@ -24,6 +18,12 @@
     "member_id" : "TYP_PRTCTN_76",
     "subdomain_id" : "CLLTRL_TYP",
     "valid_from" : "2024-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_PRTCTN_109",
+    "subdomain_id" : "CLLTRL_TYP",
+    "valid_from" : "2024-01-01",
     "valid_to" : "9999-12-31",
     "order" : "0"
   } ]

@@ -8,22 +8,6 @@
   "valid_to" : "9999-12-31",
   "version" : "1",
   "cube_structure_item" : [ {
-    "cube_structure_item_id" : "ANCRDT_ENTTY_RSK_C_1__PD",
-    "cube_structure_id" : "ANCRDT_ENTTY_RSK_C_1",
-    "cube_variable_code" : "PD",
-    "variable_id" : "PD",
-    "role" : "O",
-    "order" : "4",
-    "subdomain_id" : "RL_0TO1_6D",
-    "variable_set_id" : null,
-    "member_id" : null,
-    "dimension_type" : null,
-    "attribute_associated_variable" : null,
-    "is_flow" : "false",
-    "is_mandatory" : "false",
-    "description" : "The counterparty's probability of default over one year, determined in accordance with Articles 160, 163, 179 and 180 of Regulation (EU) No 575/2013.",
-    "is_implemented" : "true"
-  }, {
     "cube_structure_item_id" : "ANCRDT_ENTTY_RSK_C_1__DT_RFRNC",
     "cube_structure_id" : "ANCRDT_ENTTY_RSK_C_1",
     "cube_variable_code" : "DT_RFRNC",
@@ -56,6 +40,22 @@
     "description" : null,
     "is_implemented" : "true"
   }, {
+    "cube_structure_item_id" : "ANCRDT_ENTTY_RSK_C_1__NEVS_PD",
+    "cube_structure_id" : "ANCRDT_ENTTY_RSK_C_1",
+    "cube_variable_code" : "NEVS_PD",
+    "variable_id" : "NEVS",
+    "role" : "A",
+    "order" : "105",
+    "subdomain_id" : "NEVS_CLLCTN_WTHT_NA",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : "PD",
+    "is_flow" : "false",
+    "is_mandatory" : "false",
+    "description" : null,
+    "is_implemented" : "true"
+  }, {
     "cube_structure_item_id" : "ANCRDT_ENTTY_RSK_C_1__OBSRVD_AGNT_CD",
     "cube_structure_id" : "ANCRDT_ENTTY_RSK_C_1",
     "cube_variable_code" : "OBSRVD_AGNT_CD",
@@ -72,20 +72,20 @@
     "description" : null,
     "is_implemented" : "true"
   }, {
-    "cube_structure_item_id" : "ANCRDT_ENTTY_RSK_C_1__NEVS_PD",
+    "cube_structure_item_id" : "ANCRDT_ENTTY_RSK_C_1__PD",
     "cube_structure_id" : "ANCRDT_ENTTY_RSK_C_1",
-    "cube_variable_code" : "NEVS_PD",
-    "variable_id" : "NEVS",
-    "role" : "A",
-    "order" : "105",
-    "subdomain_id" : "NEVS_CLLCTN_WTHT_NA",
+    "cube_variable_code" : "PD",
+    "variable_id" : "PD",
+    "role" : "O",
+    "order" : "4",
+    "subdomain_id" : "RL_0TO1_6D",
     "variable_set_id" : null,
     "member_id" : null,
     "dimension_type" : null,
-    "attribute_associated_variable" : "PD",
+    "attribute_associated_variable" : null,
     "is_flow" : "false",
     "is_mandatory" : "false",
-    "description" : null,
+    "description" : "The counterparty's probability of default over one year, determined in accordance with Articles 160, 163, 179 and 180 of Regulation (EU) No 575/2013.",
     "is_implemented" : "true"
   } ]
 }

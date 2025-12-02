@@ -9,12 +9,6 @@
   "description" : "Type of specific securities borrowing and lending transaction including cash as collateral component (Input Layer)",
   "is_natural" : "false",
   "subdomain_enumeration" : [ {
-    "member_id" : "SCTRY_BRRWNG_LNDNG_TRNSCTN_INCLDNG_CSH_CLLTRL_TYP_1",
-    "subdomain_id" : "TYP_SCTRY_BRRWNG_LNDNG_TRNSCTN_INCLDNG_CSH_CLLTRL_INPT",
-    "valid_from" : "2022-03-01",
-    "valid_to" : "9999-12-31",
-    "order" : "0"
-  }, {
     "member_id" : "SCTRY_BRRWNG_LNDNG_TRNSCTN_INCLDNG_CSH_CLLTRL_TYP_3",
     "subdomain_id" : "TYP_SCTRY_BRRWNG_LNDNG_TRNSCTN_INCLDNG_CSH_CLLTRL_INPT",
     "valid_from" : "2022-03-01",
@@ -22,6 +16,12 @@
     "order" : "0"
   }, {
     "member_id" : "SCTRY_BRRWNG_LNDNG_TRNSCTN_INCLDNG_CSH_CLLTRL_TYP_4",
+    "subdomain_id" : "TYP_SCTRY_BRRWNG_LNDNG_TRNSCTN_INCLDNG_CSH_CLLTRL_INPT",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "SCTRY_BRRWNG_LNDNG_TRNSCTN_INCLDNG_CSH_CLLTRL_TYP_1",
     "subdomain_id" : "TYP_SCTRY_BRRWNG_LNDNG_TRNSCTN_INCLDNG_CSH_CLLTRL_INPT",
     "valid_from" : "2022-03-01",
     "valid_to" : "9999-12-31",

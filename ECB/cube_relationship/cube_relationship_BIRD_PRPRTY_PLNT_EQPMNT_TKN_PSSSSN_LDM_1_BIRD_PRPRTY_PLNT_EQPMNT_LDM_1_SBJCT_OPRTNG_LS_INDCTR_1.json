@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_PRPRTY_PLNT_EQPMNT_TKN_PSSSSN_LDM_1__BIRD_PRPRTY_PLNT_EQPMNT_LDM_1__SBJCT_OPRTNG_LS_INDCTR_1",
+  "code" : "BIRD_PRPRTY_PLNT_EQPMNT_TKN_PSSSSN_LDM_1__BIRD_PRPRTY_PLNT_EQPMNT_LDM_1__SBJCT_OPRTNG_LS_INDCTR",
+  "name" : "Property, plant and equipment may have many Property, plant and equipment taken into possession",
+  "description" : "Property, plant and equipment may be obtained as Property, plant taken into possession",
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_PRPRTY_PLNT_EQPMNT_LDM_1",
+  "primary_cube_variable_code" : "SBJCT_OPRTNG_LS_INDCTR",
+  "foreign_cube_id" : "BIRD_PRPRTY_PLNT_EQPMNT_TKN_PSSSSN_LDM_1",
+  "foreign_cube_variable_code" : "SBJCT_OPRTNG_LS_INDCTR",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "false"
+}

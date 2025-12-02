@@ -9,35 +9,41 @@
   "description" : null,
   "is_natural" : "false",
   "subdomain_enumeration" : [ {
-    "member_id" : "TRNSFR_IMPRMNT_STGS_6",
-    "subdomain_id" : "TRNSFR_IMPRMNT_STGS_F_12.02_TRNSFR_IMPRMNT_STGS_REF",
-    "valid_from" : "2018-03-31",
-    "valid_to" : "2021-06-29",
-    "order" : "0"
-  }, {
     "member_id" : "TRNSFR_IMPRMNT_STGS_4",
     "subdomain_id" : "TRNSFR_IMPRMNT_STGS_F_12.02_TRNSFR_IMPRMNT_STGS_REF",
     "valid_from" : "2018-03-31",
     "valid_to" : "2021-06-29",
     "order" : "1"
   }, {
-    "member_id" : "TRNSFR_IMPRMNT_STGS_5",
-    "subdomain_id" : "TRNSFR_IMPRMNT_STGS_F_12.02_TRNSFR_IMPRMNT_STGS_REF",
-    "valid_from" : "2018-03-31",
-    "valid_to" : "2021-06-29",
-    "order" : "2"
-  }, {
-    "member_id" : "TRNSFR_IMPRMNT_STGS_1",
-    "subdomain_id" : "TRNSFR_IMPRMNT_STGS_F_12.02_TRNSFR_IMPRMNT_STGS_REF",
-    "valid_from" : "2018-03-31",
-    "valid_to" : "2021-06-29",
-    "order" : "3"
-  }, {
     "member_id" : "TRNSFR_IMPRMNT_STGS_3",
     "subdomain_id" : "TRNSFR_IMPRMNT_STGS_F_12.02_TRNSFR_IMPRMNT_STGS_REF",
     "valid_from" : "2018-03-31",
     "valid_to" : "2021-06-29",
     "order" : "4"
+  }, {
+    "member_id" : "TRNSFR_IMPRMNT_STGS_3",
+    "subdomain_id" : "TRNSFR_IMPRMNT_STGS_F_12.02_TRNSFR_IMPRMNT_STGS_REF",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31",
+    "order" : "4"
+  }, {
+    "member_id" : "TRNSFR_IMPRMNT_STGS_4",
+    "subdomain_id" : "TRNSFR_IMPRMNT_STGS_F_12.02_TRNSFR_IMPRMNT_STGS_REF",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31",
+    "order" : "1"
+  }, {
+    "member_id" : "TRNSFR_IMPRMNT_STGS_1",
+    "subdomain_id" : "TRNSFR_IMPRMNT_STGS_F_12.02_TRNSFR_IMPRMNT_STGS_REF",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31",
+    "order" : "3"
+  }, {
+    "member_id" : "TRNSFR_IMPRMNT_STGS_5",
+    "subdomain_id" : "TRNSFR_IMPRMNT_STGS_F_12.02_TRNSFR_IMPRMNT_STGS_REF",
+    "valid_from" : "2018-03-31",
+    "valid_to" : "2021-06-29",
+    "order" : "2"
   }, {
     "member_id" : "TRNSFR_IMPRMNT_STGS_2",
     "subdomain_id" : "TRNSFR_IMPRMNT_STGS_F_12.02_TRNSFR_IMPRMNT_STGS_REF",
@@ -51,11 +57,17 @@
     "valid_to" : "9999-12-31",
     "order" : "0"
   }, {
-    "member_id" : "TRNSFR_IMPRMNT_STGS_4",
+    "member_id" : "TRNSFR_IMPRMNT_STGS_6",
+    "subdomain_id" : "TRNSFR_IMPRMNT_STGS_F_12.02_TRNSFR_IMPRMNT_STGS_REF",
+    "valid_from" : "2018-03-31",
+    "valid_to" : "2021-06-29",
+    "order" : "0"
+  }, {
+    "member_id" : "TRNSFR_IMPRMNT_STGS_2",
     "subdomain_id" : "TRNSFR_IMPRMNT_STGS_F_12.02_TRNSFR_IMPRMNT_STGS_REF",
     "valid_from" : "2021-06-30",
     "valid_to" : "9999-12-31",
-    "order" : "1"
+    "order" : "5"
   }, {
     "member_id" : "TRNSFR_IMPRMNT_STGS_5",
     "subdomain_id" : "TRNSFR_IMPRMNT_STGS_F_12.02_TRNSFR_IMPRMNT_STGS_REF",
@@ -65,20 +77,8 @@
   }, {
     "member_id" : "TRNSFR_IMPRMNT_STGS_1",
     "subdomain_id" : "TRNSFR_IMPRMNT_STGS_F_12.02_TRNSFR_IMPRMNT_STGS_REF",
-    "valid_from" : "2021-06-30",
-    "valid_to" : "9999-12-31",
+    "valid_from" : "2018-03-31",
+    "valid_to" : "2021-06-29",
     "order" : "3"
-  }, {
-    "member_id" : "TRNSFR_IMPRMNT_STGS_3",
-    "subdomain_id" : "TRNSFR_IMPRMNT_STGS_F_12.02_TRNSFR_IMPRMNT_STGS_REF",
-    "valid_from" : "2021-06-30",
-    "valid_to" : "9999-12-31",
-    "order" : "4"
-  }, {
-    "member_id" : "TRNSFR_IMPRMNT_STGS_2",
-    "subdomain_id" : "TRNSFR_IMPRMNT_STGS_F_12.02_TRNSFR_IMPRMNT_STGS_REF",
-    "valid_from" : "2021-06-30",
-    "valid_to" : "9999-12-31",
-    "order" : "5"
   } ]
 }

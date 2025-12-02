@@ -1,0 +1,80 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_link_id" : "WUDEN__BIRD_INSTRMNT_EIL_1__01_01_1990__BIRD_LN_ELDM_1__1",
+  "code" : "WUDEN__BIRD_INSTRMNT_EIL_1__01_01_1990__BIRD_LN_ELDM_1",
+  "name" : "The LDM: Loan (BIRD_LN_ELDM) is forward engineered into the IL: Instrument (BIRD_INSTRMNT_EIL)",
+  "description" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "order_relevance" : "1",
+  "primary_cube_id" : "BIRD_LN_ELDM_1",
+  "foreign_cube_id" : "BIRD_INSTRMNT_EIL_1",
+  "cube_link_type" : "TR",
+  "logical_transformation_rule_id" : "WUDEN__BIRD_INSTRMNT_EIL_1__01_01_1990",
+  "cube_structure_item_link" : [ {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_EIL_1__01_01_1990__BIRD_LN_ELDM_1__1__CRRNCY__CRRNCY",
+    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_EIL_1__01_01_1990__BIRD_LN_ELDM_1__1",
+    "foreign_cube_variable_code" : "CRRNCY",
+    "primary_cube_variable_code" : "CRRNCY",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_EIL_1__01_01_1990__BIRD_LN_ELDM_1__1__INSTRMNT_ACCNTNG_CNSLDTN_LVL__ACCNTNG_CNSLDTN_LVL",
+    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_EIL_1__01_01_1990__BIRD_LN_ELDM_1__1",
+    "foreign_cube_variable_code" : "ACCNTNG_CNSLDTN_LVL",
+    "primary_cube_variable_code" : "INSTRMNT_ACCNTNG_CNSLDTN_LVL",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_EIL_1__01_01_1990__BIRD_LN_ELDM_1__1__INSTRMNT_ACCNTNG_STNDRD__ACCNTNG_STNDRD",
+    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_EIL_1__01_01_1990__BIRD_LN_ELDM_1__1",
+    "foreign_cube_variable_code" : "ACCNTNG_STNDRD",
+    "primary_cube_variable_code" : "INSTRMNT_ACCNTNG_STNDRD",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_EIL_1__01_01_1990__BIRD_LN_ELDM_1__1__INSTRMNT_ID__INSTRMNT_ID",
+    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_EIL_1__01_01_1990__BIRD_LN_ELDM_1__1",
+    "foreign_cube_variable_code" : "INSTRMNT_ID",
+    "primary_cube_variable_code" : "INSTRMNT_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_EIL_1__01_01_1990__BIRD_LN_ELDM_1__1__INSTRMNT_RFRNC_DT__DT_RFRNC",
+    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_EIL_1__01_01_1990__BIRD_LN_ELDM_1__1",
+    "foreign_cube_variable_code" : "DT_RFRNC",
+    "primary_cube_variable_code" : "INSTRMNT_RFRNC_DT",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_EIL_1__01_01_1990__BIRD_LN_ELDM_1__1__INSTRMNT_RPRTNG_AGNT_ID__RPRTNG_AGNT_ID",
+    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_EIL_1__01_01_1990__BIRD_LN_ELDM_1__1",
+    "foreign_cube_variable_code" : "RPRTNG_AGNT_ID",
+    "primary_cube_variable_code" : "INSTRMNT_RPRTNG_AGNT_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_EIL_1__01_01_1990__BIRD_LN_ELDM_1__1__NMNL_AMNT__NMNL_AMNT",
+    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_EIL_1__01_01_1990__BIRD_LN_ELDM_1__1",
+    "foreign_cube_variable_code" : "NMNL_AMNT",
+    "primary_cube_variable_code" : "NMNL_AMNT",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_EIL_1__01_01_1990__BIRD_LN_ELDM_1__1__SNDCTN_SB_PRTCPTN_MMBR_INSTRMNT_INDCTR__SNDCTN_SB_PRTCPTN_MMBR_INSTRMNT_INDCTR",
+    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_EIL_1__01_01_1990__BIRD_LN_ELDM_1__1",
+    "foreign_cube_variable_code" : "SNDCTN_SB_PRTCPTN_MMBR_INSTRMNT_INDCTR",
+    "primary_cube_variable_code" : "SNDCTN_SB_PRTCPTN_MMBR_INSTRMNT_INDCTR",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  } ]
+}

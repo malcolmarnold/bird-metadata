@@ -8,20 +8,20 @@
   "valid_to" : "9999-12-31",
   "version" : "1",
   "cube_structure_item" : [ {
-    "cube_structure_item_id" : "BIRD_EQT_INSTRMNT_LG_LDM_1__RPRCHS_AGRMNT_INSTRMNT_RPRTNG_AGNT_ID",
+    "cube_structure_item_id" : "BIRD_EQT_INSTRMNT_LG_LDM_1__RPRCHS_AGRMNT_ACCNTNG_CNSLDTN_LVL",
     "cube_structure_id" : "BIRD_EQT_INSTRMNT_LG_LDM_1",
-    "cube_variable_code" : "RPRCHS_AGRMNT_INSTRMNT_RPRTNG_AGNT_ID",
-    "variable_id" : "RPRCHS_AGRMNT_INSTRMNT_RPRTNG_AGNT_ID",
+    "cube_variable_code" : "RPRCHS_AGRMNT_ACCNTNG_CNSLDTN_LVL",
+    "variable_id" : "RPRCHS_AGRMNT_ACCNTNG_CNSLDTN_LVL",
     "role" : "D",
-    "order" : "1",
-    "subdomain_id" : "STRNG_RSTRCTD_ID",
+    "order" : "2",
+    "subdomain_id" : "ACCNTNG_CNSLDTN_LVL",
     "variable_set_id" : null,
     "member_id" : null,
     "dimension_type" : null,
     "attribute_associated_variable" : null,
     "is_flow" : "false",
     "is_mandatory" : "true",
-    "description" : "Identifier of the reporting agent.",
+    "description" : "Accounting consolidation level is the level on which the accounting is consolidated, Solo or group.",
     "is_implemented" : "true"
   }, {
     "cube_structure_item_id" : "BIRD_EQT_INSTRMNT_LG_LDM_1__RPRCHS_AGRMNT_ACCNTNG_STNDRD",
@@ -56,26 +56,10 @@
     "description" : "A discriminator to distinguish between the security and the cash leg.",
     "is_implemented" : "true"
   }, {
-    "cube_structure_item_id" : "BIRD_EQT_INSTRMNT_LG_LDM_1__RPRCHS_AGRMNT_ACCNTNG_CNSLDTN_LVL",
+    "cube_structure_item_id" : "BIRD_EQT_INSTRMNT_LG_LDM_1__RPRCHS_AGRMNT_ID",
     "cube_structure_id" : "BIRD_EQT_INSTRMNT_LG_LDM_1",
-    "cube_variable_code" : "RPRCHS_AGRMNT_ACCNTNG_CNSLDTN_LVL",
-    "variable_id" : "RPRCHS_AGRMNT_ACCNTNG_CNSLDTN_LVL",
-    "role" : "D",
-    "order" : "2",
-    "subdomain_id" : "ACCNTNG_CNSLDTN_LVL",
-    "variable_set_id" : null,
-    "member_id" : null,
-    "dimension_type" : null,
-    "attribute_associated_variable" : null,
-    "is_flow" : "false",
-    "is_mandatory" : "true",
-    "description" : "Accounting consolidation level is the level on which the accounting is consolidated, Solo or group.",
-    "is_implemented" : "true"
-  }, {
-    "cube_structure_item_id" : "BIRD_EQT_INSTRMNT_LG_LDM_1__RPRCHS_AGRMNT_INSTRMNT_ID",
-    "cube_structure_id" : "BIRD_EQT_INSTRMNT_LG_LDM_1",
-    "cube_variable_code" : "RPRCHS_AGRMNT_INSTRMNT_ID",
-    "variable_id" : "RPRCHS_AGRMNT_INSTRMNT_ID",
+    "cube_variable_code" : "RPRCHS_AGRMNT_ID",
+    "variable_id" : "RPRCHS_AGRMNT_ID",
     "role" : "D",
     "order" : "5",
     "subdomain_id" : "STRNG_120_ID",
@@ -88,10 +72,10 @@
     "description" : "The instrument identifier of the involved repurchase agreement.",
     "is_implemented" : "true"
   }, {
-    "cube_structure_item_id" : "BIRD_EQT_INSTRMNT_LG_LDM_1__RPRCHS_AGRMNT_INSTRMNT_RFRNC_DT",
+    "cube_structure_item_id" : "BIRD_EQT_INSTRMNT_LG_LDM_1__RPRCHS_AGRMNT_RFRNC_DT",
     "cube_structure_id" : "BIRD_EQT_INSTRMNT_LG_LDM_1",
-    "cube_variable_code" : "RPRCHS_AGRMNT_INSTRMNT_RFRNC_DT",
-    "variable_id" : "RPRCHS_AGRMNT_INSTRMNT_RFRNC_DT",
+    "cube_variable_code" : "RPRCHS_AGRMNT_RFRNC_DT",
+    "variable_id" : "RPRCHS_AGRMNT_RFRNC_DT",
     "role" : "D",
     "order" : "0",
     "subdomain_id" : "DT_FLL",
@@ -102,6 +86,22 @@
     "is_flow" : "false",
     "is_mandatory" : "true",
     "description" : "The date the data refers to.",
+    "is_implemented" : "true"
+  }, {
+    "cube_structure_item_id" : "BIRD_EQT_INSTRMNT_LG_LDM_1__RPRCHS_AGRMNT_RPRTNG_AGNT_ID",
+    "cube_structure_id" : "BIRD_EQT_INSTRMNT_LG_LDM_1",
+    "cube_variable_code" : "RPRCHS_AGRMNT_RPRTNG_AGNT_ID",
+    "variable_id" : "RPRCHS_AGRMNT_RPRTNG_AGNT_ID",
+    "role" : "D",
+    "order" : "1",
+    "subdomain_id" : "STRNG_RSTRCTD_ID",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "true",
+    "description" : "Identifier of the reporting agent.",
     "is_implemented" : "true"
   } ]
 }

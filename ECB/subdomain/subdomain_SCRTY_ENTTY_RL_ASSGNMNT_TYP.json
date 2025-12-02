@@ -9,15 +9,21 @@
   "description" : "Security Entity role assignment type",
   "is_natural" : "false",
   "subdomain_enumeration" : [ {
+    "member_id" : "SCRTY_ENTTY_RL_ASSGNMNT_2",
+    "subdomain_id" : "SCRTY_ENTTY_RL_ASSGNMNT_TYP",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
     "member_id" : "SCRTY_ENTTY_RL_ASSGNMNT_1",
     "subdomain_id" : "SCRTY_ENTTY_RL_ASSGNMNT_TYP",
     "valid_from" : "2022-03-01",
     "valid_to" : "9999-12-31",
     "order" : "0"
   }, {
-    "member_id" : "SCRTY_ENTTY_RL_ASSGNMNT_2",
+    "member_id" : "SCRTY_ENTTY_RL_ASSGNMNT_TYP_3",
     "subdomain_id" : "SCRTY_ENTTY_RL_ASSGNMNT_TYP",
-    "valid_from" : "2022-03-01",
+    "valid_from" : "2025-11-07",
     "valid_to" : "9999-12-31",
     "order" : "0"
   } ]

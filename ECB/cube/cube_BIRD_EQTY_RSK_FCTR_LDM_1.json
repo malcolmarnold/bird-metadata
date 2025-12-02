@@ -10,7 +10,7 @@
   "valid_from" : "2023-07-01",
   "valid_to" : "9999-12-31",
   "version" : "1",
-  "description" : "(1)\t\nDelta equity: the equity delta risk factors are:\n\n(a)\t\nall the equity spot prices; and\n\n(b)\t\nall the equity repurchase agreement rates (equity repo rates).\n\n(2)\t\nVega equity:\n\n(a)\t\nThe equity vega risk factors are the implied volatilities of options that reference the equity spot prices as underlyings as defined along one dimension, the maturity of the option. This is defined as the implied volatility of the option as mapped to one or several of the following maturity tenors: 0.5 years, 1 year, 3 years, 5 years and 10 years.\n\n(b)\t\nThere is no vega risk capital requirement for equity repo rates.\n\n(3)\t\nCurvature equity:\n\n(a)\t\nThe equity curvature risk factors are all the equity spot prices.\n\n(b)\t\nThere is no curvature risk capital requirement for equity repo rates.",
+  "description" : "The equity risk factor for SA refers to the change in the value of the instrument, according to its pricing model. (Article 325o) - Regulation (EU) No 575/2013 of the European Parliament and of the Council (CRR)",
   "published" : "true",
   "dataset_url" : null,
   "filters" : null,

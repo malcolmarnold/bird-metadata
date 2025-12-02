@@ -1,0 +1,23 @@
+{
+  "semantic_transformation_rule_id" : "ANCRDT_INSTRMNT_PRTCTN_RCVD_TR_C",
+  "transformation_url" : "https://gitlab.sofa.dev/bird-subgroups/bird-transformation-rules/-/blob/main/AnaCredit%20Subgroup/Generation%20rules%20-%20Final/TR%20-%20ANCRDT_INSTRMNT_PRTCTN_RCVD_C.md",
+  "type_of_transformation" : "G",
+  "maintenance_agency_id" : "ECB",
+  "name" : "ANCRDT_INSTRMNT_PRTCTN_RCVD_TR generation rule",
+  "code" : "ANCRDT_INSTRMNT_PRTCTN_RCVD_TR_C",
+  "description" : "This generation rule aims to describe the generation of ANCRDT_INSTRMNT_PRTCTN_RCVD_C table within BIRD.",
+  "algorithm" : null,
+  "valid_from" : "2025-11-15",
+  "valid_to" : "9999-12-31",
+  "logical_transformation_rule" : [ {
+    "logical_transformation_rule_id" : "GEN_L__ANCRDT_INSTRMNT_PRTCTN_RCVD_C__01_01_1990",
+    "semantic_transformation_rule_id" : "ANCRDT_INSTRMNT_PRTCTN_RCVD_TR_C",
+    "algorithm" : null,
+    "additional_filters" : null,
+    "source_layer" : "EIL",
+    "destination_layer" : "ROL",
+    "transformation_type" : null,
+    "valid_from" : "1990-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

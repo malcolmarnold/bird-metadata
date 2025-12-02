@@ -35,6 +35,15 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "SZ_HIER_1",
+    "member_id" : "SZ_10",
+    "level" : "2",
+    "parent_member_id" : "SZ_5",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "SZ_HIER_1",
     "member_id" : "SZ_3",
     "level" : "3",
     "parent_member_id" : "SZ_10",
@@ -48,15 +57,6 @@
     "level" : "3",
     "parent_member_id" : "SZ_10",
     "comparator" : null,
-    "operator" : "+",
-    "valid_from" : "1900-01-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "SZ_HIER_1",
-    "member_id" : "SZ_10",
-    "level" : "2",
-    "parent_member_id" : "SZ_5",
-    "comparator" : "=",
     "operator" : "+",
     "valid_from" : "1900-01-01",
     "valid_to" : "9999-12-31"

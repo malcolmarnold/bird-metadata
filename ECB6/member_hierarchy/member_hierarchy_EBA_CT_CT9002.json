@@ -8,9 +8,9 @@
   "is_main_hierarchy" : null,
   "member_hierarchy_node" : [ {
     "member_hierarchy_id" : "EBA_CT_CT9002",
-    "member_id" : "EBA_CT_ECB6_x6062",
-    "level" : "2",
-    "parent_member_id" : "EBA_CT_ECB6_x6066",
+    "member_id" : "EBA_CT_ECB6_x6066",
+    "level" : "1",
+    "parent_member_id" : null,
     "comparator" : ">=",
     "operator" : null,
     "valid_from" : "1900-01-01",
@@ -35,9 +35,9 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "EBA_CT_CT9002",
-    "member_id" : "EBA_CT_ECB6_x6066",
-    "level" : "1",
-    "parent_member_id" : null,
+    "member_id" : "EBA_CT_ECB6_x6062",
+    "level" : "2",
+    "parent_member_id" : "EBA_CT_ECB6_x6066",
     "comparator" : ">=",
     "operator" : null,
     "valid_from" : "1900-01-01",

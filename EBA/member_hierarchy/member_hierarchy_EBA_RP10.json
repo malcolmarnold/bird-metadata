@@ -8,15 +8,6 @@
   "is_main_hierarchy" : "false",
   "member_hierarchy_node" : [ {
     "member_hierarchy_id" : "EBA_RP10",
-    "member_id" : "EBA_RP_EBA_x338",
-    "level" : "1",
-    "parent_member_id" : null,
-    "comparator" : ">=",
-    "operator" : null,
-    "valid_from" : "2024-07-11",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "EBA_RP10",
     "member_id" : "EBA_RP_EBA_x337",
     "level" : "1",
     "parent_member_id" : null,
@@ -26,16 +17,16 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "EBA_RP10",
-    "member_id" : "EBA_RP_EBA_x322",
-    "level" : "2",
-    "parent_member_id" : "EBA_RP_EBA_x337",
-    "comparator" : null,
+    "member_id" : "EBA_RP_EBA_x338",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
     "operator" : null,
     "valid_from" : "2024-07-11",
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "EBA_RP10",
-    "member_id" : "EBA_RP_EBA_x324",
+    "member_id" : "EBA_RP_EBA_x340",
     "level" : "2",
     "parent_member_id" : "EBA_RP_EBA_x337",
     "comparator" : null,
@@ -53,18 +44,18 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "EBA_RP10",
-    "member_id" : "EBA_RP_EBA_x325",
+    "member_id" : "EBA_RP_EBA_x322",
     "level" : "2",
-    "parent_member_id" : "EBA_RP_EBA_x338",
+    "parent_member_id" : "EBA_RP_EBA_x337",
     "comparator" : null,
     "operator" : null,
     "valid_from" : "2024-07-11",
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "EBA_RP10",
-    "member_id" : "EBA_RP_EBA_x340",
+    "member_id" : "EBA_RP_EBA_x325",
     "level" : "2",
-    "parent_member_id" : "EBA_RP_EBA_x337",
+    "parent_member_id" : "EBA_RP_EBA_x338",
     "comparator" : null,
     "operator" : null,
     "valid_from" : "2024-07-11",
@@ -80,18 +71,27 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "EBA_RP10",
-    "member_id" : "EBA_RP_EBA_x327",
+    "member_id" : "EBA_RP_EBA_x323",
     "level" : "2",
-    "parent_member_id" : "EBA_RP_EBA_x338",
+    "parent_member_id" : "EBA_RP_EBA_x337",
     "comparator" : null,
     "operator" : null,
     "valid_from" : "2024-07-11",
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "EBA_RP10",
-    "member_id" : "EBA_RP_EBA_x323",
+    "member_id" : "EBA_RP_EBA_x324",
     "level" : "2",
     "parent_member_id" : "EBA_RP_EBA_x337",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2024-07-11",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_RP10",
+    "member_id" : "EBA_RP_EBA_x327",
+    "level" : "2",
+    "parent_member_id" : "EBA_RP_EBA_x338",
     "comparator" : null,
     "operator" : null,
     "valid_from" : "2024-07-11",

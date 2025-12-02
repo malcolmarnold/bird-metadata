@@ -9,6 +9,12 @@
   "description" : "Exposure with recourse indicator (Input Layer)",
   "is_natural" : "false",
   "subdomain_enumeration" : [ {
+    "member_id" : "RCRS_2",
+    "subdomain_id" : "EXPSR_RCRS_INDCTR_INPT",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
     "member_id" : "RCRS_0",
     "subdomain_id" : "EXPSR_RCRS_INDCTR_INPT",
     "valid_from" : "2023-07-01",
@@ -16,12 +22,6 @@
     "order" : "0"
   }, {
     "member_id" : "RCRS_1",
-    "subdomain_id" : "EXPSR_RCRS_INDCTR_INPT",
-    "valid_from" : "2023-07-01",
-    "valid_to" : "9999-12-31",
-    "order" : "0"
-  }, {
-    "member_id" : "RCRS_2",
     "subdomain_id" : "EXPSR_RCRS_INDCTR_INPT",
     "valid_from" : "2023-07-01",
     "valid_to" : "9999-12-31",

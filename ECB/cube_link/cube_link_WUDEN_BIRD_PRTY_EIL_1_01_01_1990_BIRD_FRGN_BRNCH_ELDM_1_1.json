@@ -13,32 +13,90 @@
   "cube_link_type" : "TR",
   "logical_transformation_rule_id" : "WUDEN__BIRD_PRTY_EIL_1__01_01_1990",
   "cube_structure_item_link" : [ {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_PRTY_EIL_1__01_01_1990__BIRD_FRGN_BRNCH_ELDM_1__1__FRGN_INSTTTNL_UNT_ACCNTNG_CNSLDTN_LVL__ACCNTNG_CNSLDTN_LVL",
+    "cube_link_id" : "WUDEN__BIRD_PRTY_EIL_1__01_01_1990__BIRD_FRGN_BRNCH_ELDM_1__1",
+    "foreign_cube_variable_code" : "ACCNTNG_CNSLDTN_LVL",
+    "primary_cube_variable_code" : "FRGN_INSTTTNL_UNT_ACCNTNG_CNSLDTN_LVL",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_PRTY_EIL_1__01_01_1990__BIRD_FRGN_BRNCH_ELDM_1__1__FRGN_INSTTTNL_UNT_ACCNTNG_STNDRD__ACCNTNG_STNDRD",
+    "cube_link_id" : "WUDEN__BIRD_PRTY_EIL_1__01_01_1990__BIRD_FRGN_BRNCH_ELDM_1__1",
+    "foreign_cube_variable_code" : "ACCNTNG_STNDRD",
+    "primary_cube_variable_code" : "FRGN_INSTTTNL_UNT_ACCNTNG_STNDRD",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_PRTY_EIL_1__01_01_1990__BIRD_FRGN_BRNCH_ELDM_1__1__INSTTTNL_UNT_RFRNC_DT__DT_RFRNC",
+    "cube_link_id" : "WUDEN__BIRD_PRTY_EIL_1__01_01_1990__BIRD_FRGN_BRNCH_ELDM_1__1",
+    "foreign_cube_variable_code" : "DT_RFRNC",
+    "primary_cube_variable_code" : "INSTTTNL_UNT_RFRNC_DT",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_PRTY_EIL_1__01_01_1990__BIRD_FRGN_BRNCH_ELDM_1__1__INSTTTNL_UNT_RPRTNG_AGNT_ID__RPRTNG_AGNT_ID",
+    "cube_link_id" : "WUDEN__BIRD_PRTY_EIL_1__01_01_1990__BIRD_FRGN_BRNCH_ELDM_1__1",
+    "foreign_cube_variable_code" : "RPRTNG_AGNT_ID",
+    "primary_cube_variable_code" : "INSTTTNL_UNT_RPRTNG_AGNT_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
     "cube_structure_item_link_id" : "WUDEN__BIRD_PRTY_EIL_1__01_01_1990__BIRD_FRGN_BRNCH_ELDM_1__1__LDNG_BRNCH_ANCRDT_RPRTNG_INDCTR__LDNG_BRNCH_ANCRDT_RPRTNG_INDCTR",
     "cube_link_id" : "WUDEN__BIRD_PRTY_EIL_1__01_01_1990__BIRD_FRGN_BRNCH_ELDM_1__1",
     "foreign_cube_variable_code" : "LDNG_BRNCH_ANCRDT_RPRTNG_INDCTR",
     "primary_cube_variable_code" : "LDNG_BRNCH_ANCRDT_RPRTNG_INDCTR",
     "comparator" : null,
     "aggregation_function" : null,
-    "member_link" : [ {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_PRTY_EIL_1__01_01_1990__BIRD_FRGN_BRNCH_ELDM_1__1__LDNG_BRNCH_ANCRDT_RPRTNG_INDCTR__LDNG_BRNCH_ANCRDT_RPRTNG_INDCTR",
-      "foreign_member_id" : "PRTY_TYP_46",
-      "primary_member_id" : "PRTY_TYP_46",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_PRTY_EIL_1__01_01_1990__BIRD_FRGN_BRNCH_ELDM_1__1__LDNG_BRNCH_ANCRDT_RPRTNG_INDCTR__LDNG_BRNCH_ANCRDT_RPRTNG_INDCTR",
-      "foreign_member_id" : "PRTY_TYP_47",
-      "primary_member_id" : "PRTY_TYP_47",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    } ]
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_PRTY_EIL_1__01_01_1990__BIRD_FRGN_BRNCH_ELDM_1__1__PRTY_ACCNTNG_CNSLDTN_LVL__ACCNTNG_CNSLDTN_LVL",
+    "cube_link_id" : "WUDEN__BIRD_PRTY_EIL_1__01_01_1990__BIRD_FRGN_BRNCH_ELDM_1__1",
+    "foreign_cube_variable_code" : "ACCNTNG_CNSLDTN_LVL",
+    "primary_cube_variable_code" : "PRTY_ACCNTNG_CNSLDTN_LVL",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_PRTY_EIL_1__01_01_1990__BIRD_FRGN_BRNCH_ELDM_1__1__PRTY_ACCNTNG_STNDRD__ACCNTNG_STNDRD",
+    "cube_link_id" : "WUDEN__BIRD_PRTY_EIL_1__01_01_1990__BIRD_FRGN_BRNCH_ELDM_1__1",
+    "foreign_cube_variable_code" : "ACCNTNG_STNDRD",
+    "primary_cube_variable_code" : "PRTY_ACCNTNG_STNDRD",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_PRTY_EIL_1__01_01_1990__BIRD_FRGN_BRNCH_ELDM_1__1__PRTY_ID__ORGNSTN_PRTY_ID",
+    "cube_link_id" : "WUDEN__BIRD_PRTY_EIL_1__01_01_1990__BIRD_FRGN_BRNCH_ELDM_1__1",
+    "foreign_cube_variable_code" : "ORGNSTN_PRTY_ID",
+    "primary_cube_variable_code" : "PRTY_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
   }, {
     "cube_structure_item_link_id" : "WUDEN__BIRD_PRTY_EIL_1__01_01_1990__BIRD_FRGN_BRNCH_ELDM_1__1__PRTY_ID__PRTY_ID",
     "cube_link_id" : "WUDEN__BIRD_PRTY_EIL_1__01_01_1990__BIRD_FRGN_BRNCH_ELDM_1__1",
     "foreign_cube_variable_code" : "PRTY_ID",
     "primary_cube_variable_code" : "PRTY_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_PRTY_EIL_1__01_01_1990__BIRD_FRGN_BRNCH_ELDM_1__1__PRTY_RFRNC_DT__DT_RFRNC",
+    "cube_link_id" : "WUDEN__BIRD_PRTY_EIL_1__01_01_1990__BIRD_FRGN_BRNCH_ELDM_1__1",
+    "foreign_cube_variable_code" : "DT_RFRNC",
+    "primary_cube_variable_code" : "PRTY_RFRNC_DT",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_PRTY_EIL_1__01_01_1990__BIRD_FRGN_BRNCH_ELDM_1__1__PRTY_RPRTNG_AGNT_ID__RPRTNG_AGNT_ID",
+    "cube_link_id" : "WUDEN__BIRD_PRTY_EIL_1__01_01_1990__BIRD_FRGN_BRNCH_ELDM_1__1",
+    "foreign_cube_variable_code" : "RPRTNG_AGNT_ID",
+    "primary_cube_variable_code" : "PRTY_RPRTNG_AGNT_ID",
     "comparator" : null,
     "aggregation_function" : null,
     "member_link" : [ ]

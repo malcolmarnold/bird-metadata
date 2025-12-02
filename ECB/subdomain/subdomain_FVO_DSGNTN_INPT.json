@@ -1,27 +1,21 @@
 {
   "maintenance_agency_id" : "ECB",
   "subdomain_id" : "FVO_DSGNTN_INPT",
-  "name" : "Fair value option designation (Input Layer)",
+  "name" : "Fair value option designation (Input layer)",
   "domain_id" : "FVO_DSGNTN",
   "is_listed" : "true",
   "code" : "FVO_DSGNTN_INPT",
   "facet_id" : null,
-  "description" : "Fair value option designation (Input Layer)",
+  "description" : "Fair value option designation (Input layer)",
   "is_natural" : "false",
   "subdomain_enumeration" : [ {
-    "member_id" : "FVO_DSGNTN_0",
+    "member_id" : "FVO_DSGNTN_6",
     "subdomain_id" : "FVO_DSGNTN_INPT",
     "valid_from" : "2023-01-01",
     "valid_to" : "9999-12-31",
     "order" : "0"
   }, {
-    "member_id" : "FVO_DSGNTN_1",
-    "subdomain_id" : "FVO_DSGNTN_INPT",
-    "valid_from" : "2023-01-01",
-    "valid_to" : "2023-12-31",
-    "order" : "0"
-  }, {
-    "member_id" : "FVO_DSGNTN_2",
+    "member_id" : "FVO_DSGNTN_5",
     "subdomain_id" : "FVO_DSGNTN_INPT",
     "valid_from" : "2023-01-01",
     "valid_to" : "9999-12-31",
@@ -33,15 +27,33 @@
     "valid_to" : "2023-12-31",
     "order" : "0"
   }, {
-    "member_id" : "FVO_DSGNTN_5",
+    "member_id" : "FVO_DSGNTN_1",
+    "subdomain_id" : "FVO_DSGNTN_INPT",
+    "valid_from" : "2023-01-01",
+    "valid_to" : "2023-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "FVO_DSGNTN_0",
     "subdomain_id" : "FVO_DSGNTN_INPT",
     "valid_from" : "2023-01-01",
     "valid_to" : "9999-12-31",
     "order" : "0"
   }, {
-    "member_id" : "FVO_DSGNTN_6",
+    "member_id" : "FVO_DSGNTN_2",
     "subdomain_id" : "FVO_DSGNTN_INPT",
     "valid_from" : "2023-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "FVO_DSGNTN_1",
+    "subdomain_id" : "FVO_DSGNTN_INPT",
+    "valid_from" : "2025-11-07",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "FVO_DSGNTN_3",
+    "subdomain_id" : "FVO_DSGNTN_INPT",
+    "valid_from" : "2025-11-07",
     "valid_to" : "9999-12-31",
     "order" : "0"
   } ]

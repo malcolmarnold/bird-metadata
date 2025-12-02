@@ -1,0 +1,23 @@
+{
+  "semantic_transformation_rule_id" : "TRNSFRRD_AMNT_TR",
+  "transformation_url" : "https://gitlab.sofa.dev/bird-subgroups/bird-transformation-rules/-/blob/main/AnaCredit%20Subgroup/Derivation%20rules%20-%20Final/TRNSFRRD_AMNT/infosheet.md",
+  "type_of_transformation" : "D",
+  "maintenance_agency_id" : "ECB",
+  "name" : "Transferred amount derivation rule",
+  "code" : "TRNSFRRD_AMNT_TR",
+  "description" : "This derivation rule aims to obtain the Transferred amount from its building blocks.",
+  "algorithm" : "SET BIRD_ASST_PL_INSTRMNT_ASSGNMNT_EIL.TRNSFRRD_AMNT = BIRD_INSTRMNT_IL.NMNL_AMNT * BIRD_ASST_PL_INSTRMNT_ASSGNMNT_IL.PRCNTG_TRNSFRD",
+  "valid_from" : "2025-11-15",
+  "valid_to" : "9999-12-31",
+  "logical_transformation_rule" : [ {
+    "logical_transformation_rule_id" : "DER__BIRD_ASST_PL_CLLTRL_RCVD_ASSGNMNT_EIL_1__TRNSFRRD_AMNT__01_01_1990",
+    "semantic_transformation_rule_id" : "TRNSFRRD_AMNT_TR",
+    "algorithm" : "SET BIRD_ASST_PL_INSTRMNT_ASSGNMNT_EIL.TRNSFRRD_AMNT = BIRD_INSTRMNT_IL.NMNL_AMNT * BIRD_ASST_PL_INSTRMNT_ASSGNMNT_IL.PRCNTG_TRNSFRD",
+    "additional_filters" : null,
+    "source_layer" : "IL",
+    "destination_layer" : "EIL",
+    "transformation_type" : null,
+    "valid_from" : "1990-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

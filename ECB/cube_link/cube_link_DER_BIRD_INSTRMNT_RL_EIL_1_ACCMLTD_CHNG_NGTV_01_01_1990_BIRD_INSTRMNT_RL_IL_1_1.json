@@ -17,7 +17,7 @@
     "cube_link_id" : "DER__BIRD_INSTRMNT_RL_EIL_1__ACCMLTD_CHNG_NGTV__01_01_1990__BIRD_INSTRMNT_RL_IL_1__1",
     "foreign_cube_variable_code" : "ACCMLTD_CHNG_NGTV",
     "primary_cube_variable_code" : "CRRYNG_AMNT",
-    "comparator" : null,
+    "comparator" : "0",
     "aggregation_function" : null,
     "member_link" : [ ]
   }, {
@@ -25,7 +25,15 @@
     "cube_link_id" : "DER__BIRD_INSTRMNT_RL_EIL_1__ACCMLTD_CHNG_NGTV__01_01_1990__BIRD_INSTRMNT_RL_IL_1__1",
     "foreign_cube_variable_code" : "ACCMLTD_CHNG_NGTV",
     "primary_cube_variable_code" : "DT_RFRNC",
-    "comparator" : null,
+    "comparator" : "0",
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "DER__BIRD_INSTRMNT_RL_EIL_1__ACCMLTD_CHNG_NGTV__01_01_1990__BIRD_INSTRMNT_RL_IL_1__1__GRSS_CRRYNG_AMNT_INTL_RCGNTN",
+    "cube_link_id" : "DER__BIRD_INSTRMNT_RL_EIL_1__ACCMLTD_CHNG_NGTV__01_01_1990__BIRD_INSTRMNT_RL_IL_1__1",
+    "foreign_cube_variable_code" : "ACCMLTD_CHNG_NGTV",
+    "primary_cube_variable_code" : "GRSS_CRRYNG_AMNT_INTL_RCGNTN",
+    "comparator" : "0",
     "aggregation_function" : null,
     "member_link" : [ ]
   }, {
@@ -33,15 +41,15 @@
     "cube_link_id" : "DER__BIRD_INSTRMNT_RL_EIL_1__ACCMLTD_CHNG_NGTV__01_01_1990__BIRD_INSTRMNT_RL_IL_1__1",
     "foreign_cube_variable_code" : "ACCMLTD_CHNG_NGTV",
     "primary_cube_variable_code" : "TKN_PSSSSN_DT",
-    "comparator" : null,
+    "comparator" : "0",
     "aggregation_function" : null,
     "member_link" : [ ]
   }, {
-    "cube_structure_item_link_id" : "DER__BIRD_INSTRMNT_RL_EIL_1__ACCMLTD_CHNG_NGTV__01_01_1990__BIRD_INSTRMNT_RL_IL_1__1__TYP_INSTRMNT_RL",
+    "cube_structure_item_link_id" : "DER__BIRD_INSTRMNT_RL_EIL_1__ACCMLTD_CHNG_NGTV__01_01_1990__BIRD_INSTRMNT_RL_IL_1__1__BLNC_SHT_RCGNSD_FNNCL_ASST_INSTRMNT_TKN_PSSSSN_TYP",
     "cube_link_id" : "DER__BIRD_INSTRMNT_RL_EIL_1__ACCMLTD_CHNG_NGTV__01_01_1990__BIRD_INSTRMNT_RL_IL_1__1",
     "foreign_cube_variable_code" : "ACCMLTD_CHNG_NGTV",
-    "primary_cube_variable_code" : "TYP_INSTRMNT_RL",
-    "comparator" : null,
+    "primary_cube_variable_code" : "BLNC_SHT_RCGNSD_FNNCL_ASST_INSTRMNT_TKN_PSSSSN_TYP",
+    "comparator" : "0",
     "aggregation_function" : null,
     "member_link" : [ ]
   } ]

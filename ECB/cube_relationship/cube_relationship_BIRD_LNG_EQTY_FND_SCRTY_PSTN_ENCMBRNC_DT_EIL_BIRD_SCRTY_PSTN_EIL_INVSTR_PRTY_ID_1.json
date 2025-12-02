@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_LNG_EQTY_FND_SCRTY_PSTN_ENCMBRNC_DT_EIL__BIRD_SCRTY_PSTN_EIL__INVSTR_PRTY_ID_1",
+  "code" : "BIRD_LNG_EQTY_FND_SCRTY_PSTN_ENCMBRNC_DT_EIL_1__BIRD_SCRTY_PSTN_EIL_1__INVSTR_PRTY_ID",
+  "name" : "Security position has many Long equity or fund security position encumbrance data",
+  "description" : null,
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_SCRTY_PSTN_EIL_1",
+  "primary_cube_variable_code" : "INVSTR_PRTY_ID",
+  "foreign_cube_id" : "BIRD_LNG_EQTY_FND_SCRTY_PSTN_ENCMBRNC_DT_EIL_1",
+  "foreign_cube_variable_code" : "INVSTR_PRTY_ID",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "true"
+}

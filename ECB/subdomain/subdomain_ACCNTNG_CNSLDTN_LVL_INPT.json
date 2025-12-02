@@ -9,15 +9,21 @@
   "description" : "Accounting consolidation level (Input layer)",
   "is_natural" : "false",
   "subdomain_enumeration" : [ {
+    "member_id" : "ACCNTNG_CNSLDTN_LVL_2",
+    "subdomain_id" : "ACCNTNG_CNSLDTN_LVL_INPT",
+    "valid_from" : "2025-02-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
     "member_id" : "ACCNTNG_CNSLDTN_LVL_1",
     "subdomain_id" : "ACCNTNG_CNSLDTN_LVL_INPT",
     "valid_from" : "2025-02-01",
     "valid_to" : "9999-12-31",
     "order" : "0"
   }, {
-    "member_id" : "ACCNTNG_CNSLDTN_LVL_2",
+    "member_id" : "ACCNTNG_CNSLDTN_LVL_0",
     "subdomain_id" : "ACCNTNG_CNSLDTN_LVL_INPT",
-    "valid_from" : "2025-02-01",
+    "valid_from" : "2025-11-07",
     "valid_to" : "9999-12-31",
     "order" : "0"
   } ]

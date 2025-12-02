@@ -5,27 +5,27 @@
   "code" : "IL_RSK_RLTD",
   "description" : "Risk related",
   "cube_group_enumeration" : [ {
+    "order" : "0",
+    "cube_group_id" : "IL_RSK_RLTD",
+    "cube_id" : "BIRD_RSK_FAC_SA_IL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "1",
+    "cube_group_id" : "IL_RSK_RLTD",
+    "cube_id" : "BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_FR_SCRTY_PSTNS_IL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
     "order" : "2",
     "cube_group_id" : "IL_RSK_RLTD",
     "cube_id" : "BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_OTC_PSTNS_IL_1",
     "valid_from" : "2023-07-01",
     "valid_to" : "9999-12-31"
   }, {
-    "order" : "0",
-    "cube_group_id" : "IL_RSK_RLTD",
-    "cube_id" : "BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_FR_SCRTY_PSTNS_IL_1",
-    "valid_from" : "2023-07-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "order" : "1",
+    "order" : "4",
     "cube_group_id" : "IL_RSK_RLTD",
     "cube_id" : "BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_ETD_PSTNS_IL_1",
-    "valid_from" : "2023-07-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "order" : "3",
-    "cube_group_id" : "IL_RSK_RLTD",
-    "cube_id" : "BIRD_RSK_FAC_SA_IL_1",
     "valid_from" : "2023-07-01",
     "valid_to" : "9999-12-31"
   } ]

@@ -13,11 +13,11 @@
   "cube_link_type" : "TR",
   "logical_transformation_rule_id" : "DER__BIRD_SHRT_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_EIL_1__SHRT_PSTN_ACCNTNG_CLSSFCTN__01_01_1990",
   "cube_structure_item_link" : [ {
-    "cube_structure_item_link_id" : "DER__BIRD_SHRT_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_EIL_1__SHRT_PSTN_ACCNTNG_CLSSFCTN__01_01_1990__BIRD_SHRT_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_IL_1__1__TYP_SHRT_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT",
+    "cube_structure_item_link_id" : "DER__BIRD_SHRT_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_EIL_1__SHRT_PSTN_ACCNTNG_CLSSFCTN__01_01_1990__BIRD_SHRT_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_IL_1__1__SHRT_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP",
     "cube_link_id" : "DER__BIRD_SHRT_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_EIL_1__SHRT_PSTN_ACCNTNG_CLSSFCTN__01_01_1990__BIRD_SHRT_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_IL_1__1",
     "foreign_cube_variable_code" : "SHRT_PSTN_ACCNTNG_CLSSFCTN",
-    "primary_cube_variable_code" : "TYP_SHRT_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT",
-    "comparator" : null,
+    "primary_cube_variable_code" : "SHRT_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP",
+    "comparator" : "0",
     "aggregation_function" : null,
     "member_link" : [ ]
   } ]

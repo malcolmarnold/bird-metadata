@@ -35,33 +35,6 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "TYP_PRTCTN_HIER_12",
-    "member_id" : "TYP_PRTCTN_75",
-    "level" : "3",
-    "parent_member_id" : "TYP_PRTCTN_31",
-    "comparator" : "=",
-    "operator" : "+",
-    "valid_from" : "1900-01-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "TYP_PRTCTN_HIER_12",
-    "member_id" : "TYP_PRTCTN_35",
-    "level" : "4",
-    "parent_member_id" : "TYP_PRTCTN_75",
-    "comparator" : "=",
-    "operator" : "+",
-    "valid_from" : "1900-01-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "TYP_PRTCTN_HIER_12",
-    "member_id" : "TYP_PRTCTN_12",
-    "level" : "5",
-    "parent_member_id" : "TYP_PRTCTN_35",
-    "comparator" : null,
-    "operator" : "+",
-    "valid_from" : "1900-01-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "TYP_PRTCTN_HIER_12",
     "member_id" : "TYP_PRTCTN_34",
     "level" : "3",
     "parent_member_id" : "TYP_PRTCTN_31",
@@ -71,10 +44,10 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "TYP_PRTCTN_HIER_12",
-    "member_id" : "TYP_PRTCTN_81",
-    "level" : "4",
-    "parent_member_id" : "TYP_PRTCTN_34",
-    "comparator" : null,
+    "member_id" : "TYP_PRTCTN_75",
+    "level" : "3",
+    "parent_member_id" : "TYP_PRTCTN_31",
+    "comparator" : "=",
     "operator" : "+",
     "valid_from" : "1900-01-01",
     "valid_to" : "9999-12-31"
@@ -89,9 +62,45 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "TYP_PRTCTN_HIER_12",
+    "member_id" : "TYP_PRTCTN_81",
+    "level" : "4",
+    "parent_member_id" : "TYP_PRTCTN_34",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_12",
+    "member_id" : "TYP_PRTCTN_35",
+    "level" : "4",
+    "parent_member_id" : "TYP_PRTCTN_75",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_12",
     "member_id" : "TYP_PRTCTN_80",
     "level" : "4",
     "parent_member_id" : "TYP_PRTCTN_34",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_12",
+    "member_id" : "TYP_PRTCTN_12",
+    "level" : "5",
+    "parent_member_id" : "TYP_PRTCTN_35",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_12",
+    "member_id" : "TYP_PRTCTN_80",
+    "level" : "4",
+    "parent_member_id" : "TYP_PRTCTN_31",
     "comparator" : null,
     "operator" : "+",
     "valid_from" : "1900-01-01",

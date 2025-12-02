@@ -3,11 +3,27 @@
   "cube_structure_id" : "BIRD_GIRR_RSK_FCTR_LDM_1",
   "name" : "General interest rate risk (GIRR) factor for standardised approach",
   "code" : "BIRD_GIRR_RSK_FCTR_LDM",
-  "description" : "Delta GIRR: the GIRR delta risk factors are defined along two dimensions: (i) a risk-free yield curve for each currency in which interest rate-sensitive instruments are denominated and (ii) the following tenors: 0.25 years, 0.5 years, 1 year, 2 years, 3 years, 5 years, 10 years, 15 years, 20 years and 30 years, to which delta risk factors are assigned.",
+  "description" : "The General Interest Rate Risk (GIRR) factor refers to the sensitivity of financial instruments to changes in risk-free interest rates across different maturities and currencies. These include risks from inflation and cross-currency basis spreads. (Article 325l) - Regulation (EU) No 575/2013 of the European Parliament and of the Council (CRR)",
   "valid_from" : "2023-07-01",
   "valid_to" : "9999-12-31",
   "version" : "1",
   "cube_structure_item" : [ {
+    "cube_structure_item_id" : "BIRD_GIRR_RSK_FCTR_LDM_1__GIRR_FCTR_TYP",
+    "cube_structure_id" : "BIRD_GIRR_RSK_FCTR_LDM_1",
+    "cube_variable_code" : "GIRR_FCTR_TYP",
+    "variable_id" : "GIRR_FCTR_TYP",
+    "role" : "O",
+    "order" : "0",
+    "subdomain_id" : "GIRR_RSK_FCTR",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "false",
+    "description" : "General interest rate risk (GIRR) factor type is the type of interest rate risk factor. Can be Yield, Basis or Inflation",
+    "is_implemented" : "true"
+  }, {
     "cube_structure_item_id" : "BIRD_GIRR_RSK_FCTR_LDM_1__MN_CRRNCY",
     "cube_structure_id" : "BIRD_GIRR_RSK_FCTR_LDM_1",
     "cube_variable_code" : "MN_CRRNCY",
@@ -38,22 +54,6 @@
     "is_flow" : "false",
     "is_mandatory" : "false",
     "description" : "The second currency of the curve if it has a basis curve.",
-    "is_implemented" : "true"
-  }, {
-    "cube_structure_item_id" : "BIRD_GIRR_RSK_FCTR_LDM_1__GIRR_FCTR_TYP",
-    "cube_structure_id" : "BIRD_GIRR_RSK_FCTR_LDM_1",
-    "cube_variable_code" : "GIRR_FCTR_TYP",
-    "variable_id" : "GIRR_FCTR_TYP",
-    "role" : "O",
-    "order" : "0",
-    "subdomain_id" : "GIRR_RSK_FCTR",
-    "variable_set_id" : null,
-    "member_id" : null,
-    "dimension_type" : null,
-    "attribute_associated_variable" : null,
-    "is_flow" : "false",
-    "is_mandatory" : "false",
-    "description" : "General interest rate risk (GIRR) factor type is the type of interest rate risk factor. Can be Yield, Basis or Inflation",
     "is_implemented" : "true"
   } ]
 }

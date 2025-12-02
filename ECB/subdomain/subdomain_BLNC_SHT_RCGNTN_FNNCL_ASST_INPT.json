@@ -9,7 +9,7 @@
   "description" : "Balance sheet recognition of the financial asset",
   "is_natural" : "false",
   "subdomain_enumeration" : [ {
-    "member_id" : "RCGNTN_STTS_0",
+    "member_id" : "RCGNTN_STTS_4",
     "subdomain_id" : "BLNC_SHT_RCGNTN_FNNCL_ASST_INPT",
     "valid_from" : "2023-06-01",
     "valid_to" : "9999-12-31",
@@ -21,15 +21,15 @@
     "valid_to" : "9999-12-31",
     "order" : "0"
   }, {
-    "member_id" : "RCGNTN_STTS_4",
-    "subdomain_id" : "BLNC_SHT_RCGNTN_FNNCL_ASST_INPT",
-    "valid_from" : "2023-06-01",
-    "valid_to" : "9999-12-31",
-    "order" : "0"
-  }, {
     "member_id" : "RCGNTN_STTS_2",
     "subdomain_id" : "BLNC_SHT_RCGNTN_FNNCL_ASST_INPT",
     "valid_from" : "2024-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "RCGNTN_STTS_0",
+    "subdomain_id" : "BLNC_SHT_RCGNTN_FNNCL_ASST_INPT",
+    "valid_from" : "2023-06-01",
     "valid_to" : "9999-12-31",
     "order" : "0"
   } ]

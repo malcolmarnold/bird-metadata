@@ -24,22 +24,6 @@
     "description" : "The rating agency's name.",
     "is_implemented" : "true"
   }, {
-    "cube_structure_item_id" : "BIRD_RTNG_GRD_ISSR_BSD_RTNG_SYSTM_CNTRL_GVRNMNT_ELDM_1__RTNG_SYSTM_NM",
-    "cube_structure_id" : "BIRD_RTNG_GRD_ISSR_BSD_RTNG_SYSTM_CNTRL_GVRNMNT_ELDM_1",
-    "cube_variable_code" : "RTNG_SYSTM_NM",
-    "variable_id" : "RTNG_SYSTM_NM",
-    "role" : "D",
-    "order" : "0",
-    "subdomain_id" : "STRNG_ASCII_250",
-    "variable_set_id" : null,
-    "member_id" : null,
-    "dimension_type" : null,
-    "attribute_associated_variable" : null,
-    "is_flow" : "false",
-    "is_mandatory" : "true",
-    "description" : "The rating system's name.",
-    "is_implemented" : "true"
-  }, {
     "cube_structure_item_id" : "BIRD_RTNG_GRD_ISSR_BSD_RTNG_SYSTM_CNTRL_GVRNMNT_ELDM_1__RTNG_GRD",
     "cube_structure_id" : "BIRD_RTNG_GRD_ISSR_BSD_RTNG_SYSTM_CNTRL_GVRNMNT_ELDM_1",
     "cube_variable_code" : "RTNG_GRD",
@@ -54,6 +38,22 @@
     "is_flow" : "false",
     "is_mandatory" : "true",
     "description" : "The rating grade, e.g. AAA.",
+    "is_implemented" : "true"
+  }, {
+    "cube_structure_item_id" : "BIRD_RTNG_GRD_ISSR_BSD_RTNG_SYSTM_CNTRL_GVRNMNT_ELDM_1__RTNG_SYSTM_NM",
+    "cube_structure_id" : "BIRD_RTNG_GRD_ISSR_BSD_RTNG_SYSTM_CNTRL_GVRNMNT_ELDM_1",
+    "cube_variable_code" : "RTNG_SYSTM_NM",
+    "variable_id" : "RTNG_SYSTM_NM",
+    "role" : "D",
+    "order" : "0",
+    "subdomain_id" : "STRNG_ASCII_250",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "true",
+    "description" : "The rating system's name.",
     "is_implemented" : "true"
   } ]
 }

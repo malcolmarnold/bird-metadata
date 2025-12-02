@@ -1,0 +1,10 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "variable_id" : "EQTY_INSTRMNT_NOT_SCRTY_ID",
+  "code" : "EQTY_INSTRMNT_NOT_SCRTY_ID",
+  "name" : "Equity instrument that is not a security identifier",
+  "domain_id" : "STRNG",
+  "description" : "An identifier applied by the reporting agent to uniquely identify each instrument under a single contract. Each instrument must have one instrument identifier. This value will not change over time and cannot be used as the instrument identifier for any other instrument under the same contract.",
+  "primary_concept" : null,
+  "is_decomposed" : null
+}

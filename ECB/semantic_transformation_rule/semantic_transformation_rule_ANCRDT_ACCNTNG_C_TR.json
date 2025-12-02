@@ -1,0 +1,23 @@
+{
+  "semantic_transformation_rule_id" : "ANCRDT_ACCNTNG_C_TR",
+  "transformation_url" : "https://gitlab.sofa.dev/bird-subgroups/bird-transformation-rules/-/blob/main/AnaCredit%20Subgroup/Generation%20rules%20-%20Final/TR%20-%20ANCRDT_ACCNTNG_C.md",
+  "type_of_transformation" : "G",
+  "maintenance_agency_id" : "ECB",
+  "name" : "ANCRDT_ACCNTNG_C generation rule",
+  "code" : "ANCRDT_ACCNTNG_C_TR",
+  "description" : "This generation rule aims to describe the generation of ANCRDT_ACCNTNG_C table within BIRD.",
+  "algorithm" : "SET ANCRDT_ACCNTNG_C.INSTRMNT_ID = BIRD_INSTRMNT_EIL.INSTRMNT_ID\nWHERE BIRD_INSTRMNT_EIL.INSTRMNT_ID IN (\n    SELECT BIRD_INSTRMNT_EIL.INSTRMNT_ID\n    FROM BIRD_INSTRMNT_EIL\n    JOIN BIRD_INSTRMNT_ENTTY_RL_ASSGNMNT_EIL\n      ON BIRD_INSTRMNT_ENTTY_RL_ASSGNMNT_EIL.INSTRMNT_ID = BIRD_INSTRMNT_EIL.INSTRMNT_ID\n    JOIN BIRD_ENTTY_RL_EIL\n      ON BIRD_ENTTY_RL_EIL.PRTY_ID = BIRD_INSTRMNT_ENTTY_RL_ASSGNMNT_EIL.PRTY_ID\n    WHERE BIRD_ENTTY_RL_EIL.AGGRGTD_CMMTMNT_AMNT_ANCRDT_RPRTNG >= 25000\n);\n\nSET ANCRDT_ACCNTNG_C.DT_PRFRMNG_STTS =\n    CASE\n        WHEN BIRD_INSTRMNT_RL_EIL.PRFRMNG_STTS = 11\n        THEN BIRD_INSTRMNT_RL_EIL.DT_INCPTN\n\n        WHEN BIRD_INSTRMNT_RL_EIL.PRFRMNG_STTS = 1 \n        THEN BIRD_INSTRMNT_RL_EIL.DT_NN_PRFRMNG_STTS_INSTRMNT\n    END;",
+  "valid_from" : "2025-11-15",
+  "valid_to" : "9999-12-31",
+  "logical_transformation_rule" : [ {
+    "logical_transformation_rule_id" : "GEN_L__ANCRDT_ACCNTNG_C__01_01_1990",
+    "semantic_transformation_rule_id" : "ANCRDT_ACCNTNG_C_TR",
+    "algorithm" : "SET ANCRDT_ACCNTNG_C.INSTRMNT_ID = BIRD_INSTRMNT_EIL.INSTRMNT_ID\nWHERE BIRD_INSTRMNT_EIL.INSTRMNT_ID IN (\n    SELECT BIRD_INSTRMNT_EIL.INSTRMNT_ID\n    FROM BIRD_INSTRMNT_EIL\n    JOIN BIRD_INSTRMNT_ENTTY_RL_ASSGNMNT_EIL\n      ON BIRD_INSTRMNT_ENTTY_RL_ASSGNMNT_EIL.INSTRMNT_ID = BIRD_INSTRMNT_EIL.INSTRMNT_ID\n    JOIN BIRD_ENTTY_RL_EIL\n      ON BIRD_ENTTY_RL_EIL.PRTY_ID = BIRD_INSTRMNT_ENTTY_RL_ASSGNMNT_EIL.PRTY_ID\n    WHERE BIRD_ENTTY_RL_EIL.AGGRGTD_CMMTMNT_AMNT_ANCRDT_RPRTNG >= 25000\n);\n\nSET ANCRDT_ACCNTNG_C.DT_PRFRMNG_STTS =\n    CASE\n        WHEN BIRD_INSTRMNT_RL_EIL.PRFRMNG_STTS = 11\n        THEN BIRD_INSTRMNT_RL_EIL.DT_INCPTN\n\n        WHEN BIRD_INSTRMNT_RL_EIL.PRFRMNG_STTS = 1 \n        THEN BIRD_INSTRMNT_RL_EIL.DT_NN_PRFRMNG_STTS_INSTRMNT\n    END;",
+    "additional_filters" : null,
+    "source_layer" : "EIL",
+    "destination_layer" : "ROL",
+    "transformation_type" : null,
+    "valid_from" : "1990-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

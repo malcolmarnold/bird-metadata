@@ -6,7 +6,7 @@
   "name" : "Performing status derivation rule",
   "code" : "PRFRMNG_STTS_TR",
   "description" : "This derivation rule aims to obtain the Performing status from its building blocks.",
-  "algorithm" : "SET PRFRMNG_STTS = \n      CASE\n        WHEN PRFRMNG_STTS = 1 \n        OR FNNCL_ASST_INSTRMNT_TYP_CRR_123 = 28\n        THEN 1\n        ELSE 11\n      END;",
+  "algorithm" : "SET PRFRMNG_STTS = \n  CASE\n    WHEN PRFRMNG_STTS = 1 \n    OR FNNCL_ASST_INSTRMNT_TYP_CRR_123 = 28\n    THEN 1\n    ELSE 11\n  END;",
   "valid_from" : "2024-02-28",
   "valid_to" : "9999-12-31",
   "logical_transformation_rule" : [ {

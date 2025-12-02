@@ -17,24 +17,6 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_HIER_1",
-    "member_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP_1",
-    "level" : "2",
-    "parent_member_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP_-1",
-    "comparator" : null,
-    "operator" : "+",
-    "valid_from" : "1900-01-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_HIER_1",
-    "member_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP_2",
-    "level" : "2",
-    "parent_member_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP_-1",
-    "comparator" : null,
-    "operator" : "+",
-    "valid_from" : "1900-01-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_HIER_1",
     "member_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP_3",
     "level" : "3",
     "parent_member_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP_6",
@@ -53,7 +35,16 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_HIER_1",
-    "member_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP_5",
+    "member_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP_1",
+    "level" : "2",
+    "parent_member_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_HIER_1",
+    "member_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP_2",
     "level" : "2",
     "parent_member_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP_-1",
     "comparator" : null,
@@ -66,6 +57,15 @@
     "level" : "2",
     "parent_member_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP_-1",
     "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_HIER_1",
+    "member_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP_5",
+    "level" : "2",
+    "parent_member_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP_-1",
+    "comparator" : null,
     "operator" : "+",
     "valid_from" : "1900-01-01",
     "valid_to" : "9999-12-31"

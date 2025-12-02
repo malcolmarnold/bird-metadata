@@ -8,7 +8,16 @@
   "is_main_hierarchy" : null,
   "member_hierarchy_node" : [ {
     "member_hierarchy_id" : "EBA_RF_RF6005",
-    "member_id" : "EBA_RF_ECB6_x6110",
+    "member_id" : "EBA_RF_ECB6_x6111",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_RF_RF6005",
+    "member_id" : "EBA_RF_ECB6_x6112",
     "level" : "1",
     "parent_member_id" : null,
     "comparator" : ">=",
@@ -26,7 +35,7 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "EBA_RF_RF6005",
-    "member_id" : "EBA_RF_ECB6_x6111",
+    "member_id" : "EBA_RF_ECB6_x6110",
     "level" : "1",
     "parent_member_id" : null,
     "comparator" : ">=",
@@ -36,15 +45,6 @@
   }, {
     "member_hierarchy_id" : "EBA_RF_RF6005",
     "member_id" : "EBA_RF_ECB6_x6091",
-    "level" : "1",
-    "parent_member_id" : null,
-    "comparator" : ">=",
-    "operator" : null,
-    "valid_from" : "1900-01-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "EBA_RF_RF6005",
-    "member_id" : "EBA_RF_ECB6_x6112",
     "level" : "1",
     "parent_member_id" : null,
     "comparator" : ">=",

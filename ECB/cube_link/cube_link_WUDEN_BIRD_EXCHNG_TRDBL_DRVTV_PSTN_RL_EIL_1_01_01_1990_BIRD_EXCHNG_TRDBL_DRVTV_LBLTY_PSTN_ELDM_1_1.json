@@ -13,10 +13,18 @@
   "cube_link_type" : "TR",
   "logical_transformation_rule_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990",
   "cube_structure_item_link" : [ {
-    "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__BYR_PRTY_ID__BYR_PRTY_ID",
+    "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__BYR_ACCNTNG_CNSLDTN_LVL__ACCNTNG_CNSLDTN_LVL",
     "cube_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1",
-    "foreign_cube_variable_code" : "BYR_PRTY_ID",
-    "primary_cube_variable_code" : "BYR_PRTY_ID",
+    "foreign_cube_variable_code" : "ACCNTNG_CNSLDTN_LVL",
+    "primary_cube_variable_code" : "BYR_ACCNTNG_CNSLDTN_LVL",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__BYR_ACCNTNG_STNDRD__ACCNTNG_STNDRD",
+    "cube_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1",
+    "foreign_cube_variable_code" : "ACCNTNG_STNDRD",
+    "primary_cube_variable_code" : "BYR_ACCNTNG_STNDRD",
     "comparator" : null,
     "aggregation_function" : null,
     "member_link" : [ ]
@@ -27,147 +35,7 @@
     "primary_cube_variable_code" : "BYR_PRTY_RL_TYP",
     "comparator" : null,
     "aggregation_function" : null,
-    "member_link" : [ {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__BYR_PRTY_RL_TYP__BYR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_8",
-      "primary_member_id" : "ENTTY_RL_TYP_8",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__BYR_PRTY_RL_TYP__BYR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_27",
-      "primary_member_id" : "ENTTY_RL_TYP_27",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__BYR_PRTY_RL_TYP__BYR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_17",
-      "primary_member_id" : "ENTTY_RL_TYP_17",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__BYR_PRTY_RL_TYP__BYR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_20",
-      "primary_member_id" : "ENTTY_RL_TYP_20",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__BYR_PRTY_RL_TYP__BYR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_36",
-      "primary_member_id" : "ENTTY_RL_TYP_36",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__BYR_PRTY_RL_TYP__BYR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_19",
-      "primary_member_id" : "ENTTY_RL_TYP_19",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__BYR_PRTY_RL_TYP__BYR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_24",
-      "primary_member_id" : "ENTTY_RL_TYP_24",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__BYR_PRTY_RL_TYP__BYR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_13",
-      "primary_member_id" : "ENTTY_RL_TYP_13",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__BYR_PRTY_RL_TYP__BYR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_35",
-      "primary_member_id" : "ENTTY_RL_TYP_35",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__BYR_PRTY_RL_TYP__BYR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_23",
-      "primary_member_id" : "ENTTY_RL_TYP_23",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__BYR_PRTY_RL_TYP__BYR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_14",
-      "primary_member_id" : "ENTTY_RL_TYP_14",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__BYR_PRTY_RL_TYP__BYR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_26",
-      "primary_member_id" : "ENTTY_RL_TYP_26",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__BYR_PRTY_RL_TYP__BYR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_16",
-      "primary_member_id" : "ENTTY_RL_TYP_16",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__BYR_PRTY_RL_TYP__BYR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_21",
-      "primary_member_id" : "ENTTY_RL_TYP_21",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__BYR_PRTY_RL_TYP__BYR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_18",
-      "primary_member_id" : "ENTTY_RL_TYP_18",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__BYR_PRTY_RL_TYP__BYR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_25",
-      "primary_member_id" : "ENTTY_RL_TYP_25",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__BYR_PRTY_RL_TYP__BYR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_33",
-      "primary_member_id" : "ENTTY_RL_TYP_33",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__BYR_PRTY_RL_TYP__BYR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_22",
-      "primary_member_id" : "ENTTY_RL_TYP_22",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__BYR_PRTY_RL_TYP__BYR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_28",
-      "primary_member_id" : "ENTTY_RL_TYP_28",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__BYR_PRTY_RL_TYP__BYR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_15",
-      "primary_member_id" : "ENTTY_RL_TYP_15",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    } ]
+    "member_link" : [ ]
   }, {
     "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__DT_RFRNC__DT_RFRNC",
     "cube_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1",
@@ -177,10 +45,74 @@
     "aggregation_function" : null,
     "member_link" : [ ]
   }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__EXCHNG_TRDBL_DRVT_SCRTY_ID__EXCHNG_TRDBL_DRVTV_SCRTY_ID",
+    "cube_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1",
+    "foreign_cube_variable_code" : "EXCHNG_TRDBL_DRVTV_SCRTY_ID",
+    "primary_cube_variable_code" : "EXCHNG_TRDBL_DRVT_SCRTY_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__EXCHNG_TRDBL_DRVTV_ACCNTNG_CNSLDTN_LVL__ACCNTNG_CNSLDTN_LVL",
+    "cube_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1",
+    "foreign_cube_variable_code" : "ACCNTNG_CNSLDTN_LVL",
+    "primary_cube_variable_code" : "EXCHNG_TRDBL_DRVTV_ACCNTNG_CNSLDTN_LVL",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__EXCHNG_TRDBL_DRVTV_ACCNTNG_STNDRD__ACCNTNG_STNDRD",
+    "cube_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1",
+    "foreign_cube_variable_code" : "ACCNTNG_STNDRD",
+    "primary_cube_variable_code" : "EXCHNG_TRDBL_DRVTV_ACCNTNG_STNDRD",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__EXCHNG_TRDBL_DRVTV_PSTN_RL_TYP__EXCHNG_TRDBL_DRVTV_PSTN_RL_TYP",
+    "cube_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1",
+    "foreign_cube_variable_code" : "EXCHNG_TRDBL_DRVTV_PSTN_RL_TYP",
+    "primary_cube_variable_code" : "EXCHNG_TRDBL_DRVTV_PSTN_RL_TYP",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__EXCHNG_TRDBL_DRVTV_RFRNC_DT__DT_RFRNC",
+    "cube_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1",
+    "foreign_cube_variable_code" : "DT_RFRNC",
+    "primary_cube_variable_code" : "EXCHNG_TRDBL_DRVTV_RFRNC_DT",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
     "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__RPRTNG_AGNT_ID__RPRTNG_AGNT_ID",
     "cube_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1",
     "foreign_cube_variable_code" : "RPRTNG_AGNT_ID",
     "primary_cube_variable_code" : "RPRTNG_AGNT_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__SLLR_ACCNTNG_CNSLDTN_LVL__ACCNTNG_CNSLDTN_LVL",
+    "cube_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1",
+    "foreign_cube_variable_code" : "ACCNTNG_CNSLDTN_LVL",
+    "primary_cube_variable_code" : "SLLR_ACCNTNG_CNSLDTN_LVL",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__SLLR_ACCNTNG_STNDRD__ACCNTNG_STNDRD",
+    "cube_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1",
+    "foreign_cube_variable_code" : "ACCNTNG_STNDRD",
+    "primary_cube_variable_code" : "SLLR_ACCNTNG_STNDRD",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__SLLR_PRTY_ID__BYR_PRTY_ID",
+    "cube_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1",
+    "foreign_cube_variable_code" : "BYR_PRTY_ID",
+    "primary_cube_variable_code" : "SLLR_PRTY_ID",
     "comparator" : null,
     "aggregation_function" : null,
     "member_link" : [ ]
@@ -199,146 +131,14 @@
     "primary_cube_variable_code" : "SLLR_PRTY_RL_TYP",
     "comparator" : null,
     "aggregation_function" : null,
-    "member_link" : [ {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__SLLR_PRTY_RL_TYP__SLLR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_8",
-      "primary_member_id" : "ENTTY_RL_TYP_8",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__SLLR_PRTY_RL_TYP__SLLR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_27",
-      "primary_member_id" : "ENTTY_RL_TYP_27",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__SLLR_PRTY_RL_TYP__SLLR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_17",
-      "primary_member_id" : "ENTTY_RL_TYP_17",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__SLLR_PRTY_RL_TYP__SLLR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_20",
-      "primary_member_id" : "ENTTY_RL_TYP_20",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__SLLR_PRTY_RL_TYP__SLLR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_36",
-      "primary_member_id" : "ENTTY_RL_TYP_36",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__SLLR_PRTY_RL_TYP__SLLR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_19",
-      "primary_member_id" : "ENTTY_RL_TYP_19",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__SLLR_PRTY_RL_TYP__SLLR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_24",
-      "primary_member_id" : "ENTTY_RL_TYP_24",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__SLLR_PRTY_RL_TYP__SLLR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_13",
-      "primary_member_id" : "ENTTY_RL_TYP_13",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__SLLR_PRTY_RL_TYP__SLLR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_35",
-      "primary_member_id" : "ENTTY_RL_TYP_35",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__SLLR_PRTY_RL_TYP__SLLR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_23",
-      "primary_member_id" : "ENTTY_RL_TYP_23",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__SLLR_PRTY_RL_TYP__SLLR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_14",
-      "primary_member_id" : "ENTTY_RL_TYP_14",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__SLLR_PRTY_RL_TYP__SLLR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_26",
-      "primary_member_id" : "ENTTY_RL_TYP_26",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__SLLR_PRTY_RL_TYP__SLLR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_16",
-      "primary_member_id" : "ENTTY_RL_TYP_16",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__SLLR_PRTY_RL_TYP__SLLR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_21",
-      "primary_member_id" : "ENTTY_RL_TYP_21",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__SLLR_PRTY_RL_TYP__SLLR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_18",
-      "primary_member_id" : "ENTTY_RL_TYP_18",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__SLLR_PRTY_RL_TYP__SLLR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_25",
-      "primary_member_id" : "ENTTY_RL_TYP_25",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__SLLR_PRTY_RL_TYP__SLLR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_33",
-      "primary_member_id" : "ENTTY_RL_TYP_33",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__SLLR_PRTY_RL_TYP__SLLR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_22",
-      "primary_member_id" : "ENTTY_RL_TYP_22",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__SLLR_PRTY_RL_TYP__SLLR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_28",
-      "primary_member_id" : "ENTTY_RL_TYP_28",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__SLLR_PRTY_RL_TYP__SLLR_PRTY_RL_TYP",
-      "foreign_member_id" : "ENTTY_RL_TYP_15",
-      "primary_member_id" : "ENTTY_RL_TYP_15",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    } ]
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1__EXCHNG_TRDBL_DRVT_RPRTNG_AGNT_ID__RPRTNG_AGNT_ID",
+    "cube_link_id" : "WUDEN__BIRD_EXCHNG_TRDBL_DRVTV_PSTN_RL_EIL_1__01_01_1990__BIRD_EXCHNG_TRDBL_DRVTV_LBLTY_PSTN_ELDM_1__1",
+    "foreign_cube_variable_code" : "RPRTNG_AGNT_ID",
+    "primary_cube_variable_code" : "EXCHNG_TRDBL_DRVT_RPRTNG_AGNT_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
   } ]
 }

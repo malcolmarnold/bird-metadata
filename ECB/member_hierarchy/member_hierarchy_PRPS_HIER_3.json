@@ -17,19 +17,19 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "PRPS_HIER_3",
-    "member_id" : "PRPS_12",
-    "level" : "3",
-    "parent_member_id" : "PRPS_2",
-    "comparator" : null,
+    "member_id" : "PRPS_2",
+    "level" : "2",
+    "parent_member_id" : "PRPS_-1",
+    "comparator" : "=",
     "operator" : "+",
     "valid_from" : "1900-01-01",
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "PRPS_HIER_3",
-    "member_id" : "PRPS_2",
-    "level" : "2",
-    "parent_member_id" : "PRPS_-1",
-    "comparator" : "=",
+    "member_id" : "PRPS_12",
+    "level" : "3",
+    "parent_member_id" : "PRPS_2",
+    "comparator" : null,
     "operator" : "+",
     "valid_from" : "1900-01-01",
     "valid_to" : "9999-12-31"

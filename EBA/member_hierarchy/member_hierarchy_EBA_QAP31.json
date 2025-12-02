@@ -1,0 +1,37 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_QAP31",
+  "code" : "QAP31",
+  "domain_id" : "EBA_AP",
+  "name" : "Method for calculating exposure values at consolidated level in CCR 1",
+  "description" : "EBA_QAP31",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_QAP31",
+    "member_id" : "EBA_AP_EBA_x38",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "2024-12-19",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_QAP31",
+    "member_id" : "EBA_AP_EBA_x0",
+    "level" : "2",
+    "parent_member_id" : "EBA_AP_EBA_x38",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2024-12-19",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_QAP31",
+    "member_id" : "EBA_AP_EBA_x183",
+    "level" : "2",
+    "parent_member_id" : "EBA_AP_EBA_x38",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2024-12-19",
+    "valid_to" : "9999-12-31"
+  } ]
+}

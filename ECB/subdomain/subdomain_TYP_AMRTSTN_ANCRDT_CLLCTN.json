@@ -9,7 +9,13 @@
   "description" : "AnaCredit - ECB collection",
   "is_natural" : "false",
   "subdomain_enumeration" : [ {
-    "member_id" : "TYP_AMRTSTN_4",
+    "member_id" : "TYP_AMRTSTN_1",
+    "subdomain_id" : "TYP_AMRTSTN_ANCRDT_CLLCTN",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_AMRTSTN_2",
     "subdomain_id" : "TYP_AMRTSTN_ANCRDT_CLLCTN",
     "valid_from" : "1900-01-01",
     "valid_to" : "9999-12-31",
@@ -21,19 +27,13 @@
     "valid_to" : "9999-12-31",
     "order" : "0"
   }, {
-    "member_id" : "TYP_AMRTSTN_1",
+    "member_id" : "TYP_AMRTSTN_4",
     "subdomain_id" : "TYP_AMRTSTN_ANCRDT_CLLCTN",
     "valid_from" : "1900-01-01",
     "valid_to" : "9999-12-31",
     "order" : "0"
   }, {
     "member_id" : "TYP_AMRTSTN_5",
-    "subdomain_id" : "TYP_AMRTSTN_ANCRDT_CLLCTN",
-    "valid_from" : "1900-01-01",
-    "valid_to" : "9999-12-31",
-    "order" : "0"
-  }, {
-    "member_id" : "TYP_AMRTSTN_2",
     "subdomain_id" : "TYP_AMRTSTN_ANCRDT_CLLCTN",
     "valid_from" : "1900-01-01",
     "valid_to" : "9999-12-31",

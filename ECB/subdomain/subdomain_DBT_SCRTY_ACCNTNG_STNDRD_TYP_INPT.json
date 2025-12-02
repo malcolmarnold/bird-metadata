@@ -9,15 +9,21 @@
   "description" : "Debt security by accounting standard",
   "is_natural" : "false",
   "subdomain_enumeration" : [ {
+    "member_id" : "SCRTY_EXCHNG_TRDBL_DRVTV_TYP_22",
+    "subdomain_id" : "DBT_SCRTY_ACCNTNG_STNDRD_TYP_INPT",
+    "valid_from" : "2024-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
     "member_id" : "SCRTY_EXCHNG_TRDBL_DRVTV_TYP_21",
     "subdomain_id" : "DBT_SCRTY_ACCNTNG_STNDRD_TYP_INPT",
     "valid_from" : "2024-04-01",
     "valid_to" : "9999-12-31",
     "order" : "0"
   }, {
-    "member_id" : "SCRTY_EXCHNG_TRDBL_DRVTV_TYP_22",
+    "member_id" : "SCRTY_EXCHNG_TRDBL_DRVTV_TYP_0",
     "subdomain_id" : "DBT_SCRTY_ACCNTNG_STNDRD_TYP_INPT",
-    "valid_from" : "2024-04-01",
+    "valid_from" : "2025-11-07",
     "valid_to" : "9999-12-31",
     "order" : "0"
   } ]

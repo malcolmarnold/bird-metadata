@@ -89,19 +89,10 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "TYP_INSTRMNT_HIER_12",
-    "member_id" : "TYP_INSTRMNT_130",
-    "level" : "3",
-    "parent_member_id" : "TYP_INSTRMNT_22",
-    "comparator" : null,
-    "operator" : "+",
-    "valid_from" : "1900-01-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_12",
-    "member_id" : "TYP_INSTRMNT_120",
-    "level" : "3",
-    "parent_member_id" : "TYP_INSTRMNT_22",
-    "comparator" : null,
+    "member_id" : "TYP_INSTRMNT_119",
+    "level" : "2",
+    "parent_member_id" : "TYP_INSTRMNT_149",
+    "comparator" : "=",
     "operator" : "+",
     "valid_from" : "1900-01-01",
     "valid_to" : "9999-12-31"
@@ -116,18 +107,18 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "TYP_INSTRMNT_HIER_12",
-    "member_id" : "TYP_INSTRMNT_119",
-    "level" : "2",
-    "parent_member_id" : "TYP_INSTRMNT_149",
-    "comparator" : "=",
+    "member_id" : "TYP_INSTRMNT_80",
+    "level" : "3",
+    "parent_member_id" : "TYP_INSTRMNT_119",
+    "comparator" : null,
     "operator" : "+",
     "valid_from" : "1900-01-01",
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "TYP_INSTRMNT_HIER_12",
-    "member_id" : "TYP_INSTRMNT_80",
+    "member_id" : "TYP_INSTRMNT_120",
     "level" : "3",
-    "parent_member_id" : "TYP_INSTRMNT_119",
+    "parent_member_id" : "TYP_INSTRMNT_22",
     "comparator" : null,
     "operator" : "+",
     "valid_from" : "1900-01-01",
@@ -152,6 +143,15 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "TYP_INSTRMNT_HIER_12",
+    "member_id" : "TYP_INSTRMNT_130",
+    "level" : "3",
+    "parent_member_id" : "TYP_INSTRMNT_22",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_12",
     "member_id" : "TYP_INSTRMNT_114",
     "level" : "3",
     "parent_member_id" : "TYP_INSTRMNT_119",
@@ -161,7 +161,7 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "TYP_INSTRMNT_HIER_12",
-    "member_id" : "TYP_INSTRMNT_1003",
+    "member_id" : "TYP_INSTRMNT_1000",
     "level" : "3",
     "parent_member_id" : "TYP_INSTRMNT_119",
     "comparator" : null,
@@ -170,7 +170,7 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "TYP_INSTRMNT_HIER_12",
-    "member_id" : "TYP_INSTRMNT_1000",
+    "member_id" : "TYP_INSTRMNT_1003",
     "level" : "3",
     "parent_member_id" : "TYP_INSTRMNT_119",
     "comparator" : null,

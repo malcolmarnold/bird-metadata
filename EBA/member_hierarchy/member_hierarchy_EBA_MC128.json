@@ -35,9 +35,36 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "EBA_MC128",
+    "member_id" : "EBA_MC_EBA_x178",
+    "level" : "3",
+    "parent_member_id" : "EBA_MC_EBA_x99",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC128",
+    "member_id" : "EBA_MC_EBA_x171",
+    "level" : "3",
+    "parent_member_id" : "EBA_MC_EBA_x99",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC128",
     "member_id" : "EBA_MC_EBA_x163",
     "level" : "3",
     "parent_member_id" : "EBA_MC_EBA_x157",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC128",
+    "member_id" : "EBA_MC_EBA_x256",
+    "level" : "3",
+    "parent_member_id" : "EBA_MC_EBA_x99",
     "comparator" : null,
     "operator" : "+",
     "valid_from" : "2013-12-01",
@@ -56,33 +83,6 @@
     "member_id" : "EBA_MC_EBA_x130",
     "level" : "3",
     "parent_member_id" : "EBA_MC_EBA_x157",
-    "comparator" : null,
-    "operator" : "+",
-    "valid_from" : "2013-12-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "EBA_MC128",
-    "member_id" : "EBA_MC_EBA_x171",
-    "level" : "3",
-    "parent_member_id" : "EBA_MC_EBA_x99",
-    "comparator" : null,
-    "operator" : "+",
-    "valid_from" : "2013-12-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "EBA_MC128",
-    "member_id" : "EBA_MC_EBA_x256",
-    "level" : "3",
-    "parent_member_id" : "EBA_MC_EBA_x99",
-    "comparator" : null,
-    "operator" : "+",
-    "valid_from" : "2013-12-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "EBA_MC128",
-    "member_id" : "EBA_MC_EBA_x178",
-    "level" : "3",
-    "parent_member_id" : "EBA_MC_EBA_x99",
     "comparator" : null,
     "operator" : "+",
     "valid_from" : "2013-12-01",

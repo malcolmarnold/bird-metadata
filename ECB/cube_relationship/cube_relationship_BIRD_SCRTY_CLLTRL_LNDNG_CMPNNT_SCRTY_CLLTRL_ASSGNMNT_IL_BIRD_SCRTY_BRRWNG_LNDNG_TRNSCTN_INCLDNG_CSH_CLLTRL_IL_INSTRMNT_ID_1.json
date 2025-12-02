@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_SCRTY_CLLTRL_LNDNG_CMPNNT_SCRTY_CLLTRL_ASSGNMNT_IL__BIRD_SCRTY_BRRWNG_LNDNG_TRNSCTN_INCLDNG_CSH_CLLTRL_IL__INSTRMNT_ID_1",
+  "code" : "BIRD_SCRTY_CLLTRL_LNDNG_CMPNNT_SCRTY_CLLTRL_ASSGNMNT_IL_1__BIRD_SCRTY_BRRWNG_LNDNG_TRNSCTN_INCLDNG_CSH_CLLTRL_IL_1__INSTRMNT_ID",
+  "name" : "Security borrowing and lending transaction including cash as collateral component has many Security collateral lending component Security collateral assignment",
+  "description" : null,
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_SCRTY_BRRWNG_LNDNG_TRNSCTN_INCLDNG_CSH_CLLTRL_IL_1",
+  "primary_cube_variable_code" : "INSTRMNT_ID",
+  "foreign_cube_id" : "BIRD_SCRTY_CLLTRL_LNDNG_CMPNNT_SCRTY_CLLTRL_ASSGNMNT_IL_1",
+  "foreign_cube_variable_code" : "INSTRMNT_ID",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "true"
+}

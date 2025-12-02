@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_link_id" : "DER__BIRD_INSTRMNT_RL_EIL_1__PRTCTN_VL_TYP__01_01_1990__BIRD_INSTRMNT_IL_1__1",
+  "code" : "DER__BIRD_INSTRMNT_RL_EIL_1__PRTCTN_VL_TYP__01_01_1990__BIRD_INSTRMNT_IL_1",
+  "name" : "DER__BIRD_INSTRMNT_RL_EIL_1__PRTCTN_VL_TYP__01_01_1990__BIRD_INSTRMNT_IL_1__1",
+  "description" : null,
+  "valid_from" : "1990-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "order_relevance" : "1",
+  "primary_cube_id" : "BIRD_INSTRMNT_IL_1",
+  "foreign_cube_id" : "BIRD_INSTRMNT_RL_EIL_1",
+  "cube_link_type" : "TR",
+  "logical_transformation_rule_id" : "DER__BIRD_INSTRMNT_RL_EIL_1__PRTCTN_VL_TYP__01_01_1990",
+  "cube_structure_item_link" : [ {
+    "cube_structure_item_link_id" : "DER__BIRD_INSTRMNT_RL_EIL_1__PRTCTN_VL_TYP__01_01_1990__BIRD_INSTRMNT_IL_1__1__INSTRMNT_TYP_PRDCT",
+    "cube_link_id" : "DER__BIRD_INSTRMNT_RL_EIL_1__PRTCTN_VL_TYP__01_01_1990__BIRD_INSTRMNT_IL_1__1",
+    "foreign_cube_variable_code" : "PRTCTN_VL_TYP",
+    "primary_cube_variable_code" : "INSTRMNT_TYP_PRDCT",
+    "comparator" : "0",
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  } ]
+}

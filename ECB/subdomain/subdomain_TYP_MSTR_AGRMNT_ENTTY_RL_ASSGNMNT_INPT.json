@@ -9,12 +9,6 @@
   "description" : "Type of master agreement Entity role (Input Layer)",
   "is_natural" : "false",
   "subdomain_enumeration" : [ {
-    "member_id" : "MSTR_AGRMNT_ENTTY_RL_ASSGNMNT_TYP_1",
-    "subdomain_id" : "TYP_MSTR_AGRMNT_ENTTY_RL_ASSGNMNT_INPT",
-    "valid_from" : "2022-03-01",
-    "valid_to" : "9999-12-31",
-    "order" : "0"
-  }, {
     "member_id" : "MSTR_AGRMNT_ENTTY_RL_ASSGNMNT_TYP_2",
     "subdomain_id" : "TYP_MSTR_AGRMNT_ENTTY_RL_ASSGNMNT_INPT",
     "valid_from" : "2022-03-01",
@@ -22,6 +16,12 @@
     "order" : "0"
   }, {
     "member_id" : "MSTR_AGRMNT_ENTTY_RL_ASSGNMNT_TYP_4",
+    "subdomain_id" : "TYP_MSTR_AGRMNT_ENTTY_RL_ASSGNMNT_INPT",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "MSTR_AGRMNT_ENTTY_RL_ASSGNMNT_TYP_1",
     "subdomain_id" : "TYP_MSTR_AGRMNT_ENTTY_RL_ASSGNMNT_INPT",
     "valid_from" : "2022-03-01",
     "valid_to" : "9999-12-31",

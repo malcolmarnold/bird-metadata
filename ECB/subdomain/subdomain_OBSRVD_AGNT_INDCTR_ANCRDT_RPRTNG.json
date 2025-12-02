@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "OBSRVD_AGNT_INDCTR_ANCRDT_RPRTNG",
+  "name" : "Observed agent indicator for Anacredit reporting",
+  "domain_id" : "OBSRVD_AGNT_INDCTR_ANCRDT_RPRTNG",
+  "is_listed" : "true",
+  "code" : "OBSRVD_AGNT_INDCTR_ANCRDT_RPRTNG",
+  "facet_id" : null,
+  "description" : null,
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "OBSRVD_AGNT_INDCTR_ANCRDT_RPRTNG_1",
+    "subdomain_id" : "OBSRVD_AGNT_INDCTR_ANCRDT_RPRTNG",
+    "valid_from" : "2025-11-07",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "OBSRVD_AGNT_INDCTR_ANCRDT_RPRTNG_2",
+    "subdomain_id" : "OBSRVD_AGNT_INDCTR_ANCRDT_RPRTNG",
+    "valid_from" : "2025-11-07",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

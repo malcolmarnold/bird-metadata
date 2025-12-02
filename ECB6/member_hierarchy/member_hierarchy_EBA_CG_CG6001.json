@@ -8,16 +8,16 @@
   "is_main_hierarchy" : null,
   "member_hierarchy_node" : [ {
     "member_hierarchy_id" : "EBA_CG_CG6001",
-    "member_id" : "EBA_CG_ECB6_x6024",
-    "level" : "2",
-    "parent_member_id" : "EBA_CG_EBA_x0",
+    "member_id" : "EBA_CG_EBA_x0",
+    "level" : "1",
+    "parent_member_id" : null,
     "comparator" : ">=",
-    "operator" : "+",
+    "operator" : null,
     "valid_from" : "1900-01-01",
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "EBA_CG_CG6001",
-    "member_id" : "EBA_CG_ECB6_x6025",
+    "member_id" : "EBA_CG_EBA_x26",
     "level" : "2",
     "parent_member_id" : "EBA_CG_EBA_x0",
     "comparator" : ">=",
@@ -35,25 +35,7 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "EBA_CG_CG6001",
-    "member_id" : "EBA_CG_ECB6_x6004",
-    "level" : "2",
-    "parent_member_id" : "EBA_CG_EBA_x0",
-    "comparator" : ">=",
-    "operator" : "+",
-    "valid_from" : "1900-01-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "EBA_CG_CG6001",
-    "member_id" : "EBA_CG_EBA_x26",
-    "level" : "2",
-    "parent_member_id" : "EBA_CG_EBA_x0",
-    "comparator" : ">=",
-    "operator" : "+",
-    "valid_from" : "1900-01-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "EBA_CG_CG6001",
-    "member_id" : "EBA_CG_ECB6_x6027",
+    "member_id" : "EBA_CG_ECB6_x6024",
     "level" : "2",
     "parent_member_id" : "EBA_CG_EBA_x0",
     "comparator" : ">=",
@@ -71,11 +53,29 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "EBA_CG_CG6001",
-    "member_id" : "EBA_CG_EBA_x0",
-    "level" : "1",
-    "parent_member_id" : null,
+    "member_id" : "EBA_CG_ECB6_x6027",
+    "level" : "2",
+    "parent_member_id" : "EBA_CG_EBA_x0",
     "comparator" : ">=",
-    "operator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CG_CG6001",
+    "member_id" : "EBA_CG_ECB6_x6025",
+    "level" : "2",
+    "parent_member_id" : "EBA_CG_EBA_x0",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CG_CG6001",
+    "member_id" : "EBA_CG_ECB6_x6004",
+    "level" : "2",
+    "parent_member_id" : "EBA_CG_EBA_x0",
+    "comparator" : ">=",
+    "operator" : "+",
     "valid_from" : "1900-01-01",
     "valid_to" : "9999-12-31"
   } ]

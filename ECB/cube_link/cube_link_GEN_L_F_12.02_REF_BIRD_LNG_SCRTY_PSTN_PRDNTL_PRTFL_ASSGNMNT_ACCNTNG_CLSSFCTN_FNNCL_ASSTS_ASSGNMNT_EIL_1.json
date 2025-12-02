@@ -13,6 +13,14 @@
   "cube_link_type" : "TR",
   "logical_transformation_rule_id" : "GEN_L__F_12.02_REF__01_01_1990",
   "cube_structure_item_link" : [ {
+    "cube_structure_item_link_id" : "GEN_L__F_12.02_REF__GEN_L__F_12.02_REF__BIRD_LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_ACCNTNG_CLSSFCTN_FNNCL_ASSTS_ASSGNMNT_EIL__1__GRSS_CRRYNG_AMNT__GRSS_CRRYNG_AMNT",
+    "cube_link_id" : "GEN_L__F_12.02_REF__BIRD_LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_ACCNTNG_CLSSFCTN_FNNCL_ASSTS_ASSGNMNT_EIL__1",
+    "foreign_cube_variable_code" : "GRSS_CRRYNG_AMNT",
+    "primary_cube_variable_code" : "GRSS_CRRYNG_AMNT",
+    "comparator" : "=",
+    "aggregation_function" : "SUM",
+    "member_link" : [ ]
+  }, {
     "cube_structure_item_link_id" : "GEN_L__F_12.02_REF__GEN_L__F_12.02_REF__BIRD_LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_ACCNTNG_CLSSFCTN_FNNCL_ASSTS_ASSGNMNT_EIL__1__TRNSFR_IMPRMNT_STGS__TRNSFR_IMPRMNT_STGS",
     "cube_link_id" : "GEN_L__F_12.02_REF__BIRD_LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_ACCNTNG_CLSSFCTN_FNNCL_ASSTS_ASSGNMNT_EIL__1",
     "foreign_cube_variable_code" : "TRNSFR_IMPRMNT_STGS",
@@ -62,13 +70,5 @@
       "valid_to" : "9999-12-31",
       "is_linked" : "true"
     } ]
-  }, {
-    "cube_structure_item_link_id" : "GEN_L__F_12.02_REF__GEN_L__F_12.02_REF__BIRD_LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_ACCNTNG_CLSSFCTN_FNNCL_ASSTS_ASSGNMNT_EIL__1__GRSS_CRRYNG_AMNT__GRSS_CRRYNG_AMNT",
-    "cube_link_id" : "GEN_L__F_12.02_REF__BIRD_LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_ACCNTNG_CLSSFCTN_FNNCL_ASSTS_ASSGNMNT_EIL__1",
-    "foreign_cube_variable_code" : "GRSS_CRRYNG_AMNT",
-    "primary_cube_variable_code" : "GRSS_CRRYNG_AMNT",
-    "comparator" : "=",
-    "aggregation_function" : "SUM",
-    "member_link" : [ ]
   } ]
 }

@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL__BIRD_CLLTRL_RL_IL__ACCNTNG_CNSLDTN_LVL_1",
+  "code" : "BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__BIRD_CLLTRL_RL_IL_1__ACCNTNG_CNSLDTN_LVL",
+  "name" : "Collateral role has many Long security position Collateral received assignment",
+  "description" : null,
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_CLLTRL_RL_IL_1",
+  "primary_cube_variable_code" : "ACCNTNG_CNSLDTN_LVL",
+  "foreign_cube_id" : "BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1",
+  "foreign_cube_variable_code" : "ACCNTNG_CNSLDTN_LVL",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "true"
+}

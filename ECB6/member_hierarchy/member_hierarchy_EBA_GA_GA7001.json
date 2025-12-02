@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB6",
+  "member_hierarchy_id" : "EBA_GA_GA7001",
+  "code" : "GA7001",
+  "domain_id" : "EBA_GA",
+  "name" : "Top five largest countries single member subdomain",
+  "description" : null,
+  "is_main_hierarchy" : null,
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_GA_GA7001",
+    "member_id" : "EBA_GA_ECB6_x6049",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

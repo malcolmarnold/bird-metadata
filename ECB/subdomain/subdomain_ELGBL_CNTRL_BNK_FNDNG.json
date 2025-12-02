@@ -9,16 +9,16 @@
   "description" : "This Subdomain covers the complete Domain Eligible for central bank funding (excluding the Member Not applicable (0)) on the most granular level.",
   "is_natural" : "false",
   "subdomain_enumeration" : [ {
-    "member_id" : "ELGBL_CNTRL_BNK_FNDNG_1",
-    "subdomain_id" : "ELGBL_CNTRL_BNK_FNDNG",
-    "valid_from" : "2019-05-01",
-    "valid_to" : "9999-12-31",
-    "order" : "0"
-  }, {
     "member_id" : "ELGBL_CNTRL_BNK_FNDNG_2",
     "subdomain_id" : "ELGBL_CNTRL_BNK_FNDNG",
     "valid_from" : "2019-05-01",
     "valid_to" : "9999-12-31",
     "order" : "1"
+  }, {
+    "member_id" : "ELGBL_CNTRL_BNK_FNDNG_1",
+    "subdomain_id" : "ELGBL_CNTRL_BNK_FNDNG",
+    "valid_from" : "2019-05-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
   } ]
 }

@@ -5,18 +5,6 @@
   "code" : "ANCRDT_T2M",
   "description" : null,
   "cube_group_enumeration" : [ {
-    "order" : "3",
-    "cube_group_id" : "ANCRDT_T2M",
-    "cube_id" : "ANCRDT_ENTTY_RSK_C_1",
-    "valid_from" : "1900-01-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "order" : "4",
-    "cube_group_id" : "ANCRDT_T2M",
-    "cube_id" : "ANCRDT_ENTTY_DFLT_C_1",
-    "valid_from" : "1900-01-01",
-    "valid_to" : "9999-12-31"
-  }, {
     "order" : "1",
     "cube_group_id" : "ANCRDT_T2M",
     "cube_id" : "ANCRDT_PRTCTN_RCVD_C_1",
@@ -26,6 +14,18 @@
     "order" : "2",
     "cube_group_id" : "ANCRDT_T2M",
     "cube_id" : "ANCRDT_INSTRMNT_PRTCTN_RCVD_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "3",
+    "cube_group_id" : "ANCRDT_T2M",
+    "cube_id" : "ANCRDT_ENTTY_RSK_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "4",
+    "cube_group_id" : "ANCRDT_T2M",
+    "cube_id" : "ANCRDT_ENTTY_DFLT_C_1",
     "valid_from" : "1900-01-01",
     "valid_to" : "9999-12-31"
   } ]

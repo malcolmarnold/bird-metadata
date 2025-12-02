@@ -17,9 +17,9 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "TYP_ACCNTNG_ITM_HIER_4",
-    "member_id" : "TYP_ACCNTNG_ITM_11",
-    "level" : "2",
-    "parent_member_id" : "TYP_ACCNTNG_ITM_499",
+    "member_id" : "TYP_ACCNTNG_ITM_44",
+    "level" : "3",
+    "parent_member_id" : "TYP_ACCNTNG_ITM_43",
     "comparator" : "=",
     "operator" : "+",
     "valid_from" : "1900-01-01",
@@ -44,15 +44,6 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "TYP_ACCNTNG_ITM_HIER_4",
-    "member_id" : "TYP_ACCNTNG_ITM_43",
-    "level" : "2",
-    "parent_member_id" : "TYP_ACCNTNG_ITM_499",
-    "comparator" : "=",
-    "operator" : "+",
-    "valid_from" : "1900-01-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "TYP_ACCNTNG_ITM_HIER_4",
     "member_id" : "TYP_ACCNTNG_ITM_413",
     "level" : "3",
     "parent_member_id" : "TYP_ACCNTNG_ITM_43",
@@ -71,9 +62,9 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "TYP_ACCNTNG_ITM_HIER_4",
-    "member_id" : "TYP_ACCNTNG_ITM_44",
-    "level" : "3",
-    "parent_member_id" : "TYP_ACCNTNG_ITM_43",
+    "member_id" : "TYP_ACCNTNG_ITM_11",
+    "level" : "2",
+    "parent_member_id" : "TYP_ACCNTNG_ITM_499",
     "comparator" : "=",
     "operator" : "+",
     "valid_from" : "1900-01-01",
@@ -98,6 +89,24 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "TYP_ACCNTNG_ITM_HIER_4",
+    "member_id" : "TYP_ACCNTNG_ITM_43",
+    "level" : "2",
+    "parent_member_id" : "TYP_ACCNTNG_ITM_499",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_ACCNTNG_ITM_HIER_4",
+    "member_id" : "TYP_ACCNTNG_ITM_498",
+    "level" : "5",
+    "parent_member_id" : "TYP_ACCNTNG_ITM_458",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_ACCNTNG_ITM_HIER_4",
     "member_id" : "TYP_ACCNTNG_ITM_401",
     "level" : "5",
     "parent_member_id" : "TYP_ACCNTNG_ITM_458",
@@ -111,15 +120,6 @@
     "level" : "5",
     "parent_member_id" : "TYP_ACCNTNG_ITM_458",
     "comparator" : null,
-    "operator" : "+",
-    "valid_from" : "1900-01-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "TYP_ACCNTNG_ITM_HIER_4",
-    "member_id" : "TYP_ACCNTNG_ITM_498",
-    "level" : "5",
-    "parent_member_id" : "TYP_ACCNTNG_ITM_458",
-    "comparator" : "=",
     "operator" : "+",
     "valid_from" : "1900-01-01",
     "valid_to" : "9999-12-31"

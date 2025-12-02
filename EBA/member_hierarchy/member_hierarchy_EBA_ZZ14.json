@@ -8,7 +8,16 @@
   "is_main_hierarchy" : "false",
   "member_hierarchy_node" : [ {
     "member_hierarchy_id" : "EBA_ZZ14",
-    "member_id" : "EBA_ZZ_EBA_x51",
+    "member_id" : "EBA_ZZ_EBA_x232",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2018-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ14",
+    "member_id" : "EBA_ZZ_EBA_x47",
     "level" : "1",
     "parent_member_id" : null,
     "comparator" : ">=",
@@ -35,55 +44,10 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "EBA_ZZ14",
-    "member_id" : "EBA_ZZ_EBA_x232",
+    "member_id" : "EBA_ZZ_EBA_x51",
     "level" : "1",
     "parent_member_id" : null,
     "comparator" : ">=",
-    "operator" : null,
-    "valid_from" : "2018-12-31",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "EBA_ZZ14",
-    "member_id" : "EBA_ZZ_EBA_x47",
-    "level" : "1",
-    "parent_member_id" : null,
-    "comparator" : ">=",
-    "operator" : null,
-    "valid_from" : "2018-12-31",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "EBA_ZZ14",
-    "member_id" : "EBA_ZZ_EBA_x326",
-    "level" : "2",
-    "parent_member_id" : "EBA_ZZ_EBA_x51",
-    "comparator" : null,
-    "operator" : null,
-    "valid_from" : "2018-12-31",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "EBA_ZZ14",
-    "member_id" : "EBA_ZZ_EBA_x50",
-    "level" : "2",
-    "parent_member_id" : "EBA_ZZ_EBA_x232",
-    "comparator" : null,
-    "operator" : null,
-    "valid_from" : "2018-12-31",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "EBA_ZZ14",
-    "member_id" : "EBA_ZZ_EBA_x231",
-    "level" : "2",
-    "parent_member_id" : "EBA_ZZ_EBA_x45",
-    "comparator" : null,
-    "operator" : null,
-    "valid_from" : "2018-12-31",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "EBA_ZZ14",
-    "member_id" : "EBA_ZZ_EBA_x48",
-    "level" : "2",
-    "parent_member_id" : "EBA_ZZ_EBA_x232",
-    "comparator" : null,
     "operator" : null,
     "valid_from" : "2018-12-31",
     "valid_to" : "9999-12-31"
@@ -107,6 +71,24 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "EBA_ZZ14",
+    "member_id" : "EBA_ZZ_EBA_x231",
+    "level" : "2",
+    "parent_member_id" : "EBA_ZZ_EBA_x45",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2018-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ14",
+    "member_id" : "EBA_ZZ_EBA_x50",
+    "level" : "2",
+    "parent_member_id" : "EBA_ZZ_EBA_x232",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2018-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ14",
     "member_id" : "EBA_ZZ_EBA_x49",
     "level" : "2",
     "parent_member_id" : "EBA_ZZ_EBA_x232",
@@ -119,6 +101,24 @@
     "member_id" : "EBA_ZZ_EBA_x46",
     "level" : "2",
     "parent_member_id" : "EBA_ZZ_EBA_x232",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2018-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ14",
+    "member_id" : "EBA_ZZ_EBA_x48",
+    "level" : "2",
+    "parent_member_id" : "EBA_ZZ_EBA_x232",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2018-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ14",
+    "member_id" : "EBA_ZZ_EBA_x326",
+    "level" : "2",
+    "parent_member_id" : "EBA_ZZ_EBA_x51",
     "comparator" : null,
     "operator" : null,
     "valid_from" : "2018-12-31",

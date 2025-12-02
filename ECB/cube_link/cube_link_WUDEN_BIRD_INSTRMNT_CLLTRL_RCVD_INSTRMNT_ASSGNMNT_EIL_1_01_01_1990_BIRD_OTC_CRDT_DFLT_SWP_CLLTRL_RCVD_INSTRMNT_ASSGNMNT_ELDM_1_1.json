@@ -1,0 +1,96 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_link_id" : "WUDEN__BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_EIL_1__01_01_1990__BIRD_OTC_CRDT_DFLT_SWP_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_ELDM_1__1",
+  "code" : "WUDEN__BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_EIL_1__01_01_1990__BIRD_OTC_CRDT_DFLT_SWP_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_ELDM_1",
+  "name" : "The LDM: Over the counter (OTC) Credit default swap Collateral received instrument assignment (BIRD_OTC_CRDT_DFLT_SWP_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_ELDM) is forward engineered into the IL: Instrument Collateral instrument assignment (BIRD_INSTRMNT_CLLTRL_",
+  "description" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "order_relevance" : "1",
+  "primary_cube_id" : "BIRD_OTC_CRDT_DFLT_SWP_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_ELDM_1",
+  "foreign_cube_id" : "BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_EIL_1",
+  "cube_link_type" : "TR",
+  "logical_transformation_rule_id" : "WUDEN__BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_EIL_1__01_01_1990",
+  "cube_structure_item_link" : [ {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_EIL_1__01_01_1990__BIRD_OTC_CRDT_DFLT_SWP_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_ELDM_1__1__OTC_CDS_ACCNTNG_CNSLDTN_LVL__ACCNTNG_CNSLDTN_LVL",
+    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_EIL_1__01_01_1990__BIRD_OTC_CRDT_DFLT_SWP_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_ELDM_1__1",
+    "foreign_cube_variable_code" : "ACCNTNG_CNSLDTN_LVL",
+    "primary_cube_variable_code" : "OTC_CDS_ACCNTNG_CNSLDTN_LVL",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_EIL_1__01_01_1990__BIRD_OTC_CRDT_DFLT_SWP_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_ELDM_1__1__OTC_CDS_ACCNTNG_STNDRD__ACCNTNG_STNDRD",
+    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_EIL_1__01_01_1990__BIRD_OTC_CRDT_DFLT_SWP_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_ELDM_1__1",
+    "foreign_cube_variable_code" : "ACCNTNG_STNDRD",
+    "primary_cube_variable_code" : "OTC_CDS_ACCNTNG_STNDRD",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_EIL_1__01_01_1990__BIRD_OTC_CRDT_DFLT_SWP_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_ELDM_1__1__OTC_CRDT_DFLT_SWP_INSTRMNT_ID__CLLTRL_INSTRMNT_ID",
+    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_EIL_1__01_01_1990__BIRD_OTC_CRDT_DFLT_SWP_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_ELDM_1__1",
+    "foreign_cube_variable_code" : "CLLTRL_INSTRMNT_ID",
+    "primary_cube_variable_code" : "OTC_CRDT_DFLT_SWP_INSTRMNT_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_EIL_1__01_01_1990__BIRD_OTC_CRDT_DFLT_SWP_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_ELDM_1__1__OTC_CRDT_DFLT_SWP_INSTRMNT_RFRNC_DT__DT_RFRNC",
+    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_EIL_1__01_01_1990__BIRD_OTC_CRDT_DFLT_SWP_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_ELDM_1__1",
+    "foreign_cube_variable_code" : "DT_RFRNC",
+    "primary_cube_variable_code" : "OTC_CRDT_DFLT_SWP_INSTRMNT_RFRNC_DT",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_EIL_1__01_01_1990__BIRD_OTC_CRDT_DFLT_SWP_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_ELDM_1__1__OTC_CRDT_DFLT_SWP_INSTRMNT_RPRTNG_AGNT_ID__RPRTNG_AGNT_ID",
+    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_EIL_1__01_01_1990__BIRD_OTC_CRDT_DFLT_SWP_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_ELDM_1__1",
+    "foreign_cube_variable_code" : "RPRTNG_AGNT_ID",
+    "primary_cube_variable_code" : "OTC_CRDT_DFLT_SWP_INSTRMNT_RPRTNG_AGNT_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_EIL_1__01_01_1990__BIRD_OTC_CRDT_DFLT_SWP_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_ELDM_1__1__OTC_CRDT_DFLT_SWP_RCVD_CLLTRL_INSTRMNT_ID__CLLTRL_INSTRMNT_ID",
+    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_EIL_1__01_01_1990__BIRD_OTC_CRDT_DFLT_SWP_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_ELDM_1__1",
+    "foreign_cube_variable_code" : "CLLTRL_INSTRMNT_ID",
+    "primary_cube_variable_code" : "OTC_CRDT_DFLT_SWP_RCVD_CLLTRL_INSTRMNT_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_EIL_1__01_01_1990__BIRD_OTC_CRDT_DFLT_SWP_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_ELDM_1__1__OTC_CRDT_DFLT_SWP_RCVD_CLLTRL_INSTRMNT_RFRNC_DT__DT_RFRNC",
+    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_EIL_1__01_01_1990__BIRD_OTC_CRDT_DFLT_SWP_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_ELDM_1__1",
+    "foreign_cube_variable_code" : "DT_RFRNC",
+    "primary_cube_variable_code" : "OTC_CRDT_DFLT_SWP_RCVD_CLLTRL_INSTRMNT_RFRNC_DT",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_EIL_1__01_01_1990__BIRD_OTC_CRDT_DFLT_SWP_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_ELDM_1__1__OTC_CRDT_DFLT_SWP_RCVD_CLLTRL_INSTRMNT_RPRTNG_AGNT_ID__RPRTNG_AGNT_ID",
+    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_EIL_1__01_01_1990__BIRD_OTC_CRDT_DFLT_SWP_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_ELDM_1__1",
+    "foreign_cube_variable_code" : "RPRTNG_AGNT_ID",
+    "primary_cube_variable_code" : "OTC_CRDT_DFLT_SWP_RCVD_CLLTRL_INSTRMNT_RPRTNG_AGNT_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_EIL_1__01_01_1990__BIRD_OTC_CRDT_DFLT_SWP_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_ELDM_1__1__OTC_SRDT_DFLT_SWP_RCVD_CLLTRL_INSTRMNT_ACCNTNG_CNSLDTN_LVL__ACCNTNG_CNSLDTN_LVL",
+    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_EIL_1__01_01_1990__BIRD_OTC_CRDT_DFLT_SWP_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_ELDM_1__1",
+    "foreign_cube_variable_code" : "ACCNTNG_CNSLDTN_LVL",
+    "primary_cube_variable_code" : "OTC_SRDT_DFLT_SWP_RCVD_CLLTRL_INSTRMNT_ACCNTNG_CNSLDTN_LVL",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_EIL_1__01_01_1990__BIRD_OTC_CRDT_DFLT_SWP_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_ELDM_1__1__OTC_SRDT_DFLT_SWP_RCVD_CLLTRL_INSTRMNT_ACCNTNG_STNDRD__ACCNTNG_STNDRD",
+    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_EIL_1__01_01_1990__BIRD_OTC_CRDT_DFLT_SWP_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_ELDM_1__1",
+    "foreign_cube_variable_code" : "ACCNTNG_STNDRD",
+    "primary_cube_variable_code" : "OTC_SRDT_DFLT_SWP_RCVD_CLLTRL_INSTRMNT_ACCNTNG_STNDRD",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  } ]
+}

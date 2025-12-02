@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_link_id" : "GEN_L__ANCRDT_FNNCL_C__BIRD_PRTY_CD_EIL__1",
+  "code" : "BIRD_PRTY_CD_EIL__ANCRDT_FNNCL_C__1",
+  "name" : "GEN_L__ANCRDT_FNNCL_C__BIRD_PRTY_CD_EIL__1",
+  "description" : null,
+  "valid_from" : "1990-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "order_relevance" : "1",
+  "primary_cube_id" : "BIRD_PRTY_CD_EIL_1",
+  "foreign_cube_id" : "ANCRDT_FNNCL_C_1",
+  "cube_link_type" : "TR",
+  "logical_transformation_rule_id" : "GEN_L__ANCRDT_FNNCL_C__01_01_1990",
+  "cube_structure_item_link" : [ {
+    "cube_structure_item_link_id" : "GEN_L__ANCRDT_FNNCL_C__GEN_L__ANCRDT_FNNCL_C__BIRD_PRTY_CD_EIL__1__RIAD_CD__OBSRVD_AGNT_CD",
+    "cube_link_id" : "GEN_L__ANCRDT_FNNCL_C__BIRD_PRTY_CD_EIL__1",
+    "foreign_cube_variable_code" : "OBSRVD_AGNT_CD",
+    "primary_cube_variable_code" : "RIAD_CD",
+    "comparator" : "=",
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  } ]
+}

@@ -2,7 +2,7 @@
   "maintenance_agency_id" : "ECB",
   "cube_link_id" : "WUDEN__BIRD_TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_FNNCL_GRNT_IL_1__01_01_1990__BIRD_TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_LDM_1__1",
   "code" : "WUDEN__BIRD_TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_FNNCL_GRNT_IL_1__01_01_1990__BIRD_TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_LDM_1",
-  "name" : "The LDM: Tranche in a synthetic securitisation without securitisation special purpose entity (SSPE) (BIRD_TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_LDM) is forward engineered into the IL: Tranche in a synthetic securitisation without securitisation special purpose",
+  "name" : "The LDM: Tranche in a synthetic securitisation without securitisation special purpose entity (SSPE) (BIRD_TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_ELDM) is forward engineered into the IL: Tranche in a synthetic securitisation without securitisation special purpose",
   "description" : null,
   "valid_from" : "1900-01-01",
   "valid_to" : "9999-12-31",
@@ -19,20 +19,6 @@
     "primary_cube_variable_code" : "TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_TYP",
     "comparator" : null,
     "aggregation_function" : null,
-    "member_link" : [ {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_FNNCL_GRNT_IL_1__01_01_1990__BIRD_TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_LDM_1__1__TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_TYP__TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_TYP",
-      "foreign_member_id" : "TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_TYP_1",
-      "primary_member_id" : "TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_TYP_1",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_FNNCL_GRNT_IL_1__01_01_1990__BIRD_TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_LDM_1__1__TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_TYP__TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_TYP",
-      "foreign_member_id" : "TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_TYP_2",
-      "primary_member_id" : "TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_TYP_2",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    } ]
+    "member_link" : [ ]
   } ]
 }

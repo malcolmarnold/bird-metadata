@@ -9,11 +9,11 @@
   "description" : "This Subdomain covers the full Domain Primary asset class of cover pool with disjoint Members only.",
   "is_natural" : "false",
   "subdomain_enumeration" : [ {
-    "member_id" : "PRMRY_ASST_CLSS_CVR_PL_0",
+    "member_id" : "PRMRY_ASST_CLSS_CVR_PL_f",
     "subdomain_id" : "PRMRY_ASST_CLSS_CVR_PL",
     "valid_from" : "2019-05-01",
-    "valid_to" : "2022-02-28",
-    "order" : "0"
+    "valid_to" : "9999-12-31",
+    "order" : "6"
   }, {
     "member_id" : "PRMRY_ASST_CLSS_CVR_PL_a",
     "subdomain_id" : "PRMRY_ASST_CLSS_CVR_PL",
@@ -21,17 +21,11 @@
     "valid_to" : "9999-12-31",
     "order" : "1"
   }, {
-    "member_id" : "PRMRY_ASST_CLSS_CVR_PL_b",
+    "member_id" : "PRMRY_ASST_CLSS_CVR_PL_h",
     "subdomain_id" : "PRMRY_ASST_CLSS_CVR_PL",
     "valid_from" : "2019-05-01",
     "valid_to" : "9999-12-31",
-    "order" : "2"
-  }, {
-    "member_id" : "PRMRY_ASST_CLSS_CVR_PL_c",
-    "subdomain_id" : "PRMRY_ASST_CLSS_CVR_PL",
-    "valid_from" : "2019-05-01",
-    "valid_to" : "9999-12-31",
-    "order" : "3"
+    "order" : "8"
   }, {
     "member_id" : "PRMRY_ASST_CLSS_CVR_PL_d",
     "subdomain_id" : "PRMRY_ASST_CLSS_CVR_PL",
@@ -39,28 +33,34 @@
     "valid_to" : "9999-12-31",
     "order" : "4"
   }, {
+    "member_id" : "PRMRY_ASST_CLSS_CVR_PL_c",
+    "subdomain_id" : "PRMRY_ASST_CLSS_CVR_PL",
+    "valid_from" : "2019-05-01",
+    "valid_to" : "9999-12-31",
+    "order" : "3"
+  }, {
+    "member_id" : "PRMRY_ASST_CLSS_CVR_PL_0",
+    "subdomain_id" : "PRMRY_ASST_CLSS_CVR_PL",
+    "valid_from" : "2019-05-01",
+    "valid_to" : "2022-02-28",
+    "order" : "0"
+  }, {
+    "member_id" : "PRMRY_ASST_CLSS_CVR_PL_b",
+    "subdomain_id" : "PRMRY_ASST_CLSS_CVR_PL",
+    "valid_from" : "2019-05-01",
+    "valid_to" : "9999-12-31",
+    "order" : "2"
+  }, {
     "member_id" : "PRMRY_ASST_CLSS_CVR_PL_e",
     "subdomain_id" : "PRMRY_ASST_CLSS_CVR_PL",
     "valid_from" : "2019-05-01",
     "valid_to" : "9999-12-31",
     "order" : "5"
   }, {
-    "member_id" : "PRMRY_ASST_CLSS_CVR_PL_f",
-    "subdomain_id" : "PRMRY_ASST_CLSS_CVR_PL",
-    "valid_from" : "2019-05-01",
-    "valid_to" : "9999-12-31",
-    "order" : "6"
-  }, {
     "member_id" : "PRMRY_ASST_CLSS_CVR_PL_g",
     "subdomain_id" : "PRMRY_ASST_CLSS_CVR_PL",
     "valid_from" : "2019-05-01",
     "valid_to" : "9999-12-31",
     "order" : "7"
-  }, {
-    "member_id" : "PRMRY_ASST_CLSS_CVR_PL_h",
-    "subdomain_id" : "PRMRY_ASST_CLSS_CVR_PL",
-    "valid_from" : "2019-05-01",
-    "valid_to" : "9999-12-31",
-    "order" : "8"
   } ]
 }

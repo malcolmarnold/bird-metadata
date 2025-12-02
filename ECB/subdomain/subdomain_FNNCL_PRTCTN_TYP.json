@@ -9,9 +9,27 @@
   "description" : "Financial collateral type",
   "is_natural" : "false",
   "subdomain_enumeration" : [ {
+    "member_id" : "TYP_PRTCTN_2",
+    "subdomain_id" : "FNNCL_PRTCTN_TYP",
+    "valid_from" : "2023-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
     "member_id" : "TYP_PRTCTN_12",
     "subdomain_id" : "FNNCL_PRTCTN_TYP",
     "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_PRTCTN_66",
+    "subdomain_id" : "FNNCL_PRTCTN_TYP",
+    "valid_from" : "2024-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_PRTCTN_17",
+    "subdomain_id" : "FNNCL_PRTCTN_TYP",
+    "valid_from" : "2023-01-01",
     "valid_to" : "9999-12-31",
     "order" : "0"
   }, {
@@ -30,24 +48,6 @@
     "member_id" : "TYP_PRTCTN_78",
     "subdomain_id" : "FNNCL_PRTCTN_TYP",
     "valid_from" : "2022-03-01",
-    "valid_to" : "9999-12-31",
-    "order" : "0"
-  }, {
-    "member_id" : "TYP_PRTCTN_17",
-    "subdomain_id" : "FNNCL_PRTCTN_TYP",
-    "valid_from" : "2023-01-01",
-    "valid_to" : "9999-12-31",
-    "order" : "0"
-  }, {
-    "member_id" : "TYP_PRTCTN_2",
-    "subdomain_id" : "FNNCL_PRTCTN_TYP",
-    "valid_from" : "2023-01-01",
-    "valid_to" : "9999-12-31",
-    "order" : "0"
-  }, {
-    "member_id" : "TYP_PRTCTN_66",
-    "subdomain_id" : "FNNCL_PRTCTN_TYP",
-    "valid_from" : "2024-04-01",
     "valid_to" : "9999-12-31",
     "order" : "0"
   } ]

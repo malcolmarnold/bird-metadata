@@ -17,15 +17,6 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "TYP_ACCNTNG_ITM_HIER_6",
-    "member_id" : "TYP_ACCNTNG_ITM_416",
-    "level" : "2",
-    "parent_member_id" : "TYP_ACCNTNG_ITM_504",
-    "comparator" : null,
-    "operator" : "+",
-    "valid_from" : "1900-01-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "TYP_ACCNTNG_ITM_HIER_6",
     "member_id" : "TYP_ACCNTNG_ITM_413",
     "level" : "2",
     "parent_member_id" : "TYP_ACCNTNG_ITM_504",
@@ -35,7 +26,16 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "TYP_ACCNTNG_ITM_HIER_6",
-    "member_id" : "TYP_ACCNTNG_ITM_1300",
+    "member_id" : "TYP_ACCNTNG_ITM_430",
+    "level" : "2",
+    "parent_member_id" : "TYP_ACCNTNG_ITM_504",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_ACCNTNG_ITM_HIER_6",
+    "member_id" : "TYP_ACCNTNG_ITM_416",
     "level" : "2",
     "parent_member_id" : "TYP_ACCNTNG_ITM_504",
     "comparator" : null,
@@ -53,7 +53,7 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "TYP_ACCNTNG_ITM_HIER_6",
-    "member_id" : "TYP_ACCNTNG_ITM_430",
+    "member_id" : "TYP_ACCNTNG_ITM_1300",
     "level" : "2",
     "parent_member_id" : "TYP_ACCNTNG_ITM_504",
     "comparator" : null,

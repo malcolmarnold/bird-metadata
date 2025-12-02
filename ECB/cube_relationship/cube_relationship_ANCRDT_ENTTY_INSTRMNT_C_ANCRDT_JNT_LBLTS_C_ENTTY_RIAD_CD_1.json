@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "ANCRDT_ENTTY_INSTRMNT_C__ANCRDT_JNT_LBLTS_C__ENTTY_RIAD_CD__1",
+  "code" : "ANCRDT_ENTTY_INSTRMNT_C__ANCRDT_JNT_LBLTS_C__ENTTY_RIAD_CD__1",
+  "name" : "AnaCredit - Counterparty-instrument - Joint liabilities - Entity RIAD code",
+  "description" : "AnaCredit - Counterparty-instrument - Joint liabilities - Entity RIAD code",
+  "type_of_relationship" : "ASS",
+  "valid_from" : "1999-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "ANCRDT_ENTTY_INSTRMNT_C_1",
+  "primary_cube_variable_code" : "ENTTY_RIAD_CD",
+  "foreign_cube_id" : "ANCRDT_JNT_LBLTS_C_1",
+  "foreign_cube_variable_code" : "ENTTY_RIAD_CD",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "1",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "false"
+}

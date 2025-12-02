@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_ASST_PL_LN_ASSGNMNT_DRVD_DT_ELDM_1__BIRD_ASST_PL_LN_ASSGNMNT_ELDM_1__ASST_PL_ACCNTNG_CNSLDTN_LVL_1",
+  "code" : "BIRD_ASST_PL_LN_ASSGNMNT_DRVD_DT_ELDM_1__BIRD_ASST_PL_LN_ASSGNMNT_ELDM_1__ASST_PL_ACCNTNG_CNSLDTN_LVL",
+  "name" : "Asset pool Loan assignment may have Asset pool Loan assignment derived data",
+  "description" : "Asset pool Loan assignment has Asset pool Loan assignment derived data",
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_ASST_PL_LN_ASSGNMNT_ELDM_1",
+  "primary_cube_variable_code" : "ASST_PL_ACCNTNG_CNSLDTN_LVL",
+  "foreign_cube_id" : "BIRD_ASST_PL_LN_ASSGNMNT_DRVD_DT_ELDM_1",
+  "foreign_cube_variable_code" : "ASST_PL_ACCNTNG_CNSLDTN_LVL",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "1",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "false"
+}

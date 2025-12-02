@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_CRDT_INSTTTN_DRVD_DT_ELDM_1__BIRD_CRDT_INSTTTN_ELDM_1__CRDT_INSTTTN_ID_1",
+  "code" : "BIRD_CRDT_INSTTTN_DRVD_DT_ELDM_1__BIRD_CRDT_INSTTTN_ELDM_1__CRDT_INSTTTN_ID",
+  "name" : "Credit institution may have Credit institution derived data",
+  "description" : "Credit institution has credit institution derived data",
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_CRDT_INSTTTN_ELDM_1",
+  "primary_cube_variable_code" : "PRTY_ID",
+  "foreign_cube_id" : "BIRD_CRDT_INSTTTN_DRVD_DT_ELDM_1",
+  "foreign_cube_variable_code" : "CRDT_INSTTTN_ID",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "1",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "false"
+}

@@ -9,18 +9,6 @@
   "description" : "Provision type",
   "is_natural" : "false",
   "subdomain_enumeration" : [ {
-    "member_id" : "TYP_ACCNTNG_ITM_1303",
-    "subdomain_id" : "PRVSN_TYP",
-    "valid_from" : "2022-03-01",
-    "valid_to" : "9999-12-31",
-    "order" : "0"
-  }, {
-    "member_id" : "TYP_ACCNTNG_ITM_701",
-    "subdomain_id" : "PRVSN_TYP",
-    "valid_from" : "2022-03-01",
-    "valid_to" : "9999-12-31",
-    "order" : "0"
-  }, {
     "member_id" : "TYP_ACCNTNG_ITM_704",
     "subdomain_id" : "PRVSN_TYP",
     "valid_from" : "2022-03-01",
@@ -34,6 +22,18 @@
     "order" : "0"
   }, {
     "member_id" : "TYP_ACCNTNG_ITM_707",
+    "subdomain_id" : "PRVSN_TYP",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_ACCNTNG_ITM_701",
+    "subdomain_id" : "PRVSN_TYP",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_ACCNTNG_ITM_1303",
     "subdomain_id" : "PRVSN_TYP",
     "valid_from" : "2022-03-01",
     "valid_to" : "9999-12-31",

@@ -13,14 +13,6 @@
   "cube_link_type" : "TR",
   "logical_transformation_rule_id" : "GEN_L__F_35.00.a_REF__01_01_1990",
   "cube_structure_item_link" : [ {
-    "cube_structure_item_link_id" : "GEN_L__F_35.00.a_REF__GEN_L__F_35.00.a_REF__BIRD_SCRTY_PSTN_EIL__1__NMNL_AMNT__NMNL_AMNT",
-    "cube_link_id" : "GEN_L__F_35.00.a_REF__BIRD_SCRTY_PSTN_EIL__1",
-    "foreign_cube_variable_code" : "NMNL_AMNT",
-    "primary_cube_variable_code" : "NMNL_AMNT",
-    "comparator" : "=",
-    "aggregation_function" : "SUM",
-    "member_link" : [ ]
-  }, {
     "cube_structure_item_link_id" : "GEN_L__F_35.00.a_REF__GEN_L__F_35.00.a_REF__BIRD_SCRTY_PSTN_EIL__1__SCRTY_PSTN_RL_TYP__TYP_ACCNTNG_ITM",
     "cube_link_id" : "GEN_L__F_35.00.a_REF__BIRD_SCRTY_PSTN_EIL__1",
     "foreign_cube_variable_code" : "TYP_ACCNTNG_ITM",
@@ -50,5 +42,13 @@
       "valid_to" : "9999-12-31",
       "is_linked" : "true"
     } ]
+  }, {
+    "cube_structure_item_link_id" : "GEN_L__F_35.00.a_REF__GEN_L__F_35.00.a_REF__BIRD_SCRTY_PSTN_EIL__1__NMNL_AMNT__NMNL_AMNT",
+    "cube_link_id" : "GEN_L__F_35.00.a_REF__BIRD_SCRTY_PSTN_EIL__1",
+    "foreign_cube_variable_code" : "NMNL_AMNT",
+    "primary_cube_variable_code" : "NMNL_AMNT",
+    "comparator" : "=",
+    "aggregation_function" : "SUM",
+    "member_link" : [ ]
   } ]
 }

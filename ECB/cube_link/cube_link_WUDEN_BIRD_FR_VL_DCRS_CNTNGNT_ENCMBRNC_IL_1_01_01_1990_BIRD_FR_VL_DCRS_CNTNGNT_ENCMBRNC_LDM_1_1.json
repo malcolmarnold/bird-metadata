@@ -2,7 +2,7 @@
   "maintenance_agency_id" : "ECB",
   "cube_link_id" : "WUDEN__BIRD_FR_VL_DCRS_CNTNGNT_ENCMBRNC_IL_1__01_01_1990__BIRD_FR_VL_DCRS_CNTNGNT_ENCMBRNC_LDM_1__1",
   "code" : "WUDEN__BIRD_FR_VL_DCRS_CNTNGNT_ENCMBRNC_IL_1__01_01_1990__BIRD_FR_VL_DCRS_CNTNGNT_ENCMBRNC_LDM_1",
-  "name" : "The LDM: 30% Fair value decrease contingent encumbrance (BIRD_FR_VL_DCRS_CNTNGNT_ENCMBRNC_LDM) is forward engineered into the IL: 30% Fair value decrease contingent encumbrance (BIRD_FR_VL_DCRS_CNTNGNT_ENCMBRNC_IL)",
+  "name" : "The LDM: 30% Fair value decrease contingent encumbrance (BIRD_FR_VL_DCRS_CNTNGNT_ENCMBRNC_ELDM) is forward engineered into the IL: 30% Fair value decrease contingent encumbrance (BIRD_FR_VL_DCRS_CNTNGNT_ENCMBRNC_IL)",
   "description" : null,
   "valid_from" : "1900-01-01",
   "valid_to" : "9999-12-31",
@@ -65,6 +65,38 @@
     "cube_link_id" : "WUDEN__BIRD_FR_VL_DCRS_CNTNGNT_ENCMBRNC_IL_1__01_01_1990__BIRD_FR_VL_DCRS_CNTNGNT_ENCMBRNC_LDM_1__1",
     "foreign_cube_variable_code" : "DRVTVS_ADDTNL_ENCMBRD_CRRYNG_AMNT",
     "primary_cube_variable_code" : "DRVTVS_ADDTNL_ENCMBRD_CRRYNG_AMNT",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_FR_VL_DCRS_CNTNGNT_ENCMBRNC_IL_1__01_01_1990__BIRD_FR_VL_DCRS_CNTNGNT_ENCMBRNC_LDM_1__1__FR_VL_DCRS_CNTNGNT_ENCMBRNC_ACCNTNG_CNSLDTN_LVL__ACCNTNG_CNSLDTN_LVL",
+    "cube_link_id" : "WUDEN__BIRD_FR_VL_DCRS_CNTNGNT_ENCMBRNC_IL_1__01_01_1990__BIRD_FR_VL_DCRS_CNTNGNT_ENCMBRNC_LDM_1__1",
+    "foreign_cube_variable_code" : "ACCNTNG_CNSLDTN_LVL",
+    "primary_cube_variable_code" : "FR_VL_DCRS_CNTNGNT_ENCMBRNC_ACCNTNG_CNSLDTN_LVL",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_FR_VL_DCRS_CNTNGNT_ENCMBRNC_IL_1__01_01_1990__BIRD_FR_VL_DCRS_CNTNGNT_ENCMBRNC_LDM_1__1__FR_VL_DCRS_CNTNGNT_ENCMBRNC_ACCNTNG_STNDRD__ACCNTNG_STNDRD",
+    "cube_link_id" : "WUDEN__BIRD_FR_VL_DCRS_CNTNGNT_ENCMBRNC_IL_1__01_01_1990__BIRD_FR_VL_DCRS_CNTNGNT_ENCMBRNC_LDM_1__1",
+    "foreign_cube_variable_code" : "ACCNTNG_STNDRD",
+    "primary_cube_variable_code" : "FR_VL_DCRS_CNTNGNT_ENCMBRNC_ACCNTNG_STNDRD",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_FR_VL_DCRS_CNTNGNT_ENCMBRNC_IL_1__01_01_1990__BIRD_FR_VL_DCRS_CNTNGNT_ENCMBRNC_LDM_1__1__FR_VL_DCRS_CNTNGNT_ENCMBRNC_RFRNC_DT__DT_RFRNC",
+    "cube_link_id" : "WUDEN__BIRD_FR_VL_DCRS_CNTNGNT_ENCMBRNC_IL_1__01_01_1990__BIRD_FR_VL_DCRS_CNTNGNT_ENCMBRNC_LDM_1__1",
+    "foreign_cube_variable_code" : "DT_RFRNC",
+    "primary_cube_variable_code" : "FR_VL_DCRS_CNTNGNT_ENCMBRNC_RFRNC_DT",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_FR_VL_DCRS_CNTNGNT_ENCMBRNC_IL_1__01_01_1990__BIRD_FR_VL_DCRS_CNTNGNT_ENCMBRNC_LDM_1__1__FR_VL_DCRS_CNTNGNT_ENCMBRNC_RPRTNG_AGNT_ID__RPRTNG_AGNT_ID",
+    "cube_link_id" : "WUDEN__BIRD_FR_VL_DCRS_CNTNGNT_ENCMBRNC_IL_1__01_01_1990__BIRD_FR_VL_DCRS_CNTNGNT_ENCMBRNC_LDM_1__1",
+    "foreign_cube_variable_code" : "RPRTNG_AGNT_ID",
+    "primary_cube_variable_code" : "FR_VL_DCRS_CNTNGNT_ENCMBRNC_RPRTNG_AGNT_ID",
     "comparator" : null,
     "aggregation_function" : null,
     "member_link" : [ ]

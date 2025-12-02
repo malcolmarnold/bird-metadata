@@ -9,6 +9,18 @@
   "description" : "Full list of the Security Guarantee level (Input Layer)",
   "is_natural" : "false",
   "subdomain_enumeration" : [ {
+    "member_id" : "SCRTY_GRNT_LVL_2",
+    "subdomain_id" : "SCRTY_GRNT_LVL_INPT",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "SCRTY_GRNT_LVL_9",
+    "subdomain_id" : "SCRTY_GRNT_LVL_INPT",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
     "member_id" : "SCRTY_GRNT_LVL_0",
     "subdomain_id" : "SCRTY_GRNT_LVL_INPT",
     "valid_from" : "2022-03-01",
@@ -21,19 +33,7 @@
     "valid_to" : "9999-12-31",
     "order" : "0"
   }, {
-    "member_id" : "SCRTY_GRNT_LVL_2",
-    "subdomain_id" : "SCRTY_GRNT_LVL_INPT",
-    "valid_from" : "2022-03-01",
-    "valid_to" : "9999-12-31",
-    "order" : "0"
-  }, {
     "member_id" : "SCRTY_GRNT_LVL_8",
-    "subdomain_id" : "SCRTY_GRNT_LVL_INPT",
-    "valid_from" : "2022-03-01",
-    "valid_to" : "9999-12-31",
-    "order" : "0"
-  }, {
-    "member_id" : "SCRTY_GRNT_LVL_9",
     "subdomain_id" : "SCRTY_GRNT_LVL_INPT",
     "valid_from" : "2022-03-01",
     "valid_to" : "9999-12-31",

@@ -13,21 +13,6 @@
   "cube_link_type" : "TR",
   "logical_transformation_rule_id" : "GEN_L__F_06.01_REF__01_01_1990",
   "cube_structure_item_link" : [ {
-    "cube_structure_item_link_id" : "GEN_L__F_06.01_REF__GEN_L__F_06.01_REF__BIRD_SCRTY_PSTN_EIL__1__DFLT_STTS_DRVD__DFLT_STTS",
-    "cube_link_id" : "GEN_L__F_06.01_REF__BIRD_SCRTY_PSTN_EIL__1",
-    "foreign_cube_variable_code" : "DFLT_STTS",
-    "primary_cube_variable_code" : "DFLT_STTS_DRVD",
-    "comparator" : "=",
-    "aggregation_function" : null,
-    "member_link" : [ {
-      "cube_structure_item_link_id" : "GEN_L__F_06.01_REF__GEN_L__F_06.01_REF__BIRD_SCRTY_PSTN_EIL__1__DFLT_STTS_DRVD__DFLT_STTS",
-      "foreign_member_id" : "CRDT_QLTY_6",
-      "primary_member_id" : "CRDT_QLTY_6",
-      "valid_from" : "1990-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    } ]
-  }, {
     "cube_structure_item_link_id" : "GEN_L__F_06.01_REF__GEN_L__F_06.01_REF__BIRD_SCRTY_PSTN_EIL__1__SCRTY_PSTN_RL_TYP__TYP_ACCNTNG_ITM",
     "cube_link_id" : "GEN_L__F_06.01_REF__BIRD_SCRTY_PSTN_EIL__1",
     "foreign_cube_variable_code" : "TYP_ACCNTNG_ITM",
@@ -38,6 +23,21 @@
       "cube_structure_item_link_id" : "GEN_L__F_06.01_REF__GEN_L__F_06.01_REF__BIRD_SCRTY_PSTN_EIL__1__SCRTY_PSTN_RL_TYP__TYP_ACCNTNG_ITM",
       "foreign_member_id" : "TYP_ACCNTNG_ITM_40",
       "primary_member_id" : "SCRTY_PSTN_RL_TYP_1",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    } ]
+  }, {
+    "cube_structure_item_link_id" : "GEN_L__F_06.01_REF__GEN_L__F_06.01_REF__BIRD_SCRTY_PSTN_EIL__1__DFLT_STTS_DRVD__DFLT_STTS",
+    "cube_link_id" : "GEN_L__F_06.01_REF__BIRD_SCRTY_PSTN_EIL__1",
+    "foreign_cube_variable_code" : "DFLT_STTS",
+    "primary_cube_variable_code" : "DFLT_STTS_DRVD",
+    "comparator" : "=",
+    "aggregation_function" : null,
+    "member_link" : [ {
+      "cube_structure_item_link_id" : "GEN_L__F_06.01_REF__GEN_L__F_06.01_REF__BIRD_SCRTY_PSTN_EIL__1__DFLT_STTS_DRVD__DFLT_STTS",
+      "foreign_member_id" : "CRDT_QLTY_6",
+      "primary_member_id" : "CRDT_QLTY_6",
       "valid_from" : "1990-01-01",
       "valid_to" : "9999-12-31",
       "is_linked" : "true"

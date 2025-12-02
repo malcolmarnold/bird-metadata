@@ -8,22 +8,6 @@
   "valid_to" : "9999-12-31",
   "version" : "1",
   "cube_structure_item" : [ {
-    "cube_structure_item_id" : "BIRD_LGL_PRSN_LDM_1__PRTY_RPRTNG_AGNT_ID",
-    "cube_structure_id" : "BIRD_LGL_PRSN_LDM_1",
-    "cube_variable_code" : "PRTY_RPRTNG_AGNT_ID",
-    "variable_id" : "PRTY_RPRTNG_AGNT_ID",
-    "role" : "D",
-    "order" : "1",
-    "subdomain_id" : "STRNG_RSTRCTD_ID",
-    "variable_set_id" : null,
-    "member_id" : null,
-    "dimension_type" : null,
-    "attribute_associated_variable" : null,
-    "is_flow" : "false",
-    "is_mandatory" : "true",
-    "description" : "Identifier of the reporting agent.",
-    "is_implemented" : "true"
-  }, {
     "cube_structure_item_id" : "BIRD_LGL_PRSN_LDM_1__LGL_PRSN_TYP",
     "cube_structure_id" : "BIRD_LGL_PRSN_LDM_1",
     "cube_variable_code" : "LGL_PRSN_TYP",
@@ -38,6 +22,38 @@
     "is_flow" : "false",
     "is_mandatory" : "true",
     "description" : "A discriminator to distinguish between different type of legal persons, e.g. assigned debtor.",
+    "is_implemented" : "true"
+  }, {
+    "cube_structure_item_id" : "BIRD_LGL_PRSN_LDM_1__PLLNG_EFFCT_INDCTR",
+    "cube_structure_id" : "BIRD_LGL_PRSN_LDM_1",
+    "cube_variable_code" : "PLLNG_EFFCT_INDCTR",
+    "variable_id" : "PLLNG_EFFCT_INDCTR",
+    "role" : "O",
+    "order" : "6",
+    "subdomain_id" : "PLLNG_EFFCT_INDCTR",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "true",
+    "description" : "An indicator specifying if the pulling effect is applied.",
+    "is_implemented" : "true"
+  }, {
+    "cube_structure_item_id" : "BIRD_LGL_PRSN_LDM_1__PRTY_ACCNTNG_CNSLDTN_LVL",
+    "cube_structure_id" : "BIRD_LGL_PRSN_LDM_1",
+    "cube_variable_code" : "PRTY_ACCNTNG_CNSLDTN_LVL",
+    "variable_id" : "PRTY_ACCNTNG_CNSLDTN_LVL",
+    "role" : "D",
+    "order" : "2",
+    "subdomain_id" : "ACCNTNG_CNSLDTN_LVL",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "true",
+    "description" : "Accounting consolidation level is the level on which the accounting is consolidated, Solo or group.",
     "is_implemented" : "true"
   }, {
     "cube_structure_item_id" : "BIRD_LGL_PRSN_LDM_1__PRTY_ACCNTNG_STNDRD",
@@ -72,38 +88,6 @@
     "description" : "An identifier that uniquely identifies a party.",
     "is_implemented" : "true"
   }, {
-    "cube_structure_item_id" : "BIRD_LGL_PRSN_LDM_1__PRTY_ACCNTNG_CNSLDTN_LVL",
-    "cube_structure_id" : "BIRD_LGL_PRSN_LDM_1",
-    "cube_variable_code" : "PRTY_ACCNTNG_CNSLDTN_LVL",
-    "variable_id" : "PRTY_ACCNTNG_CNSLDTN_LVL",
-    "role" : "D",
-    "order" : "2",
-    "subdomain_id" : "ACCNTNG_CNSLDTN_LVL",
-    "variable_set_id" : null,
-    "member_id" : null,
-    "dimension_type" : null,
-    "attribute_associated_variable" : null,
-    "is_flow" : "false",
-    "is_mandatory" : "true",
-    "description" : "Accounting consolidation level is the level on which the accounting is consolidated, Solo or group.",
-    "is_implemented" : "true"
-  }, {
-    "cube_structure_item_id" : "BIRD_LGL_PRSN_LDM_1__PLLNG_EFFCT_INDCTR",
-    "cube_structure_id" : "BIRD_LGL_PRSN_LDM_1",
-    "cube_variable_code" : "PLLNG_EFFCT_INDCTR",
-    "variable_id" : "PLLNG_EFFCT_INDCTR",
-    "role" : "O",
-    "order" : "6",
-    "subdomain_id" : "PLLNG_EFFCT_INDCTR",
-    "variable_set_id" : null,
-    "member_id" : null,
-    "dimension_type" : null,
-    "attribute_associated_variable" : null,
-    "is_flow" : "false",
-    "is_mandatory" : "true",
-    "description" : "An indicator specifying if the pulling effect is applied.",
-    "is_implemented" : "true"
-  }, {
     "cube_structure_item_id" : "BIRD_LGL_PRSN_LDM_1__PRTY_RFRNC_DT",
     "cube_structure_id" : "BIRD_LGL_PRSN_LDM_1",
     "cube_variable_code" : "PRTY_RFRNC_DT",
@@ -118,6 +102,22 @@
     "is_flow" : "false",
     "is_mandatory" : "true",
     "description" : "The date the data refers to.",
+    "is_implemented" : "true"
+  }, {
+    "cube_structure_item_id" : "BIRD_LGL_PRSN_LDM_1__PRTY_RPRTNG_AGNT_ID",
+    "cube_structure_id" : "BIRD_LGL_PRSN_LDM_1",
+    "cube_variable_code" : "PRTY_RPRTNG_AGNT_ID",
+    "variable_id" : "PRTY_RPRTNG_AGNT_ID",
+    "role" : "D",
+    "order" : "1",
+    "subdomain_id" : "STRNG_RSTRCTD_ID",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "true",
+    "description" : "Identifier of the reporting agent.",
     "is_implemented" : "true"
   } ]
 }

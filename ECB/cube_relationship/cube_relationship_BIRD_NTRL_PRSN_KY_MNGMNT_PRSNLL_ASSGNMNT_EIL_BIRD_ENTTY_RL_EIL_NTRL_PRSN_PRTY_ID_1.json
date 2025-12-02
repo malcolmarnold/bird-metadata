@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_NTRL_PRSN_KY_MNGMNT_PRSNLL_ASSGNMNT_EIL__BIRD_ENTTY_RL_EIL__NTRL_PRSN_PRTY_ID_1",
+  "code" : "BIRD_NTRL_PRSN_KY_MNGMNT_PRSNLL_ASSGNMNT_EIL_1__BIRD_ENTTY_RL_EIL_1__NTRL_PRSN_PRTY_ID",
+  "name" : "Entity role has many Natural person Key management personnel assignment",
+  "description" : null,
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_ENTTY_RL_EIL_1",
+  "primary_cube_variable_code" : "PRTY_ID",
+  "foreign_cube_id" : "BIRD_NTRL_PRSN_KY_MNGMNT_PRSNLL_ASSGNMNT_EIL_1",
+  "foreign_cube_variable_code" : "NTRL_PRSN_PRTY_ID",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "true"
+}

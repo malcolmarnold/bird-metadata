@@ -17,15 +17,6 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "EBA_MC124",
-    "member_id" : "EBA_MC_EBA_x99",
-    "level" : "2",
-    "parent_member_id" : "EBA_MC_EBA_x156",
-    "comparator" : "=",
-    "operator" : "+",
-    "valid_from" : "2013-12-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "EBA_MC124",
     "member_id" : "EBA_MC_EBA_x172",
     "level" : "2",
     "parent_member_id" : "EBA_MC_EBA_x156",
@@ -39,6 +30,15 @@
     "level" : "2",
     "parent_member_id" : "EBA_MC_EBA_x156",
     "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC124",
+    "member_id" : "EBA_MC_EBA_x99",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x156",
+    "comparator" : "=",
     "operator" : "+",
     "valid_from" : "2013-12-01",
     "valid_to" : "9999-12-31"

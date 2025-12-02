@@ -20,5 +20,13 @@
     "comparator" : "=",
     "aggregation_function" : "SUM",
     "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "GEN_L__F_40.02_REF__GEN_L__F_40.02_REF__BIRD_OTHR_PRTY_ID_EIL__1__OTHR_PRTY_CD__HLDNG_ENTTY_CD",
+    "cube_link_id" : "GEN_L__F_40.02_REF__BIRD_OTHR_PRTY_ID_EIL__1",
+    "foreign_cube_variable_code" : "HLDNG_ENTTY_CD",
+    "primary_cube_variable_code" : "OTHR_PRTY_CD",
+    "comparator" : "=",
+    "aggregation_function" : "SUM",
+    "member_link" : [ ]
   } ]
 }

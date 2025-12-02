@@ -8,22 +8,6 @@
   "valid_to" : "9999-12-31",
   "version" : "1",
   "cube_structure_item" : [ {
-    "cube_structure_item_id" : "BIRD_DLT_SNSTVTY_LDM_1__DLT_SNSTVTY",
-    "cube_structure_id" : "BIRD_DLT_SNSTVTY_LDM_1",
-    "cube_variable_code" : "DLT_SNSTVTY",
-    "variable_id" : "DLT_SNSTVTY",
-    "role" : "O",
-    "order" : "1",
-    "subdomain_id" : "RL_ALL_2D",
-    "variable_set_id" : null,
-    "member_id" : null,
-    "dimension_type" : null,
-    "attribute_associated_variable" : null,
-    "is_flow" : "false",
-    "is_mandatory" : "true",
-    "description" : "An amount interprted in the curency of record, e.g. 100 dollars.",
-    "is_implemented" : "true"
-  }, {
     "cube_structure_item_id" : "BIRD_DLT_SNSTVTY_LDM_1__CRRNCY_RCRD",
     "cube_structure_id" : "BIRD_DLT_SNSTVTY_LDM_1",
     "cube_variable_code" : "CRRNCY_RCRD",
@@ -38,6 +22,22 @@
     "is_flow" : "false",
     "is_mandatory" : "true",
     "description" : "Currency of record is the currency in which the vega sensitivity risk is measured.",
+    "is_implemented" : "true"
+  }, {
+    "cube_structure_item_id" : "BIRD_DLT_SNSTVTY_LDM_1__DLT_SNSTVTY",
+    "cube_structure_id" : "BIRD_DLT_SNSTVTY_LDM_1",
+    "cube_variable_code" : "DLT_SNSTVTY",
+    "variable_id" : "DLT_SNSTVTY",
+    "role" : "O",
+    "order" : "1",
+    "subdomain_id" : "RL_ALL_2D",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "true",
+    "description" : "An amount interprted in the curency of record, e.g. 100 dollars.",
     "is_implemented" : "true"
   }, {
     "cube_structure_item_id" : "BIRD_DLT_SNSTVTY_LDM_1__TNR",

@@ -44,19 +44,19 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_4",
-    "member_id" : "INSTTTNL_SCTR_S12_K",
+    "member_id" : "INSTTTNL_SCTR_S1_E",
     "level" : "2",
     "parent_member_id" : "INSTTTNL_SCTR_S1_E1",
-    "comparator" : null,
+    "comparator" : "=",
     "operator" : "+",
     "valid_from" : "1900-01-01",
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_4",
-    "member_id" : "INSTTTNL_SCTR_S1_E",
+    "member_id" : "INSTTTNL_SCTR_S12_K",
     "level" : "2",
     "parent_member_id" : "INSTTTNL_SCTR_S1_E1",
-    "comparator" : "=",
+    "comparator" : null,
     "operator" : "+",
     "valid_from" : "1900-01-01",
     "valid_to" : "9999-12-31"

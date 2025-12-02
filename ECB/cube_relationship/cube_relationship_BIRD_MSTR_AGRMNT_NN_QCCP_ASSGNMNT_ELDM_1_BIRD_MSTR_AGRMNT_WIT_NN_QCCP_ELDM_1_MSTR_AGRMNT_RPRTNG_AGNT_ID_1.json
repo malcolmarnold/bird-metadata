@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_MSTR_AGRMNT_NN_QCCP_ASSGNMNT_ELDM_1__BIRD_MSTR_AGRMNT_WIT_NN_QCCP_ELDM_1__MSTR_AGRMNT_RPRTNG_AGNT_ID_1",
+  "code" : "BIRD_MSTR_AGRMNT_NN_QCCP_ASSGNMNT_ELDM_1__BIRD_MSTR_AGRMNT_WIT_NN_QCCP_ELDM_1__MSTR_AGRMNT_RPRTNG_AGNT_ID",
+  "name" : "Master agreement with a non-qualified central counterparty may have Master agreement Non-qualifying central counterparty assignment",
+  "description" : "Master agreement with a non-qualified central counterparty involves Non-qualified central counterparty via Master agreement Non-qualifying central counterparty assignment",
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_MSTR_AGRMNT_WIT_NN_QCCP_ELDM_1",
+  "primary_cube_variable_code" : "MSTR_AGRMNT_RPRTNG_AGNT_ID",
+  "foreign_cube_id" : "BIRD_MSTR_AGRMNT_NN_QCCP_ASSGNMNT_ELDM_1",
+  "foreign_cube_variable_code" : "MSTR_AGRMNT_RPRTNG_AGNT_ID",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "1",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "true"
+}

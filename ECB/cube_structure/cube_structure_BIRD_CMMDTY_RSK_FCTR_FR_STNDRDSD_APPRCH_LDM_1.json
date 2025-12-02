@@ -3,27 +3,11 @@
   "cube_structure_id" : "BIRD_CMMDTY_RSK_FCTR_FR_STNDRDSD_APPRCH_LDM_1",
   "name" : "Commodity risk factor for standardised approach",
   "code" : "BIRD_CMMDTY_RSK_FCTR_FR_STNDRDSD_APPRCH_LDM",
-  "description" : "(1)\t\nDelta commodity: the commodity delta risk factors are all the commodity spot prices. However for some commodities such as electricity (which is defined to fall within bucket 3 (energy – electricity and carbon trading) in MAR21.82 the relevant risk factor can either be the spot or the forward price, as transactions relating to commodities such as electricity are more frequent on the forward price than transactions on the spot price. Commodity delta risk factors are defined along two dimensions:\n\n(a)\t\nlegal terms with respect to the delivery location6 of the commodity; and\n\n(b)\t\ntime to maturity of the traded instrument at the following tenors: 0 years, 0.25 years, 0.5 years, 1 year, 2 years, 3 years, 5 years, 10 years, 15 years, 20 years and 30 years.\n\n(2)\t\nVega commodity: the commodity vega risk factors are the implied volatilities of options that reference commodity spot prices as underlyings. No differentiation between commodity spot prices by the maturity of the underlying or delivery location is required. The commodity vega risk factors are further defined along one dimension, the maturity of the option. This is defined as the implied volatility of the option as mapped to one or several of the following maturity tenors: 0.5 years, 1 year, 3 years, 5 years and 10 years.\n\n(3)\t\nCurvature commodity: the commodity curvature risk factors are defined along only one dimension, the constructed curve (ie no term structure decomposition) per commodity spot prices. For the calculation of sensitivities, all tenors (as defined for delta commodity) are to be shifted in parallel.",
+  "description" : "The commodity risk factor for SA is a risk factor that takes into account the instrument's sensitivity to each type of commodity. (Article 325p) - Regulation (EU) No 575/2013 of the European Parliament and of the Council (CRR)",
   "valid_from" : "2023-07-01",
   "valid_to" : "9999-12-31",
   "version" : "1",
   "cube_structure_item" : [ {
-    "cube_structure_item_id" : "BIRD_CMMDTY_RSK_FCTR_FR_STNDRDSD_APPRCH_LDM_1__DLVRY_LCTN",
-    "cube_structure_id" : "BIRD_CMMDTY_RSK_FCTR_FR_STNDRDSD_APPRCH_LDM_1",
-    "cube_variable_code" : "DLVRY_LCTN",
-    "variable_id" : "DLVRY_LCTN",
-    "role" : "O",
-    "order" : "1",
-    "subdomain_id" : "STRNG_RSTRCTD_ID",
-    "variable_set_id" : null,
-    "member_id" : null,
-    "dimension_type" : null,
-    "attribute_associated_variable" : null,
-    "is_flow" : "false",
-    "is_mandatory" : "false",
-    "description" : "The delivery location related to the commodity Risk factor, typically the delivery location of a deliverable commodity future.",
-    "is_implemented" : "true"
-  }, {
     "cube_structure_item_id" : "BIRD_CMMDTY_RSK_FCTR_FR_STNDRDSD_APPRCH_LDM_1__CMMDTY_TYP",
     "cube_structure_id" : "BIRD_CMMDTY_RSK_FCTR_FR_STNDRDSD_APPRCH_LDM_1",
     "cube_variable_code" : "CMMDTY_TYP",
@@ -38,6 +22,22 @@
     "is_flow" : "false",
     "is_mandatory" : "true",
     "description" : "The type of commodity, taken from Commodity Type Domain",
+    "is_implemented" : "true"
+  }, {
+    "cube_structure_item_id" : "BIRD_CMMDTY_RSK_FCTR_FR_STNDRDSD_APPRCH_LDM_1__DLVRY_LCTN",
+    "cube_structure_id" : "BIRD_CMMDTY_RSK_FCTR_FR_STNDRDSD_APPRCH_LDM_1",
+    "cube_variable_code" : "DLVRY_LCTN",
+    "variable_id" : "DLVRY_LCTN",
+    "role" : "O",
+    "order" : "1",
+    "subdomain_id" : "STRNG_RSTRCTD_ID",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "false",
+    "description" : "The delivery location related to the commodity Risk factor, typically the delivery location of a deliverable commodity future.",
     "is_implemented" : "true"
   } ]
 }

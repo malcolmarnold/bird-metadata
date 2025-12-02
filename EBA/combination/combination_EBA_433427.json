@@ -1,23 +1,41 @@
 {
   "combination_id" : "EBA_433427",
-  "code" : "433427",
-  "name" : "EBA_APL(EBA_PL_EBA_x491)|EBA_ATY(EBA_mi66)|EBA_BAS(EBA_BA_EBA_x6)|EBA_FLT(EBA_MC_EBA_x0)|EBA_FLW(EBA_MC_EBA_x0)|EBA_MCY(EBA_MC_EBA_x25)|EBA_POV(EBA_RF_EBA_x0)|EBA_REF(EBA_RF_EBA_x0)|EBA_TIE(EBA_TI_EBA_x23)",
+  "code" : "EBA_433427",
+  "name" : "EBA datapoint: EBA_433427",
   "maintenance_agency_id" : "EBA",
-  "version" : "FINREP 2.9",
-  "valid_from" : "2020-06-30",
+  "version" : "1",
+  "valid_from" : "2024-08-31",
   "valid_to" : "9999-12-31",
   "combination_item" : [ {
     "combination_id" : "EBA_433427",
-    "variable_id" : "EBA_MCY",
-    "subdomain_id" : null,
+    "variable_id" : "EBA_Unit",
+    "subdomain_id" : "EBA_9060459832829800078",
     "variable_set_id" : null,
-    "member_id" : "EBA_MC_EBA_x25"
+    "member_id" : null
   }, {
     "combination_id" : "EBA_433427",
-    "variable_id" : "EBA_BAS",
+    "variable_id" : "EBA_Observation_Value",
+    "subdomain_id" : "EBA_9060459832829800078",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "EBA_433427",
+    "variable_id" : "EBA_Reported_Period",
+    "subdomain_id" : "EBA_11035014428738272585",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "EBA_433427",
+    "variable_id" : "EBA_Entity_Id",
+    "subdomain_id" : "EBA_9060459832829800078",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "EBA_433427",
+    "variable_id" : "EBA_FLW",
     "subdomain_id" : null,
     "variable_set_id" : null,
-    "member_id" : "EBA_BA_EBA_x6"
+    "member_id" : "EBA_MC_EBA_x0"
   }, {
     "combination_id" : "EBA_433427",
     "variable_id" : "EBA_REF",
@@ -32,33 +50,39 @@
     "member_id" : "EBA_MC_EBA_x0"
   }, {
     "combination_id" : "EBA_433427",
-    "variable_id" : "EBA_FLW",
-    "subdomain_id" : null,
-    "variable_set_id" : null,
-    "member_id" : "EBA_MC_EBA_x0"
-  }, {
-    "combination_id" : "EBA_433427",
     "variable_id" : "EBA_POV",
     "subdomain_id" : null,
     "variable_set_id" : null,
     "member_id" : "EBA_RF_EBA_x0"
   }, {
     "combination_id" : "EBA_433427",
-    "variable_id" : "EBA_Unit",
-    "subdomain_id" : "EBA_9060459832829800078",
+    "variable_id" : "EBA_MCB",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "EBA_MC_EBA_x0"
+  }, {
+    "combination_id" : "EBA_433427",
+    "variable_id" : "EBA_ENTITY_ID",
+    "subdomain_id" : "EBA_STRNG",
     "variable_set_id" : null,
     "member_id" : null
   }, {
     "combination_id" : "EBA_433427",
-    "variable_id" : "EBA_Observation_Value",
-    "subdomain_id" : "EBA_9060459832829800078",
+    "variable_id" : "EBA_REFERENCE_PERIOD",
+    "subdomain_id" : "EBA_DT",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "EBA_433427",
+    "variable_id" : "EBA_CONS_LEVEL",
+    "subdomain_id" : "EBA_CONS_LEVEL",
     "variable_set_id" : null,
     "member_id" : null
   }, {
     "combination_id" : "EBA_433427",
     "variable_id" : "EBA_ATY",
     "subdomain_id" : null,
-    "variable_set_id" : "EBA_7609207427873815892",
+    "variable_set_id" : "ECB6_EBA_433427",
     "member_id" : null
   }, {
     "combination_id" : "EBA_433427",
@@ -68,20 +92,26 @@
     "member_id" : "EBA_PL_EBA_x491"
   }, {
     "combination_id" : "EBA_433427",
+    "variable_id" : "EBA_BAS",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "EBA_BA_EBA_x6"
+  }, {
+    "combination_id" : "EBA_433427",
+    "variable_id" : "EBA_MCY",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "EBA_MC_EBA_x25"
+  }, {
+    "combination_id" : "EBA_433427",
     "variable_id" : "EBA_TIE",
     "subdomain_id" : null,
     "variable_set_id" : null,
     "member_id" : "EBA_TI_EBA_x23"
   }, {
     "combination_id" : "EBA_433427",
-    "variable_id" : "EBA_Reported_Period",
-    "subdomain_id" : "EBA_11035014428738272585",
-    "variable_set_id" : null,
-    "member_id" : null
-  }, {
-    "combination_id" : "EBA_433427",
-    "variable_id" : "EBA_Entity_Id",
-    "subdomain_id" : "EBA_9060459832829800078",
+    "variable_id" : "EBA_VALUE_DECIMAL",
+    "subdomain_id" : "EBA_Decimal",
     "variable_set_id" : null,
     "member_id" : null
   } ]

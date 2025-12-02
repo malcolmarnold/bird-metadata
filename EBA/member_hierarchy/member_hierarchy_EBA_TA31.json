@@ -8,15 +8,6 @@
   "is_main_hierarchy" : "false",
   "member_hierarchy_node" : [ {
     "member_hierarchy_id" : "EBA_TA31",
-    "member_id" : "EBA_TA_EBA_x115",
-    "level" : "1",
-    "parent_member_id" : null,
-    "comparator" : "=",
-    "operator" : null,
-    "valid_from" : "2020-12-31",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "EBA_TA31",
     "member_id" : "EBA_TA_EBA_x114",
     "level" : "1",
     "parent_member_id" : null,
@@ -35,11 +26,11 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "EBA_TA31",
-    "member_id" : "EBA_TA_EBA_x117",
-    "level" : "2",
-    "parent_member_id" : "EBA_TA_EBA_x115",
+    "member_id" : "EBA_TA_EBA_x115",
+    "level" : "1",
+    "parent_member_id" : null,
     "comparator" : "=",
-    "operator" : "+",
+    "operator" : null,
     "valid_from" : "2020-12-31",
     "valid_to" : "9999-12-31"
   }, {
@@ -53,18 +44,18 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "EBA_TA31",
-    "member_id" : "EBA_TA_EBA_x118",
-    "level" : "3",
-    "parent_member_id" : "EBA_TA_EBA_x117",
-    "comparator" : null,
+    "member_id" : "EBA_TA_EBA_x117",
+    "level" : "2",
+    "parent_member_id" : "EBA_TA_EBA_x115",
+    "comparator" : "=",
     "operator" : "+",
     "valid_from" : "2020-12-31",
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "EBA_TA31",
-    "member_id" : "EBA_TA_EBA_x119",
+    "member_id" : "EBA_TA_EBA_x122",
     "level" : "3",
-    "parent_member_id" : "EBA_TA_EBA_x117",
+    "parent_member_id" : "EBA_TA_EBA_x120",
     "comparator" : null,
     "operator" : "+",
     "valid_from" : "2020-12-31",
@@ -80,9 +71,18 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "EBA_TA31",
-    "member_id" : "EBA_TA_EBA_x122",
+    "member_id" : "EBA_TA_EBA_x119",
     "level" : "3",
-    "parent_member_id" : "EBA_TA_EBA_x120",
+    "parent_member_id" : "EBA_TA_EBA_x117",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2020-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_TA31",
+    "member_id" : "EBA_TA_EBA_x118",
+    "level" : "3",
+    "parent_member_id" : "EBA_TA_EBA_x117",
     "comparator" : null,
     "operator" : "+",
     "valid_from" : "2020-12-31",

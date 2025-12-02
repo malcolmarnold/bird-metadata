@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_BLNC_SHT_RCGNSD_EXCHNG_TRDBL_DRVTV_ASST_PSTN_TKN_PSSSSN_DRVD_DT_ELDM_1__BIRD_BLNC_SHT_RCGNSD_EXCHNG_TRDBL_DRVTV_ASST_PSTN_TKN_PSSSSN_ELDM_1__SLLR_RFRNC_DT_1",
+  "code" : "BIRD_BLNC_SHT_RCGNSD_EXCHNG_TRDBL_DRVTV_ASST_PSTN_TKN_PSSSSN_DRVD_DT_ELDM_1__BIRD_BLNC_SHT_RCGNSD_EXCHNG_TRDBL_DRVTV_ASST_PSTN_TKN_PSSSSN_ELDM_1__SLLR_RFRNC_DT",
+  "name" : "Balance sheet recognised exchange tradable derivative asset position taken into possession may have Balance sheet recognised exchange tradable derivative asset position taken into possession derived data",
+  "description" : "Balance sheet recognised exchange tradable derivative asset position taken into possession has Balance sheet recognised exchange tradable derivative asset position taken into possession derived data",
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_BLNC_SHT_RCGNSD_EXCHNG_TRDBL_DRVTV_ASST_PSTN_TKN_PSSSSN_ELDM_1",
+  "primary_cube_variable_code" : "DT_RFRNC",
+  "foreign_cube_id" : "BIRD_BLNC_SHT_RCGNSD_EXCHNG_TRDBL_DRVTV_ASST_PSTN_TKN_PSSSSN_DRVD_DT_ELDM_1",
+  "foreign_cube_variable_code" : "SLLR_RFRNC_DT",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "1",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "false"
+}

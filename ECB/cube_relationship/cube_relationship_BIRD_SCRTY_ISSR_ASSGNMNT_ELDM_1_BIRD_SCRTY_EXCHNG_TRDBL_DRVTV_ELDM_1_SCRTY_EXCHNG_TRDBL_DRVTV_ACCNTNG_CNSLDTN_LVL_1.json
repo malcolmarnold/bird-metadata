@@ -2,8 +2,8 @@
   "maintenance_agency_id" : "ECB",
   "cube_relationship_id" : "BIRD_SCRTY_ISSR_ASSGNMNT_ELDM_1__BIRD_SCRTY_EXCHNG_TRDBL_DRVTV_ELDM_1__SCRTY_EXCHNG_TRDBL_DRVTV_ACCNTNG_CNSLDTN_LVL_1",
   "code" : "BIRD_SCRTY_ISSR_ASSGNMNT_ELDM_1__BIRD_SCRTY_EXCHNG_TRDBL_DRVTV_ELDM_1__SCRTY_EXCHNG_TRDBL_DRVTV_ACCNTNG_CNSLDTN_LVL",
-  "name" : "Security and exchange tradable derivative may have Security Issuer assignment",
-  "description" : "Security and exchange tradable derivative is issued by Issuer via Security Issuer assignment",
+  "name" : "Security and exchange tradable derivative may have many Security Issuer assignment",
+  "description" : "Security and exchange tradable derivative is issued by Issuer(s) via Security Issuer assignment",
   "type_of_relationship" : "ASS",
   "valid_from" : "2023-07-01",
   "valid_to" : "9999-12-31",
@@ -13,7 +13,7 @@
   "foreign_cube_id" : "BIRD_SCRTY_ISSR_ASSGNMNT_ELDM_1",
   "foreign_cube_variable_code" : "SCRTY_EXCHNG_TRDBL_DRVTV_ACCNTNG_CNSLDTN_LVL",
   "primary_cube_cardinality" : "1",
-  "foreign_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
   "primary_cube_mandatoriness" : "true",
-  "foreign_cube_mandatoriness" : "true"
+  "foreign_cube_mandatoriness" : "false"
 }

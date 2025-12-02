@@ -107,15 +107,6 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "TM_INTRVL_HIER_3",
-    "member_id" : "TM_INTRVL_1002",
-    "level" : "3",
-    "parent_member_id" : "TM_INTRVL_73",
-    "comparator" : null,
-    "operator" : "+",
-    "valid_from" : "1900-01-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "TM_INTRVL_HIER_3",
     "member_id" : "TM_INTRVL_75",
     "level" : "3",
     "parent_member_id" : "TM_INTRVL_73",
@@ -129,6 +120,15 @@
     "level" : "3",
     "parent_member_id" : "TM_INTRVL_15",
     "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TM_INTRVL_HIER_3",
+    "member_id" : "TM_INTRVL_1002",
+    "level" : "3",
+    "parent_member_id" : "TM_INTRVL_73",
+    "comparator" : null,
     "operator" : "+",
     "valid_from" : "1900-01-01",
     "valid_to" : "9999-12-31"
@@ -170,10 +170,28 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "TM_INTRVL_HIER_3",
+    "member_id" : "TM_INTRVL_37",
+    "level" : "6",
+    "parent_member_id" : "TM_INTRVL_30",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TM_INTRVL_HIER_3",
     "member_id" : "TM_INTRVL_29",
     "level" : "6",
     "parent_member_id" : "TM_INTRVL_30",
     "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TM_INTRVL_HIER_3",
+    "member_id" : "TM_INTRVL_40",
+    "level" : "7",
+    "parent_member_id" : "TM_INTRVL_37",
+    "comparator" : null,
     "operator" : "+",
     "valid_from" : "1900-01-01",
     "valid_to" : "9999-12-31"
@@ -197,28 +215,10 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "TM_INTRVL_HIER_3",
-    "member_id" : "TM_INTRVL_37",
-    "level" : "6",
-    "parent_member_id" : "TM_INTRVL_30",
-    "comparator" : "=",
-    "operator" : "+",
-    "valid_from" : "1900-01-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "TM_INTRVL_HIER_3",
     "member_id" : "TM_INTRVL_36",
     "level" : "7",
     "parent_member_id" : "TM_INTRVL_37",
     "comparator" : "=",
-    "operator" : "+",
-    "valid_from" : "1900-01-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "TM_INTRVL_HIER_3",
-    "member_id" : "TM_INTRVL_84",
-    "level" : "8",
-    "parent_member_id" : "TM_INTRVL_36",
-    "comparator" : null,
     "operator" : "+",
     "valid_from" : "1900-01-01",
     "valid_to" : "9999-12-31"
@@ -233,9 +233,9 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "TM_INTRVL_HIER_3",
-    "member_id" : "TM_INTRVL_40",
-    "level" : "7",
-    "parent_member_id" : "TM_INTRVL_37",
+    "member_id" : "TM_INTRVL_84",
+    "level" : "8",
+    "parent_member_id" : "TM_INTRVL_36",
     "comparator" : null,
     "operator" : "+",
     "valid_from" : "1900-01-01",

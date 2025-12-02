@@ -8,15 +8,6 @@
   "is_main_hierarchy" : "true",
   "member_hierarchy_node" : [ {
     "member_hierarchy_id" : "FRBRNC_MSR_TYP_HIER_1",
-    "member_id" : "FRBRNC_MSR_TYP_-1",
-    "level" : "1",
-    "parent_member_id" : null,
-    "comparator" : "=",
-    "operator" : null,
-    "valid_from" : "1900-01-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "FRBRNC_MSR_TYP_HIER_1",
     "member_id" : "FRBRNC_MSR_TYP_5",
     "level" : "3",
     "parent_member_id" : "FRBRNC_MSR_TYP_9",
@@ -94,6 +85,15 @@
     "parent_member_id" : "FRBRNC_MSR_TYP_2",
     "comparator" : null,
     "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "FRBRNC_MSR_TYP_HIER_1",
+    "member_id" : "FRBRNC_MSR_TYP_-1",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
     "valid_from" : "1900-01-01",
     "valid_to" : "9999-12-31"
   }, {

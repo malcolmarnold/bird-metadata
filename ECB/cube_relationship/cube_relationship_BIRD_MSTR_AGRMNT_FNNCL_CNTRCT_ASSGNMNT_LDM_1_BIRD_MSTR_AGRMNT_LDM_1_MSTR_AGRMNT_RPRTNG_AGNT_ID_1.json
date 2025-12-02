@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_MSTR_AGRMNT_FNNCL_CNTRCT_ASSGNMNT_LDM_1__BIRD_MSTR_AGRMNT_LDM_1__MSTR_AGRMNT_RPRTNG_AGNT_ID_1",
+  "code" : "BIRD_MSTR_AGRMNT_FNNCL_CNTRCT_ASSGNMNT_LDM_1__BIRD_MSTR_AGRMNT_LDM_1__MSTR_AGRMNT_RPRTNG_AGNT_ID",
+  "name" : "Master agreement may have many Master agreement Financial contract assignment",
+  "description" : "Master agreement involves Financial contract(s) via Master agreement Financial contract assignment",
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_MSTR_AGRMNT_LDM_1",
+  "primary_cube_variable_code" : "MSTR_AGRMNT_RPRTNG_AGNT_ID",
+  "foreign_cube_id" : "BIRD_MSTR_AGRMNT_FNNCL_CNTRCT_ASSGNMNT_LDM_1",
+  "foreign_cube_variable_code" : "MSTR_AGRMNT_RPRTNG_AGNT_ID",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "true"
+}

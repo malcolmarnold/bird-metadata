@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_ADVNC_DBTR_ASSGNMNT_LDM_1__BIRD_LN_DBTR_LDM_1__LN_DBTR_RL_TYP_1",
+  "code" : "BIRD_ADVNC_DBTR_ASSGNMNT_LDM_1__BIRD_LN_DBTR_LDM_1__LN_DBTR_RL_TYP",
+  "name" : "Loan debtor may have many Advance Loan debtor assignment",
+  "description" : "Loan debtor is obliged to pay Advance(s) via Advance Loan debtor assignment",
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_LN_DBTR_LDM_1",
+  "primary_cube_variable_code" : "PRTY_RL_TYP",
+  "foreign_cube_id" : "BIRD_ADVNC_DBTR_ASSGNMNT_LDM_1",
+  "foreign_cube_variable_code" : "LN_DBTR_RL_TYP",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "false"
+}

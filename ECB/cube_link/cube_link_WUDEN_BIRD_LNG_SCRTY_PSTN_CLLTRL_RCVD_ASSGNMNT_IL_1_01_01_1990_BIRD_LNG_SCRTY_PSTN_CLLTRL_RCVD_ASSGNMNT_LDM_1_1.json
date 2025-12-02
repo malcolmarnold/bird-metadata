@@ -1,0 +1,152 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1",
+  "code" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1",
+  "name" : "The LDM: Long security position Collateral received assignment (BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_ELDM) is forward engineered into the IL: Long security position Collateral received assignment (BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL)",
+  "description" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "order_relevance" : "1",
+  "primary_cube_id" : "BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1",
+  "foreign_cube_id" : "BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1",
+  "cube_link_type" : "TR",
+  "logical_transformation_rule_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990",
+  "cube_structure_item_link" : [ {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1__ALLCTD_UNSD_CLLTRL_VL__ALLCTD_UNSD_CLLTRL_VL",
+    "cube_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1",
+    "foreign_cube_variable_code" : "ALLCTD_UNSD_CLLTRL_VL",
+    "primary_cube_variable_code" : "ALLCTD_UNSD_CLLTRL_VL",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1__CLLTRL_RCVD_ACCNTNG_CNSLDTN_LVL__ACCNTNG_CNSLDTN_LVL",
+    "cube_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1",
+    "foreign_cube_variable_code" : "ACCNTNG_CNSLDTN_LVL",
+    "primary_cube_variable_code" : "CLLTRL_RCVD_ACCNTNG_CNSLDTN_LVL",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1__CLLTRL_RCVD_ACCNTNG_STNDRD__ACCNTNG_STNDRD",
+    "cube_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1",
+    "foreign_cube_variable_code" : "ACCNTNG_STNDRD",
+    "primary_cube_variable_code" : "CLLTRL_RCVD_ACCNTNG_STNDRD",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1__CLLTRL_RCVD_RFRNC_DT__DT_RFRNC",
+    "cube_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1",
+    "foreign_cube_variable_code" : "DT_RFRNC",
+    "primary_cube_variable_code" : "CLLTRL_RCVD_RFRNC_DT",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1__CLLTRL_RCVD_RPRTNG_AGNT_ID__RPRTNG_AGNT_ID",
+    "cube_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1",
+    "foreign_cube_variable_code" : "RPRTNG_AGNT_ID",
+    "primary_cube_variable_code" : "CLLTRL_RCVD_RPRTNG_AGNT_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1__CLLTRL_RL_TYP__CLLTRL_RL_TYP",
+    "cube_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1",
+    "foreign_cube_variable_code" : "CLLTRL_RL_TYP",
+    "primary_cube_variable_code" : "CLLTRL_RL_TYP",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1__INVSTR_ACCNTNG_CNSLDTN_LVL__ACCNTNG_CNSLDTN_LVL",
+    "cube_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1",
+    "foreign_cube_variable_code" : "ACCNTNG_CNSLDTN_LVL",
+    "primary_cube_variable_code" : "INVSTR_ACCNTNG_CNSLDTN_LVL",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1__INVSTR_ACCNTNG_STNDRD__ACCNTNG_STNDRD",
+    "cube_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1",
+    "foreign_cube_variable_code" : "ACCNTNG_STNDRD",
+    "primary_cube_variable_code" : "INVSTR_ACCNTNG_STNDRD",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1__INVSTR_ID__INVSTR_PRTY_ID",
+    "cube_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1",
+    "foreign_cube_variable_code" : "INVSTR_PRTY_ID",
+    "primary_cube_variable_code" : "INVSTR_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1__INVSTR_RFRNC_DT__DT_RFRNC",
+    "cube_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1",
+    "foreign_cube_variable_code" : "DT_RFRNC",
+    "primary_cube_variable_code" : "INVSTR_RFRNC_DT",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1__INVSTR_RPRTNG_AGNT_ID__RPRTNG_AGNT_ID",
+    "cube_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1",
+    "foreign_cube_variable_code" : "RPRTNG_AGNT_ID",
+    "primary_cube_variable_code" : "INVSTR_RPRTNG_AGNT_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1__LNG_SCRTY_PSTN_SCRTY_ACCNTNG_CNSLDTN_LVL__ACCNTNG_CNSLDTN_LVL",
+    "cube_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1",
+    "foreign_cube_variable_code" : "ACCNTNG_CNSLDTN_LVL",
+    "primary_cube_variable_code" : "LNG_SCRTY_PSTN_SCRTY_ACCNTNG_CNSLDTN_LVL",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1__LNG_SCRTY_PSTN_SCRTY_ACCNTNG_STNDRD__ACCNTNG_STNDRD",
+    "cube_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1",
+    "foreign_cube_variable_code" : "ACCNTNG_STNDRD",
+    "primary_cube_variable_code" : "LNG_SCRTY_PSTN_SCRTY_ACCNTNG_STNDRD",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1__LNG_SCRTY_PSTN_SCRTY_ID__SCRTY_ID",
+    "cube_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1",
+    "foreign_cube_variable_code" : "SCRTY_ID",
+    "primary_cube_variable_code" : "LNG_SCRTY_PSTN_SCRTY_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1__LNG_SCRTY_PSTN_SCRTY_RFRNC_DT__DT_RFRNC",
+    "cube_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1",
+    "foreign_cube_variable_code" : "DT_RFRNC",
+    "primary_cube_variable_code" : "LNG_SCRTY_PSTN_SCRTY_RFRNC_DT",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1__LNG_SCRTY_PSTN_SCRTY_RPRTNG_AGNT_ID__RPRTNG_AGNT_ID",
+    "cube_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1",
+    "foreign_cube_variable_code" : "RPRTNG_AGNT_ID",
+    "primary_cube_variable_code" : "LNG_SCRTY_PSTN_SCRTY_RPRTNG_AGNT_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1__PRTCTN_ALLCTD_VL__PRTCTN_ALLCTD_VL",
+    "cube_link_id" : "WUDEN__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_IL_1__01_01_1990__BIRD_LNG_SCRTY_PSTN_CLLTRL_RCVD_ASSGNMNT_LDM_1__1",
+    "foreign_cube_variable_code" : "PRTCTN_ALLCTD_VL",
+    "primary_cube_variable_code" : "PRTCTN_ALLCTD_VL",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  } ]
+}

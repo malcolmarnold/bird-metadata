@@ -6,7 +6,7 @@
   "name" : "Amounts derecognised for capital purposes derivation rule",
   "code" : "AMNT_DRCGNSD_CPTL_PRPS_TR",
   "description" : "This derivation rule aims to obtain the Amounts derecognised for capital purposes from its building blocks.",
-  "algorithm" : "SET AMNT_DRCGNSD_CPTL_PRPS = \n      CASE\n        WHEN SGNFCNT_RSK_TRNSFR_INDCTR = 1\n        THEN CRRYNG_AMNT\n        ELSE 'N/A'\n      END;",
+  "algorithm" : "SET AMNT_DRCGNSD_CPTL_PRPS = \n  CASE\n    WHEN SGNFCNT_RSK_TRNSFR_INDCTR = 1\n    THEN CRRYNG_AMNT\n    ELSE 'N/A'\n  END;",
   "valid_from" : "2024-02-28",
   "valid_to" : "9999-12-31",
   "logical_transformation_rule" : [ {

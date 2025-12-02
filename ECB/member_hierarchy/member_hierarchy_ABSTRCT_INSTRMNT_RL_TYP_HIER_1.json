@@ -209,7 +209,7 @@
     "member_id" : "ABSTRCT_INSTRMNT_RL_TYP_10",
     "level" : "4",
     "parent_member_id" : "ABSTRCT_INSTRMNT_RL_TYP_3",
-    "comparator" : null,
+    "comparator" : "=",
     "operator" : "+",
     "valid_from" : "1900-01-01",
     "valid_to" : "9999-12-31"
@@ -462,6 +462,24 @@
     "level" : "6",
     "parent_member_id" : "ABSTRCT_INSTRMNT_RL_TYP_26",
     "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ABSTRCT_INSTRMNT_RL_TYP_HIER_1",
+    "member_id" : "ABSTRCT_INSTRMNT_RL_TYP_102",
+    "level" : "5",
+    "parent_member_id" : "ABSTRCT_INSTRMNT_RL_TYP_10",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ABSTRCT_INSTRMNT_RL_TYP_HIER_1",
+    "member_id" : "ABSTRCT_INSTRMNT_RL_TYP_101",
+    "level" : "5",
+    "parent_member_id" : "ABSTRCT_INSTRMNT_RL_TYP_10",
+    "comparator" : null,
     "operator" : "+",
     "valid_from" : "1900-01-01",
     "valid_to" : "9999-12-31"

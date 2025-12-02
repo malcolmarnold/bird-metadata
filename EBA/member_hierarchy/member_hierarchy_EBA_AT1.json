@@ -44,10 +44,10 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "EBA_AT1",
-    "member_id" : "EBA_ATY_EBA_mi90",
+    "member_id" : "EBA_ATY_EBA_mi117",
     "level" : "5",
     "parent_member_id" : "EBA_ATY_EBA_mi132",
-    "comparator" : "<=",
+    "comparator" : "=",
     "operator" : "+",
     "valid_from" : "2013-12-01",
     "valid_to" : "9999-12-31"
@@ -62,16 +62,16 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "EBA_AT1",
-    "member_id" : "EBA_ATY_EBA_mi117",
+    "member_id" : "EBA_ATY_EBA_mi90",
     "level" : "5",
     "parent_member_id" : "EBA_ATY_EBA_mi132",
-    "comparator" : "=",
+    "comparator" : "<=",
     "operator" : "+",
     "valid_from" : "2013-12-01",
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "EBA_AT1",
-    "member_id" : "EBA_ATY_EBA_mi88",
+    "member_id" : "EBA_ATY_EBA_mi100",
     "level" : "6",
     "parent_member_id" : "EBA_ATY_EBA_mi117",
     "comparator" : null,
@@ -80,7 +80,16 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "EBA_AT1",
-    "member_id" : "EBA_ATY_EBA_mi100",
+    "member_id" : "EBA_ATY_EBA_mi102",
+    "level" : "6",
+    "parent_member_id" : "EBA_ATY_EBA_mi90",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT1",
+    "member_id" : "EBA_ATY_EBA_mi88",
     "level" : "6",
     "parent_member_id" : "EBA_ATY_EBA_mi117",
     "comparator" : null,
@@ -98,16 +107,7 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "EBA_AT1",
-    "member_id" : "EBA_ATY_EBA_mi102",
-    "level" : "6",
-    "parent_member_id" : "EBA_ATY_EBA_mi90",
-    "comparator" : null,
-    "operator" : "+",
-    "valid_from" : "2013-12-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "member_hierarchy_id" : "EBA_AT1",
-    "member_id" : "EBA_ATY_EBA_mi253",
+    "member_id" : "EBA_ATY_EBA_mi180",
     "level" : "7",
     "parent_member_id" : "EBA_ATY_EBA_mi118",
     "comparator" : null,
@@ -116,7 +116,7 @@
     "valid_to" : "9999-12-31"
   }, {
     "member_hierarchy_id" : "EBA_AT1",
-    "member_id" : "EBA_ATY_EBA_mi180",
+    "member_id" : "EBA_ATY_EBA_mi253",
     "level" : "7",
     "parent_member_id" : "EBA_ATY_EBA_mi118",
     "comparator" : null,

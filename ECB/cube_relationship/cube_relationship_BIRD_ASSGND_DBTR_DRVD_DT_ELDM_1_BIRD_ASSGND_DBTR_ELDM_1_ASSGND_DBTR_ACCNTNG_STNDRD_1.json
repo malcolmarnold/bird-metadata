@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_ASSGND_DBTR_DRVD_DT_ELDM_1__BIRD_ASSGND_DBTR_ELDM_1__ASSGND_DBTR_ACCNTNG_STNDRD_1",
+  "code" : "BIRD_ASSGND_DBTR_DRVD_DT_ELDM_1__BIRD_ASSGND_DBTR_ELDM_1__ASSGND_DBTR_ACCNTNG_STNDRD",
+  "name" : "Assigned debtor may have Assigned debtor derived data",
+  "description" : "Assigned debtor has Assigned debtor derived data",
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_ASSGND_DBTR_ELDM_1",
+  "primary_cube_variable_code" : "LGL_PRSN_ACCNTNG_STNDRD",
+  "foreign_cube_id" : "BIRD_ASSGND_DBTR_DRVD_DT_ELDM_1",
+  "foreign_cube_variable_code" : "ASSGND_DBTR_ACCNTNG_STNDRD",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "1",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "false"
+}

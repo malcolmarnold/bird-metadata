@@ -5,33 +5,27 @@
   "code" : "IL_PRTCTN_RLTD",
   "description" : "Protection related",
   "cube_group_enumeration" : [ {
-    "order" : "2",
-    "cube_group_id" : "IL_PRTCTN_RLTD",
-    "cube_id" : "BIRD_CLLTRL_NN_FNNCL_ASST_ASSGNMNT_IL_1",
-    "valid_from" : "2023-07-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "order" : "4",
-    "cube_group_id" : "IL_PRTCTN_RLTD",
-    "cube_id" : "BIRD_PRTCTN_PRTCTN_PRVD_ASSGNMNT_IL_1",
-    "valid_from" : "2023-07-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "order" : "1",
+    "order" : "0",
     "cube_group_id" : "IL_PRTCTN_RLTD",
     "cube_id" : "BIRD_CLLTRL_IL_1",
     "valid_from" : "2023-07-01",
     "valid_to" : "9999-12-31"
   }, {
-    "order" : "3",
+    "order" : "1",
+    "cube_group_id" : "IL_PRTCTN_RLTD",
+    "cube_id" : "BIRD_CLLTRL_RL_IL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "2",
     "cube_group_id" : "IL_PRTCTN_RLTD",
     "cube_id" : "BIRD_CRDT_RSK_MTGTN_ASSGNMNT_IL_1",
     "valid_from" : "2023-07-01",
     "valid_to" : "9999-12-31"
   }, {
-    "order" : "0",
+    "order" : "3",
     "cube_group_id" : "IL_PRTCTN_RLTD",
-    "cube_id" : "BIRD_CLLTRL_RL_IL_1",
+    "cube_id" : "BIRD_PRTCTN_PRTCTN_PRVD_ASSGNMNT_IL_1",
     "valid_from" : "2023-07-01",
     "valid_to" : "9999-12-31"
   } ]

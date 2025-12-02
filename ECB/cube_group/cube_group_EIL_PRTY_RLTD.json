@@ -5,19 +5,19 @@
   "code" : "EIL_PRTY_RLTD",
   "description" : "Party related",
   "cube_group_enumeration" : [ {
-    "order" : "4",
+    "order" : "0",
     "cube_group_id" : "EIL_PRTY_RLTD",
-    "cube_id" : "BIRD_LNKD_ENTRPRS_ASSGNMNT_EIL_1",
+    "cube_id" : "BIRD_ENTTY_RL_EIL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "1",
+    "cube_group_id" : "EIL_PRTY_RLTD",
+    "cube_id" : "BIRD_IMMDT_PRNT_ENTRPRS_ASSGNMNT_EIL_1",
     "valid_from" : "2023-07-01",
     "valid_to" : "9999-12-31"
   }, {
     "order" : "2",
-    "cube_group_id" : "EIL_PRTY_RLTD",
-    "cube_id" : "BIRD_PRTY_CD_EIL_1",
-    "valid_from" : "2023-07-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "order" : "5",
     "cube_group_id" : "EIL_PRTY_RLTD",
     "cube_id" : "BIRD_PRTY_EIL_1",
     "valid_from" : "2023-07-01",
@@ -25,37 +25,37 @@
   }, {
     "order" : "3",
     "cube_group_id" : "EIL_PRTY_RLTD",
+    "cube_id" : "BIRD_PRTY_CD_EIL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "4",
+    "cube_group_id" : "EIL_PRTY_RLTD",
+    "cube_id" : "BIRD_OTHR_PRTY_ID_EIL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "5",
+    "cube_group_id" : "EIL_PRTY_RLTD",
+    "cube_id" : "BIRD_LNKD_ENTRPRS_ASSGNMNT_EIL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "6",
+    "cube_group_id" : "EIL_PRTY_RLTD",
     "cube_id" : "BIRD_PRTY_PRVS_PRD_DT_EIL_1",
     "valid_from" : "2023-07-01",
     "valid_to" : "9999-12-31"
   }, {
     "order" : "7",
     "cube_group_id" : "EIL_PRTY_RLTD",
-    "cube_id" : "BIRD_OTHR_PRTY_ID_EIL_1",
+    "cube_id" : "BIRD_PRTNR_ENTRPRS_ASSGNMNT_EIL_1",
     "valid_from" : "2023-07-01",
     "valid_to" : "9999-12-31"
   }, {
     "order" : "8",
     "cube_group_id" : "EIL_PRTY_RLTD",
-    "cube_id" : "BIRD_PRTNR_ENTRPRS_ASSGNMNT_EIL_1",
-    "valid_from" : "2023-07-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "order" : "1",
-    "cube_group_id" : "EIL_PRTY_RLTD",
-    "cube_id" : "BIRD_ENTTY_RL_EIL_1",
-    "valid_from" : "2023-07-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "order" : "6",
-    "cube_group_id" : "EIL_PRTY_RLTD",
     "cube_id" : "BIRD_NTRL_PRSN_KY_MNGMNT_PRSNLL_ASSGNMNT_EIL_1",
-    "valid_from" : "2023-07-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "order" : "0",
-    "cube_group_id" : "EIL_PRTY_RLTD",
-    "cube_id" : "BIRD_IMMDT_PRNT_ENTRPRS_ASSGNMNT_EIL_1",
     "valid_from" : "2023-07-01",
     "valid_to" : "9999-12-31"
   } ]

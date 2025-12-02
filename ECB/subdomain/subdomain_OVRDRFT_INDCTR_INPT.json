@@ -9,12 +9,6 @@
   "description" : "Overdraft indicator (Input layer)",
   "is_natural" : "false",
   "subdomain_enumeration" : [ {
-    "member_id" : "OVRDRFT_INDCTR_0",
-    "subdomain_id" : "OVRDRFT_INDCTR_INPT",
-    "valid_from" : "2025-02-01",
-    "valid_to" : "9999-12-31",
-    "order" : "0"
-  }, {
     "member_id" : "OVRDRFT_INDCTR_1",
     "subdomain_id" : "OVRDRFT_INDCTR_INPT",
     "valid_from" : "2025-02-01",
@@ -22,6 +16,12 @@
     "order" : "0"
   }, {
     "member_id" : "OVRDRFT_INDCTR_2",
+    "subdomain_id" : "OVRDRFT_INDCTR_INPT",
+    "valid_from" : "2025-02-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "OVRDRFT_INDCTR_0",
     "subdomain_id" : "OVRDRFT_INDCTR_INPT",
     "valid_from" : "2025-02-01",
     "valid_to" : "9999-12-31",

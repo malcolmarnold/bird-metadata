@@ -9,13 +9,19 @@
   "description" : "Accounting classification applicable to off-balance sheet items.",
   "is_natural" : "false",
   "subdomain_enumeration" : [ {
+    "member_id" : "ACCNTNG_CLSSFCTN_92",
+    "subdomain_id" : "OFF_BLNC_SHT_ACCNTNG_CLSSFCTN",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
     "member_id" : "ACCNTNG_CLSSFCTN_90",
     "subdomain_id" : "OFF_BLNC_SHT_ACCNTNG_CLSSFCTN",
     "valid_from" : "2018-06-01",
     "valid_to" : "9999-12-31",
     "order" : "0"
   }, {
-    "member_id" : "ACCNTNG_CLSSFCTN_911",
+    "member_id" : "ACCNTNG_CLSSFCTN_93",
     "subdomain_id" : "OFF_BLNC_SHT_ACCNTNG_CLSSFCTN",
     "valid_from" : "2018-06-01",
     "valid_to" : "9999-12-31",
@@ -27,13 +33,7 @@
     "valid_to" : "9999-12-31",
     "order" : "0"
   }, {
-    "member_id" : "ACCNTNG_CLSSFCTN_92",
-    "subdomain_id" : "OFF_BLNC_SHT_ACCNTNG_CLSSFCTN",
-    "valid_from" : "2018-06-01",
-    "valid_to" : "9999-12-31",
-    "order" : "0"
-  }, {
-    "member_id" : "ACCNTNG_CLSSFCTN_93",
+    "member_id" : "ACCNTNG_CLSSFCTN_911",
     "subdomain_id" : "OFF_BLNC_SHT_ACCNTNG_CLSSFCTN",
     "valid_from" : "2018-06-01",
     "valid_to" : "9999-12-31",

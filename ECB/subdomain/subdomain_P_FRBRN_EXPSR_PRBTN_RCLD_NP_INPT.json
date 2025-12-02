@@ -9,12 +9,6 @@
   "description" : null,
   "is_natural" : "false",
   "subdomain_enumeration" : [ {
-    "member_id" : "PRFRMNG_FRBRN_EXPSR_PRBTN_RCLD_NN_PRFRMNG_INDCTR_0",
-    "subdomain_id" : "P_FRBRN_EXPSR_PRBTN_RCLD_NP_INPT",
-    "valid_from" : "2024-01-01",
-    "valid_to" : "9999-12-31",
-    "order" : "0"
-  }, {
     "member_id" : "PRFRMNG_FRBRN_EXPSR_PRBTN_RCLD_NN_PRFRMNG_INDCTR_1",
     "subdomain_id" : "P_FRBRN_EXPSR_PRBTN_RCLD_NP_INPT",
     "valid_from" : "2024-01-01",
@@ -22,6 +16,12 @@
     "order" : "0"
   }, {
     "member_id" : "PRFRMNG_FRBRN_EXPSR_PRBTN_RCLD_NN_PRFRMNG_INDCTR_2",
+    "subdomain_id" : "P_FRBRN_EXPSR_PRBTN_RCLD_NP_INPT",
+    "valid_from" : "2024-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "PRFRMNG_FRBRN_EXPSR_PRBTN_RCLD_NN_PRFRMNG_INDCTR_0",
     "subdomain_id" : "P_FRBRN_EXPSR_PRBTN_RCLD_NP_INPT",
     "valid_from" : "2024-01-01",
     "valid_to" : "9999-12-31",

@@ -5,99 +5,21 @@
   "code" : "LDM_CNTRCT_RLTD",
   "description" : "Contract related",
   "cube_group_enumeration" : [ {
-    "order" : "11",
-    "cube_group_id" : "LDM_CNTRCT_RLTD",
-    "cube_id" : "BIRD_CRDT_RSK_MTGTN_ARRGMNT_LDM_1",
-    "valid_from" : "2023-07-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "order" : "17",
-    "cube_group_id" : "LDM_CNTRCT_RLTD",
-    "cube_id" : "BIRD_MSTR_AGRMNT_QCCP_ASSGNMNT_LDM_1",
-    "valid_from" : "2023-07-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "order" : "12",
-    "cube_group_id" : "LDM_CNTRCT_RLTD",
-    "cube_id" : "BIRD_MSTR_AGRMNT_FNNCL_CNTRCT_ASSGNMNT_LDM_1",
-    "valid_from" : "2023-07-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "order" : "18",
-    "cube_group_id" : "LDM_CNTRCT_RLTD",
-    "cube_id" : "BIRD_SYNDCTD_FNNCL_CNTRCT_MMBR_LDM_1",
-    "valid_from" : "2023-07-01",
-    "valid_to" : "9999-12-31"
-  }, {
     "order" : "0",
     "cube_group_id" : "LDM_CNTRCT_RLTD",
     "cube_id" : "BIRD_FNNCL_CNTRCT_LDM_1",
     "valid_from" : "2023-07-01",
     "valid_to" : "9999-12-31"
   }, {
-    "order" : "19",
+    "order" : "1",
     "cube_group_id" : "LDM_CNTRCT_RLTD",
-    "cube_id" : "BIRD_SYNDCTD_CNTRCT_LDM_1",
-    "valid_from" : "2023-07-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "order" : "6",
-    "cube_group_id" : "LDM_CNTRCT_RLTD",
-    "cube_id" : "BIRD_CLLTRL_ANNX_LDM_1",
-    "valid_from" : "2023-07-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "order" : "21",
-    "cube_group_id" : "LDM_CNTRCT_RLTD",
-    "cube_id" : "BIRD_SNGL_FNNCL_CNTRCT_LDM_1",
-    "valid_from" : "2023-07-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "order" : "7",
-    "cube_group_id" : "LDM_CNTRCT_RLTD",
-    "cube_id" : "BIRD_INSTRMNT_PRTCN_ARRNGMNT_ASSGNMNT_LDM_1",
-    "valid_from" : "2023-07-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "order" : "13",
-    "cube_group_id" : "LDM_CNTRCT_RLTD",
-    "cube_id" : "BIRD_MSTR_AGRMNT_WIT_CCP_LDM_1",
-    "valid_from" : "2023-07-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "order" : "14",
-    "cube_group_id" : "LDM_CNTRCT_RLTD",
-    "cube_id" : "BIRD_MSTR_AGRMNT_WIT_CLRNG_MMBR_LDM_1",
-    "valid_from" : "2023-07-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "order" : "8",
-    "cube_group_id" : "LDM_CNTRCT_RLTD",
-    "cube_id" : "BIRD_MSTR_AGRMNT_ENTTY_RL_ASSGNMNT_LDM_1",
-    "valid_from" : "2023-07-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "order" : "15",
-    "cube_group_id" : "LDM_CNTRCT_RLTD",
-    "cube_id" : "BIRD_PRTCTN_ARRNGMNT_LDM_1",
+    "cube_id" : "BIRD_EXCHNG_TRDBL_DRVTV_PSTN_PRTCTN_ARRNGMNT_RCVD_ASSGNMNT_LDM_1",
     "valid_from" : "2023-07-01",
     "valid_to" : "9999-12-31"
   }, {
     "order" : "2",
     "cube_group_id" : "LDM_CNTRCT_RLTD",
     "cube_id" : "BIRD_MSTR_AGRMNT_CLRNG_MMBR_ASSGNMNT_LDM_1",
-    "valid_from" : "2023-07-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "order" : "9",
-    "cube_group_id" : "LDM_CNTRCT_RLTD",
-    "cube_id" : "BIRD_MSTR_AGRMNT_WIT_NN_QCCP_LDM_1",
-    "valid_from" : "2023-07-01",
-    "valid_to" : "9999-12-31"
-  }, {
-    "order" : "16",
-    "cube_group_id" : "LDM_CNTRCT_RLTD",
-    "cube_id" : "BIRD_MSTR_AGRMNT_CCP_ASSGNMNT_LDM_1",
     "valid_from" : "2023-07-01",
     "valid_to" : "9999-12-31"
   }, {
@@ -119,21 +41,99 @@
     "valid_from" : "2023-07-01",
     "valid_to" : "9999-12-31"
   }, {
+    "order" : "6",
+    "cube_group_id" : "LDM_CNTRCT_RLTD",
+    "cube_id" : "BIRD_CLLTRL_ANNX_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "7",
+    "cube_group_id" : "LDM_CNTRCT_RLTD",
+    "cube_id" : "BIRD_INSTRMNT_PRTCN_ARRNGMNT_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "8",
+    "cube_group_id" : "LDM_CNTRCT_RLTD",
+    "cube_id" : "BIRD_MSTR_AGRMNT_ENTTY_RL_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "9",
+    "cube_group_id" : "LDM_CNTRCT_RLTD",
+    "cube_id" : "BIRD_MSTR_AGRMNT_WIT_NN_QCCP_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
     "order" : "10",
     "cube_group_id" : "LDM_CNTRCT_RLTD",
     "cube_id" : "BIRD_MSTR_AGRMNT_WIT_QCCP_LDM_1",
     "valid_from" : "2023-07-01",
     "valid_to" : "9999-12-31"
   }, {
-    "order" : "1",
+    "order" : "11",
     "cube_group_id" : "LDM_CNTRCT_RLTD",
-    "cube_id" : "BIRD_EXCHNG_TRDBL_DRVTV_PSTN_PRTCTN_ARRNGMNT_RCVD_ASSGNMNT_LDM_1",
+    "cube_id" : "BIRD_CRDT_RSK_MTGTN_ARRGMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "12",
+    "cube_group_id" : "LDM_CNTRCT_RLTD",
+    "cube_id" : "BIRD_MSTR_AGRMNT_FNNCL_CNTRCT_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "13",
+    "cube_group_id" : "LDM_CNTRCT_RLTD",
+    "cube_id" : "BIRD_MSTR_AGRMNT_WIT_CCP_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "14",
+    "cube_group_id" : "LDM_CNTRCT_RLTD",
+    "cube_id" : "BIRD_MSTR_AGRMNT_WIT_CLRNG_MMBR_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "15",
+    "cube_group_id" : "LDM_CNTRCT_RLTD",
+    "cube_id" : "BIRD_PRTCTN_ARRNGMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "16",
+    "cube_group_id" : "LDM_CNTRCT_RLTD",
+    "cube_id" : "BIRD_MSTR_AGRMNT_CCP_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "17",
+    "cube_group_id" : "LDM_CNTRCT_RLTD",
+    "cube_id" : "BIRD_MSTR_AGRMNT_QCCP_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "18",
+    "cube_group_id" : "LDM_CNTRCT_RLTD",
+    "cube_id" : "BIRD_SYNDCTD_FNNCL_CNTRCT_MMBR_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "19",
+    "cube_group_id" : "LDM_CNTRCT_RLTD",
+    "cube_id" : "BIRD_SYNDCTD_CNTRCT_LDM_1",
     "valid_from" : "2023-07-01",
     "valid_to" : "9999-12-31"
   }, {
     "order" : "20",
     "cube_group_id" : "LDM_CNTRCT_RLTD",
     "cube_id" : "BIRD_LNG_SCRTY_PSTN_PRTCTN_ARRNGMNT_GVN_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "21",
+    "cube_group_id" : "LDM_CNTRCT_RLTD",
+    "cube_id" : "BIRD_SNGL_FNNCL_CNTRCT_LDM_1",
     "valid_from" : "2023-07-01",
     "valid_to" : "9999-12-31"
   }, {

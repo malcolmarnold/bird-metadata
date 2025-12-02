@@ -9,18 +9,6 @@
   "description" : "Instrument type by product",
   "is_natural" : "false",
   "subdomain_enumeration" : [ {
-    "member_id" : "TYP_INSTRMNT_15",
-    "subdomain_id" : "INSTRMNT_TYP_PRDCT",
-    "valid_from" : "2022-03-01",
-    "valid_to" : "9999-12-31",
-    "order" : "0"
-  }, {
-    "member_id" : "TYP_INSTRMNT_16",
-    "subdomain_id" : "INSTRMNT_TYP_PRDCT",
-    "valid_from" : "2022-03-01",
-    "valid_to" : "9999-12-31",
-    "order" : "0"
-  }, {
     "member_id" : "TYP_INSTRMNT_1",
     "subdomain_id" : "INSTRMNT_TYP_PRDCT",
     "valid_from" : "2022-03-01",
@@ -33,9 +21,27 @@
     "valid_to" : "9999-12-31",
     "order" : "0"
   }, {
+    "member_id" : "TYP_INSTRMNT_16",
+    "subdomain_id" : "INSTRMNT_TYP_PRDCT",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_INSTRMNT_15",
+    "subdomain_id" : "INSTRMNT_TYP_PRDCT",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
     "member_id" : "TYP_INSTRMNT_948",
     "subdomain_id" : "INSTRMNT_TYP_PRDCT",
     "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_INSTRMNT_549",
+    "subdomain_id" : "INSTRMNT_TYP_PRDCT",
+    "valid_from" : "2025-11-07",
     "valid_to" : "9999-12-31",
     "order" : "0"
   } ]

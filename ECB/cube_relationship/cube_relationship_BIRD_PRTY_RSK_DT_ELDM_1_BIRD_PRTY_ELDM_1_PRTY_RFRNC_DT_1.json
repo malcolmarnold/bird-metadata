@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_PRTY_RSK_DT_ELDM_1__BIRD_PRTY_ELDM_1__PRTY_RFRNC_DT_1",
+  "code" : "BIRD_PRTY_RSK_DT_ELDM_1__BIRD_PRTY_ELDM_1__PRTY_RFRNC_DT",
+  "name" : "Party may have Party risk data",
+  "description" : "Party has Party risk data",
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_PRTY_ELDM_1",
+  "primary_cube_variable_code" : "PRTY_RFRNC_DT",
+  "foreign_cube_id" : "BIRD_PRTY_RSK_DT_ELDM_1",
+  "foreign_cube_variable_code" : "PRTY_RFRNC_DT",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "1",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "false"
+}

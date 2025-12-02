@@ -13,10 +13,18 @@
   "cube_link_type" : "TR",
   "logical_transformation_rule_id" : "WUDEN__BIRD_INSTRMNT_RL_EIL_1__01_01_1990",
   "cube_structure_item_link" : [ {
-    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_RL_EIL_1__01_01_1990__BIRD_PRFRMNG_FNNCL_ASST_INSTRMNT_DBTR_ASSSSD_ELDM_1__1__DT_RFRNC__DT_RFRNC",
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_RL_EIL_1__01_01_1990__BIRD_PRFRMNG_FNNCL_ASST_INSTRMNT_DBTR_ASSSSD_ELDM_1__1__INSTRMNT_ACCNTNG_CNSLDTN_LVL__ACCNTNG_CNSLDTN_LVL",
     "cube_link_id" : "WUDEN__BIRD_INSTRMNT_RL_EIL_1__01_01_1990__BIRD_PRFRMNG_FNNCL_ASST_INSTRMNT_DBTR_ASSSSD_ELDM_1__1",
-    "foreign_cube_variable_code" : "DT_RFRNC",
-    "primary_cube_variable_code" : "DT_RFRNC",
+    "foreign_cube_variable_code" : "ACCNTNG_CNSLDTN_LVL",
+    "primary_cube_variable_code" : "INSTRMNT_ACCNTNG_CNSLDTN_LVL",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_RL_EIL_1__01_01_1990__BIRD_PRFRMNG_FNNCL_ASST_INSTRMNT_DBTR_ASSSSD_ELDM_1__1__INSTRMNT_ACCNTNG_STNDRD__ACCNTNG_STNDRD",
+    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_RL_EIL_1__01_01_1990__BIRD_PRFRMNG_FNNCL_ASST_INSTRMNT_DBTR_ASSSSD_ELDM_1__1",
+    "foreign_cube_variable_code" : "ACCNTNG_STNDRD",
+    "primary_cube_variable_code" : "INSTRMNT_ACCNTNG_STNDRD",
     "comparator" : null,
     "aggregation_function" : null,
     "member_link" : [ ]
@@ -29,32 +37,34 @@
     "aggregation_function" : null,
     "member_link" : [ ]
   }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_RL_EIL_1__01_01_1990__BIRD_PRFRMNG_FNNCL_ASST_INSTRMNT_DBTR_ASSSSD_ELDM_1__1__INSTRMNT_RFRNC_DT__DT_RFRNC",
+    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_RL_EIL_1__01_01_1990__BIRD_PRFRMNG_FNNCL_ASST_INSTRMNT_DBTR_ASSSSD_ELDM_1__1",
+    "foreign_cube_variable_code" : "DT_RFRNC",
+    "primary_cube_variable_code" : "INSTRMNT_RFRNC_DT",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_RL_EIL_1__01_01_1990__BIRD_PRFRMNG_FNNCL_ASST_INSTRMNT_DBTR_ASSSSD_ELDM_1__1__INSTRMNT_RL_TYP__INSTRMNT_RL_TYP",
+    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_RL_EIL_1__01_01_1990__BIRD_PRFRMNG_FNNCL_ASST_INSTRMNT_DBTR_ASSSSD_ELDM_1__1",
+    "foreign_cube_variable_code" : "INSTRMNT_RL_TYP",
+    "primary_cube_variable_code" : "INSTRMNT_RL_TYP",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_RL_EIL_1__01_01_1990__BIRD_PRFRMNG_FNNCL_ASST_INSTRMNT_DBTR_ASSSSD_ELDM_1__1__INSTRMNT_RPRTNG_AGNT_ID__RPRTNG_AGNT_ID",
+    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_RL_EIL_1__01_01_1990__BIRD_PRFRMNG_FNNCL_ASST_INSTRMNT_DBTR_ASSSSD_ELDM_1__1",
+    "foreign_cube_variable_code" : "RPRTNG_AGNT_ID",
+    "primary_cube_variable_code" : "INSTRMNT_RPRTNG_AGNT_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
     "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_RL_EIL_1__01_01_1990__BIRD_PRFRMNG_FNNCL_ASST_INSTRMNT_DBTR_ASSSSD_ELDM_1__1__PRFRMNG_FRBRN_EXPSR_UNDR_PRBTN_RCLSSFD_NN_PRFRMNG_INDCTR__PRFRMNG_FRBRN_EXPSR_UNDR_PRBTN_RCLSSFD_NN_PRFRMNG_INDCTR",
     "cube_link_id" : "WUDEN__BIRD_INSTRMNT_RL_EIL_1__01_01_1990__BIRD_PRFRMNG_FNNCL_ASST_INSTRMNT_DBTR_ASSSSD_ELDM_1__1",
     "foreign_cube_variable_code" : "PRFRMNG_FRBRN_EXPSR_UNDR_PRBTN_RCLSSFD_NN_PRFRMNG_INDCTR",
     "primary_cube_variable_code" : "PRFRMNG_FRBRN_EXPSR_UNDR_PRBTN_RCLSSFD_NN_PRFRMNG_INDCTR",
-    "comparator" : null,
-    "aggregation_function" : null,
-    "member_link" : [ {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_RL_EIL_1__01_01_1990__BIRD_PRFRMNG_FNNCL_ASST_INSTRMNT_DBTR_ASSSSD_ELDM_1__1__PRFRMNG_FRBRN_EXPSR_UNDR_PRBTN_RCLSSFD_NN_PRFRMNG_INDCTR__PRFRMNG_FRBRN_EXPSR_UNDR_PRBTN_RCLSSFD_NN_PRFRMNG_INDCTR",
-      "foreign_member_id" : "PRFRMNG_FRBRN_EXPSR_PRBTN_RCLD_NN_PRFRMNG_INDCTR_2",
-      "primary_member_id" : "PRFRMNG_FRBRN_EXPSR_PRBTN_RCLD_NN_PRFRMNG_INDCTR_2",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    }, {
-      "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_RL_EIL_1__01_01_1990__BIRD_PRFRMNG_FNNCL_ASST_INSTRMNT_DBTR_ASSSSD_ELDM_1__1__PRFRMNG_FRBRN_EXPSR_UNDR_PRBTN_RCLSSFD_NN_PRFRMNG_INDCTR__PRFRMNG_FRBRN_EXPSR_UNDR_PRBTN_RCLSSFD_NN_PRFRMNG_INDCTR",
-      "foreign_member_id" : "PRFRMNG_FRBRN_EXPSR_PRBTN_RCLD_NN_PRFRMNG_INDCTR_1",
-      "primary_member_id" : "PRFRMNG_FRBRN_EXPSR_PRBTN_RCLD_NN_PRFRMNG_INDCTR_1",
-      "valid_from" : "1999-01-01",
-      "valid_to" : "9999-12-31",
-      "is_linked" : "true"
-    } ]
-  }, {
-    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_RL_EIL_1__01_01_1990__BIRD_PRFRMNG_FNNCL_ASST_INSTRMNT_DBTR_ASSSSD_ELDM_1__1__RPRTNG_AGNT_ID__RPRTNG_AGNT_ID",
-    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_RL_EIL_1__01_01_1990__BIRD_PRFRMNG_FNNCL_ASST_INSTRMNT_DBTR_ASSSSD_ELDM_1__1",
-    "foreign_cube_variable_code" : "RPRTNG_AGNT_ID",
-    "primary_cube_variable_code" : "RPRTNG_AGNT_ID",
     "comparator" : null,
     "aggregation_function" : null,
     "member_link" : [ ]

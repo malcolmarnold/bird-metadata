@@ -6,13 +6,13 @@
   "name" : "Derived default status derivation rule",
   "code" : "DFLT_STTS_DRVD_TR",
   "description" : "This derivation rule aims to obtain the Derived default status from its building blocks.",
-  "algorithm" : "SET DFLT_STTS_DRVD = \n      CASE\n        WHEN /*INSTRMNT.*/DFLT_STTS IN (18, 19, 20)\n        OR /*PRTY.*/DFLT_STTS IN (18, 19, 20)\n        THEN 6\n        ELSE 14\n      END;",
+  "algorithm" : "SET DFLT_STTS_DRVD = \n  CASE\n    WHEN /*INSTRMNT.*/DFLT_STTS IN (18, 19, 20)\n    OR /*PRTY.*/DFLT_STTS IN (18, 19, 20)\n    THEN 6\n    ELSE 14\n  END;",
   "valid_from" : "2024-02-28",
   "valid_to" : "9999-12-31",
   "logical_transformation_rule" : [ {
-    "logical_transformation_rule_id" : "DER__BIRD_INSTRMNT_RL_EIL_1__DFLT_STTS_DRVD__01_01_1990",
+    "logical_transformation_rule_id" : "DER__BIRD_CRDT_FCLTY_EIL_1__DFLT_STTS_DRVD__01_01_1990",
     "semantic_transformation_rule_id" : "DFLT_STTS_DRVD_TR",
-    "algorithm" : "SET BIRD_INSTRMNT_RL_EIL.DFLT_STTS_DRVD = \n      CASE\n        WHEN BIRD_INSTRMNT_RL_IL.DFLT_STTS IN (18, 19, 20)\n        OR BIRD_PRTY_IL.DFLT_STTS IN (18, 19, 20)\n        THEN 6\n        ELSE 14\n      END;",
+    "algorithm" : "SET BIRD_CRDT_FCLTY_EIL.DFLT_STTS_DRVD = \n      CASE\n        WHEN BIRD_INSTRMNT_RL_IL.DFLT_STTS IN (18, 19, 20)\n        OR BIRD_PRTY_IL.DFLT_STTS IN (18, 19, 20)\n        THEN 6\n        ELSE 14\n      END;",
     "additional_filters" : null,
     "source_layer" : "IL",
     "destination_layer" : "EIL",
@@ -20,9 +20,9 @@
     "valid_from" : "1990-01-01",
     "valid_to" : "9999-12-31"
   }, {
-    "logical_transformation_rule_id" : "DER__BIRD_CRDT_FCLTY_EIL_1__DFLT_STTS_DRVD__01_01_1990",
+    "logical_transformation_rule_id" : "DER__BIRD_INSTRMNT_RL_EIL_1__DFLT_STTS_DRVD__01_01_1990",
     "semantic_transformation_rule_id" : "DFLT_STTS_DRVD_TR",
-    "algorithm" : "SET BIRD_CRDT_FCLTY_EIL.DFLT_STTS_DRVD = \n      CASE\n        WHEN BIRD_CRDT_FCLTY_IL.DFLT_STTS IN (18, 19, 20)\n        OR BIRD_PRTY_IL.DFLT_STTS IN (18, 19, 20)\n        THEN 6\n        ELSE 14\n      END;",
+    "algorithm" : "SET BIRD_INSTRMNT_RL_EIL.DFLT_STTS_DRVD = \n      CASE\n        WHEN BIRD_INSTRMNT_RL_IL.DFLT_STTS IN (18, 19, 20)\n        OR BIRD_PRTY_IL.DFLT_STTS IN (18, 19, 20)\n        THEN 6\n        ELSE 14\n      END;",
     "additional_filters" : null,
     "source_layer" : "IL",
     "destination_layer" : "EIL",
