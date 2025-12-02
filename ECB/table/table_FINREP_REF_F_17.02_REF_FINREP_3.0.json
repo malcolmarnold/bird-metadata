@@ -1,0 +1,200 @@
+{
+  "table_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0",
+  "name" : "F 17.02 Reconciliation between IFRS and CRR scope of consolidation: Off-balance sheet exposures - loan commitments, financial guarantees and other commitments given",
+  "code" : "F_17.02_REF",
+  "description" : null,
+  "maintenance_agency_id" : "ECB",
+  "version" : "FINREP 3.0",
+  "valid_from" : "2021-06-30",
+  "valid_to" : "9999-12-31",
+  "table_cell" : [ {
+    "cell_id" : "3365711_REF",
+    "is_shaded" : "false",
+    "combination_id" : "39729_REF",
+    "table_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0",
+    "system_data_code" : null,
+    "cell_position" : [ {
+      "cell_id" : "3365711_REF",
+      "axis_ordinate_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0_2_0030"
+    }, {
+      "cell_id" : "3365711_REF",
+      "axis_ordinate_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0_1_0010"
+    } ]
+  }, {
+    "cell_id" : "3365710_REF",
+    "is_shaded" : "false",
+    "combination_id" : "39712_REF",
+    "table_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0",
+    "system_data_code" : null,
+    "cell_position" : [ {
+      "cell_id" : "3365710_REF",
+      "axis_ordinate_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0_1_0010"
+    }, {
+      "cell_id" : "3365710_REF",
+      "axis_ordinate_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0_2_0020"
+    } ]
+  }, {
+    "cell_id" : "3365712_REF",
+    "is_shaded" : "false",
+    "combination_id" : "39726_REF",
+    "table_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0",
+    "system_data_code" : null,
+    "cell_position" : [ {
+      "cell_id" : "3365712_REF",
+      "axis_ordinate_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0_1_0010"
+    }, {
+      "cell_id" : "3365712_REF",
+      "axis_ordinate_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0_2_0040"
+    } ]
+  }, {
+    "cell_id" : "3365709_REF",
+    "is_shaded" : "false",
+    "combination_id" : "39716_REF",
+    "table_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0",
+    "system_data_code" : null,
+    "cell_position" : [ {
+      "cell_id" : "3365709_REF",
+      "axis_ordinate_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0_2_0010"
+    }, {
+      "cell_id" : "3365709_REF",
+      "axis_ordinate_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0_1_0010"
+    } ]
+  } ],
+  "axis" : [ {
+    "axis_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0_2",
+    "code" : "F_17.02_REF_2",
+    "orientation" : "Y",
+    "order" : "0",
+    "name" : "F_17.02_REF_2",
+    "description" : null,
+    "table_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0",
+    "is_open_axis" : "false",
+    "axis_ordinate" : [ {
+      "axis_ordinate_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0_2_0020",
+      "is_abstract_header" : "false",
+      "code" : "0020",
+      "order" : "0",
+      "level" : "1",
+      "path" : "FINREP_REF_F_17.02_REF_FINREP 3.0_2_0040.FINREP_REF_F_17.02_REF_FINREP 3.0_2_0020.",
+      "axis_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0_2",
+      "parent_axis_ordinate_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0_2_0040",
+      "name" : "Financial guarantees given",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0_2_0020",
+        "variable_id" : "EBA_MCY",
+        "member_id" : "EBA_MC_EBA_x154",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    }, {
+      "axis_ordinate_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0_2_0030",
+      "is_abstract_header" : "false",
+      "code" : "0030",
+      "order" : "0",
+      "level" : "1",
+      "path" : "FINREP_REF_F_17.02_REF_FINREP 3.0_2_0040.FINREP_REF_F_17.02_REF_FINREP 3.0_2_0030.",
+      "axis_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0_2",
+      "parent_axis_ordinate_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0_2_0040",
+      "name" : "Other Commitments given",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0_2_0030",
+        "variable_id" : "EBA_MCY",
+        "member_id" : "EBA_MC_EBA_x52",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    }, {
+      "axis_ordinate_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0_2_0010",
+      "is_abstract_header" : "false",
+      "code" : "0010",
+      "order" : "0",
+      "level" : "1",
+      "path" : "FINREP_REF_F_17.02_REF_FINREP 3.0_2_0040.FINREP_REF_F_17.02_REF_FINREP 3.0_2_0010.",
+      "axis_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0_2",
+      "parent_axis_ordinate_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0_2_0040",
+      "name" : "Loan commitments given",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0_2_0010",
+        "variable_id" : "EBA_MCY",
+        "member_id" : "EBA_MC_EBA_x221",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    }, {
+      "axis_ordinate_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0_2_0040",
+      "is_abstract_header" : "false",
+      "code" : "0040",
+      "order" : "0",
+      "level" : "0",
+      "path" : "FINREP_REF_F_17.02_REF_FINREP 3.0_2_0040.",
+      "axis_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0_2",
+      "parent_axis_ordinate_id" : null,
+      "name" : "Off-balance sheet exposures",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0_2_0040",
+        "variable_id" : "EBA_MCY",
+        "member_id" : "EBA_MC_EBA_x251",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    } ]
+  }, {
+    "axis_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0_1",
+    "code" : "F_17.02_REF_1",
+    "orientation" : "X",
+    "order" : "0",
+    "name" : "F_17.02_REF_1",
+    "description" : null,
+    "table_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0",
+    "is_open_axis" : "false",
+    "axis_ordinate" : [ {
+      "axis_ordinate_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0_1_0010",
+      "is_abstract_header" : "false",
+      "code" : "0010",
+      "order" : "0",
+      "level" : "0",
+      "path" : "FINREP_REF_F_17.02_REF_FINREP 3.0_1_0010.",
+      "axis_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0_1",
+      "parent_axis_ordinate_id" : null,
+      "name" : "Accounting scope of consolidation [Nominal amount]",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0_1_0010",
+        "variable_id" : "EBA_mi287",
+        "member_id" : null,
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0_1_0010",
+        "variable_id" : "EBA_SCO",
+        "member_id" : "EBA_SC_EBA_x1",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "FINREP_REF_F_17.02_REF_FINREP 3.0_1_0010",
+        "variable_id" : "EBA_BAS",
+        "member_id" : "EBA_BA_EBA_x10",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    } ]
+  } ]
+}

@@ -1,0 +1,46 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_ZZ_ZZ41",
+  "code" : "ZZ41",
+  "domain_id" : "EBA_ZZ",
+  "name" : "Hierarchy for resolution stay recognition (counterparty)",
+  "description" : null,
+  "is_main_hierarchy" : null,
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_ZZ_ZZ41",
+    "member_id" : "EBA_ZZ_EBA_x333",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ_ZZ41",
+    "member_id" : "EBA_ZZ_EBA_x334",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ_ZZ41",
+    "member_id" : "EBA_ZZ_EBA_x336",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ_ZZ41",
+    "member_id" : "EBA_ZZ_EBA_x335",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

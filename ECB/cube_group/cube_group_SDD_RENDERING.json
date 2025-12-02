@@ -1,0 +1,44 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_group_id" : "SDD_RENDERING",
+  "name" : "Rendering package",
+  "code" : "SDD_RENDERING",
+  "description" : "It contains those dictionary objects that are used in order to visualize the content of the Data definition package.",
+  "cube_group_enumeration" : [ {
+    "order" : "0",
+    "cube_group_id" : "SDD_RENDERING",
+    "cube_id" : "SDD_AXIS_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_RENDERING",
+    "cube_id" : "SDD_TABLE_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_RENDERING",
+    "cube_id" : "SDD_TABLE_CELL_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_RENDERING",
+    "cube_id" : "SDD_ORDINATE_ITEM_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_RENDERING",
+    "cube_id" : "SDD_CELL_POSITION_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_RENDERING",
+    "cube_id" : "SDD_AXIS_ORDINATE_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

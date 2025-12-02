@@ -1,0 +1,50 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_mapping_id" : "M_F_35.00.b_REF_AE 3.2",
+  "name" : "F_35.00.b-->F_35.00.b_REF__AE 3.2",
+  "code" : "M_F_35.00.b_REF_AE 3.2",
+  "source_cube_id" : "EBA_AE_EBA_F_35.00.b_AE_3.2",
+  "destination_cube_id" : "AE_REF_F_35.00.b_REF_AE 3.2",
+  "description" : "Mapping cubes, source cube: F_35.00.b, target cube: F_35.00.b_REF, version: AE 3.2",
+  "mapping_to_cube" : [ {
+    "cube_mapping_id" : "M_F_35.00.b_REF_AE 3.2",
+    "mapping_id" : "DPM_ATY_AE",
+    "valid_from" : "2024-03-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_F_35.00.b_REF_AE 3.2",
+    "mapping_id" : "DPM_BAS_MCS_MCY_AE_F35.00.a",
+    "valid_from" : "2024-03-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_F_35.00.b_REF_AE 3.2",
+    "mapping_id" : "DPM_ENC_AE",
+    "valid_from" : "2024-03-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_F_35.00.b_REF_AE 3.2",
+    "mapping_id" : "DPM_RiadCode",
+    "valid_from" : "2024-03-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_F_35.00.b_REF_AE 3.2",
+    "mapping_id" : "DPM_Period",
+    "valid_from" : "2024-03-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_F_35.00.b_REF_AE 3.2",
+    "mapping_id" : "DPM_Entity2",
+    "valid_from" : "2024-03-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_F_35.00.b_REF_AE 3.2",
+    "mapping_id" : "DPM_CBC",
+    "valid_from" : "2024-03-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_F_35.00.b_REF_AE 3.2",
+    "mapping_id" : "DPM_ValueDecimal",
+    "valid_from" : "2024-03-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

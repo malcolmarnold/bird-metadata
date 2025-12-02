@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "INSTTTNL_SCTR_SHSG4_NON_ISIN_INSTTTNL_SCTR_REF",
+  "name" : "Subdomain for INSTTTNL_SCTR of the Cube SHSG4_NON_ISIN",
+  "domain_id" : "INSTTTNL_SCTR",
+  "is_listed" : "true",
+  "code" : "INSTTTNL_SCTR_SHSG4_NON_ISIN_INSTTTNL_SCTR_REF",
+  "facet_id" : null,
+  "description" : null,
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "INSTTTNL_SCTR_S123",
+    "subdomain_id" : "INSTTTNL_SCTR_SHSG4_NON_ISIN_INSTTTNL_SCTR_REF",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "INSTTTNL_SCTR_ANY_S123",
+    "subdomain_id" : "INSTTTNL_SCTR_SHSG4_NON_ISIN_INSTTTNL_SCTR_REF",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "1"
+  } ]
+}

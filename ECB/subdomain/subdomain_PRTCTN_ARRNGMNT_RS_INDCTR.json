@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "PRTCTN_ARRNGMNT_RS_INDCTR",
+  "name" : "Protection arrangement instrument reuse indicator",
+  "domain_id" : "PRTCTN_ARRNGMNT_RS_INDCTR",
+  "is_listed" : "true",
+  "code" : "PRTCTN_ARRNGMNT_RS_INDCTR",
+  "facet_id" : null,
+  "description" : "Protection arrangement instrument reuse indicator",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "PRTCTN_ARRNGMNT_RS_INDCTR_1",
+    "subdomain_id" : "PRTCTN_ARRNGMNT_RS_INDCTR",
+    "valid_from" : "2025-02-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "PRTCTN_ARRNGMNT_RS_INDCTR_2",
+    "subdomain_id" : "PRTCTN_ARRNGMNT_RS_INDCTR",
+    "valid_from" : "2025-02-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

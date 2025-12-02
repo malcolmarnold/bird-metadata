@@ -1,0 +1,30 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "subdomain_id" : "EBA_1798452701745769185",
+  "name" : "MC([x822|x0|x816])",
+  "domain_id" : "EBA_MC",
+  "is_listed" : "true",
+  "code" : "1798452701745769185",
+  "facet_id" : null,
+  "description" : "Instrument",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "EBA_MC_EBA_x822",
+    "subdomain_id" : "EBA_1798452701745769185",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "EBA_MC_EBA_x0",
+    "subdomain_id" : "EBA_1798452701745769185",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "EBA_MC_EBA_x816",
+    "subdomain_id" : "EBA_1798452701745769185",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

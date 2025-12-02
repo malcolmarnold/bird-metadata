@@ -1,0 +1,30 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "subdomain_id" : "EBA_3255023094605336665",
+  "name" : "IM([x112|x111|x1])",
+  "domain_id" : "EBA_IM",
+  "is_listed" : "true",
+  "code" : "3255023094605336665",
+  "facet_id" : null,
+  "description" : "Type of allowance",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "EBA_IM_EBA_x112",
+    "subdomain_id" : "EBA_3255023094605336665",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "EBA_IM_EBA_x111",
+    "subdomain_id" : "EBA_3255023094605336665",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "EBA_IM_EBA_x1",
+    "subdomain_id" : "EBA_3255023094605336665",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

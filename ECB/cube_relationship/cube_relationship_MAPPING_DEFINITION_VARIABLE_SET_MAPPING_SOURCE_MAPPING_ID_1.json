@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "MAPPING_DEFINITION__VARIABLE_SET_MAPPING__SOURCE_MAPPING_ID__1",
+  "code" : "MAPPING_DEFINITION__VARIABLE_SET_MAPPING__SOURCE_MAPPING_ID__1",
+  "name" : "a mapping definition can have many variable set source mappings<br> and a variable set source mapping must be associated with a mapping definition",
+  "description" : null,
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2020-12-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "SDD_MAPPING_DEFINITION_C_1",
+  "primary_cube_variable_code" : "MAPPING_ID",
+  "foreign_cube_id" : "SDD_VARIABLE_SET_MAPPING_C_1",
+  "foreign_cube_variable_code" : "SOURCE_MAPPING_ID",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "false",
+  "foreign_cube_mandatoriness" : "true"
+}

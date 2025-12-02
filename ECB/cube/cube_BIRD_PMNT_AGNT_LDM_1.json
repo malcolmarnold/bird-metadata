@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_PMNT_AGNT_LDM_1",
+  "name" : "Payment agent",
+  "code" : "BIRD_PMNT_AGNT_LDM",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_PMNT_AGNT_LDM_1",
+  "cube_type" : "LDM",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "Payment agent is a party role, where the party is fulfilling the duties of the payment agent in a syndicated loan or sub-participation. \n\n It has to be reported to the ECB as a second servicer for the loan in certain circumstances.",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

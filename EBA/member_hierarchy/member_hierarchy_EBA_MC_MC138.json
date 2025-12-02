@@ -1,0 +1,37 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_MC_MC138",
+  "code" : "MC138",
+  "domain_id" : "EBA_MC",
+  "name" : "Hierarchy for micro hedges (continued/discontinued)",
+  "description" : null,
+  "is_main_hierarchy" : null,
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_MC_MC138",
+    "member_id" : "EBA_MC_EBA_x689",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x684",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC138",
+    "member_id" : "EBA_MC_EBA_x688",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x684",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC138",
+    "member_id" : "EBA_MC_EBA_x684",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

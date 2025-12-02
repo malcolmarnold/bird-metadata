@@ -1,0 +1,775 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+  "code" : "1",
+  "domain_id" : "PRMRY_ASST_CLSSFCTN",
+  "name" : "Primary asset classification main hierarchy",
+  "description" : "Hierarchical structure of the Member All possible primary asset classification  (-1)",
+  "is_main_hierarchy" : "true",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_-1",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_P",
+    "level" : "2",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_E",
+    "level" : "2",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_-1",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_L",
+    "level" : "2",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_U",
+    "level" : "2",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_R",
+    "level" : "2",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_I",
+    "level" : "2",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_F",
+    "level" : "2",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_-1",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_O",
+    "level" : "2",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_M",
+    "level" : "2",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D",
+    "level" : "2",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_-1",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_E.9",
+    "level" : "3",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_E",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.9",
+    "level" : "3",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_F.9",
+    "level" : "3",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_F",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_E.4",
+    "level" : "3",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_E",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_E.3",
+    "level" : "3",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_E",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.3",
+    "level" : "3",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_F.2",
+    "level" : "3",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_F",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_E.2",
+    "level" : "3",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_E",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.2",
+    "level" : "3",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_F.1",
+    "level" : "3",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_F",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.1",
+    "level" : "3",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_E.1",
+    "level" : "3",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_E",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.33",
+    "level" : "4",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.3",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_E.42",
+    "level" : "4",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_E.4",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.17",
+    "level" : "4",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.1",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_E.49",
+    "level" : "4",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_E.4",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.23",
+    "level" : "4",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.2",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_E.31",
+    "level" : "4",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_E.3",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.18",
+    "level" : "4",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.1",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.13",
+    "level" : "4",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.1",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_E.21",
+    "level" : "4",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_E.2",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.24",
+    "level" : "4",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.2",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_E.32",
+    "level" : "4",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_E.3",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_E.29",
+    "level" : "4",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_E.2",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_E.39",
+    "level" : "4",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_E.3",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_E.22",
+    "level" : "4",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_E.2",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.34",
+    "level" : "4",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.3",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_E.41",
+    "level" : "4",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_E.4",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.14",
+    "level" : "4",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.1",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.39",
+    "level" : "4",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.3",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.22",
+    "level" : "4",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.2",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_E.43",
+    "level" : "4",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_E.4",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.32",
+    "level" : "4",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.3",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_E.24",
+    "level" : "4",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_E.2",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.16",
+    "level" : "4",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.1",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.29",
+    "level" : "4",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.2",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.12",
+    "level" : "4",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.1",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.19",
+    "level" : "4",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.11",
+    "level" : "4",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.1",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_E.23",
+    "level" : "4",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_E.2",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.21",
+    "level" : "4",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.2",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.31",
+    "level" : "4",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.3",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.15",
+    "level" : "4",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.161",
+    "level" : "5",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.16",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.122",
+    "level" : "5",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.12",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.171",
+    "level" : "5",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.17",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.141",
+    "level" : "5",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.14",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.231",
+    "level" : "5",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.23",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.166",
+    "level" : "5",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.16",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.172",
+    "level" : "5",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.17",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.131",
+    "level" : "5",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.13",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.121",
+    "level" : "5",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.12",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.162",
+    "level" : "5",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.16",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.165",
+    "level" : "5",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.16",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.232",
+    "level" : "5",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.23",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.129",
+    "level" : "5",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.12",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.182",
+    "level" : "5",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.18",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.311",
+    "level" : "5",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.31",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.139",
+    "level" : "5",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.13",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.167",
+    "level" : "5",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.16",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.181",
+    "level" : "5",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.18",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.163",
+    "level" : "5",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.16",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.169",
+    "level" : "5",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.16",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.164",
+    "level" : "5",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.16",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.239",
+    "level" : "5",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.23",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.149",
+    "level" : "5",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.14",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.1829",
+    "level" : "6",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.182",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.1811",
+    "level" : "6",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.181",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.1812",
+    "level" : "6",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.181",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.1823",
+    "level" : "6",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.182",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.1819",
+    "level" : "6",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.181",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.1821",
+    "level" : "6",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.182",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.1813",
+    "level" : "6",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.181",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRMRY_ASST_CLSSFCTN_HIER_1",
+    "member_id" : "PRMRY_ASST_CLSSFCTN_D.1822",
+    "level" : "6",
+    "parent_member_id" : "PRMRY_ASST_CLSSFCTN_D.182",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

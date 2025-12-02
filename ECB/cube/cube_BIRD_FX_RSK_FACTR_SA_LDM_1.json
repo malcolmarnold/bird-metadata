@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_FX_RSK_FACTR_SA_LDM_1",
+  "name" : "Foreign exchange risk factor for standardised approach",
+  "code" : "BIRD_FX_RSK_FACTR_SA_LDM",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_FX_RSK_FACTR_SA_LDM_1",
+  "cube_type" : "LDM",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "(1)\t\nDelta FX: the FX delta risk factors are defined below.\n\n(a)\t\nThe FX delta risk factors are all the exchange rates between the currency in which an instrument is denominated and the reporting currency. For transactions that reference an exchange rate between a pair of non-reporting currencies, the FX delta risk factors are all the exchange rates between:\n\n(i)\t\nthe reporting currency; and\n\n(ii)\t\nboth the currency in which an instrument is denominated and any other currencies referenced by the instrument.7\n\n(b)\t\nSubject to supervisory approval, FX risk may alternatively be calculated relative to a base currency instead of the reporting currency. In such case the bank must account for not only:\n\n(i)\t\nthe FX risk against the base currency; but also\n\n(ii)\t\nthe FX risk between the reporting currency and the base currency (ie translation risk).\n\n(c)\t\nThe resulting FX risk calculated relative to the base currency as set out in (b) is converted to the capital requirements in the reporting currency using the spot reporting/base exchange rate reflecting the FX risk between the base currency and the reporting currency.\n\n(d)\t\nThe FX base currency approach may be allowed under the following conditions:\n\n(i)\t\nTo use this alternative, a bank may only consider a single currency as its base currency; and\n\n(ii)\t\nThe bank shall demonstrate to the relevant supervisor that calculating FX risk relative to their proposed base currency provides an appropriate risk representation for their portfolio (for example, by demonstrating that it does not inappropriately reduce capital requirements relative to those that would be calculated without the base currency approach) and that the translation risk between the base currency and the reporting currency is taken into account.\n\n(2)\t\nVega FX: the FX vega risk factors are the implied volatilities of options that reference exchange rates between currency pairs; as defined along one dimension, the maturity of the option. This is defined as the implied volatility of the option as mapped to one or several of the following maturity tenors: 0.5 years, 1 year, 3 years, 5 years and 10 years.\n\n(3)\t\nCurvature FX: the FX curvature risk factors are defined below.\n\n(a)\t\nThe FX curvature risk factors are all the exchange rates between the currency in which an instrument is denominated and the reporting currency. For transactions that reference an exchange rate between a pair of non-reporting currencies, the FX risk factors are all the exchange rates between:\n\n(i)\t\nthe reporting currency; and\n\n(ii)\t\nboth the currency in which an instrument is denominated and any other currencies referenced by the instrument.\n\n(b)\t\nWhere supervisory approval for the base currency approach has been granted for delta risks, FX curvature risks shall also be calculated relative to a base currency instead of the reporting currency, and then converted to the capital requirements in the reporting currency using the spot reporting/base exchange rate.\n\n(4)\t\nNo distinction is required between onshore and offshore variants of a currency for all FX delta, vega and curvature risk factors.",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

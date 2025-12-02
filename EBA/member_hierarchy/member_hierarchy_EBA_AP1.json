@@ -1,0 +1,64 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_AP1",
+  "code" : "AP1",
+  "domain_id" : "EBA_AP",
+  "name" : "Hierarchy for approaches for credit risk",
+  "description" : "Approaches used for calculating capital requirements for credit risk.",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_AP1",
+    "member_id" : "EBA_AP_EBA_x0",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP1",
+    "member_id" : "EBA_AP_EBA_x45",
+    "level" : "2",
+    "parent_member_id" : "EBA_AP_EBA_x0",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP1",
+    "member_id" : "EBA_AP_EBA_x42",
+    "level" : "3",
+    "parent_member_id" : "EBA_AP_EBA_x45",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP1",
+    "member_id" : "EBA_AP_EBA_x27",
+    "level" : "3",
+    "parent_member_id" : "EBA_AP_EBA_x45",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP1",
+    "member_id" : "EBA_AP_EBA_x66",
+    "level" : "4",
+    "parent_member_id" : "EBA_AP_EBA_x27",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP1",
+    "member_id" : "EBA_AP_EBA_x67",
+    "level" : "4",
+    "parent_member_id" : "EBA_AP_EBA_x27",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

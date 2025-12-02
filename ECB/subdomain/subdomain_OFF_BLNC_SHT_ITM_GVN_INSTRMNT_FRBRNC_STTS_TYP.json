@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "OFF_BLNC_SHT_ITM_GVN_INSTRMNT_FRBRNC_STTS_TYP",
+  "name" : "Off-balance sheet item given instrument by forbearance status type",
+  "domain_id" : "ABSTRCT_INSTRMNT_RL_TYP",
+  "is_listed" : "true",
+  "code" : "OFF_BLNC_SHT_ITM_GVN_INSTRMNT_FRBRNC_STTS_TYP",
+  "facet_id" : null,
+  "description" : "Off-balance sheet item given instrument by forbearance status type",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "ABSTRCT_INSTRMNT_RL_TYP_501",
+    "subdomain_id" : "OFF_BLNC_SHT_ITM_GVN_INSTRMNT_FRBRNC_STTS_TYP",
+    "valid_from" : "2024-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "ABSTRCT_INSTRMNT_RL_TYP_502",
+    "subdomain_id" : "OFF_BLNC_SHT_ITM_GVN_INSTRMNT_FRBRNC_STTS_TYP",
+    "valid_from" : "2024-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

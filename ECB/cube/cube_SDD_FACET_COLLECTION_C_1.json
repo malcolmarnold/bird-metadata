@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "SDD_FACET_COLLECTION_C_1",
+  "name" : "Facet",
+  "code" : "FACET_COLLECTION",
+  "framework_id" : "SDD",
+  "cube_structure_id" : "SDD_FACET_COLLECTION_C_1",
+  "cube_type" : "C",
+  "is_allowed" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "In a nutshell: A\nFacet describes the allowed values of a non-enumerated field. More\nspecifically: The facet type allows a (broad) categorization\nof fields (Variables), e.g. Decimal, Integer, String or Gregorian day. Examples\nare positive numbers (with a certain number of digits), strings (limited to a\ncertain number of characters), ISINs or dates (having a specific format).",
+  "published" : "false",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

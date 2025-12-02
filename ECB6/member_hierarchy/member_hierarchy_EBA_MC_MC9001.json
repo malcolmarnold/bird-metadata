@@ -1,0 +1,64 @@
+{
+  "maintenance_agency_id" : "ECB6",
+  "member_hierarchy_id" : "EBA_MC_MC9001",
+  "code" : "MC9001",
+  "domain_id" : "EBA_MC",
+  "name" : "Hierarchy for Interest, fee and commission",
+  "description" : null,
+  "is_main_hierarchy" : null,
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_MC_MC9001",
+    "member_id" : "EBA_MC_ECB6_x1521",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC9001",
+    "member_id" : "EBA_MC_EBA_x212",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_ECB6_x1521",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC9001",
+    "member_id" : "EBA_MC_EBA_x153",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_ECB6_x1521",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC9001",
+    "member_id" : "EBA_MC_EBA_x212",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_ECB6_x6521",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC9001",
+    "member_id" : "EBA_MC_EBA_x153",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_ECB6_x6521",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC9001",
+    "member_id" : "EBA_MC_ECB6_x6521",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

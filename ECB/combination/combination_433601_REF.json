@@ -1,0 +1,64 @@
+{
+  "combination_id" : "433601_REF",
+  "code" : "433601_REF",
+  "name" : "EBA_APL(EBA_PL_EBA_x491)|EBA_ATY(EBA_md771)|EBA_BAS(EBA_BA_EBA_x6)|EBA_MCB(EBA_MC_EBA_x0)|EBA_MCY(EBA_MC_EBA_x420)|EBA_POV(EBA_RF_EBA_x0) - Reference",
+  "maintenance_agency_id" : "ECB",
+  "version" : "FINREP 2.9",
+  "valid_from" : "2020-06-30",
+  "valid_to" : "9999-12-31",
+  "combination_item" : [ {
+    "combination_id" : "433601_REF",
+    "variable_id" : "MTRCS",
+    "subdomain_id" : null,
+    "variable_set_id" : "13954865385766232297_REF",
+    "member_id" : null
+  }, {
+    "combination_id" : "433601_REF",
+    "variable_id" : "TYP_ACCNTNG_ITM",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "TYP_ACCNTNG_ITM_40"
+  }, {
+    "combination_id" : "433601_REF",
+    "variable_id" : "TYP_CLLTRL_GRNT_RCVD",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "TYP_PRTCTN_35"
+  }, {
+    "combination_id" : "433601_REF",
+    "variable_id" : "HLD_SL_INDCTR",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "HLD_SL_INDCTR_-1"
+  }, {
+    "combination_id" : "433601_REF",
+    "variable_id" : "SUBA_CD",
+    "subdomain_id" : "STRNG",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "433601_REF",
+    "variable_id" : "DT_RFRNC",
+    "subdomain_id" : "DT",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "433601_REF",
+    "variable_id" : "VLTN_DT",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "DT_OPNNG_BLNC_2"
+  }, {
+    "combination_id" : "433601_REF",
+    "variable_id" : "ENTTY_RIAD_CD_RPRTNG_AGNT",
+    "subdomain_id" : "STRNG",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "433601_REF",
+    "variable_id" : "VALUE_DECIMAL",
+    "subdomain_id" : "MNTRY",
+    "variable_set_id" : null,
+    "member_id" : null
+  } ]
+}

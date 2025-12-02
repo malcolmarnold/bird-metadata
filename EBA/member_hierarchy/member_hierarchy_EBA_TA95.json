@@ -1,0 +1,28 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_TA95",
+  "code" : "TA95",
+  "domain_id" : "EBA_TA",
+  "name" : "Relation between Total Custody and Custody entrusted to other entities",
+  "description" : "Relation between Total Custody and Custody entrusted to other entities",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_TA95",
+    "member_id" : "EBA_TA_EBA_x14",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_TA95",
+    "member_id" : "EBA_TA_EBA_x17",
+    "level" : "2",
+    "parent_member_id" : "EBA_TA_EBA_x14",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

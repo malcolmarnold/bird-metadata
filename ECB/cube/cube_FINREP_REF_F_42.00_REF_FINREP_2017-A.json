@@ -1,0 +1,47 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "FINREP_REF_F_42.00_REF_FINREP 2017-A",
+  "name" : "Tangible and intangible assets: carrying amount - Reference",
+  "code" : "F_42.00_REF",
+  "framework_id" : "FINREP_REF",
+  "cube_structure_id" : "FINREP_REF_F_42.00_REF_FINREP 2017-A",
+  "cube_type" : "RC",
+  "is_allowed" : null,
+  "valid_from" : "2018-03-31",
+  "valid_to" : "2020-06-29",
+  "version" : "FINREP 2017-A",
+  "description" : null,
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "FINREP_REF_F_42.00_REF_FINREP 2017-A",
+    "combination_id" : "11784_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_42.00_REF_FINREP 2017-A",
+    "combination_id" : "11922_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_42.00_REF_FINREP 2017-A",
+    "combination_id" : "11787_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_42.00_REF_FINREP 2017-A",
+    "combination_id" : "11914_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_42.00_REF_FINREP 2017-A",
+    "combination_id" : "11918_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_42.00_REF_FINREP 2017-A",
+    "combination_id" : "11930_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_42.00_REF_FINREP 2017-A",
+    "combination_id" : "11933_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_42.00_REF_FINREP 2017-A",
+    "combination_id" : "11776_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_42.00_REF_FINREP 2017-A",
+    "combination_id" : "113155_REF"
+  } ],
+  "cube_to_table" : [ ]
+}

@@ -1,0 +1,58 @@
+{
+  "combination_id" : "46631_REF",
+  "code" : "46631_REF",
+  "name" : "EBA_ATY(EBA_md200)|EBA_BAS(EBA_BA_EBA_x2)|EBA_CNO(EBA_BT_EBA_x4)|EBA_MCY(EBA_MC_EBA_x492)|EBA_REF(EBA_RF_EBA_x0) - Reference",
+  "maintenance_agency_id" : "ECB",
+  "version" : "FINREP",
+  "valid_from" : "2013-12-01",
+  "valid_to" : "9999-12-31",
+  "combination_item" : [ {
+    "combination_id" : "46631_REF",
+    "variable_id" : "MTRCS",
+    "subdomain_id" : null,
+    "variable_set_id" : "6750364677940919480_REF",
+    "member_id" : null
+  }, {
+    "combination_id" : "46631_REF",
+    "variable_id" : "TYP_ACCNTNG_ITM",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "TYP_ACCNTNG_ITM_830"
+  }, {
+    "combination_id" : "46631_REF",
+    "variable_id" : "IS_OWNR",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "BLN_T"
+  }, {
+    "combination_id" : "46631_REF",
+    "variable_id" : "SUBA_CD",
+    "subdomain_id" : "STRNG",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "46631_REF",
+    "variable_id" : "DT_RFRNC",
+    "subdomain_id" : "DT",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "46631_REF",
+    "variable_id" : "DT_OPNNG_BLNC",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "DT_OPNNG_BLNC_2"
+  }, {
+    "combination_id" : "46631_REF",
+    "variable_id" : "ENTTY_RIAD_CD_RPRTNG_AGNT",
+    "subdomain_id" : "STRNG",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "46631_REF",
+    "variable_id" : "VALUE_DECIMAL",
+    "subdomain_id" : "MNTRY",
+    "variable_set_id" : null,
+    "member_id" : null
+  } ]
+}

@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "STS_SCRTSTN_INDCTR",
+  "name" : "Simple, transparent and standardised (STS) securitisation indicator",
+  "domain_id" : "STS_SCRTSTN_INDCTR",
+  "is_listed" : "true",
+  "code" : "STS_SCRTSTN_INDCTR",
+  "facet_id" : null,
+  "description" : "Simple, transparent and standardised (STS) securitisation indicator",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "STS_SCRTSTN_INDCTR_1",
+    "subdomain_id" : "STS_SCRTSTN_INDCTR",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "STS_SCRTSTN_INDCTR_2",
+    "subdomain_id" : "STS_SCRTSTN_INDCTR",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

@@ -1,0 +1,536 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+  "name" : "Asset encumbrance: Advance template for colllateral and own debt secrities issued other than covered bonds or ABSs (b) - Reference",
+  "code" : "F_36.02.b_REF",
+  "framework_id" : "AE_REF",
+  "cube_structure_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+  "cube_type" : "RC",
+  "is_allowed" : null,
+  "valid_from" : "2023-06-30",
+  "valid_to" : "9999-12-31",
+  "version" : "AE 3.2",
+  "description" : null,
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42114_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41936_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41823_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41836_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41871_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42120_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41899_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41796_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42847_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41809_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42135_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41950_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41987_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42125_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41982_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42062_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42130_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41798_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42924_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41826_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41838_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42868_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41961_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42104_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41926_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41988_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41813_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41918_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41792_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42124_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42063_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41983_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41896_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41799_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42131_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41827_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42869_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41975_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42930_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42105_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41927_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41960_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42115_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41937_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42059_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42820_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41944_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42846_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41797_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42121_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41808_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41851_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42134_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41986_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42126_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41881_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41948_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42133_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41894_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41843_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42061_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41981_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42832_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42927_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41962_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42119_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41925_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42827_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41879_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41835_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42929_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41872_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41979_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41920_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41853_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41814_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41901_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41946_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42064_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41984_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41878_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42116_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42928_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41834_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41921_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41815_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41852_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41947_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41959_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41900_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41985_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41791_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42819_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41880_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41810_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42855_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41895_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41949_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42132_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41980_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41842_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42060_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "41976_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42926_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "42106_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454826_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454861_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454838_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454874_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454989_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454840_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "456945_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454955_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454850_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454992_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454892_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454987_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "455011_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454823_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454864_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454886_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454993_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "456913_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454851_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454986_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "455010_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454837_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454839_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454875_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454832_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454960_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454988_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454996_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454854_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454954_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454991_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454958_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454884_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454858_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454891_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454953_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454872_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "455007_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "455009_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454825_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454862_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454877_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454881_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454994_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454848_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454956_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "455008_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454863_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454824_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454876_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454831_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454849_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454857_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454995_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454957_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454852_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454990_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "456910_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454885_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454959_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454985_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "456905_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454952_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454878_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454873_REF"
+  }, {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "combination_id" : "454834_REF"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "AE_REF_F_36.02.b_REF_AE 3.2",
+    "table_id" : "AE_REF_F_36.02.b_REF_AE 3.2"
+  } ]
+}

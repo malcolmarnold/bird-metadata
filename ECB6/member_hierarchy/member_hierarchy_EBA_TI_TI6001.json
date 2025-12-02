@@ -1,0 +1,73 @@
+{
+  "maintenance_agency_id" : "ECB6",
+  "member_hierarchy_id" : "EBA_TI_TI6001",
+  "code" : "TI6001",
+  "domain_id" : "EBA_TI",
+  "name" : "Hierarchy for length of time horizon considered to derive the liquidity outflow rate",
+  "description" : null,
+  "is_main_hierarchy" : null,
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_TI_TI6001",
+    "member_id" : "EBA_TI_ECB6_x213",
+    "level" : "2",
+    "parent_member_id" : "EBA_TI_EBA_x0",
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_TI_TI6001",
+    "member_id" : "EBA_TI_ECB6_x6060",
+    "level" : "2",
+    "parent_member_id" : "EBA_TI_EBA_x0",
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_TI_TI6001",
+    "member_id" : "EBA_TI_EBA_x211",
+    "level" : "2",
+    "parent_member_id" : "EBA_TI_EBA_x0",
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_TI_TI6001",
+    "member_id" : "EBA_TI_EBA_x551",
+    "level" : "2",
+    "parent_member_id" : "EBA_TI_EBA_x0",
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_TI_TI6001",
+    "member_id" : "EBA_TI_EBA_x214",
+    "level" : "2",
+    "parent_member_id" : "EBA_TI_EBA_x0",
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_TI_TI6001",
+    "member_id" : "EBA_TI_EBA_x213",
+    "level" : "2",
+    "parent_member_id" : "EBA_TI_EBA_x0",
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_TI_TI6001",
+    "member_id" : "EBA_TI_EBA_x0",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

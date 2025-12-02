@@ -1,0 +1,37 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "SRC_ENCMBRNC_ALL",
+  "code" : "SRC_ENCMBRNC_ALL",
+  "domain_id" : "SRC_ENCMBRNC",
+  "name" : "Source of encumbrance hierarchy for Encumbered (100), Not encumbered (1)",
+  "description" : "Hierarchical structure of the Member Encumbered and unencumbered (101)",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "SRC_ENCMBRNC_ALL",
+    "member_id" : "SRC_ENCMBRNC_101",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "2019-05-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "SRC_ENCMBRNC_ALL",
+    "member_id" : "SRC_ENCMBRNC_1",
+    "level" : "2",
+    "parent_member_id" : "SRC_ENCMBRNC_101",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2019-05-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "SRC_ENCMBRNC_ALL",
+    "member_id" : "SRC_ENCMBRNC_100",
+    "level" : "2",
+    "parent_member_id" : "SRC_ENCMBRNC_101",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2019-05-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

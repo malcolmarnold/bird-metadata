@@ -1,0 +1,23 @@
+{
+  "semantic_transformation_rule_id" : "F_13.03.1.b_TR",
+  "transformation_url" : "https://gitlab.sofa.dev/bird-subgroups/bird-transformation-rules/-/blob/main/FinRep%20subgroup/final%20generation%20rules/Template%20F_13.03.1.b_REF.md",
+  "type_of_transformation" : "G",
+  "maintenance_agency_id" : "ECB",
+  "name" : "F_13.03.1.b generation rule",
+  "code" : "F_13_03_1_b_TR",
+  "description" : "This generation rule aims to obtain template F_13.03.1.b from its basic building blocks",
+  "algorithm" : null,
+  "valid_from" : "2024-02-28",
+  "valid_to" : "9999-12-31",
+  "logical_transformation_rule" : [ {
+    "logical_transformation_rule_id" : "GEN_L__F_13.03.1.b_REF__01_01_1990",
+    "semantic_transformation_rule_id" : "F_13.03.1.b_TR",
+    "algorithm" : null,
+    "additional_filters" : null,
+    "source_layer" : "EIL",
+    "destination_layer" : "ROL",
+    "transformation_type" : "GEN",
+    "valid_from" : "1990-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

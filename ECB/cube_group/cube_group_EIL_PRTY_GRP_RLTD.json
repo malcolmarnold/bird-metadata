@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_group_id" : "EIL_PRTY_GRP_RLTD",
+  "name" : "Party Group related",
+  "code" : "EIL_PRTY_GRP_RLTD",
+  "description" : "Party Group related",
+  "cube_group_enumeration" : [ {
+    "order" : "1",
+    "cube_group_id" : "EIL_PRTY_GRP_RLTD",
+    "cube_id" : "BIRD_SBSDRY_JNT_VNTR_ASSCT_OTHR_ORGNSTN_ASSGNMNT_EIL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "EIL_PRTY_GRP_RLTD",
+    "cube_id" : "BIRD_GRP_KY_MNGMNT_PRSNLL_ASSGNMNT_EIL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

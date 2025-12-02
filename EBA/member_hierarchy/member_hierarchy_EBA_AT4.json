@@ -1,0 +1,190 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_AT4",
+  "code" : "AT4",
+  "domain_id" : "EBA_ATY",
+  "name" : "Hierarchy for the calculation of RWA in the Standardised Approach for securitisation positions",
+  "description" : "This hierarchy shows the calculation of the RWA for the SA, exposure class securitisation. The single steps were taken from the template CR SEC SA.",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_AT4",
+    "member_id" : "EBA_ATY_EBA_mi213",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT4",
+    "member_id" : "EBA_ATY_EBA_mi214",
+    "level" : "2",
+    "parent_member_id" : "EBA_ATY_EBA_mi213",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT4",
+    "member_id" : "EBA_ATY_EBA_mi17",
+    "level" : "3",
+    "parent_member_id" : "EBA_ATY_EBA_mi214",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT4",
+    "member_id" : "EBA_ATY_EBA_mi182",
+    "level" : "3",
+    "parent_member_id" : "EBA_ATY_EBA_mi214",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT4",
+    "member_id" : "EBA_ATY_EBA_mi212",
+    "level" : "4",
+    "parent_member_id" : "EBA_ATY_EBA_mi182",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT4",
+    "member_id" : "EBA_ATY_EBA_mi127",
+    "level" : "5",
+    "parent_member_id" : "EBA_ATY_EBA_mi212",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT4",
+    "member_id" : "EBA_ATY_EBA_mi125",
+    "level" : "6",
+    "parent_member_id" : "EBA_ATY_EBA_mi127",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT4",
+    "member_id" : "EBA_ATY_EBA_mi126",
+    "level" : "6",
+    "parent_member_id" : "EBA_ATY_EBA_mi127",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT4",
+    "member_id" : "EBA_ATY_EBA_mi132",
+    "level" : "7",
+    "parent_member_id" : "EBA_ATY_EBA_mi125",
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT4",
+    "member_id" : "EBA_ATY_EBA_mi90",
+    "level" : "8",
+    "parent_member_id" : "EBA_ATY_EBA_mi132",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT4",
+    "member_id" : "EBA_ATY_EBA_mi117",
+    "level" : "8",
+    "parent_member_id" : "EBA_ATY_EBA_mi132",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT4",
+    "member_id" : "EBA_ATY_EBA_mi118",
+    "level" : "9",
+    "parent_member_id" : "EBA_ATY_EBA_mi117",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT4",
+    "member_id" : "EBA_ATY_EBA_mi100",
+    "level" : "9",
+    "parent_member_id" : "EBA_ATY_EBA_mi117",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT4",
+    "member_id" : "EBA_ATY_EBA_mi88",
+    "level" : "9",
+    "parent_member_id" : "EBA_ATY_EBA_mi117",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT4",
+    "member_id" : "EBA_ATY_EBA_mi180",
+    "level" : "10",
+    "parent_member_id" : "EBA_ATY_EBA_mi118",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT4",
+    "member_id" : "EBA_ATY_EBA_mi253",
+    "level" : "10",
+    "parent_member_id" : "EBA_ATY_EBA_mi118",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT4",
+    "member_id" : "EBA_ATY_EBA_mi171",
+    "level" : "11",
+    "parent_member_id" : "EBA_ATY_EBA_mi180",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT4",
+    "member_id" : "EBA_ATY_EBA_mi230",
+    "level" : "11",
+    "parent_member_id" : "EBA_ATY_EBA_mi180",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT4",
+    "member_id" : "EBA_ATY_EBA_mi91",
+    "level" : "11",
+    "parent_member_id" : "EBA_ATY_EBA_mi180",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT4",
+    "member_id" : "EBA_ATY_EBA_mi285",
+    "level" : "11",
+    "parent_member_id" : "EBA_ATY_EBA_mi180",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

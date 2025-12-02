@@ -1,0 +1,82 @@
+{
+  "combination_id" : "32464_REF",
+  "code" : "32464_REF",
+  "name" : "EBA_ATY(EBA_mi53)|EBA_BAS(EBA_BA_EBA_x2)|EBA_CNO(EBA_BT_EBA_x0)|EBA_MCY(EBA_MC_EBA_x28)|EBA_REC(EBA_BT_EBA_x0) - Reference",
+  "maintenance_agency_id" : "ECB",
+  "version" : "FINREP",
+  "valid_from" : "2013-12-01",
+  "valid_to" : "9999-12-31",
+  "combination_item" : [ {
+    "combination_id" : "32464_REF",
+    "variable_id" : "MTRCS",
+    "subdomain_id" : null,
+    "variable_set_id" : "826386289683186479_REF",
+    "member_id" : null
+  }, {
+    "combination_id" : "32464_REF",
+    "variable_id" : "TYP_ACCNTNG_ITM",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "TYP_ACCNTNG_ITM_889"
+  }, {
+    "combination_id" : "32464_REF",
+    "variable_id" : "IS_OWNR",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "BLN_A"
+  }, {
+    "combination_id" : "32464_REF",
+    "variable_id" : "SUBA_CD",
+    "subdomain_id" : "STRNG",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "32464_REF",
+    "variable_id" : "DT_RFRNC",
+    "subdomain_id" : "DT",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "32464_REF",
+    "variable_id" : "DT_OPNNG_BLNC",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "DT_OPNNG_BLNC_2"
+  }, {
+    "combination_id" : "32464_REF",
+    "variable_id" : "ENTTY_RIAD_CD_RPRTNG_AGNT",
+    "subdomain_id" : "STRNG",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "32464_REF",
+    "variable_id" : "VALUE_DECIMAL",
+    "subdomain_id" : "MNTRY",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "32464_REF",
+    "variable_id" : "HLD_SL_INDCTR",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "HLD_SL_INDCTR_2"
+  }, {
+    "combination_id" : "32464_REF",
+    "variable_id" : "HDG_INSTRMNT",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "HDG_INSTRMNT_0"
+  }, {
+    "combination_id" : "32464_REF",
+    "variable_id" : "RCLSSFD_PRFT_LSS_INDCTR",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "RCLSSFD_PRFT_LSS_INDCTR_0"
+  }, {
+    "combination_id" : "32464_REF",
+    "variable_id" : "TYP_HDG",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "TYP_HDG_0"
+  } ]
+}

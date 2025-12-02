@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "MEMBER_HIERARCHY__MEMBER_HIERARCHY_NODE__MEMBER_HIERARCHY_ID__1",
+  "code" : "MEMBER_HIERARCHY__MEMBER_HIERARCHY_NODE__MEMBER_HIERARCHY_ID__1",
+  "name" : "a member hierarchy must be associated with a member hierarchy node,<br> it can have many member hierarchy nodes<br> and a member hierarchy node must be associated with a member hierarchy",
+  "description" : null,
+  "type_of_relationship" : "ASS",
+  "valid_from" : "1999-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "SDD_MEMBER_HIERARCHY_C_1",
+  "primary_cube_variable_code" : "MEMBER_HIERARCHY_ID",
+  "foreign_cube_id" : "SDD_MEMBER_HIERARCHY_NODE_C_1",
+  "foreign_cube_variable_code" : "MEMBER_HIERARCHY_ID",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "true"
+}

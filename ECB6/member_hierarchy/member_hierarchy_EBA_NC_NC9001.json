@@ -1,0 +1,55 @@
+{
+  "maintenance_agency_id" : "ECB6",
+  "member_hierarchy_id" : "EBA_NC_NC9001",
+  "code" : "NC9001",
+  "domain_id" : "EBA_NC",
+  "name" : "Total for NACE codes selected as greenhouse gas extensive and other",
+  "description" : null,
+  "is_main_hierarchy" : null,
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_NC_NC9001",
+    "member_id" : "EBA_NC_ECB6_x1019",
+    "level" : "2",
+    "parent_member_id" : "EBA_NC_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_NC_NC9001",
+    "member_id" : "EBA_NC_ECB6_x1018",
+    "level" : "2",
+    "parent_member_id" : "EBA_NC_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_NC_NC9001",
+    "member_id" : "EBA_NC_ECB6_x6019",
+    "level" : "2",
+    "parent_member_id" : "EBA_NC_EBA_x0",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_NC_NC9001",
+    "member_id" : "EBA_NC_ECB6_x6018",
+    "level" : "2",
+    "parent_member_id" : "EBA_NC_EBA_x0",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_NC_NC9001",
+    "member_id" : "EBA_NC_EBA_x0",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

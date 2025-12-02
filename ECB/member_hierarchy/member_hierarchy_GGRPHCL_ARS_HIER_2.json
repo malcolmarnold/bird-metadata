@@ -1,0 +1,199 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "GGRPHCL_ARS_HIER_2",
+  "code" : "2",
+  "domain_id" : "GGRPHCL_ARS",
+  "name" : "Inclusions and exclusions of certain territories in country codes - refers to BPM6 – Annex 6",
+  "description" : "The exchange of balance of payments, international investment position statistics – BPM6 – Annex 6 Contents of selected country codes. Inclusions and exclusions of certain territories in country codes (apply for all data requests)",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "GGRPHCL_ARS_HIER_2",
+    "member_id" : "GGRPHCL_ARS_ES",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "GGRPHCL_ARS_HIER_2",
+    "member_id" : "GGRPHCL_ARS_IN",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "GGRPHCL_ARS_HIER_2",
+    "member_id" : "GGRPHCL_ARS_DK",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "GGRPHCL_ARS_HIER_2",
+    "member_id" : "GGRPHCL_ARS_US",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "GGRPHCL_ARS_HIER_2",
+    "member_id" : "GGRPHCL_ARS_NL",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "GGRPHCL_ARS_HIER_2",
+    "member_id" : "GGRPHCL_ARS_IT",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "GGRPHCL_ARS_HIER_2",
+    "member_id" : "GGRPHCL_ARS_DE",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "GGRPHCL_ARS_HIER_2",
+    "member_id" : "GGRPHCL_ARS_FR",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "GGRPHCL_ARS_HIER_2",
+    "member_id" : "GGRPHCL_ARS_GB",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "GGRPHCL_ARS_HIER_2",
+    "member_id" : "GGRPHCL_ARS_FI",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "GGRPHCL_ARS_HIER_2",
+    "member_id" : "GGRPHCL_ARS_PT",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "GGRPHCL_ARS_HIER_2",
+    "member_id" : "GGRPHCL_ARS_PM",
+    "level" : "2",
+    "parent_member_id" : "GGRPHCL_ARS_FR",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "GGRPHCL_ARS_HIER_2",
+    "member_id" : "GGRPHCL_ARS_FX",
+    "level" : "2",
+    "parent_member_id" : "GGRPHCL_ARS_FR",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "GGRPHCL_ARS_HIER_2",
+    "member_id" : "GGRPHCL_ARS_MC",
+    "level" : "2",
+    "parent_member_id" : "GGRPHCL_ARS_FR",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "GGRPHCL_ARS_HIER_2",
+    "member_id" : "GGRPHCL_ARS_GF",
+    "level" : "2",
+    "parent_member_id" : "GGRPHCL_ARS_FR",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "GGRPHCL_ARS_HIER_2",
+    "member_id" : "GGRPHCL_ARS_MF",
+    "level" : "2",
+    "parent_member_id" : "GGRPHCL_ARS_FR",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "GGRPHCL_ARS_HIER_2",
+    "member_id" : "GGRPHCL_ARS_BL",
+    "level" : "2",
+    "parent_member_id" : "GGRPHCL_ARS_FR",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "GGRPHCL_ARS_HIER_2",
+    "member_id" : "GGRPHCL_ARS_GP",
+    "level" : "2",
+    "parent_member_id" : "GGRPHCL_ARS_FR",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "GGRPHCL_ARS_HIER_2",
+    "member_id" : "GGRPHCL_ARS_RE",
+    "level" : "2",
+    "parent_member_id" : "GGRPHCL_ARS_FR",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "GGRPHCL_ARS_HIER_2",
+    "member_id" : "GGRPHCL_ARS_MQ",
+    "level" : "2",
+    "parent_member_id" : "GGRPHCL_ARS_FR",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "GGRPHCL_ARS_HIER_2",
+    "member_id" : "GGRPHCL_ARS_YT",
+    "level" : "2",
+    "parent_member_id" : "GGRPHCL_ARS_FR",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "TABLE_CELL__CELL_POSITION__CELL_ID__1",
+  "code" : "TABLE_CELL__CELL_POSITION__CELL_ID__1",
+  "name" : "a table cell can have many cell positions<br> and a cell position must be associated with a table cell",
+  "description" : null,
+  "type_of_relationship" : "ASS",
+  "valid_from" : "1999-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "SDD_TABLE_CELL_C_1",
+  "primary_cube_variable_code" : "CELL_ID",
+  "foreign_cube_id" : "SDD_CELL_POSITION_C_1",
+  "foreign_cube_variable_code" : "CELL_ID",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "false",
+  "foreign_cube_mandatoriness" : "true"
+}

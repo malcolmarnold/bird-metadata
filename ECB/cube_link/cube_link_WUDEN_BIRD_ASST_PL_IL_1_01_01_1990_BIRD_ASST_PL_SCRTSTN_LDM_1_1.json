@@ -1,0 +1,32 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_link_id" : "WUDEN__BIRD_ASST_PL_IL_1__01_01_1990__BIRD_ASST_PL_SCRTSTN_LDM_1__1",
+  "code" : "WUDEN__BIRD_ASST_PL_IL_1__01_01_1990__BIRD_ASST_PL_SCRTSTN_LDM_1",
+  "name" : "The LDM: Asset pool (subject to a Securitisation) (BIRD_ASST_PL_SCRTSTN_LDM) is forward engineered into the IL: Asset pool (subject to a Securitisation and other credit transfer) (BIRD_ASST_PL_IL)",
+  "description" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "order_relevance" : "1",
+  "primary_cube_id" : "BIRD_ASST_PL_SCRTSTN_LDM_1",
+  "foreign_cube_id" : "BIRD_ASST_PL_IL_1",
+  "cube_link_type" : "TR",
+  "logical_transformation_rule_id" : "WUDEN__BIRD_ASST_PL_IL_1__01_01_1990",
+  "cube_structure_item_link" : [ {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_ASST_PL_IL_1__01_01_1990__BIRD_ASST_PL_SCRTSTN_LDM_1__1__ASST_PL_ID__ASST_PL_ID",
+    "cube_link_id" : "WUDEN__BIRD_ASST_PL_IL_1__01_01_1990__BIRD_ASST_PL_SCRTSTN_LDM_1__1",
+    "foreign_cube_variable_code" : "ASST_PL_ID",
+    "primary_cube_variable_code" : "ASST_PL_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_ASST_PL_IL_1__01_01_1990__BIRD_ASST_PL_SCRTSTN_LDM_1__1__CRRYNG_AMNT__CRRYNG_AMNT",
+    "cube_link_id" : "WUDEN__BIRD_ASST_PL_IL_1__01_01_1990__BIRD_ASST_PL_SCRTSTN_LDM_1__1",
+    "foreign_cube_variable_code" : "CRRYNG_AMNT",
+    "primary_cube_variable_code" : "CRRYNG_AMNT",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  } ]
+}

@@ -1,0 +1,55 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_MC33",
+  "code" : "MC33",
+  "domain_id" : "EBA_MC",
+  "name" : "Off-balance sheet exposures subject to credit risk",
+  "description" : "EBA_MC33",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_MC33",
+    "member_id" : "EBA_MC_EBA_x251",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC33",
+    "member_id" : "EBA_MC_EBA_x154",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x251",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC33",
+    "member_id" : "EBA_MC_EBA_x222",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x251",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC33",
+    "member_id" : "EBA_MC_EBA_x221",
+    "level" : "3",
+    "parent_member_id" : "EBA_MC_EBA_x222",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC33",
+    "member_id" : "EBA_MC_EBA_x52",
+    "level" : "3",
+    "parent_member_id" : "EBA_MC_EBA_x222",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_KB_PR_BCKT_LDM_1",
+  "name" : "Risk position (Kb) per bucket derived data",
+  "code" : "BIRD_KB_PR_BCKT_LDM",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_KB_PR_BCKT_LDM_1",
+  "cube_type" : "LDM",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "The risk position for bucket b, K(b), must be determined by aggregating the weighted sensitivities to risk factors within the same bucket using the corresponding prescribed correlation ρ(kl)\n\nKB per bucket is a term used in the standardised approach for market risk under FRTB. It is the risk capital requirement for a given bucket of risk factors within a risk class. It is computed as an aggregation of risk positions first at the bucket level, and then across buckets within a risk class defined for the sensitivities-based method.\n\nA bucket is a set of risk factors that are grouped together by common characteristics (eg all tenors of interest rate curves for the same currency), as defined in MAR21.39 to MAR21.892. A risk position is the portion of the risk of an instrument that relates to a risk factor.\n\n(https://www.bis.org/basel_framework/chapter/MAR/21.htm?inforce=20230101&published=20200327)",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

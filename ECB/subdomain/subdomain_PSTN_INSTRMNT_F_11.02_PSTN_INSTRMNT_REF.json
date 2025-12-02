@@ -1,0 +1,36 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "PSTN_INSTRMNT_F_11.02_PSTN_INSTRMNT_REF",
+  "name" : "Subdomain for PSTN_INSTRMNT of the Cube F_11.02",
+  "domain_id" : "PSTN_INSTRMNT",
+  "is_listed" : "true",
+  "code" : "PSTN_INSTRMNT_F_11.02_PSTN_INSTRMNT_REF",
+  "facet_id" : null,
+  "description" : null,
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "PSTN_INSTRMNT_2",
+    "subdomain_id" : "PSTN_INSTRMNT_F_11.02_PSTN_INSTRMNT_REF",
+    "valid_from" : "2018-03-31",
+    "valid_to" : "2021-06-29",
+    "order" : "0"
+  }, {
+    "member_id" : "PSTN_INSTRMNT_4",
+    "subdomain_id" : "PSTN_INSTRMNT_F_11.02_PSTN_INSTRMNT_REF",
+    "valid_from" : "2018-03-31",
+    "valid_to" : "2021-06-29",
+    "order" : "1"
+  }, {
+    "member_id" : "PSTN_INSTRMNT_2",
+    "subdomain_id" : "PSTN_INSTRMNT_F_11.02_PSTN_INSTRMNT_REF",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "PSTN_INSTRMNT_4",
+    "subdomain_id" : "PSTN_INSTRMNT_F_11.02_PSTN_INSTRMNT_REF",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31",
+    "order" : "1"
+  } ]
+}

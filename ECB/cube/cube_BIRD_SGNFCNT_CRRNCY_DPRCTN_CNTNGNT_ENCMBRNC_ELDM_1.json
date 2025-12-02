@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_SGNFCNT_CRRNCY_DPRCTN_CNTNGNT_ENCMBRNC_ELDM_1",
+  "name" : "Significant currency 10% depreciation contingent encumbrance",
+  "code" : "BIRD_SGNFCNT_CRRNCY_DPRCTN_CNTNGNT_ENCMBRNC_ELDM",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_SGNFCNT_CRRNCY_DPRCTN_CNTNGNT_ENCMBRNC_ELDM_1",
+  "cube_type" : "ELDM",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "Contingent encumbrance refers to the additional assets which may need to be encumbered when the reporting institutions faces adverse developments triggered by an external event over which the reporting institution has no control (including a downgrade, decrease of the fair value of the encumbered assets or a general loss of confidence). In these cases, the reporting institution will need to encumber additional assets as a consequence of already existing transactions. The additional amount of encumbered assets shall be net of the impact of the institution’s hedge transactions against the events described under the aforementioned stressed scenarios. (Annext 17 (Asset Encumbrance) 4. Part C)",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

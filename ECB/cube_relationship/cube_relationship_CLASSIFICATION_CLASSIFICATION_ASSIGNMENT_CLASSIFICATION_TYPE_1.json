@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "CLASSIFICATION__CLASSIFICATION_ASSIGNMENT__CLASSIFICATION_TYPE__1",
+  "code" : "CLASSIFICATION__CLASSIFICATION_ASSIGNMENT__CLASSIFICATION_TYPE__1",
+  "name" : "a classification can have many classification assignments <br> and a classification assignment must be associated with a classification",
+  "description" : null,
+  "type_of_relationship" : "ASS",
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "SDD_CLASSIFICATION_C_1",
+  "primary_cube_variable_code" : "CLASSIFICATION_TYPE",
+  "foreign_cube_id" : "SDD_CLASSIFICATION_ASSIGNMENT_C_1",
+  "foreign_cube_variable_code" : "CLASSIFICATION_TYPE",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "false",
+  "foreign_cube_mandatoriness" : "true"
+}

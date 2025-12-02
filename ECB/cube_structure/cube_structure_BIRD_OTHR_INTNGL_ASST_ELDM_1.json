@@ -1,0 +1,27 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_structure_id" : "BIRD_OTHR_INTNGL_ASST_ELDM_1",
+  "name" : "Other intangible asset",
+  "code" : "BIRD_OTHR_INTNGL_ASST_ELDM",
+  "description" : "An intangible asset is an identifiable non-monetary asset without physical substance.\nAs defined by IAS 38.8\n\n(Monetary assets are money held and assets to be received in fixed or determinable amounts of money.)\nAs defined by IAS 38.8\n\nhttps://www.investopedia.com/terms/i/intangibleasset.asp:\nAn intangible asset is an asset that is not physical in nature. Goodwill, brand recognition and intellectual property, such as patents, trademarks, and copyrights, are all intangible assets. Intangible assets exist in opposition to tangible assets, which include land, vehicles, equipment, and inventory.",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "cube_structure_item" : [ {
+    "cube_structure_item_id" : "BIRD_OTHR_INTNGL_ASST_ELDM_1__OTHR_INTGBL_ASST_TYP",
+    "cube_structure_id" : "BIRD_OTHR_INTNGL_ASST_ELDM_1",
+    "cube_variable_code" : "OTHR_INTGBL_ASST_TYP",
+    "variable_id" : "OTHR_INTGBL_ASST_TYP",
+    "role" : "D",
+    "order" : "8",
+    "subdomain_id" : "OTHR_INTGBL_ASST_TYP",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "true",
+    "description" : "Other intangible asset  type",
+    "is_implemented" : "true"
+  } ]
+}

@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_link_id" : "WUDEN__BIRD_SCTRY_BRRWNG_LNDNG_TRNSCTN_INCLDNG_CSH_CLLTRL_EIL_1__01_01_1990__BIRD_EQTY_FND_SCRTY_BRRWNG_LNDNG_TRNSCTN_CMPNNT_ELDM_1__1",
+  "code" : "WUDEN__BIRD_SCTRY_BRRWNG_LNDNG_TRNSCTN_INCLDNG_CSH_CLLTRL_EIL_1__01_01_1990__BIRD_EQTY_FND_SCRTY_BRRWNG_LNDNG_TRNSCTN_CMPNNT_ELDM_1",
+  "name" : "The LDM: Equity or fund security borrowing and lending transaction component (BIRD_EQTY_FND_SCRTY_BRRWNG_LNDNG_TRNSCTN_CMPNNT_ELDM) is forward engineered into the IL: Security borrowing and lending transaction including cash as collateral component (BIRD_",
+  "description" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "order_relevance" : "1",
+  "primary_cube_id" : "BIRD_EQTY_FND_SCRTY_BRRWNG_LNDNG_TRNSCTN_CMPNNT_ELDM_1",
+  "foreign_cube_id" : "BIRD_SCTRY_BRRWNG_LNDNG_TRNSCTN_INCLDNG_CSH_CLLTRL_EIL_1",
+  "cube_link_type" : "TR",
+  "logical_transformation_rule_id" : "WUDEN__BIRD_SCTRY_BRRWNG_LNDNG_TRNSCTN_INCLDNG_CSH_CLLTRL_EIL_1__01_01_1990",
+  "cube_structure_item_link" : [ {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_SCTRY_BRRWNG_LNDNG_TRNSCTN_INCLDNG_CSH_CLLTRL_EIL_1__01_01_1990__BIRD_EQTY_FND_SCRTY_BRRWNG_LNDNG_TRNSCTN_CMPNNT_ELDM_1__1__NMBR_SHRS__NMBR_SHRS",
+    "cube_link_id" : "WUDEN__BIRD_SCTRY_BRRWNG_LNDNG_TRNSCTN_INCLDNG_CSH_CLLTRL_EIL_1__01_01_1990__BIRD_EQTY_FND_SCRTY_BRRWNG_LNDNG_TRNSCTN_CMPNNT_ELDM_1__1",
+    "foreign_cube_variable_code" : "NMBR_SHRS",
+    "primary_cube_variable_code" : "NMBR_SHRS",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  } ]
+}

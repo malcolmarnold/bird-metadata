@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "FNNCL_ASST_INSTRMNT_TYP_INTRST_RT",
+  "name" : "Financial asset instrument type by interest rate only",
+  "domain_id" : "ABSTRCT_INSTRMNT_RL_TYP",
+  "is_listed" : "true",
+  "code" : "FNNCL_ASST_INSTRMNT_TYP_INTRST_RT",
+  "facet_id" : null,
+  "description" : "Financial asset instrument type by interest rate only",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "ABSTRCT_INSTRMNT_RL_TYP_20",
+    "subdomain_id" : "FNNCL_ASST_INSTRMNT_TYP_INTRST_RT",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "ABSTRCT_INSTRMNT_RL_TYP_21",
+    "subdomain_id" : "FNNCL_ASST_INSTRMNT_TYP_INTRST_RT",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

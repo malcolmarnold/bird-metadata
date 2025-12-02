@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "EMPLY_BNFT_TYP",
+  "name" : "Employee benefit type",
+  "domain_id" : "TYP_ACCNTNG_ITM",
+  "is_listed" : "true",
+  "code" : "EMPLY_BNFT_TYP",
+  "facet_id" : null,
+  "description" : "Employee benefit type",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "TYP_ACCNTNG_ITM_702",
+    "subdomain_id" : "EMPLY_BNFT_TYP",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_ACCNTNG_ITM_703",
+    "subdomain_id" : "EMPLY_BNFT_TYP",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

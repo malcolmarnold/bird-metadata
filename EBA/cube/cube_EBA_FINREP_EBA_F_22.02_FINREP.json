@@ -1,0 +1,71 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "cube_id" : "EBA_FINREP_EBA_F_22.02_FINREP",
+  "name" : "Assets involved in the services provided",
+  "code" : "F_22.02",
+  "framework_id" : "EBA_FINREP",
+  "cube_structure_id" : "EBA_FINREP_EBA_F_22.02_FINREP",
+  "cube_type" : "D",
+  "is_allowed" : null,
+  "valid_from" : "2013-12-01",
+  "valid_to" : "2018-03-30",
+  "version" : "FINREP",
+  "description" : "Assets involved in the services provided",
+  "published" : "false",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_22.02_FINREP",
+    "combination_id" : "EBA_31981"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_22.02_FINREP",
+    "combination_id" : "EBA_31982"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_22.02_FINREP",
+    "combination_id" : "EBA_31983"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_22.02_FINREP",
+    "combination_id" : "EBA_31984"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_22.02_FINREP",
+    "combination_id" : "EBA_31985"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_22.02_FINREP",
+    "combination_id" : "EBA_31986"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_22.02_FINREP",
+    "combination_id" : "EBA_31987"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_22.02_FINREP",
+    "combination_id" : "EBA_31988"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_22.02_FINREP",
+    "combination_id" : "EBA_31989"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_22.02_FINREP",
+    "combination_id" : "EBA_31990"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_22.02_FINREP",
+    "combination_id" : "EBA_31991"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_22.02_FINREP",
+    "combination_id" : "EBA_31992"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_22.02_FINREP",
+    "combination_id" : "EBA_31993"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_22.02_FINREP",
+    "combination_id" : "EBA_31994"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_22.02_FINREP",
+    "combination_id" : "EBA_31995"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_22.02_FINREP",
+    "combination_id" : "EBA_31996"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_22.02_FINREP",
+    "table_id" : "EBA_FINREP_EBA_F_22.02_FINREP"
+  } ]
+}

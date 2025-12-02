@@ -1,0 +1,64 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_ZZ824",
+  "code" : "ZZ824",
+  "domain_id" : "EBA_ZZ",
+  "name" : "Changes in balance sheet structure due to interest rates",
+  "description" : "EBA_ZZ824",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_ZZ824",
+    "member_id" : "EBA_ZZ_EBA_x748",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2023-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ824",
+    "member_id" : "EBA_ZZ_EBA_x746",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2023-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ824",
+    "member_id" : "EBA_ZZ_EBA_x747",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2023-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ824",
+    "member_id" : "EBA_ZZ_EBA_x744",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2023-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ824",
+    "member_id" : "EBA_ZZ_EBA_x749",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2023-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ824",
+    "member_id" : "EBA_ZZ_EBA_x745",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2023-12-31",
+    "valid_to" : "9999-12-31"
+  } ]
+}

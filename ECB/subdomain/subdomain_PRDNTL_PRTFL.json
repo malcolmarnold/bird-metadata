@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "PRDNTL_PRTFL",
+  "name" : "Prudential portfolio",
+  "domain_id" : "PRDNTL_PRTFL",
+  "is_listed" : "true",
+  "code" : "PRDNTL_PRTFL",
+  "facet_id" : null,
+  "description" : "Prudential portfolio",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "PRDNTL_PRTFL_1",
+    "subdomain_id" : "PRDNTL_PRTFL",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "PRDNTL_PRTFL_2",
+    "subdomain_id" : "PRDNTL_PRTFL",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

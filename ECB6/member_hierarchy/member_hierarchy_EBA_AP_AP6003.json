@@ -1,0 +1,37 @@
+{
+  "maintenance_agency_id" : "ECB6",
+  "member_hierarchy_id" : "EBA_AP_AP6003",
+  "code" : "AP6003",
+  "domain_id" : "EBA_AP",
+  "name" : "Used Approach (Sensitivity results)",
+  "description" : null,
+  "is_main_hierarchy" : null,
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_AP_AP6003",
+    "member_id" : "EBA_AP_ECB6_x6031",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP_AP6003",
+    "member_id" : "EBA_AP_ECB6_x6030",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP_AP6003",
+    "member_id" : "EBA_AP_ECB6_x6032",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

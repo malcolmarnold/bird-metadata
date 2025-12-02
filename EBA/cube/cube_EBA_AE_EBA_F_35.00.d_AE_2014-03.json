@@ -1,0 +1,59 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "cube_id" : "EBA_AE_EBA_F_35.00.d_AE_2014-03",
+  "name" : "Asset encumbrance: Covered bonds issuance (d)",
+  "code" : "F_35.00.d",
+  "framework_id" : "EBA_AE",
+  "cube_structure_id" : "EBA_AE_EBA_F_35.00.d_AE_2014-03",
+  "cube_type" : "D",
+  "is_allowed" : null,
+  "valid_from" : "2014-09-30",
+  "valid_to" : "2023-06-29",
+  "version" : "AE 2014-03",
+  "description" : "Asset encumbrance: Covered bonds issuance (d)",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "EBA_AE_EBA_F_35.00.d_AE_2014-03",
+    "combination_id" : "EBA_55439"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.d_AE_2014-03",
+    "combination_id" : "EBA_55440"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.d_AE_2014-03",
+    "combination_id" : "EBA_55441"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.d_AE_2014-03",
+    "combination_id" : "EBA_55442"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.d_AE_2014-03",
+    "combination_id" : "EBA_55449"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.d_AE_2014-03",
+    "combination_id" : "EBA_55450"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.d_AE_2014-03",
+    "combination_id" : "EBA_55451"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.d_AE_2014-03",
+    "combination_id" : "EBA_55452"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.d_AE_2014-03",
+    "combination_id" : "EBA_55457"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.d_AE_2014-03",
+    "combination_id" : "EBA_55458"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.d_AE_2014-03",
+    "combination_id" : "EBA_55459"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.d_AE_2014-03",
+    "combination_id" : "EBA_55460"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "EBA_AE_EBA_F_35.00.d_AE_2014-03",
+    "table_id" : "EBA_AE_EBA_F_35.00.d_AE_2014-03"
+  } ]
+}

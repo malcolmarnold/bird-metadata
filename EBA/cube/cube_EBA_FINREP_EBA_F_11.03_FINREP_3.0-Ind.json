@@ -1,0 +1,89 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "cube_id" : "EBA_FINREP_EBA_F_11.03_FINREP_3.0-Ind",
+  "name" : "Non-derivative hedging instruments: Breakdown by accounting portfolio and type of hedge",
+  "code" : "F_11.03",
+  "framework_id" : "EBA_FINREP",
+  "cube_structure_id" : "EBA_FINREP_EBA_F_11.03_FINREP_3.0-Ind",
+  "cube_type" : "D",
+  "is_allowed" : null,
+  "valid_from" : "2021-06-30",
+  "valid_to" : "9999-12-31",
+  "version" : "FINREP 3.0-Ind",
+  "description" : "Non-derivative hedging instruments: Breakdown by accounting portfolio and type of hedge",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_11.03_FINREP_3.0-Ind",
+    "combination_id" : "EBA_151157"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_11.03_FINREP_3.0-Ind",
+    "combination_id" : "EBA_151158"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_11.03_FINREP_3.0-Ind",
+    "combination_id" : "EBA_151159"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_11.03_FINREP_3.0-Ind",
+    "combination_id" : "EBA_151198"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_11.03_FINREP_3.0-Ind",
+    "combination_id" : "EBA_151199"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_11.03_FINREP_3.0-Ind",
+    "combination_id" : "EBA_151200"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_11.03_FINREP_3.0-Ind",
+    "combination_id" : "EBA_151232"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_11.03_FINREP_3.0-Ind",
+    "combination_id" : "EBA_151233"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_11.03_FINREP_3.0-Ind",
+    "combination_id" : "EBA_151234"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_11.03_FINREP_3.0-Ind",
+    "combination_id" : "EBA_151269"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_11.03_FINREP_3.0-Ind",
+    "combination_id" : "EBA_151270"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_11.03_FINREP_3.0-Ind",
+    "combination_id" : "EBA_151271"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_11.03_FINREP_3.0-Ind",
+    "combination_id" : "EBA_151303"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_11.03_FINREP_3.0-Ind",
+    "combination_id" : "EBA_152729"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_11.03_FINREP_3.0-Ind",
+    "combination_id" : "EBA_152730"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_11.03_FINREP_3.0-Ind",
+    "combination_id" : "EBA_152731"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_11.03_FINREP_3.0-Ind",
+    "combination_id" : "EBA_155332"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_11.03_FINREP_3.0-Ind",
+    "combination_id" : "EBA_155333"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_11.03_FINREP_3.0-Ind",
+    "combination_id" : "EBA_155334"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_11.03_FINREP_3.0-Ind",
+    "combination_id" : "EBA_155335"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_11.03_FINREP_3.0-Ind",
+    "combination_id" : "EBA_155336"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_11.03_FINREP_3.0-Ind",
+    "combination_id" : "EBA_155337"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_11.03_FINREP_3.0-Ind",
+    "table_id" : "EBA_FINREP_EBA_F_11.03_FINREP_3.0-Ind"
+  } ]
+}

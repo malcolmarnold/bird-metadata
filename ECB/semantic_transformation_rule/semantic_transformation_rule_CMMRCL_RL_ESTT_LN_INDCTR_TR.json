@@ -1,0 +1,23 @@
+{
+  "semantic_transformation_rule_id" : "CMMRCL_RL_ESTT_LN_INDCTR_TR",
+  "transformation_url" : "https://gitlab.sofa.dev/bird-subgroups/bird-transformation-rules/-/blob/main/FinRep%20subgroup/final%20derivation%20rules/CMMRCL_RL_ESTT_LN_INDCTR/infosheet.md",
+  "type_of_transformation" : "D",
+  "maintenance_agency_id" : "ECB",
+  "name" : "Commercial real estate loan indicator derivation rule",
+  "code" : "CMMRCL_RL_ESTT_LN_INDCTR_TR",
+  "description" : "This derivation rule aims to obtain the Commercial real estate loan indicator from its building blocks.",
+  "algorithm" : "SET CMMRCL_RL_ESTT_LN_INDCTR = \n      CASE\n        WHEN TYP_CLLTRL = 10 OR PRPS = 13\n        THEN 1\n        ELSE 2\n      END;",
+  "valid_from" : "2024-02-28",
+  "valid_to" : "9999-12-31",
+  "logical_transformation_rule" : [ {
+    "logical_transformation_rule_id" : "DER__BIRD_INSTRMNT_EIL_1__CMMRCL_RL_ESTT_LN_INDCTR__01_01_1990",
+    "semantic_transformation_rule_id" : "CMMRCL_RL_ESTT_LN_INDCTR_TR",
+    "algorithm" : "SET BIRD_INSTRMNT_EIL.CMMRCL_RL_ESTT_LN_INDCTR = \n      CASE\n        WHEN BIRD_CLLTRL_IL.TYP_CLLTRL = 10 OR BIRD_INSTRMNT_RL_IL.PRPS = 13\n        THEN 1\n        ELSE 2\n      END;",
+    "additional_filters" : null,
+    "source_layer" : "IL",
+    "destination_layer" : "EIL",
+    "transformation_type" : "DER",
+    "valid_from" : "1990-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

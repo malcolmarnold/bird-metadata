@@ -1,0 +1,55 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "ENTTY_RL_TYP_HIER_4",
+  "code" : "4",
+  "domain_id" : "ENTTY_RL_TYP",
+  "name" : "Depositor, Issuer, Seller, Buyer hierarchy",
+  "description" : "Hierarchical structure of the member Depositor, Issuer, Seller, Buyer (52)",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "ENTTY_RL_TYP_HIER_4",
+    "member_id" : "ENTTY_RL_TYP_52",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "2025-04-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ENTTY_RL_TYP_HIER_4",
+    "member_id" : "ENTTY_RL_TYP_18",
+    "level" : "2",
+    "parent_member_id" : "ENTTY_RL_TYP_52",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2025-04-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ENTTY_RL_TYP_HIER_4",
+    "member_id" : "ENTTY_RL_TYP_8",
+    "level" : "2",
+    "parent_member_id" : "ENTTY_RL_TYP_52",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2025-04-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ENTTY_RL_TYP_HIER_4",
+    "member_id" : "ENTTY_RL_TYP_20",
+    "level" : "2",
+    "parent_member_id" : "ENTTY_RL_TYP_52",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2025-04-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ENTTY_RL_TYP_HIER_4",
+    "member_id" : "ENTTY_RL_TYP_14",
+    "level" : "2",
+    "parent_member_id" : "ENTTY_RL_TYP_52",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2025-04-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

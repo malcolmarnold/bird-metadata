@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_NN_PRPTL_DBT_SCRTY_ELDM_1",
+  "name" : "Non-perpetual debt security",
+  "code" : "BIRD_NN_PRPTL_DBT_SCRTY_ELDM",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_NN_PRPTL_DBT_SCRTY_ELDM_1",
+  "cube_type" : "ELDM",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "A Term debt security is a Debt security that has a fixed maturity date and is not redeemable before that date.\n\nThis can be a term debt security that runs until its maturity date and is not redeemable before that date, or it can be a callable debt security that, when certain conditions are met, can be redeemed before its maturity date.",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

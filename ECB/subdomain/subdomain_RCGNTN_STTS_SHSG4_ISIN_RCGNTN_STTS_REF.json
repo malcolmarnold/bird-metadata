@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "RCGNTN_STTS_SHSG4_ISIN_RCGNTN_STTS_REF",
+  "name" : "Subdomain for RCGNTN_STTS of the Cube SHSG4_ISIN",
+  "domain_id" : "RCGNTN_STTS",
+  "is_listed" : "true",
+  "code" : "RCGNTN_STTS_SHSG4_ISIN_RCGNTN_STTS_REF",
+  "facet_id" : null,
+  "description" : null,
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "RCGNTN_STTS_0",
+    "subdomain_id" : "RCGNTN_STTS_SHSG4_ISIN_RCGNTN_STTS_REF",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "RCGNTN_STTS_5",
+    "subdomain_id" : "RCGNTN_STTS_SHSG4_ISIN_RCGNTN_STTS_REF",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "1"
+  } ]
+}

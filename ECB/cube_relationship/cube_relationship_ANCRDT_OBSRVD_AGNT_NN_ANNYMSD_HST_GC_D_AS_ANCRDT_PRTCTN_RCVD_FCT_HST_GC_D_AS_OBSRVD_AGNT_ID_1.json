@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "ANCRDT_OBSRVD_AGNT_NN_ANNYMSD_HST_GC_D_AS__ANCRDT_PRTCTN_RCVD_FCT_HST_GC_D_AS__OBSRVD_AGNT_ID__1",
+  "code" : "ANCRDT_OBSRVD_AGNT_NN_ANNYMSD_HST_GC_D_AS__ANCRDT_PRTCTN_RCVD_FCT_HST_GC_D_AS__OBSRVD_AGNT_ID__1",
+  "name" : "Observed agent - Protection received fact HISTORICAL GOLDEN COPY in AS",
+  "description" : "This relationship connects observed agents from the observed agent table with protections in the Protection received fact table. One observed agent can be linked to many protections. (Historical Golden copy)",
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "ANCRDT_OBSRVD_AGNT_NN_ANNYMSD_HST_GC_D_AS_1",
+  "primary_cube_variable_code" : "OBSRVD_AGNT_ID",
+  "foreign_cube_id" : "ANCRDT_PRTCTN_RCVD_FCT_HST_GC_D_AS_1",
+  "foreign_cube_variable_code" : "ENTTY_RIAD_ID",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "true"
+}

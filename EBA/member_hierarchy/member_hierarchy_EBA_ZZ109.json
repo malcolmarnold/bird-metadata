@@ -1,0 +1,82 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_ZZ109",
+  "code" : "ZZ109",
+  "domain_id" : "EBA_ZZ",
+  "name" : "Hierarchy of instrument of the P&L transaction",
+  "description" : "EBA_ZZ109",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_ZZ109",
+    "member_id" : "EBA_ZZ_EBA_x957",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2024-07-11",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ109",
+    "member_id" : "EBA_ZZ_EBA_x854",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2024-07-11",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ109",
+    "member_id" : "EBA_ZZ_EBA_x887",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2024-07-11",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ109",
+    "member_id" : "EBA_ZZ_EBA_x855",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2024-07-11",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ109",
+    "member_id" : "EBA_ZZ_EBA_x856",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2024-07-11",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ109",
+    "member_id" : "EBA_ZZ_EBA_x955",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2024-07-11",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ109",
+    "member_id" : "EBA_ZZ_EBA_x956",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2024-07-11",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ109",
+    "member_id" : "EBA_ZZ_EBA_x958",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2024-07-11",
+    "valid_to" : "9999-12-31"
+  } ]
+}

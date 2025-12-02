@@ -1,0 +1,62 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "AE_REF_F_34.00.c_REF_AE 3.2",
+  "name" : "Asset encumbrance: Contingent encumbrance (c) - Reference",
+  "code" : "F_34.00.c_REF",
+  "framework_id" : "AE_REF",
+  "cube_structure_id" : "AE_REF_F_34.00.c_REF_AE 3.2",
+  "cube_type" : "RC",
+  "is_allowed" : null,
+  "valid_from" : "2023-06-30",
+  "valid_to" : "9999-12-31",
+  "version" : "AE 3.2",
+  "description" : null,
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "AE_REF_F_34.00.c_REF_AE 3.2",
+    "combination_id" : "456820_REF"
+  }, {
+    "cube_id" : "AE_REF_F_34.00.c_REF_AE 3.2",
+    "combination_id" : "456825_REF"
+  }, {
+    "cube_id" : "AE_REF_F_34.00.c_REF_AE 3.2",
+    "combination_id" : "456824_REF"
+  }, {
+    "cube_id" : "AE_REF_F_34.00.c_REF_AE 3.2",
+    "combination_id" : "456821_REF"
+  }, {
+    "cube_id" : "AE_REF_F_34.00.c_REF_AE 3.2",
+    "combination_id" : "456815_REF"
+  }, {
+    "cube_id" : "AE_REF_F_34.00.c_REF_AE 3.2",
+    "combination_id" : "456819_REF"
+  }, {
+    "cube_id" : "AE_REF_F_34.00.c_REF_AE 3.2",
+    "combination_id" : "456823_REF"
+  }, {
+    "cube_id" : "AE_REF_F_34.00.c_REF_AE 3.2",
+    "combination_id" : "456817_REF"
+  }, {
+    "cube_id" : "AE_REF_F_34.00.c_REF_AE 3.2",
+    "combination_id" : "456802_REF"
+  }, {
+    "cube_id" : "AE_REF_F_34.00.c_REF_AE 3.2",
+    "combination_id" : "456822_REF"
+  }, {
+    "cube_id" : "AE_REF_F_34.00.c_REF_AE 3.2",
+    "combination_id" : "456816_REF"
+  }, {
+    "cube_id" : "AE_REF_F_34.00.c_REF_AE 3.2",
+    "combination_id" : "456803_REF"
+  }, {
+    "cube_id" : "AE_REF_F_34.00.c_REF_AE 3.2",
+    "combination_id" : "456818_REF"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "AE_REF_F_34.00.c_REF_AE 3.2",
+    "table_id" : "AE_REF_F_34.00.c_REF_AE 3.2"
+  } ]
+}

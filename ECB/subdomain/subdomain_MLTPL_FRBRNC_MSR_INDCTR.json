@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "MLTPL_FRBRNC_MSR_INDCTR",
+  "name" : "Multiple forbearance measures in place indicator",
+  "domain_id" : "MLTPL_FRBRNC_MSR_INDCTR",
+  "is_listed" : "true",
+  "code" : "MLTPL_FRBRNC_MSR_INDCTR",
+  "facet_id" : null,
+  "description" : null,
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "MLTPL_FRBRNC_MSR_INDCTR_1",
+    "subdomain_id" : "MLTPL_FRBRNC_MSR_INDCTR",
+    "valid_from" : "2024-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "MLTPL_FRBRNC_MSR_INDCTR_2",
+    "subdomain_id" : "MLTPL_FRBRNC_MSR_INDCTR",
+    "valid_from" : "2024-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

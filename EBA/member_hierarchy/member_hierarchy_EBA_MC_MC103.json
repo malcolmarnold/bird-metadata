@@ -1,0 +1,64 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_MC_MC103",
+  "code" : "MC103",
+  "domain_id" : "EBA_MC",
+  "name" : "Hierarchy for the elements of \"Retained earnings, Profit or Loss\"",
+  "description" : "Elements of \"Retained earnings, Profit or Loss\"",
+  "is_main_hierarchy" : null,
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_MC_MC103",
+    "member_id" : "EBA_MC_EBA_x363",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC103",
+    "member_id" : "EBA_MC_EBA_x301",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x363",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC103",
+    "member_id" : "EBA_MC_EBA_x276",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x363",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC103",
+    "member_id" : "EBA_MC_EBA_x301",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x363",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC103",
+    "member_id" : "EBA_MC_EBA_x276",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x363",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC103",
+    "member_id" : "EBA_MC_EBA_x363",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

@@ -1,0 +1,132 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "TYPE_OF_SCHEME",
+  "name" : "Type of scheme most granular members",
+  "domain_id" : "TYPE_OF_SCHEME",
+  "is_listed" : "true",
+  "code" : "TYPE_OF_SCHEME",
+  "facet_id" : null,
+  "description" : "Type of schemes in the BIRD proces that comprises only the most granular members.",
+  "is_natural" : "true",
+  "subdomain_enumeration" : [ {
+    "member_id" : "TYPE_OF_SCHEME_GEN",
+    "subdomain_id" : "TYPE_OF_SCHEME",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "9999-12-31",
+    "order" : "8"
+  }, {
+    "member_id" : "TYPE_OF_SCHEME_PUT",
+    "subdomain_id" : "TYPE_OF_SCHEME",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "9999-12-31",
+    "order" : "6"
+  }, {
+    "member_id" : "TYPE_OF_SCHEME_AGG",
+    "subdomain_id" : "TYPE_OF_SCHEME",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "9999-12-31",
+    "order" : "9"
+  }, {
+    "member_id" : "TYPE_OF_SCHEME_GET",
+    "subdomain_id" : "TYPE_OF_SCHEME",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "9999-12-31",
+    "order" : "5"
+  }, {
+    "member_id" : "TYPE_OF_SCHEME_COPY",
+    "subdomain_id" : "TYPE_OF_SCHEME",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "9999-12-31",
+    "order" : "7"
+  }, {
+    "member_id" : "TYPE_OF_SCHEME_RECL",
+    "subdomain_id" : "TYPE_OF_SCHEME",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "9999-12-31",
+    "order" : "20"
+  }, {
+    "member_id" : "TYPE_OF_SCHEME_FOLD",
+    "subdomain_id" : "TYPE_OF_SCHEME",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "9999-12-31",
+    "order" : "4"
+  }, {
+    "member_id" : "TYPE_OF_SCHEME_UNION",
+    "subdomain_id" : "TYPE_OF_SCHEME",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "9999-12-31",
+    "order" : "14"
+  }, {
+    "member_id" : "TYPE_OF_SCHEME_DERIV",
+    "subdomain_id" : "TYPE_OF_SCHEME",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "9999-12-31",
+    "order" : "15"
+  }, {
+    "member_id" : "TYPE_OF_SCHEME_EMSTR",
+    "subdomain_id" : "TYPE_OF_SCHEME",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "9999-12-31",
+    "order" : "16"
+  }, {
+    "member_id" : "TYPE_OF_SCHEME_ENRCH",
+    "subdomain_id" : "TYPE_OF_SCHEME",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "9999-12-31",
+    "order" : "19"
+  }, {
+    "member_id" : "TYPE_OF_SCHEME_INVMAP",
+    "subdomain_id" : "TYPE_OF_SCHEME",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "9999-12-31",
+    "order" : "18"
+  }, {
+    "member_id" : "TYPE_OF_SCHEME_INTVAL",
+    "subdomain_id" : "TYPE_OF_SCHEME",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "9999-12-31",
+    "order" : "10"
+  }, {
+    "member_id" : "TYPE_OF_SCHEME_IMPVAL",
+    "subdomain_id" : "TYPE_OF_SCHEME",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "9999-12-31",
+    "order" : "13"
+  }, {
+    "member_id" : "TYPE_OF_SCHEME_CONVAL",
+    "subdomain_id" : "TYPE_OF_SCHEME",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "9999-12-31",
+    "order" : "11"
+  }, {
+    "member_id" : "TYPE_OF_SCHEME_EXTRCT",
+    "subdomain_id" : "TYPE_OF_SCHEME",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "9999-12-31",
+    "order" : "17"
+  }, {
+    "member_id" : "TYPE_OF_SCHEME_RULESET",
+    "subdomain_id" : "TYPE_OF_SCHEME",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "9999-12-31",
+    "order" : "3"
+  }, {
+    "member_id" : "TYPE_OF_SCHEME_COMPVAL",
+    "subdomain_id" : "TYPE_OF_SCHEME",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "9999-12-31",
+    "order" : "12"
+  }, {
+    "member_id" : "TYPE_OF_SCHEME_FUNCTION",
+    "subdomain_id" : "TYPE_OF_SCHEME",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "9999-12-31",
+    "order" : "1"
+  }, {
+    "member_id" : "TYPE_OF_SCHEME_PROCEDURE",
+    "subdomain_id" : "TYPE_OF_SCHEME",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "9999-12-31",
+    "order" : "2"
+  } ]
+}

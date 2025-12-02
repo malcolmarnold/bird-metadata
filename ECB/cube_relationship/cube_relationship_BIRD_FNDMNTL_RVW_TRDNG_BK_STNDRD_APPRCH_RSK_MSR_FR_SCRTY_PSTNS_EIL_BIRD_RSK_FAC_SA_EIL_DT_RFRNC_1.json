@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_FR_SCRTY_PSTNS_EIL__BIRD_RSK_FAC_SA_EIL__DT_RFRNC_1",
+  "code" : "BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_FR_SCRTY_PSTNS_EIL_1__BIRD_RSK_FAC_SA_EIL_1__DT_RFRNC",
+  "name" : "Risk factor for standardised approach has many Fundamental review of the trading book standard approach risk measure for security positions",
+  "description" : null,
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_RSK_FAC_SA_EIL_1",
+  "primary_cube_variable_code" : "DT_RFRNC",
+  "foreign_cube_id" : "BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_FR_SCRTY_PSTNS_EIL_1",
+  "foreign_cube_variable_code" : "DT_RFRNC",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "true"
+}

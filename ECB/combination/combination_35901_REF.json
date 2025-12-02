@@ -1,0 +1,64 @@
+{
+  "combination_id" : "35901_REF",
+  "code" : "35901_REF",
+  "name" : "EBA datapoint: EBA_35901 - Reference",
+  "maintenance_agency_id" : "ECB",
+  "version" : "1",
+  "valid_from" : "2018-12-31",
+  "valid_to" : "9999-12-31",
+  "combination_item" : [ {
+    "combination_id" : "35901_REF",
+    "variable_id" : "MTRCS",
+    "subdomain_id" : null,
+    "variable_set_id" : "15582466232844993095_REF",
+    "member_id" : null
+  }, {
+    "combination_id" : "35901_REF",
+    "variable_id" : "SUBA_CD",
+    "subdomain_id" : "STRNG",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "35901_REF",
+    "variable_id" : "DT_RFRNC",
+    "subdomain_id" : "DT",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "35901_REF",
+    "variable_id" : "TYP_INSTRMNT",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "TYP_INSTRMNT_0"
+  }, {
+    "combination_id" : "35901_REF",
+    "variable_id" : "VALUE_DECIMAL",
+    "subdomain_id" : "MNTRY",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "35901_REF",
+    "variable_id" : "TYP_ACCNTNG_ITM",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "TYP_ACCNTNG_ITM_902"
+  }, {
+    "combination_id" : "35901_REF",
+    "variable_id" : "RLTD_PRTS_RLTNSHPS",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "RLTNSHP_0"
+  }, {
+    "combination_id" : "35901_REF",
+    "variable_id" : "TYP_DFND_BNFT_PLN_ASSTS",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "TYP_INSTRMNT_257"
+  }, {
+    "combination_id" : "35901_REF",
+    "variable_id" : "ENTTY_RIAD_CD_RPRTNG_AGNT",
+    "subdomain_id" : "STRNG",
+    "variable_set_id" : null,
+    "member_id" : null
+  } ]
+}

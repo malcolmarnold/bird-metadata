@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "SDD_COMBINATION_C_1",
+  "name" : "Combination",
+  "code" : "COMBINATION",
+  "framework_id" : "SDD",
+  "cube_structure_id" : "SDD_COMBINATION_C_1",
+  "cube_type" : "C",
+  "is_allowed" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "In a nutshell: A Combination can be a data point (DPM) or a\nSeries Key (SDMX). More\nspecifically: A Combination\nis an object that represents a data point, following joint conditions on\nmultiple variables. It can also be an area of data points of one or more tables\n(Cubes).",
+  "published" : "false",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

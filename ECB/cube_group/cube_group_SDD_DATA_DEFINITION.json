@@ -1,0 +1,128 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_group_id" : "SDD_DATA_DEFINITION",
+  "name" : "Data definition package",
+  "code" : "SDD_DATA_DEFINITION",
+  "description" : "It contains those dictionary objects that are utilized in order to define cubes (e.g. frameworks, cube structures, combinations,…).",
+  "cube_group_enumeration" : [ {
+    "order" : "0",
+    "cube_group_id" : "SDD_DATA_DEFINITION",
+    "cube_id" : "SDD_CUBE_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_DATA_DEFINITION",
+    "cube_id" : "SDD_CUBE_LINK_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_DATA_DEFINITION",
+    "cube_id" : "SDD_FRAMEWORK_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_DATA_DEFINITION",
+    "cube_id" : "SDD_CUBE_GROUP_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_DATA_DEFINITION",
+    "cube_id" : "SDD_MEMBER_LINK_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "2022-12-01"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_DATA_DEFINITION",
+    "cube_id" : "SDD_COMBINATION_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_DATA_DEFINITION",
+    "cube_id" : "SDD_MEMBER_LINK_C_2",
+    "valid_from" : "2022-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_DATA_DEFINITION",
+    "cube_id" : "SDD_CUBE_HIERARCHY_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_DATA_DEFINITION",
+    "cube_id" : "SDD_CUBE_STRUCTURE_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_DATA_DEFINITION",
+    "cube_id" : "SDD_COMBINATION_ITEM_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_DATA_DEFINITION",
+    "cube_id" : "SDD_CUBE_RELATIONSHIP_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "2018-02-28"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_DATA_DEFINITION",
+    "cube_id" : "SDD_CUBE_RELATIONSHIP_C_3",
+    "valid_from" : "2019-02-28",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_DATA_DEFINITION",
+    "cube_id" : "SDD_CUBE_RELATIONSHIP_C_2",
+    "valid_from" : "2018-02-28",
+    "valid_to" : "2019-02-28"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_DATA_DEFINITION",
+    "cube_id" : "SDD_FRAMEWORK_SUBDOMAIN_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_DATA_DEFINITION",
+    "cube_id" : "SDD_CUBE_STRUCTURE_ITEM_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_DATA_DEFINITION",
+    "cube_id" : "SDD_CUBE_HIERARCHY_NODE_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_DATA_DEFINITION",
+    "cube_id" : "SDD_CUBE_TO_COMBINATION_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_DATA_DEFINITION",
+    "cube_id" : "SDD_FRAMEWORK_VARIABLE_SET_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_DATA_DEFINITION",
+    "cube_id" : "SDD_CUBE_GROUP_ENUMERATION_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_DATA_DEFINITION",
+    "cube_id" : "SDD_CUBE_STRUCTURE_ITEM_LINK_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

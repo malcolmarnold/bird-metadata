@@ -1,0 +1,64 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_PL44_1",
+  "code" : "PL44_1",
+  "domain_id" : "EBA_PL",
+  "name" : "Hierarchy for Accounting portfolios for financial assets measured at cost based methods",
+  "description" : "EBA_PL44_1",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_PL44_1",
+    "member_id" : "EBA_PL_EBA_x686",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "2019-09-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_PL44_1",
+    "member_id" : "EBA_PL_EBA_x12",
+    "level" : "2",
+    "parent_member_id" : "EBA_PL_EBA_x686",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2019-09-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_PL44_1",
+    "member_id" : "EBA_PL_EBA_x103",
+    "level" : "2",
+    "parent_member_id" : "EBA_PL_EBA_x686",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2019-09-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_PL44_1",
+    "member_id" : "EBA_PL_EBA_x683",
+    "level" : "3",
+    "parent_member_id" : "EBA_PL_EBA_x103",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2019-09-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_PL44_1",
+    "member_id" : "EBA_PL_EBA_x62",
+    "level" : "3",
+    "parent_member_id" : "EBA_PL_EBA_x103",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2019-09-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_PL44_1",
+    "member_id" : "EBA_PL_EBA_x75",
+    "level" : "3",
+    "parent_member_id" : "EBA_PL_EBA_x103",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2019-09-30",
+    "valid_to" : "9999-12-31"
+  } ]
+}

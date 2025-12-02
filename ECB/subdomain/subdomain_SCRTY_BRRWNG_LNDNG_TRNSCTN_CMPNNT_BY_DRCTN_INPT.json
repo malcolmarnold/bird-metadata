@@ -1,0 +1,36 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "SCRTY_BRRWNG_LNDNG_TRNSCTN_CMPNNT_BY_DRCTN_INPT",
+  "name" : "Security borrowing and lending transaction component type by direction (Input Layer)",
+  "domain_id" : "SCTRY_BRRWNG_LNDNG_TRNSCTN_INCLDNG_CSH_CLLTRL_TYP",
+  "is_listed" : "true",
+  "code" : "SCRTY_BRRWNG_LNDNG_TRNSCTN_CMPNNT_BY_DRCTN_INPT",
+  "facet_id" : null,
+  "description" : "Security borrowing and lending transaction component type by direction (Input Layer)",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "SCTRY_BRRWNG_LNDNG_TRNSCTN_INCLDNG_CSH_CLLTRL_TYP_0",
+    "subdomain_id" : "SCRTY_BRRWNG_LNDNG_TRNSCTN_CMPNNT_BY_DRCTN_INPT",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "SCTRY_BRRWNG_LNDNG_TRNSCTN_INCLDNG_CSH_CLLTRL_TYP_10",
+    "subdomain_id" : "SCRTY_BRRWNG_LNDNG_TRNSCTN_CMPNNT_BY_DRCTN_INPT",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "SCTRY_BRRWNG_LNDNG_TRNSCTN_INCLDNG_CSH_CLLTRL_TYP_5",
+    "subdomain_id" : "SCRTY_BRRWNG_LNDNG_TRNSCTN_CMPNNT_BY_DRCTN_INPT",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "SCTRY_BRRWNG_LNDNG_TRNSCTN_INCLDNG_CSH_CLLTRL_TYP_11",
+    "subdomain_id" : "SCRTY_BRRWNG_LNDNG_TRNSCTN_CMPNNT_BY_DRCTN_INPT",
+    "valid_from" : "2025-02-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

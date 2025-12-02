@@ -1,0 +1,127 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_6",
+  "code" : "6",
+  "domain_id" : "INSTTTNL_SCTR",
+  "name" : "Central banks (including multilateral development banks) and General government (including international organisations) hierarhy",
+  "description" : "Hierarchical structure of the member Central banks (including multilateral development banks) and General government (including international organisations) (S1_MDB_S13_IO)",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_6",
+    "member_id" : "INSTTTNL_SCTR_S1_MDB_S13_IO",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_6",
+    "member_id" : "INSTTTNL_SCTR_MDB",
+    "level" : "2",
+    "parent_member_id" : "INSTTTNL_SCTR_S1_MDB_S13_IO",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_6",
+    "member_id" : "INSTTTNL_SCTR_S121",
+    "level" : "2",
+    "parent_member_id" : "INSTTTNL_SCTR_S1_MDB_S13_IO",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_6",
+    "member_id" : "INSTTTNL_SCTR_S13_IO",
+    "level" : "2",
+    "parent_member_id" : "INSTTTNL_SCTR_S1_MDB_S13_IO",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_6",
+    "member_id" : "INSTTTNL_SCTR_4",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_6",
+    "member_id" : "INSTTTNL_SCTR_S1_A",
+    "level" : "2",
+    "parent_member_id" : "INSTTTNL_SCTR_4",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_6",
+    "member_id" : "INSTTTNL_SCTR_3",
+    "level" : "2",
+    "parent_member_id" : "INSTTTNL_SCTR_4",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_6",
+    "member_id" : "INSTTTNL_SCTR_S121",
+    "level" : "3",
+    "parent_member_id" : "INSTTTNL_SCTR_3",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_6",
+    "member_id" : "INSTTTNL_SCTR_S122_A",
+    "level" : "3",
+    "parent_member_id" : "INSTTTNL_SCTR_3",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_6",
+    "member_id" : "INSTTTNL_SCTR_S13",
+    "level" : "3",
+    "parent_member_id" : "INSTTTNL_SCTR_3",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_6",
+    "member_id" : "INSTTTNL_SCTR_IO",
+    "level" : "3",
+    "parent_member_id" : "INSTTTNL_SCTR_3",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_6",
+    "member_id" : "INSTTTNL_SCTR_S12_D",
+    "level" : "3",
+    "parent_member_id" : "INSTTTNL_SCTR_3",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_6",
+    "member_id" : "INSTTTNL_SCTR_S11",
+    "level" : "3",
+    "parent_member_id" : "INSTTTNL_SCTR_3",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

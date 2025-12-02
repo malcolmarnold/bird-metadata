@@ -1,0 +1,30 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "subdomain_id" : "EBA_7132916693437690904",
+  "name" : "CT([x0|x23|x11])",
+  "domain_id" : "EBA_CT",
+  "is_listed" : "true",
+  "code" : "7132916693437690904",
+  "facet_id" : null,
+  "description" : "Size of the counterparty",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "EBA_CT_EBA_x0",
+    "subdomain_id" : "EBA_7132916693437690904",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "EBA_CT_EBA_x23",
+    "subdomain_id" : "EBA_7132916693437690904",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "EBA_CT_EBA_x11",
+    "subdomain_id" : "EBA_7132916693437690904",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

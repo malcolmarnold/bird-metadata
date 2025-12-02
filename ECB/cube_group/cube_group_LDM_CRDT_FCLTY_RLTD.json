@@ -1,0 +1,26 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_group_id" : "LDM_CRDT_FCLTY_RLTD",
+  "name" : "Credit facility related",
+  "code" : "LDM_CRDT_FCLTY_RLTD",
+  "description" : "Credit facility related",
+  "cube_group_enumeration" : [ {
+    "order" : "0",
+    "cube_group_id" : "LDM_CRDT_FCLTY_RLTD",
+    "cube_id" : "BIRD_CRDT_FCLTY_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "1",
+    "cube_group_id" : "LDM_CRDT_FCLTY_RLTD",
+    "cube_id" : "BIRD_CRDT_FCLTY_INTRST_RT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "2",
+    "cube_group_id" : "LDM_CRDT_FCLTY_RLTD",
+    "cube_id" : "BIRD_CRDT_FCLTY_RSK_DT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

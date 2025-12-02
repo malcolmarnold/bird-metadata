@@ -1,0 +1,64 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_AT9",
+  "code" : "AT9",
+  "domain_id" : "EBA_ATY",
+  "name" : "Hierarchy for calculating the total risk exposure amount for market risk of CTP positions",
+  "description" : "The different levels of the hierarchy are taken from the respective market risk templates. The hierarchy is only applicable for calculating the specific risk of CTP positions in the trading book",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_AT9",
+    "member_id" : "EBA_ATY_EBA_mi184",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT9",
+    "member_id" : "EBA_ATY_EBA_mi257",
+    "level" : "2",
+    "parent_member_id" : "EBA_ATY_EBA_mi184",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT9",
+    "member_id" : "EBA_ATY_EBA_mi258",
+    "level" : "3",
+    "parent_member_id" : "EBA_ATY_EBA_mi257",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT9",
+    "member_id" : "EBA_ATY_EBA_mi256",
+    "level" : "4",
+    "parent_member_id" : "EBA_ATY_EBA_mi258",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT9",
+    "member_id" : "EBA_ATY_EBA_mi255",
+    "level" : "5",
+    "parent_member_id" : "EBA_ATY_EBA_mi256",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT9",
+    "member_id" : "EBA_ATY_EBA_mi260",
+    "level" : "5",
+    "parent_member_id" : "EBA_ATY_EBA_mi256",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

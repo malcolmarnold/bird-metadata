@@ -1,0 +1,91 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_TA_TA31",
+  "code" : "TA31",
+  "domain_id" : "EBA_TA",
+  "name" : "Type of initiation of payments",
+  "description" : "Type of initiation of payments",
+  "is_main_hierarchy" : null,
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_TA_TA31",
+    "member_id" : "EBA_TA_EBA_x114",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_TA_TA31",
+    "member_id" : "EBA_TA_EBA_x116",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_TA_TA31",
+    "member_id" : "EBA_TA_EBA_x118",
+    "level" : "3",
+    "parent_member_id" : "EBA_TA_EBA_x117",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_TA_TA31",
+    "member_id" : "EBA_TA_EBA_x119",
+    "level" : "3",
+    "parent_member_id" : "EBA_TA_EBA_x117",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_TA_TA31",
+    "member_id" : "EBA_TA_EBA_x117",
+    "level" : "2",
+    "parent_member_id" : "EBA_TA_EBA_x115",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_TA_TA31",
+    "member_id" : "EBA_TA_EBA_x121",
+    "level" : "3",
+    "parent_member_id" : "EBA_TA_EBA_x120",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_TA_TA31",
+    "member_id" : "EBA_TA_EBA_x122",
+    "level" : "3",
+    "parent_member_id" : "EBA_TA_EBA_x120",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_TA_TA31",
+    "member_id" : "EBA_TA_EBA_x120",
+    "level" : "2",
+    "parent_member_id" : "EBA_TA_EBA_x115",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_TA_TA31",
+    "member_id" : "EBA_TA_EBA_x115",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "MNMM_RSRV_INDCTR",
+  "name" : "Minimum reserve indicator",
+  "domain_id" : "TYP_INSTRMNT",
+  "is_listed" : "true",
+  "code" : "MNMM_RSRV_INDCTR",
+  "facet_id" : null,
+  "description" : "Minimum reserve indicator subdomain",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "TYP_INSTRMNT_1201",
+    "subdomain_id" : "MNMM_RSRV_INDCTR",
+    "valid_from" : "2025-02-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_INSTRMNT_1202",
+    "subdomain_id" : "MNMM_RSRV_INDCTR",
+    "valid_from" : "2025-02-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

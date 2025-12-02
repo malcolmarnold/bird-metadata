@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "subdomain_id" : "EBA_17242160160172488719",
+  "name" : "PU([x1|x0])",
+  "domain_id" : "EBA_PU",
+  "is_listed" : "true",
+  "code" : "17242160160172488719",
+  "facet_id" : null,
+  "description" : "Purpose",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "EBA_PU_EBA_x1",
+    "subdomain_id" : "EBA_17242160160172488719",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "EBA_PU_EBA_x0",
+    "subdomain_id" : "EBA_17242160160172488719",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "FNNCL_ASST_INSTRMNT_TYP_CRR",
+  "name" : "Financial asset instrument type by CRR, Article 123 (Retail exposure)",
+  "domain_id" : "ABSTRCT_INSTRMNT_RL_TYP",
+  "is_listed" : "true",
+  "code" : "FNNCL_ASST_INSTRMNT_TYP_CRR",
+  "facet_id" : null,
+  "description" : "Financial asset instrument type by CRR, Article 123 (Retail exposure)",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "ABSTRCT_INSTRMNT_RL_TYP_22",
+    "subdomain_id" : "FNNCL_ASST_INSTRMNT_TYP_CRR",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "ABSTRCT_INSTRMNT_RL_TYP_23",
+    "subdomain_id" : "FNNCL_ASST_INSTRMNT_TYP_CRR",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

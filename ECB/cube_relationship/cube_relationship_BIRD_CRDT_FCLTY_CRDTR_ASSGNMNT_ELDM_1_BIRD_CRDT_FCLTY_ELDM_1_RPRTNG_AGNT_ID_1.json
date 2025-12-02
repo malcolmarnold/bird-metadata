@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_CRDT_FCLTY_CRDTR_ASSGNMNT_ELDM_1__BIRD_CRDT_FCLTY_ELDM_1__RPRTNG_AGNT_ID_1",
+  "code" : "BIRD_CRDT_FCLTY_CRDTR_ASSGNMNT_ELDM_1__BIRD_CRDT_FCLTY_ELDM_1__RPRTNG_AGNT_ID",
+  "name" : "Credit facility may have Credit facility Creditor assignment",
+  "description" : "Credit facility has Creditor via Credit facility Creditor assignment",
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_CRDT_FCLTY_ELDM_1",
+  "primary_cube_variable_code" : "CRDT_FCLTY_RPRTNG_AGNT_ID",
+  "foreign_cube_id" : "BIRD_CRDT_FCLTY_CRDTR_ASSGNMNT_ELDM_1",
+  "foreign_cube_variable_code" : "RPRTNG_AGNT_ID",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "1",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "false"
+}

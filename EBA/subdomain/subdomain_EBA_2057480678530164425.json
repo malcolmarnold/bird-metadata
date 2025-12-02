@@ -1,0 +1,30 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "subdomain_id" : "EBA_2057480678530164425",
+  "name" : "PL([x18|x16|x19])",
+  "domain_id" : "EBA_PL",
+  "is_listed" : "true",
+  "code" : "2057480678530164425",
+  "facet_id" : null,
+  "description" : "Accounting portfolio",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "EBA_PL_EBA_x18",
+    "subdomain_id" : "EBA_2057480678530164425",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "EBA_PL_EBA_x16",
+    "subdomain_id" : "EBA_2057480678530164425",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "EBA_PL_EBA_x19",
+    "subdomain_id" : "EBA_2057480678530164425",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

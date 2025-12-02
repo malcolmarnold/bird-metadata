@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_OTHR_FNNCL_CLLTRL_ELDM_1",
+  "name" : "Other financial collateral",
+  "code" : "BIRD_OTHR_FNNCL_CLLTRL_ELDM",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_OTHR_FNNCL_CLLTRL_ELDM_1",
+  "cube_type" : "ELDM",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "Other financial collateral is Financial collateral other than Life insurance policy pledged collateral, Trade receivable collateral, Security collateral and Currency collateral.\n\nPlease note that this also deals with exposures to loans given as collateral by another company.",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_SCRTY_LNDNG_CMPNNT_SCRTY_ASSGNMNT_LDM_1__BIRD_SCRTY_LDM_1__SCRTY_RFRNC_DT_1",
+  "code" : "BIRD_SCRTY_LNDNG_CMPNNT_SCRTY_ASSGNMNT_LDM_1__BIRD_SCRTY_LDM_1__SCRTY_RFRNC_DT",
+  "name" : "Security may have many Security lending component Security assignment",
+  "description" : "Security is used in Security lending component via Security lending component Security assignment",
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_SCRTY_LDM_1",
+  "primary_cube_variable_code" : "SCRTY_RFRNC_DT",
+  "foreign_cube_id" : "BIRD_SCRTY_LNDNG_CMPNNT_SCRTY_ASSGNMNT_LDM_1",
+  "foreign_cube_variable_code" : "SCRTY_RFRNC_DT",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "false"
+}

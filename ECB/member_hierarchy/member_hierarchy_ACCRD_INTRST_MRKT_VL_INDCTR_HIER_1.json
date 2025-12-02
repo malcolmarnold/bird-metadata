@@ -1,0 +1,37 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "ACCRD_INTRST_MRKT_VL_INDCTR_HIER_1",
+  "code" : "1",
+  "domain_id" : "ACCRD_INTRST_MRKT_VL_INDCTR",
+  "name" : "Main hierarchy for Accrued interests for market values indicator",
+  "description" : "Main hierarchy for Accrued interests for market values indicator",
+  "is_main_hierarchy" : "true",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "ACCRD_INTRST_MRKT_VL_INDCTR_HIER_1",
+    "member_id" : "ACCRD_INTRST_MRKT_VL_INDCTR_-1",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCRD_INTRST_MRKT_VL_INDCTR_HIER_1",
+    "member_id" : "ACCRD_INTRST_MRKT_VL_INDCTR_2",
+    "level" : "2",
+    "parent_member_id" : "ACCRD_INTRST_MRKT_VL_INDCTR_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCRD_INTRST_MRKT_VL_INDCTR_HIER_1",
+    "member_id" : "ACCRD_INTRST_MRKT_VL_INDCTR_1",
+    "level" : "2",
+    "parent_member_id" : "ACCRD_INTRST_MRKT_VL_INDCTR_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

@@ -1,0 +1,28 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_TA32",
+  "code" : "TA32",
+  "domain_id" : "EBA_TA",
+  "name" : "Type of consent",
+  "description" : "Type of consent",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_TA32",
+    "member_id" : "EBA_TA_EBA_x124",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2020-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_TA32",
+    "member_id" : "EBA_TA_EBA_x123",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2020-12-31",
+    "valid_to" : "9999-12-31"
+  } ]
+}

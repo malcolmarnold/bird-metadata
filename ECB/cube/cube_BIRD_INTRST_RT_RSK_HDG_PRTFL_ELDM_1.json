@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_INTRST_RT_RSK_HDG_PRTFL_ELDM_1",
+  "name" : "Interest rate risk hedge portfolio",
+  "code" : "BIRD_INTRST_RT_RSK_HDG_PRTFL_ELDM",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_INTRST_RT_RSK_HDG_PRTFL_ELDM_1",
+  "cube_type" : "ELDM",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "Interest rate risk hedge portfolio are the portfolio of instruments whose hedged postions need to be reported as one with the rows called 'Fair value changes of the hedged items in portfolio hedge of interest rate risk'.\n\nSee https://www.ifrs.org/content/dam/ifrs/meetings/2010/september/iasb/vbfi0910b14bobs.pdf",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

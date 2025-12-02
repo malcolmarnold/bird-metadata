@@ -1,0 +1,82 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_9",
+  "code" : "9",
+  "domain_id" : "ACCNTNG_CLSSFCTN",
+  "name" : "Accounting portfolios for financial assets measured at cost based methods hierarchy",
+  "description" : "Hierarchical structure of the member Accounting portfolios for financial assets measured at cost based methods (53)",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_9",
+    "member_id" : "ACCNTNG_CLSSFCTN_53",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_9",
+    "member_id" : "ACCNTNG_CLSSFCTN_14",
+    "level" : "2",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_53",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_9",
+    "member_id" : "ACCNTNG_CLSSFCTN_45",
+    "level" : "2",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_53",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_9",
+    "member_id" : "ACCNTNG_CLSSFCTN_6",
+    "level" : "3",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_531",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_9",
+    "member_id" : "ACCNTNG_CLSSFCTN_74",
+    "level" : "3",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_531",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_9",
+    "member_id" : "ACCNTNG_CLSSFCTN_77",
+    "level" : "3",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_531",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_9",
+    "member_id" : "ACCNTNG_CLSSFCTN_76",
+    "level" : "3",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_531",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_9",
+    "member_id" : "ACCNTNG_CLSSFCTN_531",
+    "level" : "2",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_53",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

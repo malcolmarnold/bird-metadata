@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "MSTR_AGRMNT_ENTTY_RL_ASSGNMNT_TYP",
+  "name" : "Master agreement Entity role type",
+  "domain_id" : "MSTR_AGRMNT_ENTTY_RL_ASSGNMNT_TYP",
+  "is_listed" : "true",
+  "code" : "MSTR_AGRMNT_ENTTY_RL_ASSGNMNT_TYP",
+  "facet_id" : null,
+  "description" : "Master agreement Entity role type",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "MSTR_AGRMNT_ENTTY_RL_ASSGNMNT_TYP_3",
+    "subdomain_id" : "MSTR_AGRMNT_ENTTY_RL_ASSGNMNT_TYP",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "MSTR_AGRMNT_ENTTY_RL_ASSGNMNT_TYP_4",
+    "subdomain_id" : "MSTR_AGRMNT_ENTTY_RL_ASSGNMNT_TYP",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

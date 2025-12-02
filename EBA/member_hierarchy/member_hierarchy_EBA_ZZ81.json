@@ -1,0 +1,55 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_ZZ81",
+  "code" : "ZZ81",
+  "domain_id" : "EBA_ZZ",
+  "name" : "Hierarchy for scope of members for gender diversity target set",
+  "description" : "EBA_ZZ81",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_ZZ81",
+    "member_id" : "EBA_ZZ_EBA_x902",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2024-07-11",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ81",
+    "member_id" : "EBA_ZZ_EBA_x904",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2024-07-11",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ81",
+    "member_id" : "EBA_ZZ_EBA_x901",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2024-07-11",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ81",
+    "member_id" : "EBA_ZZ_EBA_x903",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2024-07-11",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ81",
+    "member_id" : "EBA_ZZ_EBA_x900",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2024-07-11",
+    "valid_to" : "9999-12-31"
+  } ]
+}

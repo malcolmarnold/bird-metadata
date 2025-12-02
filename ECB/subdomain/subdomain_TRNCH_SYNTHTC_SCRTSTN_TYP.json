@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "TRNCH_SYNTHTC_SCRTSTN_TYP",
+  "name" : "Tranche in a synthetic securitisation type",
+  "domain_id" : "SCRTSTN_TRNCH_TYP",
+  "is_listed" : "true",
+  "code" : "TRNCH_SYNTHTC_SCRTSTN_TYP",
+  "facet_id" : null,
+  "description" : null,
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "SCRTSTN_TRNCH_TYP_1",
+    "subdomain_id" : "TRNCH_SYNTHTC_SCRTSTN_TYP",
+    "valid_from" : "2024-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "SCRTSTN_TRNCH_TYP_2",
+    "subdomain_id" : "TRNCH_SYNTHTC_SCRTSTN_TYP",
+    "valid_from" : "2024-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

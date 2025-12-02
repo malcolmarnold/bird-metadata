@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_SCRTY_HDGD_EXCHNG_TRDBL_DRVTV_LDM_1__BIRD_LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_LDM_1__LNG_SCRTY_PSTN_PRDNTL_PRTFL_SCRTY_RPRTNG_AGNT_ID_1",
+  "code" : "BIRD_SCRTY_HDGD_EXCHNG_TRDBL_DRVTV_LDM_1__BIRD_LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_LDM_1__LNG_SCRTY_PSTN_PRDNTL_PRTFL_SCRTY_RPRTNG_AGNT_ID",
+  "name" : "Long security position Prudential portfolio assignment may have many Security position hedged by Exchange tradable derivative position",
+  "description" : "Long security position Prudential portfolio assignment is hedged via Security position hedged by Exchange tradable derivative position",
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_LDM_1",
+  "primary_cube_variable_code" : "RPRTNG_AGNT_ID",
+  "foreign_cube_id" : "BIRD_SCRTY_HDGD_EXCHNG_TRDBL_DRVTV_LDM_1",
+  "foreign_cube_variable_code" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_SCRTY_RPRTNG_AGNT_ID",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "false"
+}

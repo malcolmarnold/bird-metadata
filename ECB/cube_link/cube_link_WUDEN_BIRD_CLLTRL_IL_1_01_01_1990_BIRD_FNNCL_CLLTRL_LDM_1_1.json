@@ -1,0 +1,83 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_link_id" : "WUDEN__BIRD_CLLTRL_IL_1__01_01_1990__BIRD_FNNCL_CLLTRL_LDM_1__1",
+  "code" : "WUDEN__BIRD_CLLTRL_IL_1__01_01_1990__BIRD_FNNCL_CLLTRL_LDM_1",
+  "name" : "The LDM: Financial collateral (BIRD_FNNCL_CLLTRL_LDM) is forward engineered into the IL: Collateral (BIRD_CLLTRL_IL)",
+  "description" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "order_relevance" : "1",
+  "primary_cube_id" : "BIRD_FNNCL_CLLTRL_LDM_1",
+  "foreign_cube_id" : "BIRD_CLLTRL_IL_1",
+  "cube_link_type" : "TR",
+  "logical_transformation_rule_id" : "WUDEN__BIRD_CLLTRL_IL_1__01_01_1990",
+  "cube_structure_item_link" : [ {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_CLLTRL_IL_1__01_01_1990__BIRD_FNNCL_CLLTRL_LDM_1__1__CLLTRL_ANNX_PRTCTN_ID__CLLTRL_ANNX_PRTCTN_ID",
+    "cube_link_id" : "WUDEN__BIRD_CLLTRL_IL_1__01_01_1990__BIRD_FNNCL_CLLTRL_LDM_1__1",
+    "foreign_cube_variable_code" : "CLLTRL_ANNX_PRTCTN_ID",
+    "primary_cube_variable_code" : "CLLTRL_ANNX_PRTCTN_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_CLLTRL_IL_1__01_01_1990__BIRD_FNNCL_CLLTRL_LDM_1__1__CLLTRL_ID__CLLTRL_ID",
+    "cube_link_id" : "WUDEN__BIRD_CLLTRL_IL_1__01_01_1990__BIRD_FNNCL_CLLTRL_LDM_1__1",
+    "foreign_cube_variable_code" : "CLLTRL_ID",
+    "primary_cube_variable_code" : "CLLTRL_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_CLLTRL_IL_1__01_01_1990__BIRD_FNNCL_CLLTRL_LDM_1__1__NTNL_AMNT__NTNL_AMNT",
+    "cube_link_id" : "WUDEN__BIRD_CLLTRL_IL_1__01_01_1990__BIRD_FNNCL_CLLTRL_LDM_1__1",
+    "foreign_cube_variable_code" : "NTNL_AMNT",
+    "primary_cube_variable_code" : "NTNL_AMNT",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_CLLTRL_IL_1__01_01_1990__BIRD_FNNCL_CLLTRL_LDM_1__1__TYP_PRTCTN_VL_APPRCH__TYP_PRTCTN_VL_APPRCH",
+    "cube_link_id" : "WUDEN__BIRD_CLLTRL_IL_1__01_01_1990__BIRD_FNNCL_CLLTRL_LDM_1__1",
+    "foreign_cube_variable_code" : "TYP_PRTCTN_VL_APPRCH",
+    "primary_cube_variable_code" : "TYP_PRTCTN_VL_APPRCH",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ {
+      "cube_structure_item_link_id" : "WUDEN__BIRD_CLLTRL_IL_1__01_01_1990__BIRD_FNNCL_CLLTRL_LDM_1__1__TYP_PRTCTN_VL_APPRCH__TYP_PRTCTN_VL_APPRCH",
+      "foreign_member_id" : "PRTCTN_VLTN_APPRCH_5",
+      "primary_member_id" : "PRTCTN_VLTN_APPRCH_5",
+      "valid_from" : "1999-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "WUDEN__BIRD_CLLTRL_IL_1__01_01_1990__BIRD_FNNCL_CLLTRL_LDM_1__1__TYP_PRTCTN_VL_APPRCH__TYP_PRTCTN_VL_APPRCH",
+      "foreign_member_id" : "PRTCTN_VLTN_APPRCH_4",
+      "primary_member_id" : "PRTCTN_VLTN_APPRCH_4",
+      "valid_from" : "1999-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "WUDEN__BIRD_CLLTRL_IL_1__01_01_1990__BIRD_FNNCL_CLLTRL_LDM_1__1__TYP_PRTCTN_VL_APPRCH__TYP_PRTCTN_VL_APPRCH",
+      "foreign_member_id" : "PRTCTN_VLTN_APPRCH_3",
+      "primary_member_id" : "PRTCTN_VLTN_APPRCH_3",
+      "valid_from" : "1999-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "WUDEN__BIRD_CLLTRL_IL_1__01_01_1990__BIRD_FNNCL_CLLTRL_LDM_1__1__TYP_PRTCTN_VL_APPRCH__TYP_PRTCTN_VL_APPRCH",
+      "foreign_member_id" : "PRTCTN_VLTN_APPRCH_2",
+      "primary_member_id" : "PRTCTN_VLTN_APPRCH_2",
+      "valid_from" : "1999-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "WUDEN__BIRD_CLLTRL_IL_1__01_01_1990__BIRD_FNNCL_CLLTRL_LDM_1__1__TYP_PRTCTN_VL_APPRCH__TYP_PRTCTN_VL_APPRCH",
+      "foreign_member_id" : "PRTCTN_VLTN_APPRCH_1",
+      "primary_member_id" : "PRTCTN_VLTN_APPRCH_1",
+      "valid_from" : "1999-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    } ]
+  } ]
+}

@@ -1,0 +1,41 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "cube_id" : "EBA_FINREP_EBA_F_40.02_FINREP",
+  "name" : "Scope of the group: \"instrument-by-instrument\"",
+  "code" : "F_40.02",
+  "framework_id" : "EBA_FINREP",
+  "cube_structure_id" : "EBA_FINREP_EBA_F_40.02_FINREP",
+  "cube_type" : "D",
+  "is_allowed" : null,
+  "valid_from" : "2013-12-01",
+  "valid_to" : "2018-03-30",
+  "version" : "FINREP",
+  "description" : "Scope of the group: \"instrument-by-instrument\"",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_40.02_FINREP",
+    "combination_id" : "EBA_108854"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_40.02_FINREP",
+    "combination_id" : "EBA_108855"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_40.02_FINREP",
+    "combination_id" : "EBA_108856"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_40.02_FINREP",
+    "combination_id" : "EBA_108857"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_40.02_FINREP",
+    "combination_id" : "EBA_108858"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_40.02_FINREP",
+    "combination_id" : "EBA_108859"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_40.02_FINREP",
+    "table_id" : "EBA_FINREP_EBA_F_40.02_FINREP"
+  } ]
+}

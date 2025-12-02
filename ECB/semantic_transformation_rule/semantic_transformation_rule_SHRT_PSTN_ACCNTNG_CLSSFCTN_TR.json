@@ -1,0 +1,23 @@
+{
+  "semantic_transformation_rule_id" : "SHRT_PSTN_ACCNTNG_CLSSFCTN_TR",
+  "transformation_url" : "https://gitlab.sofa.dev/bird-subgroups/bird-transformation-rules/-/blob/main/FinRep%20subgroup/final%20derivation%20rules/SHRT_PSTN_ACCNTNG_CLSSFCTN/infosheet.md",
+  "type_of_transformation" : "D",
+  "maintenance_agency_id" : "ECB",
+  "name" : "Accounting classification for short positions derivation rule",
+  "code" : "SHRT_PSTN_ACCNTNG_CLSSFCTN_TR",
+  "description" : "This derivation rule aims to obtain the Accounting classification for short positions from its building blocks.",
+  "algorithm" : "SET SHRT_PSTN_ACCNTNG_CLSSFCTN = \n      CASE\n        WHEN SHRT_TRDNG_BK_SCRTY_PSTN_ACCNTNG_STNDRD = 4\n        THEN 3\n        WHEN SHRT_TRDNG_BK_SCRTY_PSTN_ACCNTNG_STNDRD = 3\n        THEN 2\n        ELSE 'N/A'\n      END;",
+  "valid_from" : "2024-02-28",
+  "valid_to" : "9999-12-31",
+  "logical_transformation_rule" : [ {
+    "logical_transformation_rule_id" : "DER__BIRD_SHRT_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_EIL_1__SHRT_PSTN_ACCNTNG_CLSSFCTN__01_01_1990",
+    "semantic_transformation_rule_id" : "SHRT_PSTN_ACCNTNG_CLSSFCTN_TR",
+    "algorithm" : "SET BIRD_SHRT_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_EIL.SHRT_PSTN_ACCNTNG_CLSSFCTN = \n      CASE\n        WHEN SHRT_TRDNG_BK_SCRTY_PSTN_ACCNTNG_STNDRD = 4\n        THEN 3\n        WHEN SHRT_TRDNG_BK_SCRTY_PSTN_ACCNTNG_STNDRD = 3\n        THEN 2\n        ELSE 'N/A'\n      END;",
+    "additional_filters" : null,
+    "source_layer" : "IL",
+    "destination_layer" : "EIL",
+    "transformation_type" : "DER",
+    "valid_from" : "1990-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

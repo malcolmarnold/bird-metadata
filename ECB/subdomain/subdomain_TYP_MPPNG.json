@@ -1,0 +1,36 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "TYP_MPPNG",
+  "name" : "Type of mapping",
+  "domain_id" : "TYP_MPPNG",
+  "is_listed" : "true",
+  "code" : "TYP_MPPNG",
+  "facet_id" : null,
+  "description" : "Type of mapping",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "TYP_MPPNG_O",
+    "subdomain_id" : "TYP_MPPNG",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_MPPNG_A",
+    "subdomain_id" : "TYP_MPPNG",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_MPPNG_E",
+    "subdomain_id" : "TYP_MPPNG",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_MPPNG_D",
+    "subdomain_id" : "TYP_MPPNG",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

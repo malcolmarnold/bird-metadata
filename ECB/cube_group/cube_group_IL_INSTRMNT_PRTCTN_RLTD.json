@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_group_id" : "IL_INSTRMNT_PRTCTN_RLTD",
+  "name" : "Instrument Protection related",
+  "code" : "IL_INSTRMNT_PRTCTN_RLTD",
+  "description" : "Instrument Protection related",
+  "cube_group_enumeration" : [ {
+    "order" : "1",
+    "cube_group_id" : "IL_INSTRMNT_PRTCTN_RLTD",
+    "cube_id" : "BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_IL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "IL_INSTRMNT_PRTCTN_RLTD",
+    "cube_id" : "BIRD_INSTRMNT_CLLTRL_ASSGNMNT_IL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

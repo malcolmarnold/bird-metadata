@@ -1,0 +1,43 @@
+{
+  "semantic_transformation_rule_id" : "TM_PST_DU_BND_TR",
+  "transformation_url" : "https://gitlab.sofa.dev/bird-subgroups/bird-transformation-rules/-/blob/main/FinRep%20subgroup/final%20derivation%20rules/TM_PST_DU_BND/infosheet.md",
+  "type_of_transformation" : "D",
+  "maintenance_agency_id" : "ECB",
+  "name" : "Time past due band derivation rule",
+  "code" : "TM_PST_DU_BND_TR",
+  "description" : "This derivation rule aims to obtain the Time past due band from its building blocks.",
+  "algorithm" : "SET TM_PST_DU = DT_PST_D - DT_RFRNC, TM_PST_DU_BND = CASE WHEN TM_PST_DU/365 <= 0 THEN 1002 WHEN TM_PST_DU/365 > 0 AND TM_PST_DU/365 <= 1/12 THEN 75 WHEN TM_PST_DU/365 > 1/12 AND TM_PST_DU/365 <= 3/12 THEN 9 WHEN TM_PST_DU/365 > 3/12 AND TM_PST_DU/365 <= 6/12 THEN 12 WHEN TM_PST_DU/365 > 6/12 AND TM_PST_DU/365 <= 1 THEN 16 WHEN TM_PST_DU/365 > 1 AND TM_PST_DU/365 <= 2 THEN 21 WHEN TM_PST_DU/365 > 2 AND TM_PST_DU/365 <= 5 THEN 29 WHEN TM_PST_DU/365 > 5 AND TM_PST_DU/365 <= 7 THEN 84 WHEN TM_PST_DU/365 > 7 THEN 85 END;",
+  "valid_from" : "2024-02-28",
+  "valid_to" : "9999-12-31",
+  "logical_transformation_rule" : [ {
+    "logical_transformation_rule_id" : "DER__BIRD_INSTRMNT_RL_EIL_1__TM_PST_DU_BND__01_01_1990",
+    "semantic_transformation_rule_id" : "TM_PST_DU_BND_TR",
+    "algorithm" : "SET TM_PST_DU = BIRD_INSTRMNT_RL_IL.DT_PST_D - BIRD_INSTRMNT_RL_IL.DT_RFRNC, BIRD_INSTRMNT_RL_EIL.TM_PST_DU_BND = CASE WHEN TM_PST_DU/365 <= 0 THEN 1002 WHEN TM_PST_DU/365 > 0 AND TM_PST_DU/365 <= 1/12 THEN 75 WHEN TM_PST_DU/365 > 1/12 AND TM_PST_DU/365 <= 3/12 THEN 9 WHEN TM_PST_DU/365 > 3/12 AND TM_PST_DU/365 <= 6/12 THEN 12 WHEN TM_PST_DU/365 > 6/12 AND TM_PST_DU/365 <= 1 THEN 16 WHEN TM_PST_DU/365 > 1 AND TM_PST_DU/365 <= 2 THEN 21 WHEN TM_PST_DU/365 > 2 AND TM_PST_DU/365 <= 5 THEN 29 WHEN TM_PST_DU/365 > 5 AND TM_PST_DU/365 <= 7 THEN 84 WHEN TM_PST_DU/365 > 7 THEN 85 END;",
+    "additional_filters" : null,
+    "source_layer" : "IL",
+    "destination_layer" : "EIL",
+    "transformation_type" : "DER",
+    "valid_from" : "1990-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "logical_transformation_rule_id" : "DER__BIRD_CRDT_FCLTY_EIL_1__TM_PST_DU_BND__01_01_1990",
+    "semantic_transformation_rule_id" : "TM_PST_DU_BND_TR",
+    "algorithm" : "SET TM_PST_DU = BIRD_CRDT_FCLTY_IL.DT_PST_D - BIRD_CRDT_FCLTY_IL.DT_RFRNC, BIRD_CRDT_FCLTY_EIL.TM_PST_DU_BND = CASE WHEN TM_PST_DU/365 <= 0 THEN 1002 WHEN TM_PST_DU/365 > 0 AND TM_PST_DU/365 <= 1/12 THEN 75 WHEN TM_PST_DU/365 > 1/12 AND TM_PST_DU/365 <= 3/12 THEN 9 WHEN TM_PST_DU/365 > 3/12 AND TM_PST_DU/365 <= 6/12 THEN 12 WHEN TM_PST_DU/365 > 6/12 AND TM_PST_DU/365 <= 1 THEN 16 WHEN TM_PST_DU/365 > 1 AND TM_PST_DU/365 <= 2 THEN 21 WHEN TM_PST_DU/365 > 2 AND TM_PST_DU/365 <= 5 THEN 29 WHEN TM_PST_DU/365 > 5 AND TM_PST_DU/365 <= 7 THEN 84 WHEN TM_PST_DU/365 > 7 THEN 85 END;",
+    "additional_filters" : null,
+    "source_layer" : "IL",
+    "destination_layer" : "EIL",
+    "transformation_type" : "DER",
+    "valid_from" : "1990-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "logical_transformation_rule_id" : "DER__BIRD_SCRTY_EXCHNG_TRDBL_DRVTV_EIL_1__TM_PST_DU_BND__01_01_1990",
+    "semantic_transformation_rule_id" : "TM_PST_DU_BND_TR",
+    "algorithm" : "SET TM_PST_DU = BIRD_SCRTY_EXCHNG_TRDBL_DRVTV_IL.DT_PST_D - BIRD_CLLTRL_IL.DT_RFRNC, BIRD_SCRTY_EXCHNG_TRDBL_DRVTV_EIL.TM_PST_DU_BND = CASE WHEN TM_PST_DU/365 <= 0 THEN 1002 WHEN TM_PST_DU/365 > 0 AND TM_PST_DU/365 <= 1/12 THEN 75 WHEN TM_PST_DU/365 > 1/12 AND TM_PST_DU/365 <= 3/12 THEN 9 WHEN TM_PST_DU/365 > 3/12 AND TM_PST_DU/365 <= 6/12 THEN 12 WHEN TM_PST_DU/365 > 6/12 AND TM_PST_DU/365 <= 1 THEN 16 WHEN TM_PST_DU/365 > 1 AND TM_PST_DU/365 <= 2 THEN 21 WHEN TM_PST_DU/365 > 2 AND TM_PST_DU/365 <= 5 THEN 29 WHEN TM_PST_DU/365 > 5 AND TM_PST_DU/365 <= 7 THEN 84 WHEN TM_PST_DU/365 > 7 THEN 85 END;",
+    "additional_filters" : null,
+    "source_layer" : "IL",
+    "destination_layer" : "EIL",
+    "transformation_type" : "DER",
+    "valid_from" : "1990-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

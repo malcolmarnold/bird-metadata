@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_EQTY_INSTRMNT_NT_SCRTY_ISSR_ASSGNMNT_ELDM_1",
+  "name" : "Equity instrument that is not a security Issuer assignment",
+  "code" : "BIRD_EQTY_INSTRMNT_NT_SCRTY_ISSR_ASSGNMNT_ELDM",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_EQTY_INSTRMNT_NT_SCRTY_ISSR_ASSGNMNT_ELDM_1",
+  "cube_type" : "ELDM",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "An Equity instrument that is not a security Issuer assignment is an Instrument Entity role assignment where the Instrument is an Equity instrument that is not a security and the Entity role is Issuer.",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

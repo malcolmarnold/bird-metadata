@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_OTHR_PRTY_ID_ELDM_1",
+  "name" : "Other party identifier",
+  "code" : "BIRD_OTHR_PRTY_ID_ELDM",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_OTHR_PRTY_ID_ELDM_1",
+  "cube_type" : "ELDM",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "Other party identifier is a code (different to the attribute Party identifier) of a Party that identifies the party in systems outside of the bank. It is a combination of a Party and a Party  identifier type.",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

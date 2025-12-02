@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "SDD_CUBE_C_1",
+  "name" : "Cube",
+  "code" : "CUBE",
+  "framework_id" : "SDD",
+  "cube_structure_id" : "SDD_CUBE_C_1",
+  "cube_type" : "C",
+  "is_allowed" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "In essence: A Cube is a table. More specifically: A Cube is the Meta data description of a data\nset in the dictionary. The possible data points of a cube (structure) may be\nrestricted to a specific area of this cube (structure) by listing all allowed /\nnon-allowed Combinations. A Cube can be either a Data Base table, a Data Flow\nfrom the SDMX methodology, the underlying metadata information of an annotated\ntemplate of the Data Point Model or an entity of an Entity Relationship Model.",
+  "published" : "false",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

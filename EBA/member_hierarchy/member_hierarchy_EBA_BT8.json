@@ -1,0 +1,28 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_BT8",
+  "code" : "BT8",
+  "domain_id" : "EBA_BT",
+  "name" : "Hierarchy of type of transaction (Insurance-reinsurance)",
+  "description" : "EBA_BT8",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_BT8",
+    "member_id" : "EBA_BT_EBA_x25",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2024-07-11",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_BT8",
+    "member_id" : "EBA_BT_EBA_x24",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2024-07-11",
+    "valid_to" : "9999-12-31"
+  } ]
+}

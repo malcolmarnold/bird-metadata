@@ -1,0 +1,29 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "cube_id" : "EBA_AE_EBA_A_00.01_AE_2014-03",
+  "name" : "Nature of Report (AE)",
+  "code" : "A_00.01",
+  "framework_id" : "EBA_AE",
+  "cube_structure_id" : "EBA_AE_EBA_A_00.01_AE_2014-03",
+  "cube_type" : "D",
+  "is_allowed" : null,
+  "valid_from" : "2014-09-30",
+  "valid_to" : "2023-06-29",
+  "version" : "AE 2014-03",
+  "description" : "Nature of Report (AE)",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "EBA_AE_EBA_A_00.01_AE_2014-03",
+    "combination_id" : "EBA_31870"
+  }, {
+    "cube_id" : "EBA_AE_EBA_A_00.01_AE_2014-03",
+    "combination_id" : "EBA_37969"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "EBA_AE_EBA_A_00.01_AE_2014-03",
+    "table_id" : "EBA_AE_EBA_A_00.01_AE_2014-03"
+  } ]
+}

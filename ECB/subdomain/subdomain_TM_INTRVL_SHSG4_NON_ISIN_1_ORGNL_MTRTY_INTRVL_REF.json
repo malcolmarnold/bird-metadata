@@ -1,0 +1,30 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "TM_INTRVL_SHSG4_NON_ISIN_1_ORGNL_MTRTY_INTRVL_REF",
+  "name" : "Original maturity interval",
+  "domain_id" : "TM_INTRVL",
+  "is_listed" : "true",
+  "code" : "TM_INTRVL_SHSG4_NON_ISIN_1_ORGNL_MTRTY_INTRVL_REF",
+  "facet_id" : null,
+  "description" : "TM_INTRVL_SHSG4_NON_ISIN_1_ORGNL_MTRTY_INTRVL_REF",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "TM_INTRVL_20",
+    "subdomain_id" : "TM_INTRVL_SHSG4_NON_ISIN_1_ORGNL_MTRTY_INTRVL_REF",
+    "valid_from" : "1999-01-01",
+    "valid_to" : "2999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TM_INTRVL_25",
+    "subdomain_id" : "TM_INTRVL_SHSG4_NON_ISIN_1_ORGNL_MTRTY_INTRVL_REF",
+    "valid_from" : "1999-01-01",
+    "valid_to" : "2999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TM_INTRVL_83",
+    "subdomain_id" : "TM_INTRVL_SHSG4_NON_ISIN_1_ORGNL_MTRTY_INTRVL_REF",
+    "valid_from" : "1999-01-01",
+    "valid_to" : "2999-12-31",
+    "order" : "0"
+  } ]
+}

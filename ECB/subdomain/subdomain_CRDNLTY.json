@@ -1,0 +1,36 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "CRDNLTY",
+  "name" : "Cardinality",
+  "domain_id" : "CRDNLTY",
+  "is_listed" : "true",
+  "code" : "CRDNLTY",
+  "facet_id" : null,
+  "description" : "Cardinality",
+  "is_natural" : "true",
+  "subdomain_enumeration" : [ {
+    "member_id" : "CRDNLTY_1",
+    "subdomain_id" : "CRDNLTY",
+    "valid_from" : "2019-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "1"
+  }, {
+    "member_id" : "CRDNLTY_N",
+    "subdomain_id" : "CRDNLTY",
+    "valid_from" : "2019-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "2"
+  }, {
+    "member_id" : "CRDNLTY_n",
+    "subdomain_id" : "CRDNLTY",
+    "valid_from" : "2019-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "2"
+  }, {
+    "member_id" : "CRDNLTY_NA",
+    "subdomain_id" : "CRDNLTY",
+    "valid_from" : "2019-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

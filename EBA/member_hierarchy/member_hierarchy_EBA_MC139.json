@@ -1,0 +1,37 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_MC139",
+  "code" : "MC139",
+  "domain_id" : "EBA_MC",
+  "name" : "Hierarchy for economic hedges",
+  "description" : "EBA_MC139",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_MC139",
+    "member_id" : "EBA_MC_EBA_x692",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "2018-03-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC139",
+    "member_id" : "EBA_MC_EBA_x694",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x692",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2018-03-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC139",
+    "member_id" : "EBA_MC_EBA_x693",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x692",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2018-03-30",
+    "valid_to" : "9999-12-31"
+  } ]
+}

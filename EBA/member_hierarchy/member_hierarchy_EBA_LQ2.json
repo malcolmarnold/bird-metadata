@@ -1,0 +1,145 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_LQ2",
+  "code" : "LQ2",
+  "domain_id" : "EBA_LQ",
+  "name" : "Hierarchy of asset liquidity levels",
+  "description" : "EBA_LQ2",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_LQ2",
+    "member_id" : "EBA_LQ_EBA_x0",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2016-09-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_LQ2",
+    "member_id" : "EBA_LQ_EBA_x106",
+    "level" : "2",
+    "parent_member_id" : "EBA_LQ_EBA_x0",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "2016-09-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_LQ2",
+    "member_id" : "EBA_LQ_EBA_x155",
+    "level" : "2",
+    "parent_member_id" : "EBA_LQ_EBA_x0",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "2016-09-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_LQ2",
+    "member_id" : "EBA_LQ_EBA_x78",
+    "level" : "3",
+    "parent_member_id" : "EBA_LQ_EBA_x155",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "2016-09-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_LQ2",
+    "member_id" : "EBA_LQ_EBA_x154",
+    "level" : "3",
+    "parent_member_id" : "EBA_LQ_EBA_x106",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "2016-09-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_LQ2",
+    "member_id" : "EBA_LQ_EBA_x112",
+    "level" : "3",
+    "parent_member_id" : "EBA_LQ_EBA_x106",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "2016-09-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_LQ2",
+    "member_id" : "EBA_LQ_EBA_x195",
+    "level" : "3",
+    "parent_member_id" : "EBA_LQ_EBA_x155",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "2016-09-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_LQ2",
+    "member_id" : "EBA_LQ_EBA_x113",
+    "level" : "4",
+    "parent_member_id" : "EBA_LQ_EBA_x112",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "2016-09-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_LQ2",
+    "member_id" : "EBA_LQ_EBA_x108",
+    "level" : "4",
+    "parent_member_id" : "EBA_LQ_EBA_x195",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "2016-09-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_LQ2",
+    "member_id" : "EBA_LQ_EBA_x110",
+    "level" : "4",
+    "parent_member_id" : "EBA_LQ_EBA_x154",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "2016-09-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_LQ2",
+    "member_id" : "EBA_LQ_EBA_x107",
+    "level" : "4",
+    "parent_member_id" : "EBA_LQ_EBA_x195",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "2016-09-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_LQ2",
+    "member_id" : "EBA_LQ_EBA_x109",
+    "level" : "5",
+    "parent_member_id" : "EBA_LQ_EBA_x110",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "2016-09-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_LQ2",
+    "member_id" : "EBA_LQ_EBA_x114",
+    "level" : "5",
+    "parent_member_id" : "EBA_LQ_EBA_x110",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "2016-09-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_LQ2",
+    "member_id" : "EBA_LQ_EBA_x115",
+    "level" : "5",
+    "parent_member_id" : "EBA_LQ_EBA_x107",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "2016-09-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_LQ2",
+    "member_id" : "EBA_LQ_EBA_x116",
+    "level" : "5",
+    "parent_member_id" : "EBA_LQ_EBA_x108",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "2016-09-30",
+    "valid_to" : "9999-12-31"
+  } ]
+}

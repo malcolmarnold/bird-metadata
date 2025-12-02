@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "FDCRY_ANCRDT_CLLCTN",
+  "name" : "AnaCredit - ECB collection",
+  "domain_id" : "FDCRY",
+  "is_listed" : "true",
+  "code" : "FDCRY_ANCRDT_CLLCTN",
+  "facet_id" : null,
+  "description" : "AnaCredit - ECB collection",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "FDCRY_2",
+    "subdomain_id" : "FDCRY_ANCRDT_CLLCTN",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "FDCRY_1",
+    "subdomain_id" : "FDCRY_ANCRDT_CLLCTN",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

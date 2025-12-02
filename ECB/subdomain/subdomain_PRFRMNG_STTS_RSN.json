@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "PRFRMNG_STTS_RSN",
+  "name" : "Performing status reason",
+  "domain_id" : "PRFRMNG_STTS_RSN",
+  "is_listed" : "true",
+  "code" : "PRFRMNG_STTS_RSN",
+  "facet_id" : null,
+  "description" : null,
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "PRFRMNG_STTS_RSN_1",
+    "subdomain_id" : "PRFRMNG_STTS_RSN",
+    "valid_from" : "2024-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "PRFRMNG_STTS_RSN_2",
+    "subdomain_id" : "PRFRMNG_STTS_RSN",
+    "valid_from" : "2024-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

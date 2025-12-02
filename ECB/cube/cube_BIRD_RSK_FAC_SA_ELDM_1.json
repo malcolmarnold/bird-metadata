@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_RSK_FAC_SA_ELDM_1",
+  "name" : "Risk factor for standardised approach",
+  "code" : "BIRD_RSK_FAC_SA_ELDM",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_RSK_FAC_SA_ELDM_1",
+  "cube_type" : "ELDM",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "Risk factor for standardised approach is a set of variables (eg an equity price or a tenor of an interest rate curve) that affect the value of an instrument as defined in MAR21.8 to MAR21.14. (https://www.bis.org/basel_framework/chapter/MAR/21.htm?inforce=20230101&published=20200327#paragraph_MAR_21_20230101_21_8)",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

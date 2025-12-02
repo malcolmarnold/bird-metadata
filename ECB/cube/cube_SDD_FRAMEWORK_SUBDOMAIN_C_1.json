@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "SDD_FRAMEWORK_SUBDOMAIN_C_1",
+  "name" : "Framework subdomain",
+  "code" : "FRAMEWORK_SUBDOMAIN",
+  "framework_id" : "SDD",
+  "cube_structure_id" : "SDD_FRAMEWORK_SUBDOMAIN_C_1",
+  "cube_type" : "C",
+  "is_allowed" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "A Framework subdomain is the combination of a Framework and a Subdomain. It establishes the many-to-many relationship between Frameworks and Subdomains.\nThe justification of this relationship (between Frameworks and Subdomains) is that Subdomains may not only be used directly in the Framework (e.g. in a Cube structure item associated to the Framework) but also indirectly (e.g. a Subdomain that is used in the Transformations between Frameworks).",
+  "published" : "false",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

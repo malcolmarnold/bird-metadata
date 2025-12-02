@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB2",
+  "subdomain_id" : "ECB2_CL_SHS_G_ISSUER_RBG",
+  "name" : "Subdomain for domain CL_SHS_ISSUER_RBG",
+  "domain_id" : "ECB2_CL_SHS_ISSUER_RBG",
+  "is_listed" : "true",
+  "code" : "CL_SHS_G_ISSUER_RBG",
+  "facet_id" : null,
+  "description" : null,
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "ECB2_CL_SHS_ISSUER_RBG_ECB2_Y",
+    "subdomain_id" : "ECB2_CL_SHS_G_ISSUER_RBG",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "ECB2_CL_SHS_ISSUER_RBG_ECB2_N",
+    "subdomain_id" : "ECB2_CL_SHS_G_ISSUER_RBG",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

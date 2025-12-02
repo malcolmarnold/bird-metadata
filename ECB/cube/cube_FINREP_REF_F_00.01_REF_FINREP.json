@@ -1,0 +1,29 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "FINREP_REF_F_00.01_REF_FINREP",
+  "name" : "Nature of Report (FINREP) - Reference",
+  "code" : "F_00.01_REF",
+  "framework_id" : "FINREP_REF",
+  "cube_structure_id" : "FINREP_REF_F_00.01_REF_FINREP",
+  "cube_type" : "RC",
+  "is_allowed" : null,
+  "valid_from" : "2013-12-01",
+  "valid_to" : "2021-06-29",
+  "version" : "FINREP",
+  "description" : null,
+  "published" : "false",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "FINREP_REF_F_00.01_REF_FINREP",
+    "combination_id" : "37969_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_00.01_REF_FINREP",
+    "combination_id" : "31870_REF"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "FINREP_REF_F_00.01_REF_FINREP",
+    "table_id" : "FINREP_REF_F_00.01_REF_FINREP"
+  } ]
+}

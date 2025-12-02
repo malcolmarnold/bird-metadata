@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_SCRTY_AGNST_F_BRRWNG_LNDNG_TRNSCTN_ELDM_1",
+  "name" : "Security against a fee borrowing and lending transaction",
+  "code" : "BIRD_SCRTY_AGNST_F_BRRWNG_LNDNG_TRNSCTN_ELDM",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_SCRTY_AGNST_F_BRRWNG_LNDNG_TRNSCTN_ELDM_1",
+  "cube_type" : "ELDM",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "A Security against a fee borrowing and lending transaction is a Security borrowing and lending transaction where one or more Securities are exchanged for a fee in return for a guarantee in the form of financial instruments or cash given by the borrower.",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

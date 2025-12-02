@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "PPRTY_PLNT_EQPMNT_NT_TKN_INT_PSSSSN_SFTWR_ASSTS_INDCTR",
+  "name" : "Property, plant and equipment not taken into possession software assets indicator (Input layer)",
+  "domain_id" : "TYP_ACCNTNG_ITM",
+  "is_listed" : "true",
+  "code" : "PPRTY_PLNT_EQPMNT_NT_TKN_INT_PSSSSN_SFTWR_ASSTS_INDCTR",
+  "facet_id" : null,
+  "description" : "Property, plant and equipment not taken into possession software assets indicator (Input layer)",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "TYP_ACCNTNG_ITM_6301",
+    "subdomain_id" : "PPRTY_PLNT_EQPMNT_NT_TKN_INT_PSSSSN_SFTWR_ASSTS_INDCTR",
+    "valid_from" : "2024-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_ACCNTNG_ITM_6302",
+    "subdomain_id" : "PPRTY_PLNT_EQPMNT_NT_TKN_INT_PSSSSN_SFTWR_ASSTS_INDCTR",
+    "valid_from" : "2024-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

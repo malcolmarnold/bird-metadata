@@ -1,0 +1,33 @@
+{
+  "semantic_transformation_rule_id" : "CLLTRL_VL_UNCPPD_TR",
+  "transformation_url" : "https://gitlab.sofa.dev/bird-subgroups/bird-transformation-rules/-/blob/main/FinRep%20subgroup/final%20derivation%20rules/CLLTRL_VL_UNCPPD/infosheet.md",
+  "type_of_transformation" : "D",
+  "maintenance_agency_id" : "ECB",
+  "name" : "Allocated collateral value uncapped pre haircuts derivation rule",
+  "code" : "CLLTRL_VL_UNCPPD_TR",
+  "description" : "This derivation rule aims to obtain the Allocated collateral value uncapped pre haircuts from its building blocks.",
+  "algorithm" : "SET CLLTRL_VL_UNCPPD = PRTCTN_ALLCTD_VL + ALLCTD_UNSD_CLLTRL_VL",
+  "valid_from" : "2024-02-28",
+  "valid_to" : "9999-12-31",
+  "logical_transformation_rule" : [ {
+    "logical_transformation_rule_id" : "DER__BIRD_INSTRMNT_CLLTRL_ASSGNMNT_EIL_1__CLLTRL_VL_UNCPPD__01_01_1990",
+    "semantic_transformation_rule_id" : "CLLTRL_VL_UNCPPD_TR",
+    "algorithm" : "SET BIRD_INSTRMNT_CLLTRL_ASSGNMNT_EIL.CLLTRL_VL_UNCPPD = BIRD_INSTRMNT_CLLTRL_ASSGNMNT_IL.PRTCTN_ALLCTD_VL + BIRD_INSTRMNT_CLLTRL_ASSGNMNT_IL.ALLCTD_UNSD_CLLTRL_VL",
+    "additional_filters" : null,
+    "source_layer" : "IL",
+    "destination_layer" : "EIL",
+    "transformation_type" : "DER",
+    "valid_from" : "1990-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "logical_transformation_rule_id" : "DER__BIRD_LNG_NN_NGTBL_SCRTY_PSTN_CLLTRL_ASSGNMNT_EIL_1__CLLTRL_VL_UNCPPD__01_01_1990",
+    "semantic_transformation_rule_id" : "CLLTRL_VL_UNCPPD_TR",
+    "algorithm" : "SET BIRD_LNG_NN_NGTBL_SCRTY_PSTN_CLLTRL_ASSGNMNT_EIL.CLLTRL_VL_UNCPPD = BIRD_LNG_NN_NGTBL_SCRTY_PSTN_CLLTRL_ASSGNMNT_IL.PRTCTN_ALLCTD_VL + BIRD_LNG_NN_NGTBL_SCRTY_PSTN_CLLTRL_ASSGNMNT_IL.ALLCTD_UNSD_CLLTRL_VL",
+    "additional_filters" : null,
+    "source_layer" : "IL",
+    "destination_layer" : "EIL",
+    "transformation_type" : "DER",
+    "valid_from" : "1990-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

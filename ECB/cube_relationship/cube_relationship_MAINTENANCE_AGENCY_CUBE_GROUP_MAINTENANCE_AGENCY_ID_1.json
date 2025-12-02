@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "MAINTENANCE_AGENCY__CUBE_GROUP__MAINTENANCE_AGENCY_ID__1",
+  "code" : "MAINTENANCE_AGENCY__CUBE_GROUP__MAINTENANCE_AGENCY_ID__1",
+  "name" : "a maintenance agency can have many cube groups<br> and a cube group must be associated with a maintenance agency",
+  "description" : null,
+  "type_of_relationship" : "ASS",
+  "valid_from" : "1999-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "SDD_MAINTENANCE_AGENCY_C_1",
+  "primary_cube_variable_code" : "MAINTENANCE_AGENCY_ID",
+  "foreign_cube_id" : "SDD_CUBE_GROUP_C_1",
+  "foreign_cube_variable_code" : "MAINTENANCE_AGENCY_ID",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "false",
+  "foreign_cube_mandatoriness" : "true"
+}

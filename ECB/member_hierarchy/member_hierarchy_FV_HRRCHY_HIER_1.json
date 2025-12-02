@@ -1,0 +1,46 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "FV_HRRCHY_HIER_1",
+  "code" : "1",
+  "domain_id" : "FV_HRRCHY",
+  "name" : "Fair value main hierarchy",
+  "description" : "Hierarchical structure of the member Level1, Level 2, Level 3 (Total) (-1)",
+  "is_main_hierarchy" : "true",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "FV_HRRCHY_HIER_1",
+    "member_id" : "FV_HRRCHY_-1",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "FV_HRRCHY_HIER_1",
+    "member_id" : "FV_HRRCHY_3",
+    "level" : "2",
+    "parent_member_id" : "FV_HRRCHY_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "FV_HRRCHY_HIER_1",
+    "member_id" : "FV_HRRCHY_2",
+    "level" : "2",
+    "parent_member_id" : "FV_HRRCHY_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "FV_HRRCHY_HIER_1",
+    "member_id" : "FV_HRRCHY_1",
+    "level" : "2",
+    "parent_member_id" : "FV_HRRCHY_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

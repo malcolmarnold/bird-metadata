@@ -1,0 +1,30 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "TYP_SCRTY_PSTN_INPT",
+  "name" : "Type of security position (Input Layer)",
+  "domain_id" : "SCRTY_EXCHNG_TRDBL_DRVTV_PSTN_TYP",
+  "is_listed" : "true",
+  "code" : "TYP_SCRTY_PSTN_INPT",
+  "facet_id" : null,
+  "description" : "Type of security position (Input Layer)",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "SCRTY_EXCHNG_TRDBL_DRVTV_PSTN_TYP_1",
+    "subdomain_id" : "TYP_SCRTY_PSTN_INPT",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "SCRTY_EXCHNG_TRDBL_DRVTV_PSTN_TYP_2",
+    "subdomain_id" : "TYP_SCRTY_PSTN_INPT",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "SCRTY_EXCHNG_TRDBL_DRVTV_PSTN_TYP_6",
+    "subdomain_id" : "TYP_SCRTY_PSTN_INPT",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

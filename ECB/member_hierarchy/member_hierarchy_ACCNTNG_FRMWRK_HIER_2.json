@@ -1,0 +1,55 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "ACCNTNG_FRMWRK_HIER_2",
+  "code" : "2",
+  "domain_id" : "ACCNTNG_FRMWRK",
+  "name" : "Accounting framework hierarchy",
+  "description" : "Hierarchical structure of the member All types of IFRS or nGAAP Accounting Framework (-1) Secondary",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "ACCNTNG_FRMWRK_HIER_2",
+    "member_id" : "ACCNTNG_FRMWRK_-1",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_FRMWRK_HIER_2",
+    "member_id" : "ACCNTNG_FRMWRK_2",
+    "level" : "3",
+    "parent_member_id" : "ACCNTNG_FRMWRK_5",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_FRMWRK_HIER_2",
+    "member_id" : "ACCNTNG_FRMWRK_3",
+    "level" : "3",
+    "parent_member_id" : "ACCNTNG_FRMWRK_5",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_FRMWRK_HIER_2",
+    "member_id" : "ACCNTNG_FRMWRK_5",
+    "level" : "2",
+    "parent_member_id" : "ACCNTNG_FRMWRK_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_FRMWRK_HIER_2",
+    "member_id" : "ACCNTNG_FRMWRK_1",
+    "level" : "2",
+    "parent_member_id" : "ACCNTNG_FRMWRK_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

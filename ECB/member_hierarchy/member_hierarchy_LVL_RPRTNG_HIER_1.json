@@ -1,0 +1,55 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "LVL_RPRTNG_HIER_1",
+  "code" : "1",
+  "domain_id" : "LVL_RPRTNG",
+  "name" : "Hierarchy for Level of reporting",
+  "description" : "Hierarchy for Level of reporting",
+  "is_main_hierarchy" : "true",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "LVL_RPRTNG_HIER_1",
+    "member_id" : "LVL_RPRTNG_-1",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "LVL_RPRTNG_HIER_1",
+    "member_id" : "LVL_RPRTNG_3",
+    "level" : "2",
+    "parent_member_id" : "LVL_RPRTNG_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "LVL_RPRTNG_HIER_1",
+    "member_id" : "LVL_RPRTNG_4",
+    "level" : "2",
+    "parent_member_id" : "LVL_RPRTNG_-1",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "LVL_RPRTNG_HIER_1",
+    "member_id" : "LVL_RPRTNG_1",
+    "level" : "3",
+    "parent_member_id" : "LVL_RPRTNG_4",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "LVL_RPRTNG_HIER_1",
+    "member_id" : "LVL_RPRTNG_2",
+    "level" : "3",
+    "parent_member_id" : "LVL_RPRTNG_4",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

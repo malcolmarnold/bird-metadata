@@ -1,0 +1,90 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_link_id" : "GEN_L__F_20.02_REF__BIRD_SCRTY_PSTN_EIL__1",
+  "code" : "BIRD_SCRTY_PSTN_EIL__F_20.02_REF__1",
+  "name" : "GEN_L__F_20.02_REF__BIRD_SCRTY_PSTN_EIL__1",
+  "description" : null,
+  "valid_from" : "1990-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "order_relevance" : "1",
+  "primary_cube_id" : "BIRD_SCRTY_PSTN_EIL_1",
+  "foreign_cube_id" : "FINREP_REF_F_20.02_REF_FINREP 3.0",
+  "cube_link_type" : "TR",
+  "logical_transformation_rule_id" : "GEN_L__F_20.02_REF__01_01_1990",
+  "cube_structure_item_link" : [ {
+    "cube_structure_item_link_id" : "GEN_L__F_20.02_REF__GEN_L__F_20.02_REF__BIRD_SCRTY_PSTN_EIL__1__SCRTY_PSTN_RL_TYP__TYP_ACCNTNG_ITM",
+    "cube_link_id" : "GEN_L__F_20.02_REF__BIRD_SCRTY_PSTN_EIL__1",
+    "foreign_cube_variable_code" : "TYP_ACCNTNG_ITM",
+    "primary_cube_variable_code" : "SCRTY_PSTN_RL_TYP",
+    "comparator" : "=",
+    "aggregation_function" : null,
+    "member_link" : [ {
+      "cube_structure_item_link_id" : "GEN_L__F_20.02_REF__GEN_L__F_20.02_REF__BIRD_SCRTY_PSTN_EIL__1__SCRTY_PSTN_RL_TYP__TYP_ACCNTNG_ITM",
+      "foreign_member_id" : "TYP_ACCNTNG_ITM_1100",
+      "primary_member_id" : "SCRTY_PSTN_RL_TYP_2",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_20.02_REF__GEN_L__F_20.02_REF__BIRD_SCRTY_PSTN_EIL__1__SCRTY_PSTN_RL_TYP__TYP_ACCNTNG_ITM",
+      "foreign_member_id" : "TYP_ACCNTNG_ITM_749",
+      "primary_member_id" : "SCRTY_PSTN_RL_TYP_2",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_20.02_REF__GEN_L__F_20.02_REF__BIRD_SCRTY_PSTN_EIL__1__SCRTY_PSTN_RL_TYP__TYP_ACCNTNG_ITM",
+      "foreign_member_id" : "TYP_ACCNTNG_ITM_61",
+      "primary_member_id" : "SCRTY_PSTN_RL_TYP_2",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    } ]
+  }, {
+    "cube_structure_item_link_id" : "GEN_L__F_20.02_REF__GEN_L__F_20.02_REF__BIRD_SCRTY_PSTN_EIL__1__TYP_SCRTY_PSTN__SHRT_PSTN_INDCTR",
+    "cube_link_id" : "GEN_L__F_20.02_REF__BIRD_SCRTY_PSTN_EIL__1",
+    "foreign_cube_variable_code" : "SHRT_PSTN_INDCTR",
+    "primary_cube_variable_code" : "TYP_SCRTY_PSTN",
+    "comparator" : "=",
+    "aggregation_function" : null,
+    "member_link" : [ {
+      "cube_structure_item_link_id" : "GEN_L__F_20.02_REF__GEN_L__F_20.02_REF__BIRD_SCRTY_PSTN_EIL__1__TYP_SCRTY_PSTN__SHRT_PSTN_INDCTR",
+      "foreign_member_id" : "SHRT_PSTN_INDCTR_1",
+      "primary_member_id" : "SCRTY_EXCHNG_TRDBL_DRVTV_PSTN_TYP_6",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_20.02_REF__GEN_L__F_20.02_REF__BIRD_SCRTY_PSTN_EIL__1__TYP_SCRTY_PSTN__SHRT_PSTN_INDCTR",
+      "foreign_member_id" : "SHRT_PSTN_INDCTR_2",
+      "primary_member_id" : "SCRTY_EXCHNG_TRDBL_DRVTV_PSTN_TYP_1",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_20.02_REF__GEN_L__F_20.02_REF__BIRD_SCRTY_PSTN_EIL__1__TYP_SCRTY_PSTN__SHRT_PSTN_INDCTR",
+      "foreign_member_id" : "SHRT_PSTN_INDCTR_2",
+      "primary_member_id" : "SCRTY_EXCHNG_TRDBL_DRVTV_PSTN_TYP_2",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    } ]
+  }, {
+    "cube_structure_item_link_id" : "GEN_L__F_20.02_REF__GEN_L__F_20.02_REF__BIRD_SCRTY_PSTN_EIL__1__DT_RFRNC__DT_RFRNC",
+    "cube_link_id" : "GEN_L__F_20.02_REF__BIRD_SCRTY_PSTN_EIL__1",
+    "foreign_cube_variable_code" : "DT_RFRNC",
+    "primary_cube_variable_code" : "DT_RFRNC",
+    "comparator" : "=",
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "GEN_L__F_20.02_REF__GEN_L__F_20.02_REF__BIRD_SCRTY_PSTN_EIL__1__CRRYNG_AMNT__CRRYNG_AMNT",
+    "cube_link_id" : "GEN_L__F_20.02_REF__BIRD_SCRTY_PSTN_EIL__1",
+    "foreign_cube_variable_code" : "CRRYNG_AMNT",
+    "primary_cube_variable_code" : "CRRYNG_AMNT",
+    "comparator" : "=",
+    "aggregation_function" : "SUM",
+    "member_link" : [ ]
+  } ]
+}

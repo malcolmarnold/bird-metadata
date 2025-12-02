@@ -1,0 +1,10 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "variable_id" : "CLLTRL_MXMM_AMNT_GRNT_CNSDRD",
+  "code" : "CLLTRL_MXMM_AMNT_GRNT_CNSDRD",
+  "name" : "Maximum amount of the collateral/guarantee that can be considered",
+  "domain_id" : "MNTRY",
+  "description" : "For banks this piece of information is a result of the allocation of collateral and guarantees on the instruments according to FinREP criteria. It is the maximum amount of the collateral or guarantee that can be considered as credit protection for the instruments. The sum of the amounts of the financial guarantee and/or collateral for a specific instrument shall not exceed the carrying amount or the nominal amount of the instrument. For instruments that have simultaneously more than one type of collateral or guarantee, the amount of the Maximum amount of the collateral/guarantee that can be considered shall be allocated according to its quality starting from the one with the best quality. For instruments collateralised by immovable property, immovable property collateral shall always be reported first, irrespective of its quality compared to other collateral. Where the Maximum amount of the collateral/guarantee that can be considered exceeds the value of immovable property collateral, its remaining value shall be allocated to other collateral types and guarantees according to its quality starting from the one with best quality",
+  "primary_concept" : null,
+  "is_decomposed" : null
+}

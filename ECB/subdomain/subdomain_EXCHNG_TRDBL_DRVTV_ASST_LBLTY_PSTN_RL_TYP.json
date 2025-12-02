@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "EXCHNG_TRDBL_DRVTV_ASST_LBLTY_PSTN_RL_TYP",
+  "name" : "Exchange tradable derivative asset or liability position role type",
+  "domain_id" : "EXCHNG_TRDBL_DRVTV_PSTN_RL_TYP",
+  "is_listed" : "true",
+  "code" : "EXCHNG_TRDBL_DRVTV_ASST_LBLTY_PSTN_RL_TYP",
+  "facet_id" : null,
+  "description" : "Exchange tradable derivative asset or liability position role type",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "EXCHNG_TRDBL_DRVTV_PSTN_RL_TYP_1",
+    "subdomain_id" : "EXCHNG_TRDBL_DRVTV_ASST_LBLTY_PSTN_RL_TYP",
+    "valid_from" : "2024-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "EXCHNG_TRDBL_DRVTV_PSTN_RL_TYP_2",
+    "subdomain_id" : "EXCHNG_TRDBL_DRVTV_ASST_LBLTY_PSTN_RL_TYP",
+    "valid_from" : "2024-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

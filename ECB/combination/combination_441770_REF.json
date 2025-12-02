@@ -1,0 +1,70 @@
+{
+  "combination_id" : "441770_REF",
+  "code" : "441770_REF",
+  "name" : "EBA_APL(EBA_PL_EBA_x39)|EBA_ATY(EBA_mi53)|EBA_BAS(EBA_BA_EBA_x6)|EBA_MCB(EBA_MC_EBA_x0)|EBA_MCY(EBA_MC_EBA_x329)|EBA_RUA(EBA_MC_EBA_x907) - Reference",
+  "maintenance_agency_id" : "ECB",
+  "version" : "FINREP 3.0",
+  "valid_from" : "2021-06-30",
+  "valid_to" : "9999-12-31",
+  "combination_item" : [ {
+    "combination_id" : "441770_REF",
+    "variable_id" : "MTRCS",
+    "subdomain_id" : null,
+    "variable_set_id" : "MTRCS_F_42.00_MTRCS_REF",
+    "member_id" : null
+  }, {
+    "combination_id" : "441770_REF",
+    "variable_id" : "TYP_ACCNTNG_ITM",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "TYP_ACCNTNG_ITM_413"
+  }, {
+    "combination_id" : "441770_REF",
+    "variable_id" : "SFTWR_ASST_INDCTR",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "SFTWR_ASST_INDCTR_0"
+  }, {
+    "combination_id" : "441770_REF",
+    "variable_id" : "MSRMNT_MTHD",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "MSRMNT_MTHD_2"
+  }, {
+    "combination_id" : "441770_REF",
+    "variable_id" : "HLD_SL_INDCTR",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "HLD_SL_INDCTR_-1"
+  }, {
+    "combination_id" : "441770_REF",
+    "variable_id" : "TYP_INSTRMNT",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "TYP_INSTRMNT_80"
+  }, {
+    "combination_id" : "441770_REF",
+    "variable_id" : "SUBA_CD",
+    "subdomain_id" : "STRNG",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "441770_REF",
+    "variable_id" : "DT_RFRNC",
+    "subdomain_id" : "DT",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "441770_REF",
+    "variable_id" : "ENTTY_RIAD_CD_RPRTNG_AGNT",
+    "subdomain_id" : "STRNG",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "441770_REF",
+    "variable_id" : "VALUE_DECIMAL",
+    "subdomain_id" : "MNTRY",
+    "variable_set_id" : null,
+    "member_id" : null
+  } ]
+}

@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "SDD_SUBDOMAIN_C_1",
+  "name" : "Subdomain",
+  "code" : "SUBDOMAIN",
+  "framework_id" : "SDD",
+  "cube_structure_id" : "SDD_SUBDOMAIN_C_1",
+  "cube_type" : "C",
+  "is_allowed" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "In a nutshell: A Subdomain defines the allowed values of a\ncertain field (Variable) in a table (Cube).  More specifically: A Subdomain is a\nsubset of a Domain to be applied in a certain context. Examples are the\ncountries of the European Union where the Euro is the official currency or the\ncurrencies used in at least one of the countries of the European Union. ",
+  "published" : "false",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

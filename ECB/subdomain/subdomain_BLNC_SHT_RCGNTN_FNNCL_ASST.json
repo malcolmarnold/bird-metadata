@@ -1,0 +1,30 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "BLNC_SHT_RCGNTN_FNNCL_ASST",
+  "name" : "Balance sheet recognition of the financial asset",
+  "domain_id" : "RCGNTN_STTS",
+  "is_listed" : "true",
+  "code" : "BLNC_SHT_RCGNTN_FNNCL_ASST",
+  "facet_id" : null,
+  "description" : "Balance sheet recognition of the financial asset",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "RCGNTN_STTS_1",
+    "subdomain_id" : "BLNC_SHT_RCGNTN_FNNCL_ASST",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "RCGNTN_STTS_4",
+    "subdomain_id" : "BLNC_SHT_RCGNTN_FNNCL_ASST",
+    "valid_from" : "2023-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "RCGNTN_STTS_2",
+    "subdomain_id" : "BLNC_SHT_RCGNTN_FNNCL_ASST",
+    "valid_from" : "2024-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

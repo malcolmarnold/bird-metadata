@@ -1,0 +1,27 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_structure_id" : "BIRD_SCRTSN_OTHR_CRDT_TRNSFR_ELDM_1",
+  "name" : "Securitisation and other credit transfer",
+  "code" : "BIRD_SCRTSN_OTHR_CRDT_TRNSFR_ELDM",
+  "description" : "It comprises information on securitisations, as defined in Article 4.1(61) of Regulation No 575/2013, and other sales of assets. It refers to situations when: a.the securitisation or the credit transfer originates from the institution and the transferred assets are recognised in its balance sheet; or b. when the transferred assets are serviced by the institution, both in the case the securitisation or the credit transfer originates from the institution and in the case it originates from another entity.",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "cube_structure_item" : [ {
+    "cube_structure_item_id" : "BIRD_SCRTSN_OTHR_CRDT_TRNSFR_ELDM_1__SCRTSN_OTHR_CRDT_TRNSFR_TYP",
+    "cube_structure_id" : "BIRD_SCRTSN_OTHR_CRDT_TRNSFR_ELDM_1",
+    "cube_variable_code" : "SCRTSN_OTHR_CRDT_TRNSFR_TYP",
+    "variable_id" : "SCRTSN_OTHR_CRDT_TRNSFR_TYP",
+    "role" : "O",
+    "order" : "0",
+    "subdomain_id" : "SCRTSN_OTHR_CRDT_TRNSFR_TYP",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "true",
+    "description" : "A discriminator to distinguish between different types of securitisations and other credit transfer, like securitisation and covered bond programs.",
+    "is_implemented" : "true"
+  } ]
+}

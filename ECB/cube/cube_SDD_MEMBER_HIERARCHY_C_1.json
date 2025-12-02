@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "SDD_MEMBER_HIERARCHY_C_1",
+  "name" : "Member hierarchy",
+  "code" : "MEMBER_HIERARCHY",
+  "framework_id" : "SDD",
+  "cube_structure_id" : "SDD_MEMBER_HIERARCHY_C_1",
+  "cube_type" : "C",
+  "is_allowed" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "In a nutshell: A Member hierarchy represents one possible\nhierarchical structure (tree) of Members in a Domain. More\nspecifically: There can be multiple Member hierarchies in a\nDomain, one can represent the main hierarchical structure of a Domain while\nothers represent Framework or Subdomain-specific structures. An example is the\nhierarchical structure of the countries of the European Union up to their\nfederated states.",
+  "published" : "false",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

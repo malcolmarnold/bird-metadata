@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "RPYMNT_RGHTS",
+  "name" : "Repayment rights",
+  "domain_id" : "RPYMNT_RGHTS",
+  "is_listed" : "true",
+  "code" : "RPYMNT_RGHTS",
+  "facet_id" : null,
+  "description" : "Repayment rights",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "RPYMNT_RGHTS_1",
+    "subdomain_id" : "RPYMNT_RGHTS",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "RPYMNT_RGHTS_2",
+    "subdomain_id" : "RPYMNT_RGHTS",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

@@ -1,0 +1,46 @@
+{
+  "maintenance_agency_id" : "ECB6",
+  "member_hierarchy_id" : "EBA_MC_MC9002",
+  "code" : "MC9002",
+  "domain_id" : "EBA_MC",
+  "name" : "NSFR Cash and reserves hierarchy",
+  "description" : null,
+  "is_main_hierarchy" : null,
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_MC_MC9002",
+    "member_id" : "EBA_MC_ECB6_x6130",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_ECB6_x6129",
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC9002",
+    "member_id" : "EBA_MC_ECB6_x6129",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x1043",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC9002",
+    "member_id" : "EBA_MC_EBA_x44",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x1043",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC9002",
+    "member_id" : "EBA_MC_EBA_x1043",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

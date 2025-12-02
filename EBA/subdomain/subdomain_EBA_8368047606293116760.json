@@ -1,0 +1,36 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "subdomain_id" : "EBA_8368047606293116760",
+  "name" : "ER([x15|x16|x13|x14])",
+  "domain_id" : "EBA_ER",
+  "is_listed" : "true",
+  "code" : "8368047606293116760",
+  "facet_id" : null,
+  "description" : "Credit rating agency /Covered bond regime",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "EBA_ER_EBA_x15",
+    "subdomain_id" : "EBA_8368047606293116760",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "EBA_ER_EBA_x16",
+    "subdomain_id" : "EBA_8368047606293116760",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "EBA_ER_EBA_x13",
+    "subdomain_id" : "EBA_8368047606293116760",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "EBA_ER_EBA_x14",
+    "subdomain_id" : "EBA_8368047606293116760",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

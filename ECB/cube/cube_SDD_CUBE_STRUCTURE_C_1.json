@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "SDD_CUBE_STRUCTURE_C_1",
+  "name" : "Cube structure",
+  "code" : "CUBE_STRUCTURE",
+  "framework_id" : "SDD",
+  "cube_structure_id" : "SDD_CUBE_STRUCTURE_C_1",
+  "cube_type" : "C",
+  "is_allowed" : null,
+  "valid_from" : "2019-03-01",
+  "valid_to" : "9999-12-31",
+  "version" : "2",
+  "description" : "A Cube structure is the Meta data description of a data set. It consists of a set of Cube structure items representing the columns of a table, their roles (e.g. primary key) and the allowed values.\nThe implementation of a Cube structure as an intermediate between a Cube and the set of Cube structure items ensures compability of the dictionary with SDMX.",
+  "published" : "false",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

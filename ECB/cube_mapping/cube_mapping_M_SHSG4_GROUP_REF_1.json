@@ -1,0 +1,60 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_mapping_id" : "M_SHSG4_GROUP_REF_1",
+  "name" : "SHSG4_GROUP-->SHSG4_GROUP_REF__1",
+  "code" : "M_SHSG4_GROUP_REF_1",
+  "source_cube_id" : "ECB2_SHSG4_GROUP_1",
+  "destination_cube_id" : "SHS_REF_SHSG4_GROUP_REF_1",
+  "description" : "Mapping cubes, source cube: SHSG4_GROUP, target cube: SHSG4_GROUP_REF, version: 1",
+  "mapping_to_cube" : [ {
+    "cube_mapping_id" : "M_SHSG4_GROUP_REF_1",
+    "mapping_id" : "SHS_FREQ",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_GROUP_REF_1",
+    "mapping_id" : "SHS_GROUP_ID",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_GROUP_REF_1",
+    "mapping_id" : "SHS_GROUP_LEI",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_GROUP_REF_1",
+    "mapping_id" : "SHS_GROUP_NAME",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_GROUP_REF_1",
+    "mapping_id" : "SHS_GROUP_TYPE",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_GROUP_REF_1",
+    "mapping_id" : "SHS_TIME_PERIOD",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_GROUP_REF_1",
+    "mapping_id" : "SHS_GROUP_SECTOR",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_GROUP_REF_1",
+    "mapping_id" : "SHS_COMPILING_ORG",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_GROUP_REF_1",
+    "mapping_id" : "SHS_GROUP_ID_TYPE",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_GROUP_REF_1",
+    "mapping_id" : "SHS_GROUP_ACC_STANDARD",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

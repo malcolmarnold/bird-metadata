@@ -1,0 +1,91 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "TYP_INSTRMNT_HIER_14",
+  "code" : "14",
+  "domain_id" : "TYP_INSTRMNT",
+  "name" : "Equity instruments, Debt securities, Loans and advances, Tangible assets. Real Estate, and others hierarchy",
+  "description" : "Hierarchical structure of the member Equity instruments, Debt securities, Loans and advances, Tangible assets. Real Estate, and others (467)",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_14",
+    "member_id" : "TYP_INSTRMNT_467",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_14",
+    "member_id" : "TYP_INSTRMNT_466",
+    "level" : "2",
+    "parent_member_id" : "TYP_INSTRMNT_467",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_14",
+    "member_id" : "TYP_INSTRMNT_411",
+    "level" : "2",
+    "parent_member_id" : "TYP_INSTRMNT_467",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_14",
+    "member_id" : "TYP_INSTRMNT_251",
+    "level" : "2",
+    "parent_member_id" : "TYP_INSTRMNT_467",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_14",
+    "member_id" : "TYP_INSTRMNT_241",
+    "level" : "2",
+    "parent_member_id" : "TYP_INSTRMNT_467",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_14",
+    "member_id" : "TYP_INSTRMNT_969",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_14",
+    "member_id" : "TYP_INSTRMNT_950",
+    "level" : "2",
+    "parent_member_id" : "TYP_INSTRMNT_969",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_14",
+    "member_id" : "TYP_INSTRMNT_960",
+    "level" : "2",
+    "parent_member_id" : "TYP_INSTRMNT_969",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_14",
+    "member_id" : "TYP_INSTRMNT_970",
+    "level" : "2",
+    "parent_member_id" : "TYP_INSTRMNT_969",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

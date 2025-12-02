@@ -1,0 +1,10 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "variable_id" : "PRTCTN_ID",
+  "code" : "PRTCTN_ID",
+  "name" : "Protection identifier",
+  "domain_id" : "STRNG",
+  "description" : "An identifier applied by the reporting agent to uniquely identify each protection used to secure the instrument. Each protection must have one protection identifier. This value will not change over time and cannot be used as the protection identifier for any other protection.",
+  "primary_concept" : "ID",
+  "is_decomposed" : null
+}

@@ -1,0 +1,72 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "variable_set_id" : "MTRCS_F_35.00.c_MTRCS_REF",
+  "name" : "Variable Set for MTRCS of the Cube F_35.00.c",
+  "code" : "MTRCS_F_35.00.c_MTRCS_REF",
+  "description" : "Variable Set for MTRCS of the Cube F_35.00.c",
+  "variable_set_enumeration" : [ {
+    "variable_set_id" : "MTRCS_F_35.00.c_MTRCS_REF",
+    "variable_id" : "CRDT_RTNG_AGNCY_NM",
+    "valid_from" : "2024-03-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "MTRCS_F_35.00.c_MTRCS_REF",
+    "variable_id" : "CVRD_BND_CRR_129",
+    "valid_from" : "2024-03-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "BLN_STRNG",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "MTRCS_F_35.00.c_MTRCS_REF",
+    "variable_id" : "EXTRNL_CRDT_ASSSSMNT",
+    "valid_from" : "2024-03-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "MTRCS_F_35.00.c_MTRCS_REF",
+    "variable_id" : "PRMRY_ASST_CLSS_CVR_PL",
+    "valid_from" : "2024-03-01",
+    "valid_to" : "2999-12-31",
+    "subdomain_id" : "PRMRY_ASST_CLSS_CVR_PL_F_35.00.c_PRMRY_ASST_CLSS_CVR_PL_REF",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "MTRCS_F_35.00.c_MTRCS_REF",
+    "variable_id" : "CRDT_RTNG_AGNCY_NM",
+    "valid_from" : "2023-06-30",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "MTRCS_F_35.00.c_MTRCS_REF",
+    "variable_id" : "PRMRY_ASST_CLSS_CVR_PL",
+    "valid_from" : "2023-06-30",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PRMRY_ASST_CLSS_CVR_PL_F_35.00.c_PRMRY_ASST_CLSS_CVR_PL_REF",
+    "is_flow" : "false",
+    "order" : "1"
+  }, {
+    "variable_set_id" : "MTRCS_F_35.00.c_MTRCS_REF",
+    "variable_id" : "CVRD_BND_CRR_129",
+    "valid_from" : "2023-06-30",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "BLN_STRNG",
+    "is_flow" : "false",
+    "order" : "2"
+  }, {
+    "variable_set_id" : "MTRCS_F_35.00.c_MTRCS_REF",
+    "variable_id" : "EXTRNL_CRDT_ASSSSMNT",
+    "valid_from" : "2023-06-30",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG",
+    "is_flow" : "false",
+    "order" : "3"
+  } ]
+}

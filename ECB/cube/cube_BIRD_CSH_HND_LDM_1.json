@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_CSH_HND_LDM_1",
+  "name" : "Cash on hand",
+  "code" : "BIRD_CSH_HND_LDM",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_CSH_HND_LDM_1",
+  "cube_type" : "LDM",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "‘Cash on hand’ shall include holdings of national and foreign banknotes and coins in circulation that are commonly used to make payments.\n\nAccording to ESA 2010 this includes \"Monetary gold\", which is indicated via the currency \"XAU\". See ESA 2010 paragraph 5.65 - 5.68.",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

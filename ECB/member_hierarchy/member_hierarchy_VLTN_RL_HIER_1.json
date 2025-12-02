@@ -1,0 +1,127 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "VLTN_RL_HIER_1",
+  "code" : "1",
+  "domain_id" : "VLTN_RL",
+  "name" : "Accounting portfolio valuation rules main hierarchy",
+  "description" : "Hierarchical structure of the member Amortised cost, fair valued, Cost based method, Other nGAAP",
+  "is_main_hierarchy" : "true",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "VLTN_RL_HIER_1",
+    "member_id" : "VLTN_RL_6",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "VLTN_RL_HIER_1",
+    "member_id" : "VLTN_RL_16",
+    "level" : "2",
+    "parent_member_id" : "VLTN_RL_6",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "VLTN_RL_HIER_1",
+    "member_id" : "VLTN_RL_4",
+    "level" : "3",
+    "parent_member_id" : "VLTN_RL_16",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "VLTN_RL_HIER_1",
+    "member_id" : "VLTN_RL_18",
+    "level" : "3",
+    "parent_member_id" : "VLTN_RL_16",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "VLTN_RL_HIER_1",
+    "member_id" : "VLTN_RL_5",
+    "level" : "4",
+    "parent_member_id" : "VLTN_RL_18",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "VLTN_RL_HIER_1",
+    "member_id" : "VLTN_RL_14",
+    "level" : "5",
+    "parent_member_id" : "VLTN_RL_5",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "VLTN_RL_HIER_1",
+    "member_id" : "VLTN_RL_7",
+    "level" : "5",
+    "parent_member_id" : "VLTN_RL_5",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "VLTN_RL_HIER_1",
+    "member_id" : "VLTN_RL_12",
+    "level" : "4",
+    "parent_member_id" : "VLTN_RL_18",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "VLTN_RL_HIER_1",
+    "member_id" : "VLTN_RL_10",
+    "level" : "5",
+    "parent_member_id" : "VLTN_RL_12",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "VLTN_RL_HIER_1",
+    "member_id" : "VLTN_RL_11",
+    "level" : "5",
+    "parent_member_id" : "VLTN_RL_12",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "VLTN_RL_HIER_1",
+    "member_id" : "VLTN_RL_3",
+    "level" : "2",
+    "parent_member_id" : "VLTN_RL_6",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "VLTN_RL_HIER_1",
+    "member_id" : "VLTN_RL_1",
+    "level" : "3",
+    "parent_member_id" : "VLTN_RL_3",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "VLTN_RL_HIER_1",
+    "member_id" : "VLTN_RL_2",
+    "level" : "3",
+    "parent_member_id" : "VLTN_RL_3",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

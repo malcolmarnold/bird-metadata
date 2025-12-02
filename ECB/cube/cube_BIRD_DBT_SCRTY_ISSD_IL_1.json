@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_DBT_SCRTY_ISSD_IL_1",
+  "name" : "Debt security issued (by the reporting agent)",
+  "code" : "BIRD_DBT_SCRTY_ISSD_IL",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_DBT_SCRTY_ISSD_IL_1",
+  "cube_type" : "IL",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "A Debt security issued (by the Reporting agent) is the combination of the  Debt security where the Reporting agent is the Debtor and the accounting classification that represents the financial liability side of the Debt security issued (by the reporting agent).\n\nPlease note: \n- The overall information about the Debt security issued (by the reporting agent) is in the entity type Debt security.\n- The asset side of the bought back and/or retained part of the Debt security issued (by the reporting agent) is in the entity type Long debt security position.",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

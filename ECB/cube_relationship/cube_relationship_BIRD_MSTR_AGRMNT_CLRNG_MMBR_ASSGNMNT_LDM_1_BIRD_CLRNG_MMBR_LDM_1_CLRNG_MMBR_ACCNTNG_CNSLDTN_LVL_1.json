@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_MSTR_AGRMNT_CLRNG_MMBR_ASSGNMNT_LDM_1__BIRD_CLRNG_MMBR_LDM_1__CLRNG_MMBR_ACCNTNG_CNSLDTN_LVL_1",
+  "code" : "BIRD_MSTR_AGRMNT_CLRNG_MMBR_ASSGNMNT_LDM_1__BIRD_CLRNG_MMBR_LDM_1__CLRNG_MMBR_ACCNTNG_CNSLDTN_LVL",
+  "name" : "Clearing member may have many Master agreement Clearing member assignment",
+  "description" : "Clearing member is involved in Master agreement(s) with a clearing member via Master agreement Clearing member assignment",
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_CLRNG_MMBR_LDM_1",
+  "primary_cube_variable_code" : "ORGNSTN_ACCNTNG_CNSLDTN_LVL",
+  "foreign_cube_id" : "BIRD_MSTR_AGRMNT_CLRNG_MMBR_ASSGNMNT_LDM_1",
+  "foreign_cube_variable_code" : "CLRNG_MMBR_ACCNTNG_CNSLDTN_LVL",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "false"
+}

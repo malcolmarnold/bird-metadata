@@ -1,0 +1,217 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "EXPNS_TYP_HIER_1",
+  "code" : "1",
+  "domain_id" : "EXPNS_TYP",
+  "name" : "Hierarchy for Type of expense",
+  "description" : "Hierarchy for Type of expense",
+  "is_main_hierarchy" : "true",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EXPNS_TYP_HIER_1",
+    "member_id" : "EXPNS_TYP_-1",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPNS_TYP_HIER_1",
+    "member_id" : "EXPNS_TYP_2",
+    "level" : "2",
+    "parent_member_id" : "EXPNS_TYP_-1",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPNS_TYP_HIER_1",
+    "member_id" : "EXPNS_TYP_16",
+    "level" : "3",
+    "parent_member_id" : "EXPNS_TYP_2",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPNS_TYP_HIER_1",
+    "member_id" : "EXPNS_TYP_161",
+    "level" : "4",
+    "parent_member_id" : "EXPNS_TYP_16",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPNS_TYP_HIER_1",
+    "member_id" : "EXPNS_TYP_162",
+    "level" : "4",
+    "parent_member_id" : "EXPNS_TYP_16",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPNS_TYP_HIER_1",
+    "member_id" : "EXPNS_TYP_20",
+    "level" : "3",
+    "parent_member_id" : "EXPNS_TYP_2",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPNS_TYP_HIER_1",
+    "member_id" : "EXPNS_TYP_17",
+    "level" : "4",
+    "parent_member_id" : "EXPNS_TYP_20",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPNS_TYP_HIER_1",
+    "member_id" : "EXPNS_TYP_18",
+    "level" : "4",
+    "parent_member_id" : "EXPNS_TYP_20",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPNS_TYP_HIER_1",
+    "member_id" : "EXPNS_TYP_19",
+    "level" : "4",
+    "parent_member_id" : "EXPNS_TYP_20",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPNS_TYP_HIER_1",
+    "member_id" : "EXPNS_TYP_14",
+    "level" : "4",
+    "parent_member_id" : "EXPNS_TYP_20",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPNS_TYP_HIER_1",
+    "member_id" : "EXPNS_TYP_15",
+    "level" : "4",
+    "parent_member_id" : "EXPNS_TYP_20",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPNS_TYP_HIER_1",
+    "member_id" : "EXPNS_TYP_1",
+    "level" : "2",
+    "parent_member_id" : "EXPNS_TYP_-1",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPNS_TYP_HIER_1",
+    "member_id" : "EXPNS_TYP_3",
+    "level" : "3",
+    "parent_member_id" : "EXPNS_TYP_1",
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPNS_TYP_HIER_1",
+    "member_id" : "EXPNS_TYP_4",
+    "level" : "4",
+    "parent_member_id" : "EXPNS_TYP_3",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPNS_TYP_HIER_1",
+    "member_id" : "EXPNS_TYP_5",
+    "level" : "4",
+    "parent_member_id" : "EXPNS_TYP_3",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPNS_TYP_HIER_1",
+    "member_id" : "EXPNS_TYP_6",
+    "level" : "3",
+    "parent_member_id" : "EXPNS_TYP_1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPNS_TYP_HIER_1",
+    "member_id" : "EXPNS_TYP_7",
+    "level" : "3",
+    "parent_member_id" : "EXPNS_TYP_1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPNS_TYP_HIER_1",
+    "member_id" : "EXPNS_TYP_8",
+    "level" : "3",
+    "parent_member_id" : "EXPNS_TYP_1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPNS_TYP_HIER_1",
+    "member_id" : "EXPNS_TYP_9",
+    "level" : "3",
+    "parent_member_id" : "EXPNS_TYP_1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPNS_TYP_HIER_1",
+    "member_id" : "EXPNS_TYP_10",
+    "level" : "3",
+    "parent_member_id" : "EXPNS_TYP_1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPNS_TYP_HIER_1",
+    "member_id" : "EXPNS_TYP_11",
+    "level" : "3",
+    "parent_member_id" : "EXPNS_TYP_1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPNS_TYP_HIER_1",
+    "member_id" : "EXPNS_TYP_12",
+    "level" : "3",
+    "parent_member_id" : "EXPNS_TYP_1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPNS_TYP_HIER_1",
+    "member_id" : "EXPNS_TYP_13",
+    "level" : "3",
+    "parent_member_id" : "EXPNS_TYP_1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

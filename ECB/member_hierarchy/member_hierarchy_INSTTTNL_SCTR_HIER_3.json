@@ -1,0 +1,37 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_3",
+  "code" : "3",
+  "domain_id" : "INSTTTNL_SCTR",
+  "name" : "Non-MFIs hierarhy",
+  "description" : "Hierarchical structure of the member Non-MFIs (S1_B)",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_3",
+    "member_id" : "INSTTTNL_SCTR_S1_B",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_3",
+    "member_id" : "INSTTTNL_SCTR_S13",
+    "level" : "2",
+    "parent_member_id" : "INSTTTNL_SCTR_S1_B",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_3",
+    "member_id" : "INSTTTNL_SCTR_S1_C",
+    "level" : "2",
+    "parent_member_id" : "INSTTTNL_SCTR_S1_B",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

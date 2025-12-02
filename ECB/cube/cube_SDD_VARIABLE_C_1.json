@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "SDD_VARIABLE_C_1",
+  "name" : "Variable",
+  "code" : "VARIABLE",
+  "framework_id" : "SDD",
+  "cube_structure_id" : "SDD_VARIABLE_C_1",
+  "cube_type" : "C",
+  "is_allowed" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "In a nutshell: A Variable is a concept in the dictionary and\nis defined on a Domain. More\nspecifically: A Variable can be applied in different context;\nit’s normally represented by a field in a Table. E.g. the Variable: Country can\nbe used in a table (Cube) referring to debtors (Country of the debtor) or in a\nCube referring to real estates (Country location of the real estate).",
+  "published" : "false",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

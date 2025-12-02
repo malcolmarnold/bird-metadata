@@ -1,0 +1,101 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "FINREP_REF_F_16.05_REF_FINREP 3.0",
+  "name" : "Breakdown of selected statement of profit or loss items: Gains or losses on financial assets and liabilities designated at fair value through profit or loss by instrument - Reference",
+  "code" : "F_16.05_REF",
+  "framework_id" : "FINREP_REF",
+  "cube_structure_id" : "FINREP_REF_F_16.05_REF_FINREP 3.0",
+  "cube_type" : "RC",
+  "is_allowed" : null,
+  "valid_from" : "2021-06-30",
+  "valid_to" : "9999-12-31",
+  "version" : "FINREP 3.0",
+  "description" : null,
+  "published" : "false",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "FINREP_REF_F_16.05_REF_FINREP 3.0",
+    "combination_id" : "56328_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.05_REF_FINREP 3.0",
+    "combination_id" : "67326_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.05_REF_FINREP 3.0",
+    "combination_id" : "67565_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.05_REF_FINREP 3.0",
+    "combination_id" : "67311_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.05_REF_FINREP 3.0",
+    "combination_id" : "46503_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.05_REF_FINREP 3.0",
+    "combination_id" : "46504_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.05_REF_FINREP 3.0",
+    "combination_id" : "56346_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.05_REF_FINREP 3.0",
+    "combination_id" : "67564_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.05_REF_FINREP 3.0",
+    "combination_id" : "67563_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.05_REF_FINREP 3.0",
+    "combination_id" : "11252_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.05_REF_FINREP 3.0",
+    "combination_id" : "46501_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.05_REF_FINREP 3.0",
+    "combination_id" : "67567_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.05_REF_FINREP 3.0",
+    "combination_id" : "67323_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.05_REF_FINREP 3.0",
+    "combination_id" : "10983_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.05_REF_FINREP 3.0",
+    "combination_id" : "46499_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.05_REF_FINREP 3.0",
+    "combination_id" : "11255_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.05_REF_FINREP 3.0",
+    "combination_id" : "67566_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.05_REF_FINREP 3.0",
+    "combination_id" : "46500_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.05_REF_FINREP 3.0",
+    "combination_id" : "11253_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.05_REF_FINREP 3.0",
+    "combination_id" : "10985_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.05_REF_FINREP 3.0",
+    "combination_id" : "46498_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.05_REF_FINREP 3.0",
+    "combination_id" : "10982_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.05_REF_FINREP 3.0",
+    "combination_id" : "67322_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.05_REF_FINREP 3.0",
+    "combination_id" : "67308_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.05_REF_FINREP 3.0",
+    "combination_id" : "151197_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.05_REF_FINREP 3.0",
+    "combination_id" : "151196_REF"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "FINREP_REF_F_16.05_REF_FINREP 3.0",
+    "table_id" : "FINREP_REF_F_16.05_REF_FINREP 3.0"
+  } ]
+}

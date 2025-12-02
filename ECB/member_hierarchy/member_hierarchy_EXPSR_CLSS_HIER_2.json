@@ -1,0 +1,37 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "EXPSR_CLSS_HIER_2",
+  "code" : "2",
+  "domain_id" : "EXPSR_CLSS",
+  "name" : "Exposure classes hierarchy according to Asset Encumbrance",
+  "description" : "Hierarchical structure of the Member All type of exposure classes according to Asset Encumbrance (100)",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EXPSR_CLSS_HIER_2",
+    "member_id" : "EXPSR_CLSS_100",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPSR_CLSS_HIER_2",
+    "member_id" : "EXPSR_CLSS_3",
+    "level" : "2",
+    "parent_member_id" : "EXPSR_CLSS_100",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPSR_CLSS_HIER_2",
+    "member_id" : "EXPSR_CLSS_31",
+    "level" : "2",
+    "parent_member_id" : "EXPSR_CLSS_100",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

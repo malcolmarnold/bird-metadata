@@ -1,0 +1,94 @@
+{
+  "combination_id" : "456811_REF",
+  "code" : "456811_REF",
+  "name" : "EBA_ATY(EBA_mi279)|EBA_BAS(EBA_BA_EBA_x17)|EBA_CPE(EBA_CT_EBA_x0)|EBA_CSC(EBA_CS_EBA_x1)|EBA_MCS(EBA_MC_EBA_x176)|EBA_MCY(EBA_MC_EBA_x983)|EBA_TMA(EBA_MA_EBA_x0) - Reference",
+  "maintenance_agency_id" : "ECB",
+  "version" : "AE 3.0",
+  "valid_from" : "2021-06-30",
+  "valid_to" : "9999-12-31",
+  "combination_item" : [ {
+    "combination_id" : "456811_REF",
+    "variable_id" : "MTRCS",
+    "subdomain_id" : null,
+    "variable_set_id" : "MTRCS_F_34.00.b_MTRCS_REF",
+    "member_id" : null
+  }, {
+    "combination_id" : "456811_REF",
+    "variable_id" : "TYP_MRKT_SRC_ENCMBRNC",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "TYP_MRKT_-1"
+  }, {
+    "combination_id" : "456811_REF",
+    "variable_id" : "INSTTTNL_SCTR_SRC_ENCMBRNC",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "INSTTTNL_SCTR_-1"
+  }, {
+    "combination_id" : "456811_REF",
+    "variable_id" : "MN_DBTR_INDCTR_SRC_ENCMBRNC",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "MN_DBTR_INDCTR_1"
+  }, {
+    "combination_id" : "456811_REF",
+    "variable_id" : "TYP_ACCNTNG_ITM_SRC_ENCMBRNC",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "TYP_ACCNTNG_ITM_990"
+  }, {
+    "combination_id" : "456811_REF",
+    "variable_id" : "SRC_ENCMBRNC",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "SRC_ENCMBRNC_103"
+  }, {
+    "combination_id" : "456811_REF",
+    "variable_id" : "NGTBL_SCRTY_INDCTR_SRC_ENCMBRNC",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "NGTBL_SCRTY_0"
+  }, {
+    "combination_id" : "456811_REF",
+    "variable_id" : "AE_ITM_TYP_INSTRMNT",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "AE_ITM_100"
+  }, {
+    "combination_id" : "456811_REF",
+    "variable_id" : "TYP_INSTRMNT_RL",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "ABSTRCT_INSTRMNT_RL_TYP_45"
+  }, {
+    "combination_id" : "456811_REF",
+    "variable_id" : "CNTNGNT_SCNR",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "CNTNGNT_SCNR_1"
+  }, {
+    "combination_id" : "456811_REF",
+    "variable_id" : "ENTTY_RIAD_CD_RPRTNG_AGNT",
+    "subdomain_id" : "STRNG",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "456811_REF",
+    "variable_id" : "DT_RFRNC",
+    "subdomain_id" : "DT",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "456811_REF",
+    "variable_id" : "SUBA_CD",
+    "subdomain_id" : "STRNG",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "456811_REF",
+    "variable_id" : "VALUE_DECIMAL",
+    "subdomain_id" : "MNTRY",
+    "variable_set_id" : null,
+    "member_id" : null
+  } ]
+}

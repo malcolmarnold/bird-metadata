@@ -1,0 +1,64 @@
+{
+  "maintenance_agency_id" : "ECB6",
+  "member_hierarchy_id" : "EBA_NC_NC9003",
+  "code" : "NC9003",
+  "domain_id" : "EBA_NC",
+  "name" : "Hierarchy for B5-B9 subset of B - Mining and quarrying",
+  "description" : null,
+  "is_main_hierarchy" : null,
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_NC_NC9003",
+    "member_id" : "EBA_NC_EBA_B5",
+    "level" : "2",
+    "parent_member_id" : "EBA_NC_ECB6_B5-B9",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_NC_NC9003",
+    "member_id" : "EBA_NC_EBA_B6",
+    "level" : "2",
+    "parent_member_id" : "EBA_NC_ECB6_B5-B9",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_NC_NC9003",
+    "member_id" : "EBA_NC_EBA_B7",
+    "level" : "2",
+    "parent_member_id" : "EBA_NC_ECB6_B5-B9",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_NC_NC9003",
+    "member_id" : "EBA_NC_EBA_B8",
+    "level" : "2",
+    "parent_member_id" : "EBA_NC_ECB6_B5-B9",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_NC_NC9003",
+    "member_id" : "EBA_NC_EBA_B9",
+    "level" : "2",
+    "parent_member_id" : "EBA_NC_ECB6_B5-B9",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_NC_NC9003",
+    "member_id" : "EBA_NC_ECB6_B5-B9",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

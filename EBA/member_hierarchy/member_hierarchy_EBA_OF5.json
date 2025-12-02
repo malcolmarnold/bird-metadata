@@ -1,0 +1,64 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_OF5",
+  "code" : "OF5",
+  "domain_id" : "EBA_OF",
+  "name" : "Hierarchy for the determination of eligible capital",
+  "description" : "Eligible capital is <= the total own funds, because the T2 capital can only be considered to one third.",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_OF5",
+    "member_id" : "EBA_OF_EBA_x10",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_OF5",
+    "member_id" : "EBA_OF_EBA_x3",
+    "level" : "2",
+    "parent_member_id" : "EBA_OF_EBA_x10",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_OF5",
+    "member_id" : "EBA_OF_EBA_x8",
+    "level" : "3",
+    "parent_member_id" : "EBA_OF_EBA_x3",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_OF5",
+    "member_id" : "EBA_OF_EBA_x9",
+    "level" : "3",
+    "parent_member_id" : "EBA_OF_EBA_x3",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_OF5",
+    "member_id" : "EBA_OF_EBA_x2",
+    "level" : "4",
+    "parent_member_id" : "EBA_OF_EBA_x8",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_OF5",
+    "member_id" : "EBA_OF_EBA_x1",
+    "level" : "4",
+    "parent_member_id" : "EBA_OF_EBA_x8",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

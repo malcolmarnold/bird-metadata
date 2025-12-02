@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "TYPE_OF_TRANSFORMATION",
+  "name" : "TYPE_OF_TRANSFORMATION",
+  "domain_id" : "TYPE_OF_TRANSFORMATION",
+  "is_listed" : "true",
+  "code" : "TYPE_OF_TRANSFORMATION",
+  "facet_id" : null,
+  "description" : "The type of transformation.",
+  "is_natural" : "true",
+  "subdomain_enumeration" : [ {
+    "member_id" : "TYPE_OF_TRANSFORMATION_G",
+    "subdomain_id" : "TYPE_OF_TRANSFORMATION",
+    "valid_from" : "2023-05-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYPE_OF_TRANSFORMATION_D",
+    "subdomain_id" : "TYPE_OF_TRANSFORMATION",
+    "valid_from" : "2023-05-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

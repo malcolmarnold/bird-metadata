@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_IMMTRL_RGHTS_CLLTRL_OTHR_INTNGBL_ASST_NT_TKN_INT_PSSSSN_ASSGNMNT_ELDM_1__BIRD_OTHR_INTNGBL_ASST_NT_TKN_INT_PSSSSN_ELDM_1__MSRMNT_MTHD_1",
+  "code" : "BIRD_IMMTRL_RGHTS_CLLTRL_OTHR_INTNGBL_ASST_NT_TKN_INT_PSSSSN_ASSGNMNT_ELDM_1__BIRD_OTHR_INTNGBL_ASST_NT_TKN_INT_PSSSSN_ELDM_1__MSRMNT_MTHD",
+  "name" : "Other intangible asset not taken into possession may have many Immaterial rights as collateral Other intangible asset not taken into possession assignment",
+  "description" : "Other intangible asset not taken into possession aggregates Immaterial rights as collateral via Immaterial rights as collateral Other intangible asset not taken into possession assignment",
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_OTHR_INTNGBL_ASST_NT_TKN_INT_PSSSSN_ELDM_1",
+  "primary_cube_variable_code" : "MSRMNT_MTHD",
+  "foreign_cube_id" : "BIRD_IMMTRL_RGHTS_CLLTRL_OTHR_INTNGBL_ASST_NT_TKN_INT_PSSSSN_ASSGNMNT_ELDM_1",
+  "foreign_cube_variable_code" : "MSRMNT_MTHD",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "false"
+}

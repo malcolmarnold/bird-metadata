@@ -1,0 +1,73 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_HIER_1",
+  "code" : "1",
+  "domain_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP",
+  "name" : "Long security position Prudential portfolio assignment hierarchy for BIRD models",
+  "description" : "Long security position Prudential portfolio assignment hierarchy for BIRD models",
+  "is_main_hierarchy" : "true",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_HIER_1",
+    "member_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP_-1",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_HIER_1",
+    "member_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP_1",
+    "level" : "2",
+    "parent_member_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_HIER_1",
+    "member_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP_2",
+    "level" : "2",
+    "parent_member_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_HIER_1",
+    "member_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP_3",
+    "level" : "3",
+    "parent_member_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP_6",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_HIER_1",
+    "member_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP_4",
+    "level" : "3",
+    "parent_member_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP_6",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_HIER_1",
+    "member_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP_5",
+    "level" : "2",
+    "parent_member_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_HIER_1",
+    "member_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP_6",
+    "level" : "2",
+    "parent_member_id" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP_-1",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

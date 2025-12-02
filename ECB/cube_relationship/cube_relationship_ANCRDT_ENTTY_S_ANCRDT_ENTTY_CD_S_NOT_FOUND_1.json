@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "ANCRDT_ENTTY_S__ANCRDT_ENTTY_CD_S__NOT_FOUND__1",
+  "code" : "ANCRDT_ENTTY_S__ANCRDT_ENTTY_CD_S__NOT_FOUND__1",
+  "name" : "ANCRDT_ENTTY_S__ANCRDT_ENTTY_CD_S__NOT_FOUND__1",
+  "description" : null,
+  "type_of_relationship" : "ASS",
+  "valid_from" : "1999-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "ANCRDT_ENTTY_S_1",
+  "primary_cube_variable_code" : "ENTTY_SK",
+  "foreign_cube_id" : "ANCRDT_ENTTY_CD_S_1",
+  "foreign_cube_variable_code" : "ENTTY_SK",
+  "primary_cube_cardinality" : null,
+  "foreign_cube_cardinality" : null,
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "true"
+}

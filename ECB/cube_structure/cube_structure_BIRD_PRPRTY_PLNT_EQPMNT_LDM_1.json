@@ -1,0 +1,27 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_structure_id" : "BIRD_PRPRTY_PLNT_EQPMNT_LDM_1",
+  "name" : "Property, plant and equipment",
+  "code" : "BIRD_PRPRTY_PLNT_EQPMNT_LDM",
+  "description" : "Property, plant and equipment are tangible items that:\n(a) are held for use in the production or supply of goods or services, for rental to others, or for administrative purposes; and\n(b) are expected to be used during more than one period.\nAs defined in IAS 16.6.\n\nA class of property, plant and equipment is a grouping of assets of a similar nature and use in an entity’s operations. The following are examples of separate classes:\n(a) land;\n(b) land and buildings;\n(c) machinery;\n(d) ships;\n(e) aircraft;\n(f) motor vehicles;\n(g) furniture and fixtures;\n(h) office equipment; and\n(i) bearer plants.\nAs defined in IAS 16.37.\n\n\nhttps://www.investopedia.com/ask/answers/06/propertyplantequipment.asp:\nProperty, plant, and equipment are physical or tangible assets that are long-term assets that typically have a life of more than one year. Examples of property, plant, and equipment (PP&E) include:\n* Vehicles like trucks\n* Office furniture\n* Machinery\n* Buildings\n* Undeveloped land\nProperty, plant, and equipment assets are also called fixed assets, which are long-term physical assets. Industries that are considered capital intensive have a significant amount of fixed assets, such as oil companies, auto manufacturers, and steel companies.",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "cube_structure_item" : [ {
+    "cube_structure_item_id" : "BIRD_PRPRTY_PLNT_EQPMNT_LDM_1__PRPRTY_PLNT_EQPMNT_TYP",
+    "cube_structure_id" : "BIRD_PRPRTY_PLNT_EQPMNT_LDM_1",
+    "cube_variable_code" : "PRPRTY_PLNT_EQPMNT_TYP",
+    "variable_id" : "PRPRTY_PLNT_EQPMNT_TYP",
+    "role" : "O",
+    "order" : "0",
+    "subdomain_id" : "TYP_PRPRTY_PLNT_EQPMNT",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "true",
+    "description" : null,
+    "is_implemented" : "true"
+  } ]
+}

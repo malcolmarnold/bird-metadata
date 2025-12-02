@@ -1,0 +1,36 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "ENTTY_RL_TYP_F_09.01.1_PRTY_RL_TYP_REF",
+  "name" : "Subdomain for PRTY_RL_TYP of the Cube F_09.01.1",
+  "domain_id" : "ENTTY_RL_TYP",
+  "is_listed" : "true",
+  "code" : "ENTTY_RL_TYP_F_09.01.1_PRTY_RL_TYP_REF",
+  "facet_id" : null,
+  "description" : null,
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "ENTTY_RL_TYP_28",
+    "subdomain_id" : "ENTTY_RL_TYP_F_09.01.1_PRTY_RL_TYP_REF",
+    "valid_from" : "2018-03-31",
+    "valid_to" : "2021-06-29",
+    "order" : "0"
+  }, {
+    "member_id" : "ENTTY_RL_TYP_36",
+    "subdomain_id" : "ENTTY_RL_TYP_F_09.01.1_PRTY_RL_TYP_REF",
+    "valid_from" : "2018-03-31",
+    "valid_to" : "2021-06-29",
+    "order" : "1"
+  }, {
+    "member_id" : "ENTTY_RL_TYP_28",
+    "subdomain_id" : "ENTTY_RL_TYP_F_09.01.1_PRTY_RL_TYP_REF",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "ENTTY_RL_TYP_36",
+    "subdomain_id" : "ENTTY_RL_TYP_F_09.01.1_PRTY_RL_TYP_REF",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31",
+    "order" : "1"
+  } ]
+}

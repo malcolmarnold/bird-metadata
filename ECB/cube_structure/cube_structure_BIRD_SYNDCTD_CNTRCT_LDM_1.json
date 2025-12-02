@@ -1,0 +1,27 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_structure_id" : "BIRD_SYNDCTD_CNTRCT_LDM_1",
+  "name" : "Syndicated contract",
+  "code" : "BIRD_SYNDCTD_CNTRCT_LDM",
+  "description" : "Syndicated contract is the overall contract of the syndication in the administration of the lead arranger of the syndicated contract.",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "cube_structure_item" : [ {
+    "cube_structure_item_id" : "BIRD_SYNDCTD_CNTRCT_LDM_1__SYNDCTD_CNTRCT_ID",
+    "cube_structure_id" : "BIRD_SYNDCTD_CNTRCT_LDM_1",
+    "cube_variable_code" : "SYNDCTD_CNTRCT_ID",
+    "variable_id" : "SYNDCTD_CNTRCT_ID",
+    "role" : "D",
+    "order" : "0",
+    "subdomain_id" : "STRNG_RSTRCTD_ID",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "true",
+    "description" : "'Contract identifier' applied by the lead arranger of the syndicated contract to uniquely identify each contract. Each syndicated contract will have one 'syndicated contract identifier'. This value will not change over time and cannot be used by the lead arranger as the contract identifier for any other contract. All creditors participating in the syndicated contract must use the same 'syndicated contract identifier'.",
+    "is_implemented" : "true"
+  } ]
+}

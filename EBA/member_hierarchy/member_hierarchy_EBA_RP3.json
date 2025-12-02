@@ -1,0 +1,37 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_RP3",
+  "code" : "RP3",
+  "domain_id" : "EBA_RP",
+  "name" : "Relationship of lending entity with issuing entity",
+  "description" : "EBA_RP3",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_RP3",
+    "member_id" : "EBA_RP_EBA_x57",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2019-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_RP3",
+    "member_id" : "EBA_RP_EBA_x56",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2019-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_RP3",
+    "member_id" : "EBA_RP_EBA_x55",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2019-12-31",
+    "valid_to" : "9999-12-31"
+  } ]
+}

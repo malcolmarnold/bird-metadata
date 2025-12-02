@@ -1,0 +1,10 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "variable_id" : "FILTERS",
+  "code" : "FILTERS",
+  "name" : "Filters",
+  "domain_id" : "STRNG",
+  "description" : "A Cube can represent only a subset of the information provided by the linked dataset. In such cases, this field can or should be populated to allow systems to query the underlying physical dataset to reproduce the logical content described by the Cube.",
+  "primary_concept" : null,
+  "is_decomposed" : "true"
+}

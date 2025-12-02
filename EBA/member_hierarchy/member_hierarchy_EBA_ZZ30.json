@@ -1,0 +1,37 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_ZZ30",
+  "code" : "ZZ30",
+  "domain_id" : "EBA_ZZ",
+  "name" : "Hierarchy for type of contractual terms of a financial instrument",
+  "description" : "EBA_ZZ30",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_ZZ30",
+    "member_id" : "EBA_ZZ_EBA_x285",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2018-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ30",
+    "member_id" : "EBA_ZZ_EBA_x286",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2018-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ30",
+    "member_id" : "EBA_ZZ_EBA_x284",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2018-12-31",
+    "valid_to" : "9999-12-31"
+  } ]
+}

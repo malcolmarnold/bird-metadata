@@ -1,0 +1,64 @@
+{
+  "combination_id" : "EBA_46623",
+  "code" : "46623",
+  "name" : "EBA_ATY(EBA_md150)|EBA_BAS(EBA_BA_EBA_x2)|EBA_CNO(EBA_BT_EBA_x4)|EBA_MCY(EBA_MC_EBA_x492)|EBA_REF(EBA_RF_EBA_x0)",
+  "maintenance_agency_id" : "EBA",
+  "version" : "FINREP",
+  "valid_from" : "2013-12-01",
+  "valid_to" : "9999-12-31",
+  "combination_item" : [ {
+    "combination_id" : "EBA_46623",
+    "variable_id" : "EBA_CNO",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "EBA_BT_EBA_x4"
+  }, {
+    "combination_id" : "EBA_46623",
+    "variable_id" : "EBA_MCY",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "EBA_MC_EBA_x492"
+  }, {
+    "combination_id" : "EBA_46623",
+    "variable_id" : "EBA_ATY",
+    "subdomain_id" : null,
+    "variable_set_id" : "EBA_7479284637091345067",
+    "member_id" : null
+  }, {
+    "combination_id" : "EBA_46623",
+    "variable_id" : "EBA_BAS",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "EBA_BA_EBA_x2"
+  }, {
+    "combination_id" : "EBA_46623",
+    "variable_id" : "EBA_REF",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "EBA_RF_EBA_x0"
+  }, {
+    "combination_id" : "EBA_46623",
+    "variable_id" : "EBA_Unit",
+    "subdomain_id" : "EBA_9060459832829800078",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "EBA_46623",
+    "variable_id" : "EBA_Observation_Value",
+    "subdomain_id" : "EBA_9060459832829800078",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "EBA_46623",
+    "variable_id" : "EBA_Reported_Period",
+    "subdomain_id" : "EBA_11035014428738272585",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "EBA_46623",
+    "variable_id" : "EBA_Entity_Id",
+    "subdomain_id" : "EBA_9060459832829800078",
+    "variable_set_id" : null,
+    "member_id" : null
+  } ]
+}

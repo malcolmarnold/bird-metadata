@@ -1,0 +1,46 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_SC1_1",
+  "code" : "SC1_1",
+  "domain_id" : "EBA_SC",
+  "name" : "Consolidation Scope including Resolution",
+  "description" : "Lists allowed values for the 'Reporting level' metric from 2.8",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_SC1_1",
+    "member_id" : "EBA_SC_EBA_x9",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2018-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_SC1_1",
+    "member_id" : "EBA_SC_EBA_x10",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2018-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_SC1_1",
+    "member_id" : "EBA_SC_EBA_x6",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2018-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_SC1_1",
+    "member_id" : "EBA_SC_EBA_x7",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2018-12-31",
+    "valid_to" : "9999-12-31"
+  } ]
+}

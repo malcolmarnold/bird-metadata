@@ -1,0 +1,30 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "DPST_TYP",
+  "name" : "Deposit type",
+  "domain_id" : "TYP_INSTRMNT",
+  "is_listed" : "true",
+  "code" : "DPST_TYP",
+  "facet_id" : null,
+  "description" : "Deposit type",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "TYP_INSTRMNT_510",
+    "subdomain_id" : "DPST_TYP",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_INSTRMNT_551",
+    "subdomain_id" : "DPST_TYP",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "2025-01-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_INSTRMNT_550",
+    "subdomain_id" : "DPST_TYP",
+    "valid_from" : "2025-02-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

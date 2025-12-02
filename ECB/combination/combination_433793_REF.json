@@ -1,0 +1,70 @@
+{
+  "combination_id" : "433793_REF",
+  "code" : "433793_REF",
+  "name" : "EBA_ATY(EBA_md103)|EBA_BAS(EBA_BA_EBA_x3)|EBA_MCE(EBA_MC_EBA_x0)|EBA_MCY(EBA_MC_EBA_x153)|EBA_TYA(EBA_TA_EBA_x5) - Reference",
+  "maintenance_agency_id" : "ECB",
+  "version" : "FINREP 2.9",
+  "valid_from" : "2020-06-30",
+  "valid_to" : "9999-12-31",
+  "combination_item" : [ {
+    "combination_id" : "433793_REF",
+    "variable_id" : "MTRCS",
+    "subdomain_id" : null,
+    "variable_set_id" : "9348397123312128136_REF",
+    "member_id" : null
+  }, {
+    "combination_id" : "433793_REF",
+    "variable_id" : "TYP_ACCNTNG_ITM",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "TYP_ACCNTNG_ITM_22"
+  }, {
+    "combination_id" : "433793_REF",
+    "variable_id" : "ITM_GNRTS_ACCNTNG_ITM",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "TYP_ACCNTNG_ITM_0"
+  }, {
+    "combination_id" : "433793_REF",
+    "variable_id" : "TYP_INSTRMNT_GNRTS_ACCNTNG_ITM",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "TYP_INSTRMNT_0"
+  }, {
+    "combination_id" : "433793_REF",
+    "variable_id" : "TYP_ACTVTY",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "TYP_ACTVTY_40"
+  }, {
+    "combination_id" : "433793_REF",
+    "variable_id" : "SUBA_CD",
+    "subdomain_id" : "STRNG",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "433793_REF",
+    "variable_id" : "DT_RFRNC",
+    "subdomain_id" : "DT",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "433793_REF",
+    "variable_id" : "ENTTY_RIAD_CD_RPRTNG_AGNT",
+    "subdomain_id" : "STRNG",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "433793_REF",
+    "variable_id" : "VALUE_DECIMAL",
+    "subdomain_id" : "MNTRY",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "433793_REF",
+    "variable_id" : "NGTBL_SCRTY_INDCTR",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "NGTBL_SCRTY_0"
+  } ]
+}

@@ -1,0 +1,231 @@
+{
+  "table_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03",
+  "name" : "F 32.02.b",
+  "code" : "F_32.02.b",
+  "description" : "F 32.02.b Asset encumbrance: Encumbrance overview - Collateral (b)",
+  "maintenance_agency_id" : "EBA",
+  "version" : "AE 2014-03",
+  "valid_from" : "2014-09-30",
+  "valid_to" : "2021-06-29",
+  "table_cell" : [ {
+    "cell_id" : "EBA_130816",
+    "is_shaded" : "false",
+    "combination_id" : "EBA_42896",
+    "table_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03",
+    "system_data_code" : null,
+    "cell_position" : [ {
+      "cell_id" : "EBA_130816",
+      "axis_ordinate_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_1_010"
+    }, {
+      "cell_id" : "EBA_130816",
+      "axis_ordinate_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_2_250"
+    } ]
+  }, {
+    "cell_id" : "EBA_130817",
+    "is_shaded" : "false",
+    "combination_id" : "EBA_42897",
+    "table_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03",
+    "system_data_code" : null,
+    "cell_position" : [ {
+      "cell_id" : "EBA_130817",
+      "axis_ordinate_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_1_020"
+    }, {
+      "cell_id" : "EBA_130817",
+      "axis_ordinate_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_2_250"
+    } ]
+  }, {
+    "cell_id" : "EBA_130818",
+    "is_shaded" : "false",
+    "combination_id" : "EBA_42880",
+    "table_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03",
+    "system_data_code" : null,
+    "cell_position" : [ {
+      "cell_id" : "EBA_130818",
+      "axis_ordinate_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_1_030"
+    }, {
+      "cell_id" : "EBA_130818",
+      "axis_ordinate_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_2_250"
+    } ]
+  } ],
+  "axis" : [ {
+    "axis_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_1",
+    "code" : "F_32.02.b_1",
+    "orientation" : "X",
+    "order" : "0",
+    "name" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_1",
+    "description" : null,
+    "table_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03",
+    "is_open_axis" : "false",
+    "axis_ordinate" : [ {
+      "axis_ordinate_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_1_010",
+      "is_abstract_header" : "false",
+      "code" : "010",
+      "order" : "0",
+      "level" : "0",
+      "path" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_1_010 .",
+      "axis_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_1",
+      "parent_axis_ordinate_id" : null,
+      "name" : "Fair value of encumbered collateral received or own debt securities issued",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_1_010",
+        "variable_id" : "EBA_mi290",
+        "member_id" : null,
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_1_010",
+        "variable_id" : "EBA_ENC",
+        "member_id" : "EBA_CG_EBA_x8",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_1_010",
+        "variable_id" : "EBA_RPR",
+        "member_id" : "EBA_RP_EBA_x0",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_1_010",
+        "variable_id" : "EBA_LQC",
+        "member_id" : "EBA_LQ_EBA_x0",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    }, {
+      "axis_ordinate_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_1_020",
+      "is_abstract_header" : "false",
+      "code" : "020",
+      "order" : "0",
+      "level" : "1",
+      "path" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_1_010 .EBA_AE_EBA_F_32.02.b_AE_2014-03_1_020 .",
+      "axis_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_1",
+      "parent_axis_ordinate_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_1_010",
+      "name" : "of which: issued by other entities of the group",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_1_020",
+        "variable_id" : "EBA_mi290",
+        "member_id" : null,
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_1_020",
+        "variable_id" : "EBA_ENC",
+        "member_id" : "EBA_CG_EBA_x8",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_1_020",
+        "variable_id" : "EBA_RPR",
+        "member_id" : "EBA_RP_EBA_x13",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_1_020",
+        "variable_id" : "EBA_LQC",
+        "member_id" : "EBA_LQ_EBA_x0",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    }, {
+      "axis_ordinate_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_1_030",
+      "is_abstract_header" : "false",
+      "code" : "030",
+      "order" : "0",
+      "level" : "1",
+      "path" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_1_010 .EBA_AE_EBA_F_32.02.b_AE_2014-03_1_030 .",
+      "axis_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_1",
+      "parent_axis_ordinate_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_1_010",
+      "name" : "of which: central bank's eligible",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_1_030",
+        "variable_id" : "EBA_mi290",
+        "member_id" : null,
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_1_030",
+        "variable_id" : "EBA_ENC",
+        "member_id" : "EBA_CG_EBA_x8",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_1_030",
+        "variable_id" : "EBA_LQC",
+        "member_id" : "EBA_LQ_EBA_x49",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_1_030",
+        "variable_id" : "EBA_RPR",
+        "member_id" : "EBA_RP_EBA_x0",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    } ]
+  }, {
+    "axis_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_2",
+    "code" : "F_32.02.b_2",
+    "orientation" : "Y",
+    "order" : "0",
+    "name" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_2",
+    "description" : null,
+    "table_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03",
+    "is_open_axis" : "false",
+    "axis_ordinate" : [ {
+      "axis_ordinate_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_2_250",
+      "is_abstract_header" : "false",
+      "code" : "250",
+      "order" : "0",
+      "level" : "0",
+      "path" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_2_250 .",
+      "axis_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_2",
+      "parent_axis_ordinate_id" : null,
+      "name" : "TOTAL ASSETS, COLLATERAL RECEIVED AND OWN DEBT SECURITIES ISSUED",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_2_250",
+        "variable_id" : "EBA_BAS",
+        "member_id" : "EBA_BA_EBA_x17",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_AE_EBA_F_32.02.b_AE_2014-03_2_250",
+        "variable_id" : "EBA_MCY",
+        "member_id" : "EBA_MC_EBA_x459",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    } ]
+  } ]
+}

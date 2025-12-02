@@ -1,0 +1,32 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_group_id" : "SDD_LEGAL_REFERENCES",
+  "name" : "Legal references package",
+  "code" : "SDD_LEGAL_REFERENCES",
+  "description" : "It contains those dictionary objects that are necessary in order to provide (legal) references for dictionary objects (e.g. members, cubes,…).",
+  "cube_group_enumeration" : [ {
+    "order" : "0",
+    "cube_group_id" : "SDD_LEGAL_REFERENCES",
+    "cube_id" : "SDD_LEGAL_TEXT_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_LEGAL_REFERENCES",
+    "cube_id" : "SDD_CLASSIFICATION_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_LEGAL_REFERENCES",
+    "cube_id" : "SDD_LEGAL_REFERENCE_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_LEGAL_REFERENCES",
+    "cube_id" : "SDD_CLASSIFICATION_ASSIGNMENT_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

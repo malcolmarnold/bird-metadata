@@ -1,0 +1,59 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "FINREP_REF_F_20.06_REF_FINREP 2017-A",
+  "name" : "Geographical breakdown of liabilities by residence of the counterparty - Reference",
+  "code" : "F_20.06_REF",
+  "framework_id" : "FINREP_REF",
+  "cube_structure_id" : "FINREP_REF_F_20.06_REF_FINREP 2017-A",
+  "cube_type" : "RC",
+  "is_allowed" : null,
+  "valid_from" : "2018-03-31",
+  "valid_to" : "2021-06-29",
+  "version" : "FINREP 2017-A",
+  "description" : null,
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "FINREP_REF_F_20.06_REF_FINREP 2017-A",
+    "combination_id" : "152162_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_20.06_REF_FINREP 2017-A",
+    "combination_id" : "152171_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_20.06_REF_FINREP 2017-A",
+    "combination_id" : "152165_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_20.06_REF_FINREP 2017-A",
+    "combination_id" : "152161_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_20.06_REF_FINREP 2017-A",
+    "combination_id" : "152172_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_20.06_REF_FINREP 2017-A",
+    "combination_id" : "152166_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_20.06_REF_FINREP 2017-A",
+    "combination_id" : "152168_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_20.06_REF_FINREP 2017-A",
+    "combination_id" : "152163_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_20.06_REF_FINREP 2017-A",
+    "combination_id" : "152170_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_20.06_REF_FINREP 2017-A",
+    "combination_id" : "152164_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_20.06_REF_FINREP 2017-A",
+    "combination_id" : "152160_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_20.06_REF_FINREP 2017-A",
+    "combination_id" : "152167_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_20.06_REF_FINREP 2017-A",
+    "combination_id" : "152169_REF"
+  } ],
+  "cube_to_table" : [ ]
+}

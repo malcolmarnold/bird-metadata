@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "RGSTRD_PSTL_CD_SYSTM_PRTY",
+  "name" : "Registered postal code system party",
+  "domain_id" : "PRTY_TYP_ADDRSS",
+  "is_listed" : "true",
+  "code" : "RGSTRD_PSTL_CD_SYSTM_PRTY",
+  "facet_id" : null,
+  "description" : "Registered postal code system party",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "PRTY_TYP_ADDRSS_100",
+    "subdomain_id" : "RGSTRD_PSTL_CD_SYSTM_PRTY",
+    "valid_from" : "2023-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "PRTY_TYP_ADDRSS_101",
+    "subdomain_id" : "RGSTRD_PSTL_CD_SYSTM_PRTY",
+    "valid_from" : "2023-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

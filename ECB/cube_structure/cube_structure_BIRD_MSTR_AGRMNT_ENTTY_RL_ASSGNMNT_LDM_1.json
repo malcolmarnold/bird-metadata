@@ -1,0 +1,27 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_structure_id" : "BIRD_MSTR_AGRMNT_ENTTY_RL_ASSGNMNT_LDM_1",
+  "name" : "Master agreement Entity role assignment",
+  "code" : "BIRD_MSTR_AGRMNT_ENTTY_RL_ASSGNMNT_LDM",
+  "description" : "A Master agreement Entity role assignment is the combination of a Master agreement and a Party role that indicates which Master agreement involves which Entity role.",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "cube_structure_item" : [ {
+    "cube_structure_item_id" : "BIRD_MSTR_AGRMNT_ENTTY_RL_ASSGNMNT_LDM_1__MSTR_AGRMNT_ENTTY_RL_ASSGNMNT_TYP",
+    "cube_structure_id" : "BIRD_MSTR_AGRMNT_ENTTY_RL_ASSGNMNT_LDM_1",
+    "cube_variable_code" : "MSTR_AGRMNT_ENTTY_RL_ASSGNMNT_TYP",
+    "variable_id" : "MSTR_AGRMNT_ENTTY_RL_ASSGNMNT_TYP",
+    "role" : "O",
+    "order" : "0",
+    "subdomain_id" : "MSTR_AGRMNT_ENTTY_RL_ASSGNMNT_TYP",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "true",
+    "description" : "A discriminator to distinguish between different assignments between a master agreement and involved party roles, for example master agreement central counterparty assignment.",
+    "is_implemented" : "true"
+  } ]
+}

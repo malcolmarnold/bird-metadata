@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_INSTRMNT_RSLTNG_CRDT_FCLTY_ELDM_1",
+  "name" : "Instrument resulting from a Credit facility",
+  "code" : "BIRD_INSTRMNT_RSLTNG_CRDT_FCLTY_ELDM",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_INSTRMNT_RSLTNG_CRDT_FCLTY_ELDM_1",
+  "cube_type" : "ELDM",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "An Instrument resulting from a Credit facility is an Instrument that is created based on a Credit facility and not directly from a Financial contract.",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

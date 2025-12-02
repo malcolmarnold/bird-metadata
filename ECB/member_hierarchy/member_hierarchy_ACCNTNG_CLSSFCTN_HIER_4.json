@@ -1,0 +1,127 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_4",
+  "code" : "4",
+  "domain_id" : "ACCNTNG_CLSSFCTN",
+  "name" : "Accounting portfolios for debt instruments subject to impairment hierarchy",
+  "description" : "Hierarchical structure of the Member Accounting portfolios for debt instruments subject to impairment (19)",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_4",
+    "member_id" : "ACCNTNG_CLSSFCTN_19",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_4",
+    "member_id" : "ACCNTNG_CLSSFCTN_6",
+    "level" : "3",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_54",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_4",
+    "member_id" : "ACCNTNG_CLSSFCTN_8",
+    "level" : "4",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_62",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_4",
+    "member_id" : "ACCNTNG_CLSSFCTN_76",
+    "level" : "3",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_54",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_4",
+    "member_id" : "ACCNTNG_CLSSFCTN_81",
+    "level" : "4",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_62",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_4",
+    "member_id" : "ACCNTNG_CLSSFCTN_54",
+    "level" : "2",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_19",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_4",
+    "member_id" : "ACCNTNG_CLSSFCTN_74",
+    "level" : "3",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_54",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_4",
+    "member_id" : "ACCNTNG_CLSSFCTN_62",
+    "level" : "3",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_54",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_4",
+    "member_id" : "ACCNTNG_CLSSFCTN_73",
+    "level" : "3",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_54",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_4",
+    "member_id" : "ACCNTNG_CLSSFCTN_14",
+    "level" : "2",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_19",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_4",
+    "member_id" : "ACCNTNG_CLSSFCTN_45",
+    "level" : "2",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_19",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_4",
+    "member_id" : "ACCNTNG_CLSSFCTN_77",
+    "level" : "3",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_54",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_4",
+    "member_id" : "ACCNTNG_CLSSFCTN_9",
+    "level" : "4",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_62",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

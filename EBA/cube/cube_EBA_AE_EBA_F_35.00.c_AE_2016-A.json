@@ -1,0 +1,47 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "cube_id" : "EBA_AE_EBA_F_35.00.c_AE_2016-A",
+  "name" : "Asset encumbrance: Covered bonds issuance (c)",
+  "code" : "F_35.00.c",
+  "framework_id" : "EBA_AE",
+  "cube_structure_id" : "EBA_AE_EBA_F_35.00.c_AE_2016-A",
+  "cube_type" : "D",
+  "is_allowed" : null,
+  "valid_from" : "2016-12-31",
+  "valid_to" : "2023-06-29",
+  "version" : "AE 2016-A",
+  "description" : "Asset encumbrance: Covered bonds issuance (c)",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "EBA_AE_EBA_F_35.00.c_AE_2016-A",
+    "combination_id" : "EBA_111006"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.c_AE_2016-A",
+    "combination_id" : "EBA_111007"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.c_AE_2016-A",
+    "combination_id" : "EBA_55443"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.c_AE_2016-A",
+    "combination_id" : "EBA_55444"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.c_AE_2016-A",
+    "combination_id" : "EBA_55445"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.c_AE_2016-A",
+    "combination_id" : "EBA_55446"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.c_AE_2016-A",
+    "combination_id" : "EBA_55447"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.c_AE_2016-A",
+    "combination_id" : "EBA_55448"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "EBA_AE_EBA_F_35.00.c_AE_2016-A",
+    "table_id" : "EBA_AE_EBA_F_35.00.c_AE_2016-A"
+  } ]
+}

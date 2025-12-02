@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "SDD_LEGAL_REFERENCE_C_1",
+  "name" : "Legal reference",
+  "code" : "LEGAL_REFERENCE",
+  "framework_id" : "SDD",
+  "cube_structure_id" : "SDD_LEGAL_REFERENCE_C_1",
+  "cube_type" : "C",
+  "is_allowed" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "A Legal reference is the combination of a dictionary element / object and a Legal text. Please note that the dictionary element / object is refered to via the combination of {Table identifier, Element identifier} and is therefore restricted to dictionary elements / objects having a primary key in the form of one field only.",
+  "published" : "false",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

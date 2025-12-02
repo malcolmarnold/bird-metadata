@@ -1,0 +1,122 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+  "name" : "Breakdown of financial assets by instrument and by counterparty sector: non-trading non-derivative financial assets measured at fair value to equity",
+  "code" : "F_04.08",
+  "framework_id" : "EBA_FINREP",
+  "cube_structure_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+  "cube_type" : "D",
+  "is_allowed" : null,
+  "valid_from" : "2013-12-01",
+  "valid_to" : "2018-03-30",
+  "version" : "FINREP",
+  "description" : "Breakdown of financial assets by instrument and by counterparty sector: non-trading non-derivative financial assets measured at fair value to equity",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "combination_id" : "EBA_45698"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "combination_id" : "EBA_45699"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "combination_id" : "EBA_45700"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "combination_id" : "EBA_45701"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "combination_id" : "EBA_45702"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "combination_id" : "EBA_45703"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "combination_id" : "EBA_45706"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "combination_id" : "EBA_45707"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "combination_id" : "EBA_45708"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "combination_id" : "EBA_45724"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "combination_id" : "EBA_45725"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "combination_id" : "EBA_45726"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "combination_id" : "EBA_45727"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "combination_id" : "EBA_45728"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "combination_id" : "EBA_45729"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "combination_id" : "EBA_45730"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "combination_id" : "EBA_45731"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "combination_id" : "EBA_45732"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "combination_id" : "EBA_45733"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "combination_id" : "EBA_45734"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "combination_id" : "EBA_45746"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "combination_id" : "EBA_45747"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "combination_id" : "EBA_45748"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "combination_id" : "EBA_45749"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "combination_id" : "EBA_45750"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "combination_id" : "EBA_67579"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "combination_id" : "EBA_67580"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "combination_id" : "EBA_67581"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "combination_id" : "EBA_67582"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "combination_id" : "EBA_67583"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "combination_id" : "EBA_45695"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "combination_id" : "EBA_45696"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "combination_id" : "EBA_45697"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_04.08_FINREP",
+    "table_id" : "EBA_FINREP_EBA_F_04.08_FINREP"
+  } ]
+}

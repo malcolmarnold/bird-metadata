@@ -1,0 +1,82 @@
+{
+  "combination_id" : "84993_REF",
+  "code" : "84993_REF",
+  "name" : "EBA_ATY(EBA_mi172)|EBA_BAS(EBA_BA_EBA_x17)|EBA_CPS(EBA_CT_EBA_x20)|EBA_MCY(EBA_MC_EBA_x155) - Reference",
+  "maintenance_agency_id" : "ECB",
+  "version" : "FINREP",
+  "valid_from" : "2013-12-01",
+  "valid_to" : "9999-12-31",
+  "combination_item" : [ {
+    "combination_id" : "84993_REF",
+    "variable_id" : "MTRCS",
+    "subdomain_id" : null,
+    "variable_set_id" : "725273257492148005_REF",
+    "member_id" : null
+  }, {
+    "combination_id" : "84993_REF",
+    "variable_id" : "INSTTTNL_SCTR",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "INSTTTNL_SCTR_S11"
+  }, {
+    "combination_id" : "84993_REF",
+    "variable_id" : "MLTLTRL_DVLPMNT_BNK_INDCTR",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "MLTLTRL_DVLPMNT_BNK_INDCTR_0"
+  }, {
+    "combination_id" : "84993_REF",
+    "variable_id" : "PRTY_RL_TYP",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "ENTTY_RL_TYP_24"
+  }, {
+    "combination_id" : "84993_REF",
+    "variable_id" : "MN_DBTR_INDCTR",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "MN_DBTR_INDCTR_0"
+  }, {
+    "combination_id" : "84993_REF",
+    "variable_id" : "TYP_INSTRMNT",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "TYP_INSTRMNT_960"
+  }, {
+    "combination_id" : "84993_REF",
+    "variable_id" : "TYP_ACCNTNG_ITM",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "TYP_ACCNTNG_ITM_988"
+  }, {
+    "combination_id" : "84993_REF",
+    "variable_id" : "SUBA_CD",
+    "subdomain_id" : "STRNG",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "84993_REF",
+    "variable_id" : "DT_RFRNC",
+    "subdomain_id" : "DT",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "84993_REF",
+    "variable_id" : "ENTTY_RIAD_CD_RPRTNG_AGNT",
+    "subdomain_id" : "STRNG",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "84993_REF",
+    "variable_id" : "VALUE_DECIMAL",
+    "subdomain_id" : "MNTRY",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "84993_REF",
+    "variable_id" : "NGTBL_SCRTY_INDCTR",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "NGTBL_SCRTY_0"
+  } ]
+}

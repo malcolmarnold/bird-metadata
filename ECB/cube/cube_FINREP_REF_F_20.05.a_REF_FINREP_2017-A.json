@@ -1,0 +1,41 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "FINREP_REF_F_20.05.a_REF_FINREP 2017-A",
+  "name" : "Geographical breakdown of off-balance sheet items subject to credit risk by residence of the counterparty (a) - Reference",
+  "code" : "F_20.05.a_REF",
+  "framework_id" : "FINREP_REF",
+  "cube_structure_id" : "FINREP_REF_F_20.05.a_REF_FINREP 2017-A",
+  "cube_type" : "RC",
+  "is_allowed" : null,
+  "valid_from" : "2018-03-31",
+  "valid_to" : "2020-06-29",
+  "version" : "FINREP 2017-A",
+  "description" : null,
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "FINREP_REF_F_20.05.a_REF_FINREP 2017-A",
+    "combination_id" : "39711_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_20.05.a_REF_FINREP 2017-A",
+    "combination_id" : "39728_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_20.05.a_REF_FINREP 2017-A",
+    "combination_id" : "39714_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_20.05.a_REF_FINREP 2017-A",
+    "combination_id" : "110972_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_20.05.a_REF_FINREP 2017-A",
+    "combination_id" : "110977_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_20.05.a_REF_FINREP 2017-A",
+    "combination_id" : "110970_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_20.05.a_REF_FINREP 2017-A",
+    "combination_id" : "110962_REF"
+  } ],
+  "cube_to_table" : [ ]
+}

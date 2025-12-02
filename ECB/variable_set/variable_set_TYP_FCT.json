@@ -1,0 +1,120 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "variable_set_id" : "TYP_FCT",
+  "name" : "Type of facet",
+  "code" : "TYP_FCT",
+  "description" : "Set of allowed types of facets",
+  "variable_set_enumeration" : [ {
+    "variable_set_id" : "TYP_FCT",
+    "variable_id" : "DCMLS",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "INTGR_NN_NGTV",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "TYP_FCT",
+    "variable_id" : "PRCSN",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "INTGR_NN_NGTV",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "TYP_FCT",
+    "variable_id" : "MN_VL",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "RL",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "TYP_FCT",
+    "variable_id" : "PTTRN",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_255",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "TYP_FCT",
+    "variable_id" : "MX_VL",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "RL",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "TYP_FCT",
+    "variable_id" : "END_VL",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "INTGR_NN_NGTV",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "TYP_FCT",
+    "variable_id" : "INTRVL",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_255",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "TYP_FCT",
+    "variable_id" : "END_TM",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "DT_FLL",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "TYP_FCT",
+    "variable_id" : "IS_SQNC",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "BLN_TF",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "TYP_FCT",
+    "variable_id" : "STRT_TM",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "DT_FLL",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "TYP_FCT",
+    "variable_id" : "STRT_VL",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "INTGR_NN_NGTV",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "TYP_FCT",
+    "variable_id" : "MN_LNGTH",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "INTGR_NN_NGTV",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "TYP_FCT",
+    "variable_id" : "MX_LNGTH",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "INTGR_NN_NGTV",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "TYP_FCT",
+    "variable_id" : "TM_INTRVL",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_255",
+    "is_flow" : "false",
+    "order" : "0"
+  } ]
+}

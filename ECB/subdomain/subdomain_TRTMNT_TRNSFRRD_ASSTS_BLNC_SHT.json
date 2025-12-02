@@ -1,0 +1,36 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "TRTMNT_TRNSFRRD_ASSTS_BLNC_SHT",
+  "name" : "Treatment of transferred assets in balance sheet",
+  "domain_id" : "RCGNTN_STTS",
+  "is_listed" : "true",
+  "code" : "TRTMNT_TRNSFRRD_ASSTS_BLNC_SHT",
+  "facet_id" : null,
+  "description" : "Treatment of transferred assets in balance sheet",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "RCGNTN_STTS_0",
+    "subdomain_id" : "TRTMNT_TRNSFRRD_ASSTS_BLNC_SHT",
+    "valid_from" : "2017-04-01",
+    "valid_to" : "2022-02-28",
+    "order" : "0"
+  }, {
+    "member_id" : "RCGNTN_STTS_1",
+    "subdomain_id" : "TRTMNT_TRNSFRRD_ASSTS_BLNC_SHT",
+    "valid_from" : "2017-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "RCGNTN_STTS_2",
+    "subdomain_id" : "TRTMNT_TRNSFRRD_ASSTS_BLNC_SHT",
+    "valid_from" : "2017-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "RCGNTN_STTS_3",
+    "subdomain_id" : "TRTMNT_TRNSFRRD_ASSTS_BLNC_SHT",
+    "valid_from" : "2017-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

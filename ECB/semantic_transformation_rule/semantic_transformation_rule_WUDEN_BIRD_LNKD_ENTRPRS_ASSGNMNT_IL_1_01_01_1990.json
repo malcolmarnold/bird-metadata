@@ -1,0 +1,23 @@
+{
+  "semantic_transformation_rule_id" : "WUDEN__BIRD_LNKD_ENTRPRS_ASSGNMNT_IL_1__01_01_1990",
+  "transformation_url" : null,
+  "type_of_transformation" : "G",
+  "maintenance_agency_id" : "ECB",
+  "name" : "WUDEN__BIRD_LNKD_ENTRPRS_ASSGNMNT_IL_1__01_01_1990 wuden",
+  "code" : "WUDEN__BIRD_LNKD_ENTRPRS_ASSGNMNT_IL_1__01_01_1990",
+  "description" : null,
+  "algorithm" : null,
+  "valid_from" : "1990-01-01",
+  "valid_to" : "9999-12-31",
+  "logical_transformation_rule" : [ {
+    "logical_transformation_rule_id" : "WUDEN__BIRD_LNKD_ENTRPRS_ASSGNMNT_IL_1__01_01_1990",
+    "semantic_transformation_rule_id" : "WUDEN__BIRD_LNKD_ENTRPRS_ASSGNMNT_IL_1__01_01_1990",
+    "algorithm" : null,
+    "additional_filters" : null,
+    "source_layer" : "LDM",
+    "destination_layer" : "IL",
+    "transformation_type" : "WUDEN",
+    "valid_from" : "1990-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

@@ -1,0 +1,64 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "SZ_HIER_1",
+  "code" : "1",
+  "domain_id" : "SZ",
+  "name" : "Enterprises and non-enterprises size hierarchy",
+  "description" : "Hierarchical structure of the Member Enterprises and non-enterprises of any size (-1)",
+  "is_main_hierarchy" : null,
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "SZ_HIER_1",
+    "member_id" : "SZ_5",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "SZ_HIER_1",
+    "member_id" : "SZ_1",
+    "level" : "2",
+    "parent_member_id" : "SZ_5",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "SZ_HIER_1",
+    "member_id" : "SZ_4",
+    "level" : "2",
+    "parent_member_id" : "SZ_5",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "SZ_HIER_1",
+    "member_id" : "SZ_3",
+    "level" : "3",
+    "parent_member_id" : "SZ_10",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "SZ_HIER_1",
+    "member_id" : "SZ_2",
+    "level" : "3",
+    "parent_member_id" : "SZ_10",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "SZ_HIER_1",
+    "member_id" : "SZ_10",
+    "level" : "2",
+    "parent_member_id" : "SZ_5",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

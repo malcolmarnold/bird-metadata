@@ -1,0 +1,43 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_structure_id" : "BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_ELDM_1",
+  "name" : "Instrument Collateral instrument assignment",
+  "code" : "BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_ELDM",
+  "description" : "An Instrument Collateral  instrument assignment is the combination of an Instrument and a Collateral received instrument or Collateral given instrument that indicates which Instrument is protected by which Collateral received instrument or which instrument is being protected by which Collateral given instrument.",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "cube_structure_item" : [ {
+    "cube_structure_item_id" : "BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_ELDM_1__INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_TYP",
+    "cube_structure_id" : "BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_ELDM_1",
+    "cube_variable_code" : "INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_TYP",
+    "variable_id" : "INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_TYP",
+    "role" : "O",
+    "order" : "1",
+    "subdomain_id" : "INSTRMNT_CLLTRL_INSTRMNT_ASSGNMNT_TYP",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "true",
+    "description" : null,
+    "is_implemented" : "true"
+  }, {
+    "cube_structure_item_id" : "BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_ELDM_1__PRTCTN_ALLCTD_VL",
+    "cube_structure_id" : "BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_ELDM_1",
+    "cube_variable_code" : "PRTCTN_ALLCTD_VL",
+    "variable_id" : "PRTCTN_ALLCTD_VL",
+    "role" : "O",
+    "order" : "0",
+    "subdomain_id" : "MNTRY_NN_NGTV_2D",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "true",
+    "description" : "The maximum amount of the protection value that can be considered as credit protection for the instrument. The amount of the existing third parties or observed agent priority claims against the protection must be excluded in the protection allocated value. For protections that is eligible under Regulation (EU) No 575/2013, this value should be reported in accordance with Part 2 of Annex V to Implementing Regulation (EU) No 680/2014.",
+    "is_implemented" : "true"
+  } ]
+}

@@ -1,0 +1,64 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_link_id" : "WUDEN__BIRD_RTNG_AGNCY_EXCSS_MTHDLGY_CVRD_BND_PRGRMM_ASSGNMNT_EIL_1__01_01_1990__BIRD_RTNG_AGNCY_EXCSS_MTHDLGY_CVRD_BND_PRGRMM_ASSGNMNT_ELDM_1__1",
+  "code" : "WUDEN__BIRD_RTNG_AGNCY_EXCSS_MTHDLGY_CVRD_BND_PRGRMM_ASSGNMNT_EIL_1__01_01_1990__BIRD_RTNG_AGNCY_EXCSS_MTHDLGY_CVRD_BND_PRGRMM_ASSGNMNT_ELDM_1",
+  "name" : "The LDM: Rating agency excess methodology result Covered bond programme assignment (BIRD_RTNG_AGNCY_EXCSS_MTHDLGY_CVRD_BND_PRGRMM_ASSGNMNT_ELDM) is forward engineered into the IL: Rating agency excess methodology result Covered bond programme assignment (",
+  "description" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "order_relevance" : "1",
+  "primary_cube_id" : "BIRD_RTNG_AGNCY_EXCSS_MTHDLGY_CVRD_BND_PRGRMM_ASSGNMNT_ELDM_1",
+  "foreign_cube_id" : "BIRD_RTNG_AGNCY_EXCSS_MTHDLGY_CVRD_BND_PRGRMM_ASSGNMNT_EIL_1",
+  "cube_link_type" : "TR",
+  "logical_transformation_rule_id" : "WUDEN__BIRD_RTNG_AGNCY_EXCSS_MTHDLGY_CVRD_BND_PRGRMM_ASSGNMNT_EIL_1__01_01_1990",
+  "cube_structure_item_link" : [ {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_RTNG_AGNCY_EXCSS_MTHDLGY_CVRD_BND_PRGRMM_ASSGNMNT_EIL_1__01_01_1990__BIRD_RTNG_AGNCY_EXCSS_MTHDLGY_CVRD_BND_PRGRMM_ASSGNMNT_ELDM_1__1__CVRD_BND_PRGRM_ID__CVRD_BND_PRGRM_ID",
+    "cube_link_id" : "WUDEN__BIRD_RTNG_AGNCY_EXCSS_MTHDLGY_CVRD_BND_PRGRMM_ASSGNMNT_EIL_1__01_01_1990__BIRD_RTNG_AGNCY_EXCSS_MTHDLGY_CVRD_BND_PRGRMM_ASSGNMNT_ELDM_1__1",
+    "foreign_cube_variable_code" : "CVRD_BND_PRGRM_ID",
+    "primary_cube_variable_code" : "CVRD_BND_PRGRM_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_RTNG_AGNCY_EXCSS_MTHDLGY_CVRD_BND_PRGRMM_ASSGNMNT_EIL_1__01_01_1990__BIRD_RTNG_AGNCY_EXCSS_MTHDLGY_CVRD_BND_PRGRMM_ASSGNMNT_ELDM_1__1__EXCSS_CVRG_ASST_SPCFC_VL__EXCSS_CVRG_ASST_SPCFC_VL",
+    "cube_link_id" : "WUDEN__BIRD_RTNG_AGNCY_EXCSS_MTHDLGY_CVRD_BND_PRGRMM_ASSGNMNT_EIL_1__01_01_1990__BIRD_RTNG_AGNCY_EXCSS_MTHDLGY_CVRD_BND_PRGRMM_ASSGNMNT_ELDM_1__1",
+    "foreign_cube_variable_code" : "EXCSS_CVRG_ASST_SPCFC_VL",
+    "primary_cube_variable_code" : "EXCSS_CVRG_ASST_SPCFC_VL",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_RTNG_AGNCY_EXCSS_MTHDLGY_CVRD_BND_PRGRMM_ASSGNMNT_EIL_1__01_01_1990__BIRD_RTNG_AGNCY_EXCSS_MTHDLGY_CVRD_BND_PRGRMM_ASSGNMNT_ELDM_1__1__EXCSS_CVRG_NML_AMNT__EXCSS_CVRG_NML_AMNT",
+    "cube_link_id" : "WUDEN__BIRD_RTNG_AGNCY_EXCSS_MTHDLGY_CVRD_BND_PRGRMM_ASSGNMNT_EIL_1__01_01_1990__BIRD_RTNG_AGNCY_EXCSS_MTHDLGY_CVRD_BND_PRGRMM_ASSGNMNT_ELDM_1__1",
+    "foreign_cube_variable_code" : "EXCSS_CVRG_NML_AMNT",
+    "primary_cube_variable_code" : "EXCSS_CVRG_NML_AMNT",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_RTNG_AGNCY_EXCSS_MTHDLGY_CVRD_BND_PRGRMM_ASSGNMNT_EIL_1__01_01_1990__BIRD_RTNG_AGNCY_EXCSS_MTHDLGY_CVRD_BND_PRGRMM_ASSGNMNT_ELDM_1__1__EXCSS_CVRG_PRSNT_VL_MRKT_VL__EXCSS_CVRG_PRSNT_VL_MRKT_VL",
+    "cube_link_id" : "WUDEN__BIRD_RTNG_AGNCY_EXCSS_MTHDLGY_CVRD_BND_PRGRMM_ASSGNMNT_EIL_1__01_01_1990__BIRD_RTNG_AGNCY_EXCSS_MTHDLGY_CVRD_BND_PRGRMM_ASSGNMNT_ELDM_1__1",
+    "foreign_cube_variable_code" : "EXCSS_CVRG_PRSNT_VL_MRKT_VL",
+    "primary_cube_variable_code" : "EXCSS_CVRG_PRSNT_VL_MRKT_VL",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_RTNG_AGNCY_EXCSS_MTHDLGY_CVRD_BND_PRGRMM_ASSGNMNT_EIL_1__01_01_1990__BIRD_RTNG_AGNCY_EXCSS_MTHDLGY_CVRD_BND_PRGRMM_ASSGNMNT_ELDM_1__1__RTNG_AGNCY_NM__RTNG_AGNCY_NM",
+    "cube_link_id" : "WUDEN__BIRD_RTNG_AGNCY_EXCSS_MTHDLGY_CVRD_BND_PRGRMM_ASSGNMNT_EIL_1__01_01_1990__BIRD_RTNG_AGNCY_EXCSS_MTHDLGY_CVRD_BND_PRGRMM_ASSGNMNT_ELDM_1__1",
+    "foreign_cube_variable_code" : "RTNG_AGNCY_NM",
+    "primary_cube_variable_code" : "RTNG_AGNCY_NM",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_RTNG_AGNCY_EXCSS_MTHDLGY_CVRD_BND_PRGRMM_ASSGNMNT_EIL_1__01_01_1990__BIRD_RTNG_AGNCY_EXCSS_MTHDLGY_CVRD_BND_PRGRMM_ASSGNMNT_ELDM_1__1__RTNG_AGNCY_RNK__RTNG_AGNCY_RNK",
+    "cube_link_id" : "WUDEN__BIRD_RTNG_AGNCY_EXCSS_MTHDLGY_CVRD_BND_PRGRMM_ASSGNMNT_EIL_1__01_01_1990__BIRD_RTNG_AGNCY_EXCSS_MTHDLGY_CVRD_BND_PRGRMM_ASSGNMNT_ELDM_1__1",
+    "foreign_cube_variable_code" : "RTNG_AGNCY_RNK",
+    "primary_cube_variable_code" : "RTNG_AGNCY_RNK",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  } ]
+}

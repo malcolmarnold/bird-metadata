@@ -1,0 +1,46 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "TYP_INSTRMNT_HIER_24",
+  "code" : "24",
+  "domain_id" : "TYP_INSTRMNT",
+  "name" : "Loans and advances hierarchy - CRE, RRE",
+  "description" : "Hierarchical structure of the member Loans and advances (149) - Breakdown by CRE, RRE",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_24",
+    "member_id" : "TYP_INSTRMNT_149",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_24",
+    "member_id" : "TYP_INSTRMNT_1493",
+    "level" : "2",
+    "parent_member_id" : "TYP_INSTRMNT_149",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_24",
+    "member_id" : "TYP_INSTRMNT_1492",
+    "level" : "2",
+    "parent_member_id" : "TYP_INSTRMNT_149",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_24",
+    "member_id" : "TYP_INSTRMNT_1491",
+    "level" : "2",
+    "parent_member_id" : "TYP_INSTRMNT_149",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

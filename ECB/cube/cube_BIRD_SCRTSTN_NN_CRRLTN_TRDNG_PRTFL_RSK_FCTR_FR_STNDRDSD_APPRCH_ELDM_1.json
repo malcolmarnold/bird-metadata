@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_SCRTSTN_NN_CRRLTN_TRDNG_PRTFL_RSK_FCTR_FR_STNDRDSD_APPRCH_ELDM_1",
+  "name" : "Securitisation non-correlation trading portfolio, (non-CTP) Risk Factor for standardised approach",
+  "code" : "BIRD_SCRTSTN_NN_CRRLTN_TRDNG_PRTFL_RSK_FCTR_FR_STNDRDSD_APPRCH_ELDM",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_SCRTSTN_NN_CRRLTN_TRDNG_PRTFL_RSK_FCTR_FR_STNDRDSD_APPRCH_ELDM_1",
+  "cube_type" : "ELDM",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "CSR securitisation: non-CTP risk factors\n\n(1)\t\nFor securitisation instruments that do not meet the definition of CTP as set out in MAR20.5 (ie, non-CTP), the sensitivities of delta risk factors (ie CS01) must be calculated with respect to the spread of the tranche rather than the spread of the underlying of the instruments.\n\n(2)\t\nDelta CSR securitisation (non-CTP): the CSR securitisation delta risk factors are defined along two dimensions:\n\n(a)\t\nTranche credit spread curves; and\n\n(b)\t\nThe following tenors: 0.5 years, 1 year, 3 years, 5 years and 10 years to which delta risk factors are assigned.\n\n(3)\t\nVega CSR securitisation (non-CTP): Vega risk factors are the implied volatilities of options that reference non-CTP credit spreads as underlyings (bond and CDS); further defined along one dimension - the maturity of the option. This is defined as the implied volatility of the option as mapped to one or several of the following maturity tenors: 0.5 years, 1 year, 3 years, 5 years and 10 years.\n\n(4)\t\nCurvature CSR securitisation (non-CTP): the CSR securitisation curvature risk factors are defined along one dimension, the relevant tranche credit spread curves (bond and CDS). For instance, the bond-inferred spread curve of a given Spanish residential mortgage-backed security (RMBS) tranche and the CDS-inferred spread curve of that given Spanish RMBS tranche would be considered a single spread curve. For the calculation of sensitivities, all the tenors are to be shifted in parallel.",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

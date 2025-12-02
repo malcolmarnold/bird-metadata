@@ -1,0 +1,110 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_group_id" : "EIL_SCRTSTN_RLTD",
+  "name" : "Securitisation related",
+  "code" : "EIL_SCRTSTN_RLTD",
+  "description" : "Securitisation related",
+  "cube_group_enumeration" : [ {
+    "order" : "13",
+    "cube_group_id" : "EIL_SCRTSTN_RLTD",
+    "cube_id" : "BIRD_TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_DPST_EIL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "16",
+    "cube_group_id" : "EIL_SCRTSTN_RLTD",
+    "cube_id" : "BIRD_SNTHTC_SCRTSTN_EIL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "9",
+    "cube_group_id" : "EIL_SCRTSTN_RLTD",
+    "cube_id" : "BIRD_ASST_PL_EIL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "7",
+    "cube_group_id" : "EIL_SCRTSTN_RLTD",
+    "cube_id" : "BIRD_CVRD_BND_ISSNC_EIL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "1",
+    "cube_group_id" : "EIL_SCRTSTN_RLTD",
+    "cube_id" : "BIRD_DBT_SCRTY_ISSD_TRDTNL_SCRTSTN_ASSGNMNT_EIL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "12",
+    "cube_group_id" : "EIL_SCRTSTN_RLTD",
+    "cube_id" : "BIRD_TRNCH_TRDTNL_SCRTSTN_EIL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "15",
+    "cube_group_id" : "EIL_SCRTSTN_RLTD",
+    "cube_id" : "BIRD_TRDTNL_SCRTSTN_EIL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "14",
+    "cube_group_id" : "EIL_SCRTSTN_RLTD",
+    "cube_id" : "BIRD_TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_FNNCL_GRNT_EIL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "5",
+    "cube_group_id" : "EIL_SCRTSTN_RLTD",
+    "cube_id" : "BIRD_CRDT_TRNSFR_OTHR_SCRTSTN_CVRD_BND_PRGRM_EIL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "8",
+    "cube_group_id" : "EIL_SCRTSTN_RLTD",
+    "cube_id" : "BIRD_ASST_PL_DBT_SCRTY_PSTN_ASSGNMNT_EIL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "11",
+    "cube_group_id" : "EIL_SCRTSTN_RLTD",
+    "cube_id" : "BIRD_OTC_DRVTV_INSTRMNT_SNTHTC_SCRTSTN_ASSGNMNT_EIL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "6",
+    "cube_group_id" : "EIL_SCRTSTN_RLTD",
+    "cube_id" : "BIRD_ETD_LBLTY_PSTN_SNTHTC_SCRTSTN_ASSGNMNT_EIL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "2",
+    "cube_group_id" : "EIL_SCRTSTN_RLTD",
+    "cube_id" : "BIRD_CVRD_BND_PRGRM_EIL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "EIL_SCRTSTN_RLTD",
+    "cube_id" : "BIRD_ASST_PL_EXCHNG_TRDBL_DRVTV_PSTN_ASSGNMNT_EIL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "3",
+    "cube_group_id" : "EIL_SCRTSTN_RLTD",
+    "cube_id" : "BIRD_CVRD_BND_PRGRMM_RLVNT_RGM_EXCSS_EIL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "4",
+    "cube_group_id" : "EIL_SCRTSTN_RLTD",
+    "cube_id" : "BIRD_ASST_PL_INSTRMNT_ASSGNMNT_EIL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "10",
+    "cube_group_id" : "EIL_SCRTSTN_RLTD",
+    "cube_id" : "BIRD_ASST_PL_CLLTRL_RCVD_ASSGNMNT_EIL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

@@ -1,0 +1,36 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "CRDT_QLTY_F_06.01_DFLT_STTS_REF",
+  "name" : "Subdomain for DFLT_STTS of the Cube F_06.01",
+  "domain_id" : "CRDT_QLTY",
+  "is_listed" : "true",
+  "code" : "CRDT_QLTY_F_06.01_DFLT_STTS_REF",
+  "facet_id" : null,
+  "description" : null,
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "CRDT_QLTY_10",
+    "subdomain_id" : "CRDT_QLTY_F_06.01_DFLT_STTS_REF",
+    "valid_from" : "2020-06-30",
+    "valid_to" : "2021-06-29",
+    "order" : "0"
+  }, {
+    "member_id" : "CRDT_QLTY_6",
+    "subdomain_id" : "CRDT_QLTY_F_06.01_DFLT_STTS_REF",
+    "valid_from" : "2020-06-30",
+    "valid_to" : "2021-06-29",
+    "order" : "1"
+  }, {
+    "member_id" : "CRDT_QLTY_10",
+    "subdomain_id" : "CRDT_QLTY_F_06.01_DFLT_STTS_REF",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "CRDT_QLTY_6",
+    "subdomain_id" : "CRDT_QLTY_F_06.01_DFLT_STTS_REF",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31",
+    "order" : "1"
+  } ]
+}

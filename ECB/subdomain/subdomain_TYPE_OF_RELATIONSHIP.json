@@ -1,0 +1,42 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "TYPE_OF_RELATIONSHIP",
+  "name" : "Type of relationship",
+  "domain_id" : "TYPE_OF_RELATIONSHIP",
+  "is_listed" : "true",
+  "code" : "TYPE_OF_RELATIONSHIP",
+  "facet_id" : null,
+  "description" : "The type of relationship between entities.",
+  "is_natural" : "true",
+  "subdomain_enumeration" : [ {
+    "member_id" : "TYPE_OF_RELATIONSHIP_GEN",
+    "subdomain_id" : "TYPE_OF_RELATIONSHIP",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "3"
+  }, {
+    "member_id" : "TYPE_OF_RELATIONSHIP_ASS",
+    "subdomain_id" : "TYPE_OF_RELATIONSHIP",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYPE_OF_RELATIONSHIP_COM",
+    "subdomain_id" : "TYPE_OF_RELATIONSHIP",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "2"
+  }, {
+    "member_id" : "TYPE_OF_RELATIONSHIP_REA",
+    "subdomain_id" : "TYPE_OF_RELATIONSHIP",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "4"
+  }, {
+    "member_id" : "TYPE_OF_RELATIONSHIP_AGG",
+    "subdomain_id" : "TYPE_OF_RELATIONSHIP",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "1"
+  } ]
+}

@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB2",
+  "subdomain_id" : "ECB2_CL_YES_NO",
+  "name" : "Subdomain for domain CL_YES_NO for boolean",
+  "domain_id" : "ECB2_CL_YES_NO",
+  "is_listed" : "true",
+  "code" : "CL_YES_NO",
+  "facet_id" : null,
+  "description" : null,
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "ECB2_CL_YES_NO_ECB2_N",
+    "subdomain_id" : "ECB2_CL_YES_NO",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "ECB2_CL_YES_NO_ECB2_Y",
+    "subdomain_id" : "ECB2_CL_YES_NO",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

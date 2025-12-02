@@ -1,0 +1,32 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_link_id" : "WUDEN__BIRD_DBT_SCRTY_ISSD_PRTCN_ARRNGMNT_GVN_ASSGNMNT_IL_1__01_01_1990__BIRD_DBT_SCRTY_ISSD_PRTCN_ARRNGMNT_GVN_ASSGNMNT_LDM_1__1",
+  "code" : "WUDEN__BIRD_DBT_SCRTY_ISSD_PRTCN_ARRNGMNT_GVN_ASSGNMNT_IL_1__01_01_1990__BIRD_DBT_SCRTY_ISSD_PRTCN_ARRNGMNT_GVN_ASSGNMNT_LDM_1",
+  "name" : "The LDM: Debt security issued (by the reporting agent) Protection arrangement given assignment (BIRD_DBT_SCRTY_ISSD_PRTCN_ARRNGMNT_GVN_ASSGNMNT_LDM) is forward engineered into the IL: Debt security issued (by the reporting agent) Protection arrangement gi",
+  "description" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "order_relevance" : "1",
+  "primary_cube_id" : "BIRD_DBT_SCRTY_ISSD_PRTCN_ARRNGMNT_GVN_ASSGNMNT_LDM_1",
+  "foreign_cube_id" : "BIRD_DBT_SCRTY_ISSD_PRTCN_ARRNGMNT_GVN_ASSGNMNT_IL_1",
+  "cube_link_type" : "TR",
+  "logical_transformation_rule_id" : "WUDEN__BIRD_DBT_SCRTY_ISSD_PRTCN_ARRNGMNT_GVN_ASSGNMNT_IL_1__01_01_1990",
+  "cube_structure_item_link" : [ {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_DBT_SCRTY_ISSD_PRTCN_ARRNGMNT_GVN_ASSGNMNT_IL_1__01_01_1990__BIRD_DBT_SCRTY_ISSD_PRTCN_ARRNGMNT_GVN_ASSGNMNT_LDM_1__1__ALLCTD_UNSD_CLLTRL_VL__ALLCTD_UNSD_CLLTRL_VL",
+    "cube_link_id" : "WUDEN__BIRD_DBT_SCRTY_ISSD_PRTCN_ARRNGMNT_GVN_ASSGNMNT_IL_1__01_01_1990__BIRD_DBT_SCRTY_ISSD_PRTCN_ARRNGMNT_GVN_ASSGNMNT_LDM_1__1",
+    "foreign_cube_variable_code" : "ALLCTD_UNSD_CLLTRL_VL",
+    "primary_cube_variable_code" : "ALLCTD_UNSD_CLLTRL_VL",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_DBT_SCRTY_ISSD_PRTCN_ARRNGMNT_GVN_ASSGNMNT_IL_1__01_01_1990__BIRD_DBT_SCRTY_ISSD_PRTCN_ARRNGMNT_GVN_ASSGNMNT_LDM_1__1__PRTCTN_ALLCTD_VL__PRTCTN_ALLCTD_VL",
+    "cube_link_id" : "WUDEN__BIRD_DBT_SCRTY_ISSD_PRTCN_ARRNGMNT_GVN_ASSGNMNT_IL_1__01_01_1990__BIRD_DBT_SCRTY_ISSD_PRTCN_ARRNGMNT_GVN_ASSGNMNT_LDM_1__1",
+    "foreign_cube_variable_code" : "PRTCTN_ALLCTD_VL",
+    "primary_cube_variable_code" : "PRTCTN_ALLCTD_VL",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  } ]
+}

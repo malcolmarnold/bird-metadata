@@ -1,0 +1,150 @@
+{
+  "table_id" : "EBA_FINREP_EBA_F_16.01.b_FINREP",
+  "name" : "F 16.01.b",
+  "code" : "F_16.01.b",
+  "description" : "F 16.01.b Interest income and expenses by instrument and counterparty (b)",
+  "maintenance_agency_id" : "EBA",
+  "version" : "FINREP",
+  "valid_from" : "2013-12-01",
+  "valid_to" : "2018-03-30",
+  "table_cell" : [ {
+    "cell_id" : "EBA_65308",
+    "is_shaded" : "false",
+    "combination_id" : "EBA_33803",
+    "table_id" : "EBA_FINREP_EBA_F_16.01.b_FINREP",
+    "system_data_code" : null,
+    "cell_position" : [ {
+      "cell_id" : "EBA_65308",
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.01.b_FINREP_1_020"
+    }, {
+      "cell_id" : "EBA_65308",
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.01.b_FINREP_2_270"
+    } ]
+  }, {
+    "cell_id" : "EBA_65309",
+    "is_shaded" : "false",
+    "combination_id" : "EBA_33853",
+    "table_id" : "EBA_FINREP_EBA_F_16.01.b_FINREP",
+    "system_data_code" : null,
+    "cell_position" : [ {
+      "cell_id" : "EBA_65309",
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.01.b_FINREP_1_010"
+    }, {
+      "cell_id" : "EBA_65309",
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.01.b_FINREP_2_270"
+    } ]
+  } ],
+  "axis" : [ {
+    "axis_id" : "EBA_FINREP_EBA_F_16.01.b_FINREP_1",
+    "code" : "F_16.01.b_1",
+    "orientation" : "X",
+    "order" : "0",
+    "name" : "EBA_FINREP_EBA_F_16.01.b_FINREP_1",
+    "description" : null,
+    "table_id" : "EBA_FINREP_EBA_F_16.01.b_FINREP",
+    "is_open_axis" : "false",
+    "axis_ordinate" : [ {
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.01.b_FINREP_1_020",
+      "is_abstract_header" : "false",
+      "code" : "020",
+      "order" : "0",
+      "level" : "0",
+      "path" : "EBA_FINREP_EBA_F_16.01.b_FINREP_1_020 .",
+      "axis_id" : "EBA_FINREP_EBA_F_16.01.b_FINREP_1",
+      "parent_axis_ordinate_id" : null,
+      "name" : "Expenses",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.01.b_FINREP_1_020",
+        "variable_id" : "EBA_BAS",
+        "member_id" : "EBA_BA_EBA_x3",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.01.b_FINREP_1_020",
+        "variable_id" : "EBA_MCY",
+        "member_id" : "EBA_MC_EBA_x212",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.01.b_FINREP_1_020",
+        "variable_id" : "EBA_MCE",
+        "member_id" : "EBA_MC_EBA_x31",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    }, {
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.01.b_FINREP_1_010",
+      "is_abstract_header" : "false",
+      "code" : "010",
+      "order" : "0",
+      "level" : "0",
+      "path" : "EBA_FINREP_EBA_F_16.01.b_FINREP_1_010 .",
+      "axis_id" : "EBA_FINREP_EBA_F_16.01.b_FINREP_1",
+      "parent_axis_ordinate_id" : null,
+      "name" : "Income",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.01.b_FINREP_1_010",
+        "variable_id" : "EBA_MCY",
+        "member_id" : "EBA_MC_EBA_x212",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.01.b_FINREP_1_010",
+        "variable_id" : "EBA_MCE",
+        "member_id" : "EBA_MC_EBA_x25",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.01.b_FINREP_1_010",
+        "variable_id" : "EBA_BAS",
+        "member_id" : "EBA_BA_EBA_x5",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    } ]
+  }, {
+    "axis_id" : "EBA_FINREP_EBA_F_16.01.b_FINREP_2",
+    "code" : "F_16.01.b_2",
+    "orientation" : "Y",
+    "order" : "0",
+    "name" : "EBA_FINREP_EBA_F_16.01.b_FINREP_2",
+    "description" : null,
+    "table_id" : "EBA_FINREP_EBA_F_16.01.b_FINREP",
+    "is_open_axis" : "false",
+    "axis_ordinate" : [ {
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.01.b_FINREP_2_270",
+      "is_abstract_header" : "false",
+      "code" : "270",
+      "order" : "0",
+      "level" : "0",
+      "path" : "EBA_FINREP_EBA_F_16.01.b_FINREP_2_270 .",
+      "axis_id" : "EBA_FINREP_EBA_F_16.01.b_FINREP_2",
+      "parent_axis_ordinate_id" : null,
+      "name" : "Interest",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.01.b_FINREP_2_270",
+        "variable_id" : "EBA_md103",
+        "member_id" : null,
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    } ]
+  } ]
+}

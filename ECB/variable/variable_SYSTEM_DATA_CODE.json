@@ -1,0 +1,10 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "variable_id" : "SYSTEM_DATA_CODE",
+  "code" : "SYSTEM_DATA_CODE",
+  "name" : "System data code",
+  "domain_id" : "STRNG",
+  "description" : "The physical CODE implemented in the related physical datasets. It may be different from the COMBINATION_ID/CODE of the related COMBINATION, which may only be a semantic-logical ID/CODE.",
+  "primary_concept" : "CODE",
+  "is_decomposed" : "true"
+}

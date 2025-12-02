@@ -1,0 +1,36 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "FVO_DSGNTN_BIRD_1",
+  "name" : "Finrep subdomain for financial assets",
+  "domain_id" : "FVO_DSGNTN",
+  "is_listed" : "true",
+  "code" : "FVO_DSGNTN_BIRD_1",
+  "facet_id" : null,
+  "description" : "Finrep subdomain for financial assets",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "FVO_DSGNTN_0",
+    "subdomain_id" : "FVO_DSGNTN_BIRD_1",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "2022-02-28",
+    "order" : "0"
+  }, {
+    "member_id" : "FVO_DSGNTN_1",
+    "subdomain_id" : "FVO_DSGNTN_BIRD_1",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "FVO_DSGNTN_4",
+    "subdomain_id" : "FVO_DSGNTN_BIRD_1",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "FVO_DSGNTN_5",
+    "subdomain_id" : "FVO_DSGNTN_BIRD_1",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

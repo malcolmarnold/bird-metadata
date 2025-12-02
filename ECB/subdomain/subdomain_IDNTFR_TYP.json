@@ -1,0 +1,36 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "IDNTFR_TYP",
+  "name" : "Indentifier type (Input Layer)",
+  "domain_id" : "TYP_INSTRMNT_ID",
+  "is_listed" : "true",
+  "code" : "IDNTFR_TYP",
+  "facet_id" : null,
+  "description" : null,
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "TYP_INSTRMNT_ID_0",
+    "subdomain_id" : "IDNTFR_TYP",
+    "valid_from" : "2024-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_INSTRMNT_ID_CUSIP",
+    "subdomain_id" : "IDNTFR_TYP",
+    "valid_from" : "2024-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_INSTRMNT_ID_INTERNAL_CODE",
+    "subdomain_id" : "IDNTFR_TYP",
+    "valid_from" : "2024-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_INSTRMNT_ID_SEDOL",
+    "subdomain_id" : "IDNTFR_TYP",
+    "valid_from" : "2024-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

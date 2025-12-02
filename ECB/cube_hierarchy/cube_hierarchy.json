@@ -1,0 +1,43 @@
+{
+  "cube_hierarchy_id" : "ANCRDT_CLLCTN",
+  "maintenance_agency_id" : "ECB",
+  "name" : "AnaCredit collection",
+  "code" : "ANCRDT_CLLCTN",
+  "description" : null,
+  "cube_hierarchy_type" : "ACQSTN",
+  "framework_id" : "ANCRDT",
+  "cube_hierarchy_node" : [ {
+    "cube_hierarchy_id" : "ANCRDT_CLLCTN",
+    "node_code" : "ANCRDT_T2Q",
+    "node_name" : "AnaCredit Template 2 - quarterly",
+    "level" : "1",
+    "parent_node_code" : null,
+    "cube_group_id" : "ANCRDT_T2Q",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "3",
+    "colour" : null
+  }, {
+    "cube_hierarchy_id" : "ANCRDT_CLLCTN",
+    "node_code" : "ANCRDT_T2M",
+    "node_name" : "AnaCredit Template 2 - monthly",
+    "level" : "1",
+    "parent_node_code" : null,
+    "cube_group_id" : "ANCRDT_T2M",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "2",
+    "colour" : null
+  }, {
+    "cube_hierarchy_id" : "ANCRDT_CLLCTN",
+    "node_code" : "ANCRDT_T1M",
+    "node_name" : "AnaCredit Template 1 - monthly",
+    "level" : "1",
+    "parent_node_code" : null,
+    "cube_group_id" : "ANCRDT_T1M",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "1",
+    "colour" : null
+  } ]
+}

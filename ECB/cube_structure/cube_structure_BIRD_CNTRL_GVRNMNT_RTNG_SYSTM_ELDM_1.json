@@ -1,0 +1,43 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_structure_id" : "BIRD_CNTRL_GVRNMNT_RTNG_SYSTM_ELDM_1",
+  "name" : "Central government rating system",
+  "code" : "BIRD_CNTRL_GVRNMNT_RTNG_SYSTM_ELDM",
+  "description" : "A Central government rating system is an Issuer based rating system where the Issuer is a Central government.",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "cube_structure_item" : [ {
+    "cube_structure_item_id" : "BIRD_CNTRL_GVRNMNT_RTNG_SYSTM_ELDM_1__RTNG_AGNCY_NM",
+    "cube_structure_id" : "BIRD_CNTRL_GVRNMNT_RTNG_SYSTM_ELDM_1",
+    "cube_variable_code" : "RTNG_AGNCY_NM",
+    "variable_id" : "RTNG_AGNCY_NM",
+    "role" : "D",
+    "order" : "1",
+    "subdomain_id" : "STRNG_ASCII_250",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "true",
+    "description" : "The rating agency's name.",
+    "is_implemented" : "true"
+  }, {
+    "cube_structure_item_id" : "BIRD_CNTRL_GVRNMNT_RTNG_SYSTM_ELDM_1__RTNG_SYSTM_NM",
+    "cube_structure_id" : "BIRD_CNTRL_GVRNMNT_RTNG_SYSTM_ELDM_1",
+    "cube_variable_code" : "RTNG_SYSTM_NM",
+    "variable_id" : "RTNG_SYSTM_NM",
+    "role" : "D",
+    "order" : "0",
+    "subdomain_id" : "STRNG_ASCII_250",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "true",
+    "description" : "The rating system's name.",
+    "is_implemented" : "true"
+  } ]
+}

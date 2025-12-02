@@ -1,0 +1,265 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_link_id" : "GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1",
+  "code" : "BIRD_NN_FNNCL_LBLTY_EIL__F_01.02_REF__1",
+  "name" : "GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1",
+  "description" : null,
+  "valid_from" : "1990-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "order_relevance" : "1",
+  "primary_cube_id" : "BIRD_NN_FNNCL_LBLTY_EIL_1",
+  "foreign_cube_id" : "FINREP_REF_F_01.02_REF_FINREP 3.0",
+  "cube_link_type" : "TR",
+  "logical_transformation_rule_id" : "GEN_L__F_01.02_REF__01_01_1990",
+  "cube_structure_item_link" : [ {
+    "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__HLD_SL_INDCTR__HLD_SL_INDCTR",
+    "cube_link_id" : "GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1",
+    "foreign_cube_variable_code" : "HLD_SL_INDCTR",
+    "primary_cube_variable_code" : "HLD_SL_INDCTR",
+    "comparator" : "=",
+    "aggregation_function" : null,
+    "member_link" : [ {
+      "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__HLD_SL_INDCTR__HLD_SL_INDCTR",
+      "foreign_member_id" : "HLD_SL_INDCTR_2",
+      "primary_member_id" : "HLD_SL_INDCTR_2",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__HLD_SL_INDCTR__HLD_SL_INDCTR",
+      "foreign_member_id" : "HLD_SL_INDCTR_1",
+      "primary_member_id" : "HLD_SL_INDCTR_1",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    } ]
+  }, {
+    "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__TYP_NN_FNNCL_LBLTY__TYP_ACCNTNG_ITM",
+    "cube_link_id" : "GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1",
+    "foreign_cube_variable_code" : "TYP_ACCNTNG_ITM",
+    "primary_cube_variable_code" : "TYP_NN_FNNCL_LBLTY",
+    "comparator" : "=",
+    "aggregation_function" : null,
+    "member_link" : [ {
+      "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__TYP_NN_FNNCL_LBLTY__TYP_ACCNTNG_ITM",
+      "foreign_member_id" : "TYP_ACCNTNG_ITM_700",
+      "primary_member_id" : "TYP_ACCNTNG_ITM_704",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__TYP_NN_FNNCL_LBLTY__TYP_ACCNTNG_ITM",
+      "foreign_member_id" : "TYP_ACCNTNG_ITM_700",
+      "primary_member_id" : "TYP_ACCNTNG_ITM_705",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__TYP_NN_FNNCL_LBLTY__TYP_ACCNTNG_ITM",
+      "foreign_member_id" : "TYP_ACCNTNG_ITM_700",
+      "primary_member_id" : "TYP_ACCNTNG_ITM_703",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__TYP_NN_FNNCL_LBLTY__TYP_ACCNTNG_ITM",
+      "foreign_member_id" : "TYP_ACCNTNG_ITM_700",
+      "primary_member_id" : "TYP_ACCNTNG_ITM_701",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__TYP_NN_FNNCL_LBLTY__TYP_ACCNTNG_ITM",
+      "foreign_member_id" : "TYP_ACCNTNG_ITM_700",
+      "primary_member_id" : "TYP_ACCNTNG_ITM_702",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__TYP_NN_FNNCL_LBLTY__TYP_ACCNTNG_ITM",
+      "foreign_member_id" : "TYP_ACCNTNG_ITM_700",
+      "primary_member_id" : "TYP_ACCNTNG_ITM_707",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__TYP_NN_FNNCL_LBLTY__TYP_ACCNTNG_ITM",
+      "foreign_member_id" : "TYP_ACCNTNG_ITM_701",
+      "primary_member_id" : "TYP_ACCNTNG_ITM_701",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__TYP_NN_FNNCL_LBLTY__TYP_ACCNTNG_ITM",
+      "foreign_member_id" : "TYP_ACCNTNG_ITM_703",
+      "primary_member_id" : "TYP_ACCNTNG_ITM_703",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__TYP_NN_FNNCL_LBLTY__TYP_ACCNTNG_ITM",
+      "foreign_member_id" : "TYP_ACCNTNG_ITM_702",
+      "primary_member_id" : "TYP_ACCNTNG_ITM_702",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__TYP_NN_FNNCL_LBLTY__TYP_ACCNTNG_ITM",
+      "foreign_member_id" : "TYP_ACCNTNG_ITM_704",
+      "primary_member_id" : "TYP_ACCNTNG_ITM_704",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__TYP_NN_FNNCL_LBLTY__TYP_ACCNTNG_ITM",
+      "foreign_member_id" : "TYP_ACCNTNG_ITM_705",
+      "primary_member_id" : "TYP_ACCNTNG_ITM_705",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__TYP_NN_FNNCL_LBLTY__TYP_ACCNTNG_ITM",
+      "foreign_member_id" : "TYP_ACCNTNG_ITM_707",
+      "primary_member_id" : "TYP_ACCNTNG_ITM_707",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__TYP_NN_FNNCL_LBLTY__TYP_ACCNTNG_ITM",
+      "foreign_member_id" : "TYP_ACCNTNG_ITM_721",
+      "primary_member_id" : "TYP_ACCNTNG_ITM_720",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__TYP_NN_FNNCL_LBLTY__TYP_ACCNTNG_ITM",
+      "foreign_member_id" : "TYP_ACCNTNG_ITM_721",
+      "primary_member_id" : "TYP_ACCNTNG_ITM_710",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__TYP_NN_FNNCL_LBLTY__TYP_ACCNTNG_ITM",
+      "foreign_member_id" : "TYP_ACCNTNG_ITM_721",
+      "primary_member_id" : "TYP_ACCNTNG_ITM_721",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__TYP_NN_FNNCL_LBLTY__TYP_ACCNTNG_ITM",
+      "foreign_member_id" : "TYP_ACCNTNG_ITM_710",
+      "primary_member_id" : "TYP_ACCNTNG_ITM_710",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__TYP_NN_FNNCL_LBLTY__TYP_ACCNTNG_ITM",
+      "foreign_member_id" : "TYP_ACCNTNG_ITM_720",
+      "primary_member_id" : "TYP_ACCNTNG_ITM_720",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__TYP_NN_FNNCL_LBLTY__TYP_ACCNTNG_ITM",
+      "foreign_member_id" : "TYP_ACCNTNG_ITM_730",
+      "primary_member_id" : "TYP_ACCNTNG_ITM_730",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__TYP_NN_FNNCL_LBLTY__TYP_ACCNTNG_ITM",
+      "foreign_member_id" : "TYP_ACCNTNG_ITM_749",
+      "primary_member_id" : "TYP_ACCNTNG_ITM_720",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__TYP_NN_FNNCL_LBLTY__TYP_ACCNTNG_ITM",
+      "foreign_member_id" : "TYP_ACCNTNG_ITM_749",
+      "primary_member_id" : "TYP_ACCNTNG_ITM_704",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__TYP_NN_FNNCL_LBLTY__TYP_ACCNTNG_ITM",
+      "foreign_member_id" : "TYP_ACCNTNG_ITM_749",
+      "primary_member_id" : "TYP_ACCNTNG_ITM_705",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__TYP_NN_FNNCL_LBLTY__TYP_ACCNTNG_ITM",
+      "foreign_member_id" : "TYP_ACCNTNG_ITM_749",
+      "primary_member_id" : "TYP_ACCNTNG_ITM_703",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__TYP_NN_FNNCL_LBLTY__TYP_ACCNTNG_ITM",
+      "foreign_member_id" : "TYP_ACCNTNG_ITM_749",
+      "primary_member_id" : "TYP_ACCNTNG_ITM_730",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__TYP_NN_FNNCL_LBLTY__TYP_ACCNTNG_ITM",
+      "foreign_member_id" : "TYP_ACCNTNG_ITM_749",
+      "primary_member_id" : "TYP_ACCNTNG_ITM_701",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__TYP_NN_FNNCL_LBLTY__TYP_ACCNTNG_ITM",
+      "foreign_member_id" : "TYP_ACCNTNG_ITM_749",
+      "primary_member_id" : "TYP_ACCNTNG_ITM_710",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__TYP_NN_FNNCL_LBLTY__TYP_ACCNTNG_ITM",
+      "foreign_member_id" : "TYP_ACCNTNG_ITM_749",
+      "primary_member_id" : "TYP_ACCNTNG_ITM_721",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__TYP_NN_FNNCL_LBLTY__TYP_ACCNTNG_ITM",
+      "foreign_member_id" : "TYP_ACCNTNG_ITM_749",
+      "primary_member_id" : "TYP_ACCNTNG_ITM_702",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__TYP_NN_FNNCL_LBLTY__TYP_ACCNTNG_ITM",
+      "foreign_member_id" : "TYP_ACCNTNG_ITM_749",
+      "primary_member_id" : "TYP_ACCNTNG_ITM_707",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__TYP_NN_FNNCL_LBLTY__TYP_ACCNTNG_ITM",
+      "foreign_member_id" : "TYP_ACCNTNG_ITM_749",
+      "primary_member_id" : "TYP_ACCNTNG_ITM_1301",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    } ]
+  }, {
+    "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__DT_RFRNC__DT_RFRNC",
+    "cube_link_id" : "GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1",
+    "foreign_cube_variable_code" : "DT_RFRNC",
+    "primary_cube_variable_code" : "DT_RFRNC",
+    "comparator" : "=",
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "GEN_L__F_01.02_REF__GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1__CRRYNG_AMNT__CRRYNG_AMNT",
+    "cube_link_id" : "GEN_L__F_01.02_REF__BIRD_NN_FNNCL_LBLTY_EIL__1",
+    "foreign_cube_variable_code" : "CRRYNG_AMNT",
+    "primary_cube_variable_code" : "CRRYNG_AMNT",
+    "comparator" : "=",
+    "aggregation_function" : "SUM",
+    "member_link" : [ ]
+  } ]
+}

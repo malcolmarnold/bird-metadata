@@ -1,0 +1,220 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+  "name" : "SHSG4_ISIN-->SHSG4_ISIN_REF__1",
+  "code" : "M_SHSG4_ISIN_REF_1",
+  "source_cube_id" : "ECB2_SHSG4_ISIN_1",
+  "destination_cube_id" : "SHS_REF_SHSG4_ISIN_REF_1",
+  "description" : "Mapping cubes, source cube: SHSG4_ISIN, target cube: SHSG4_ISIN_REF, version: 1",
+  "mapping_to_cube" : [ {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_PD",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_FREQ",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_ISIN",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_MRKT_VL",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_NMNL_VL",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_RSK_WGHT",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_GROUP_ID",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_LGD_NRML",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_EXPSR_VL",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_ENTITY_ID",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_EARLY_RED",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_EXPSR_CLSS",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_FRBRNC_STTS",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_CRRYNG_AMNT",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_TIME_PERIOD",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_LGD_DWNTRNS",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_UNIT_MEASURE",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_PRDNTL_PRTFL",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_SRC_ENCMBRNC",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_ACCR_INTR_MV",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_REP_NOM_CURR",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_IMPRMNT_STTS",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_PRFRMNG_STTS",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_GROUP_ID_TYPE",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_COMPILING_ORG",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_ENTITY_ID_TYPE",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_DFLT_STTS_ISSR",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_DT_FRBRNC_STTS",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_REPORTING_BASIS",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_ACCMLTD_IMPRMNT",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_UNIT_MEASURE_NV",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_DT_PRFRMNG_STTS",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_ACCNTNG_CLSSFCTN",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_DT_DFLT_STTS_ISSR",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_DFLT_STTS_INSTRMNT",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_APPRCH_PRDNTL_PRPSS",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_ACCMLTD_CHNGS_FV_CR",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_CMLTV_RCVRS_SNC_DFLT",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_INTRA_GROUP_ACC_SCOPE",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_DT_DFLT_STTS_INSTRMNT",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_IMPRMNT_ASSSSMNT_MTHD",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_SHSG4_ISIN_REF_1",
+    "mapping_id" : "SHS_INTRA_GROUP_PRUD_SCOPE",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

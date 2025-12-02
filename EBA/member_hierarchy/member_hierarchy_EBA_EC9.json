@@ -1,0 +1,91 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_EC9",
+  "code" : "EC9",
+  "domain_id" : "EBA_EC",
+  "name" : "Hierarchy for IRB exposure classes excluding equities, securitisations and other non-credit-obligation assets",
+  "description" : "EBA_EC9",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_EC9",
+    "member_id" : "EBA_EC_EBA_x0",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_EC9",
+    "member_id" : "EBA_EC_EBA_x4",
+    "level" : "2",
+    "parent_member_id" : "EBA_EC_EBA_x0",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_EC9",
+    "member_id" : "EBA_EC_EBA_x35",
+    "level" : "3",
+    "parent_member_id" : "EBA_EC_EBA_x4",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_EC9",
+    "member_id" : "EBA_EC_EBA_x8",
+    "level" : "3",
+    "parent_member_id" : "EBA_EC_EBA_x4",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_EC9",
+    "member_id" : "EBA_EC_EBA_x2",
+    "level" : "3",
+    "parent_member_id" : "EBA_EC_EBA_x4",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_EC9",
+    "member_id" : "EBA_EC_EBA_x16",
+    "level" : "3",
+    "parent_member_id" : "EBA_EC_EBA_x4",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_EC9",
+    "member_id" : "EBA_EC_EBA_x9",
+    "level" : "3",
+    "parent_member_id" : "EBA_EC_EBA_x4",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_EC9",
+    "member_id" : "EBA_EC_EBA_x3",
+    "level" : "3",
+    "parent_member_id" : "EBA_EC_EBA_x4",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_EC9",
+    "member_id" : "EBA_EC_EBA_x7",
+    "level" : "3",
+    "parent_member_id" : "EBA_EC_EBA_x4",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

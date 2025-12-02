@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_LDM_1",
+  "name" : "Instrument Collateral instrument assignment",
+  "code" : "BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_LDM",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_LDM_1",
+  "cube_type" : "LDM",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "An Instrument Collateral  instrument assignment is the combination of an Instrument and a Collateral received instrument or Collateral given instrument that indicates which Instrument is protected by which Collateral received instrument or which instrument is being protected by which Collateral given instrument.",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

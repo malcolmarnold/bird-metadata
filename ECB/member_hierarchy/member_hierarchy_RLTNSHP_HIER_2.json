@@ -1,0 +1,55 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "RLTNSHP_HIER_2",
+  "code" : "2",
+  "domain_id" : "RLTNSHP",
+  "name" : "Subsidiaries, Joint ventures, Associates hierarchy",
+  "description" : "Hierarchical structure of the member Subsidiaries, Joint ventures, Associates (20)",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "RLTNSHP_HIER_2",
+    "member_id" : "RLTNSHP_20",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "2019-05-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "RLTNSHP_HIER_2",
+    "member_id" : "RLTNSHP_3",
+    "level" : "2",
+    "parent_member_id" : "RLTNSHP_20",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2019-05-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "RLTNSHP_HIER_2",
+    "member_id" : "RLTNSHP_13",
+    "level" : "2",
+    "parent_member_id" : "RLTNSHP_20",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "2019-05-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "RLTNSHP_HIER_2",
+    "member_id" : "RLTNSHP_9",
+    "level" : "3",
+    "parent_member_id" : "RLTNSHP_13",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2019-05-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "RLTNSHP_HIER_2",
+    "member_id" : "RLTNSHP_4",
+    "level" : "3",
+    "parent_member_id" : "RLTNSHP_13",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2019-05-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

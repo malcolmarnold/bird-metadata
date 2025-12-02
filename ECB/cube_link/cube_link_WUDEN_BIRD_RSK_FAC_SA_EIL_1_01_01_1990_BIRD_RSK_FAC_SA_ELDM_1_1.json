@@ -1,0 +1,81 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_link_id" : "WUDEN__BIRD_RSK_FAC_SA_EIL_1__01_01_1990__BIRD_RSK_FAC_SA_ELDM_1__1",
+  "code" : "WUDEN__BIRD_RSK_FAC_SA_EIL_1__01_01_1990__BIRD_RSK_FAC_SA_ELDM_1",
+  "name" : "The LDM: Risk factor for standardised approach (BIRD_RSK_FAC_SA_ELDM) is forward engineered into the IL: Risk factor for standardised approach (BIRD_RSK_FAC_SA_EIL)",
+  "description" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "order_relevance" : "1",
+  "primary_cube_id" : "BIRD_RSK_FAC_SA_ELDM_1",
+  "foreign_cube_id" : "BIRD_RSK_FAC_SA_EIL_1",
+  "cube_link_type" : "TR",
+  "logical_transformation_rule_id" : "WUDEN__BIRD_RSK_FAC_SA_EIL_1__01_01_1990",
+  "cube_structure_item_link" : [ {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_RSK_FAC_SA_EIL_1__01_01_1990__BIRD_RSK_FAC_SA_ELDM_1__1__RSK_CLSS__RSK_CLSS",
+    "cube_link_id" : "WUDEN__BIRD_RSK_FAC_SA_EIL_1__01_01_1990__BIRD_RSK_FAC_SA_ELDM_1__1",
+    "foreign_cube_variable_code" : "RSK_CLSS",
+    "primary_cube_variable_code" : "RSK_CLSS",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ {
+      "cube_structure_item_link_id" : "WUDEN__BIRD_RSK_FAC_SA_EIL_1__01_01_1990__BIRD_RSK_FAC_SA_ELDM_1__1__RSK_CLSS__RSK_CLSS",
+      "foreign_member_id" : "RSK_CLSS_7",
+      "primary_member_id" : "RSK_CLSS_7",
+      "valid_from" : "1999-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "WUDEN__BIRD_RSK_FAC_SA_EIL_1__01_01_1990__BIRD_RSK_FAC_SA_ELDM_1__1__RSK_CLSS__RSK_CLSS",
+      "foreign_member_id" : "RSK_CLSS_3",
+      "primary_member_id" : "RSK_CLSS_3",
+      "valid_from" : "1999-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "WUDEN__BIRD_RSK_FAC_SA_EIL_1__01_01_1990__BIRD_RSK_FAC_SA_ELDM_1__1__RSK_CLSS__RSK_CLSS",
+      "foreign_member_id" : "RSK_CLSS_4",
+      "primary_member_id" : "RSK_CLSS_4",
+      "valid_from" : "1999-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "WUDEN__BIRD_RSK_FAC_SA_EIL_1__01_01_1990__BIRD_RSK_FAC_SA_ELDM_1__1__RSK_CLSS__RSK_CLSS",
+      "foreign_member_id" : "RSK_CLSS_2",
+      "primary_member_id" : "RSK_CLSS_2",
+      "valid_from" : "1999-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "WUDEN__BIRD_RSK_FAC_SA_EIL_1__01_01_1990__BIRD_RSK_FAC_SA_ELDM_1__1__RSK_CLSS__RSK_CLSS",
+      "foreign_member_id" : "RSK_CLSS_6",
+      "primary_member_id" : "RSK_CLSS_6",
+      "valid_from" : "1999-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "WUDEN__BIRD_RSK_FAC_SA_EIL_1__01_01_1990__BIRD_RSK_FAC_SA_ELDM_1__1__RSK_CLSS__RSK_CLSS",
+      "foreign_member_id" : "RSK_CLSS_5",
+      "primary_member_id" : "RSK_CLSS_5",
+      "valid_from" : "1999-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "WUDEN__BIRD_RSK_FAC_SA_EIL_1__01_01_1990__BIRD_RSK_FAC_SA_ELDM_1__1__RSK_CLSS__RSK_CLSS",
+      "foreign_member_id" : "RSK_CLSS_1",
+      "primary_member_id" : "RSK_CLSS_1",
+      "valid_from" : "1999-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    } ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_RSK_FAC_SA_EIL_1__01_01_1990__BIRD_RSK_FAC_SA_ELDM_1__1__RSK_FCTR_ID__RSK_FCTR_ID",
+    "cube_link_id" : "WUDEN__BIRD_RSK_FAC_SA_EIL_1__01_01_1990__BIRD_RSK_FAC_SA_ELDM_1__1",
+    "foreign_cube_variable_code" : "RSK_FCTR_ID",
+    "primary_cube_variable_code" : "RSK_FCTR_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  } ]
+}

@@ -1,0 +1,30 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "subdomain_id" : "EBA_1554678689585001094",
+  "name" : "BT([x16|x0|x15])",
+  "domain_id" : "EBA_BT",
+  "is_listed" : "true",
+  "code" : "1554678689585001094",
+  "facet_id" : null,
+  "description" : "Is LEI Code/National Code of Issuer",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "EBA_BT_EBA_x16",
+    "subdomain_id" : "EBA_1554678689585001094",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "EBA_BT_EBA_x0",
+    "subdomain_id" : "EBA_1554678689585001094",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "EBA_BT_EBA_x15",
+    "subdomain_id" : "EBA_1554678689585001094",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

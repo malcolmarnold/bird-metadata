@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "PRFRMNG_STTS",
+  "name" : "Performing status",
+  "domain_id" : "CRDT_QLTY",
+  "is_listed" : "true",
+  "code" : "PRFRMNG_STTS",
+  "facet_id" : null,
+  "description" : "Performing status",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "CRDT_QLTY_11",
+    "subdomain_id" : "PRFRMNG_STTS",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "CRDT_QLTY_1",
+    "subdomain_id" : "PRFRMNG_STTS",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

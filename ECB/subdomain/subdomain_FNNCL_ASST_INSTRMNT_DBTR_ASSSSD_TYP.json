@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "FNNCL_ASST_INSTRMNT_DBTR_ASSSSD_TYP",
+  "name" : "Financial asset instrument debtor assessed type",
+  "domain_id" : "ABSTRCT_INSTRMNT_RL_TYP",
+  "is_listed" : "true",
+  "code" : "FNNCL_ASST_INSTRMNT_DBTR_ASSSSD_TYP",
+  "facet_id" : null,
+  "description" : "Financial asset instrument debtor assessed type",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "ABSTRCT_INSTRMNT_RL_TYP_30",
+    "subdomain_id" : "FNNCL_ASST_INSTRMNT_DBTR_ASSSSD_TYP",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "ABSTRCT_INSTRMNT_RL_TYP_31",
+    "subdomain_id" : "FNNCL_ASST_INSTRMNT_DBTR_ASSSSD_TYP",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "DBT_SCRTY_ISSD_TRDNG_BK_ACCNTNG_STNDRD",
+  "name" : "Issued debt security in the trading book accounting standard",
+  "domain_id" : "SCRTY_EXCHNG_TRDBL_DRVTV_TYP",
+  "is_listed" : "true",
+  "code" : "DBT_SCRTY_ISSD_TRDNG_BK_ACCNTNG_STNDRD",
+  "facet_id" : null,
+  "description" : "Issued debt security in the trading book accounting standard",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "SCRTY_EXCHNG_TRDBL_DRVTV_TYP_23",
+    "subdomain_id" : "DBT_SCRTY_ISSD_TRDNG_BK_ACCNTNG_STNDRD",
+    "valid_from" : "2024-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "SCRTY_EXCHNG_TRDBL_DRVTV_TYP_24",
+    "subdomain_id" : "DBT_SCRTY_ISSD_TRDNG_BK_ACCNTNG_STNDRD",
+    "valid_from" : "2024-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

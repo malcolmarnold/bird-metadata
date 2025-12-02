@@ -1,0 +1,37 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_AP16",
+  "code" : "AP16",
+  "domain_id" : "EBA_AP",
+  "name" : "Approach used for the purpose of the SOT (NII/EVE)",
+  "description" : "EBA_AP16",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_AP16",
+    "member_id" : "EBA_AP_EBA_x256",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2023-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP16",
+    "member_id" : "EBA_AP_EBA_x255",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2023-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP16",
+    "member_id" : "EBA_AP_EBA_x264",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2024-09-30",
+    "valid_to" : "9999-12-31"
+  } ]
+}

@@ -1,0 +1,30 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "subdomain_id" : "EBA_17170024347917346888",
+  "name" : "CG([x15|x13|x8])",
+  "domain_id" : "EBA_CG",
+  "is_listed" : "true",
+  "code" : "17170024347917346888",
+  "facet_id" : null,
+  "description" : "Encumbrance",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "EBA_CG_EBA_x15",
+    "subdomain_id" : "EBA_17170024347917346888",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "EBA_CG_EBA_x13",
+    "subdomain_id" : "EBA_17170024347917346888",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "EBA_CG_EBA_x8",
+    "subdomain_id" : "EBA_17170024347917346888",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

@@ -1,0 +1,32 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_link_id" : "WUDEN__BIRD_KB_PR_BCKT_EIL_1__01_01_1990__BIRD_KB_PR_BCKT_ELDM_1__1",
+  "code" : "WUDEN__BIRD_KB_PR_BCKT_EIL_1__01_01_1990__BIRD_KB_PR_BCKT_ELDM_1",
+  "name" : "The LDM: Risk position (Kb) per bucket derived data (BIRD_KB_PR_BCKT_ELDM) is forward engineered into the IL: Risk position (Kb) per bucket derived data (BIRD_KB_PR_BCKT_EIL)",
+  "description" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "order_relevance" : "1",
+  "primary_cube_id" : "BIRD_KB_PR_BCKT_ELDM_1",
+  "foreign_cube_id" : "BIRD_KB_PR_BCKT_EIL_1",
+  "cube_link_type" : "TR",
+  "logical_transformation_rule_id" : "WUDEN__BIRD_KB_PR_BCKT_EIL_1__01_01_1990",
+  "cube_structure_item_link" : [ {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_KB_PR_BCKT_EIL_1__01_01_1990__BIRD_KB_PR_BCKT_ELDM_1__1__BCKT_ID__BCKT_ID",
+    "cube_link_id" : "WUDEN__BIRD_KB_PR_BCKT_EIL_1__01_01_1990__BIRD_KB_PR_BCKT_ELDM_1__1",
+    "foreign_cube_variable_code" : "BCKT_ID",
+    "primary_cube_variable_code" : "BCKT_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_KB_PR_BCKT_EIL_1__01_01_1990__BIRD_KB_PR_BCKT_ELDM_1__1__GIRR_DLTA_RSK_PSTN__GIRR_DLTA_RSK_PSTN",
+    "cube_link_id" : "WUDEN__BIRD_KB_PR_BCKT_EIL_1__01_01_1990__BIRD_KB_PR_BCKT_ELDM_1__1",
+    "foreign_cube_variable_code" : "GIRR_DLTA_RSK_PSTN",
+    "primary_cube_variable_code" : "GIRR_DLTA_RSK_PSTN",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  } ]
+}

@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_PRTNR_ENTRPRS_ELDM_1",
+  "name" : "Partner enterprise",
+  "code" : "BIRD_PRTNR_ENTRPRS_ELDM",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_PRTNR_ENTRPRS_ELDM_1",
+  "cube_type" : "ELDM",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "Partner enterprise is a Central bank and private sector company role in the sense of Commission Recommendation 2003/361/EC.\n\nCommission Recommendation 2003/361/EC, Annex, Title I Definition of micro, small and medium-sized enterprises adopted by the commission, Article 3 Types of enterprise taken into consideration in calculating staff numbers and financial amounts:\n...\n2. \"Partner enterprises\" are all enterprises which are not classified as linked enterprises within the meaning of paragraph 3 and between which there is the following relationship: an enterprise (upstream enterprise) holds, either solely or jointly with one or more linked enterprises within the meaning of paragraph 3, 25 % or more of the capital or voting rights of another enterprise (downstream enterprise).\n\nHowever, an enterprise may be ranked as autonomous, and thus as not having any partner enterprises, even if this 25 % threshold is reached or exceeded by the following investors, provided that those investors are not linked, within the meaning of paragraph 3, either individually or jointly to the enterprise in question:\n\n(a) public investment corporations, venture capital companies, individuals or groups of individuals with a regular venture capital investment activity who invest equity capital in unquoted businesses (\"business angels\"), provided the total investment of those business angels in the same enterprise is less than EUR 1250000;\n\n(b) universities or non-profit research centres;\n\n(c) institutional investors, including regional development funds;\n\n(d) autonomous local authorities with an annual budget of less than EUR 10 million and fewer than 5000 inhabitants.",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "ANCRDT_PRTCTN_RCVD_C_1",
+  "name" : "Protection received",
+  "code" : "ANCRDT_PRTCTN_RCVD_C",
+  "framework_id" : "ANCRDT",
+  "cube_structure_id" : "ANCRDT_PRTCTN_RCVD_C_1",
+  "cube_type" : "C",
+  "is_allowed" : null,
+  "valid_from" : "2018-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "This cube provides information on the characteristics of any protection (both funded and unfunded) that serves to secure the repayment of instruments reported in the instrument dataset. For the purposes of AnaCredit data collection, protection received data comprise data on any kind of protection that is linked to any reported instrument via the instrument-protection received table. (Collection)",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

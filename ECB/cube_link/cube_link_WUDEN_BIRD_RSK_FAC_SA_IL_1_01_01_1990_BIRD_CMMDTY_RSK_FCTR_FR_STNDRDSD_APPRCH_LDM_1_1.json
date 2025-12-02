@@ -1,0 +1,32 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_link_id" : "WUDEN__BIRD_RSK_FAC_SA_IL_1__01_01_1990__BIRD_CMMDTY_RSK_FCTR_FR_STNDRDSD_APPRCH_LDM_1__1",
+  "code" : "WUDEN__BIRD_RSK_FAC_SA_IL_1__01_01_1990__BIRD_CMMDTY_RSK_FCTR_FR_STNDRDSD_APPRCH_LDM_1",
+  "name" : "The LDM: Commodity risk factor for standardised approach (BIRD_CMMDTY_RSK_FCTR_FR_STNDRDSD_APPRCH_LDM) is forward engineered into the IL: Risk factor for standardised approach (BIRD_RSK_FAC_SA_IL)",
+  "description" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "order_relevance" : "1",
+  "primary_cube_id" : "BIRD_CMMDTY_RSK_FCTR_FR_STNDRDSD_APPRCH_LDM_1",
+  "foreign_cube_id" : "BIRD_RSK_FAC_SA_IL_1",
+  "cube_link_type" : "TR",
+  "logical_transformation_rule_id" : "WUDEN__BIRD_RSK_FAC_SA_IL_1__01_01_1990",
+  "cube_structure_item_link" : [ {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_RSK_FAC_SA_IL_1__01_01_1990__BIRD_CMMDTY_RSK_FCTR_FR_STNDRDSD_APPRCH_LDM_1__1__CMMDTY_TYP__CMMDTY_TYP",
+    "cube_link_id" : "WUDEN__BIRD_RSK_FAC_SA_IL_1__01_01_1990__BIRD_CMMDTY_RSK_FCTR_FR_STNDRDSD_APPRCH_LDM_1__1",
+    "foreign_cube_variable_code" : "CMMDTY_TYP",
+    "primary_cube_variable_code" : "CMMDTY_TYP",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_RSK_FAC_SA_IL_1__01_01_1990__BIRD_CMMDTY_RSK_FCTR_FR_STNDRDSD_APPRCH_LDM_1__1__DLVRY_LCTN__DLVRY_LCTN",
+    "cube_link_id" : "WUDEN__BIRD_RSK_FAC_SA_IL_1__01_01_1990__BIRD_CMMDTY_RSK_FCTR_FR_STNDRDSD_APPRCH_LDM_1__1",
+    "foreign_cube_variable_code" : "DLVRY_LCTN",
+    "primary_cube_variable_code" : "DLVRY_LCTN",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  } ]
+}

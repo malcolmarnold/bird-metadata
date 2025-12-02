@@ -1,0 +1,30 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "SCRTY_LVL_SHSG4_NON_ISIN_SCRTY_LVL_REF",
+  "name" : "Subdomain for SCRTY_LVL of the Cube SHSG4_NON_ISIN",
+  "domain_id" : "SCRTY_LVL",
+  "is_listed" : "true",
+  "code" : "SCRTY_LVL_SHSG4_NON_ISIN_SCRTY_LVL_REF",
+  "facet_id" : null,
+  "description" : null,
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "SCRTY_LVL_2",
+    "subdomain_id" : "SCRTY_LVL_SHSG4_NON_ISIN_SCRTY_LVL_REF",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "1"
+  }, {
+    "member_id" : "SCRTY_LVL_9",
+    "subdomain_id" : "SCRTY_LVL_SHSG4_NON_ISIN_SCRTY_LVL_REF",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "SCRTY_LVL_1",
+    "subdomain_id" : "SCRTY_LVL_SHSG4_NON_ISIN_SCRTY_LVL_REF",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "2"
+  } ]
+}

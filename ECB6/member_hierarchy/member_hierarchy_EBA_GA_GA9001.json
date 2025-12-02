@@ -1,0 +1,118 @@
+{
+  "maintenance_agency_id" : "ECB6",
+  "member_hierarchy_id" : "EBA_GA_GA9001",
+  "code" : "GA9001",
+  "domain_id" : "EBA_GA",
+  "name" : "Hierarchy for top five largest countries",
+  "description" : null,
+  "is_main_hierarchy" : null,
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_GA_GA9001",
+    "member_id" : "EBA_GA_ECB6_x1049",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_GA_GA9001",
+    "member_id" : "EBA_GA_ECB6_x1044",
+    "level" : "2",
+    "parent_member_id" : "EBA_GA_ECB6_x1049",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_GA_GA9001",
+    "member_id" : "EBA_GA_ECB6_x1042",
+    "level" : "2",
+    "parent_member_id" : "EBA_GA_ECB6_x1049",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_GA_GA9001",
+    "member_id" : "EBA_GA_ECB6_x1043",
+    "level" : "2",
+    "parent_member_id" : "EBA_GA_ECB6_x1049",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_GA_GA9001",
+    "member_id" : "EBA_GA_ECB6_x1041",
+    "level" : "2",
+    "parent_member_id" : "EBA_GA_ECB6_x1049",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_GA_GA9001",
+    "member_id" : "EBA_GA_ECB6_x1040",
+    "level" : "2",
+    "parent_member_id" : "EBA_GA_ECB6_x1049",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_GA_GA9001",
+    "member_id" : "EBA_GA_ECB6_x6040",
+    "level" : "2",
+    "parent_member_id" : "EBA_GA_ECB6_x6049",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_GA_GA9001",
+    "member_id" : "EBA_GA_ECB6_x6041",
+    "level" : "2",
+    "parent_member_id" : "EBA_GA_ECB6_x6049",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_GA_GA9001",
+    "member_id" : "EBA_GA_ECB6_x6042",
+    "level" : "2",
+    "parent_member_id" : "EBA_GA_ECB6_x6049",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_GA_GA9001",
+    "member_id" : "EBA_GA_ECB6_x6043",
+    "level" : "2",
+    "parent_member_id" : "EBA_GA_ECB6_x6049",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_GA_GA9001",
+    "member_id" : "EBA_GA_ECB6_x6044",
+    "level" : "2",
+    "parent_member_id" : "EBA_GA_ECB6_x6049",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_GA_GA9001",
+    "member_id" : "EBA_GA_ECB6_x6049",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

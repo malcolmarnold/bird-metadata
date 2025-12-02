@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "OVRNGHT_DPST_TYP",
+  "name" : "Overnight deposit type",
+  "domain_id" : "TYP_INSTRMNT",
+  "is_listed" : "true",
+  "code" : "OVRNGHT_DPST_TYP",
+  "facet_id" : null,
+  "description" : "Overnight deposit type",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "TYP_INSTRMNT_30",
+    "subdomain_id" : "OVRNGHT_DPST_TYP",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_INSTRMNT_31",
+    "subdomain_id" : "OVRNGHT_DPST_TYP",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

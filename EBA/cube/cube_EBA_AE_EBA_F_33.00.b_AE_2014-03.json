@@ -1,0 +1,62 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "cube_id" : "EBA_AE_EBA_F_33.00.b_AE_2014-03",
+  "name" : "Asset encumbrance: Maturity data (b)",
+  "code" : "F_33.00.b",
+  "framework_id" : "EBA_AE",
+  "cube_structure_id" : "EBA_AE_EBA_F_33.00.b_AE_2014-03",
+  "cube_type" : "D",
+  "is_allowed" : null,
+  "valid_from" : "2014-09-30",
+  "valid_to" : "2023-06-29",
+  "version" : "AE 2014-03",
+  "description" : "Asset encumbrance: Maturity data (b)",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "EBA_AE_EBA_F_33.00.b_AE_2014-03",
+    "combination_id" : "EBA_110928"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_33.00.b_AE_2014-03",
+    "combination_id" : "EBA_110929"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_33.00.b_AE_2014-03",
+    "combination_id" : "EBA_110930"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_33.00.b_AE_2014-03",
+    "combination_id" : "EBA_110932"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_33.00.b_AE_2014-03",
+    "combination_id" : "EBA_110933"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_33.00.b_AE_2014-03",
+    "combination_id" : "EBA_110934"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_33.00.b_AE_2014-03",
+    "combination_id" : "EBA_42418"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_33.00.b_AE_2014-03",
+    "combination_id" : "EBA_42419"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_33.00.b_AE_2014-03",
+    "combination_id" : "EBA_42420"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_33.00.b_AE_2014-03",
+    "combination_id" : "EBA_42422"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_33.00.b_AE_2014-03",
+    "combination_id" : "EBA_42424"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_33.00.b_AE_2014-03",
+    "combination_id" : "EBA_42425"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_33.00.b_AE_2014-03",
+    "combination_id" : "EBA_110931"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "EBA_AE_EBA_F_33.00.b_AE_2014-03",
+    "table_id" : "EBA_AE_EBA_F_33.00.b_AE_2014-03"
+  } ]
+}

@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_OTHR_CLLTRL_RCVD_INSTRMNT_ELDM_1",
+  "name" : "Other collateral received instrument",
+  "code" : "BIRD_OTHR_CLLTRL_RCVD_INSTRMNT_ELDM",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_OTHR_CLLTRL_RCVD_INSTRMNT_ELDM_1",
+  "cube_type" : "ELDM",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "Other collateral received instrument is a Collateral received instrument that is not an Over the counter (OTC) Credit default swap received as collateral instrument.\n\nOther collateral received instrument is an instrument role that is the assignment of receivables. This assignment is where the future cash flows are pledged as collateral. It is legally not a pledge but an assignment of receivables. These could be : Finance lease, Other trade receivable, Credit card debt, Other loan. \nIt pledges future cash flow as collateral. (note: not \"Factoring\")",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

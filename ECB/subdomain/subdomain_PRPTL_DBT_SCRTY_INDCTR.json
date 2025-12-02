@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "PRPTL_DBT_SCRTY_INDCTR",
+  "name" : "Perpetual debt security indicator",
+  "domain_id" : "SCRTY_EXCHNG_TRDBL_DRVTV_TYP",
+  "is_listed" : "true",
+  "code" : "PRPTL_DBT_SCRTY_INDCTR",
+  "facet_id" : null,
+  "description" : null,
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "SCRTY_EXCHNG_TRDBL_DRVTV_TYP_17",
+    "subdomain_id" : "PRPTL_DBT_SCRTY_INDCTR",
+    "valid_from" : "2024-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "SCRTY_EXCHNG_TRDBL_DRVTV_TYP_18",
+    "subdomain_id" : "PRPTL_DBT_SCRTY_INDCTR",
+    "valid_from" : "2024-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "TYP_ID_F_40.02_TYP_ENTTY_CD_HLDNG_REF",
+  "name" : "Subdomain for TYP_ENTTY_CD_HLDNG of the Cube F_40.02",
+  "domain_id" : "TYP_ID",
+  "is_listed" : "true",
+  "code" : "TYP_ID_F_40.02_TYP_ENTTY_CD_HLDNG_REF",
+  "facet_id" : null,
+  "description" : null,
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "TYP_ID_1",
+    "subdomain_id" : "TYP_ID_F_40.02_TYP_ENTTY_CD_HLDNG_REF",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_ID_LEI",
+    "subdomain_id" : "TYP_ID_F_40.02_TYP_ENTTY_CD_HLDNG_REF",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31",
+    "order" : "1"
+  } ]
+}

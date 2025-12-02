@@ -1,0 +1,50 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_group_id" : "LDM_PRTY_GRP_RLTD",
+  "name" : "Party Group related",
+  "code" : "LDM_PRTY_GRP_RLTD",
+  "description" : "Party Group related",
+  "cube_group_enumeration" : [ {
+    "order" : "4",
+    "cube_group_id" : "LDM_PRTY_GRP_RLTD",
+    "cube_id" : "BIRD_INTRNL_GRP_KY_MNGMNT_PRSNLL_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "LDM_PRTY_GRP_RLTD",
+    "cube_id" : "BIRD_SBSDRY_JNT_VNTR_ASSCT_OTHR_ORGNSTN_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "6",
+    "cube_group_id" : "LDM_PRTY_GRP_RLTD",
+    "cube_id" : "BIRD_GRP_CLNTS_KY_MNGMNT_PRSNLL_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "1",
+    "cube_group_id" : "LDM_PRTY_GRP_RLTD",
+    "cube_id" : "BIRD_SBSDRY_JNT_VNTR_ASSCT_JNT_VNTR_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "2",
+    "cube_group_id" : "LDM_PRTY_GRP_RLTD",
+    "cube_id" : "BIRD_SBSDRY_JNT_VNTR_ASSCT_SBSDRY_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "3",
+    "cube_group_id" : "LDM_PRTY_GRP_RLTD",
+    "cube_id" : "BIRD_SBSDRY_JNT_VNTR_ASSCT_ASSCT_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "5",
+    "cube_group_id" : "LDM_PRTY_GRP_RLTD",
+    "cube_id" : "BIRD_GRP_KY_MNGMNT_PRSNLL_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

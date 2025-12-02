@@ -1,0 +1,16 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_link_id" : "WUDEN__BIRD_RSK_FAC_SA_IL_1__01_01_1990__BIRD_SCRTSTN_CRRLTN_TRDNG_PRTFL_RSK_FCTR_STNDRDSD_APPRCH_LDM_1__1",
+  "code" : "WUDEN__BIRD_RSK_FAC_SA_IL_1__01_01_1990__BIRD_SCRTSTN_CRRLTN_TRDNG_PRTFL_RSK_FCTR_STNDRDSD_APPRCH_LDM_1",
+  "name" : "The LDM: Securitisation correlation trading portfolio (CTP) Risk Factor for standardised approach (BIRD_SCRTSTN_CRRLTN_TRDNG_PRTFL_RSK_FCTR_STNDRDSD_APPRCH_LDM) is forward engineered into the IL: Risk factor for standardised approach (BIRD_RSK_FAC_SA_IL)",
+  "description" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "order_relevance" : "1",
+  "primary_cube_id" : "BIRD_SCRTSTN_CRRLTN_TRDNG_PRTFL_RSK_FCTR_STNDRDSD_APPRCH_LDM_1",
+  "foreign_cube_id" : "BIRD_RSK_FAC_SA_IL_1",
+  "cube_link_type" : "TR",
+  "logical_transformation_rule_id" : "WUDEN__BIRD_RSK_FAC_SA_IL_1__01_01_1990",
+  "cube_structure_item_link" : [ ]
+}

@@ -1,0 +1,27 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_structure_id" : "BIRD_ENTTY_GRP_RL_LDM_1",
+  "name" : "Entity group role",
+  "code" : "BIRD_ENTTY_GRP_RL_LDM",
+  "description" : "Entity group role is an Entity role that is applicable to a group of legal entities.",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "cube_structure_item" : [ {
+    "cube_structure_item_id" : "BIRD_ENTTY_GRP_RL_LDM_1__ENTTY_GRP_RL_TYP",
+    "cube_structure_id" : "BIRD_ENTTY_GRP_RL_LDM_1",
+    "cube_variable_code" : "ENTTY_GRP_RL_TYP",
+    "variable_id" : "ENTTY_GRP_RL_TYP",
+    "role" : "O",
+    "order" : "0",
+    "subdomain_id" : "ENTTY_GRP_RL_TYP",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "true",
+    "description" : "Entity group role type",
+    "is_implemented" : "true"
+  } ]
+}

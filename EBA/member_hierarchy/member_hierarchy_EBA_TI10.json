@@ -1,0 +1,55 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_TI10",
+  "code" : "TI10",
+  "domain_id" : "EBA_TI",
+  "name" : "Residual maturity (NSFR)",
+  "description" : "EBA_TI10",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_TI10",
+    "member_id" : "EBA_TI_EBA_x63",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_TI10",
+    "member_id" : "EBA_TI_EBA_x0",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_TI10",
+    "member_id" : "EBA_TI_EBA_x64",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_TI10",
+    "member_id" : "EBA_TI_EBA_x213",
+    "level" : "2",
+    "parent_member_id" : "EBA_TI_EBA_x63",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_TI10",
+    "member_id" : "EBA_TI_EBA_x214",
+    "level" : "2",
+    "parent_member_id" : "EBA_TI_EBA_x63",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  } ]
+}

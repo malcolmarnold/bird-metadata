@@ -1,0 +1,27 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_structure_id" : "BIRD_CRDT_FCLTY_ENTTY_RL_ASSGNMNT_LDM_1",
+  "name" : "Credit facility Entity role assignment",
+  "code" : "BIRD_CRDT_FCLTY_ENTTY_RL_ASSGNMNT_LDM",
+  "description" : "A Credit facility Entity role assignment is the combination of a Credit facility and an Entity role that indicates which Entity role is assigned to which Credit facility.",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "cube_structure_item" : [ {
+    "cube_structure_item_id" : "BIRD_CRDT_FCLTY_ENTTY_RL_ASSGNMNT_LDM_1__CRDT_FCLTY_ENTTY_RL_ASSGNMNT_TYP",
+    "cube_structure_id" : "BIRD_CRDT_FCLTY_ENTTY_RL_ASSGNMNT_LDM_1",
+    "cube_variable_code" : "CRDT_FCLTY_ENTTY_RL_ASSGNMNT_TYP",
+    "variable_id" : "CRDT_FCLTY_ENTTY_RL_ASSGNMNT_TYP",
+    "role" : "O",
+    "order" : "0",
+    "subdomain_id" : "CRDT_FCLTY_ENTTY_RL_ASSGNMNT_TYP",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "true",
+    "description" : "A discriminator to distinguish between assignment between a credit facility and a creditor, debtor or servicer.",
+    "is_implemented" : "true"
+  } ]
+}

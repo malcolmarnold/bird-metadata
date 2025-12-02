@@ -1,0 +1,56 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "FINREP_REF_F_19.00.d_REF_FINREP 2017-A",
+  "name" : "Information forborn exposures (IV) - Reference",
+  "code" : "F_19.00.d_REF",
+  "framework_id" : "FINREP_REF",
+  "cube_structure_id" : "FINREP_REF_F_19.00.d_REF_FINREP 2017-A",
+  "cube_type" : "RC",
+  "is_allowed" : null,
+  "valid_from" : "2018-03-31",
+  "valid_to" : "2020-06-29",
+  "version" : "FINREP 2017-A",
+  "description" : null,
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "FINREP_REF_F_19.00.d_REF_FINREP 2017-A",
+    "combination_id" : "149628_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_19.00.d_REF_FINREP 2017-A",
+    "combination_id" : "119002_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_19.00.d_REF_FINREP 2017-A",
+    "combination_id" : "119001_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_19.00.d_REF_FINREP 2017-A",
+    "combination_id" : "118997_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_19.00.d_REF_FINREP 2017-A",
+    "combination_id" : "118994_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_19.00.d_REF_FINREP 2017-A",
+    "combination_id" : "149627_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_19.00.d_REF_FINREP 2017-A",
+    "combination_id" : "119000_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_19.00.d_REF_FINREP 2017-A",
+    "combination_id" : "118993_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_19.00.d_REF_FINREP 2017-A",
+    "combination_id" : "119003_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_19.00.d_REF_FINREP 2017-A",
+    "combination_id" : "118998_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_19.00.d_REF_FINREP 2017-A",
+    "combination_id" : "118996_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_19.00.d_REF_FINREP 2017-A",
+    "combination_id" : "118999_REF"
+  } ],
+  "cube_to_table" : [ ]
+}

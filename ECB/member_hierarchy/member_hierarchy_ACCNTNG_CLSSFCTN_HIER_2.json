@@ -1,0 +1,37 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_2",
+  "code" : "2",
+  "domain_id" : "ACCNTNG_CLSSFCTN",
+  "name" : "Flat Hierarchy - Measurement for Intangible assets. Other than Goodwill",
+  "description" : "Hierarchical structure of the Member Measurement for Intangible assets. Other than Goodwill (70)",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_2",
+    "member_id" : "ACCNTNG_CLSSFCTN_70",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_2",
+    "member_id" : "ACCNTNG_CLSSFCTN_701",
+    "level" : "2",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_70",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_2",
+    "member_id" : "ACCNTNG_CLSSFCTN_702",
+    "level" : "2",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_70",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

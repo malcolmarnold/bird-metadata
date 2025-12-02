@@ -1,0 +1,43 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_structure_id" : "BIRD_NN_FNNCL_ASST_NN_FNNCL_LBLTY_ELDM_1",
+  "name" : "Non-financial asset and non-financial liability",
+  "code" : "BIRD_NN_FNNCL_ASST_NN_FNNCL_LBLTY_ELDM",
+  "description" : "A Non-financial asset and non-financial liability is a asset or a liability that is not considered a financial asset or liability in the context of the given accounting standard.",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "cube_structure_item" : [ {
+    "cube_structure_item_id" : "BIRD_NN_FNNCL_ASST_NN_FNNCL_LBLTY_ELDM_1__NN_FNNCL_ASST_NN_FNNCL_LBLTY_TYP",
+    "cube_structure_id" : "BIRD_NN_FNNCL_ASST_NN_FNNCL_LBLTY_ELDM_1",
+    "cube_variable_code" : "NN_FNNCL_ASST_NN_FNNCL_LBLTY_TYP",
+    "variable_id" : "NN_FNNCL_ASST_NN_FNNCL_LBLTY_TYP",
+    "role" : "O",
+    "order" : "1",
+    "subdomain_id" : "NN_FNNCL_ASST_NN_FNNCL_LBLTY_TYP",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "true",
+    "description" : "A discriminator to distinguish between non-financial assets and non-financial liabilities.",
+    "is_implemented" : "true"
+  }, {
+    "cube_structure_item_id" : "BIRD_NN_FNNCL_ASST_NN_FNNCL_LBLTY_ELDM_1__CRRYNG_AMNT",
+    "cube_structure_id" : "BIRD_NN_FNNCL_ASST_NN_FNNCL_LBLTY_ELDM_1",
+    "cube_variable_code" : "CRRYNG_AMNT",
+    "variable_id" : "CRRYNG_AMNT",
+    "role" : "O",
+    "order" : "0",
+    "subdomain_id" : "MNTRY_NN_NGTV_2D",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "true",
+    "description" : "The carrying amount in accordance with Annex V to Implementing Regulation (EU) No 680/2014.",
+    "is_implemented" : "true"
+  } ]
+}

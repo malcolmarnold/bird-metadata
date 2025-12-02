@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "SCRTY_TYP_ID",
+  "name" : "Security type by identifier",
+  "domain_id" : "SCRTY_EXCHNG_TRDBL_DRVTV_TYP",
+  "is_listed" : "true",
+  "code" : "SCRTY_TYP_ID",
+  "facet_id" : null,
+  "description" : "Security type by identifier",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "SCRTY_EXCHNG_TRDBL_DRVTV_TYP_8",
+    "subdomain_id" : "SCRTY_TYP_ID",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "SCRTY_EXCHNG_TRDBL_DRVTV_TYP_9",
+    "subdomain_id" : "SCRTY_TYP_ID",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

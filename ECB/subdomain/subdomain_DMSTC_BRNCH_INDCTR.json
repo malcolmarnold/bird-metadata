@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "DMSTC_BRNCH_INDCTR",
+  "name" : "Domestic branch indicator",
+  "domain_id" : "PRTY_TYP",
+  "is_listed" : "true",
+  "code" : "DMSTC_BRNCH_INDCTR",
+  "facet_id" : null,
+  "description" : "Domestic branch indicator",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "PRTY_TYP_25",
+    "subdomain_id" : "DMSTC_BRNCH_INDCTR",
+    "valid_from" : "2024-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "PRTY_TYP_26",
+    "subdomain_id" : "DMSTC_BRNCH_INDCTR",
+    "valid_from" : "2024-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

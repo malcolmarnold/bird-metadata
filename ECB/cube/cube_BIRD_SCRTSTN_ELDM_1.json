@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_SCRTSTN_ELDM_1",
+  "name" : "Securitisation",
+  "code" : "BIRD_SCRTSTN_ELDM",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_SCRTSTN_ELDM_1",
+  "cube_type" : "ELDM",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "A Securitisation is a transaction or scheme, whereby the credit risk associated with an exposure or pool of exposures is tranched, having both of the following characteristics: (a) payments in the transaction or scheme are dependent upon the performance of the exposure or pool of exposures; (b) the subordination of tranches determines the distribution of losses during the ongoing life of the transaction or scheme (CRR, Article 4(1)(61)).",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

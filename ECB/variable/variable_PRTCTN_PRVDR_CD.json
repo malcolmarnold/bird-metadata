@@ -1,0 +1,10 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "variable_id" : "PRTCTN_PRVDR_CD",
+  "code" : "PRTCTN_PRVDR_CD",
+  "name" : "Protection provider identifier (identifier type: RIAD code)",
+  "domain_id" : "STRNG",
+  "description" : "RIAD code of the protection provider. If the protection provider is not a legal entity, the protection provider identifier is not required to be reported.",
+  "primary_concept" : "ENTTY_RIAD_CD",
+  "is_decomposed" : null
+}

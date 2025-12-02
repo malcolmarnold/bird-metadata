@@ -1,0 +1,45 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_link_id" : "WUDEN__BIRD_TRDTNL_SCRTSTN_EIL_1__01_01_1990__BIRD_SCRTSN_OTHR_CRDT_TRNSFR_ELDM_1__1",
+  "code" : "WUDEN__BIRD_TRDTNL_SCRTSTN_EIL_1__01_01_1990__BIRD_SCRTSN_OTHR_CRDT_TRNSFR_ELDM_1",
+  "name" : "The LDM: Securitisation and other credit transfer (BIRD_SCRTSN_OTHR_CRDT_TRNSFR_ELDM) is forward engineered into the IL: Traditional securitisation (BIRD_TRDTNL_SCRTSTN_EIL)",
+  "description" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "order_relevance" : "1",
+  "primary_cube_id" : "BIRD_SCRTSN_OTHR_CRDT_TRNSFR_ELDM_1",
+  "foreign_cube_id" : "BIRD_TRDTNL_SCRTSTN_EIL_1",
+  "cube_link_type" : "TR",
+  "logical_transformation_rule_id" : "WUDEN__BIRD_TRDTNL_SCRTSTN_EIL_1__01_01_1990",
+  "cube_structure_item_link" : [ {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_TRDTNL_SCRTSTN_EIL_1__01_01_1990__BIRD_SCRTSN_OTHR_CRDT_TRNSFR_ELDM_1__1__SCRTSN_OTHR_CRDT_TRNSFR_TYP__SCRTSN_OTHR_CRDT_TRNSFR_TYP",
+    "cube_link_id" : "WUDEN__BIRD_TRDTNL_SCRTSTN_EIL_1__01_01_1990__BIRD_SCRTSN_OTHR_CRDT_TRNSFR_ELDM_1__1",
+    "foreign_cube_variable_code" : "SCRTSN_OTHR_CRDT_TRNSFR_TYP",
+    "primary_cube_variable_code" : "SCRTSN_OTHR_CRDT_TRNSFR_TYP",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ {
+      "cube_structure_item_link_id" : "WUDEN__BIRD_TRDTNL_SCRTSTN_EIL_1__01_01_1990__BIRD_SCRTSN_OTHR_CRDT_TRNSFR_ELDM_1__1__SCRTSN_OTHR_CRDT_TRNSFR_TYP__SCRTSN_OTHR_CRDT_TRNSFR_TYP",
+      "foreign_member_id" : "SCRTSN_OTHR_CRDT_TRNSFR_TYP_6",
+      "primary_member_id" : "SCRTSN_OTHR_CRDT_TRNSFR_TYP_6",
+      "valid_from" : "1999-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "WUDEN__BIRD_TRDTNL_SCRTSTN_EIL_1__01_01_1990__BIRD_SCRTSN_OTHR_CRDT_TRNSFR_ELDM_1__1__SCRTSN_OTHR_CRDT_TRNSFR_TYP__SCRTSN_OTHR_CRDT_TRNSFR_TYP",
+      "foreign_member_id" : "SCRTSN_OTHR_CRDT_TRNSFR_TYP_5",
+      "primary_member_id" : "SCRTSN_OTHR_CRDT_TRNSFR_TYP_5",
+      "valid_from" : "1999-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "WUDEN__BIRD_TRDTNL_SCRTSTN_EIL_1__01_01_1990__BIRD_SCRTSN_OTHR_CRDT_TRNSFR_ELDM_1__1__SCRTSN_OTHR_CRDT_TRNSFR_TYP__SCRTSN_OTHR_CRDT_TRNSFR_TYP",
+      "foreign_member_id" : "SCRTSN_OTHR_CRDT_TRNSFR_TYP_7",
+      "primary_member_id" : "SCRTSN_OTHR_CRDT_TRNSFR_TYP_7",
+      "valid_from" : "1999-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    } ]
+  } ]
+}

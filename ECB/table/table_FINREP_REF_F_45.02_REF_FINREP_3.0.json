@@ -1,0 +1,273 @@
+{
+  "table_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0",
+  "name" : "F 45.02 Gains or losses on derecognition of non-financial assets",
+  "code" : "F_45.02_REF",
+  "description" : null,
+  "maintenance_agency_id" : "ECB",
+  "version" : "FINREP 3.0",
+  "valid_from" : "2021-06-30",
+  "valid_to" : "9999-12-31",
+  "table_cell" : [ {
+    "cell_id" : "3419738_REF",
+    "is_shaded" : "false",
+    "combination_id" : "429252_REF",
+    "table_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0",
+    "system_data_code" : null,
+    "cell_position" : [ {
+      "cell_id" : "3419738_REF",
+      "axis_ordinate_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_2_0010"
+    }, {
+      "cell_id" : "3419738_REF",
+      "axis_ordinate_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_1_0010"
+    } ]
+  }, {
+    "cell_id" : "3413934_REF",
+    "is_shaded" : "false",
+    "combination_id" : "112738_REF",
+    "table_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0",
+    "system_data_code" : null,
+    "cell_position" : [ {
+      "cell_id" : "3413934_REF",
+      "axis_ordinate_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_2_0020"
+    }, {
+      "cell_id" : "3413934_REF",
+      "axis_ordinate_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_1_0010"
+    } ]
+  }, {
+    "cell_id" : "3413935_REF",
+    "is_shaded" : "false",
+    "combination_id" : "113217_REF",
+    "table_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0",
+    "system_data_code" : null,
+    "cell_position" : [ {
+      "cell_id" : "3413935_REF",
+      "axis_ordinate_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_2_0030"
+    }, {
+      "cell_id" : "3413935_REF",
+      "axis_ordinate_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_1_0010"
+    } ]
+  }, {
+    "cell_id" : "3413937_REF",
+    "is_shaded" : "false",
+    "combination_id" : "113218_REF",
+    "table_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0",
+    "system_data_code" : null,
+    "cell_position" : [ {
+      "cell_id" : "3413937_REF",
+      "axis_ordinate_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_2_0050"
+    }, {
+      "cell_id" : "3413937_REF",
+      "axis_ordinate_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_1_0010"
+    } ]
+  }, {
+    "cell_id" : "3413936_REF",
+    "is_shaded" : "false",
+    "combination_id" : "434224_REF",
+    "table_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0",
+    "system_data_code" : null,
+    "cell_position" : [ {
+      "cell_id" : "3413936_REF",
+      "axis_ordinate_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_1_0010"
+    }, {
+      "cell_id" : "3413936_REF",
+      "axis_ordinate_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_2_0040"
+    } ]
+  } ],
+  "axis" : [ {
+    "axis_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_2",
+    "code" : "F_45.02_REF_2",
+    "orientation" : "Y",
+    "order" : "0",
+    "name" : "F_45.02_REF_2",
+    "description" : null,
+    "table_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0",
+    "is_open_axis" : "false",
+    "axis_ordinate" : [ {
+      "axis_ordinate_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_2_0050",
+      "is_abstract_header" : "false",
+      "code" : "0050",
+      "order" : "0",
+      "level" : "0",
+      "path" : "FINREP_REF_F_45.02_REF_FINREP 3.0_2_0050.",
+      "axis_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_2",
+      "parent_axis_ordinate_id" : null,
+      "name" : "Gains or (-) losses on derecognition of non-financial assets other than held for sale",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_2_0050",
+        "variable_id" : "EBA_APL",
+        "member_id" : "EBA_PL_EBA_x79",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_2_0050",
+        "variable_id" : "EBA_MCE",
+        "member_id" : "EBA_MC_EBA_x575",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    }, {
+      "axis_ordinate_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_2_0040",
+      "is_abstract_header" : "false",
+      "code" : "0040",
+      "order" : "0",
+      "level" : "0",
+      "path" : "FINREP_REF_F_45.02_REF_FINREP 3.0_2_0040.",
+      "axis_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_2",
+      "parent_axis_ordinate_id" : null,
+      "name" : "Other assets",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_2_0040",
+        "variable_id" : "EBA_APL",
+        "member_id" : "EBA_PL_EBA_x79",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_2_0040",
+        "variable_id" : "EBA_MCE",
+        "member_id" : "EBA_MC_EBA_x37",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    }, {
+      "axis_ordinate_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_2_0020",
+      "is_abstract_header" : "false",
+      "code" : "0020",
+      "order" : "0",
+      "level" : "0",
+      "path" : "FINREP_REF_F_45.02_REF_FINREP 3.0_2_0020.",
+      "axis_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_2",
+      "parent_axis_ordinate_id" : null,
+      "name" : "Investment property",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_2_0020",
+        "variable_id" : "EBA_APL",
+        "member_id" : "EBA_PL_EBA_x37",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_2_0020",
+        "variable_id" : "EBA_MCE",
+        "member_id" : "EBA_MC_EBA_x329",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    }, {
+      "axis_ordinate_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_2_0030",
+      "is_abstract_header" : "false",
+      "code" : "0030",
+      "order" : "0",
+      "level" : "0",
+      "path" : "FINREP_REF_F_45.02_REF_FINREP 3.0_2_0030.",
+      "axis_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_2",
+      "parent_axis_ordinate_id" : null,
+      "name" : "Intangible assets",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_2_0030",
+        "variable_id" : "EBA_APL",
+        "member_id" : "EBA_PL_EBA_x79",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_2_0030",
+        "variable_id" : "EBA_MCE",
+        "member_id" : "EBA_MC_EBA_x209",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    }, {
+      "axis_ordinate_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_2_0010",
+      "is_abstract_header" : "false",
+      "code" : "0010",
+      "order" : "0",
+      "level" : "0",
+      "path" : "FINREP_REF_F_45.02_REF_FINREP 3.0_2_0010.",
+      "axis_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_2",
+      "parent_axis_ordinate_id" : null,
+      "name" : "Property, Plant and Equipment",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_2_0010",
+        "variable_id" : "EBA_APL",
+        "member_id" : "EBA_PL_EBA_x46",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_2_0010",
+        "variable_id" : "EBA_MCE",
+        "member_id" : "EBA_MC_EBA_x329",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    } ]
+  }, {
+    "axis_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_1",
+    "code" : "F_45.02_REF_1",
+    "orientation" : "X",
+    "order" : "0",
+    "name" : "F_45.02_REF_1",
+    "description" : null,
+    "table_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0",
+    "is_open_axis" : "false",
+    "axis_ordinate" : [ {
+      "axis_ordinate_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_1_0010",
+      "is_abstract_header" : "false",
+      "code" : "0010",
+      "order" : "0",
+      "level" : "0",
+      "path" : "FINREP_REF_F_45.02_REF_FINREP 3.0_1_0010.",
+      "axis_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_1",
+      "parent_axis_ordinate_id" : null,
+      "name" : "Current period",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_1_0010",
+        "variable_id" : "EBA_md103",
+        "member_id" : null,
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_1_0010",
+        "variable_id" : "EBA_BAS",
+        "member_id" : "EBA_BA_EBA_x1",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0_1_0010",
+        "variable_id" : "EBA_MCY",
+        "member_id" : "EBA_MC_EBA_x180",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    } ]
+  } ]
+}

@@ -1,0 +1,36 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "LST_INDCTR_INPT",
+  "name" : "Is listed indicator (Input Layer)",
+  "domain_id" : "BLN",
+  "is_listed" : "true",
+  "code" : "LST_INDCTR_INPT",
+  "facet_id" : null,
+  "description" : "Subdomain that specifies whether an instrument Is listed according to the Directive 2014/65/EU on markets in financial instruments.",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "BLN_0",
+    "subdomain_id" : "LST_INDCTR_INPT",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "BLN_A",
+    "subdomain_id" : "LST_INDCTR_INPT",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "2023-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "BLN_F",
+    "subdomain_id" : "LST_INDCTR_INPT",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "BLN_T",
+    "subdomain_id" : "LST_INDCTR_INPT",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

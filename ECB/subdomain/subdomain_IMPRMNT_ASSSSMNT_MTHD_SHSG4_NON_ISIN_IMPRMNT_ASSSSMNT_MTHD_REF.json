@@ -1,0 +1,30 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "IMPRMNT_ASSSSMNT_MTHD_SHSG4_NON_ISIN_IMPRMNT_ASSSSMNT_MTHD_REF",
+  "name" : "Subdomain for IMPRMNT_ASSSSMNT_MTHD of the Cube SHSG4_NON_ISIN",
+  "domain_id" : "IMPRMNT_ASSSSMNT_MTHD",
+  "is_listed" : "true",
+  "code" : "IMPRMNT_ASSSSMNT_MTHD_SHSG4_NON_ISIN_IMPRMNT_ASSSSMNT_MTHD_REF",
+  "facet_id" : null,
+  "description" : null,
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "IMPRMNT_ASSSSMNT_MTHD_1",
+    "subdomain_id" : "IMPRMNT_ASSSSMNT_MTHD_SHSG4_NON_ISIN_IMPRMNT_ASSSSMNT_MTHD_REF",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "2"
+  }, {
+    "member_id" : "IMPRMNT_ASSSSMNT_MTHD_0",
+    "subdomain_id" : "IMPRMNT_ASSSSMNT_MTHD_SHSG4_NON_ISIN_IMPRMNT_ASSSSMNT_MTHD_REF",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "1"
+  }, {
+    "member_id" : "IMPRMNT_ASSSSMNT_MTHD_2",
+    "subdomain_id" : "IMPRMNT_ASSSSMNT_MTHD_SHSG4_NON_ISIN_IMPRMNT_ASSSSMNT_MTHD_REF",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

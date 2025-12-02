@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "ANCRDT_DBTR_NN_ANNYMSD_HST_GC_D_AS__ANCRDT_INSTRMNT_FCT_HST_GC_D_AS__DBTR_ID__1",
+  "code" : "ANCRDT_DBTR_NN_ANNYMSD_HST_GC_D_AS__ANCRDT_INSTRMNT_FCT_HST_GC_D_AS__DBTR_ID__1",
+  "name" : "Debtor - Instrument-fact HISTORICAL GOLDEN COPY in AS",
+  "description" : "This relationship connects debtors from the Debtor table with instruments in the Instrument Fact table. One debtor can be linked to many instruments. (Historical Golden copy)",
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "ANCRDT_DBTR_NN_ANNYMSD_HST_GC_D_AS_1",
+  "primary_cube_variable_code" : "DBTR_ID",
+  "foreign_cube_id" : "ANCRDT_INSTRMNT_FCT_HST_GC_D_AS_1",
+  "foreign_cube_variable_code" : "ENTTY_RIAD_ID",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "true"
+}

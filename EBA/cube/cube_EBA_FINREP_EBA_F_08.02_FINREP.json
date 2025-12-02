@@ -1,0 +1,50 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "cube_id" : "EBA_FINREP_EBA_F_08.02_FINREP",
+  "name" : "Subordinated liabilities",
+  "code" : "F_08.02",
+  "framework_id" : "EBA_FINREP",
+  "cube_structure_id" : "EBA_FINREP_EBA_F_08.02_FINREP",
+  "cube_type" : "D",
+  "is_allowed" : null,
+  "valid_from" : "2013-12-01",
+  "valid_to" : "2018-03-30",
+  "version" : "FINREP",
+  "description" : "Subordinated liabilities",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_08.02_FINREP",
+    "combination_id" : "EBA_11235"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_08.02_FINREP",
+    "combination_id" : "EBA_11245"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_08.02_FINREP",
+    "combination_id" : "EBA_11246"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_08.02_FINREP",
+    "combination_id" : "EBA_11439"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_08.02_FINREP",
+    "combination_id" : "EBA_11449"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_08.02_FINREP",
+    "combination_id" : "EBA_11450"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_08.02_FINREP",
+    "combination_id" : "EBA_45838"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_08.02_FINREP",
+    "combination_id" : "EBA_45847"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_08.02_FINREP",
+    "combination_id" : "EBA_45848"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_08.02_FINREP",
+    "table_id" : "EBA_FINREP_EBA_F_08.02_FINREP"
+  } ]
+}

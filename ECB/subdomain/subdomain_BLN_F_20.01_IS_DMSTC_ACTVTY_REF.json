@@ -1,0 +1,36 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "BLN_F_20.01_IS_DMSTC_ACTVTY_REF",
+  "name" : "Subdomain for IS_DMSTC_ACTVTY of the Cube F_20.01",
+  "domain_id" : "BLN",
+  "is_listed" : "true",
+  "code" : "BLN_F_20.01_IS_DMSTC_ACTVTY_REF",
+  "facet_id" : null,
+  "description" : null,
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "BLN_T",
+    "subdomain_id" : "BLN_F_20.01_IS_DMSTC_ACTVTY_REF",
+    "valid_from" : "2018-12-31",
+    "valid_to" : "2021-06-29",
+    "order" : "0"
+  }, {
+    "member_id" : "BLN_F",
+    "subdomain_id" : "BLN_F_20.01_IS_DMSTC_ACTVTY_REF",
+    "valid_from" : "2018-12-31",
+    "valid_to" : "2021-06-29",
+    "order" : "1"
+  }, {
+    "member_id" : "BLN_T",
+    "subdomain_id" : "BLN_F_20.01_IS_DMSTC_ACTVTY_REF",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "BLN_F",
+    "subdomain_id" : "BLN_F_20.01_IS_DMSTC_ACTVTY_REF",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31",
+    "order" : "1"
+  } ]
+}

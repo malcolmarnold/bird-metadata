@@ -1,0 +1,10 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "variable_id" : "IS_SQNC",
+  "code" : "IS_SQNC",
+  "name" : "isSequence",
+  "domain_id" : "BLN",
+  "description" : "The isSequence facet indicates whether the values are intended to be ordered, and it may work in combination with the interval, startValue, and endValue facet or the timeInterval, startTime, and endTime, facets. If this attribute holds a value of true, a start value or time and a numeric or time interval must supplied. If an end value is not given, then the sequence continues indefinitely.",
+  "primary_concept" : null,
+  "is_decomposed" : "true"
+}

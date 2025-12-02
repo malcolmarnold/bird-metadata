@@ -1,0 +1,30 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "TYP_INSTRMNT_ID",
+  "name" : "Type of identifier for the security",
+  "domain_id" : "TYP_INSTRMNT_ID",
+  "is_listed" : "true",
+  "code" : "TYP_INSTRMNT_ID",
+  "facet_id" : null,
+  "description" : "Type of identifier for the security",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "TYP_INSTRMNT_ID_CUSIP",
+    "subdomain_id" : "TYP_INSTRMNT_ID",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_INSTRMNT_ID_INTERNAL_CODE",
+    "subdomain_id" : "TYP_INSTRMNT_ID",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_INSTRMNT_ID_SEDOL",
+    "subdomain_id" : "TYP_INSTRMNT_ID",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

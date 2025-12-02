@@ -1,0 +1,10 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "variable_id" : "STRT_VL",
+  "code" : "STRT_VL",
+  "name" : "startValue",
+  "domain_id" : "INTGR",
+  "description" : "The startValue facet is used in conjunction with the isSequence and interval facets (which must be set in order to use this facet). This facet is used for a numeric sequence, and indicates the starting point of the sequence. This value is mandatory for a numeric sequence to be expressed.",
+  "primary_concept" : null,
+  "is_decomposed" : "true"
+}

@@ -1,0 +1,109 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_AT47",
+  "code" : "AT47",
+  "domain_id" : "EBA_ATY",
+  "name" : "Hierarchy for calculating changes in defined benefit obligations",
+  "description" : "EBA_AT47",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_AT47",
+    "member_id" : "EBA_ATY_EBA_md20",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT47",
+    "member_id" : "EBA_ATY_EBA_md12",
+    "level" : "2",
+    "parent_member_id" : "EBA_ATY_EBA_md20",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT47",
+    "member_id" : "EBA_ATY_EBA_md60",
+    "level" : "2",
+    "parent_member_id" : "EBA_ATY_EBA_md20",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT47",
+    "member_id" : "EBA_ATY_EBA_md59",
+    "level" : "2",
+    "parent_member_id" : "EBA_ATY_EBA_md20",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT47",
+    "member_id" : "EBA_ATY_EBA_md11",
+    "level" : "2",
+    "parent_member_id" : "EBA_ATY_EBA_md20",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT47",
+    "member_id" : "EBA_ATY_EBA_md186",
+    "level" : "2",
+    "parent_member_id" : "EBA_ATY_EBA_md20",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT47",
+    "member_id" : "EBA_ATY_EBA_md147",
+    "level" : "2",
+    "parent_member_id" : "EBA_ATY_EBA_md20",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT47",
+    "member_id" : "EBA_ATY_EBA_md131",
+    "level" : "2",
+    "parent_member_id" : "EBA_ATY_EBA_md20",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT47",
+    "member_id" : "EBA_ATY_EBA_md83",
+    "level" : "2",
+    "parent_member_id" : "EBA_ATY_EBA_md20",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT47",
+    "member_id" : "EBA_ATY_EBA_md104",
+    "level" : "2",
+    "parent_member_id" : "EBA_ATY_EBA_md20",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT47",
+    "member_id" : "EBA_ATY_EBA_md69",
+    "level" : "2",
+    "parent_member_id" : "EBA_ATY_EBA_md20",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "RTL_EXPSR_ACCRDNG_CRR_INDCTR",
+  "name" : "Retail exposure accordign to CRR, Article 123 (b) indicator",
+  "domain_id" : "RTL_EXPSR_ACCRDNG_CRR_INDCTR",
+  "is_listed" : "true",
+  "code" : "RTL_EXPSR_ACCRDNG_CRR_INDCTR",
+  "facet_id" : null,
+  "description" : "Retail exposure accordign to CRR, Article 123 (b) indicator",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "RTL_EXPSR_ACCRDNG_CRR_INDCTR_1",
+    "subdomain_id" : "RTL_EXPSR_ACCRDNG_CRR_INDCTR",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "RTL_EXPSR_ACCRDNG_CRR_INDCTR_2",
+    "subdomain_id" : "RTL_EXPSR_ACCRDNG_CRR_INDCTR",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

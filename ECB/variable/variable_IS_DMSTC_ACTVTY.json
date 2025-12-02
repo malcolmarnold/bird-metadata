@@ -1,0 +1,10 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "variable_id" : "IS_DMSTC_ACTVTY",
+  "code" : "IS_DMSTC_ACTVTY",
+  "name" : "Is domestic activity",
+  "domain_id" : "BLN",
+  "description" : "Institutional unit resident in the same country as the legal entity to which it belongs to. IF country = country(head office) THEN TRUE,\nELSE FALSE",
+  "primary_concept" : null,
+  "is_decomposed" : null
+}

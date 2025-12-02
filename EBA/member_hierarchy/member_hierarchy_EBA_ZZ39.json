@@ -1,0 +1,37 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_ZZ39",
+  "code" : "ZZ39",
+  "domain_id" : "EBA_ZZ",
+  "name" : "Originator's call options included in transaction",
+  "description" : "EBA_ZZ39",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_ZZ39",
+    "member_id" : "EBA_ZZ_EBA_x331",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2019-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ39",
+    "member_id" : "EBA_ZZ_EBA_x329",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2019-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ39",
+    "member_id" : "EBA_ZZ_EBA_x330",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2019-12-31",
+    "valid_to" : "9999-12-31"
+  } ]
+}

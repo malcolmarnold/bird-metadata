@@ -1,0 +1,55 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_RP5",
+  "code" : "RP5",
+  "domain_id" : "EBA_RP",
+  "name" : "Type of identified staff",
+  "description" : "EBA_RP5",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_RP5",
+    "member_id" : "EBA_RP_EBA_x100",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "2022-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_RP5",
+    "member_id" : "EBA_RP_EBA_x70",
+    "level" : "2",
+    "parent_member_id" : "EBA_RP_EBA_x100",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2022-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_RP5",
+    "member_id" : "EBA_RP_EBA_x65",
+    "level" : "2",
+    "parent_member_id" : "EBA_RP_EBA_x100",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2022-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_RP5",
+    "member_id" : "EBA_RP_EBA_x64",
+    "level" : "2",
+    "parent_member_id" : "EBA_RP_EBA_x100",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2022-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_RP5",
+    "member_id" : "EBA_RP_EBA_x93",
+    "level" : "2",
+    "parent_member_id" : "EBA_RP_EBA_x100",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2022-12-31",
+    "valid_to" : "9999-12-31"
+  } ]
+}

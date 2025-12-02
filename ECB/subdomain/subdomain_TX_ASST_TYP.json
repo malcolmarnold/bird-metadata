@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "TX_ASST_TYP",
+  "name" : "Tax asset type",
+  "domain_id" : "TYP_ACCNTNG_ITM",
+  "is_listed" : "true",
+  "code" : "TX_ASST_TYP",
+  "facet_id" : null,
+  "description" : "Tax asset type",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "TYP_ACCNTNG_ITM_440",
+    "subdomain_id" : "TX_ASST_TYP",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_ACCNTNG_ITM_450",
+    "subdomain_id" : "TX_ASST_TYP",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

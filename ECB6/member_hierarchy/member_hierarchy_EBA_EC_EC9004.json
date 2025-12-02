@@ -1,0 +1,37 @@
+{
+  "maintenance_agency_id" : "ECB6",
+  "member_hierarchy_id" : "EBA_EC_EC9004",
+  "code" : "EC9004",
+  "domain_id" : "EBA_EC",
+  "name" : "Hierarchy for the SME/non-SME retail exposure classes secured by immovable property in IRB Approach",
+  "description" : "Definition of exposures to SME in Retail exposures secured by the Real Estate in IRB Approach",
+  "is_main_hierarchy" : null,
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_EC_EC9004",
+    "member_id" : "EBA_EC_EBA_x44",
+    "level" : "2",
+    "parent_member_id" : "EBA_EC_EBA_x9",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_EC_EC9004",
+    "member_id" : "EBA_EC_EBA_x9",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_EC_EC9004",
+    "member_id" : "EBA_EC_EBA_x45",
+    "level" : "2",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

@@ -1,0 +1,30 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "TYP_INSTRMNT_SHSG4_NON_ISIN_TYP_INSTRMNT_REF",
+  "name" : "Subdomain for TYP_INSTRMNT of the Cube SHSG4_NON_ISIN",
+  "domain_id" : "TYP_INSTRMNT",
+  "is_listed" : "true",
+  "code" : "TYP_INSTRMNT_SHSG4_NON_ISIN_TYP_INSTRMNT_REF",
+  "facet_id" : null,
+  "description" : null,
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "TYP_INSTRMNT_210",
+    "subdomain_id" : "TYP_INSTRMNT_SHSG4_NON_ISIN_TYP_INSTRMNT_REF",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_INSTRMNT_220",
+    "subdomain_id" : "TYP_INSTRMNT_SHSG4_NON_ISIN_TYP_INSTRMNT_REF",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "1"
+  }, {
+    "member_id" : "TYP_INSTRMNT_240",
+    "subdomain_id" : "TYP_INSTRMNT_SHSG4_NON_ISIN_TYP_INSTRMNT_REF",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "2"
+  } ]
+}

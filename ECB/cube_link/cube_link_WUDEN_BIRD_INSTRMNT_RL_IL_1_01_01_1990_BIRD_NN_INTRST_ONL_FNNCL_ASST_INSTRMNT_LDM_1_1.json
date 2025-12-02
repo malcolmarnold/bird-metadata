@@ -1,0 +1,40 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_link_id" : "WUDEN__BIRD_INSTRMNT_RL_IL_1__01_01_1990__BIRD_NN_INTRST_ONL_FNNCL_ASST_INSTRMNT_LDM_1__1",
+  "code" : "WUDEN__BIRD_INSTRMNT_RL_IL_1__01_01_1990__BIRD_NN_INTRST_ONL_FNNCL_ASST_INSTRMNT_LDM_1",
+  "name" : "The LDM: Non-interest-only financial asset instrument (BIRD_NN_INTRST_ONL_FNNCL_ASST_INSTRMNT_LDM) is forward engineered into the IL: Instrument role (BIRD_INSTRMNT_RL_IL)",
+  "description" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "order_relevance" : "1",
+  "primary_cube_id" : "BIRD_NN_INTRST_ONL_FNNCL_ASST_INSTRMNT_LDM_1",
+  "foreign_cube_id" : "BIRD_INSTRMNT_RL_IL_1",
+  "cube_link_type" : "TR",
+  "logical_transformation_rule_id" : "WUDEN__BIRD_INSTRMNT_RL_IL_1__01_01_1990",
+  "cube_structure_item_link" : [ {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_RL_IL_1__01_01_1990__BIRD_NN_INTRST_ONL_FNNCL_ASST_INSTRMNT_LDM_1__1__DT_RFRNC__DT_RFRNC",
+    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_RL_IL_1__01_01_1990__BIRD_NN_INTRST_ONL_FNNCL_ASST_INSTRMNT_LDM_1__1",
+    "foreign_cube_variable_code" : "DT_RFRNC",
+    "primary_cube_variable_code" : "DT_RFRNC",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_RL_IL_1__01_01_1990__BIRD_NN_INTRST_ONL_FNNCL_ASST_INSTRMNT_LDM_1__1__INSTRMNT_ID__INSTRMNT_ID",
+    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_RL_IL_1__01_01_1990__BIRD_NN_INTRST_ONL_FNNCL_ASST_INSTRMNT_LDM_1__1",
+    "foreign_cube_variable_code" : "INSTRMNT_ID",
+    "primary_cube_variable_code" : "INSTRMNT_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_RL_IL_1__01_01_1990__BIRD_NN_INTRST_ONL_FNNCL_ASST_INSTRMNT_LDM_1__1__RPRTNG_AGNT_ID__RPRTNG_AGNT_ID",
+    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_RL_IL_1__01_01_1990__BIRD_NN_INTRST_ONL_FNNCL_ASST_INSTRMNT_LDM_1__1",
+    "foreign_cube_variable_code" : "RPRTNG_AGNT_ID",
+    "primary_cube_variable_code" : "RPRTNG_AGNT_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  } ]
+}

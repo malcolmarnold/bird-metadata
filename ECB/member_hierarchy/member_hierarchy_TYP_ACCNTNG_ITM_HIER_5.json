@@ -1,0 +1,91 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "TYP_ACCNTNG_ITM_HIER_5",
+  "code" : "5",
+  "domain_id" : "TYP_ACCNTNG_ITM",
+  "name" : "All assets hierarchy, with breakdown by Assets other than Financial assets, Tangible assets",
+  "description" : "Hierarchical structure of the member All assets (499), with break down by Assets other than Financial assets, Tangible assets (469)",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "TYP_ACCNTNG_ITM_HIER_5",
+    "member_id" : "TYP_ACCNTNG_ITM_499",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_ACCNTNG_ITM_HIER_5",
+    "member_id" : "TYP_ACCNTNG_ITM_40",
+    "level" : "2",
+    "parent_member_id" : "TYP_ACCNTNG_ITM_499",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_ACCNTNG_ITM_HIER_5",
+    "member_id" : "TYP_ACCNTNG_ITM_410",
+    "level" : "2",
+    "parent_member_id" : "TYP_ACCNTNG_ITM_499",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_ACCNTNG_ITM_HIER_5",
+    "member_id" : "TYP_ACCNTNG_ITM_469",
+    "level" : "2",
+    "parent_member_id" : "TYP_ACCNTNG_ITM_499",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_ACCNTNG_ITM_HIER_5",
+    "member_id" : "TYP_ACCNTNG_ITM_10",
+    "level" : "3",
+    "parent_member_id" : "TYP_ACCNTNG_ITM_469",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_ACCNTNG_ITM_HIER_5",
+    "member_id" : "TYP_ACCNTNG_ITM_401",
+    "level" : "3",
+    "parent_member_id" : "TYP_ACCNTNG_ITM_469",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_ACCNTNG_ITM_HIER_5",
+    "member_id" : "TYP_ACCNTNG_ITM_431",
+    "level" : "3",
+    "parent_member_id" : "TYP_ACCNTNG_ITM_469",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_ACCNTNG_ITM_HIER_5",
+    "member_id" : "TYP_ACCNTNG_ITM_451",
+    "level" : "3",
+    "parent_member_id" : "TYP_ACCNTNG_ITM_469",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_ACCNTNG_ITM_HIER_5",
+    "member_id" : "TYP_ACCNTNG_ITM_1300",
+    "level" : "3",
+    "parent_member_id" : "TYP_ACCNTNG_ITM_469",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

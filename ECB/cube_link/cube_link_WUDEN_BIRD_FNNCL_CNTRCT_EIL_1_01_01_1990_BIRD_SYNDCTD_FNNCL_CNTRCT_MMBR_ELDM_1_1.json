@@ -1,0 +1,32 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_link_id" : "WUDEN__BIRD_FNNCL_CNTRCT_EIL_1__01_01_1990__BIRD_SYNDCTD_FNNCL_CNTRCT_MMBR_ELDM_1__1",
+  "code" : "WUDEN__BIRD_FNNCL_CNTRCT_EIL_1__01_01_1990__BIRD_SYNDCTD_FNNCL_CNTRCT_MMBR_ELDM_1",
+  "name" : "The LDM: Syndicated financial contract member (BIRD_SYNDCTD_FNNCL_CNTRCT_MMBR_ELDM) is forward engineered into the IL: Financial contract (BIRD_FNNCL_CNTRCT_EIL)",
+  "description" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "order_relevance" : "1",
+  "primary_cube_id" : "BIRD_SYNDCTD_FNNCL_CNTRCT_MMBR_ELDM_1",
+  "foreign_cube_id" : "BIRD_FNNCL_CNTRCT_EIL_1",
+  "cube_link_type" : "TR",
+  "logical_transformation_rule_id" : "WUDEN__BIRD_FNNCL_CNTRCT_EIL_1__01_01_1990",
+  "cube_structure_item_link" : [ {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_FNNCL_CNTRCT_EIL_1__01_01_1990__BIRD_SYNDCTD_FNNCL_CNTRCT_MMBR_ELDM_1__1__FNNCL_CNTRCT_ID__FNNCL_CNTRCT_ID",
+    "cube_link_id" : "WUDEN__BIRD_FNNCL_CNTRCT_EIL_1__01_01_1990__BIRD_SYNDCTD_FNNCL_CNTRCT_MMBR_ELDM_1__1",
+    "foreign_cube_variable_code" : "FNNCL_CNTRCT_ID",
+    "primary_cube_variable_code" : "FNNCL_CNTRCT_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_FNNCL_CNTRCT_EIL_1__01_01_1990__BIRD_SYNDCTD_FNNCL_CNTRCT_MMBR_ELDM_1__1__SYNDCTD_CNTRCT_ID__SYNDCTD_CNTRCT_ID",
+    "cube_link_id" : "WUDEN__BIRD_FNNCL_CNTRCT_EIL_1__01_01_1990__BIRD_SYNDCTD_FNNCL_CNTRCT_MMBR_ELDM_1__1",
+    "foreign_cube_variable_code" : "SYNDCTD_CNTRCT_ID",
+    "primary_cube_variable_code" : "SYNDCTD_CNTRCT_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  } ]
+}

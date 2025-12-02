@@ -1,0 +1,46 @@
+{
+  "maintenance_agency_id" : "ECB6",
+  "member_hierarchy_id" : "EBA_NC_NC9013",
+  "code" : "NC9013",
+  "domain_id" : "EBA_NC",
+  "name" : "Hierarchy for G45-G47 subset of G - Wholesale and retail trade",
+  "description" : null,
+  "is_main_hierarchy" : null,
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_NC_NC9013",
+    "member_id" : "EBA_NC_EBA_G45",
+    "level" : "2",
+    "parent_member_id" : "EBA_NC_ECB6_G45-G47",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_NC_NC9013",
+    "member_id" : "EBA_NC_EBA_G46",
+    "level" : "2",
+    "parent_member_id" : "EBA_NC_ECB6_G45-G47",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_NC_NC9013",
+    "member_id" : "EBA_NC_EBA_G47",
+    "level" : "2",
+    "parent_member_id" : "EBA_NC_ECB6_G45-G47",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_NC_NC9013",
+    "member_id" : "EBA_NC_ECB6_G45-G47",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

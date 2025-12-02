@@ -1,0 +1,644 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+  "name" : "Loans and advances collateralised by immovable property: Breakdown by LTV ratios - Reference",
+  "code" : "F_23.03_REF",
+  "framework_id" : "FINREP_REF",
+  "cube_structure_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+  "cube_type" : "RC",
+  "is_allowed" : null,
+  "valid_from" : "2020-06-30",
+  "valid_to" : "9999-12-31",
+  "version" : "FINREP 2.9",
+  "description" : null,
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431461_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431409_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431385_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431407_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431382_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431400_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431881_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431612_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431940_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431615_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431606_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431601_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431935_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431608_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431413_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431391_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431414_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431396_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431857_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431398_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431859_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "434223_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "434205_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431878_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431876_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431595_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431871_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431592_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431375_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431629_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431641_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431372_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431620_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431536_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431627_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431368_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431634_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431633_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431900_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431366_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431862_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431421_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "434218_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431586_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431865_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "434216_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431588_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431751_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "434211_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431387_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431405_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431380_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431402_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431389_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431610_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431942_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431617_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431678_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431676_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431884_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431619_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431883_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431937_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431939_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431899_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431604_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431603_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431418_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "434221_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431411_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431393_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431416_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431394_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431855_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "434209_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431458_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431874_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431597_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431873_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431590_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "434207_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431599_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431533_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431622_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431379_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431534_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431625_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431377_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431370_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431902_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431638_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431636_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431631_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431754_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "434214_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431869_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431753_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "434213_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431583_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431860_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431423_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431424_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431584_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431867_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431882_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431618_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431677_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431679_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431616_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431944_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431943_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431611_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431388_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431403_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431381_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431404_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431386_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431395_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431417_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431392_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431410_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "434220_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431419_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431602_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431605_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431898_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431938_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431936_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431371_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431642_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431376_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431624_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431535_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431378_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431623_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431532_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431598_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "434206_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431457_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431591_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431872_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431596_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431875_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "434208_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431459_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431866_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431585_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431422_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431861_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "434212_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431752_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431868_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "434215_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431630_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431637_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431639_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431365_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431614_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431941_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431613_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431880_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431675_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431401_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431383_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431406_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431384_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431408_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431460_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "434222_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431858_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431399_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431856_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431397_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431415_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431390_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431412_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431609_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431934_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431933_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431600_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431607_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431626_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431621_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431373_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431640_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431628_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431374_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431593_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431870_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431594_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431877_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431879_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "434204_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "434210_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431750_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431589_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "434217_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431864_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431587_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "434219_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431420_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431863_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431367_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431901_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431632_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431635_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "combination_id" : "431369_REF"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9",
+    "table_id" : "FINREP_REF_F_23.03_REF_FINREP 2.9"
+  } ]
+}

@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_RTNG_SYSTM_APPLD_LGL_PRSN_LDM_1",
+  "name" : "Rating system applied to a Legal person",
+  "code" : "BIRD_RTNG_SYSTM_APPLD_LGL_PRSN_LDM",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_RTNG_SYSTM_APPLD_LGL_PRSN_LDM_1",
+  "cube_type" : "LDM",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "A Rating system applied to a Party is the combination of a Numeric rating system and a Party that indicates which Party is evaluated based on which Numeric rating system with which Probability of Default.",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

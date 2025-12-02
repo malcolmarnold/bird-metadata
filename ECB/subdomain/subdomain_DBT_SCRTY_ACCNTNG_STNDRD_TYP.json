@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "DBT_SCRTY_ACCNTNG_STNDRD_TYP",
+  "name" : "Debt security by accounting standard",
+  "domain_id" : "SCRTY_EXCHNG_TRDBL_DRVTV_TYP",
+  "is_listed" : "true",
+  "code" : "DBT_SCRTY_ACCNTNG_STNDRD_TYP",
+  "facet_id" : null,
+  "description" : "Debt security by accounting standard",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "SCRTY_EXCHNG_TRDBL_DRVTV_TYP_21",
+    "subdomain_id" : "DBT_SCRTY_ACCNTNG_STNDRD_TYP",
+    "valid_from" : "2024-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "SCRTY_EXCHNG_TRDBL_DRVTV_TYP_22",
+    "subdomain_id" : "DBT_SCRTY_ACCNTNG_STNDRD_TYP",
+    "valid_from" : "2024-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

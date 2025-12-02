@@ -1,0 +1,1394 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+  "name" : "Movements in allowances for credit losses and impairment of equity instruments",
+  "code" : "F_12.00",
+  "framework_id" : "EBA_FINREP",
+  "cube_structure_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+  "cube_type" : "D",
+  "is_allowed" : null,
+  "valid_from" : "2015-06-30",
+  "valid_to" : "2018-03-30",
+  "version" : "FINREP 2015-A",
+  "description" : "Movements in allowances for credit losses and impairment of equity instruments",
+  "published" : "false",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112518"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112519"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112520"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112521"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112522"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112523"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112524"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112525"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112526"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112527"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112528"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112529"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112530"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112531"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112499"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112500"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112501"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112502"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112503"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112504"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112505"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112506"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112507"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112508"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112509"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112510"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112511"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112512"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112513"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112514"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112515"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112516"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112517"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45280"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45282"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45284"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45286"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45294"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45296"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45298"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45323"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45324"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45325"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45326"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45327"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45328"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45329"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45330"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45331"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45334"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45335"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45336"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45337"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45338"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45339"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45340"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45278"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45341"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112532"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112533"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112534"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112698"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45270"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45272"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45274"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45276"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45385"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45386"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45387"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45390"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45391"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45392"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45441"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45443"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45342"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45343"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45344"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45345"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45348"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45384"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45349"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45350"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45351"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45352"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45353"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45354"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45355"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45356"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45357"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45358"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45359"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45362"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45363"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45364"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45379"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45380"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45381"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45382"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45383"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_67225"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_67226"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_67227"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_67228"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_67229"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_67232"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_67233"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_67240"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_67242"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_67246"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_67247"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_67248"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_67249"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_67250"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_67251"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_67254"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_67255"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10002"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10005"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10006"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45467"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45469"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45470"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45471"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45493"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45495"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45497"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45511"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45512"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45513"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45514"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45515"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45516"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45517"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45518"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45519"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45521"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45522"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45523"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45445"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45459"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45460"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45461"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45462"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45463"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45464"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45465"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_45466"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_67196"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_67198"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_67202"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_67203"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_67204"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_67205"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_67206"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_67207"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_67210"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_67211"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_67218"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_67220"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_67224"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10185"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10186"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10187"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10188"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10189"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10190"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10191"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10192"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10195"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10296"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10297"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10298"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10299"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10300"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10301"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10302"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10303"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10306"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10196"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10197"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10241"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10243"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10245"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10247"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10249"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10251"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10253"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10255"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10257"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10266"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10268"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10270"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10295"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10033"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10034"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10035"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10036"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10037"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10038"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10039"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10041"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10042"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10043"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10074"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10076"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10078"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10080"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10082"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10084"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10086"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10088"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10090"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10099"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10101"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10007"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10009"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10022"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10024"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10026"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10031"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10032"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10103"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10128"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10129"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10130"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10131"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10168"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10169"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10184"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10307"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10308"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10309"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10310"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10311"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10312"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10313"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10314"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10315"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10316"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10317"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10320"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10321"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10132"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10133"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10134"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10135"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10136"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10139"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10140"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10141"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10142"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10143"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10144"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10145"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10146"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10147"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10148"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10149"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10150"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10153"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10154"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10155"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10156"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10323"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10324"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10325"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10326"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10327"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10328"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10329"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10330"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10331"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10334"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10335"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10336"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10351"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10352"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10353"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10354"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10355"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10356"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10357"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10322"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10157"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10158"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10159"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10160"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10161"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10162"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10163"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10164"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10167"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112427"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112428"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112429"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112430"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112431"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112432"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112447"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112448"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112449"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112450"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112451"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112452"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112453"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112433"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112434"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112435"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112436"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112437"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112438"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112439"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112440"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112441"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112442"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112443"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112444"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112445"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112454"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112455"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112456"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112457"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112458"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112459"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112460"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112461"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112462"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112463"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112464"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112465"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112446"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112400"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112401"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112402"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112403"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112404"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112405"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112406"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112407"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112408"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112409"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112410"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112411"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112412"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112413"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112414"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112415"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112416"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112417"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112418"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112419"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112420"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112421"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112422"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112423"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112424"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112425"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112426"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112367"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112368"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112369"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112371"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112372"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112373"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112374"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112375"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112376"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112377"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112378"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112379"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112380"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112381"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112382"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112383"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112384"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112385"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112386"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112387"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112388"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112389"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112390"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112391"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112392"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112393"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112370"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112394"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112395"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112396"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112397"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112398"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112399"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112340"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112341"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112342"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112343"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112344"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112345"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112346"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112347"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112348"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112349"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112350"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112351"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112352"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112353"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112354"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112355"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112356"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112357"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112358"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112359"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112360"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112361"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112362"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112363"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112364"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112365"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112366"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10358"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10359"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10362"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10363"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_10364"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112339"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112466"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112467"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112468"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112469"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112470"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112471"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112472"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112495"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112496"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112497"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112498"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112473"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112474"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112475"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112476"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112477"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112478"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112479"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112480"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112481"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112482"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112483"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112484"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112485"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112486"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112487"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112488"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112489"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112490"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112491"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112492"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112493"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "combination_id" : "EBA_112494"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A",
+    "table_id" : "EBA_FINREP_EBA_F_12.00_FINREP_2015-A"
+  } ]
+}

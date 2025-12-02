@@ -1,0 +1,55 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_MC79",
+  "code" : "MC79",
+  "domain_id" : "EBA_MC",
+  "name" : "Hierarchy for instruments subject to securitisation credit risk treatment",
+  "description" : "List the different instruments which are subject to securitisation credit risk treatment. Shows, how these are related and which of them are explicitly mentioned in COREP templates",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_MC79",
+    "member_id" : "EBA_MC_EBA_x0",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC79",
+    "member_id" : "EBA_MC_EBA_x198",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x0",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC79",
+    "member_id" : "EBA_MC_EBA_x199",
+    "level" : "3",
+    "parent_member_id" : "EBA_MC_EBA_x198",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC79",
+    "member_id" : "EBA_MC_EBA_x202",
+    "level" : "3",
+    "parent_member_id" : "EBA_MC_EBA_x198",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC79",
+    "member_id" : "EBA_MC_EBA_x203",
+    "level" : "3",
+    "parent_member_id" : "EBA_MC_EBA_x198",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

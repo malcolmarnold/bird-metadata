@@ -1,0 +1,182 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_group_id" : "LDM_INSTRMNT_PRTY_RLTD",
+  "name" : "Instrument Party related",
+  "code" : "LDM_INSTRMNT_PRTY_RLTD",
+  "description" : "Instrument Party related",
+  "cube_group_enumeration" : [ {
+    "order" : "10",
+    "cube_group_id" : "LDM_INSTRMNT_PRTY_RLTD",
+    "cube_id" : "BIRD_EQTY_INSTRMNT_NT_SCRTY_ISSR_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "16",
+    "cube_group_id" : "LDM_INSTRMNT_PRTY_RLTD",
+    "cube_id" : "BIRD_FNNCL_GRNT_INSTRMNT_BNFCRY_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "4",
+    "cube_group_id" : "LDM_INSTRMNT_PRTY_RLTD",
+    "cube_id" : "BIRD_OTC_DRVTV_SLLR_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "11",
+    "cube_group_id" : "LDM_INSTRMNT_PRTY_RLTD",
+    "cube_id" : "BIRD_FNNCL_LS_LSSR_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "17",
+    "cube_group_id" : "LDM_INSTRMNT_PRTY_RLTD",
+    "cube_id" : "BIRD_CRDT_CRD_DBT_DBTR_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "LDM_INSTRMNT_PRTY_RLTD",
+    "cube_id" : "BIRD_EQTY_INSTRMNT_NT_SCRTY_INVSTR_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "18",
+    "cube_group_id" : "LDM_INSTRMNT_PRTY_RLTD",
+    "cube_id" : "BIRD_OTHR_LN_DBTR_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "5",
+    "cube_group_id" : "LDM_INSTRMNT_PRTY_RLTD",
+    "cube_id" : "BIRD_OTC_DRVTV_BUYR_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "21",
+    "cube_group_id" : "LDM_INSTRMNT_PRTY_RLTD",
+    "cube_id" : "BIRD_ADVNC_DBTR_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "19",
+    "cube_group_id" : "LDM_INSTRMNT_PRTY_RLTD",
+    "cube_id" : "BIRD_FNNCL_GRNT_INSTRMNT_PRTCTN_PRVDR_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "12",
+    "cube_group_id" : "LDM_INSTRMNT_PRTY_RLTD",
+    "cube_id" : "BIRD_ADVNC_CRDTR_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "20",
+    "cube_group_id" : "LDM_INSTRMNT_PRTY_RLTD",
+    "cube_id" : "BIRD_OTHR_CMMTMNT_CRDTR_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "6",
+    "cube_group_id" : "LDM_INSTRMNT_PRTY_RLTD",
+    "cube_id" : "BIRD_DPST_DPST_TKNG_CRPRTN_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "13",
+    "cube_group_id" : "LDM_INSTRMNT_PRTY_RLTD",
+    "cube_id" : "BIRD_OTHR_LN_CRDTR_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "22",
+    "cube_group_id" : "LDM_INSTRMNT_PRTY_RLTD",
+    "cube_id" : "BIRD_CRDT_CRD_DBT_CRDTR_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "7",
+    "cube_group_id" : "LDM_INSTRMNT_PRTY_RLTD",
+    "cube_id" : "BIRD_FNNCL_LS_LSS_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "14",
+    "cube_group_id" : "LDM_INSTRMNT_PRTY_RLTD",
+    "cube_id" : "BIRD_OTHR_CMMTMNT_DBTR_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "1",
+    "cube_group_id" : "LDM_INSTRMNT_PRTY_RLTD",
+    "cube_id" : "BIRD_INSTRMNT_SRVCR_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "8",
+    "cube_group_id" : "LDM_INSTRMNT_PRTY_RLTD",
+    "cube_id" : "BIRD_INSTRMNT_ENTTY_RL_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "15",
+    "cube_group_id" : "LDM_INSTRMNT_PRTY_RLTD",
+    "cube_id" : "BIRD_RPRCHS_AGRMNT_BYR_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "2",
+    "cube_group_id" : "LDM_INSTRMNT_PRTY_RLTD",
+    "cube_id" : "BIRD_TRD_RCVBL_ASSGND_DBTR_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "3",
+    "cube_group_id" : "LDM_INSTRMNT_PRTY_RLTD",
+    "cube_id" : "BIRD_TRD_RCBVBL_FCTR_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "9",
+    "cube_group_id" : "LDM_INSTRMNT_PRTY_RLTD",
+    "cube_id" : "BIRD_DPST_DPSTR_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "25",
+    "cube_group_id" : "LDM_INSTRMNT_PRTY_RLTD",
+    "cube_id" : "BIRD_SCRTY_BRRWNG_LNDNG_TRNSCTN_BRRWR_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "23",
+    "cube_group_id" : "LDM_INSTRMNT_PRTY_RLTD",
+    "cube_id" : "BIRD_RPRCHS_AGRMNT_SLLR_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "24",
+    "cube_group_id" : "LDM_INSTRMNT_PRTY_RLTD",
+    "cube_id" : "BIRD_SCRTY_BRRWNG_LNDNG_TRNSCTN_LNDR_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "26",
+    "cube_group_id" : "LDM_INSTRMNT_PRTY_RLTD",
+    "cube_id" : "BIRD_SNDCTD_CNTRCT_NN_SB_PRTCPTN_MMBR_INSTRMNT_PMNT_AGNT_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "27",
+    "cube_group_id" : "LDM_INSTRMNT_PRTY_RLTD",
+    "cube_id" : "BIRD_RVRS_RPRCHS_AGRMNT_LN_DBTR_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "28",
+    "cube_group_id" : "LDM_INSTRMNT_PRTY_RLTD",
+    "cube_id" : "BIRD_RVRS_RPRCHS_AGRMNT_LN_CRDTR_ASSGNMNT_LDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

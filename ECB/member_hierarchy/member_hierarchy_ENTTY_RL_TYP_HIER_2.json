@@ -1,0 +1,37 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "ENTTY_RL_TYP_HIER_2",
+  "code" : "2",
+  "domain_id" : "ENTTY_RL_TYP",
+  "name" : "Beneficiary, Loan debtor hierarchy",
+  "description" : "Hierarchical structure of the member Beneficiary, Loan debtor (49)",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "ENTTY_RL_TYP_HIER_2",
+    "member_id" : "ENTTY_RL_TYP_49",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "2025-04-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ENTTY_RL_TYP_HIER_2",
+    "member_id" : "ENTTY_RL_TYP_36",
+    "level" : "2",
+    "parent_member_id" : "ENTTY_RL_TYP_49",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2025-04-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ENTTY_RL_TYP_HIER_2",
+    "member_id" : "ENTTY_RL_TYP_28",
+    "level" : "2",
+    "parent_member_id" : "ENTTY_RL_TYP_49",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2025-04-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

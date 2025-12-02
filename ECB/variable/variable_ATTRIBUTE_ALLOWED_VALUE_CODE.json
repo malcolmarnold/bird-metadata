@@ -1,0 +1,10 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "variable_id" : "ATTRIBUTE_ALLOWED_VALUE_CODE",
+  "code" : "ATTRIBUTE_ALLOWED_VALUE_CODE",
+  "name" : "Code of the allowed value for the attribute",
+  "domain_id" : "STRNG",
+  "description" : "The code of the allowed value that the attribute/field can assume. The allowed value can be the allowed value of the Subdomain or the Variable if the attribute/field is associated to a Variable set.",
+  "primary_concept" : "CODE",
+  "is_decomposed" : "true"
+}

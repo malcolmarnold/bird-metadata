@@ -1,0 +1,30 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "RPYMNT_RGHTS_INPT",
+  "name" : "Repayment rights (Input Layer)",
+  "domain_id" : "RPYMNT_RGHTS",
+  "is_listed" : "true",
+  "code" : "RPYMNT_RGHTS_INPT",
+  "facet_id" : null,
+  "description" : "Repayment rights (Input Layer)",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "RPYMNT_RGHTS_0",
+    "subdomain_id" : "RPYMNT_RGHTS_INPT",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "RPYMNT_RGHTS_1",
+    "subdomain_id" : "RPYMNT_RGHTS_INPT",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "RPYMNT_RGHTS_2",
+    "subdomain_id" : "RPYMNT_RGHTS_INPT",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

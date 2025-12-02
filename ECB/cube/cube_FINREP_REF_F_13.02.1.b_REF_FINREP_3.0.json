@@ -1,0 +1,59 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "FINREP_REF_F_13.02.1.b_REF_FINREP 3.0",
+  "name" : "Collateral obtained by taking possession during the period (held at the reference date) (II) - Reference",
+  "code" : "F_13.02.1.b_REF",
+  "framework_id" : "FINREP_REF",
+  "cube_structure_id" : "FINREP_REF_F_13.02.1.b_REF_FINREP 3.0",
+  "cube_type" : "RC",
+  "is_allowed" : null,
+  "valid_from" : "2021-06-30",
+  "valid_to" : "9999-12-31",
+  "version" : "FINREP 3.0",
+  "description" : null,
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "FINREP_REF_F_13.02.1.b_REF_FINREP 3.0",
+    "combination_id" : "433625_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_13.02.1.b_REF_FINREP 3.0",
+    "combination_id" : "433622_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_13.02.1.b_REF_FINREP 3.0",
+    "combination_id" : "433632_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_13.02.1.b_REF_FINREP 3.0",
+    "combination_id" : "433624_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_13.02.1.b_REF_FINREP 3.0",
+    "combination_id" : "433623_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_13.02.1.b_REF_FINREP 3.0",
+    "combination_id" : "433633_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_13.02.1.b_REF_FINREP 3.0",
+    "combination_id" : "433627_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_13.02.1.b_REF_FINREP 3.0",
+    "combination_id" : "433629_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_13.02.1.b_REF_FINREP 3.0",
+    "combination_id" : "433630_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_13.02.1.b_REF_FINREP 3.0",
+    "combination_id" : "433626_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_13.02.1.b_REF_FINREP 3.0",
+    "combination_id" : "433628_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_13.02.1.b_REF_FINREP 3.0",
+    "combination_id" : "433631_REF"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "FINREP_REF_F_13.02.1.b_REF_FINREP 3.0",
+    "table_id" : "FINREP_REF_F_13.02.1.b_REF_FINREP 3.0"
+  } ]
+}

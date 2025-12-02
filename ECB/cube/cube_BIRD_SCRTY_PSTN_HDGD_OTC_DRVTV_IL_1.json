@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_SCRTY_PSTN_HDGD_OTC_DRVTV_IL_1",
+  "name" : "Security position hedged by Over the counter (OTC) derivative",
+  "code" : "BIRD_SCRTY_PSTN_HDGD_OTC_DRVTV_IL",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_SCRTY_PSTN_HDGD_OTC_DRVTV_IL_1",
+  "cube_type" : "IL",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "A Security position hedged by Over the counter (OTC) derivative is the combination of a Security position and an Over the counter (OTC) derivative as a hedge that indicates which (portion of a) Security position is hedged by which Over the counter (OTC) derivative (acting in the role of an Over the counter (OTC) derivative as a hedge).",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

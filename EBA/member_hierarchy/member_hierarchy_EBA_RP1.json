@@ -1,0 +1,37 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_RP1",
+  "code" : "RP1",
+  "domain_id" : "EBA_RP",
+  "name" : "Hierarchy for related parties",
+  "description" : "Especially used for own funds items. Different treatments are connected with the fact whether the counterpart is an entity of the financial sector or not.",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_RP1",
+    "member_id" : "EBA_RP_EBA_x0",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_RP1",
+    "member_id" : "EBA_RP_EBA_x7",
+    "level" : "2",
+    "parent_member_id" : "EBA_RP_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_RP1",
+    "member_id" : "EBA_RP_EBA_x2",
+    "level" : "2",
+    "parent_member_id" : "EBA_RP_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

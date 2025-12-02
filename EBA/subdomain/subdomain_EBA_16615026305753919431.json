@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "subdomain_id" : "EBA_16615026305753919431",
+  "name" : "RT([x6|x3])",
+  "domain_id" : "EBA_RT",
+  "is_listed" : "true",
+  "code" : "16615026305753919431",
+  "facet_id" : null,
+  "description" : "Accounting treatment",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "EBA_RT_EBA_x6",
+    "subdomain_id" : "EBA_16615026305753919431",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "EBA_RT_EBA_x3",
+    "subdomain_id" : "EBA_16615026305753919431",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

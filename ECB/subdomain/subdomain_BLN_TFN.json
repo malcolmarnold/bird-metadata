@@ -1,0 +1,30 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "BLN_TFN",
+  "name" : "Boolean including NULL value",
+  "domain_id" : "BLN",
+  "is_listed" : "true",
+  "code" : "BLN_TFN",
+  "facet_id" : null,
+  "description" : "Boolean including NULL value",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "BLN_T",
+    "subdomain_id" : "BLN_TFN",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "BLN_F",
+    "subdomain_id" : "BLN_TFN",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "BLN_-99",
+    "subdomain_id" : "BLN_TFN",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

@@ -1,0 +1,38 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0",
+  "name" : "Gains or losses on derecognition of non-financial assets - Reference",
+  "code" : "F_45.02_REF",
+  "framework_id" : "FINREP_REF",
+  "cube_structure_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0",
+  "cube_type" : "RC",
+  "is_allowed" : null,
+  "valid_from" : "2021-06-30",
+  "valid_to" : "9999-12-31",
+  "version" : "FINREP 3.0",
+  "description" : null,
+  "published" : "false",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0",
+    "combination_id" : "113217_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0",
+    "combination_id" : "434224_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0",
+    "combination_id" : "113218_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0",
+    "combination_id" : "429252_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0",
+    "combination_id" : "112738_REF"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0",
+    "table_id" : "FINREP_REF_F_45.02_REF_FINREP 3.0"
+  } ]
+}

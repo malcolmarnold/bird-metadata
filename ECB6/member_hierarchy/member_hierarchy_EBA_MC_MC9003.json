@@ -1,0 +1,37 @@
+{
+  "maintenance_agency_id" : "ECB6",
+  "member_hierarchy_id" : "EBA_MC_MC9003",
+  "code" : "MC9003",
+  "domain_id" : "EBA_MC",
+  "name" : "Other than cash on hand definition hierarchy",
+  "description" : null,
+  "is_main_hierarchy" : null,
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_MC_MC9003",
+    "member_id" : "EBA_MC_EBA_x44",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x25",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC9003",
+    "member_id" : "EBA_MC_ECB6_x6528",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x25",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC9003",
+    "member_id" : "EBA_MC_EBA_x25",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

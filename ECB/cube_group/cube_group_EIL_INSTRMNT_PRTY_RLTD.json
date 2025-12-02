@@ -1,0 +1,14 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_group_id" : "EIL_INSTRMNT_PRTY_RLTD",
+  "name" : "Instrument Party related",
+  "code" : "EIL_INSTRMNT_PRTY_RLTD",
+  "description" : "Instrument Party related",
+  "cube_group_enumeration" : [ {
+    "order" : "0",
+    "cube_group_id" : "EIL_INSTRMNT_PRTY_RLTD",
+    "cube_id" : "BIRD_INSTRMNT_ENTTY_RL_ASSGNMNT_EIL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

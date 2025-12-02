@@ -1,0 +1,118 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "PRPS_HIER_1",
+  "code" : "1",
+  "domain_id" : "PRPS",
+  "name" : "Classification of instruments according to their purpose hierarchy",
+  "description" : "Hierarchical structure of the Member All types of purposes (-1)",
+  "is_main_hierarchy" : "true",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "PRPS_HIER_1",
+    "member_id" : "PRPS_-1",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRPS_HIER_1",
+    "member_id" : "PRPS_7",
+    "level" : "2",
+    "parent_member_id" : "PRPS_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRPS_HIER_1",
+    "member_id" : "PRPS_9",
+    "level" : "2",
+    "parent_member_id" : "PRPS_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRPS_HIER_1",
+    "member_id" : "PRPS_6",
+    "level" : "2",
+    "parent_member_id" : "PRPS_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRPS_HIER_1",
+    "member_id" : "PRPS_8",
+    "level" : "2",
+    "parent_member_id" : "PRPS_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRPS_HIER_1",
+    "member_id" : "PRPS_4",
+    "level" : "2",
+    "parent_member_id" : "PRPS_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRPS_HIER_1",
+    "member_id" : "PRPS_5",
+    "level" : "2",
+    "parent_member_id" : "PRPS_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRPS_HIER_1",
+    "member_id" : "PRPS_12",
+    "level" : "2",
+    "parent_member_id" : "PRPS_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRPS_HIER_1",
+    "member_id" : "PRPS_13",
+    "level" : "2",
+    "parent_member_id" : "PRPS_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRPS_HIER_1",
+    "member_id" : "PRPS_11",
+    "level" : "2",
+    "parent_member_id" : "PRPS_-1",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRPS_HIER_1",
+    "member_id" : "PRPS_1",
+    "level" : "3",
+    "parent_member_id" : "PRPS_11",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRPS_HIER_1",
+    "member_id" : "PRPS_19",
+    "level" : "3",
+    "parent_member_id" : "PRPS_11",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

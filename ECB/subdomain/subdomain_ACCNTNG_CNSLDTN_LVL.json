@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "ACCNTNG_CNSLDTN_LVL",
+  "name" : "Accounting consolidation level",
+  "domain_id" : "ACCNTNG_CNSLDTN_LVL",
+  "is_listed" : "true",
+  "code" : "ACCNTNG_CNSLDTN_LVL",
+  "facet_id" : null,
+  "description" : "Accounting consolidation level",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "ACCNTNG_CNSLDTN_LVL_1",
+    "subdomain_id" : "ACCNTNG_CNSLDTN_LVL",
+    "valid_from" : "2025-02-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "ACCNTNG_CNSLDTN_LVL_2",
+    "subdomain_id" : "ACCNTNG_CNSLDTN_LVL",
+    "valid_from" : "2025-02-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

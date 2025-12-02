@@ -1,0 +1,126 @@
+{
+  "table_id" : "FINREP_REF_F_00.01_REF_FINREP",
+  "name" : "F 00.01 Nature of Report (FINREP)",
+  "code" : "F_00.01_REF",
+  "description" : null,
+  "maintenance_agency_id" : "ECB",
+  "version" : "FINREP",
+  "valid_from" : "2013-12-01",
+  "valid_to" : "2021-06-29",
+  "table_cell" : [ {
+    "cell_id" : "127152_REF",
+    "is_shaded" : "false",
+    "combination_id" : "37969_REF",
+    "table_id" : "FINREP_REF_F_00.01_REF_FINREP",
+    "system_data_code" : null,
+    "cell_position" : [ {
+      "cell_id" : "127152_REF",
+      "axis_ordinate_id" : "FINREP_REF_F_00.01_REF_FINREP_1_010"
+    }, {
+      "cell_id" : "127152_REF",
+      "axis_ordinate_id" : "FINREP_REF_F_00.01_REF_FINREP_2_020"
+    } ]
+  }, {
+    "cell_id" : "127151_REF",
+    "is_shaded" : "false",
+    "combination_id" : "31870_REF",
+    "table_id" : "FINREP_REF_F_00.01_REF_FINREP",
+    "system_data_code" : null,
+    "cell_position" : [ {
+      "cell_id" : "127151_REF",
+      "axis_ordinate_id" : "FINREP_REF_F_00.01_REF_FINREP_2_010"
+    }, {
+      "cell_id" : "127151_REF",
+      "axis_ordinate_id" : "FINREP_REF_F_00.01_REF_FINREP_1_010"
+    } ]
+  } ],
+  "axis" : [ {
+    "axis_id" : "FINREP_REF_F_00.01_REF_FINREP_1",
+    "code" : "F_00.01_REF_1",
+    "orientation" : "X",
+    "order" : "0",
+    "name" : "F_00.01_REF_1",
+    "description" : null,
+    "table_id" : "FINREP_REF_F_00.01_REF_FINREP",
+    "is_open_axis" : "false",
+    "axis_ordinate" : [ {
+      "axis_ordinate_id" : "FINREP_REF_F_00.01_REF_FINREP_1_010",
+      "is_abstract_header" : "false",
+      "code" : "010",
+      "order" : "0",
+      "level" : "0",
+      "path" : "FINREP_REF_F_00.01_REF_FINREP_1_010 .",
+      "axis_id" : "FINREP_REF_F_00.01_REF_FINREP_1",
+      "parent_axis_ordinate_id" : null,
+      "name" : "Nature of Report",
+      "description" : null,
+      "ordinate_item" : [ ]
+    } ]
+  }, {
+    "axis_id" : "FINREP_REF_F_00.01_REF_FINREP_2",
+    "code" : "F_00.01_REF_2",
+    "orientation" : "Y",
+    "order" : "0",
+    "name" : "F_00.01_REF_2",
+    "description" : null,
+    "table_id" : "FINREP_REF_F_00.01_REF_FINREP",
+    "is_open_axis" : "false",
+    "axis_ordinate" : [ {
+      "axis_ordinate_id" : "FINREP_REF_F_00.01_REF_FINREP_2_020",
+      "is_abstract_header" : "false",
+      "code" : "020",
+      "order" : "0",
+      "level" : "0",
+      "path" : "FINREP_REF_F_00.01_REF_FINREP_2_020 .",
+      "axis_id" : "FINREP_REF_F_00.01_REF_FINREP_2",
+      "parent_axis_ordinate_id" : null,
+      "name" : "Reporting Level",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "FINREP_REF_F_00.01_REF_FINREP_2_020",
+        "variable_id" : "EBA_ei207",
+        "member_id" : null,
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "FINREP_REF_F_00.01_REF_FINREP_2_020",
+        "variable_id" : "EBA_BAS",
+        "member_id" : "EBA_BA_EBA_x17",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    }, {
+      "axis_ordinate_id" : "FINREP_REF_F_00.01_REF_FINREP_2_010",
+      "is_abstract_header" : "false",
+      "code" : "010",
+      "order" : "0",
+      "level" : "0",
+      "path" : "FINREP_REF_F_00.01_REF_FINREP_2_010 .",
+      "axis_id" : "FINREP_REF_F_00.01_REF_FINREP_2",
+      "parent_axis_ordinate_id" : null,
+      "name" : "Accounting framework",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "FINREP_REF_F_00.01_REF_FINREP_2_010",
+        "variable_id" : "EBA_ei4",
+        "member_id" : null,
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "FINREP_REF_F_00.01_REF_FINREP_2_010",
+        "variable_id" : "EBA_BAS",
+        "member_id" : "EBA_BA_EBA_x17",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    } ]
+  } ]
+}

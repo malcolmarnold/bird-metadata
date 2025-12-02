@@ -1,0 +1,86 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "cube_id" : "EBA_FINREP_EBA_F_09.02_FINREP_2017-A",
+  "name" : "Loan commitments, financial guarantees and other commitments received",
+  "code" : "F_09.02",
+  "framework_id" : "EBA_FINREP",
+  "cube_structure_id" : "EBA_FINREP_EBA_F_09.02_FINREP_2017-A",
+  "cube_type" : "D",
+  "is_allowed" : null,
+  "valid_from" : "2018-03-31",
+  "valid_to" : "2021-06-29",
+  "version" : "FINREP 2017-A",
+  "description" : "Loan commitments, financial guarantees and other commitments received",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_09.02_FINREP_2017-A",
+    "combination_id" : "EBA_39671"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_09.02_FINREP_2017-A",
+    "combination_id" : "EBA_39672"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_09.02_FINREP_2017-A",
+    "combination_id" : "EBA_39673"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_09.02_FINREP_2017-A",
+    "combination_id" : "EBA_39676"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_09.02_FINREP_2017-A",
+    "combination_id" : "EBA_39677"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_09.02_FINREP_2017-A",
+    "combination_id" : "EBA_39670"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_09.02_FINREP_2017-A",
+    "combination_id" : "EBA_85145"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_09.02_FINREP_2017-A",
+    "combination_id" : "EBA_39664"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_09.02_FINREP_2017-A",
+    "combination_id" : "EBA_39665"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_09.02_FINREP_2017-A",
+    "combination_id" : "EBA_39666"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_09.02_FINREP_2017-A",
+    "combination_id" : "EBA_39667"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_09.02_FINREP_2017-A",
+    "combination_id" : "EBA_39668"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_09.02_FINREP_2017-A",
+    "combination_id" : "EBA_39669"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_09.02_FINREP_2017-A",
+    "combination_id" : "EBA_84989"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_09.02_FINREP_2017-A",
+    "combination_id" : "EBA_84990"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_09.02_FINREP_2017-A",
+    "combination_id" : "EBA_84991"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_09.02_FINREP_2017-A",
+    "combination_id" : "EBA_84992"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_09.02_FINREP_2017-A",
+    "combination_id" : "EBA_84993"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_09.02_FINREP_2017-A",
+    "combination_id" : "EBA_84994"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_09.02_FINREP_2017-A",
+    "combination_id" : "EBA_84995"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_09.02_FINREP_2017-A",
+    "combination_id" : "EBA_85144"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_09.02_FINREP_2017-A",
+    "table_id" : "EBA_FINREP_EBA_F_09.02_FINREP_2017-A"
+  } ]
+}

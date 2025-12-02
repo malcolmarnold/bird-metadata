@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_DBT_SCRTY_WTHT_UNDRLYNG_ASSTS_ELDM_1",
+  "name" : "Debt security without underlying assets",
+  "code" : "BIRD_DBT_SCRTY_WTHT_UNDRLYNG_ASSTS_ELDM",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_DBT_SCRTY_WTHT_UNDRLYNG_ASSTS_ELDM_1",
+  "cube_type" : "ELDM",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "A Debt security without underlying assets is a Debt security that is not linked to underlying assets.",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

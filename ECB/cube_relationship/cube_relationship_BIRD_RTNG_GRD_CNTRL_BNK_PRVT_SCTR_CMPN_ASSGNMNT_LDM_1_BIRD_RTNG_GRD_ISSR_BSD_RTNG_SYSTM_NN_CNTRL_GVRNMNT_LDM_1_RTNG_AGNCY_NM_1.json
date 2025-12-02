@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_LDM_1__BIRD_RTNG_GRD_ISSR_BSD_RTNG_SYSTM_NN_CNTRL_GVRNMNT_LDM_1__RTNG_AGNCY_NM_1",
+  "code" : "BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_LDM_1__BIRD_RTNG_GRD_ISSR_BSD_RTNG_SYSTM_NN_CNTRL_GVRNMNT_LDM_1__RTNG_AGNCY_NM",
+  "name" : "Rating grade for issuer based rating system for non-central government may have many Rating grade Central bank and private sector company assignment",
+  "description" : "Rating grade for issuer based rating system for non-central government is assigned to Other organisation(s) via Rating grade Central bank and private sector company assignment",
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_RTNG_GRD_ISSR_BSD_RTNG_SYSTM_NN_CNTRL_GVRNMNT_LDM_1",
+  "primary_cube_variable_code" : "RTNG_AGNCY_NM",
+  "foreign_cube_id" : "BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_LDM_1",
+  "foreign_cube_variable_code" : "RTNG_AGNCY_NM",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "false"
+}

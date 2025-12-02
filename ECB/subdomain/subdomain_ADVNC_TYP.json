@@ -1,0 +1,30 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "ADVNC_TYP",
+  "name" : "Advance type",
+  "domain_id" : "TYP_INSTRMNT",
+  "is_listed" : "true",
+  "code" : "ADVNC_TYP",
+  "facet_id" : null,
+  "description" : "Advance type",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "TYP_INSTRMNT_120",
+    "subdomain_id" : "ADVNC_TYP",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_INSTRMNT_130",
+    "subdomain_id" : "ADVNC_TYP",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_INSTRMNT_140",
+    "subdomain_id" : "ADVNC_TYP",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

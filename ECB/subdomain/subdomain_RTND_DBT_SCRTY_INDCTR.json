@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "RTND_DBT_SCRTY_INDCTR",
+  "name" : "Retained debt security indicator",
+  "domain_id" : "RTND_DBT_SCRTY_INDCTR",
+  "is_listed" : "true",
+  "code" : "RTND_DBT_SCRTY_INDCTR",
+  "facet_id" : null,
+  "description" : "Retained debt security indicator",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "RTND_DBT_SCRTY_INDCTR_1",
+    "subdomain_id" : "RTND_DBT_SCRTY_INDCTR",
+    "valid_from" : "2025-02-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "RTND_DBT_SCRTY_INDCTR_2",
+    "subdomain_id" : "RTND_DBT_SCRTY_INDCTR",
+    "valid_from" : "2025-02-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

@@ -1,0 +1,30 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "RNGTTN_STTS",
+  "name" : "Renegotiation status",
+  "domain_id" : "FRBRNC_STTS",
+  "is_listed" : "true",
+  "code" : "RNGTTN_STTS",
+  "facet_id" : null,
+  "description" : "Renegotiation status",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "FRBRNC_STTS_3",
+    "subdomain_id" : "RNGTTN_STTS",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "2023-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "FRBRNC_STTS_9",
+    "subdomain_id" : "RNGTTN_STTS",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "FRBRNC_STTS_1",
+    "subdomain_id" : "RNGTTN_STTS",
+    "valid_from" : "2024-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

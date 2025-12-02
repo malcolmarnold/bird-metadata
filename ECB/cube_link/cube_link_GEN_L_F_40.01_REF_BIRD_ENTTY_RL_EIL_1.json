@@ -1,0 +1,48 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_link_id" : "GEN_L__F_40.01_REF__BIRD_ENTTY_RL_EIL__1",
+  "code" : "BIRD_ENTTY_RL_EIL__F_40.01_REF__1",
+  "name" : "GEN_L__F_40.01_REF__BIRD_ENTTY_RL_EIL__1",
+  "description" : null,
+  "valid_from" : "1990-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "order_relevance" : "1",
+  "primary_cube_id" : "BIRD_ENTTY_RL_EIL_1",
+  "foreign_cube_id" : "FINREP_REF_F_40.01_REF_FINREP 3.0",
+  "cube_link_type" : "TR",
+  "logical_transformation_rule_id" : "GEN_L__F_40.01_REF__01_01_1990",
+  "cube_structure_item_link" : [ {
+    "cube_structure_item_link_id" : "GEN_L__F_40.01_REF__GEN_L__F_40.01_REF__BIRD_ENTTY_RL_EIL__1__SHR_CPTL__NTNL_AMNT",
+    "cube_link_id" : "GEN_L__F_40.01_REF__BIRD_ENTTY_RL_EIL__1",
+    "foreign_cube_variable_code" : "NTNL_AMNT",
+    "primary_cube_variable_code" : "SHR_CPTL",
+    "comparator" : "=",
+    "aggregation_function" : "SUM",
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "GEN_L__F_40.01_REF__GEN_L__F_40.01_REF__BIRD_ENTTY_RL_EIL__1__EQTY__CRRYNG_AMNT",
+    "cube_link_id" : "GEN_L__F_40.01_REF__BIRD_ENTTY_RL_EIL__1",
+    "foreign_cube_variable_code" : "CRRYNG_AMNT",
+    "primary_cube_variable_code" : "EQTY",
+    "comparator" : "=",
+    "aggregation_function" : "SUM",
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "GEN_L__F_40.01_REF__GEN_L__F_40.01_REF__BIRD_ENTTY_RL_EIL__1__TTL_ASSTS__CRRYNG_AMNT",
+    "cube_link_id" : "GEN_L__F_40.01_REF__BIRD_ENTTY_RL_EIL__1",
+    "foreign_cube_variable_code" : "CRRYNG_AMNT",
+    "primary_cube_variable_code" : "TTL_ASSTS",
+    "comparator" : "=",
+    "aggregation_function" : "SUM",
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "GEN_L__F_40.01_REF__GEN_L__F_40.01_REF__BIRD_ENTTY_RL_EIL__1__PRFT_LSS__CRRNT_PRD",
+    "cube_link_id" : "GEN_L__F_40.01_REF__BIRD_ENTTY_RL_EIL__1",
+    "foreign_cube_variable_code" : "CRRNT_PRD",
+    "primary_cube_variable_code" : "PRFT_LSS",
+    "comparator" : "=",
+    "aggregation_function" : "SUM",
+    "member_link" : [ ]
+  } ]
+}

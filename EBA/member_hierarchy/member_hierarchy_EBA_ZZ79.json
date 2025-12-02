@@ -1,0 +1,28 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_ZZ79",
+  "code" : "ZZ79",
+  "domain_id" : "EBA_ZZ",
+  "name" : "Status of prior permission",
+  "description" : "EBA_ZZ79",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_ZZ79",
+    "member_id" : "EBA_ZZ_EBA_x836",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2024-07-11",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ79",
+    "member_id" : "EBA_ZZ_EBA_x837",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2024-07-11",
+    "valid_to" : "9999-12-31"
+  } ]
+}

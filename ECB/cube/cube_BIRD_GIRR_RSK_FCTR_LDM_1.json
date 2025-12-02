@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_GIRR_RSK_FCTR_LDM_1",
+  "name" : "General interest rate risk (GIRR) factor for standardised approach",
+  "code" : "BIRD_GIRR_RSK_FCTR_LDM",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_GIRR_RSK_FCTR_LDM_1",
+  "cube_type" : "LDM",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "Delta GIRR: the GIRR delta risk factors are defined along two dimensions: (i) a risk-free yield curve for each currency in which interest rate-sensitive instruments are denominated and (ii) the following tenors: 0.25 years, 0.5 years, 1 year, 2 years, 3 years, 5 years, 10 years, 15 years, 20 years and 30 years, to which delta risk factors are assigned.",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

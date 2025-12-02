@@ -1,0 +1,36 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "ACCNTNG_FRMWRK_F_41.01_ACCNTNG_FRMWRK_REF",
+  "name" : "Subdomain for ACCNTNG_FRMWRK of the Cube F_41.01",
+  "domain_id" : "ACCNTNG_FRMWRK",
+  "is_listed" : "true",
+  "code" : "ACCNTNG_FRMWRK_F_41.01_ACCNTNG_FRMWRK_REF",
+  "facet_id" : null,
+  "description" : null,
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "ACCNTNG_FRMWRK_5",
+    "subdomain_id" : "ACCNTNG_FRMWRK_F_41.01_ACCNTNG_FRMWRK_REF",
+    "valid_from" : "2018-03-31",
+    "valid_to" : "2021-06-29",
+    "order" : "0"
+  }, {
+    "member_id" : "ACCNTNG_FRMWRK_1",
+    "subdomain_id" : "ACCNTNG_FRMWRK_F_41.01_ACCNTNG_FRMWRK_REF",
+    "valid_from" : "2018-03-31",
+    "valid_to" : "2021-06-29",
+    "order" : "1"
+  }, {
+    "member_id" : "ACCNTNG_FRMWRK_5",
+    "subdomain_id" : "ACCNTNG_FRMWRK_F_41.01_ACCNTNG_FRMWRK_REF",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "ACCNTNG_FRMWRK_1",
+    "subdomain_id" : "ACCNTNG_FRMWRK_F_41.01_ACCNTNG_FRMWRK_REF",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31",
+    "order" : "1"
+  } ]
+}

@@ -1,0 +1,509 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+  "name" : "Asset encumbrance: Advance template for assets of the reporting institution (a)",
+  "code" : "F_36.01.a",
+  "framework_id" : "EBA_AE",
+  "cube_structure_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+  "cube_type" : "D",
+  "is_allowed" : null,
+  "valid_from" : "2021-06-30",
+  "valid_to" : "2023-06-29",
+  "version" : "AE 3.0",
+  "description" : "Asset encumbrance: Advance template for assets of the reporting institution (a)",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41630"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41631"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41649"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41650"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41651"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41652"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41664"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41665"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41666"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41667"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41668"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41669"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41670"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454771"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454772"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454773"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454774"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454775"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454776"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454777"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454778"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454779"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454780"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454781"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454782"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454783"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454784"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454785"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454786"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454787"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454788"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454789"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454790"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41501"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41502"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41704"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41559"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41560"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41561"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41562"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41563"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41564"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41565"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41566"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41581"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41582"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41583"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41584"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454716"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454717"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454718"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454719"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454720"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454721"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454723"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454724"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454725"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454726"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454729"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454747"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454752"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454753"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454754"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454755"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454769"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454770"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454730"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454732"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454733"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454734"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454735"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454737"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454738"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454739"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454740"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454741"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454742"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_454746"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41512"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41513"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41514"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41515"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41516"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41519"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41520"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41521"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41522"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41603"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41616"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41617"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41618"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41619"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41624"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41625"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41626"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41627"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41628"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41629"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41503"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41504"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41505"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41506"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41507"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41508"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41509"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41510"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41511"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41671"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41694"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41695"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41696"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41697"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41698"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41701"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41702"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41703"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41593"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41594"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41595"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41596"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41600"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41601"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41602"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41705"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41706"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41707"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41708"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41709"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41710"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41715"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41716"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41717"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41718"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41719"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41523"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41524"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41525"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41526"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41527"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41528"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41529"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41530"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41531"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41532"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41533"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41534"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41535"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41536"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41537"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41538"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41539"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41540"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41541"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41542"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41543"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41544"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41545"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41548"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41549"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41550"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41551"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "combination_id" : "EBA_41552"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0",
+    "table_id" : "EBA_AE_EBA_F_36.01.a_AE_3.0"
+  } ]
+}

@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "SDD_CUBE_STRUCTURE_ITEM_C_1",
+  "name" : "Cube structure item",
+  "code" : "CUBE_STRUCTURE_ITEM",
+  "framework_id" : "SDD",
+  "cube_structure_id" : "SDD_CUBE_STRUCTURE_ITEM_C_1",
+  "cube_type" : "C",
+  "is_allowed" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "A Cube structure item is the combination of a Variable (or column), its role and allowed values in the context of a Cube structure.\nThe role indicates if the variable acts as a dimension (i.e. part of the primary key), an observation (i.e. information related to the dimensions) or an attribute (i.e. information related to another variable in the same cube structure) in the context of this cube structure.",
+  "published" : "false",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

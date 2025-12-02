@@ -1,0 +1,27 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_structure_id" : "BIRD_NN_FNNCL_LBLTY_ELDM_1",
+  "name" : "Non-financial liability",
+  "code" : "BIRD_NN_FNNCL_LBLTY_ELDM",
+  "description" : "A Non-financial liability is a Liability that is not a Financial liability.",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "cube_structure_item" : [ {
+    "cube_structure_item_id" : "BIRD_NN_FNNCL_LBLTY_ELDM_1__NN_FNNCL_LBLTY_TYP",
+    "cube_structure_id" : "BIRD_NN_FNNCL_LBLTY_ELDM_1",
+    "cube_variable_code" : "NN_FNNCL_LBLTY_TYP",
+    "variable_id" : "NN_FNNCL_LBLTY_TYP",
+    "role" : "O",
+    "order" : "0",
+    "subdomain_id" : "TYP_NN_FNNCL_LBLTY_PRVSN",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "true",
+    "description" : "A discriminator to distinguish between different types of non-financial liabilities. For provisions, tax liabilities.",
+    "is_implemented" : "true"
+  } ]
+}

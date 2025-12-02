@@ -1,0 +1,46 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_MC_MC92",
+  "code" : "MC92",
+  "domain_id" : "EBA_MC",
+  "name" : "Composition of Profit or loss other comprehensive income",
+  "description" : "Composition of Profit or loss other comprehensive income",
+  "is_main_hierarchy" : null,
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_MC_MC92",
+    "member_id" : "EBA_MC_EBA_x183",
+    "level" : "3",
+    "parent_member_id" : "EBA_MC_EBA_x182",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC92",
+    "member_id" : "EBA_MC_EBA_x182",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x282",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC92",
+    "member_id" : "EBA_MC_EBA_x336",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x282",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC92",
+    "member_id" : "EBA_MC_EBA_x282",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

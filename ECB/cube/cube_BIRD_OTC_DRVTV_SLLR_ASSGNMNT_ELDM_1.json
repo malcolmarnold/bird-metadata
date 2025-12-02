@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_OTC_DRVTV_SLLR_ASSGNMNT_ELDM_1",
+  "name" : "Over the counter (OTC) Derivative Seller assignment",
+  "code" : "BIRD_OTC_DRVTV_SLLR_ASSGNMNT_ELDM",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_OTC_DRVTV_SLLR_ASSGNMNT_ELDM_1",
+  "cube_type" : "ELDM",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "An Over the counter (OTC) Derivative Seller assignment is the combination of a Seller and an Over the counter (OTC) Derivative that indicates which Over the counter (OTC) Derivative is sold by which Seller.",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

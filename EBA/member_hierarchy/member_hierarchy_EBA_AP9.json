@@ -1,0 +1,73 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_AP9",
+  "code" : "AP9",
+  "domain_id" : "EBA_AP",
+  "name" : "Hierarchy for approach for options",
+  "description" : "Hierarchy shows the approaches used to calculate own funds requirements for risks other than delta risks.",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_AP9",
+    "member_id" : "EBA_AP_EBA_x0",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP9",
+    "member_id" : "EBA_AP_EBA_x11",
+    "level" : "2",
+    "parent_member_id" : "EBA_AP_EBA_x0",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP9",
+    "member_id" : "EBA_AP_EBA_x61",
+    "level" : "3",
+    "parent_member_id" : "EBA_AP_EBA_x11",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP9",
+    "member_id" : "EBA_AP_EBA_x115",
+    "level" : "3",
+    "parent_member_id" : "EBA_AP_EBA_x11",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2018-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP9",
+    "member_id" : "EBA_AP_EBA_x64",
+    "level" : "3",
+    "parent_member_id" : "EBA_AP_EBA_x11",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP9",
+    "member_id" : "EBA_AP_EBA_x63",
+    "level" : "3",
+    "parent_member_id" : "EBA_AP_EBA_x11",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP9",
+    "member_id" : "EBA_AP_EBA_x62",
+    "level" : "3",
+    "parent_member_id" : "EBA_AP_EBA_x11",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_CNTRL_CNTRPRTY_CLNT_LDM_1",
+  "name" : "Central counterparty client",
+  "code" : "BIRD_CNTRL_CNTRPRTY_CLNT_LDM",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_CNTRL_CNTRPRTY_CLNT_LDM_1",
+  "cube_type" : "LDM",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "Basel Committee on Banking Supervision - Capital requirements for banks exposures to central counterparties (see https://www.bis.org/publ/bcbs227.pdf): A CCP client is a party to a transaction with a CCP through either a clearing member acting as a financial intermediary, or a clearing member guaranteeing the performance of the client to the CCP.",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

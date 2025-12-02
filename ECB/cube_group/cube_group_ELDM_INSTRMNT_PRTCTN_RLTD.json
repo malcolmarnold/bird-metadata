@@ -1,0 +1,68 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_group_id" : "ELDM_INSTRMNT_PRTCTN_RLTD",
+  "name" : "Instrument Protection related",
+  "code" : "ELDM_INSTRMNT_PRTCTN_RLTD",
+  "description" : "Instrument Protection related",
+  "cube_group_enumeration" : [ {
+    "order" : "1",
+    "cube_group_id" : "ELDM_INSTRMNT_PRTCTN_RLTD",
+    "cube_id" : "BIRD_LN_EXCLDNG_RPRCHS_AGRMNT_CLLTRL_ASSGNMNT_ELDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "7",
+    "cube_group_id" : "ELDM_INSTRMNT_PRTCTN_RLTD",
+    "cube_id" : "BIRD_OFF_BLNC_INSTRMNT_CLLTRL_ASSGNMNT_ELDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "2",
+    "cube_group_id" : "ELDM_INSTRMNT_PRTCTN_RLTD",
+    "cube_id" : "BIRD_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_ELDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "3",
+    "cube_group_id" : "ELDM_INSTRMNT_PRTCTN_RLTD",
+    "cube_id" : "BIRD_OTC_INSTRMNT_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_ELDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "4",
+    "cube_group_id" : "ELDM_INSTRMNT_PRTCTN_RLTD",
+    "cube_id" : "BIRD_LN_EXCLDNG_RPRCHS_AGRMNT_CLLTRL_ASSGNMNT_DRVD_DT_ELDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "5",
+    "cube_group_id" : "ELDM_INSTRMNT_PRTCTN_RLTD",
+    "cube_id" : "BIRD_OTC_CRDT_DFLT_SWP_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_ELDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "ELDM_INSTRMNT_PRTCTN_RLTD",
+    "cube_id" : "BIRD_CLLTRL_GVN_INSTRMNT_INSTRMNT_ASSGNMNT_ELDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "6",
+    "cube_group_id" : "ELDM_INSTRMNT_PRTCTN_RLTD",
+    "cube_id" : "BIRD_INSTRMNT_CLLTRL_ASSGNMNT_ELDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "8",
+    "cube_group_id" : "ELDM_INSTRMNT_PRTCTN_RLTD",
+    "cube_id" : "BIRD_OFF_BLNC_INSTRMNT_CLLTRL_GVN_ASSGNMNT_ELDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "9",
+    "cube_group_id" : "ELDM_INSTRMNT_PRTCTN_RLTD",
+    "cube_id" : "BIRD_LN_EXCLDNG_RPRCHS_AGRMNT_AND_ADVNC_CLLTRL_GVN_ASSGNMNT_ELDM_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

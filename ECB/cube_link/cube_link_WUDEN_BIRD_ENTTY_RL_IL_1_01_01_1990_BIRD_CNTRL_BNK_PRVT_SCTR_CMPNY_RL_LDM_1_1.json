@@ -1,0 +1,48 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_link_id" : "WUDEN__BIRD_ENTTY_RL_IL_1__01_01_1990__BIRD_CNTRL_BNK_PRVT_SCTR_CMPNY_RL_LDM_1__1",
+  "code" : "WUDEN__BIRD_ENTTY_RL_IL_1__01_01_1990__BIRD_CNTRL_BNK_PRVT_SCTR_CMPNY_RL_LDM_1",
+  "name" : "The LDM: Central bank and private sector company role (BIRD_CNTRL_BNK_PRVT_SCTR_CMPNY_RL_LDM) is forward engineered into the IL: Entity role (BIRD_ENTTY_RL_IL)",
+  "description" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "order_relevance" : "1",
+  "primary_cube_id" : "BIRD_CNTRL_BNK_PRVT_SCTR_CMPNY_RL_LDM_1",
+  "foreign_cube_id" : "BIRD_ENTTY_RL_IL_1",
+  "cube_link_type" : "TR",
+  "logical_transformation_rule_id" : "WUDEN__BIRD_ENTTY_RL_IL_1__01_01_1990",
+  "cube_structure_item_link" : [ {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_ENTTY_RL_IL_1__01_01_1990__BIRD_CNTRL_BNK_PRVT_SCTR_CMPNY_RL_LDM_1__1__EQTY__EQTY",
+    "cube_link_id" : "WUDEN__BIRD_ENTTY_RL_IL_1__01_01_1990__BIRD_CNTRL_BNK_PRVT_SCTR_CMPNY_RL_LDM_1__1",
+    "foreign_cube_variable_code" : "EQTY",
+    "primary_cube_variable_code" : "EQTY",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_ENTTY_RL_IL_1__01_01_1990__BIRD_CNTRL_BNK_PRVT_SCTR_CMPNY_RL_LDM_1__1__PRFT_LSS__PRFT_LSS",
+    "cube_link_id" : "WUDEN__BIRD_ENTTY_RL_IL_1__01_01_1990__BIRD_CNTRL_BNK_PRVT_SCTR_CMPNY_RL_LDM_1__1",
+    "foreign_cube_variable_code" : "PRFT_LSS",
+    "primary_cube_variable_code" : "PRFT_LSS",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_ENTTY_RL_IL_1__01_01_1990__BIRD_CNTRL_BNK_PRVT_SCTR_CMPNY_RL_LDM_1__1__SHR_CPTL__SHR_CPTL",
+    "cube_link_id" : "WUDEN__BIRD_ENTTY_RL_IL_1__01_01_1990__BIRD_CNTRL_BNK_PRVT_SCTR_CMPNY_RL_LDM_1__1",
+    "foreign_cube_variable_code" : "SHR_CPTL",
+    "primary_cube_variable_code" : "SHR_CPTL",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_ENTTY_RL_IL_1__01_01_1990__BIRD_CNTRL_BNK_PRVT_SCTR_CMPNY_RL_LDM_1__1__TTL_ASSTS__TTL_ASSTS",
+    "cube_link_id" : "WUDEN__BIRD_ENTTY_RL_IL_1__01_01_1990__BIRD_CNTRL_BNK_PRVT_SCTR_CMPNY_RL_LDM_1__1",
+    "foreign_cube_variable_code" : "TTL_ASSTS",
+    "primary_cube_variable_code" : "TTL_ASSTS",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  } ]
+}

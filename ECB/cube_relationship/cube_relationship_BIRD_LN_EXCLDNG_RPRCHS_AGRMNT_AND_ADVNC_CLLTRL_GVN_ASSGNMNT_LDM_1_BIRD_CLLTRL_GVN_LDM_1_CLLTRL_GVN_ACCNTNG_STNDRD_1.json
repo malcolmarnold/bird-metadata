@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_LN_EXCLDNG_RPRCHS_AGRMNT_AND_ADVNC_CLLTRL_GVN_ASSGNMNT_LDM_1__BIRD_CLLTRL_GVN_LDM_1__CLLTRL_GVN_ACCNTNG_STNDRD_1",
+  "code" : "BIRD_LN_EXCLDNG_RPRCHS_AGRMNT_AND_ADVNC_CLLTRL_GVN_ASSGNMNT_LDM_1__BIRD_CLLTRL_GVN_LDM_1__CLLTRL_GVN_ACCNTNG_STNDRD",
+  "name" : "Collateral given may have many Loan (excluding repurchase agreement) and advance Collateral given assignment",
+  "description" : "Collateral given protects Loan(s) (excluding repurchase agreement) and advance via Loan (excluding repurchase agreement) and advance Collateral given assignment",
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_CLLTRL_GVN_LDM_1",
+  "primary_cube_variable_code" : "CLLTRL_ACCNTNG_STNDRD",
+  "foreign_cube_id" : "BIRD_LN_EXCLDNG_RPRCHS_AGRMNT_AND_ADVNC_CLLTRL_GVN_ASSGNMNT_LDM_1",
+  "foreign_cube_variable_code" : "CLLTRL_GVN_ACCNTNG_STNDRD",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "false"
+}

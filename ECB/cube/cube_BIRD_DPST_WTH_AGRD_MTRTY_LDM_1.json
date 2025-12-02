@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_DPST_WTH_AGRD_MTRTY_LDM_1",
+  "name" : "Deposit with agreed maturity",
+  "code" : "BIRD_DPST_WTH_AGRD_MTRTY_LDM",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_DPST_WTH_AGRD_MTRTY_LDM_1",
+  "cube_type" : "LDM",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "A Deposit with agreed maturity is an Other deposit fulfilling the definition of Regulation (EU) 1071/2013, annex 2, Part 2 Definitions of instrument categories, Table Instrument categories, 9.2. Deposits with agreed maturity:\nNon-transferable deposits which cannot be converted into currency before an agreed fixed term or that can only be converted into currency before that agreed term provided that the holder is charged some kind of penalty. This item also includes administratively regulated savings deposits where the maturity related criterion is not relevant; these should be classified in the maturity band ‘over two years’. Financial products with roll-over provisions must be classified according to the earliest maturity. Although deposits with agreed maturity may feature the possibility of earlier redemption after prior notification, or may be redeemable on demand subject to certain penalties, these features are not considered to be relevant for classification purposes.",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

@@ -1,0 +1,37 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_PL2",
+  "code" : "PL2",
+  "domain_id" : "EBA_PL",
+  "name" : "Hierarchy for banking/trading book",
+  "description" : "EBA_PL2",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_PL2",
+    "member_id" : "EBA_PL_EBA_x10",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_PL2",
+    "member_id" : "EBA_PL_EBA_x11",
+    "level" : "2",
+    "parent_member_id" : "EBA_PL_EBA_x10",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_PL2",
+    "member_id" : "EBA_PL_EBA_x51",
+    "level" : "2",
+    "parent_member_id" : "EBA_PL_EBA_x10",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

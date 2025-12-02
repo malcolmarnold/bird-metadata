@@ -1,0 +1,14 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_group_id" : "ANCRDT_T2Q",
+  "name" : "AnaCredit Template 2 - quarterly",
+  "code" : "ANCRDT_T2Q",
+  "description" : null,
+  "cube_group_enumeration" : [ {
+    "order" : "1",
+    "cube_group_id" : "ANCRDT_T2Q",
+    "cube_id" : "ANCRDT_ACCNTNG_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

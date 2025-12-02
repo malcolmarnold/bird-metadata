@@ -1,0 +1,273 @@
+{
+  "table_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A",
+  "name" : "F 16.04.1",
+  "code" : "F_16.04.1",
+  "description" : "F 16.04.1 Breakdown of selected statement of profit or loss items: Gains or losses on non-trading financial assets mandatorily at fair value through profit or loss by instrument",
+  "maintenance_agency_id" : "EBA",
+  "version" : "FINREP 2017-A",
+  "valid_from" : "2018-03-31",
+  "valid_to" : "2021-06-29",
+  "table_cell" : [ {
+    "cell_id" : "EBA_515934",
+    "is_shaded" : "false",
+    "combination_id" : "EBA_152746",
+    "table_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A",
+    "system_data_code" : null,
+    "cell_position" : [ {
+      "cell_id" : "EBA_515934",
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_2_010"
+    }, {
+      "cell_id" : "EBA_515934",
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3_090"
+    } ]
+  }, {
+    "cell_id" : "EBA_515931",
+    "is_shaded" : "false",
+    "combination_id" : "EBA_152745",
+    "table_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A",
+    "system_data_code" : null,
+    "cell_position" : [ {
+      "cell_id" : "EBA_515931",
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_2_010"
+    }, {
+      "cell_id" : "EBA_515931",
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3_020"
+    } ]
+  }, {
+    "cell_id" : "EBA_515932",
+    "is_shaded" : "false",
+    "combination_id" : "EBA_152744",
+    "table_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A",
+    "system_data_code" : null,
+    "cell_position" : [ {
+      "cell_id" : "EBA_515932",
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_2_010"
+    }, {
+      "cell_id" : "EBA_515932",
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3_030"
+    } ]
+  }, {
+    "cell_id" : "EBA_515933",
+    "is_shaded" : "false",
+    "combination_id" : "EBA_152747",
+    "table_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A",
+    "system_data_code" : null,
+    "cell_position" : [ {
+      "cell_id" : "EBA_515933",
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_2_010"
+    }, {
+      "cell_id" : "EBA_515933",
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3_040"
+    } ]
+  }, {
+    "cell_id" : "EBA_515935",
+    "is_shaded" : "false",
+    "combination_id" : "EBA_152748",
+    "table_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A",
+    "system_data_code" : null,
+    "cell_position" : [ {
+      "cell_id" : "EBA_515935",
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3_100"
+    }, {
+      "cell_id" : "EBA_515935",
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_2_010"
+    } ]
+  } ],
+  "axis" : [ {
+    "axis_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_2",
+    "code" : "F_16.04.1_2",
+    "orientation" : "X",
+    "order" : "0",
+    "name" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_2",
+    "description" : null,
+    "table_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A",
+    "is_open_axis" : "false",
+    "axis_ordinate" : [ {
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_2_010",
+      "is_abstract_header" : "false",
+      "code" : "010",
+      "order" : "0",
+      "level" : "0",
+      "path" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_2_010 .",
+      "axis_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_2",
+      "parent_axis_ordinate_id" : null,
+      "name" : "Current period",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_2_010",
+        "variable_id" : "EBA_md103",
+        "member_id" : null,
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_2_010",
+        "variable_id" : "EBA_BAS",
+        "member_id" : "EBA_BA_EBA_x1",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_2_010",
+        "variable_id" : "EBA_MCY",
+        "member_id" : "EBA_MC_EBA_x181",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    } ]
+  }, {
+    "axis_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3",
+    "code" : "F_16.04.1_3",
+    "orientation" : "Y",
+    "order" : "0",
+    "name" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3",
+    "description" : null,
+    "table_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A",
+    "is_open_axis" : "false",
+    "axis_ordinate" : [ {
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3_090",
+      "is_abstract_header" : "false",
+      "code" : "090",
+      "order" : "0",
+      "level" : "0",
+      "path" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3_090 .",
+      "axis_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3",
+      "parent_axis_ordinate_id" : null,
+      "name" : "GAINS OR (-) LOSSES ON NON-TRADING FINANCIAL ASSETS MANDATORILY AT FAIR VALUE THROUGH PROFIT AND LOSS, NET",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3_090",
+        "variable_id" : "EBA_APL",
+        "member_id" : "EBA_PL_EBA_x500",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3_090",
+        "variable_id" : "EBA_MCE",
+        "member_id" : "EBA_MC_EBA_x143",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    }, {
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3_100",
+      "is_abstract_header" : "false",
+      "code" : "100",
+      "order" : "0",
+      "level" : "0",
+      "path" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3_100 .",
+      "axis_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3",
+      "parent_axis_ordinate_id" : null,
+      "name" : "of which: gains and losses due to the reclassification of assets at amortised cost",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3_100",
+        "variable_id" : "EBA_APL",
+        "member_id" : "EBA_PL_EBA_x500",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3_100",
+        "variable_id" : "EBA_MCE",
+        "member_id" : "EBA_MC_EBA_x705",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    }, {
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3_020",
+      "is_abstract_header" : "false",
+      "code" : "020",
+      "order" : "0",
+      "level" : "1",
+      "path" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3_090 .EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3_020 .",
+      "axis_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3",
+      "parent_axis_ordinate_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3_090",
+      "name" : "Equity instruments",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3_020",
+        "variable_id" : "EBA_APL",
+        "member_id" : "EBA_PL_EBA_x500",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3_020",
+        "variable_id" : "EBA_MCE",
+        "member_id" : "EBA_MC_EBA_x130",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    }, {
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3_030",
+      "is_abstract_header" : "false",
+      "code" : "030",
+      "order" : "0",
+      "level" : "1",
+      "path" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3_090 .EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3_030 .",
+      "axis_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3",
+      "parent_axis_ordinate_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3_090",
+      "name" : "Debt securities",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3_030",
+        "variable_id" : "EBA_APL",
+        "member_id" : "EBA_PL_EBA_x500",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3_030",
+        "variable_id" : "EBA_MCE",
+        "member_id" : "EBA_MC_EBA_x60",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    }, {
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3_040",
+      "is_abstract_header" : "false",
+      "code" : "040",
+      "order" : "0",
+      "level" : "1",
+      "path" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3_090 .EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3_040 .",
+      "axis_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3",
+      "parent_axis_ordinate_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3_090",
+      "name" : "Loans and advances",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3_040",
+        "variable_id" : "EBA_APL",
+        "member_id" : "EBA_PL_EBA_x500",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.04.1_FINREP_2017-A_3_040",
+        "variable_id" : "EBA_MCE",
+        "member_id" : "EBA_MC_EBA_x469",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    } ]
+  } ]
+}

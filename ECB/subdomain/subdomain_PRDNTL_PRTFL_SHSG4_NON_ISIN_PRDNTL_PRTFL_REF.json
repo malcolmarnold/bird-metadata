@@ -1,0 +1,30 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "PRDNTL_PRTFL_SHSG4_NON_ISIN_PRDNTL_PRTFL_REF",
+  "name" : "Subdomain for PRDNTL_PRTFL of the Cube SHSG4_NON_ISIN",
+  "domain_id" : "PRDNTL_PRTFL",
+  "is_listed" : "true",
+  "code" : "PRDNTL_PRTFL_SHSG4_NON_ISIN_PRDNTL_PRTFL_REF",
+  "facet_id" : null,
+  "description" : null,
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "PRDNTL_PRTFL_2",
+    "subdomain_id" : "PRDNTL_PRTFL_SHSG4_NON_ISIN_PRDNTL_PRTFL_REF",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "2"
+  }, {
+    "member_id" : "PRDNTL_PRTFL_1",
+    "subdomain_id" : "PRDNTL_PRTFL_SHSG4_NON_ISIN_PRDNTL_PRTFL_REF",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "1"
+  }, {
+    "member_id" : "PRDNTL_PRTFL_0",
+    "subdomain_id" : "PRDNTL_PRTFL_SHSG4_NON_ISIN_PRDNTL_PRTFL_REF",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

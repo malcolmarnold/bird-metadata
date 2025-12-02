@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "AXIS__AXIS_ORDINATE__AXIS_ID__1",
+  "code" : "AXIS__AXIS_ORDINATE__AXIS_ID__1",
+  "name" : "an axis can have many axis ordinates<br> and an axis ordinate must be associated with an axis",
+  "description" : null,
+  "type_of_relationship" : "ASS",
+  "valid_from" : "1999-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "SDD_AXIS_C_1",
+  "primary_cube_variable_code" : "AXIS_ID",
+  "foreign_cube_id" : "SDD_AXIS_ORDINATE_C_1",
+  "foreign_cube_variable_code" : "AXIS_ID",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "false",
+  "foreign_cube_mandatoriness" : "true"
+}

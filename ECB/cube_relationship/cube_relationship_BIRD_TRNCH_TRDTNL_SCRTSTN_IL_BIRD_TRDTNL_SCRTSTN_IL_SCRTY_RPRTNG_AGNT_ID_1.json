@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_TRNCH_TRDTNL_SCRTSTN_IL__BIRD_TRDTNL_SCRTSTN_IL__SCRTY_RPRTNG_AGNT_ID_1",
+  "code" : "BIRD_TRNCH_TRDTNL_SCRTSTN_IL_1__BIRD_TRDTNL_SCRTSTN_IL_1__SCRTY_RPRTNG_AGNT_ID",
+  "name" : "Traditional securitisation has many Tranche in a Traditional securitisation",
+  "description" : null,
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_TRDTNL_SCRTSTN_IL_1",
+  "primary_cube_variable_code" : "RPRTNG_AGNT_ID",
+  "foreign_cube_id" : "BIRD_TRNCH_TRDTNL_SCRTSTN_IL_1",
+  "foreign_cube_variable_code" : "SCRTY_RPRTNG_AGNT_ID",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "true"
+}

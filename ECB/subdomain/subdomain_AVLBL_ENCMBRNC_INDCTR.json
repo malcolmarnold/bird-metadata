@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "AVLBL_ENCMBRNC_INDCTR",
+  "name" : "Available for encumbrance indicator",
+  "domain_id" : "AVLBL_ENCMBRNC",
+  "is_listed" : "true",
+  "code" : "AVLBL_ENCMBRNC_INDCTR",
+  "facet_id" : null,
+  "description" : "Available for encumbrance indicator",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "AVLBL_ENCMBRNC_1",
+    "subdomain_id" : "AVLBL_ENCMBRNC_INDCTR",
+    "valid_from" : "2025-02-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "AVLBL_ENCMBRNC_2",
+    "subdomain_id" : "AVLBL_ENCMBRNC_INDCTR",
+    "valid_from" : "2025-02-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

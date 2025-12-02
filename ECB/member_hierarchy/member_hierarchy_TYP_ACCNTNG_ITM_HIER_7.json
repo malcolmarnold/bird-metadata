@@ -1,0 +1,28 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "TYP_ACCNTNG_ITM_HIER_7",
+  "code" : "7",
+  "domain_id" : "TYP_ACCNTNG_ITM",
+  "name" : "Type of non financial liabililities hierarchy for BIRD models and Finrep",
+  "description" : "Type of non financial liabililities hierarchy for BIRD models and Finrep",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "TYP_ACCNTNG_ITM_HIER_7",
+    "member_id" : "TYP_ACCNTNG_ITM_749",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_ACCNTNG_ITM_HIER_7",
+    "member_id" : "TYP_ACCNTNG_ITM_1302",
+    "level" : "2",
+    "parent_member_id" : "TYP_ACCNTNG_ITM_749",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

@@ -1,0 +1,37 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_IM33",
+  "code" : "IM33",
+  "domain_id" : "EBA_IM",
+  "name" : "Hierarchy for general allowances",
+  "description" : "EBA_IM33",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_IM33",
+    "member_id" : "EBA_IM_EBA_x21",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_IM33",
+    "member_id" : "EBA_IM_EBA_x24",
+    "level" : "2",
+    "parent_member_id" : "EBA_IM_EBA_x21",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_IM33",
+    "member_id" : "EBA_IM_EBA_x23",
+    "level" : "2",
+    "parent_member_id" : "EBA_IM_EBA_x21",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

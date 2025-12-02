@@ -1,0 +1,59 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "cube_id" : "EBA_FINREP_EBA_F_44.02_FINREP_2017-A",
+  "name" : "Movements in defined benefit plans and employee benefits",
+  "code" : "F_44.02",
+  "framework_id" : "EBA_FINREP",
+  "cube_structure_id" : "EBA_FINREP_EBA_F_44.02_FINREP_2017-A",
+  "cube_type" : "D",
+  "is_allowed" : null,
+  "valid_from" : "2018-03-31",
+  "valid_to" : "2021-06-29",
+  "version" : "FINREP 2017-A",
+  "description" : "Movements in defined benefit plans and employee benefits",
+  "published" : "false",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_44.02_FINREP_2017-A",
+    "combination_id" : "EBA_84718"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_44.02_FINREP_2017-A",
+    "combination_id" : "EBA_84719"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_44.02_FINREP_2017-A",
+    "combination_id" : "EBA_84722"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_44.02_FINREP_2017-A",
+    "combination_id" : "EBA_84723"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_44.02_FINREP_2017-A",
+    "combination_id" : "EBA_84815"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_44.02_FINREP_2017-A",
+    "combination_id" : "EBA_84818"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_44.02_FINREP_2017-A",
+    "combination_id" : "EBA_84840"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_44.02_FINREP_2017-A",
+    "combination_id" : "EBA_84902"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_44.02_FINREP_2017-A",
+    "combination_id" : "EBA_84919"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_44.02_FINREP_2017-A",
+    "combination_id" : "EBA_85055"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_44.02_FINREP_2017-A",
+    "combination_id" : "EBA_85056"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_44.02_FINREP_2017-A",
+    "combination_id" : "EBA_85057"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_44.02_FINREP_2017-A",
+    "table_id" : "EBA_FINREP_EBA_F_44.02_FINREP_2017-A"
+  } ]
+}

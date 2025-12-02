@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "CUBE_STRUCTURE_ITEM_LINK__MEMBER_LINK__CUBE_STRUCTURE_ITEM_LINK_ID__1",
+  "code" : "CUBE_STRUCTURE_ITEM_LINK__MEMBER_LINK__CUBE_STRUCTURE_ITEM_LINK_ID__1",
+  "name" : "a cube structure item link can have many member links<br> and a member link has to be linked to a cube structure item link",
+  "description" : null,
+  "type_of_relationship" : "ASS",
+  "valid_from" : "1999-01-01",
+  "valid_to" : "2022-12-01",
+  "version" : "1",
+  "primary_cube_id" : "SDD_CUBE_STRUCTURE_ITEM_LINK_C_1",
+  "primary_cube_variable_code" : "CUBE_STRUCTURE_ITEM_LINK_ID",
+  "foreign_cube_id" : "SDD_MEMBER_LINK_C_1",
+  "foreign_cube_variable_code" : "CUBE_STRUCTURE_ITEM_LINK_ID",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "false",
+  "foreign_cube_mandatoriness" : "true"
+}

@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "SDD_MEMBER_C_1",
+  "name" : "Member",
+  "code" : "MEMBER",
+  "framework_id" : "SDD",
+  "cube_structure_id" : "SDD_MEMBER_C_1",
+  "cube_type" : "C",
+  "is_allowed" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "In a nutshell: Members define the allowed values of a\nspecific field (Variable) in the context of a table (or Cube). A Member is also\nknown as Code in a Code list. More\nspecifically: A Member is a concept\nrepresenting a possible value of an enumerated Domain. Examples for the Domain\nof Country are Austria, Italy, Portugal or not applicable. Members are defined\non an enumerated Domain and can be organized in listed Subdomains. A hierarchy\nof members can be described using Member hierarchies. ",
+  "published" : "false",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

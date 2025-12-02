@@ -1,0 +1,37 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "BLN_HIER_1",
+  "code" : "1",
+  "domain_id" : "BLN",
+  "name" : "Any of the boolean entries",
+  "description" : "Used to map cases when the value of the variable is not relevant for the specific member",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "BLN_HIER_1",
+    "member_id" : "BLN_A",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "BLN_HIER_1",
+    "member_id" : "BLN_T",
+    "level" : "2",
+    "parent_member_id" : "BLN_A",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "BLN_HIER_1",
+    "member_id" : "BLN_F",
+    "level" : "2",
+    "parent_member_id" : "BLN_A",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

@@ -1,0 +1,80 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_link_id" : "WUDEN__BIRD_DBT_SCRTY_ISSD_EIL_1__01_01_1990__BIRD_DBT_SCRTY_ISSD_BNKNG_BK_ELDM_1__1",
+  "code" : "WUDEN__BIRD_DBT_SCRTY_ISSD_EIL_1__01_01_1990__BIRD_DBT_SCRTY_ISSD_BNKNG_BK_ELDM_1",
+  "name" : "The LDM: Issued debt security in the banking book (BIRD_DBT_SCRTY_ISSD_BNKNG_BK_ELDM) is forward engineered into the IL: Debt security issued (by the reporting agent) (BIRD_DBT_SCRTY_ISSD_EIL)",
+  "description" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "order_relevance" : "1",
+  "primary_cube_id" : "BIRD_DBT_SCRTY_ISSD_BNKNG_BK_ELDM_1",
+  "foreign_cube_id" : "BIRD_DBT_SCRTY_ISSD_EIL_1",
+  "cube_link_type" : "TR",
+  "logical_transformation_rule_id" : "WUDEN__BIRD_DBT_SCRTY_ISSD_EIL_1__01_01_1990",
+  "cube_structure_item_link" : [ {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_DBT_SCRTY_ISSD_EIL_1__01_01_1990__BIRD_DBT_SCRTY_ISSD_BNKNG_BK_ELDM_1__1__ACCNTNG_CLSSFCTN__ACCNTNG_CLSSFCTN",
+    "cube_link_id" : "WUDEN__BIRD_DBT_SCRTY_ISSD_EIL_1__01_01_1990__BIRD_DBT_SCRTY_ISSD_BNKNG_BK_ELDM_1__1",
+    "foreign_cube_variable_code" : "ACCNTNG_CLSSFCTN",
+    "primary_cube_variable_code" : "ACCNTNG_CLSSFCTN",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ {
+      "cube_structure_item_link_id" : "WUDEN__BIRD_DBT_SCRTY_ISSD_EIL_1__01_01_1990__BIRD_DBT_SCRTY_ISSD_BNKNG_BK_ELDM_1__1__ACCNTNG_CLSSFCTN__ACCNTNG_CLSSFCTN",
+      "foreign_member_id" : "ACCNTNG_CLSSFCTN_0",
+      "primary_member_id" : "ACCNTNG_CLSSFCTN_0",
+      "valid_from" : "1999-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "WUDEN__BIRD_DBT_SCRTY_ISSD_EIL_1__01_01_1990__BIRD_DBT_SCRTY_ISSD_BNKNG_BK_ELDM_1__1__ACCNTNG_CLSSFCTN__ACCNTNG_CLSSFCTN",
+      "foreign_member_id" : "ACCNTNG_CLSSFCTN_21",
+      "primary_member_id" : "ACCNTNG_CLSSFCTN_21",
+      "valid_from" : "1999-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "WUDEN__BIRD_DBT_SCRTY_ISSD_EIL_1__01_01_1990__BIRD_DBT_SCRTY_ISSD_BNKNG_BK_ELDM_1__1__ACCNTNG_CLSSFCTN__ACCNTNG_CLSSFCTN",
+      "foreign_member_id" : "ACCNTNG_CLSSFCTN_35",
+      "primary_member_id" : "ACCNTNG_CLSSFCTN_35",
+      "valid_from" : "1999-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "WUDEN__BIRD_DBT_SCRTY_ISSD_EIL_1__01_01_1990__BIRD_DBT_SCRTY_ISSD_BNKNG_BK_ELDM_1__1__ACCNTNG_CLSSFCTN__ACCNTNG_CLSSFCTN",
+      "foreign_member_id" : "ACCNTNG_CLSSFCTN_23",
+      "primary_member_id" : "ACCNTNG_CLSSFCTN_23",
+      "valid_from" : "1999-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "WUDEN__BIRD_DBT_SCRTY_ISSD_EIL_1__01_01_1990__BIRD_DBT_SCRTY_ISSD_BNKNG_BK_ELDM_1__1__ACCNTNG_CLSSFCTN__ACCNTNG_CLSSFCTN",
+      "foreign_member_id" : "ACCNTNG_CLSSFCTN_25",
+      "primary_member_id" : "ACCNTNG_CLSSFCTN_25",
+      "valid_from" : "1999-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "WUDEN__BIRD_DBT_SCRTY_ISSD_EIL_1__01_01_1990__BIRD_DBT_SCRTY_ISSD_BNKNG_BK_ELDM_1__1__ACCNTNG_CLSSFCTN__ACCNTNG_CLSSFCTN",
+      "foreign_member_id" : "ACCNTNG_CLSSFCTN_31",
+      "primary_member_id" : "ACCNTNG_CLSSFCTN_31",
+      "valid_from" : "1999-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "WUDEN__BIRD_DBT_SCRTY_ISSD_EIL_1__01_01_1990__BIRD_DBT_SCRTY_ISSD_BNKNG_BK_ELDM_1__1__ACCNTNG_CLSSFCTN__ACCNTNG_CLSSFCTN",
+      "foreign_member_id" : "ACCNTNG_CLSSFCTN_33",
+      "primary_member_id" : "ACCNTNG_CLSSFCTN_33",
+      "valid_from" : "1999-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "WUDEN__BIRD_DBT_SCRTY_ISSD_EIL_1__01_01_1990__BIRD_DBT_SCRTY_ISSD_BNKNG_BK_ELDM_1__1__ACCNTNG_CLSSFCTN__ACCNTNG_CLSSFCTN",
+      "foreign_member_id" : "ACCNTNG_CLSSFCTN_85",
+      "primary_member_id" : "ACCNTNG_CLSSFCTN_85",
+      "valid_from" : "1999-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    } ]
+  } ]
+}

@@ -1,0 +1,43 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_structure_id" : "BIRD_SCRTY_BRRWNG_LNDNG_TRNSCTN_CMPNNT_ELDM_1",
+  "name" : "Security borrowing and lending transaction component",
+  "code" : "BIRD_SCRTY_BRRWNG_LNDNG_TRNSCTN_CMPNNT_ELDM",
+  "description" : "A Security borrowing and lending transaction component is a Securities borrowing and lending transaction including cash as collateral component that is either a Security borrowed or a Security lent.",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "cube_structure_item" : [ {
+    "cube_structure_item_id" : "BIRD_SCRTY_BRRWNG_LNDNG_TRNSCTN_CMPNNT_ELDM_1__SCRTY_BRRWNG_LNDNG_TRNSCTN_CMPNNT_TYP_BY_DRCTN",
+    "cube_structure_id" : "BIRD_SCRTY_BRRWNG_LNDNG_TRNSCTN_CMPNNT_ELDM_1",
+    "cube_variable_code" : "SCRTY_BRRWNG_LNDNG_TRNSCTN_CMPNNT_TYP_BY_DRCTN",
+    "variable_id" : "SCRTY_BRRWNG_LNDNG_TRNSCTN_CMPNNT_TYP_BY_DRCTN",
+    "role" : "O",
+    "order" : "0",
+    "subdomain_id" : "SCRTY_BRRWNG_LNDNG_TRNSCTN_CMPNNT_BY_DRCTN",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "true",
+    "description" : "A discriminator to distinguish between different types of security borrowing and lending transaction components by direction.",
+    "is_implemented" : "true"
+  }, {
+    "cube_structure_item_id" : "BIRD_SCRTY_BRRWNG_LNDNG_TRNSCTN_CMPNNT_ELDM_1__SCRTY_BRRWNG_LNDNG_TRNSCTN_CMPNNT_TYP_BY_SCRTY_TYP",
+    "cube_structure_id" : "BIRD_SCRTY_BRRWNG_LNDNG_TRNSCTN_CMPNNT_ELDM_1",
+    "cube_variable_code" : "SCRTY_BRRWNG_LNDNG_TRNSCTN_CMPNNT_TYP_BY_SCRTY_TYP",
+    "variable_id" : "SCRTY_BRRWNG_LNDNG_TRNSCTN_CMPNNT_TYP_BY_SCRTY_TYP",
+    "role" : "O",
+    "order" : "1",
+    "subdomain_id" : "SCRTY_BRRWNG_LNDNG_TRNSCTN_CMPNNT_TYP_BY_SCRTY_TYP",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "true",
+    "description" : "A discriminator to distinguish between different types of security borrowing and lending transaction components by security type.",
+    "is_implemented" : "true"
+  } ]
+}

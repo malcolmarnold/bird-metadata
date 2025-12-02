@@ -1,0 +1,82 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "RLTNSHP_HIER_1",
+  "code" : "1",
+  "domain_id" : "RLTNSHP",
+  "name" : "All entities main hierarchy",
+  "description" : "Hierarchical structure of the member All entities (33) Main",
+  "is_main_hierarchy" : "true",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "RLTNSHP_HIER_1",
+    "member_id" : "RLTNSHP_33",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "2019-05-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "RLTNSHP_HIER_1",
+    "member_id" : "RLTNSHP_1",
+    "level" : "2",
+    "parent_member_id" : "RLTNSHP_33",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2019-05-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "RLTNSHP_HIER_1",
+    "member_id" : "RLTNSHP_2",
+    "level" : "2",
+    "parent_member_id" : "RLTNSHP_33",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2019-05-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "RLTNSHP_HIER_1",
+    "member_id" : "RLTNSHP_3",
+    "level" : "2",
+    "parent_member_id" : "RLTNSHP_33",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2019-05-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "RLTNSHP_HIER_1",
+    "member_id" : "RLTNSHP_4",
+    "level" : "2",
+    "parent_member_id" : "RLTNSHP_33",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2019-05-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "RLTNSHP_HIER_1",
+    "member_id" : "RLTNSHP_5",
+    "level" : "2",
+    "parent_member_id" : "RLTNSHP_33",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2019-05-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "RLTNSHP_HIER_1",
+    "member_id" : "RLTNSHP_6",
+    "level" : "2",
+    "parent_member_id" : "RLTNSHP_33",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2019-05-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "RLTNSHP_HIER_1",
+    "member_id" : "RLTNSHP_7",
+    "level" : "2",
+    "parent_member_id" : "RLTNSHP_33",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2019-05-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

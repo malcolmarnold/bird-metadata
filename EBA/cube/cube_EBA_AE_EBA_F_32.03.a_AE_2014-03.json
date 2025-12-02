@@ -1,0 +1,32 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "cube_id" : "EBA_AE_EBA_F_32.03.a_AE_2014-03",
+  "name" : "Asset encumbrance: Not pledged. Own covered bonds and ABS issued and not yet pledged (a)",
+  "code" : "F_32.03.a",
+  "framework_id" : "EBA_AE",
+  "cube_structure_id" : "EBA_AE_EBA_F_32.03.a_AE_2014-03",
+  "cube_type" : "D",
+  "is_allowed" : null,
+  "valid_from" : "2014-09-30",
+  "valid_to" : "2021-06-29",
+  "version" : "AE 2014-03",
+  "description" : "Asset encumbrance: Not pledged. Own covered bonds and ABS issued and not yet pledged (a)",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "EBA_AE_EBA_F_32.03.a_AE_2014-03",
+    "combination_id" : "EBA_94825"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_32.03.a_AE_2014-03",
+    "combination_id" : "EBA_94829"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_32.03.a_AE_2014-03",
+    "combination_id" : "EBA_94830"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "EBA_AE_EBA_F_32.03.a_AE_2014-03",
+    "table_id" : "EBA_AE_EBA_F_32.03.a_AE_2014-03"
+  } ]
+}

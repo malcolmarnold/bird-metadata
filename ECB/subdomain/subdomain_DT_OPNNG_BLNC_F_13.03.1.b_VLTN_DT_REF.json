@@ -1,0 +1,36 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "DT_OPNNG_BLNC_F_13.03.1.b_VLTN_DT_REF",
+  "name" : "Subdomain for VLTN_DT of the Cube F_13.03.1.b",
+  "domain_id" : "DT_OPNNG_BLNC",
+  "is_listed" : "true",
+  "code" : "DT_OPNNG_BLNC_F_13.03.1.b_VLTN_DT_REF",
+  "facet_id" : null,
+  "description" : null,
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "DT_OPNNG_BLNC_3",
+    "subdomain_id" : "DT_OPNNG_BLNC_F_13.03.1.b_VLTN_DT_REF",
+    "valid_from" : "2020-06-30",
+    "valid_to" : "2021-06-29",
+    "order" : "0"
+  }, {
+    "member_id" : "DT_OPNNG_BLNC_2",
+    "subdomain_id" : "DT_OPNNG_BLNC_F_13.03.1.b_VLTN_DT_REF",
+    "valid_from" : "2020-06-30",
+    "valid_to" : "2021-06-29",
+    "order" : "1"
+  }, {
+    "member_id" : "DT_OPNNG_BLNC_3",
+    "subdomain_id" : "DT_OPNNG_BLNC_F_13.03.1.b_VLTN_DT_REF",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "DT_OPNNG_BLNC_2",
+    "subdomain_id" : "DT_OPNNG_BLNC_F_13.03.1.b_VLTN_DT_REF",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31",
+    "order" : "1"
+  } ]
+}

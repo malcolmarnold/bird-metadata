@@ -1,0 +1,40 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_mapping_id" : "M_F_00.01_REF_FINREP",
+  "name" : "F_00.01-->F_00.01_REF__FINREP",
+  "code" : "M_F_00.01_REF_FINREP",
+  "source_cube_id" : "EBA_FINREP_EBA_F_00.01_FINREP",
+  "destination_cube_id" : "FINREP_REF_F_00.01_REF_FINREP",
+  "description" : "Mapping cubes, source cube: F_00.01, target cube: F_00.01_REF, version: FINREP",
+  "mapping_to_cube" : [ {
+    "cube_mapping_id" : "M_F_00.01_REF_FINREP",
+    "mapping_id" : "DPM_BAS",
+    "valid_from" : "1999-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_F_00.01_REF_FINREP",
+    "mapping_id" : "DPM_Entity2",
+    "valid_from" : "1999-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_F_00.01_REF_FINREP",
+    "mapping_id" : "DPM_Period",
+    "valid_from" : "1999-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_F_00.01_REF_FINREP",
+    "mapping_id" : "DPM_RiadCode",
+    "valid_from" : "1999-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_F_00.01_REF_FINREP",
+    "mapping_id" : "DPM_ValueString",
+    "valid_from" : "1999-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "cube_mapping_id" : "M_F_00.01_REF_FINREP",
+    "mapping_id" : "DPM_ATY_FINREP",
+    "valid_from" : "1999-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

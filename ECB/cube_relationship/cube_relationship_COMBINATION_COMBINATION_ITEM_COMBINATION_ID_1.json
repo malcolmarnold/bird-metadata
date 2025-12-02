@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "COMBINATION__COMBINATION_ITEM__COMBINATION_ID__1",
+  "code" : "COMBINATION__COMBINATION_ITEM__COMBINATION_ID__1",
+  "name" : "a combination must be associated with a combination item,<br> it can have many combination items<br> and a combination item must be associated with a combination",
+  "description" : null,
+  "type_of_relationship" : "ASS",
+  "valid_from" : "1999-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "SDD_COMBINATION_C_1",
+  "primary_cube_variable_code" : "COMBINATION_ID",
+  "foreign_cube_id" : "SDD_COMBINATION_ITEM_C_1",
+  "foreign_cube_variable_code" : "COMBINATION_ID",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "true"
+}

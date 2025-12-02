@@ -1,0 +1,26 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "cube_id" : "EBA_FINREP_EBA_F_13.03_FINREP",
+  "name" : "Collateral obtained by taking possession [tangible assets] accumulated",
+  "code" : "F_13.03",
+  "framework_id" : "EBA_FINREP",
+  "cube_structure_id" : "EBA_FINREP_EBA_F_13.03_FINREP",
+  "cube_type" : "D",
+  "is_allowed" : null,
+  "valid_from" : "2013-12-01",
+  "valid_to" : "2018-03-30",
+  "version" : "FINREP",
+  "description" : "Collateral obtained by taking possession [tangible assets] accumulated",
+  "published" : "false",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_13.03_FINREP",
+    "combination_id" : "EBA_108853"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_13.03_FINREP",
+    "table_id" : "EBA_FINREP_EBA_F_13.03_FINREP"
+  } ]
+}

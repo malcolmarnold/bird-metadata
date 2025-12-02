@@ -1,0 +1,77 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "cube_id" : "EBA_FINREP_EBA_F_42.00_FINREP_2.9",
+  "name" : "Tangible and intangible assets: carrying amount by measurement method",
+  "code" : "F_42.00",
+  "framework_id" : "EBA_FINREP",
+  "cube_structure_id" : "EBA_FINREP_EBA_F_42.00_FINREP_2.9",
+  "cube_type" : "D",
+  "is_allowed" : null,
+  "valid_from" : "2020-06-30",
+  "valid_to" : "2021-06-29",
+  "version" : "FINREP 2.9",
+  "description" : "Tangible and intangible assets: carrying amount by measurement method",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_42.00_FINREP_2.9",
+    "combination_id" : "EBA_11776"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_42.00_FINREP_2.9",
+    "combination_id" : "EBA_11784"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_42.00_FINREP_2.9",
+    "combination_id" : "EBA_11787"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_42.00_FINREP_2.9",
+    "combination_id" : "EBA_11914"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_42.00_FINREP_2.9",
+    "combination_id" : "EBA_11918"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_42.00_FINREP_2.9",
+    "combination_id" : "EBA_11922"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_42.00_FINREP_2.9",
+    "combination_id" : "EBA_11930"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_42.00_FINREP_2.9",
+    "combination_id" : "EBA_11933"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_42.00_FINREP_2.9",
+    "combination_id" : "EBA_113155"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_42.00_FINREP_2.9",
+    "combination_id" : "EBA_429244"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_42.00_FINREP_2.9",
+    "combination_id" : "EBA_429245"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_42.00_FINREP_2.9",
+    "combination_id" : "EBA_429246"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_42.00_FINREP_2.9",
+    "combination_id" : "EBA_429247"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_42.00_FINREP_2.9",
+    "combination_id" : "EBA_429248"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_42.00_FINREP_2.9",
+    "combination_id" : "EBA_429249"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_42.00_FINREP_2.9",
+    "combination_id" : "EBA_429262"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_42.00_FINREP_2.9",
+    "combination_id" : "EBA_429263"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_42.00_FINREP_2.9",
+    "combination_id" : "EBA_429503"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_42.00_FINREP_2.9",
+    "table_id" : "EBA_FINREP_EBA_F_42.00_FINREP_2.9"
+  } ]
+}

@@ -1,0 +1,33 @@
+{
+  "semantic_transformation_rule_id" : "ACCMLTD_CHNG_NGTV_TR",
+  "transformation_url" : "https://gitlab.sofa.dev/bird-subgroups/bird-transformation-rules/-/blob/main/FinRep%20subgroup/final%20derivation%20rules/ACCMLTD_CHNG_NGTV/infosheet.md",
+  "type_of_transformation" : "D",
+  "maintenance_agency_id" : "ECB",
+  "name" : "Accumulated negative changes derivation rule",
+  "code" : "ACCMLTD_CHNG_NGTV_TR",
+  "description" : "This derivation rule aims to obtain the Accumulated negative changes from its building blocks.",
+  "algorithm" : "SET ACCMLTD_CHNG_NGTV =\n        CASE\n            WHEN TYP_ABSTRCT_INSTRMNT_RL = 71\n                AND TKN_PSSSSN_DT > DATEADD(month,-3,DT_RFRNC) \n                AND TKN_PSSSSN_DT < DT_RFRNC\n                AND INTL_RCGNTN_VL - CRRYNG_AMNT < 0 \n                    THEN INTL_RCGNTN_VL - CRRYNG_AMNT\n            ELSE 'N/A'\n        END;",
+  "valid_from" : "2024-02-28",
+  "valid_to" : "9999-12-31",
+  "logical_transformation_rule" : [ {
+    "logical_transformation_rule_id" : "DER__BIRD_INSTRMNT_RL_EIL_1__ACCMLTD_CHNG_NGTV__01_01_1990",
+    "semantic_transformation_rule_id" : "ACCMLTD_CHNG_NGTV_TR",
+    "algorithm" : "SET BIRD_INSTRMNT_RL_EIL.ACCMLTD_CHNG_NGTV =\n        CASE\n            WHEN BIRD_INSTRMNT_RL_IL.TYP_ABSTRCT_INSTRMNT_RL = 71\n                AND BIRD_CLLTRL_IL.TKN_PSSSSN_DT > DATEADD(month,-3,BIRD_CLLTRL_IL.DT_RFRNC) \n                AND BIRD_CLLTRL_IL.TKN_PSSSSN_DT < BIRD_CLLTRL_IL.DT_RFRNC\n                AND BIRD_CLLTRL_IL.INTL_RCGNTN_VL - BIRD_CLLTRL_IL.CRRYNG_AMNT < 0 \n                    THEN BIRD_CLLTRL_IL.INTL_RCGNTN_VL - BIRD_CLLTRL_IL.CRRYNG_AMNT\n            ELSE 'N/A'\n        END;",
+    "additional_filters" : null,
+    "source_layer" : "IL",
+    "destination_layer" : "EIL",
+    "transformation_type" : "DER",
+    "valid_from" : "1990-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "logical_transformation_rule_id" : "DER__BIRD_CLLTRL_EIL_1__ACCMLTD_CHNG_NGTV__01_01_1990",
+    "semantic_transformation_rule_id" : "ACCMLTD_CHNG_NGTV_TR",
+    "algorithm" : "SET BIRD_CLLTRL_EIL.ACCMLTD_CHNG_NGTV =\n        CASE\n            WHEN BIRD_INSTRMNT_RL_IL.TYP_ABSTRCT_INSTRMNT_RL = 71\n                AND BIRD_CLLTRL_IL.TKN_PSSSSN_DT > DATEADD(month,-3,BIRD_CLLTRL_IL.DT_RFRNC) \n                AND BIRD_CLLTRL_IL.TKN_PSSSSN_DT < BIRD_CLLTRL_IL.DT_RFRNC\n                AND BIRD_CLLTRL_IL.INTL_RCGNTN_VL - BIRD_CLLTRL_IL.CRRYNG_AMNT < 0 \n                    THEN BIRD_CLLTRL_IL.INTL_RCGNTN_VL - BIRD_CLLTRL_IL.CRRYNG_AMNT\n            ELSE 'N/A'\n        END;",
+    "additional_filters" : null,
+    "source_layer" : "IL",
+    "destination_layer" : "EIL",
+    "transformation_type" : "DER",
+    "valid_from" : "1990-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

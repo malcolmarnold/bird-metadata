@@ -1,0 +1,37 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "PRCHSD_ORGNTD_HIER_1",
+  "code" : "1",
+  "domain_id" : "PRCHSD_ORGNTD",
+  "name" : "Purchased or originated main hierarchy",
+  "description" : "Hierarchical structure of the member Purchased or originated credit-impaired, Not Purchased or originated credit-impaired (Total) (-1)",
+  "is_main_hierarchy" : "true",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "PRCHSD_ORGNTD_HIER_1",
+    "member_id" : "PRCHSD_ORGNTD_-1",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRCHSD_ORGNTD_HIER_1",
+    "member_id" : "PRCHSD_ORGNTD_2",
+    "level" : "2",
+    "parent_member_id" : "PRCHSD_ORGNTD_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRCHSD_ORGNTD_HIER_1",
+    "member_id" : "PRCHSD_ORGNTD_1",
+    "level" : "2",
+    "parent_member_id" : "PRCHSD_ORGNTD_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

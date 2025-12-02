@@ -1,0 +1,118 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "CRDT_QLTY_HIER_1",
+  "code" : "1",
+  "domain_id" : "CRDT_QLTY",
+  "name" : "All impairment classification according to IFRS and nGAAP hierarchy",
+  "description" : "Hierarchical structure of the member All impairment classification according to IFRS and nGAAP (Total) (-1)",
+  "is_main_hierarchy" : "true",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "CRDT_QLTY_HIER_1",
+    "member_id" : "CRDT_QLTY_-1",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "CRDT_QLTY_HIER_1",
+    "member_id" : "CRDT_QLTY_27",
+    "level" : "2",
+    "parent_member_id" : "CRDT_QLTY_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "CRDT_QLTY_HIER_1",
+    "member_id" : "CRDT_QLTY_16",
+    "level" : "2",
+    "parent_member_id" : "CRDT_QLTY_-1",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "CRDT_QLTY_HIER_1",
+    "member_id" : "CRDT_QLTY_24",
+    "level" : "3",
+    "parent_member_id" : "CRDT_QLTY_16",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "CRDT_QLTY_HIER_1",
+    "member_id" : "CRDT_QLTY_21",
+    "level" : "2",
+    "parent_member_id" : "CRDT_QLTY_-1",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "CRDT_QLTY_HIER_1",
+    "member_id" : "CRDT_QLTY_26",
+    "level" : "2",
+    "parent_member_id" : "CRDT_QLTY_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "CRDT_QLTY_HIER_1",
+    "member_id" : "CRDT_QLTY_23",
+    "level" : "3",
+    "parent_member_id" : "CRDT_QLTY_16",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "CRDT_QLTY_HIER_1",
+    "member_id" : "CRDT_QLTY_25",
+    "level" : "3",
+    "parent_member_id" : "CRDT_QLTY_16",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "CRDT_QLTY_HIER_1",
+    "member_id" : "CRDT_QLTY_211",
+    "level" : "3",
+    "parent_member_id" : "CRDT_QLTY_21",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "CRDT_QLTY_HIER_1",
+    "member_id" : "CRDT_QLTY_212",
+    "level" : "3",
+    "parent_member_id" : "CRDT_QLTY_21",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "CRDT_QLTY_HIER_1",
+    "member_id" : "CRDT_QLTY_214",
+    "level" : "4",
+    "parent_member_id" : "CRDT_QLTY_211",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "CRDT_QLTY_HIER_1",
+    "member_id" : "CRDT_QLTY_213",
+    "level" : "4",
+    "parent_member_id" : "CRDT_QLTY_212",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

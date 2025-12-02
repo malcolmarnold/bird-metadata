@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_SNDCTD_CNTRCT_NN_SB_PRTCPTN_MMBR_INSTRMNT_PMNT_AGNT_ASSGNMNT_LDM_1__BIRD_PMNT_AGNT_LDM_1__PYMNT_AGNT_RFRNC_DT_1",
+  "code" : "BIRD_SNDCTD_CNTRCT_NN_SB_PRTCPTN_MMBR_INSTRMNT_PMNT_AGNT_ASSGNMNT_LDM_1__BIRD_PMNT_AGNT_LDM_1__PYMNT_AGNT_RFRNC_DT",
+  "name" : "Payment agent may have many Syndication or sub-participation member instrument Payment agent assignment",
+  "description" : "Payment agent is payment agent for Syndication or sub-participation member instrument via Syndication or sub-participation member instrument Payment agent assignment",
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_PMNT_AGNT_LDM_1",
+  "primary_cube_variable_code" : "PRTY_RFRNC_DT",
+  "foreign_cube_id" : "BIRD_SNDCTD_CNTRCT_NN_SB_PRTCPTN_MMBR_INSTRMNT_PMNT_AGNT_ASSGNMNT_LDM_1",
+  "foreign_cube_variable_code" : "PYMNT_AGNT_RFRNC_DT",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "false"
+}

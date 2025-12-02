@@ -1,0 +1,62 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "FINREP_REF_F_19.00.d_REF_FINREP 3.0",
+  "name" : "Information on forborne exposures (IV) - Reference",
+  "code" : "F_19.00.d_REF",
+  "framework_id" : "FINREP_REF",
+  "cube_structure_id" : "FINREP_REF_F_19.00.d_REF_FINREP 3.0",
+  "cube_type" : "RC",
+  "is_allowed" : null,
+  "valid_from" : "2021-06-30",
+  "valid_to" : "9999-12-31",
+  "version" : "FINREP 3.0",
+  "description" : null,
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "FINREP_REF_F_19.00.d_REF_FINREP 3.0",
+    "combination_id" : "149627_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_19.00.d_REF_FINREP 3.0",
+    "combination_id" : "118997_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_19.00.d_REF_FINREP 3.0",
+    "combination_id" : "118993_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_19.00.d_REF_FINREP 3.0",
+    "combination_id" : "118999_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_19.00.d_REF_FINREP 3.0",
+    "combination_id" : "434040_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_19.00.d_REF_FINREP 3.0",
+    "combination_id" : "119002_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_19.00.d_REF_FINREP 3.0",
+    "combination_id" : "119000_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_19.00.d_REF_FINREP 3.0",
+    "combination_id" : "119001_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_19.00.d_REF_FINREP 3.0",
+    "combination_id" : "119003_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_19.00.d_REF_FINREP 3.0",
+    "combination_id" : "434041_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_19.00.d_REF_FINREP 3.0",
+    "combination_id" : "118998_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_19.00.d_REF_FINREP 3.0",
+    "combination_id" : "118996_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_19.00.d_REF_FINREP 3.0",
+    "combination_id" : "118994_REF"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "FINREP_REF_F_19.00.d_REF_FINREP 3.0",
+    "table_id" : "FINREP_REF_F_19.00.d_REF_FINREP 3.0"
+  } ]
+}

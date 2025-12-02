@@ -1,0 +1,73 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_AP15",
+  "code" : "AP15",
+  "domain_id" : "EBA_AP",
+  "name" : "Methods to determine the risk weight for securitisations (revised framework)",
+  "description" : "Methods to determine the risk weigth for securitisations (revised framework)",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_AP15",
+    "member_id" : "EBA_AP_EBA_x133",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2018-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP15",
+    "member_id" : "EBA_AP_EBA_x134",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2018-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP15",
+    "member_id" : "EBA_AP_EBA_x25",
+    "level" : "2",
+    "parent_member_id" : "EBA_AP_EBA_x134",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2018-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP15",
+    "member_id" : "EBA_AP_EBA_x125",
+    "level" : "2",
+    "parent_member_id" : "EBA_AP_EBA_x134",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2018-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP15",
+    "member_id" : "EBA_AP_EBA_x1",
+    "level" : "2",
+    "parent_member_id" : "EBA_AP_EBA_x134",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2018-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP15",
+    "member_id" : "EBA_AP_EBA_x122",
+    "level" : "2",
+    "parent_member_id" : "EBA_AP_EBA_x134",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2018-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP15",
+    "member_id" : "EBA_AP_EBA_x118",
+    "level" : "2",
+    "parent_member_id" : "EBA_AP_EBA_x134",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2018-12-31",
+    "valid_to" : "9999-12-31"
+  } ]
+}

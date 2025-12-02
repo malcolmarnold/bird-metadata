@@ -1,0 +1,55 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "TYP_INSTRMNT_HIER_62",
+  "code" : "62",
+  "domain_id" : "TYP_INSTRMNT",
+  "name" : "Type of Instrument hierarchy for BIRD Data Models and AE",
+  "description" : "Type of Instrument hierarchy for BIRD Data Models and AE",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_62",
+    "member_id" : "TYP_INSTRMNT_-1",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_62",
+    "member_id" : "TYP_INSTRMNT_257",
+    "level" : "2",
+    "parent_member_id" : "TYP_INSTRMNT_-1",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_62",
+    "member_id" : "TYP_INSTRMNT_1",
+    "level" : "3",
+    "parent_member_id" : "TYP_INSTRMNT_257",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_62",
+    "member_id" : "TYP_INSTRMNT_3002",
+    "level" : "2",
+    "parent_member_id" : "TYP_INSTRMNT_-1",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_62",
+    "member_id" : "TYP_INSTRMNT_1000",
+    "level" : "3",
+    "parent_member_id" : "TYP_INSTRMNT_3002",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

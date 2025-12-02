@@ -1,0 +1,10 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "variable_id" : "SYNDCTD_CNTRCT_ID",
+  "code" : "SYNDCTD_CNTRCT_ID",
+  "name" : "Syndicated contract identifier",
+  "domain_id" : "STRNG",
+  "description" : "'Contract identifier' applied by the lead arranger of the syndicated contract to uniquely identify each contract. Each syndicated contract will have one 'syndicated contract identifier'. This value will not change over time and cannot be used by the lead arranger as the contract identifier for any other contract. All creditors participating in the syndicated contract must use the same 'syndicated contract identifier'.",
+  "primary_concept" : null,
+  "is_decomposed" : null
+}

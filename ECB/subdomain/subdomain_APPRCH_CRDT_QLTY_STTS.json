@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "APPRCH_CRDT_QLTY_STTS",
+  "name" : "Assessment approach for credit quality status - full domain",
+  "domain_id" : "APPRCH_CRDT_QLTY_STTS",
+  "is_listed" : "true",
+  "code" : "APPRCH_CRDT_QLTY_STTS",
+  "facet_id" : null,
+  "description" : "Assessment approach for credit quality status - full domain",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "APPRCH_CRDT_QLTY_STTS_1",
+    "subdomain_id" : "APPRCH_CRDT_QLTY_STTS",
+    "valid_from" : "2017-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "APPRCH_CRDT_QLTY_STTS_2",
+    "subdomain_id" : "APPRCH_CRDT_QLTY_STTS",
+    "valid_from" : "2017-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

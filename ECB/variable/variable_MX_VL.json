@@ -1,0 +1,10 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "variable_id" : "MX_VL",
+  "code" : "MX_VL",
+  "name" : "maxValue",
+  "domain_id" : "RL",
+  "description" : "The maxValue facet is used for inclusive and exclusive ranges, indicating what the upper bound of the range is. If this is used with an inclusive range, a valid value will be less than or equal to the value specified here. If the inclusive and exclusive data type is not specified (e.g. this facet is used with an integer data type), the value is assumed to be inclusive.",
+  "primary_concept" : null,
+  "is_decomposed" : "true"
+}

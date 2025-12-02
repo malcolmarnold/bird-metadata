@@ -1,0 +1,37 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_ZZ832",
+  "code" : "ZZ832",
+  "domain_id" : "EBA_ZZ",
+  "name" : "Post-shock interest rate floor (NII/EVE)",
+  "description" : "EBA_ZZ832",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_ZZ832",
+    "member_id" : "EBA_ZZ_EBA_x780",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2023-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ832",
+    "member_id" : "EBA_ZZ_EBA_x781",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2023-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ832",
+    "member_id" : "EBA_ZZ_EBA_x779",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2023-12-31",
+    "valid_to" : "9999-12-31"
+  } ]
+}

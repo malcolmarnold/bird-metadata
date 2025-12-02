@@ -1,0 +1,43 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_structure_id" : "BIRD_RTNG_GRD_LDM_1",
+  "name" : "Rating grade",
+  "code" : "BIRD_RTNG_GRD_LDM",
+  "description" : "A Rating grade is a grade representing the probability of default of a Party, Instrument or Debt security.",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "cube_structure_item" : [ {
+    "cube_structure_item_id" : "BIRD_RTNG_GRD_LDM_1__RTNG_GRD_CRDT_QLTY",
+    "cube_structure_id" : "BIRD_RTNG_GRD_LDM_1",
+    "cube_variable_code" : "RTNG_GRD_CRDT_QLTY",
+    "variable_id" : "RTNG_GRD_CRDT_QLTY",
+    "role" : "O",
+    "order" : "1",
+    "subdomain_id" : "RTNG_GRD_CRDT_QLTY",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "true",
+    "description" : "Rating grade credit quality distinguishes Central bank and private sector company according to the credit quality of their investment grade.",
+    "is_implemented" : "true"
+  }, {
+    "cube_structure_item_id" : "BIRD_RTNG_GRD_LDM_1__RTNG_GRD_TYP",
+    "cube_structure_id" : "BIRD_RTNG_GRD_LDM_1",
+    "cube_variable_code" : "RTNG_GRD_TYP",
+    "variable_id" : "RTNG_GRD_TYP",
+    "role" : "O",
+    "order" : "0",
+    "subdomain_id" : "RTNG_GRD_TYP",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "true",
+    "description" : "A discriminator to distinguish between different types of rating grades.",
+    "is_implemented" : "true"
+  } ]
+}

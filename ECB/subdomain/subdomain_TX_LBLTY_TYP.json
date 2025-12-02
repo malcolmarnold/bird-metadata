@@ -1,0 +1,30 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "TX_LBLTY_TYP",
+  "name" : "Tax liability type",
+  "domain_id" : "TYP_ACCNTNG_ITM",
+  "is_listed" : "true",
+  "code" : "TX_LBLTY_TYP",
+  "facet_id" : null,
+  "description" : "Tax liability type",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "TYP_ACCNTNG_ITM_720",
+    "subdomain_id" : "TX_LBLTY_TYP",
+    "valid_from" : "2023-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_ACCNTNG_ITM_721",
+    "subdomain_id" : "TX_LBLTY_TYP",
+    "valid_from" : "2023-01-01",
+    "valid_to" : "2025-01-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_ACCNTNG_ITM_710",
+    "subdomain_id" : "TX_LBLTY_TYP",
+    "valid_from" : "2025-02-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

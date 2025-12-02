@@ -1,0 +1,36 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "TYP_DMNSN",
+  "name" : "Types of dimension for the SDD",
+  "domain_id" : "TYP_DMNSN",
+  "is_listed" : "true",
+  "code" : "TYP_DMNSN",
+  "facet_id" : null,
+  "description" : "Types of dimension for the SDD",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "TYP_DMNSN_B",
+    "subdomain_id" : "TYP_DMNSN",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_DMNSN_U",
+    "subdomain_id" : "TYP_DMNSN",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_DMNSN_M",
+    "subdomain_id" : "TYP_DMNSN",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_DMNSN_T",
+    "subdomain_id" : "TYP_DMNSN",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

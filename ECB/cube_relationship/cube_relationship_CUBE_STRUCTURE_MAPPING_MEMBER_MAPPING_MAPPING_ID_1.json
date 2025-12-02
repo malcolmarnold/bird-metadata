@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "CUBE_STRUCTURE_MAPPING__MEMBER_MAPPING__MAPPING_ID__1",
+  "code" : "CUBE_STRUCTURE_MAPPING__MEMBER_MAPPING__MAPPING_ID__1",
+  "name" : "a cube structure mapping must have a member mapping <br> and a member mapping must have a cube structure mapping",
+  "description" : null,
+  "type_of_relationship" : "ASS",
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "SDD_CUBE_STRUCTURE_MAPPING_C_1",
+  "primary_cube_variable_code" : "MEMBER_MAPPING_ID",
+  "foreign_cube_id" : "SDD_MEMBER_MAPPING_C_1",
+  "foreign_cube_variable_code" : "MEMBER_MAPPING_ID",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "1",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "true"
+}

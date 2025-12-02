@@ -1,0 +1,36 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "DFLT_STTS_TYP_INPT",
+  "name" : "Default status type (Input Layer)",
+  "domain_id" : "CRDT_QLTY",
+  "is_listed" : "true",
+  "code" : "DFLT_STTS_TYP_INPT",
+  "facet_id" : null,
+  "description" : "Default status type (Input Layer)",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "CRDT_QLTY_0",
+    "subdomain_id" : "DFLT_STTS_TYP_INPT",
+    "valid_from" : "2023-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "CRDT_QLTY_18",
+    "subdomain_id" : "DFLT_STTS_TYP_INPT",
+    "valid_from" : "2023-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "CRDT_QLTY_19",
+    "subdomain_id" : "DFLT_STTS_TYP_INPT",
+    "valid_from" : "2023-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "CRDT_QLTY_20",
+    "subdomain_id" : "DFLT_STTS_TYP_INPT",
+    "valid_from" : "2023-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

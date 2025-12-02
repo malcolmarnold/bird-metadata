@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_TRNSFRD_ASST_LG_LDM_1",
+  "name" : "Transferred asset leg",
+  "code" : "BIRD_TRNSFRD_ASST_LG_LDM",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_TRNSFRD_ASST_LG_LDM_1",
+  "cube_type" : "LDM",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "Transferred asset leg is the asset lend in a Repurchase agreement or the asset received (considered a protection) in a Reverse repurchase agreement.",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

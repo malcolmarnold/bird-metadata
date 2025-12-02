@@ -1,0 +1,73 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "FVO_DSGNTN_HIER_1",
+  "code" : "1",
+  "domain_id" : "FVO_DSGNTN",
+  "name" : "Fair value option designations hierarchy",
+  "description" : "Hierarchical structure of the Member All fair value option designations (-1)",
+  "is_main_hierarchy" : "true",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "FVO_DSGNTN_HIER_1",
+    "member_id" : "FVO_DSGNTN_-1",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "FVO_DSGNTN_HIER_1",
+    "member_id" : "FVO_DSGNTN_5",
+    "level" : "3",
+    "parent_member_id" : "FVO_DSGNTN_4",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "FVO_DSGNTN_HIER_1",
+    "member_id" : "FVO_DSGNTN_6",
+    "level" : "3",
+    "parent_member_id" : "FVO_DSGNTN_4",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "FVO_DSGNTN_HIER_1",
+    "member_id" : "FVO_DSGNTN_2",
+    "level" : "2",
+    "parent_member_id" : "FVO_DSGNTN_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "FVO_DSGNTN_HIER_1",
+    "member_id" : "FVO_DSGNTN_4",
+    "level" : "2",
+    "parent_member_id" : "FVO_DSGNTN_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "FVO_DSGNTN_HIER_1",
+    "member_id" : "FVO_DSGNTN_3",
+    "level" : "2",
+    "parent_member_id" : "FVO_DSGNTN_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "FVO_DSGNTN_HIER_1",
+    "member_id" : "FVO_DSGNTN_1",
+    "level" : "2",
+    "parent_member_id" : "FVO_DSGNTN_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

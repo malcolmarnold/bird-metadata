@@ -1,0 +1,48 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "subdomain_id" : "EBA_174898995675850020",
+  "name" : "RF([x12|x14|x0|x11|x13|x15])",
+  "domain_id" : "EBA_RF",
+  "is_listed" : "true",
+  "code" : "174898995675850020",
+  "facet_id" : null,
+  "description" : "Reference date or period",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "EBA_RF_EBA_x12",
+    "subdomain_id" : "EBA_174898995675850020",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "EBA_RF_EBA_x14",
+    "subdomain_id" : "EBA_174898995675850020",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "EBA_RF_EBA_x0",
+    "subdomain_id" : "EBA_174898995675850020",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "EBA_RF_EBA_x11",
+    "subdomain_id" : "EBA_174898995675850020",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "EBA_RF_EBA_x13",
+    "subdomain_id" : "EBA_174898995675850020",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "EBA_RF_EBA_x15",
+    "subdomain_id" : "EBA_174898995675850020",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

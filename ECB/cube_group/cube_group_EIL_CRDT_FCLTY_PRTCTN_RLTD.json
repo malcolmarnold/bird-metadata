@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_group_id" : "EIL_CRDT_FCLTY_PRTCTN_RLTD",
+  "name" : "Credit facility Protection related",
+  "code" : "EIL_CRDT_FCLTY_PRTCTN_RLTD",
+  "description" : "Credit facility Protection related",
+  "cube_group_enumeration" : [ {
+    "order" : "1",
+    "cube_group_id" : "EIL_CRDT_FCLTY_PRTCTN_RLTD",
+    "cube_id" : "BIRD_CRDT_FCLTY_CLLTRL_ASSGNMNT_EIL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "EIL_CRDT_FCLTY_PRTCTN_RLTD",
+    "cube_id" : "BIRD_CRDT_FCLTY_CLLTRL_RCVD_INSTRMNT_ASSGNMNT_EIL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

@@ -1,0 +1,36 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "SHRT_PSTN_INDCTR_F_41.01_SHRT_PSTN_INDCTR_REF",
+  "name" : "Subdomain for SHRT_PSTN_INDCTR of the Cube F_41.01",
+  "domain_id" : "SHRT_PSTN_INDCTR",
+  "is_listed" : "true",
+  "code" : "SHRT_PSTN_INDCTR_F_41.01_SHRT_PSTN_INDCTR_REF",
+  "facet_id" : null,
+  "description" : null,
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "SHRT_PSTN_INDCTR_2",
+    "subdomain_id" : "SHRT_PSTN_INDCTR_F_41.01_SHRT_PSTN_INDCTR_REF",
+    "valid_from" : "2018-03-31",
+    "valid_to" : "2021-06-29",
+    "order" : "0"
+  }, {
+    "member_id" : "SHRT_PSTN_INDCTR_0",
+    "subdomain_id" : "SHRT_PSTN_INDCTR_F_41.01_SHRT_PSTN_INDCTR_REF",
+    "valid_from" : "2018-03-31",
+    "valid_to" : "2021-06-29",
+    "order" : "1"
+  }, {
+    "member_id" : "SHRT_PSTN_INDCTR_2",
+    "subdomain_id" : "SHRT_PSTN_INDCTR_F_41.01_SHRT_PSTN_INDCTR_REF",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "SHRT_PSTN_INDCTR_0",
+    "subdomain_id" : "SHRT_PSTN_INDCTR_F_41.01_SHRT_PSTN_INDCTR_REF",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31",
+    "order" : "1"
+  } ]
+}

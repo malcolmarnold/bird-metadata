@@ -1,0 +1,55 @@
+{
+  "maintenance_agency_id" : "ECB6",
+  "member_hierarchy_id" : "EBA_EC_EC9005",
+  "code" : "EC9005",
+  "domain_id" : "EBA_EC",
+  "name" : "Hierarchy for the SME/non-SME retail exposure classes secured by mortgages on immovable property in Standardised Approach",
+  "description" : "Definition of exposures to SME in Retail exposures secured by the Real Estate in Standardised Approach",
+  "is_main_hierarchy" : null,
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_EC_EC9005",
+    "member_id" : "EBA_EC_ECB6_x1094",
+    "level" : "2",
+    "parent_member_id" : null,
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_EC_EC9005",
+    "member_id" : "EBA_EC_ECB6_x1095",
+    "level" : "2",
+    "parent_member_id" : null,
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_EC_EC9005",
+    "member_id" : "EBA_EC_EBA_x15",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_EC_EC9005",
+    "member_id" : "EBA_EC_ECB6_x6094",
+    "level" : "2",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_EC_EC9005",
+    "member_id" : "EBA_EC_ECB6_x6095",
+    "level" : "2",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

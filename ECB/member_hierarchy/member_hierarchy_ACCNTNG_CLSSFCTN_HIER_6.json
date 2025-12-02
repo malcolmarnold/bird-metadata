@@ -1,0 +1,73 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_6",
+  "code" : "6",
+  "domain_id" : "ACCNTNG_CLSSFCTN",
+  "name" : "Financial assets and liabilities designated at fair value through profit or loss hierarchy",
+  "description" : "Hierarchical structure of the Member Financial assets and liabilities designated at fair value through profit or loss (39)",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_6",
+    "member_id" : "ACCNTNG_CLSSFCTN_39",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_6",
+    "member_id" : "ACCNTNG_CLSSFCTN_4",
+    "level" : "3",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_391",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_6",
+    "member_id" : "ACCNTNG_CLSSFCTN_392",
+    "level" : "2",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_39",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_6",
+    "member_id" : "ACCNTNG_CLSSFCTN_47",
+    "level" : "3",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_391",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_6",
+    "member_id" : "ACCNTNG_CLSSFCTN_391",
+    "level" : "2",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_39",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_6",
+    "member_id" : "ACCNTNG_CLSSFCTN_25",
+    "level" : "3",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_392",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_6",
+    "member_id" : "ACCNTNG_CLSSFCTN_35",
+    "level" : "3",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_392",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

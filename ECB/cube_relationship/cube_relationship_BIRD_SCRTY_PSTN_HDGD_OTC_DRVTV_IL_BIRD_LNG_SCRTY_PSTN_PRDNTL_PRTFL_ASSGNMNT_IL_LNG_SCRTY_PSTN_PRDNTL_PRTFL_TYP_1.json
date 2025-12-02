@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_SCRTY_PSTN_HDGD_OTC_DRVTV_IL__BIRD_LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_IL__LNG_SCRTY_PSTN_PRDNTL_PRTFL_TYP_1",
+  "code" : "BIRD_SCRTY_PSTN_HDGD_OTC_DRVTV_IL_1__BIRD_LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_IL_1__LNG_SCRTY_PSTN_PRDNTL_PRTFL_TYP",
+  "name" : "Long security position Prudential portfolio assignment has many Security position hedged by Over the counter (OTC) derivative",
+  "description" : null,
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_IL_1",
+  "primary_cube_variable_code" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_TYP",
+  "foreign_cube_id" : "BIRD_SCRTY_PSTN_HDGD_OTC_DRVTV_IL_1",
+  "foreign_cube_variable_code" : "LNG_SCRTY_PSTN_PRDNTL_PRTFL_TYP",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "true"
+}

@@ -1,0 +1,46 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_ZZ47",
+  "code" : "ZZ47",
+  "domain_id" : "EBA_ZZ",
+  "name" : "Hierarchy for impact and substitutability analyses in SRB CF templates (operational requirements indicator)",
+  "description" : "EBA_ZZ47",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_ZZ47",
+    "member_id" : "EBA_ZZ_EBA_x375",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2019-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ47",
+    "member_id" : "EBA_ZZ_EBA_x376",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2019-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ47",
+    "member_id" : "EBA_ZZ_EBA_x374",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2019-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ47",
+    "member_id" : "EBA_ZZ_EBA_x377",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2019-12-31",
+    "valid_to" : "9999-12-31"
+  } ]
+}

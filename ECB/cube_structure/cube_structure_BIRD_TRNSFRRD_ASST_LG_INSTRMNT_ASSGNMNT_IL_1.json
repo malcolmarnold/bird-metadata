@@ -1,0 +1,27 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_structure_id" : "BIRD_TRNSFRRD_ASST_LG_INSTRMNT_ASSGNMNT_IL_1",
+  "name" : "Transferred asset leg Instrument assigment",
+  "code" : "BIRD_TRNSFRRD_ASST_LG_INSTRMNT_ASSGNMNT_IL_1",
+  "description" : "Transferred asset leg Instrument assigment is the generic combination of a Transferred asset leg and an Instrument that indicates which Instrument represents which Tranferred asset leg.",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "cube_structure_item" : [ {
+    "cube_structure_item_id" : "BIRD_TRNSFRRD_ASST_LG_INSTRMNT_ASSGNMNT_IL_1__TRNSFRRD_ASST_LG_INSTRMNT_ASSGNMNT_TYP",
+    "cube_structure_id" : "BIRD_TRNSFRRD_ASST_LG_INSTRMNT_ASSGNMNT_IL_1",
+    "cube_variable_code" : "TRNSFRRD_ASST_LG_INSTRMNT_ASSGNMNT_TYP",
+    "variable_id" : "TRNSFRRD_ASST_LG_INSTRMNT_ASSGNMNT_TYP",
+    "role" : "O",
+    "order" : "7",
+    "subdomain_id" : "TRNSFRRD_ASST_LG_INSTRMNT_ASSGNMNT_TYP",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "true",
+    "description" : "Transferred asset leg Instrument assignment type distinguishes the Transferred asset leg assigment according to the nature of the assignment.",
+    "is_implemented" : "true"
+  } ]
+}

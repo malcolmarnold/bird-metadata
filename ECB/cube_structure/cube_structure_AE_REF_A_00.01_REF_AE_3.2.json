@@ -1,0 +1,27 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_structure_id" : "AE_REF_A_00.01_REF_AE 3.2",
+  "name" : "Nature of Report (AE) - Reference",
+  "code" : "A_00.01_REF",
+  "description" : null,
+  "valid_from" : "2023-06-30",
+  "valid_to" : "9999-12-31",
+  "version" : "AE 3.2",
+  "cube_structure_item" : [ {
+    "cube_structure_item_id" : "AE_REF_A_00.01_REF_AE 3.2__MTRCS",
+    "cube_structure_id" : "AE_REF_A_00.01_REF_AE 3.2",
+    "cube_variable_code" : "MTRCS",
+    "variable_id" : "MTRCS",
+    "role" : "D",
+    "order" : "0",
+    "subdomain_id" : null,
+    "variable_set_id" : "MTRCS_A_00.01_MTRCS_REF",
+    "member_id" : null,
+    "dimension_type" : "M",
+    "attribute_associated_variable" : null,
+    "is_flow" : "true",
+    "is_mandatory" : "false",
+    "description" : "A repository for metrics variables",
+    "is_implemented" : "true"
+  } ]
+}

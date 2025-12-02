@@ -1,0 +1,37 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_LQ3",
+  "code" : "LQ3",
+  "domain_id" : "EBA_LQ",
+  "name" : "Higher outflows hierarchy",
+  "description" : "EBA_LQ3",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_LQ3",
+    "member_id" : "EBA_LQ_EBA_x134",
+    "level" : "2",
+    "parent_member_id" : "EBA_LQ_EBA_x192",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "2016-09-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_LQ3",
+    "member_id" : "EBA_LQ_EBA_x135",
+    "level" : "2",
+    "parent_member_id" : "EBA_LQ_EBA_x192",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "2016-09-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_LQ3",
+    "member_id" : "EBA_LQ_EBA_x192",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2016-09-30",
+    "valid_to" : "9999-12-31"
+  } ]
+}

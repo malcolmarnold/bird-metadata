@@ -1,0 +1,93 @@
+{
+  "table_id" : "EBA_FINREP_EBA_F_13.03_FINREP_2017-A",
+  "name" : "F 13.03",
+  "code" : "F_13.03",
+  "description" : "F 13.03 Collateral obtained by taking possession [tangible assets] accumulated",
+  "maintenance_agency_id" : "EBA",
+  "version" : "FINREP 2017-A",
+  "valid_from" : "2018-03-31",
+  "valid_to" : "2020-06-29",
+  "table_cell" : [ {
+    "cell_id" : "EBA_506506",
+    "is_shaded" : "false",
+    "combination_id" : "EBA_108853",
+    "table_id" : "EBA_FINREP_EBA_F_13.03_FINREP_2017-A",
+    "system_data_code" : null,
+    "cell_position" : [ {
+      "cell_id" : "EBA_506506",
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_13.03_FINREP_2017-A_1_010"
+    }, {
+      "cell_id" : "EBA_506506",
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_13.03_FINREP_2017-A_2_010"
+    } ]
+  } ],
+  "axis" : [ {
+    "axis_id" : "EBA_FINREP_EBA_F_13.03_FINREP_2017-A_1",
+    "code" : "F_13.03_1",
+    "orientation" : "X",
+    "order" : "0",
+    "name" : "EBA_FINREP_EBA_F_13.03_FINREP_2017-A_1",
+    "description" : null,
+    "table_id" : "EBA_FINREP_EBA_F_13.03_FINREP_2017-A",
+    "is_open_axis" : "false",
+    "axis_ordinate" : [ {
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_13.03_FINREP_2017-A_1_010",
+      "is_abstract_header" : "false",
+      "code" : "010",
+      "order" : "0",
+      "level" : "0",
+      "path" : "EBA_FINREP_EBA_F_13.03_FINREP_2017-A_1_010 .",
+      "axis_id" : "EBA_FINREP_EBA_F_13.03_FINREP_2017-A_1",
+      "parent_axis_ordinate_id" : null,
+      "name" : "Carrying amount",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_13.03_FINREP_2017-A_1_010",
+        "variable_id" : "EBA_mi53",
+        "member_id" : null,
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_13.03_FINREP_2017-A_1_010",
+        "variable_id" : "EBA_BAS",
+        "member_id" : "EBA_BA_EBA_x6",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    } ]
+  }, {
+    "axis_id" : "EBA_FINREP_EBA_F_13.03_FINREP_2017-A_2",
+    "code" : "F_13.03_2",
+    "orientation" : "Y",
+    "order" : "0",
+    "name" : "EBA_FINREP_EBA_F_13.03_FINREP_2017-A_2",
+    "description" : null,
+    "table_id" : "EBA_FINREP_EBA_F_13.03_FINREP_2017-A",
+    "is_open_axis" : "false",
+    "axis_ordinate" : [ {
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_13.03_FINREP_2017-A_2_010",
+      "is_abstract_header" : "false",
+      "code" : "010",
+      "order" : "0",
+      "level" : "0",
+      "path" : "EBA_FINREP_EBA_F_13.03_FINREP_2017-A_2_010 .",
+      "axis_id" : "EBA_FINREP_EBA_F_13.03_FINREP_2017-A_2",
+      "parent_axis_ordinate_id" : null,
+      "name" : "Foreclosure (tangible assets)",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_13.03_FINREP_2017-A_2_010",
+        "variable_id" : "EBA_MCY",
+        "member_id" : "EBA_MC_EBA_x539",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    } ]
+  } ]
+}

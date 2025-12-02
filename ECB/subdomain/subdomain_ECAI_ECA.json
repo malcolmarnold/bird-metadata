@@ -1,0 +1,30 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "ECAI_ECA",
+  "name" : "ECAI/ECA - full domain",
+  "domain_id" : "ECAI_ECA",
+  "is_listed" : "true",
+  "code" : "ECAI_ECA",
+  "facet_id" : null,
+  "description" : "ECAI/ECA - full domain",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "ECAI_ECA_0",
+    "subdomain_id" : "ECAI_ECA",
+    "valid_from" : "2017-04-01",
+    "valid_to" : "2022-02-28",
+    "order" : "0"
+  }, {
+    "member_id" : "ECAI_ECA_1",
+    "subdomain_id" : "ECAI_ECA",
+    "valid_from" : "2017-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "ECAI_ECA_2",
+    "subdomain_id" : "ECAI_ECA",
+    "valid_from" : "2017-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

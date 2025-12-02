@@ -1,0 +1,345 @@
+{
+  "table_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind",
+  "name" : "F 16.06",
+  "code" : "F_16.06",
+  "description" : "F 16.06 Breakdown of selected statement of profit or loss items: Gains and losses from hedge accounting",
+  "maintenance_agency_id" : "EBA",
+  "version" : "FINREP 3.0-Ind",
+  "valid_from" : "2021-06-30",
+  "valid_to" : "9999-12-31",
+  "table_cell" : [ {
+    "cell_id" : "EBA_3364561",
+    "is_shaded" : "false",
+    "combination_id" : "EBA_155678",
+    "table_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind",
+    "system_data_code" : null,
+    "cell_position" : [ {
+      "cell_id" : "EBA_3364561",
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_1_0010"
+    }, {
+      "cell_id" : "EBA_3364561",
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0020"
+    } ]
+  }, {
+    "cell_id" : "EBA_3364562",
+    "is_shaded" : "false",
+    "combination_id" : "EBA_155679",
+    "table_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind",
+    "system_data_code" : null,
+    "cell_position" : [ {
+      "cell_id" : "EBA_3364562",
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_1_0010"
+    }, {
+      "cell_id" : "EBA_3364562",
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0030"
+    } ]
+  }, {
+    "cell_id" : "EBA_3364563",
+    "is_shaded" : "false",
+    "combination_id" : "EBA_155680",
+    "table_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind",
+    "system_data_code" : null,
+    "cell_position" : [ {
+      "cell_id" : "EBA_3364563",
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_1_0010"
+    }, {
+      "cell_id" : "EBA_3364563",
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0040"
+    } ]
+  }, {
+    "cell_id" : "EBA_3364564",
+    "is_shaded" : "false",
+    "combination_id" : "EBA_151459",
+    "table_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind",
+    "system_data_code" : null,
+    "cell_position" : [ {
+      "cell_id" : "EBA_3364564",
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_1_0010"
+    }, {
+      "cell_id" : "EBA_3364564",
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0050"
+    } ]
+  }, {
+    "cell_id" : "EBA_3364565",
+    "is_shaded" : "false",
+    "combination_id" : "EBA_155677",
+    "table_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind",
+    "system_data_code" : null,
+    "cell_position" : [ {
+      "cell_id" : "EBA_3364565",
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_1_0010"
+    }, {
+      "cell_id" : "EBA_3364565",
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0010"
+    } ]
+  } ],
+  "axis" : [ {
+    "axis_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_1",
+    "code" : "F_16.06_1",
+    "orientation" : "X",
+    "order" : "0",
+    "name" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_1",
+    "description" : null,
+    "table_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind",
+    "is_open_axis" : "false",
+    "axis_ordinate" : [ {
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_1_0010",
+      "is_abstract_header" : "false",
+      "code" : "0010",
+      "order" : "0",
+      "level" : "0",
+      "path" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_1_0010.",
+      "axis_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_1",
+      "parent_axis_ordinate_id" : null,
+      "name" : "Current period",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_1_0010",
+        "variable_id" : "EBA_md103",
+        "member_id" : null,
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_1_0010",
+        "variable_id" : "EBA_BAS",
+        "member_id" : "EBA_BA_EBA_x1",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    } ]
+  }, {
+    "axis_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2",
+    "code" : "F_16.06_2",
+    "orientation" : "Y",
+    "order" : "0",
+    "name" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2",
+    "description" : null,
+    "table_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind",
+    "is_open_axis" : "false",
+    "axis_ordinate" : [ {
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0050",
+      "is_abstract_header" : "false",
+      "code" : "0050",
+      "order" : "0",
+      "level" : "0",
+      "path" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0050.",
+      "axis_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2",
+      "parent_axis_ordinate_id" : null,
+      "name" : "Gains or (-) losses from hedge accounting, net",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0050",
+        "variable_id" : "EBA_MCY",
+        "member_id" : "EBA_MC_EBA_x4",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0050",
+        "variable_id" : "EBA_APL",
+        "member_id" : "EBA_PL_EBA_x28",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0050",
+        "variable_id" : "EBA_TYH",
+        "member_id" : "EBA_MC_EBA_x0",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0050",
+        "variable_id" : "EBA_MCF",
+        "member_id" : "EBA_MC_EBA_x0",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    }, {
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0020",
+      "is_abstract_header" : "false",
+      "code" : "0020",
+      "order" : "0",
+      "level" : "1",
+      "path" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0050.EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0020.",
+      "axis_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2",
+      "parent_axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0050",
+      "name" : "Fair value changes of the hedged item attributable to the hedged risk",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0020",
+        "variable_id" : "EBA_APL",
+        "member_id" : "EBA_PL_EBA_x0",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0020",
+        "variable_id" : "EBA_MCY",
+        "member_id" : "EBA_MC_EBA_x4",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0020",
+        "variable_id" : "EBA_TYH",
+        "member_id" : "EBA_MC_EBA_x678",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0020",
+        "variable_id" : "EBA_MCF",
+        "member_id" : "EBA_MC_EBA_x731",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    }, {
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0030",
+      "is_abstract_header" : "false",
+      "code" : "0030",
+      "order" : "0",
+      "level" : "1",
+      "path" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0050.EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0030.",
+      "axis_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2",
+      "parent_axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0050",
+      "name" : "Ineffectiveness in profit or loss from cash flow hedges",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0030",
+        "variable_id" : "EBA_MCY",
+        "member_id" : "EBA_MC_EBA_x690",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0030",
+        "variable_id" : "EBA_TYH",
+        "member_id" : "EBA_MC_EBA_x679",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0030",
+        "variable_id" : "EBA_APL",
+        "member_id" : "EBA_PL_EBA_x0",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0030",
+        "variable_id" : "EBA_MCF",
+        "member_id" : "EBA_MC_EBA_x0",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    }, {
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0040",
+      "is_abstract_header" : "false",
+      "code" : "0040",
+      "order" : "0",
+      "level" : "1",
+      "path" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0050.EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0040.",
+      "axis_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2",
+      "parent_axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0050",
+      "name" : "Ineffectiveness in profit or loss from hedges of net investments in foreign operations",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0040",
+        "variable_id" : "EBA_MCY",
+        "member_id" : "EBA_MC_EBA_x690",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0040",
+        "variable_id" : "EBA_TYH",
+        "member_id" : "EBA_MC_EBA_x680",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0040",
+        "variable_id" : "EBA_APL",
+        "member_id" : "EBA_PL_EBA_x0",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0040",
+        "variable_id" : "EBA_MCF",
+        "member_id" : "EBA_MC_EBA_x0",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    }, {
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0010",
+      "is_abstract_header" : "false",
+      "code" : "0010",
+      "order" : "0",
+      "level" : "1",
+      "path" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0050.EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0010.",
+      "axis_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2",
+      "parent_axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0050",
+      "name" : "Fair value changes of the hedging instrument [including discontinuation]",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0010",
+        "variable_id" : "EBA_MCY",
+        "member_id" : "EBA_MC_EBA_x4",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0010",
+        "variable_id" : "EBA_TYH",
+        "member_id" : "EBA_MC_EBA_x678",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0010",
+        "variable_id" : "EBA_MCF",
+        "member_id" : "EBA_MC_EBA_x730",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_16.06_FINREP_3.0-Ind_2_0010",
+        "variable_id" : "EBA_APL",
+        "member_id" : "EBA_PL_EBA_x0",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    } ]
+  } ]
+}

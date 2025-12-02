@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_SCRTY_HDGD_EXCHNG_TRDBL_DRVTV_ELDM_1__BIRD_EXCHNG_TRDBL_DRVTV_HDG_PSTN_ELDM_1__EXCHNG_TRDBL_DRVTV_PSTN_SCRTY_ID_1",
+  "code" : "BIRD_SCRTY_HDGD_EXCHNG_TRDBL_DRVTV_ELDM_1__BIRD_EXCHNG_TRDBL_DRVTV_HDG_PSTN_ELDM_1__EXCHNG_TRDBL_DRVTV_PSTN_SCRTY_ID",
+  "name" : "Exchange tradable derivative position as a hedge may have many Security position hedged by Exchange tradable derivative position",
+  "description" : "Exchange tradable derivative position as a hedge hedges security position via Security position hedged by Exchange tradable derivative position",
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_EXCHNG_TRDBL_DRVTV_HDG_PSTN_ELDM_1",
+  "primary_cube_variable_code" : "EXCHNG_TRDBL_DRVT_SCRTY_ID",
+  "foreign_cube_id" : "BIRD_SCRTY_HDGD_EXCHNG_TRDBL_DRVTV_ELDM_1",
+  "foreign_cube_variable_code" : "EXCHNG_TRDBL_DRVTV_PSTN_SCRTY_ID",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "false"
+}

@@ -1,0 +1,80 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_group_id" : "SDD_MAPPING",
+  "name" : "Mapping package",
+  "code" : "SDD_MAPPING",
+  "description" : "It contains those dictionary objects that are necessary in order to represent the relationship between concepts belongig to different Maintenance agencies.",
+  "cube_group_enumeration" : [ {
+    "order" : "0",
+    "cube_group_id" : "SDD_MAPPING",
+    "cube_id" : "SDD_CUBE_MAPPING_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_MAPPING",
+    "cube_id" : "SDD_MEMBER_MAPPING_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_MAPPING",
+    "cube_id" : "SDD_MAPPING_TO_CUBE_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_MAPPING",
+    "cube_id" : "SDD_VARIABLE_MAPPING_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_MAPPING",
+    "cube_id" : "SDD_MAPPING_DEFINITION_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_MAPPING",
+    "cube_id" : "SDD_MEMBER_MAPPING_ITEM_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_MAPPING",
+    "cube_id" : "SDD_COMBINATION_MAPPING_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_MAPPING",
+    "cube_id" : "SDD_VARIABLE_SET_MAPPING_C_1",
+    "valid_from" : "2020-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_MAPPING",
+    "cube_id" : "SDD_VARIABLE_MAPPING_ITEM_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_MAPPING",
+    "cube_id" : "SDD_CUBE_STRUCTURE_MAPPING_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_MAPPING",
+    "cube_id" : "SDD_VARIABLE_SET_MAPPING_ITEM_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "2020-11-30"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_MAPPING",
+    "cube_id" : "SDD_CUBE_STRUCTURE_MAPPING_ITEM_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

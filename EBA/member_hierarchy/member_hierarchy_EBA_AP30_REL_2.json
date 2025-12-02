@@ -1,0 +1,28 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_AP30_REL_2",
+  "code" : "AP30_REL_2",
+  "domain_id" : "EBA_AP",
+  "name" : "Approach for calculating own funds requirements for market risk applied as of the reference date",
+  "description" : "EBA_AP30_REL_2",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_AP30_REL_2",
+    "member_id" : "EBA_AP_EBA_x265",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2024-07-11",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP30_REL_2",
+    "member_id" : "EBA_AP_EBA_x4",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2024-07-11",
+    "valid_to" : "9999-12-31"
+  } ]
+}

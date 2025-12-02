@@ -1,0 +1,46 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_AP24_1",
+  "code" : "AP24_1",
+  "domain_id" : "EBA_AP",
+  "name" : "Derivative treatment",
+  "description" : "EBA_AP24_1",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_AP24_1",
+    "member_id" : "EBA_AP_EBA_x183",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP24_1",
+    "member_id" : "EBA_AP_EBA_x184",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP24_1",
+    "member_id" : "EBA_AP_EBA_x38",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP24_1",
+    "member_id" : "EBA_AP_EBA_x76",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  } ]
+}

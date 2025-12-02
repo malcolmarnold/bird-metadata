@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "ACCNTNG_HDG_INDCTR",
+  "name" : "Accounting hedge indicator",
+  "domain_id" : "ACCNTNG_HDG_INDCTR",
+  "is_listed" : "true",
+  "code" : "ACCNTNG_HDG_INDCTR",
+  "facet_id" : null,
+  "description" : "Accounting hedge indicator",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "ACCNTNG_HDG_INDCTR_1",
+    "subdomain_id" : "ACCNTNG_HDG_INDCTR",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "ACCNTNG_HDG_INDCTR_2",
+    "subdomain_id" : "ACCNTNG_HDG_INDCTR",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "2025-01-31",
+    "order" : "0"
+  } ]
+}

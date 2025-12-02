@@ -1,0 +1,28 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_BT12",
+  "code" : "BT12",
+  "domain_id" : "EBA_BT",
+  "name" : "Hierarchy of type of ID code for the entity of the financial conglomerate related to the exposure",
+  "description" : "EBA_BT12",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_BT12",
+    "member_id" : "EBA_BT_EBA_x22",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2024-07-11",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_BT12",
+    "member_id" : "EBA_BT_EBA_x23",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2024-07-11",
+    "valid_to" : "9999-12-31"
+  } ]
+}

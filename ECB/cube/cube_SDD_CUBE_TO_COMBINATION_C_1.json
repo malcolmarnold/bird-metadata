@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "SDD_CUBE_TO_COMBINATION_C_1",
+  "name" : "Cube to combination",
+  "code" : "CUBE_TO_COMBINATION",
+  "framework_id" : "SDD",
+  "cube_structure_id" : "SDD_CUBE_TO_COMBINATION_C_1",
+  "cube_type" : "C",
+  "is_allowed" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "A Cube to combination is the combination of a Cube and a Combination. It establishes the many-to-many relationship between Cubes and Combinations.",
+  "published" : "false",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

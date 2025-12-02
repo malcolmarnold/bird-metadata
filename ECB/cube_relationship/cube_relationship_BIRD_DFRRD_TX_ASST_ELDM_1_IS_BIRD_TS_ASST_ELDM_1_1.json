@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_DFRRD_TX_ASST_ELDM_1__IS__BIRD_TS_ASST_ELDM_1__1",
+  "code" : "BIRD_DFRRD_TX_ASST_ELDM_1__IS__BIRD_TS_ASST_ELDM_1__1",
+  "name" : "Deferred tax asset is Tax asset",
+  "description" : null,
+  "type_of_relationship" : "GEN",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_TS_ASST_ELDM_1",
+  "primary_cube_variable_code" : null,
+  "foreign_cube_id" : "BIRD_DFRRD_TX_ASST_ELDM_1",
+  "foreign_cube_variable_code" : null,
+  "primary_cube_cardinality" : null,
+  "foreign_cube_cardinality" : null,
+  "primary_cube_mandatoriness" : "false",
+  "foreign_cube_mandatoriness" : "false"
+}

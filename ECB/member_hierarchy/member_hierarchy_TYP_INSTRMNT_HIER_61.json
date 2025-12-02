@@ -1,0 +1,145 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "TYP_INSTRMNT_HIER_61",
+  "code" : "61",
+  "domain_id" : "TYP_INSTRMNT",
+  "name" : "Type of Instrument hierarchy for BIRD Data Models and FINREP",
+  "description" : "Type of Instrument hierarchy for connecting BIRD Data Models and Finrep",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_61",
+    "member_id" : "TYP_INSTRMNT_-1",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_61",
+    "member_id" : "TYP_INSTRMNT_23",
+    "level" : "3",
+    "parent_member_id" : "TYP_INSTRMNT_920",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_61",
+    "member_id" : "TYP_INSTRMNT_114",
+    "level" : "2",
+    "parent_member_id" : "TYP_INSTRMNT_-1",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_61",
+    "member_id" : "TYP_INSTRMNT_949",
+    "level" : "2",
+    "parent_member_id" : "TYP_INSTRMNT_-1",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_61",
+    "member_id" : "TYP_INSTRMNT_149",
+    "level" : "2",
+    "parent_member_id" : "TYP_INSTRMNT_-1",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_61",
+    "member_id" : "TYP_INSTRMNT_920",
+    "level" : "2",
+    "parent_member_id" : "TYP_INSTRMNT_-1",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_61",
+    "member_id" : "TYP_INSTRMNT_15",
+    "level" : "3",
+    "parent_member_id" : "TYP_INSTRMNT_149",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_61",
+    "member_id" : "TYP_INSTRMNT_948",
+    "level" : "3",
+    "parent_member_id" : "TYP_INSTRMNT_949",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_61",
+    "member_id" : "TYP_INSTRMNT_1022",
+    "level" : "3",
+    "parent_member_id" : "TYP_INSTRMNT_114",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_61",
+    "member_id" : "TYP_INSTRMNT_241",
+    "level" : "2",
+    "parent_member_id" : "TYP_INSTRMNT_-1",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_61",
+    "member_id" : "TYP_INSTRMNT_310",
+    "level" : "2",
+    "parent_member_id" : "TYP_INSTRMNT_-1",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_61",
+    "member_id" : "TYP_INSTRMNT_2",
+    "level" : "3",
+    "parent_member_id" : "TYP_INSTRMNT_241",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_61",
+    "member_id" : "TYP_INSTRMNT_1",
+    "level" : "3",
+    "parent_member_id" : "TYP_INSTRMNT_310",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_61",
+    "member_id" : "TYP_INSTRMNT_960",
+    "level" : "2",
+    "parent_member_id" : "TYP_INSTRMNT_-1",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_61",
+    "member_id" : "TYP_INSTRMNT_23",
+    "level" : "3",
+    "parent_member_id" : "TYP_INSTRMNT_960",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

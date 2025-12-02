@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_CLLTRL_NN_FNNCL_ASST_ASSGNMNT_EIL__BIRD_CLLTRL_EIL__CLLTRL_ID_1",
+  "code" : "BIRD_CLLTRL_NN_FNNCL_ASST_ASSGNMNT_EIL_1__BIRD_CLLTRL_EIL_1__CLLTRL_ID",
+  "name" : "Collateral has many Collateral Non-financial asset assignment",
+  "description" : null,
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_CLLTRL_EIL_1",
+  "primary_cube_variable_code" : "CLLTRL_ID",
+  "foreign_cube_id" : "BIRD_CLLTRL_NN_FNNCL_ASST_ASSGNMNT_EIL_1",
+  "foreign_cube_variable_code" : "CLLTRL_ID",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "true"
+}

@@ -1,0 +1,36 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "subdomain_id" : "EBA_4263713494838457658",
+  "name" : "IM([x12|x42|x44|x43])",
+  "domain_id" : "EBA_IM",
+  "is_listed" : "true",
+  "code" : "4263713494838457658",
+  "facet_id" : null,
+  "description" : "Forbearance status",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "EBA_IM_EBA_x12",
+    "subdomain_id" : "EBA_4263713494838457658",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "EBA_IM_EBA_x42",
+    "subdomain_id" : "EBA_4263713494838457658",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "EBA_IM_EBA_x44",
+    "subdomain_id" : "EBA_4263713494838457658",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "EBA_IM_EBA_x43",
+    "subdomain_id" : "EBA_4263713494838457658",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

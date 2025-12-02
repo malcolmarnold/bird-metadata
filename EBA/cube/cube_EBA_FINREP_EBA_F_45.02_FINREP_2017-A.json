@@ -1,0 +1,35 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "cube_id" : "EBA_FINREP_EBA_F_45.02_FINREP_2017-A",
+  "name" : "Gains or losses on derecognition of non-financial assets",
+  "code" : "F_45.02",
+  "framework_id" : "EBA_FINREP",
+  "cube_structure_id" : "EBA_FINREP_EBA_F_45.02_FINREP_2017-A",
+  "cube_type" : "D",
+  "is_allowed" : null,
+  "valid_from" : "2018-03-31",
+  "valid_to" : "2020-06-29",
+  "version" : "FINREP 2017-A",
+  "description" : "Gains or losses on derecognition of non-financial assets",
+  "published" : "false",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_45.02_FINREP_2017-A",
+    "combination_id" : "EBA_152690"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_45.02_FINREP_2017-A",
+    "combination_id" : "EBA_112738"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_45.02_FINREP_2017-A",
+    "combination_id" : "EBA_113217"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_45.02_FINREP_2017-A",
+    "combination_id" : "EBA_113218"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_45.02_FINREP_2017-A",
+    "table_id" : "EBA_FINREP_EBA_F_45.02_FINREP_2017-A"
+  } ]
+}

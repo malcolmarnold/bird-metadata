@@ -1,0 +1,64 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_link_id" : "WUDEN__BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_IL_1__01_01_1990__BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_LDM_1__1",
+  "code" : "WUDEN__BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_IL_1__01_01_1990__BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_LDM_1",
+  "name" : "The LDM: Rating grade Central bank and private sector company assignment (BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_LDM) is forward engineered into the IL: Rating grade Central bank and private sector company assignment (BIRD_RTNG_GRD_CNTRL_BNK_PRVT",
+  "description" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "order_relevance" : "1",
+  "primary_cube_id" : "BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_LDM_1",
+  "foreign_cube_id" : "BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_IL_1",
+  "cube_link_type" : "TR",
+  "logical_transformation_rule_id" : "WUDEN__BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_IL_1__01_01_1990",
+  "cube_structure_item_link" : [ {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_IL_1__01_01_1990__BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_LDM_1__1__DT_RFRNC__DT_RFRNC",
+    "cube_link_id" : "WUDEN__BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_IL_1__01_01_1990__BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_LDM_1__1",
+    "foreign_cube_variable_code" : "DT_RFRNC",
+    "primary_cube_variable_code" : "DT_RFRNC",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_IL_1__01_01_1990__BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_LDM_1__1__PRTY_ID__PRTY_ID",
+    "cube_link_id" : "WUDEN__BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_IL_1__01_01_1990__BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_LDM_1__1",
+    "foreign_cube_variable_code" : "PRTY_ID",
+    "primary_cube_variable_code" : "PRTY_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_IL_1__01_01_1990__BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_LDM_1__1__RPRTNG_AGNT_ID__RPRTNG_AGNT_ID",
+    "cube_link_id" : "WUDEN__BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_IL_1__01_01_1990__BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_LDM_1__1",
+    "foreign_cube_variable_code" : "RPRTNG_AGNT_ID",
+    "primary_cube_variable_code" : "RPRTNG_AGNT_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_IL_1__01_01_1990__BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_LDM_1__1__RTNG_AGNCY_NM__RTNG_AGNCY_NM",
+    "cube_link_id" : "WUDEN__BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_IL_1__01_01_1990__BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_LDM_1__1",
+    "foreign_cube_variable_code" : "RTNG_AGNCY_NM",
+    "primary_cube_variable_code" : "RTNG_AGNCY_NM",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_IL_1__01_01_1990__BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_LDM_1__1__RTNG_GRD__RTNG_GRD",
+    "cube_link_id" : "WUDEN__BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_IL_1__01_01_1990__BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_LDM_1__1",
+    "foreign_cube_variable_code" : "RTNG_GRD",
+    "primary_cube_variable_code" : "RTNG_GRD",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_IL_1__01_01_1990__BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_LDM_1__1__RTNG_SYSTM_NM__RTNG_SYSTM_NM",
+    "cube_link_id" : "WUDEN__BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_IL_1__01_01_1990__BIRD_RTNG_GRD_CNTRL_BNK_PRVT_SCTR_CMPN_ASSGNMNT_LDM_1__1",
+    "foreign_cube_variable_code" : "RTNG_SYSTM_NM",
+    "primary_cube_variable_code" : "RTNG_SYSTM_NM",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  } ]
+}

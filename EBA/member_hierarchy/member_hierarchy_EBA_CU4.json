@@ -1,0 +1,1684 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_CU4",
+  "code" : "CU4",
+  "domain_id" : "EBA_CU",
+  "name" : "Currencies (only currencies)",
+  "description" : "EBA_CU4",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_x0",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_AFN",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_RWF",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_XDR",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_DZD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_CNH",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_SHP",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_IDR",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_MVR",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_ZAR",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_AZN",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_SAR",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_AMD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_GTQ",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_AWG",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_BWP",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_PHP",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_OMR",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_XUA",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_XPT",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_KHR",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_QAR",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_BAM",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_COU",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_HRK",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_MNT",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_TND",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_CDF",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_NIO",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_BHD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_FJD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_SYP",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_CLP",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_FKP",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_LKR",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_AUD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_BSD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_ISK",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_WST",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_ARS",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_XPF",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_COP",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_XAU",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_ETB",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_UZS",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_CUP",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_CRC",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_ALL",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_UGX",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_UYI",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_GHS",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_TZS",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_CLF",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_VEF",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_USS",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_USN",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_XTS",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_VUV",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_TMT",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_XFU",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_GMD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_SRD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_GIP",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_BRL",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_SOS",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_KYD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_ZMK",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_SBD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_INR",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_VND",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_GNF",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_BDT",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_XBA",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_XCD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_BMD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_BIF",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_XXX",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_SSP",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_SDG",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_XSU",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_IRR",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_BYR",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_CHW",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_XBD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_BYN",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_KGS",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_KZT",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_ZMW",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_PYG",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_YER",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_XBC",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_CHE",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_BZD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_XBB",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_ZWL",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_CVE",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_PAB",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_BOB",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_GYD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_HTG",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_SVC",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_THB",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_DJF",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_TTD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_XAF",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_XOF",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_BBD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_STD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_BND",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_AED",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_KMF",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_IQD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_DOP",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_TJS",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_SCR",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_XAG",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_CNY",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_CAD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_SZL",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_USD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_NZD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_XPD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_CUC",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_PLN",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_SGD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_ERN",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_KPW",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_LAK",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_GEL",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_CZK",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_HNL",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_MXN",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_LBP",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_MOP",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_KRW",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_TRY",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_PGK",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_PEN",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_SLL",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_UAH",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_BOV",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_TOP",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_PKR",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_BGN",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_JOD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_UYU",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_NGN",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_CHF",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_LYD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_LRD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_MRO",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_SEK",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_LTL",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_NPR",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_MMK",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_MZN",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_HKD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_MYR",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_MGA",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_RON",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_MXV",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_DKK",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_GBP",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_EGP",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_JPY",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_TWD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_BTN",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_ANG",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_MDL",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_KWD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_LSL",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_HUF",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_JMD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_MWK",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_MUR",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_MAD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_ILS",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_NOK",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_LVL",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_KES",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_EUR",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_RSD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_RUB",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_NAD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_AOA",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_CU4",
+    "member_id" : "EBA_CU_EBA_MKD",
+    "level" : "2",
+    "parent_member_id" : "EBA_CU_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31"
+  } ]
+}

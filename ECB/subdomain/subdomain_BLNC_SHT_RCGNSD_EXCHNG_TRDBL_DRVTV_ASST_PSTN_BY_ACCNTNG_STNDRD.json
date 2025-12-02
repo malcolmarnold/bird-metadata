@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "BLNC_SHT_RCGNSD_EXCHNG_TRDBL_DRVTV_ASST_PSTN_BY_ACCNTNG_STNDRD",
+  "name" : "Balance sheet recognised exchange tradable derivative asset position by accounting standard",
+  "domain_id" : "EXCHNG_TRDBL_DRVTV_PSTN_RL_TYP",
+  "is_listed" : "true",
+  "code" : "BLNC_SHT_RCGNSD_EXCHNG_TRDBL_DRVTV_ASST_PSTN_BY_ACCNTNG_STNDRD",
+  "facet_id" : null,
+  "description" : "Balance sheet recognised exchange tradable derivative asset position by accounting standard",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "EXCHNG_TRDBL_DRVTV_PSTN_RL_TYP_11",
+    "subdomain_id" : "BLNC_SHT_RCGNSD_EXCHNG_TRDBL_DRVTV_ASST_PSTN_BY_ACCNTNG_STNDRD",
+    "valid_from" : "2025-02-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "EXCHNG_TRDBL_DRVTV_PSTN_RL_TYP_12",
+    "subdomain_id" : "BLNC_SHT_RCGNSD_EXCHNG_TRDBL_DRVTV_ASST_PSTN_BY_ACCNTNG_STNDRD",
+    "valid_from" : "2025-02-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

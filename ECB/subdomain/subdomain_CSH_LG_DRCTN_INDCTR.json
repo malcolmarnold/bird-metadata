@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "CSH_LG_DRCTN_INDCTR",
+  "name" : "Cash leg direction indicator",
+  "domain_id" : "RPRCHS_AGRMNT_TYP",
+  "is_listed" : "true",
+  "code" : "CSH_LG_DRCTN_INDCTR",
+  "facet_id" : null,
+  "description" : "Cash leg direction indicator",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "RPRCHS_AGRMNT_TYP_6",
+    "subdomain_id" : "CSH_LG_DRCTN_INDCTR",
+    "valid_from" : "2025-02-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "RPRCHS_AGRMNT_TYP_7",
+    "subdomain_id" : "CSH_LG_DRCTN_INDCTR",
+    "valid_from" : "2025-02-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

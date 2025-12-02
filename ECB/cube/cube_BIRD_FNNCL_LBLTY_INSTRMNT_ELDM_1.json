@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_FNNCL_LBLTY_INSTRMNT_ELDM_1",
+  "name" : "Financial liability instrument",
+  "code" : "BIRD_FNNCL_LBLTY_INSTRMNT_ELDM",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_FNNCL_LBLTY_INSTRMNT_ELDM_1",
+  "cube_type" : "ELDM",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "A Financial liability instrument is an Instrument role where the Instrument acts in the role of a Financial liability (according to the applied accounting standard) where the instrument is intended as a liability. \n\nPlease note that a Financial liability instrument does not necessarily be recognised in the balance sheet.\nPlease note too that an instrument can be both an Asset and a Liability at the same time. This can happen, for example, when a debtor overpays the fees and/or installments.",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

@@ -1,0 +1,50 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_group_id" : "SDD_TRANSFORMATION",
+  "name" : "Transformation package",
+  "code" : "SDD_TRANSFORMATION",
+  "description" : "It contains those dictionary objects that are used in order to describe data set transformations in the dictionary.",
+  "cube_group_enumeration" : [ {
+    "order" : "0",
+    "cube_group_id" : "SDD_TRANSFORMATION",
+    "cube_id" : "SDD_TRANSFORMATION_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_TRANSFORMATION",
+    "cube_id" : "SDD_TRANSFORMATION_NODE_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_TRANSFORMATION",
+    "cube_id" : "SDD_TRANSFORMATION_SCHEME_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_TRANSFORMATION",
+    "cube_id" : "SDD_TRANSFORMATION_TO_CUBE_C_1",
+    "valid_from" : "2023-05-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_TRANSFORMATION",
+    "cube_id" : "SDD_TRANSFORMATION_TO_VARIABLE_C_1",
+    "valid_from" : "2023-05-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_TRANSFORMATION",
+    "cube_id" : "SDD_LOGICAL_TRANSFORMATION_RULE_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_TRANSFORMATION",
+    "cube_id" : "SDD_SEMANTIC_TRANSFORMATION_RULE_C_1",
+    "valid_from" : "2023-05-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

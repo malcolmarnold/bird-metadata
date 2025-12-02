@@ -1,0 +1,37 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "AE_ITM_HIER_1",
+  "code" : "1",
+  "domain_id" : "AE_ITM",
+  "name" : "Flat hierarchy - Assets, own debt securities other than ABSs and covered bonds hierarchy",
+  "description" : "Hierarchical structure of the Member Assets, own debt securities other than ABSs and covered bonds (65)",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "AE_ITM_HIER_1",
+    "member_id" : "AE_ITM_65",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "2019-05-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "AE_ITM_HIER_1",
+    "member_id" : "AE_ITM_30",
+    "level" : "2",
+    "parent_member_id" : "AE_ITM_65",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2019-05-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "AE_ITM_HIER_1",
+    "member_id" : "AE_ITM_50",
+    "level" : "2",
+    "parent_member_id" : "AE_ITM_65",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2019-05-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

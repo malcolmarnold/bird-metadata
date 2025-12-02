@@ -1,0 +1,46 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "PRPS_HIER_2",
+  "code" : "2",
+  "domain_id" : "PRPS",
+  "name" : "Classification of instruments according to their purpose hierarchy according to BSI and Finrep",
+  "description" : "Hierarchical structure of the Member Credit for consumption, Lending for house purchase, lending other than for consumption and house purchase",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "PRPS_HIER_2",
+    "member_id" : "PRPS_16",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRPS_HIER_2",
+    "member_id" : "PRPS_1",
+    "level" : "2",
+    "parent_member_id" : "PRPS_16",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRPS_HIER_2",
+    "member_id" : "PRPS_3",
+    "level" : "2",
+    "parent_member_id" : "PRPS_16",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "PRPS_HIER_2",
+    "member_id" : "PRPS_2",
+    "level" : "2",
+    "parent_member_id" : "PRPS_16",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

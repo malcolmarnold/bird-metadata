@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_MSTR_AGRMNT_QCCP_ASSGNMNT_ELDM_1__BIRD_QCCP_ELDM_1__QCCP_ORGNSTN_PRTY_ID_1",
+  "code" : "BIRD_MSTR_AGRMNT_QCCP_ASSGNMNT_ELDM_1__BIRD_QCCP_ELDM_1__QCCP_ORGNSTN_PRTY_ID",
+  "name" : "Qualifying central counterparty (QCCP) may have many Master agreement Qualifying central counterparty assignment",
+  "description" : "Qualifying central counterparty (QCCP) is involved in Master agreement(s) with a qualifying central counterparty via Master agreement Qualifying central counterparty assignment",
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_QCCP_ELDM_1",
+  "primary_cube_variable_code" : "ORGNSTN_PRTY_ID",
+  "foreign_cube_id" : "BIRD_MSTR_AGRMNT_QCCP_ASSGNMNT_ELDM_1",
+  "foreign_cube_variable_code" : "QCCP_ORGNSTN_PRTY_ID",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "false"
+}

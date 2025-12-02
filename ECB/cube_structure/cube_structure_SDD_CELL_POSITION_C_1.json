@@ -1,0 +1,43 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_structure_id" : "SDD_CELL_POSITION_C_1",
+  "name" : "Cell position",
+  "code" : "CELL_POSITION",
+  "description" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "cube_structure_item" : [ {
+    "cube_structure_item_id" : "SDD_CELL_POSITION_C_1__CELL_ID",
+    "cube_structure_id" : "SDD_CELL_POSITION_C_1",
+    "cube_variable_code" : "CELL_ID",
+    "variable_id" : "CELL_ID",
+    "role" : "D",
+    "order" : "1",
+    "subdomain_id" : "STRNG_255",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : "B",
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "true",
+    "description" : null,
+    "is_implemented" : "true"
+  }, {
+    "cube_structure_item_id" : "SDD_CELL_POSITION_C_1__AXIS_ORDINATE_ID",
+    "cube_structure_id" : "SDD_CELL_POSITION_C_1",
+    "cube_variable_code" : "AXIS_ORDINATE_ID",
+    "variable_id" : "AXIS_ORDINATE_ID",
+    "role" : "D",
+    "order" : "2",
+    "subdomain_id" : "STRNG_255",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : "B",
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "true",
+    "description" : null,
+    "is_implemented" : "true"
+  } ]
+}

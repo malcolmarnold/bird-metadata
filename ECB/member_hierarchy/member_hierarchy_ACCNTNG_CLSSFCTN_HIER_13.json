@@ -1,0 +1,37 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_13",
+  "code" : "13",
+  "domain_id" : "ACCNTNG_CLSSFCTN",
+  "name" : "Flat Hierarchy - Off balance sheet: measured under IAS 37 or IFRS 4",
+  "description" : "Hierarchical structure of the Member Off balance sheet: measured under IAS 37 or IFRS 4 (91)",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_13",
+    "member_id" : "ACCNTNG_CLSSFCTN_91",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_13",
+    "member_id" : "ACCNTNG_CLSSFCTN_911",
+    "level" : "2",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_91",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_13",
+    "member_id" : "ACCNTNG_CLSSFCTN_912",
+    "level" : "2",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_91",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

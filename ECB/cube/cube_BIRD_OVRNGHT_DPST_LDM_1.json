@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_OVRNGHT_DPST_LDM_1",
+  "name" : "Overnight deposit",
+  "code" : "BIRD_OVRNGHT_DPST_LDM",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_OVRNGHT_DPST_LDM_1",
+  "cube_type" : "LDM",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "An Overnight deposit is a Deposit fulfilling definition of Regulation (EU) 1071/2013, Annex 2, Part 2 Definitions of instrument categories, Table Instrument categories, 9.1 Overnight deposits:\nDeposits which are convertible into currency and/or which are transferable on demand by cheque, banker’s order, debit entry or similar means, without significant delay, restriction or penalty. This item includes: \n(a) balances (interest-bearing or not) which are immediately convertible into currency on demand or by close of business on the day following that on which the demand was made, without any significant penalty or restriction, but which are not transferable; (b) balances (interest-bearing or not) representing prepaid amounts in the context of ‘hardware-based’ or ‘software-based’ e-money, e.g. prepaid cards; \n(c) loans to be repaid by close of business on the day following that on which the loan was granted.",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

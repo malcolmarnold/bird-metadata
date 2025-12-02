@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "DBT_FNNCNG_ANCRDT_INDCTR",
+  "name" : "Debt financing according to AnaCredit indicator",
+  "domain_id" : "DBT_FNNCNG_ANCRDT_INDCTR",
+  "is_listed" : "true",
+  "code" : "DBT_FNNCNG_ANCRDT_INDCTR",
+  "facet_id" : null,
+  "description" : "Debt financing according to AnaCredit indicator",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "DBT_FNNCNG_ANCRDT_INDCTR_1",
+    "subdomain_id" : "DBT_FNNCNG_ANCRDT_INDCTR",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "DBT_FNNCNG_ANCRDT_INDCTR_2",
+    "subdomain_id" : "DBT_FNNCNG_ANCRDT_INDCTR",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

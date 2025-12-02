@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "OTHR_INTNGBL_ASSTS_TKN_INT_PSSSSN_TYP",
+  "name" : "Other intangible asset taken into possession type",
+  "domain_id" : "TYP_ACCNTNG_ITM",
+  "is_listed" : "true",
+  "code" : "OTHR_INTNGBL_ASSTS_TKN_INT_PSSSSN_TYP",
+  "facet_id" : null,
+  "description" : null,
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "TYP_ACCNTNG_ITM_12",
+    "subdomain_id" : "OTHR_INTNGBL_ASSTS_TKN_INT_PSSSSN_TYP",
+    "valid_from" : "2024-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_ACCNTNG_ITM_13",
+    "subdomain_id" : "OTHR_INTNGBL_ASSTS_TKN_INT_PSSSSN_TYP",
+    "valid_from" : "2024-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

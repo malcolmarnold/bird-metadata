@@ -1,0 +1,307 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+  "code" : "11",
+  "domain_id" : "TYP_PRTCTN",
+  "name" : "Collateral hierarchy for BIRD LDM",
+  "description" : "Collateral hierarchy for BIRD LDM",
+  "is_main_hierarchy" : "true",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+    "member_id" : "TYP_PRTCTN_73",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+    "member_id" : "TYP_PRTCTN_2",
+    "level" : "3",
+    "parent_member_id" : "TYP_PRTCTN_75",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+    "member_id" : "TYP_PRTCTN_8",
+    "level" : "5",
+    "parent_member_id" : "TYP_PRTCTN_82",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+    "member_id" : "TYP_PRTCTN_9",
+    "level" : "5",
+    "parent_member_id" : "TYP_PRTCTN_82",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+    "member_id" : "TYP_PRTCTN_62",
+    "level" : "2",
+    "parent_member_id" : "TYP_PRTCTN_73",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+    "member_id" : "TYP_PRTCTN_86",
+    "level" : "4",
+    "parent_member_id" : "TYP_PRTCTN_80",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+    "member_id" : "TYP_PRTCTN_84",
+    "level" : "4",
+    "parent_member_id" : "TYP_PRTCTN_80",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+    "member_id" : "TYP_PRTCTN_13",
+    "level" : "5",
+    "parent_member_id" : "TYP_PRTCTN_87",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+    "member_id" : "TYP_PRTCTN_12",
+    "level" : "3",
+    "parent_member_id" : "TYP_PRTCTN_75",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+    "member_id" : "TYP_PRTCTN_77",
+    "level" : "3",
+    "parent_member_id" : "TYP_PRTCTN_75",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+    "member_id" : "TYP_PRTCTN_76",
+    "level" : "2",
+    "parent_member_id" : "TYP_PRTCTN_73",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+    "member_id" : "TYP_PRTCTN_79",
+    "level" : "3",
+    "parent_member_id" : "TYP_PRTCTN_76",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+    "member_id" : "TYP_PRTCTN_88",
+    "level" : "4",
+    "parent_member_id" : "TYP_PRTCTN_80",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+    "member_id" : "TYP_PRTCTN_81",
+    "level" : "4",
+    "parent_member_id" : "TYP_PRTCTN_79",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+    "member_id" : "TYP_PRTCTN_10",
+    "level" : "5",
+    "parent_member_id" : "TYP_PRTCTN_82",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+    "member_id" : "TYP_PRTCTN_83",
+    "level" : "4",
+    "parent_member_id" : "TYP_PRTCTN_79",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+    "member_id" : "TYP_PRTCTN_72",
+    "level" : "3",
+    "parent_member_id" : "TYP_PRTCTN_75",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+    "member_id" : "TYP_PRTCTN_82",
+    "level" : "4",
+    "parent_member_id" : "TYP_PRTCTN_79",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+    "member_id" : "TYP_PRTCTN_75",
+    "level" : "2",
+    "parent_member_id" : "TYP_PRTCTN_73",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+    "member_id" : "TYP_PRTCTN_105",
+    "level" : "6",
+    "parent_member_id" : "TYP_PRTCTN_9",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+    "member_id" : "TYP_PRTCTN_66",
+    "level" : "3",
+    "parent_member_id" : "TYP_PRTCTN_75",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+    "member_id" : "TYP_PRTCTN_87",
+    "level" : "4",
+    "parent_member_id" : "TYP_PRTCTN_80",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+    "member_id" : "TYP_PRTCTN_106",
+    "level" : "6",
+    "parent_member_id" : "TYP_PRTCTN_9",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+    "member_id" : "TYP_PRTCTN_89",
+    "level" : "5",
+    "parent_member_id" : "TYP_PRTCTN_87",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+    "member_id" : "TYP_PRTCTN_17",
+    "level" : "3",
+    "parent_member_id" : "TYP_PRTCTN_75",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+    "member_id" : "TYP_PRTCTN_80",
+    "level" : "3",
+    "parent_member_id" : "TYP_PRTCTN_76",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+    "member_id" : "TYP_PRTCTN_61",
+    "level" : "2",
+    "parent_member_id" : "TYP_PRTCTN_73",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+    "member_id" : "TYP_PRTCTN_85",
+    "level" : "4",
+    "parent_member_id" : "TYP_PRTCTN_80",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+    "member_id" : "TYP_PRTCTN_109",
+    "level" : "2",
+    "parent_member_id" : "TYP_PRTCTN_73",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+    "member_id" : "TYP_PRTCTN_111",
+    "level" : "3",
+    "parent_member_id" : "TYP_PRTCTN_109",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+    "member_id" : "TYP_PRTCTN_110",
+    "level" : "3",
+    "parent_member_id" : "TYP_PRTCTN_109",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+    "member_id" : "TYP_PRTCTN_107",
+    "level" : "7",
+    "parent_member_id" : "TYP_PRTCTN_105",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_11",
+    "member_id" : "TYP_PRTCTN_108",
+    "level" : "7",
+    "parent_member_id" : "TYP_PRTCTN_105",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

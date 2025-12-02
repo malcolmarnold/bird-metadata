@@ -1,0 +1,44 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_group_id" : "EIL_BLNC_SHT_RLTD",
+  "name" : "Balance sheet related",
+  "code" : "EIL_BLNC_SHT_RLTD",
+  "description" : "Balance sheet related",
+  "cube_group_enumeration" : [ {
+    "order" : "5",
+    "cube_group_id" : "EIL_BLNC_SHT_RLTD",
+    "cube_id" : "BIRD_NN_FNNCL_ASST_EIL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "4",
+    "cube_group_id" : "EIL_BLNC_SHT_RLTD",
+    "cube_id" : "BIRD_NN_FNNCL_LBLTY_EIL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "2",
+    "cube_group_id" : "EIL_BLNC_SHT_RLTD",
+    "cube_id" : "BIRD_CSH_HND_EIL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "EIL_BLNC_SHT_RLTD",
+    "cube_id" : "BIRD_INTRST_RT_RSK_HDG_PRTFL_EIL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "1",
+    "cube_group_id" : "EIL_BLNC_SHT_RLTD",
+    "cube_id" : "BIRD_FR_VL_DCRS_CNTNGNT_ENCMBRNC_EIL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "3",
+    "cube_group_id" : "EIL_BLNC_SHT_RLTD",
+    "cube_id" : "BIRD_SGNFCNT_CRRNCY_DPRCTN_CNTNGNT_ENCMBRNC_EIL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

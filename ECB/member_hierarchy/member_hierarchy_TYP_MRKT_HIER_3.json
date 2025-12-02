@@ -1,0 +1,37 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "TYP_MRKT_HIER_3",
+  "code" : "3",
+  "domain_id" : "TYP_MRKT",
+  "name" : "OTC, Organised market hierarchy",
+  "description" : "Hierarchical structure of the member OTC, Organised market (7)",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "TYP_MRKT_HIER_3",
+    "member_id" : "TYP_MRKT_7",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_MRKT_HIER_3",
+    "member_id" : "TYP_MRKT_1",
+    "level" : "2",
+    "parent_member_id" : "TYP_MRKT_7",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_MRKT_HIER_3",
+    "member_id" : "TYP_MRKT_2",
+    "level" : "2",
+    "parent_member_id" : "TYP_MRKT_7",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

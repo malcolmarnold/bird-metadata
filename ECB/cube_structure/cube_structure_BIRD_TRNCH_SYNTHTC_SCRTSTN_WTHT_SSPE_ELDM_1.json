@@ -1,0 +1,27 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_structure_id" : "BIRD_TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_ELDM_1",
+  "name" : "Tranche in a synthetic securitisation without securitisation special purpose entity (SSPE)",
+  "code" : "BIRD_TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_ELDM",
+  "description" : "A Tranche in a synthetic securitisation without securitisation special purpose entity (SSPE) is either a Financial guarantee or a Deposit acting as a collateral for a particular part of the underlying Pool of assets.",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "cube_structure_item" : [ {
+    "cube_structure_item_id" : "BIRD_TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_ELDM_1__TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_TYP",
+    "cube_structure_id" : "BIRD_TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_ELDM_1",
+    "cube_variable_code" : "TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_TYP",
+    "variable_id" : "TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_TYP",
+    "role" : "O",
+    "order" : "0",
+    "subdomain_id" : "TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_TYP",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "true",
+    "description" : "A discriminator to distinguish between different tranches in a synthetic securitisation, specifically between financial guarantees and deposits.",
+    "is_implemented" : "true"
+  } ]
+}

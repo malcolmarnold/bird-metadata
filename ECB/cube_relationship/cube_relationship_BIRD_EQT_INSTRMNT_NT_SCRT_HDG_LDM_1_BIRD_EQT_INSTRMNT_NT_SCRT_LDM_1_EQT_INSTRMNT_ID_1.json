@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_EQT_INSTRMNT_NT_SCRT_HDG_LDM_1__BIRD_EQT_INSTRMNT_NT_SCRT_LDM_1__EQT_INSTRMNT_ID_1",
+  "code" : "BIRD_EQT_INSTRMNT_NT_SCRT_HDG_LDM_1__BIRD_EQT_INSTRMNT_NT_SCRT_LDM_1__EQT_INSTRMNT_ID",
+  "name" : "Equity instrument that is not a security may have Equity instrument that is not a security as a hedge",
+  "description" : "Equity instrument that is not a security had Equity instrument that is not a security as a hedge",
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_EQT_INSTRMNT_NT_SCRT_LDM_1",
+  "primary_cube_variable_code" : "INSTRMNT_ID",
+  "foreign_cube_id" : "BIRD_EQT_INSTRMNT_NT_SCRT_HDG_LDM_1",
+  "foreign_cube_variable_code" : "EQT_INSTRMNT_ID",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "1",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "false"
+}

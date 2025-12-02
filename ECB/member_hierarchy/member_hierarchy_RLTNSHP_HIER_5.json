@@ -1,0 +1,55 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "RLTNSHP_HIER_5",
+  "code" : "5",
+  "domain_id" : "RLTNSHP",
+  "name" : "All entities secondary hierarchy (2)",
+  "description" : "Hierarchical structure of the member All entities (33) Secondary (2)",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "RLTNSHP_HIER_5",
+    "member_id" : "RLTNSHP_33",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "2019-05-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "RLTNSHP_HIER_5",
+    "member_id" : "RLTNSHP_15",
+    "level" : "2",
+    "parent_member_id" : "RLTNSHP_33",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2019-05-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "RLTNSHP_HIER_5",
+    "member_id" : "RLTNSHP_20",
+    "level" : "2",
+    "parent_member_id" : "RLTNSHP_33",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2019-05-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "RLTNSHP_HIER_5",
+    "member_id" : "RLTNSHP_6",
+    "level" : "2",
+    "parent_member_id" : "RLTNSHP_33",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2019-05-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "RLTNSHP_HIER_5",
+    "member_id" : "RLTNSHP_12",
+    "level" : "2",
+    "parent_member_id" : "RLTNSHP_33",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2019-05-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

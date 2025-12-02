@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "SDD_DOMAIN_C_1",
+  "name" : "Domain",
+  "code" : "DOMAIN",
+  "framework_id" : "SDD",
+  "cube_structure_id" : "SDD_DOMAIN_C_1",
+  "cube_type" : "C",
+  "is_allowed" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "In a nutshell: A Domain is a container for the possible\nallowed values of a field (Variable). More\nspecifically: Domains are, for example geographical areas or currencies. They\ncan be enumerated or non-enumerated. Enumerated domains are described by a set\nof Members while non-enumerated domains are described by a Facet (constraint).\nPlease note that the members of an enumerated domain do not have to be disjoint\n(i.e. they can partially overlap).",
+  "published" : "false",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

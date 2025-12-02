@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_CB_NT_ECB_LDM_1__IS__BIRD_CNTRL_BNK_LDM_1__1",
+  "code" : "BIRD_CB_NT_ECB_LDM_1__IS__BIRD_CNTRL_BNK_LDM_1__1",
+  "name" : "Central Bank that is not the European Central Bank is Central bank",
+  "description" : null,
+  "type_of_relationship" : "GEN",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_CNTRL_BNK_LDM_1",
+  "primary_cube_variable_code" : null,
+  "foreign_cube_id" : "BIRD_CB_NT_ECB_LDM_1",
+  "foreign_cube_variable_code" : null,
+  "primary_cube_cardinality" : null,
+  "foreign_cube_cardinality" : null,
+  "primary_cube_mandatoriness" : "false",
+  "foreign_cube_mandatoriness" : "false"
+}

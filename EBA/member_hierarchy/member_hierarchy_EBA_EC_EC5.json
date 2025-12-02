@@ -1,0 +1,64 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_EC_EC5",
+  "code" : "EC5",
+  "domain_id" : "EBA_EC",
+  "name" : "Exposure classes in the SA (3)",
+  "description" : "Lists all exposure and sub-exposure classes of the SA approach used in LR templates",
+  "is_main_hierarchy" : null,
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_EC_EC5",
+    "member_id" : "EBA_EC_EBA_x0",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_EC_EC5",
+    "member_id" : "EBA_EC_EBA_x34",
+    "level" : "2",
+    "parent_member_id" : "EBA_EC_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_EC_EC5",
+    "member_id" : "EBA_EC_EBA_x16",
+    "level" : "2",
+    "parent_member_id" : "EBA_EC_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_EC_EC5",
+    "member_id" : "EBA_EC_EBA_x16",
+    "level" : "2",
+    "parent_member_id" : "EBA_EC_EBA_x0",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_EC_EC5",
+    "member_id" : "EBA_EC_EBA_x34",
+    "level" : "2",
+    "parent_member_id" : "EBA_EC_EBA_x0",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_EC_EC5",
+    "member_id" : "EBA_EC_EBA_x0",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

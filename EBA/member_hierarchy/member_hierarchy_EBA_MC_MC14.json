@@ -1,0 +1,244 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_MC_MC14",
+  "code" : "MC14",
+  "domain_id" : "EBA_MC",
+  "name" : "Hierarchy for instruments subject to credit risk",
+  "description" : "List the different instruments which are subject to credit risk. Shows, how these are related and which of them are explicitly mentioned in COREP templates",
+  "is_main_hierarchy" : null,
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_MC_MC14",
+    "member_id" : "EBA_MC_EBA_x0",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC14",
+    "member_id" : "EBA_MC_EBA_x193",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x0",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC14",
+    "member_id" : "EBA_MC_EBA_x101",
+    "level" : "5",
+    "parent_member_id" : "EBA_MC_EBA_x100",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC14",
+    "member_id" : "EBA_MC_EBA_x310",
+    "level" : "4",
+    "parent_member_id" : "EBA_MC_EBA_x309",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC14",
+    "member_id" : "EBA_MC_EBA_x311",
+    "level" : "4",
+    "parent_member_id" : "EBA_MC_EBA_x309",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC14",
+    "member_id" : "EBA_MC_EBA_x258",
+    "level" : "5",
+    "parent_member_id" : "EBA_MC_EBA_x100",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC14",
+    "member_id" : "EBA_MC_EBA_x100",
+    "level" : "4",
+    "parent_member_id" : "EBA_MC_EBA_x309",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC14",
+    "member_id" : "EBA_MC_EBA_x307",
+    "level" : "5",
+    "parent_member_id" : "EBA_MC_EBA_x100",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC14",
+    "member_id" : "EBA_MC_EBA_x259",
+    "level" : "5",
+    "parent_member_id" : "EBA_MC_EBA_x100",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC14",
+    "member_id" : "EBA_MC_EBA_x309",
+    "level" : "3",
+    "parent_member_id" : "EBA_MC_EBA_x193",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC14",
+    "member_id" : "EBA_MC_EBA_x252",
+    "level" : "3",
+    "parent_member_id" : "EBA_MC_EBA_x193",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC14",
+    "member_id" : "EBA_MC_EBA_x246",
+    "level" : "4",
+    "parent_member_id" : "EBA_MC_EBA_x252",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC14",
+    "member_id" : "EBA_MC_EBA_x254",
+    "level" : "4",
+    "parent_member_id" : "EBA_MC_EBA_x252",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC14",
+    "member_id" : "EBA_MC_EBA_x254",
+    "level" : "4",
+    "parent_member_id" : "EBA_MC_EBA_x252",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC14",
+    "member_id" : "EBA_MC_EBA_x246",
+    "level" : "4",
+    "parent_member_id" : "EBA_MC_EBA_x252",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC14",
+    "member_id" : "EBA_MC_EBA_x252",
+    "level" : "3",
+    "parent_member_id" : "EBA_MC_EBA_x193",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC14",
+    "member_id" : "EBA_MC_EBA_x311",
+    "level" : "4",
+    "parent_member_id" : "EBA_MC_EBA_x309",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC14",
+    "member_id" : "EBA_MC_EBA_x258",
+    "level" : "5",
+    "parent_member_id" : "EBA_MC_EBA_x100",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC14",
+    "member_id" : "EBA_MC_EBA_x101",
+    "level" : "5",
+    "parent_member_id" : "EBA_MC_EBA_x100",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC14",
+    "member_id" : "EBA_MC_EBA_x259",
+    "level" : "5",
+    "parent_member_id" : "EBA_MC_EBA_x100",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC14",
+    "member_id" : "EBA_MC_EBA_x307",
+    "level" : "5",
+    "parent_member_id" : "EBA_MC_EBA_x100",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC14",
+    "member_id" : "EBA_MC_EBA_x100",
+    "level" : "4",
+    "parent_member_id" : "EBA_MC_EBA_x309",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC14",
+    "member_id" : "EBA_MC_EBA_x310",
+    "level" : "4",
+    "parent_member_id" : "EBA_MC_EBA_x309",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC14",
+    "member_id" : "EBA_MC_EBA_x309",
+    "level" : "3",
+    "parent_member_id" : "EBA_MC_EBA_x193",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC14",
+    "member_id" : "EBA_MC_EBA_x193",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x0",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC14",
+    "member_id" : "EBA_MC_EBA_x0",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

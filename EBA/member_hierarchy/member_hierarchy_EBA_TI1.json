@@ -1,0 +1,64 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_TI1",
+  "code" : "TI1",
+  "domain_id" : "EBA_TI",
+  "name" : "Hierarchy for time intervals applicable for settlement/delivery risk",
+  "description" : "The applicable percentage increases with the time interval. The percentage has to be multiplied with the price difference.",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_TI1",
+    "member_id" : "EBA_TI_EBA_x0",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_TI1",
+    "member_id" : "EBA_TI_EBA_x14",
+    "level" : "2",
+    "parent_member_id" : "EBA_TI_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_TI1",
+    "member_id" : "EBA_TI_EBA_x9",
+    "level" : "2",
+    "parent_member_id" : "EBA_TI_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_TI1",
+    "member_id" : "EBA_TI_EBA_x12",
+    "level" : "2",
+    "parent_member_id" : "EBA_TI_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_TI1",
+    "member_id" : "EBA_TI_EBA_x11",
+    "level" : "2",
+    "parent_member_id" : "EBA_TI_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_TI1",
+    "member_id" : "EBA_TI_EBA_x13",
+    "level" : "2",
+    "parent_member_id" : "EBA_TI_EBA_x0",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

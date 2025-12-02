@@ -1,0 +1,27 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_structure_id" : "BIRD_TRNCH_SYNTHTC_SCRTSTN_SCRTSTN_SPCL_PRPS_ENTTY_ELDM_1",
+  "name" : "Tranche in a synthetic securitisation with Securitisation Special Purpose Entity (SSPE)",
+  "code" : "BIRD_TRNCH_SYNTHTC_SCRTSTN_SCRTSTN_SPCL_PRPS_ENTTY_ELDM",
+  "description" : "Tranche in a synthetic securitisation with SSPE is a Tranche in a synthetic securitisation where there is a Securitisation Special Purpose Entity involved.",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "cube_structure_item" : [ {
+    "cube_structure_item_id" : "BIRD_TRNCH_SYNTHTC_SCRTSTN_SCRTSTN_SPCL_PRPS_ENTTY_ELDM_1__TRNCH_ID",
+    "cube_structure_id" : "BIRD_TRNCH_SYNTHTC_SCRTSTN_SCRTSTN_SPCL_PRPS_ENTTY_ELDM_1",
+    "cube_variable_code" : "TRNCH_ID",
+    "variable_id" : "TRNCH_ID",
+    "role" : "O",
+    "order" : "0",
+    "subdomain_id" : "STRNG_RSTRCTD_ID",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "false",
+    "description" : "Tranche identifier is a number that uniquely identifies the Tranche.",
+    "is_implemented" : "true"
+  } ]
+}

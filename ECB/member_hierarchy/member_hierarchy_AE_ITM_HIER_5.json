@@ -1,0 +1,55 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "AE_ITM_HIER_5",
+  "code" : "5",
+  "domain_id" : "AE_ITM",
+  "name" : "Own debt securities issued hierarchy",
+  "description" : "Hierarchical structure of the Member Own debt securities issued (40)",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "AE_ITM_HIER_5",
+    "member_id" : "AE_ITM_40",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "2019-05-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "AE_ITM_HIER_5",
+    "member_id" : "AE_ITM_10",
+    "level" : "2",
+    "parent_member_id" : "AE_ITM_40",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "2019-05-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "AE_ITM_HIER_5",
+    "member_id" : "AE_ITM_11",
+    "level" : "3",
+    "parent_member_id" : "AE_ITM_10",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2019-05-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "AE_ITM_HIER_5",
+    "member_id" : "AE_ITM_12",
+    "level" : "3",
+    "parent_member_id" : "AE_ITM_10",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2019-05-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "AE_ITM_HIER_5",
+    "member_id" : "AE_ITM_30",
+    "level" : "2",
+    "parent_member_id" : "AE_ITM_40",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2019-05-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

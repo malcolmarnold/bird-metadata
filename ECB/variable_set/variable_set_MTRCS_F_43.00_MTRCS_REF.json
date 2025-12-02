@@ -1,0 +1,104 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "variable_set_id" : "MTRCS_F_43.00_MTRCS_REF",
+  "name" : "Variable Set for MTRCS of the Cube F_43.00",
+  "code" : "MTRCS_F_43.00_MTRCS_REF",
+  "description" : "Variable Set for MTRCS of the Cube F_43.00",
+  "variable_set_enumeration" : [ {
+    "variable_set_id" : "MTRCS_F_43.00_MTRCS_REF",
+    "variable_id" : "AMNT_USD",
+    "valid_from" : "2018-03-31",
+    "valid_to" : "2021-06-29",
+    "subdomain_id" : "MNTRY",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "MTRCS_F_43.00_MTRCS_REF",
+    "variable_id" : "CRRYNG_AMNT",
+    "valid_from" : "2018-03-31",
+    "valid_to" : "2021-06-29",
+    "subdomain_id" : "MNTRY",
+    "is_flow" : "false",
+    "order" : "1"
+  }, {
+    "variable_set_id" : "MTRCS_F_43.00_MTRCS_REF",
+    "variable_id" : "OTHR_CHNG_PRVSN",
+    "valid_from" : "2018-03-31",
+    "valid_to" : "2021-06-29",
+    "subdomain_id" : "MNTRY",
+    "is_flow" : "false",
+    "order" : "2"
+  }, {
+    "variable_set_id" : "MTRCS_F_43.00_MTRCS_REF",
+    "variable_id" : "UNSD_AMNT_RVRSD_DRNG_PRD",
+    "valid_from" : "2018-03-31",
+    "valid_to" : "2021-06-29",
+    "subdomain_id" : "MNTRY",
+    "is_flow" : "false",
+    "order" : "3"
+  }, {
+    "variable_set_id" : "MTRCS_F_43.00_MTRCS_REF",
+    "variable_id" : "ADDTNS_INCLDNG_EXSTNG_PRVSNS",
+    "valid_from" : "2018-03-31",
+    "valid_to" : "2021-06-29",
+    "subdomain_id" : "MNTRY",
+    "is_flow" : "false",
+    "order" : "4"
+  }, {
+    "variable_set_id" : "MTRCS_F_43.00_MTRCS_REF",
+    "variable_id" : "INCRS_ DSCNTD_AMNT_DSCNT_RT",
+    "valid_from" : "2018-03-31",
+    "valid_to" : "2021-06-29",
+    "subdomain_id" : "MNTRY",
+    "is_flow" : "false",
+    "order" : "5"
+  }, {
+    "variable_set_id" : "MTRCS_F_43.00_MTRCS_REF",
+    "variable_id" : "AMNT_USD",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "MNTRY",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "MTRCS_F_43.00_MTRCS_REF",
+    "variable_id" : "CRRYNG_AMNT",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "MNTRY",
+    "is_flow" : "false",
+    "order" : "1"
+  }, {
+    "variable_set_id" : "MTRCS_F_43.00_MTRCS_REF",
+    "variable_id" : "OTHR_CHNG_PRVSN",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "MNTRY",
+    "is_flow" : "false",
+    "order" : "2"
+  }, {
+    "variable_set_id" : "MTRCS_F_43.00_MTRCS_REF",
+    "variable_id" : "UNSD_AMNT_RVRSD_DRNG_PRD",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "MNTRY",
+    "is_flow" : "false",
+    "order" : "3"
+  }, {
+    "variable_set_id" : "MTRCS_F_43.00_MTRCS_REF",
+    "variable_id" : "ADDTNS_INCLDNG_EXSTNG_PRVSNS",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "MNTRY",
+    "is_flow" : "false",
+    "order" : "4"
+  }, {
+    "variable_set_id" : "MTRCS_F_43.00_MTRCS_REF",
+    "variable_id" : "INCRS_ DSCNTD_AMNT_DSCNT_RT",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "MNTRY",
+    "is_flow" : "false",
+    "order" : "5"
+  } ]
+}

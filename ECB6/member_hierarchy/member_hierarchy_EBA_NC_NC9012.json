@@ -1,0 +1,46 @@
+{
+  "maintenance_agency_id" : "ECB6",
+  "member_hierarchy_id" : "EBA_NC_NC9012",
+  "code" : "NC9012",
+  "domain_id" : "EBA_NC",
+  "name" : "Hierarchy for F41-F43 subset of F - Construction",
+  "description" : null,
+  "is_main_hierarchy" : null,
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_NC_NC9012",
+    "member_id" : "EBA_NC_EBA_F41",
+    "level" : "2",
+    "parent_member_id" : "EBA_NC_ECB6_F41-F43",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_NC_NC9012",
+    "member_id" : "EBA_NC_EBA_F42",
+    "level" : "2",
+    "parent_member_id" : "EBA_NC_ECB6_F41-F43",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_NC_NC9012",
+    "member_id" : "EBA_NC_EBA_F43",
+    "level" : "2",
+    "parent_member_id" : "EBA_NC_ECB6_F41-F43",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_NC_NC9012",
+    "member_id" : "EBA_NC_ECB6_F41-F43",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

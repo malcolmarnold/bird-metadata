@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "DT_OPNNG_BLNC_F_24.01_INTL_RCGNTN_DT_REF",
+  "name" : "Subdomain for INTL_RCGNTN_DT of the Cube F_24.01",
+  "domain_id" : "DT_OPNNG_BLNC",
+  "is_listed" : "true",
+  "code" : "DT_OPNNG_BLNC_F_24.01_INTL_RCGNTN_DT_REF",
+  "facet_id" : null,
+  "description" : null,
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "DT_OPNNG_BLNC_2",
+    "subdomain_id" : "DT_OPNNG_BLNC_F_24.01_INTL_RCGNTN_DT_REF",
+    "valid_from" : "2020-06-30",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "DT_OPNNG_BLNC_-1",
+    "subdomain_id" : "DT_OPNNG_BLNC_F_24.01_INTL_RCGNTN_DT_REF",
+    "valid_from" : "2020-06-30",
+    "valid_to" : "9999-12-31",
+    "order" : "1"
+  } ]
+}

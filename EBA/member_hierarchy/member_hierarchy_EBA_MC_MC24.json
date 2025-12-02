@@ -1,0 +1,118 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_MC_MC24",
+  "code" : "MC24",
+  "domain_id" : "EBA_MC",
+  "name" : "Hierarchy for deferred tax liabilities",
+  "description" : null,
+  "is_main_hierarchy" : null,
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_MC_MC24",
+    "member_id" : "EBA_MC_EBA_x81",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC24",
+    "member_id" : "EBA_MC_EBA_x84",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x81",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC24",
+    "member_id" : "EBA_MC_EBA_x73",
+    "level" : "3",
+    "parent_member_id" : "EBA_MC_EBA_x84",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC24",
+    "member_id" : "EBA_MC_EBA_x85",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x81",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC24",
+    "member_id" : "EBA_MC_EBA_x74",
+    "level" : "3",
+    "parent_member_id" : "EBA_MC_EBA_x84",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC24",
+    "member_id" : "EBA_MC_EBA_x337",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x81",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC24",
+    "member_id" : "EBA_MC_EBA_x85",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x81",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC24",
+    "member_id" : "EBA_MC_EBA_x74",
+    "level" : "3",
+    "parent_member_id" : "EBA_MC_EBA_x84",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC24",
+    "member_id" : "EBA_MC_EBA_x73",
+    "level" : "3",
+    "parent_member_id" : "EBA_MC_EBA_x84",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC24",
+    "member_id" : "EBA_MC_EBA_x84",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x81",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC24",
+    "member_id" : "EBA_MC_EBA_x337",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x81",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC24",
+    "member_id" : "EBA_MC_EBA_x81",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

@@ -1,0 +1,55 @@
+{
+  "maintenance_agency_id" : "ECB6",
+  "member_hierarchy_id" : "EBA_ZZ_ZZ6125",
+  "code" : "ZZ6125",
+  "domain_id" : "EBA_ZZ",
+  "name" : "Hierarchy for disclosing whether accounting for the stress dimension when determining the relevant outflow rate",
+  "description" : null,
+  "is_main_hierarchy" : null,
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_ZZ_ZZ6125",
+    "member_id" : "EBA_ZZ_ECB6_x7114",
+    "level" : "2",
+    "parent_member_id" : "EBA_ZZ_EBA_x0",
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ_ZZ6125",
+    "member_id" : "EBA_ZZ_ECB6_x7113",
+    "level" : "2",
+    "parent_member_id" : "EBA_ZZ_EBA_x0",
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ_ZZ6125",
+    "member_id" : "EBA_ZZ_ECB6_x7112",
+    "level" : "2",
+    "parent_member_id" : "EBA_ZZ_EBA_x0",
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ_ZZ6125",
+    "member_id" : "EBA_ZZ_ECB6_x6356",
+    "level" : "2",
+    "parent_member_id" : "EBA_ZZ_EBA_x0",
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ_ZZ6125",
+    "member_id" : "EBA_ZZ_EBA_x0",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

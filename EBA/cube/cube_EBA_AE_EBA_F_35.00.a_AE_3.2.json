@@ -1,0 +1,74 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "cube_id" : "EBA_AE_EBA_F_35.00.a_AE_3.2",
+  "name" : "Asset encumbrance: Covered bonds issuance (a)",
+  "code" : "F_35.00.a",
+  "framework_id" : "EBA_AE",
+  "cube_structure_id" : "EBA_AE_EBA_F_35.00.a_AE_3.2",
+  "cube_type" : "D",
+  "is_allowed" : null,
+  "valid_from" : "2023-06-30",
+  "valid_to" : "9999-12-31",
+  "version" : "AE 3.2",
+  "description" : "Asset encumbrance: Covered bonds issuance (a)",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "EBA_AE_EBA_F_35.00.a_AE_3.2",
+    "combination_id" : "EBA_55198"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.a_AE_3.2",
+    "combination_id" : "EBA_55199"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.a_AE_3.2",
+    "combination_id" : "EBA_55422"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.a_AE_3.2",
+    "combination_id" : "EBA_55423"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.a_AE_3.2",
+    "combination_id" : "EBA_55424"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.a_AE_3.2",
+    "combination_id" : "EBA_55425"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.a_AE_3.2",
+    "combination_id" : "EBA_55426"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.a_AE_3.2",
+    "combination_id" : "EBA_55427"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.a_AE_3.2",
+    "combination_id" : "EBA_55428"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.a_AE_3.2",
+    "combination_id" : "EBA_55429"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.a_AE_3.2",
+    "combination_id" : "EBA_55430"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.a_AE_3.2",
+    "combination_id" : "EBA_55431"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.a_AE_3.2",
+    "combination_id" : "EBA_55432"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.a_AE_3.2",
+    "combination_id" : "EBA_55433"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.a_AE_3.2",
+    "combination_id" : "EBA_55438"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.a_AE_3.2",
+    "combination_id" : "EBA_55453"
+  }, {
+    "cube_id" : "EBA_AE_EBA_F_35.00.a_AE_3.2",
+    "combination_id" : "EBA_55456"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "EBA_AE_EBA_F_35.00.a_AE_3.2",
+    "table_id" : "EBA_AE_EBA_F_35.00.a_AE_3.2"
+  } ]
+}

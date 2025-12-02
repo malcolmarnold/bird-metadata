@@ -1,0 +1,154 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_AT11",
+  "code" : "AT11",
+  "domain_id" : "EBA_ATY",
+  "name" : "Hierarchy for calculating Total risk exposure amount for internal models",
+  "description" : "Hierarchy follows the validation rule embedded in the template MKR IM",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_AT11",
+    "member_id" : "EBA_ATY_EBA_mi235",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT11",
+    "member_id" : "EBA_ATY_EBA_mi184",
+    "level" : "2",
+    "parent_member_id" : "EBA_ATY_EBA_mi235",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT11",
+    "member_id" : "EBA_ATY_EBA_mi22",
+    "level" : "3",
+    "parent_member_id" : "EBA_ATY_EBA_mi184",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT11",
+    "member_id" : "EBA_ATY_EBA_mi225",
+    "level" : "3",
+    "parent_member_id" : "EBA_ATY_EBA_mi184",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT11",
+    "member_id" : "EBA_ATY_EBA_mi261",
+    "level" : "3",
+    "parent_member_id" : "EBA_ATY_EBA_mi184",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT11",
+    "member_id" : "EBA_ATY_EBA_mi141",
+    "level" : "3",
+    "parent_member_id" : "EBA_ATY_EBA_mi184",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT11",
+    "member_id" : "EBA_ATY_EBA_mi25",
+    "level" : "4",
+    "parent_member_id" : "EBA_ATY_EBA_mi22",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT11",
+    "member_id" : "EBA_ATY_EBA_mi16",
+    "level" : "4",
+    "parent_member_id" : "EBA_ATY_EBA_mi261",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT11",
+    "member_id" : "EBA_ATY_EBA_mi63",
+    "level" : "4",
+    "parent_member_id" : "EBA_ATY_EBA_mi141",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT11",
+    "member_id" : "EBA_ATY_EBA_mi24",
+    "level" : "4",
+    "parent_member_id" : "EBA_ATY_EBA_mi22",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT11",
+    "member_id" : "EBA_ATY_EBA_mi23",
+    "level" : "4",
+    "parent_member_id" : "EBA_ATY_EBA_mi22",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT11",
+    "member_id" : "EBA_ATY_EBA_mi15",
+    "level" : "4",
+    "parent_member_id" : "EBA_ATY_EBA_mi225",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT11",
+    "member_id" : "EBA_ATY_EBA_mi192",
+    "level" : "4",
+    "parent_member_id" : "EBA_ATY_EBA_mi225",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT11",
+    "member_id" : "EBA_ATY_EBA_mi193",
+    "level" : "4",
+    "parent_member_id" : "EBA_ATY_EBA_mi261",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT11",
+    "member_id" : "EBA_ATY_EBA_mi142",
+    "level" : "4",
+    "parent_member_id" : "EBA_ATY_EBA_mi141",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT11",
+    "member_id" : "EBA_ATY_EBA_mi52",
+    "level" : "5",
+    "parent_member_id" : "EBA_ATY_EBA_mi23",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

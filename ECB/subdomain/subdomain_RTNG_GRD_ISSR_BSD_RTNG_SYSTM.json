@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "RTNG_GRD_ISSR_BSD_RTNG_SYSTM",
+  "name" : "Rating grade for issuer based rating systems type",
+  "domain_id" : "RTNG_GRD_TYP",
+  "is_listed" : "true",
+  "code" : "RTNG_GRD_ISSR_BSD_RTNG_SYSTM",
+  "facet_id" : null,
+  "description" : "Rating grade for issuer based rating systems type",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "RTNG_GRD_TYP_3",
+    "subdomain_id" : "RTNG_GRD_ISSR_BSD_RTNG_SYSTM",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "RTNG_GRD_TYP_4",
+    "subdomain_id" : "RTNG_GRD_ISSR_BSD_RTNG_SYSTM",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

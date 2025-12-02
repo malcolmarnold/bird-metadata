@@ -1,0 +1,100 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_NC20",
+  "code" : "NC20",
+  "domain_id" : "EBA_NC",
+  "name" : "Hierarchy for sectors (economic activity) that highly contribute to climate change",
+  "description" : "EBA_NC20",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_NC20",
+    "member_id" : "EBA_NC_EBA_x11",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2023-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_NC20",
+    "member_id" : "EBA_NC_EBA_G",
+    "level" : "2",
+    "parent_member_id" : "EBA_NC_EBA_x11",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2023-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_NC20",
+    "member_id" : "EBA_NC_EBA_A",
+    "level" : "2",
+    "parent_member_id" : "EBA_NC_EBA_x11",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2023-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_NC20",
+    "member_id" : "EBA_NC_EBA_E",
+    "level" : "2",
+    "parent_member_id" : "EBA_NC_EBA_x11",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2023-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_NC20",
+    "member_id" : "EBA_NC_EBA_D",
+    "level" : "2",
+    "parent_member_id" : "EBA_NC_EBA_x11",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2023-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_NC20",
+    "member_id" : "EBA_NC_EBA_F",
+    "level" : "2",
+    "parent_member_id" : "EBA_NC_EBA_x11",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2023-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_NC20",
+    "member_id" : "EBA_NC_EBA_L",
+    "level" : "2",
+    "parent_member_id" : "EBA_NC_EBA_x11",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2023-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_NC20",
+    "member_id" : "EBA_NC_EBA_B",
+    "level" : "2",
+    "parent_member_id" : "EBA_NC_EBA_x11",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2023-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_NC20",
+    "member_id" : "EBA_NC_EBA_H",
+    "level" : "2",
+    "parent_member_id" : "EBA_NC_EBA_x11",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2023-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_NC20",
+    "member_id" : "EBA_NC_EBA_C",
+    "level" : "2",
+    "parent_member_id" : "EBA_NC_EBA_x11",
+    "comparator" : null,
+    "operator" : null,
+    "valid_from" : "2023-12-31",
+    "valid_to" : "9999-12-31"
+  } ]
+}

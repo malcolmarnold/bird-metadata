@@ -1,0 +1,80 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "FINREP_REF_F_04.01_REF_FINREP 3.0",
+  "name" : "Breakdown of financial assets by instrument and by counterparty sector: financial assets held for trading - Reference",
+  "code" : "F_04.01_REF",
+  "framework_id" : "FINREP_REF",
+  "cube_structure_id" : "FINREP_REF_F_04.01_REF_FINREP 3.0",
+  "cube_type" : "RC",
+  "is_allowed" : null,
+  "valid_from" : "2021-06-30",
+  "valid_to" : "9999-12-31",
+  "version" : "FINREP 3.0",
+  "description" : null,
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "FINREP_REF_F_04.01_REF_FINREP 3.0",
+    "combination_id" : "11083_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_04.01_REF_FINREP 3.0",
+    "combination_id" : "11114_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_04.01_REF_FINREP 3.0",
+    "combination_id" : "67315_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_04.01_REF_FINREP 3.0",
+    "combination_id" : "11084_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_04.01_REF_FINREP 3.0",
+    "combination_id" : "11091_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_04.01_REF_FINREP 3.0",
+    "combination_id" : "11106_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_04.01_REF_FINREP 3.0",
+    "combination_id" : "11082_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_04.01_REF_FINREP 3.0",
+    "combination_id" : "11108_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_04.01_REF_FINREP 3.0",
+    "combination_id" : "11112_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_04.01_REF_FINREP 3.0",
+    "combination_id" : "11090_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_04.01_REF_FINREP 3.0",
+    "combination_id" : "11085_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_04.01_REF_FINREP 3.0",
+    "combination_id" : "67314_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_04.01_REF_FINREP 3.0",
+    "combination_id" : "11089_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_04.01_REF_FINREP 3.0",
+    "combination_id" : "11081_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_04.01_REF_FINREP 3.0",
+    "combination_id" : "11086_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_04.01_REF_FINREP 3.0",
+    "combination_id" : "11088_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_04.01_REF_FINREP 3.0",
+    "combination_id" : "67316_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_04.01_REF_FINREP 3.0",
+    "combination_id" : "11087_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_04.01_REF_FINREP 3.0",
+    "combination_id" : "11110_REF"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "FINREP_REF_F_04.01_REF_FINREP 3.0",
+    "table_id" : "FINREP_REF_F_04.01_REF_FINREP 3.0"
+  } ]
+}

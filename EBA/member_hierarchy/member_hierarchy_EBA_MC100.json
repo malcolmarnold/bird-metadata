@@ -1,0 +1,37 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_MC100",
+  "code" : "MC100",
+  "domain_id" : "EBA_MC",
+  "name" : "Hierarchy for Deductible DTA that rely on future profitability and arise from temporary differences and Equity Instruments",
+  "description" : "Hierarchy for Deductible DTA that rely on future profitability and arise from temporary differences and Equity Instruments",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_MC100",
+    "member_id" : "EBA_MC_EBA_x72",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC100",
+    "member_id" : "EBA_MC_EBA_x71",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x72",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC100",
+    "member_id" : "EBA_MC_EBA_x130",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x72",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

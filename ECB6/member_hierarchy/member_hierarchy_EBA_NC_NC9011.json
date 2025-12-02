@@ -1,0 +1,55 @@
+{
+  "maintenance_agency_id" : "ECB6",
+  "member_hierarchy_id" : "EBA_NC_NC9011",
+  "code" : "NC9011",
+  "domain_id" : "EBA_NC",
+  "name" : "Hierarchy for E36-E39 subset of E - Water supply",
+  "description" : null,
+  "is_main_hierarchy" : null,
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_NC_NC9011",
+    "member_id" : "EBA_NC_EBA_E36",
+    "level" : "2",
+    "parent_member_id" : "EBA_NC_ECB6_E36-E39",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_NC_NC9011",
+    "member_id" : "EBA_NC_EBA_E37",
+    "level" : "2",
+    "parent_member_id" : "EBA_NC_ECB6_E36-E39",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_NC_NC9011",
+    "member_id" : "EBA_NC_EBA_E38",
+    "level" : "2",
+    "parent_member_id" : "EBA_NC_ECB6_E36-E39",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_NC_NC9011",
+    "member_id" : "EBA_NC_EBA_E39",
+    "level" : "2",
+    "parent_member_id" : "EBA_NC_ECB6_E36-E39",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_NC_NC9011",
+    "member_id" : "EBA_NC_ECB6_E36-E39",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

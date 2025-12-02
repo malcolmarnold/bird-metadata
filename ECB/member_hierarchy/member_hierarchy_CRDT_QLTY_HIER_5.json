@@ -1,0 +1,91 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "CRDT_QLTY_HIER_5",
+  "code" : "5",
+  "domain_id" : "CRDT_QLTY",
+  "name" : "Performing and non-performing exposures hierarchy",
+  "description" : "Hierarchical structure of the member Performing and non-performing exposures (15)",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "CRDT_QLTY_HIER_5",
+    "member_id" : "CRDT_QLTY_15",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "CRDT_QLTY_HIER_5",
+    "member_id" : "CRDT_QLTY_3",
+    "level" : "3",
+    "parent_member_id" : "CRDT_QLTY_11",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "CRDT_QLTY_HIER_5",
+    "member_id" : "CRDT_QLTY_12",
+    "level" : "3",
+    "parent_member_id" : "CRDT_QLTY_1",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "CRDT_QLTY_HIER_5",
+    "member_id" : "CRDT_QLTY_1",
+    "level" : "2",
+    "parent_member_id" : "CRDT_QLTY_15",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "CRDT_QLTY_HIER_5",
+    "member_id" : "CRDT_QLTY_13",
+    "level" : "3",
+    "parent_member_id" : "CRDT_QLTY_1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "CRDT_QLTY_HIER_5",
+    "member_id" : "CRDT_QLTY_18",
+    "level" : "4",
+    "parent_member_id" : "CRDT_QLTY_12",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "CRDT_QLTY_HIER_5",
+    "member_id" : "CRDT_QLTY_19",
+    "level" : "4",
+    "parent_member_id" : "CRDT_QLTY_12",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "CRDT_QLTY_HIER_5",
+    "member_id" : "CRDT_QLTY_20",
+    "level" : "4",
+    "parent_member_id" : "CRDT_QLTY_12",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "CRDT_QLTY_HIER_5",
+    "member_id" : "CRDT_QLTY_11",
+    "level" : "2",
+    "parent_member_id" : "CRDT_QLTY_15",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

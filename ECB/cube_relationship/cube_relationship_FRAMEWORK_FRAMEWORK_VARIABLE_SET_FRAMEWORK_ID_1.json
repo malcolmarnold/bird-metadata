@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "FRAMEWORK__FRAMEWORK_VARIABLE_SET__FRAMEWORK_ID__1",
+  "code" : "FRAMEWORK__FRAMEWORK_VARIABLE_SET__FRAMEWORK_ID__1",
+  "name" : "a framework can have many framework variable sets<br> and a framework variable set must be associated with a framework",
+  "description" : null,
+  "type_of_relationship" : "ASS",
+  "valid_from" : "1999-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "SDD_FRAMEWORK_C_1",
+  "primary_cube_variable_code" : "FRAMEWORK_ID",
+  "foreign_cube_id" : "SDD_FRAMEWORK_VARIABLE_SET_C_1",
+  "foreign_cube_variable_code" : "FRAMEWORK_ID",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "false",
+  "foreign_cube_mandatoriness" : "true"
+}

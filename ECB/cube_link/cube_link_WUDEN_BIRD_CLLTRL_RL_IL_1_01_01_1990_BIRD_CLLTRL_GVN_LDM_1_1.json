@@ -1,0 +1,46 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_link_id" : "WUDEN__BIRD_CLLTRL_RL_IL_1__01_01_1990__BIRD_CLLTRL_GVN_LDM_1__1",
+  "code" : "WUDEN__BIRD_CLLTRL_RL_IL_1__01_01_1990__BIRD_CLLTRL_GVN_LDM_1",
+  "name" : "The LDM: Collateral given (BIRD_CLLTRL_GVN_LDM) is forward engineered into the IL: Collateral role (BIRD_CLLTRL_RL_IL)",
+  "description" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "order_relevance" : "1",
+  "primary_cube_id" : "BIRD_CLLTRL_GVN_LDM_1",
+  "foreign_cube_id" : "BIRD_CLLTRL_RL_IL_1",
+  "cube_link_type" : "TR",
+  "logical_transformation_rule_id" : "WUDEN__BIRD_CLLTRL_RL_IL_1__01_01_1990",
+  "cube_structure_item_link" : [ {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_CLLTRL_RL_IL_1__01_01_1990__BIRD_CLLTRL_GVN_LDM_1__1__CLLTRL_ID__CLLTRL_ID",
+    "cube_link_id" : "WUDEN__BIRD_CLLTRL_RL_IL_1__01_01_1990__BIRD_CLLTRL_GVN_LDM_1__1",
+    "foreign_cube_variable_code" : "CLLTRL_ID",
+    "primary_cube_variable_code" : "CLLTRL_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_CLLTRL_RL_IL_1__01_01_1990__BIRD_CLLTRL_GVN_LDM_1__1__CLLTRL_RL_TYP__CLLTRL_RL_TYP",
+    "cube_link_id" : "WUDEN__BIRD_CLLTRL_RL_IL_1__01_01_1990__BIRD_CLLTRL_GVN_LDM_1__1",
+    "foreign_cube_variable_code" : "CLLTRL_RL_TYP",
+    "primary_cube_variable_code" : "CLLTRL_RL_TYP",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ {
+      "cube_structure_item_link_id" : "WUDEN__BIRD_CLLTRL_RL_IL_1__01_01_1990__BIRD_CLLTRL_GVN_LDM_1__1__CLLTRL_RL_TYP__CLLTRL_RL_TYP",
+      "foreign_member_id" : "CLLTRL_RL_TYP_1",
+      "primary_member_id" : "CLLTRL_RL_TYP_1",
+      "valid_from" : "1999-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "WUDEN__BIRD_CLLTRL_RL_IL_1__01_01_1990__BIRD_CLLTRL_GVN_LDM_1__1__CLLTRL_RL_TYP__CLLTRL_RL_TYP",
+      "foreign_member_id" : "CLLTRL_RL_TYP_2",
+      "primary_member_id" : "CLLTRL_RL_TYP_2",
+      "valid_from" : "1999-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    } ]
+  } ]
+}

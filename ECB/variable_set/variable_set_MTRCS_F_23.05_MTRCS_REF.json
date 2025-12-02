@@ -1,0 +1,32 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "variable_set_id" : "MTRCS_F_23.05_MTRCS_REF",
+  "name" : "Variable Set for MTRCS of the Cube F_23.05",
+  "code" : "MTRCS_F_23.05_MTRCS_REF",
+  "description" : "Variable Set for MTRCS of the Cube F_23.05",
+  "variable_set_enumeration" : [ {
+    "variable_set_id" : "MTRCS_F_23.05_MTRCS_REF",
+    "variable_id" : "GRNT_MXMM_AMNT_CNSDRD",
+    "valid_from" : "2020-06-30",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "MNTRY",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "MTRCS_F_23.05_MTRCS_REF",
+    "variable_id" : "CLLTRL_VL_UNCPPD",
+    "valid_from" : "2020-06-30",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "RL",
+    "is_flow" : "false",
+    "order" : "1"
+  }, {
+    "variable_set_id" : "MTRCS_F_23.05_MTRCS_REF",
+    "variable_id" : "CLLTRL_MXMM_AMNT_CNSDRD",
+    "valid_from" : "2020-06-30",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "MNTRY",
+    "is_flow" : "false",
+    "order" : "2"
+  } ]
+}

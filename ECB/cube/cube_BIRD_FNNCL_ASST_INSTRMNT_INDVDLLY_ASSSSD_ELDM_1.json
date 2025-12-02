@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_FNNCL_ASST_INSTRMNT_INDVDLLY_ASSSSD_ELDM_1",
+  "name" : "Financial asset instrument individually assessed",
+  "code" : "BIRD_FNNCL_ASST_INSTRMNT_INDVDLLY_ASSSSD_ELDM",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_FNNCL_ASST_INSTRMNT_INDVDLLY_ASSSSD_ELDM_1",
+  "cube_type" : "ELDM",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "A Financial asset instrument individually assessed is a Potential retail exposure class financial asset instrument where a Transaction based assessment of the Detault status has been applied in accordance with Regulation (EU) 575/2013, Article 178 Default of an obligor.\nRegulation (EU) 575/2013, Article 178 Default of an obligor:\n\"In the case of retail exposures, institutions may apply the definition of default laid down in points (a) and (b) of the first subparagraph at the level of an individual credit facility rather than in relation to the total obligations of a borrower.\".",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

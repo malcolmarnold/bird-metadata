@@ -1,0 +1,208 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_AP_AP2",
+  "code" : "AP2",
+  "domain_id" : "EBA_AP",
+  "name" : "Hierarchy for the different methods to calculate risk weights for securitisation exposures",
+  "description" : "According to the CRR, there are different methods to determine risk weights for securitisation exposures. The CRR clearly describes the methods and the sequence of application. These hierarchy lists the possible methods to determine risk weights (separate dimension in the domain AP)",
+  "is_main_hierarchy" : null,
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_AP_AP2",
+    "member_id" : "EBA_AP_EBA_x0",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP_AP2",
+    "member_id" : "EBA_AP_EBA_x1",
+    "level" : "4",
+    "parent_member_id" : "EBA_AP_EBA_x36",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP_AP2",
+    "member_id" : "EBA_AP_EBA_x52",
+    "level" : "2",
+    "parent_member_id" : "EBA_AP_EBA_x0",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP_AP2",
+    "member_id" : "EBA_AP_EBA_x19",
+    "level" : "5",
+    "parent_member_id" : "EBA_AP_EBA_x24",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP_AP2",
+    "member_id" : "EBA_AP_EBA_x37",
+    "level" : "4",
+    "parent_member_id" : "EBA_AP_EBA_x73",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP_AP2",
+    "member_id" : "EBA_AP_EBA_x18",
+    "level" : "5",
+    "parent_member_id" : "EBA_AP_EBA_x37",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP_AP2",
+    "member_id" : "EBA_AP_EBA_x36",
+    "level" : "3",
+    "parent_member_id" : "EBA_AP_EBA_x52",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP_AP2",
+    "member_id" : "EBA_AP_EBA_x73",
+    "level" : "3",
+    "parent_member_id" : "EBA_AP_EBA_x52",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP_AP2",
+    "member_id" : "EBA_AP_EBA_x25",
+    "level" : "5",
+    "parent_member_id" : "EBA_AP_EBA_x24",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP_AP2",
+    "member_id" : "EBA_AP_EBA_x24",
+    "level" : "4",
+    "parent_member_id" : "EBA_AP_EBA_x73",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP_AP2",
+    "member_id" : "EBA_AP_EBA_x30",
+    "level" : "5",
+    "parent_member_id" : "EBA_AP_EBA_x24",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP_AP2",
+    "member_id" : "EBA_AP_EBA_x18",
+    "level" : "5",
+    "parent_member_id" : "EBA_AP_EBA_x37",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP_AP2",
+    "member_id" : "EBA_AP_EBA_x37",
+    "level" : "4",
+    "parent_member_id" : "EBA_AP_EBA_x73",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP_AP2",
+    "member_id" : "EBA_AP_EBA_x30",
+    "level" : "5",
+    "parent_member_id" : "EBA_AP_EBA_x24",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP_AP2",
+    "member_id" : "EBA_AP_EBA_x25",
+    "level" : "5",
+    "parent_member_id" : "EBA_AP_EBA_x24",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP_AP2",
+    "member_id" : "EBA_AP_EBA_x19",
+    "level" : "5",
+    "parent_member_id" : "EBA_AP_EBA_x24",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP_AP2",
+    "member_id" : "EBA_AP_EBA_x24",
+    "level" : "4",
+    "parent_member_id" : "EBA_AP_EBA_x73",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP_AP2",
+    "member_id" : "EBA_AP_EBA_x73",
+    "level" : "3",
+    "parent_member_id" : "EBA_AP_EBA_x52",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP_AP2",
+    "member_id" : "EBA_AP_EBA_x1",
+    "level" : "4",
+    "parent_member_id" : "EBA_AP_EBA_x36",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP_AP2",
+    "member_id" : "EBA_AP_EBA_x36",
+    "level" : "3",
+    "parent_member_id" : "EBA_AP_EBA_x52",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP_AP2",
+    "member_id" : "EBA_AP_EBA_x52",
+    "level" : "2",
+    "parent_member_id" : "EBA_AP_EBA_x0",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AP_AP2",
+    "member_id" : "EBA_AP_EBA_x0",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

@@ -1,0 +1,181 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_12",
+  "code" : "12",
+  "domain_id" : "INSTTTNL_SCTR",
+  "name" : "Central banks, General government including international organisations, Credit institutions including multilateral development banks, Financial corporations other than credit institutions, Non financial corporations hierarhy",
+  "description" : "Hierarchical structure of the member Central banks, General government including international organisations, Credit institutions including multilateral development banks, Financial corporations other than credit institutions, Non financial corporations (3)",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_12",
+    "member_id" : "INSTTTNL_SCTR_3",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_12",
+    "member_id" : "INSTTTNL_SCTR_S11",
+    "level" : "2",
+    "parent_member_id" : "INSTTTNL_SCTR_3",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_12",
+    "member_id" : "INSTTTNL_SCTR_S121",
+    "level" : "2",
+    "parent_member_id" : "INSTTTNL_SCTR_3",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_12",
+    "member_id" : "INSTTTNL_SCTR_S12_D",
+    "level" : "2",
+    "parent_member_id" : "INSTTTNL_SCTR_3",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_12",
+    "member_id" : "INSTTTNL_SCTR_S13_IO",
+    "level" : "2",
+    "parent_member_id" : "INSTTTNL_SCTR_3",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_12",
+    "member_id" : "INSTTTNL_SCTR_S1_MDB",
+    "level" : "2",
+    "parent_member_id" : "INSTTTNL_SCTR_3",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_12",
+    "member_id" : "INSTTTNL_SCTR_S12",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_12",
+    "member_id" : "INSTTTNL_SCTR_S12_K",
+    "level" : "2",
+    "parent_member_id" : "INSTTTNL_SCTR_S12",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_12",
+    "member_id" : "INSTTTNL_SCTR_S121",
+    "level" : "3",
+    "parent_member_id" : "INSTTTNL_SCTR_S12_K",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_12",
+    "member_id" : "INSTTTNL_SCTR_S122",
+    "level" : "3",
+    "parent_member_id" : "INSTTTNL_SCTR_S12_K",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_12",
+    "member_id" : "INSTTTNL_SCTR_S123",
+    "level" : "3",
+    "parent_member_id" : "INSTTTNL_SCTR_S12_K",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_12",
+    "member_id" : "INSTTTNL_SCTR_S12_A",
+    "level" : "2",
+    "parent_member_id" : "INSTTTNL_SCTR_S12",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_12",
+    "member_id" : "INSTTTNL_SCTR_S124",
+    "level" : "3",
+    "parent_member_id" : "INSTTTNL_SCTR_S12_A",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_12",
+    "member_id" : "INSTTTNL_SCTR_S125",
+    "level" : "3",
+    "parent_member_id" : "INSTTTNL_SCTR_S12_A",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_12",
+    "member_id" : "INSTTTNL_SCTR_S126",
+    "level" : "3",
+    "parent_member_id" : "INSTTTNL_SCTR_S12_A",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_12",
+    "member_id" : "INSTTTNL_SCTR_S127",
+    "level" : "3",
+    "parent_member_id" : "INSTTTNL_SCTR_S12_A",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_12",
+    "member_id" : "INSTTTNL_SCTR_S12_C",
+    "level" : "2",
+    "parent_member_id" : "INSTTTNL_SCTR_S12",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_12",
+    "member_id" : "INSTTTNL_SCTR_S128",
+    "level" : "3",
+    "parent_member_id" : "INSTTTNL_SCTR_S12_C",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_12",
+    "member_id" : "INSTTTNL_SCTR_S129",
+    "level" : "3",
+    "parent_member_id" : "INSTTTNL_SCTR_S12_C",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

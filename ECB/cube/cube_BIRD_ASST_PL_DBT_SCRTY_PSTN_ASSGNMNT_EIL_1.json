@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_ASST_PL_DBT_SCRTY_PSTN_ASSGNMNT_EIL_1",
+  "name" : "Asset pool Security position assignment",
+  "code" : "BIRD_ASST_PL_DBT_SCRTY_PSTN_ASSGNMNT_EIL",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_ASST_PL_DBT_SCRTY_PSTN_ASSGNMNT_EIL_1",
+  "cube_type" : "EIL",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "An Asset pool Debt security position assignment is the combination of an Asset pool and a Debt security position that indicates which (part of a) Debt security position is comprised in which Asset pool.",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

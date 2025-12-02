@@ -1,0 +1,50 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "FINREP_REF_F_08.02_REF_FINREP 2.8",
+  "name" : "Subordinated liabilities - Reference",
+  "code" : "F_08.02_REF",
+  "framework_id" : "FINREP_REF",
+  "cube_structure_id" : "FINREP_REF_F_08.02_REF_FINREP 2.8",
+  "cube_type" : "RC",
+  "is_allowed" : null,
+  "valid_from" : "2018-12-31",
+  "valid_to" : "2021-06-29",
+  "version" : "FINREP 2.8",
+  "description" : null,
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "FINREP_REF_F_08.02_REF_FINREP 2.8",
+    "combination_id" : "151319_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_08.02_REF_FINREP 2.8",
+    "combination_id" : "151235_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_08.02_REF_FINREP 2.8",
+    "combination_id" : "151847_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_08.02_REF_FINREP 2.8",
+    "combination_id" : "151237_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_08.02_REF_FINREP 2.8",
+    "combination_id" : "151320_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_08.02_REF_FINREP 2.8",
+    "combination_id" : "151236_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_08.02_REF_FINREP 2.8",
+    "combination_id" : "151321_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_08.02_REF_FINREP 2.8",
+    "combination_id" : "151848_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_08.02_REF_FINREP 2.8",
+    "combination_id" : "151846_REF"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "FINREP_REF_F_08.02_REF_FINREP 2.8",
+    "table_id" : "FINREP_REF_F_08.02_REF_FINREP 2.8"
+  } ]
+}

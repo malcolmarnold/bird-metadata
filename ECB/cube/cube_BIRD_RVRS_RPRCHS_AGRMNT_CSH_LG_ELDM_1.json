@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_RVRS_RPRCHS_AGRMNT_CSH_LG_ELDM_1",
+  "name" : "Reverse repurchase agreement cash leg",
+  "code" : "BIRD_RVRS_RPRCHS_AGRMNT_CSH_LG_ELDM",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_RVRS_RPRCHS_AGRMNT_CSH_LG_ELDM_1",
+  "cube_type" : "ELDM",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "Repurchase agreement cash leg is a Cash leg that belongs to a Repuchase agreement and that is thus considered a deposit.",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

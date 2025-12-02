@@ -1,0 +1,30 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "subdomain_id" : "EBA_15684393304994434875",
+  "name" : "RP([x11|x3|x1])",
+  "domain_id" : "EBA_RP",
+  "is_listed" : "true",
+  "code" : "15684393304994434875",
+  "facet_id" : null,
+  "description" : null,
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "EBA_RP_EBA_x11",
+    "subdomain_id" : "EBA_15684393304994434875",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "EBA_RP_EBA_x3",
+    "subdomain_id" : "EBA_15684393304994434875",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "EBA_RP_EBA_x1",
+    "subdomain_id" : "EBA_15684393304994434875",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

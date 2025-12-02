@@ -1,0 +1,30 @@
+{
+  "maintenance_agency_id" : "ECB2",
+  "subdomain_id" : "ECB2_CL_SHS_SECURITY_STATUS",
+  "name" : "Security status",
+  "domain_id" : "ECB2_SecSta",
+  "is_listed" : "true",
+  "code" : "CL_SHS_SECURITY_STATUS",
+  "facet_id" : null,
+  "description" : null,
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "ECB2_SecSta_ECB2_0",
+    "subdomain_id" : "ECB2_CL_SHS_SECURITY_STATUS",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "2018-08-31",
+    "order" : "0"
+  }, {
+    "member_id" : "ECB2_SecSta_ECB2_101",
+    "subdomain_id" : "ECB2_CL_SHS_SECURITY_STATUS",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "ECB2_SecSta_ECB2_100",
+    "subdomain_id" : "ECB2_CL_SHS_SECURITY_STATUS",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

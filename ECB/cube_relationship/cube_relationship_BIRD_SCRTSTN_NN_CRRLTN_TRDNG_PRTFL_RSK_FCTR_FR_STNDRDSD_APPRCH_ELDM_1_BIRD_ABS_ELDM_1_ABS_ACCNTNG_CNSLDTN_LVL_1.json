@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_SCRTSTN_NN_CRRLTN_TRDNG_PRTFL_RSK_FCTR_FR_STNDRDSD_APPRCH_ELDM_1__BIRD_ABS_ELDM_1__ABS_ACCNTNG_CNSLDTN_LVL_1",
+  "code" : "BIRD_SCRTSTN_NN_CRRLTN_TRDNG_PRTFL_RSK_FCTR_FR_STNDRDSD_APPRCH_ELDM_1__BIRD_ABS_ELDM_1__ABS_ACCNTNG_CNSLDTN_LVL",
+  "name" : "Asset backed security may have Securitisation non-correlation trading portfolio, (non-CTP) Risk Factor for standardised approach",
+  "description" : "Asset backed security has Securitisation non-correlation trading portfolio, (non-CTP) Risk Factor for standardised approach",
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_ABS_ELDM_1",
+  "primary_cube_variable_code" : "SCRTY_EXCHNG_TRDBL_DRVTV_ACCNTNG_CNSLDTN_LVL",
+  "foreign_cube_id" : "BIRD_SCRTSTN_NN_CRRLTN_TRDNG_PRTFL_RSK_FCTR_FR_STNDRDSD_APPRCH_ELDM_1",
+  "foreign_cube_variable_code" : "ABS_ACCNTNG_CNSLDTN_LVL",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "1",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "false"
+}

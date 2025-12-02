@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_SHRT_SCRTY_PSTN_ELDM_1",
+  "name" : "Short security position",
+  "code" : "BIRD_SHRT_SCRTY_PSTN_ELDM",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_SHRT_SCRTY_PSTN_ELDM_1",
+  "cube_type" : "ELDM",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "A Short security position is a Security position where the Investor (i.e. the holder of the Security position) sells the Security first with the intention to repurchasing it or covering it later (at a lower price).",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

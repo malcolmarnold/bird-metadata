@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "OFFC_CMMRCL_PRMS_CLLTRL_INDCTR",
+  "name" : "Offices and commercial premises collateral indicator",
+  "domain_id" : "TYP_PRTCTN",
+  "is_listed" : "true",
+  "code" : "OFFC_CMMRCL_PRMS_CLLTRL_INDCTR",
+  "facet_id" : null,
+  "description" : null,
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "TYP_PRTCTN_105",
+    "subdomain_id" : "OFFC_CMMRCL_PRMS_CLLTRL_INDCTR",
+    "valid_from" : "2024-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_PRTCTN_106",
+    "subdomain_id" : "OFFC_CMMRCL_PRMS_CLLTRL_INDCTR",
+    "valid_from" : "2024-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

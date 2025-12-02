@@ -1,0 +1,100 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_PL_PL44",
+  "code" : "PL44",
+  "domain_id" : "EBA_PL",
+  "name" : "Hierarchy for Accounting portfolios for financial assets measured at cost based methods",
+  "description" : null,
+  "is_main_hierarchy" : null,
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_PL_PL44",
+    "member_id" : "EBA_PL_EBA_x686",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_PL_PL44",
+    "member_id" : "EBA_PL_EBA_x12",
+    "level" : "2",
+    "parent_member_id" : "EBA_PL_EBA_x686",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_PL_PL44",
+    "member_id" : "EBA_PL_EBA_x75",
+    "level" : "2",
+    "parent_member_id" : "EBA_PL_EBA_x686",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_PL_PL44",
+    "member_id" : "EBA_PL_EBA_x62",
+    "level" : "2",
+    "parent_member_id" : "EBA_PL_EBA_x686",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_PL_PL44",
+    "member_id" : "EBA_PL_EBA_x683",
+    "level" : "2",
+    "parent_member_id" : "EBA_PL_EBA_x686",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_PL_PL44",
+    "member_id" : "EBA_PL_EBA_x12",
+    "level" : "2",
+    "parent_member_id" : "EBA_PL_EBA_x686",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_PL_PL44",
+    "member_id" : "EBA_PL_EBA_x75",
+    "level" : "2",
+    "parent_member_id" : "EBA_PL_EBA_x686",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_PL_PL44",
+    "member_id" : "EBA_PL_EBA_x62",
+    "level" : "2",
+    "parent_member_id" : "EBA_PL_EBA_x686",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_PL_PL44",
+    "member_id" : "EBA_PL_EBA_x683",
+    "level" : "2",
+    "parent_member_id" : "EBA_PL_EBA_x686",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_PL_PL44",
+    "member_id" : "EBA_PL_EBA_x686",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

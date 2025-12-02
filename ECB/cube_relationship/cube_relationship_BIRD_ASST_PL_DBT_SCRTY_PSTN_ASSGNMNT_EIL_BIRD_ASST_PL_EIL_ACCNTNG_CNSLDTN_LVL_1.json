@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_ASST_PL_DBT_SCRTY_PSTN_ASSGNMNT_EIL__BIRD_ASST_PL_EIL__ACCNTNG_CNSLDTN_LVL_1",
+  "code" : "BIRD_ASST_PL_DBT_SCRTY_PSTN_ASSGNMNT_EIL_1__BIRD_ASST_PL_EIL_1__ACCNTNG_CNSLDTN_LVL",
+  "name" : "Asset pool (subject to a Securitisation and other credit transfer) has many Asset pool Security position assignment",
+  "description" : null,
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_ASST_PL_EIL_1",
+  "primary_cube_variable_code" : "ACCNTNG_CNSLDTN_LVL",
+  "foreign_cube_id" : "BIRD_ASST_PL_DBT_SCRTY_PSTN_ASSGNMNT_EIL_1",
+  "foreign_cube_variable_code" : "ACCNTNG_CNSLDTN_LVL",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "true"
+}

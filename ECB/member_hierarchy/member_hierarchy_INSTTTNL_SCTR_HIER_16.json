@@ -1,0 +1,136 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_16",
+  "code" : "16",
+  "domain_id" : "INSTTTNL_SCTR",
+  "name" : "All sectors excluding central banks hierarchy",
+  "description" : "Hierarchical structure of the member All sectors excluding central banks (S121)",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_16",
+    "member_id" : "INSTTTNL_SCTR_1_X",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_16",
+    "member_id" : "INSTTTNL_SCTR_IO",
+    "level" : "2",
+    "parent_member_id" : "INSTTTNL_SCTR_1_X",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_16",
+    "member_id" : "INSTTTNL_SCTR_S13",
+    "level" : "2",
+    "parent_member_id" : "INSTTTNL_SCTR_1_X",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_16",
+    "member_id" : "INSTTTNL_SCTR_S11",
+    "level" : "2",
+    "parent_member_id" : "INSTTTNL_SCTR_1_X",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_16",
+    "member_id" : "INSTTTNL_SCTR_S1_A",
+    "level" : "2",
+    "parent_member_id" : "INSTTTNL_SCTR_1_X",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_16",
+    "member_id" : "INSTTTNL_SCTR_S122_A",
+    "level" : "2",
+    "parent_member_id" : "INSTTTNL_SCTR_1_X",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_16",
+    "member_id" : "INSTTTNL_SCTR_S122_B",
+    "level" : "2",
+    "parent_member_id" : "INSTTTNL_SCTR_1_X",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_16",
+    "member_id" : "INSTTTNL_SCTR_S123",
+    "level" : "2",
+    "parent_member_id" : "INSTTTNL_SCTR_1_X",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_16",
+    "member_id" : "INSTTTNL_SCTR_S124",
+    "level" : "2",
+    "parent_member_id" : "INSTTTNL_SCTR_1_X",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_16",
+    "member_id" : "INSTTTNL_SCTR_S125",
+    "level" : "2",
+    "parent_member_id" : "INSTTTNL_SCTR_1_X",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_16",
+    "member_id" : "INSTTTNL_SCTR_S126",
+    "level" : "2",
+    "parent_member_id" : "INSTTTNL_SCTR_1_X",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_16",
+    "member_id" : "INSTTTNL_SCTR_S127",
+    "level" : "2",
+    "parent_member_id" : "INSTTTNL_SCTR_1_X",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_16",
+    "member_id" : "INSTTTNL_SCTR_S128",
+    "level" : "2",
+    "parent_member_id" : "INSTTTNL_SCTR_1_X",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_16",
+    "member_id" : "INSTTTNL_SCTR_S129",
+    "level" : "2",
+    "parent_member_id" : "INSTTTNL_SCTR_1_X",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

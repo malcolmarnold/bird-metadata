@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_DPST_RDMBL_NTC_LDM_1",
+  "name" : "Deposit redeemable at notice",
+  "code" : "BIRD_DPST_RDMBL_NTC_LDM",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_DPST_RDMBL_NTC_LDM_1",
+  "cube_type" : "LDM",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "A Deposits redeemable at notice is an Other deposit fulfilling the definition of Regulation (EU) 1071/2013, Annex 2, Part 2 Definitions of instrument categories, Table Instrument categories, 9.3 Deposits redeemable at notice:\nNon-transferable deposits without any agreed maturity which cannot be converted into currency without a period of prior notice; before the expiry the conversion into currency is not possible or possible only with a penalty. They include deposits which, although perhaps legally withdrawable on demand, would be subject to penalties and restrictions according to national practice (classified in the maturity band ‘up to and including three months’), and investment accounts without period of notice or agreed maturity, but which contain restrictive drawing provisions (classified in the maturity band ‘over three months’)",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

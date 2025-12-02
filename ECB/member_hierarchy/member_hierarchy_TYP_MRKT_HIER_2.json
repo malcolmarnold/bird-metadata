@@ -1,0 +1,37 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "TYP_MRKT_HIER_2",
+  "code" : "2",
+  "domain_id" : "TYP_MRKT",
+  "name" : "Listed, Non-listed hierarchy",
+  "description" : "Hierarchical structure of the member Listed, Non-listed (3)",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "TYP_MRKT_HIER_2",
+    "member_id" : "TYP_MRKT_3",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_MRKT_HIER_2",
+    "member_id" : "TYP_MRKT_31",
+    "level" : "2",
+    "parent_member_id" : "TYP_MRKT_3",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_MRKT_HIER_2",
+    "member_id" : "TYP_MRKT_10",
+    "level" : "2",
+    "parent_member_id" : "TYP_MRKT_3",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

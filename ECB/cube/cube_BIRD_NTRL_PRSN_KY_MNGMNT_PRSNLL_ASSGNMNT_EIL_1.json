@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_NTRL_PRSN_KY_MNGMNT_PRSNLL_ASSGNMNT_EIL_1",
+  "name" : "Natural person Key management personnel assignment",
+  "code" : "BIRD_NTRL_PRSN_KY_MNGMNT_PRSNLL_ASSGNMNT_EIL",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_NTRL_PRSN_KY_MNGMNT_PRSNLL_ASSGNMNT_EIL_1",
+  "cube_type" : "EIL",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "Natural person Key management personnel assignment is the combination of Key management personnel and Natural person that indicates which Natural person directly or indirectly influences the Key management personnel.\n\n If an individual is related to the entity based on the criteria stated above, all their close family members are also considered related parties. Close family members are defined as family members who are likely to influence, or be influenced by, that individual in their interactions with the entity (IAS 24.9). (via https://ifrscommunity.com/knowledge-base/ias-24-related-party-disclosures/#definition-of-a-related-party)",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

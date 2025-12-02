@@ -1,0 +1,10 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "variable_id" : "STRT_TM",
+  "code" : "STRT_TM",
+  "name" : "startTime",
+  "domain_id" : "DT",
+  "description" : "The startTime facet is used in conjunction with the isSequence and timeInterval facets (which must be set in order to use this facet). This attribute is used for a time sequence, and indicates the start time of the sequence. This value is mandatory for a time sequence to be expressed.",
+  "primary_concept" : null,
+  "is_decomposed" : "true"
+}

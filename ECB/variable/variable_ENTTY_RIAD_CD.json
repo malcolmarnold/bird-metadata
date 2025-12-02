@@ -1,0 +1,10 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "variable_id" : "ENTTY_RIAD_CD",
+  "code" : "ENTTY_RIAD_CD",
+  "name" : "Entity RIAD code",
+  "domain_id" : "STRNG",
+  "description" : "The RIAD code is an alphanumeric code assigned to each entity recorded in RIAD. The RIAD code is exclusive, meaning that the same RIAD code cannot be allocated to more than one entity (even at different points in time), and is unique, meaning that a given entity has only one RIAD code. It is the responsibility of each NCB, for respective (resident) entities, to ensure that all entities with an official RIAD code represent distinct real world entities (unique identification).",
+  "primary_concept" : null,
+  "is_decomposed" : null
+}

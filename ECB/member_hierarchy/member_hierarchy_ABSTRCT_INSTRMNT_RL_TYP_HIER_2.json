@@ -1,0 +1,46 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "ABSTRCT_INSTRMNT_RL_TYP_HIER_2",
+  "code" : "2",
+  "domain_id" : "ABSTRCT_INSTRMNT_RL_TYP",
+  "name" : "Abstract instrument role hierarchy for BIRD Data Models and AE",
+  "description" : "Abstract instrument role hierarchy for BIRD Data Models and AE",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "ABSTRCT_INSTRMNT_RL_TYP_HIER_2",
+    "member_id" : "ABSTRCT_INSTRMNT_RL_TYP_-1",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ABSTRCT_INSTRMNT_RL_TYP_HIER_2",
+    "member_id" : "ABSTRCT_INSTRMNT_RL_TYP_45",
+    "level" : "2",
+    "parent_member_id" : "ABSTRCT_INSTRMNT_RL_TYP_-1",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ABSTRCT_INSTRMNT_RL_TYP_HIER_2",
+    "member_id" : "ABSTRCT_INSTRMNT_RL_TYP_7",
+    "level" : "3",
+    "parent_member_id" : "ABSTRCT_INSTRMNT_RL_TYP_45",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ABSTRCT_INSTRMNT_RL_TYP_HIER_2",
+    "member_id" : "ABSTRCT_INSTRMNT_RL_TYP_3",
+    "level" : "3",
+    "parent_member_id" : "ABSTRCT_INSTRMNT_RL_TYP_45",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

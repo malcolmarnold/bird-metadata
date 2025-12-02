@@ -1,0 +1,59 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "cube_id" : "EBA_FINREP_EBA_F_16.08_FINREP_2.9",
+  "name" : "Breakdown of selected statement of profit or loss items: Other administrative expenses",
+  "code" : "F_16.08",
+  "framework_id" : "EBA_FINREP",
+  "cube_structure_id" : "EBA_FINREP_EBA_F_16.08_FINREP_2.9",
+  "cube_type" : "D",
+  "is_allowed" : null,
+  "valid_from" : "2020-06-30",
+  "valid_to" : "2021-06-29",
+  "version" : "FINREP 2.9",
+  "description" : "Breakdown of selected statement of profit or loss items: Other administrative expenses",
+  "published" : "false",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_16.08_FINREP_2.9",
+    "combination_id" : "EBA_33817"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.08_FINREP_2.9",
+    "combination_id" : "EBA_433761"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.08_FINREP_2.9",
+    "combination_id" : "EBA_433762"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.08_FINREP_2.9",
+    "combination_id" : "EBA_433763"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.08_FINREP_2.9",
+    "combination_id" : "EBA_433764"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.08_FINREP_2.9",
+    "combination_id" : "EBA_433765"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.08_FINREP_2.9",
+    "combination_id" : "EBA_433766"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.08_FINREP_2.9",
+    "combination_id" : "EBA_433767"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.08_FINREP_2.9",
+    "combination_id" : "EBA_433768"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.08_FINREP_2.9",
+    "combination_id" : "EBA_433769"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.08_FINREP_2.9",
+    "combination_id" : "EBA_433770"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.08_FINREP_2.9",
+    "combination_id" : "EBA_433771"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_16.08_FINREP_2.9",
+    "table_id" : "EBA_FINREP_EBA_F_16.08_FINREP_2.9"
+  } ]
+}

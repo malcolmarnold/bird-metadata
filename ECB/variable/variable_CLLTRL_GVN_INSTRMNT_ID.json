@@ -1,0 +1,10 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "variable_id" : "CLLTRL_GVN_INSTRMNT_ID",
+  "code" : "CLLTRL_GVN_INSTRMNT_ID",
+  "name" : "Collateral given instrument identifier",
+  "domain_id" : "STRNG",
+  "description" : "An identifier applied by the reporting agent to uniquely identify each instrument under a single contract. Each instrument must have one instrument identifier. This value will not change over time and cannot be used as the instrument identifier for any other instrument under the same contract.",
+  "primary_concept" : null,
+  "is_decomposed" : null
+}

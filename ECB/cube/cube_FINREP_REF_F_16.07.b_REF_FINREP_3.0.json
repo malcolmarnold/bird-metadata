@@ -1,0 +1,56 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "FINREP_REF_F_16.07.b_REF_FINREP 3.0",
+  "name" : "Breakdown of selected statement of profit or loss items: Impairment on non-financial assets (b) - Reference",
+  "code" : "F_16.07.b_REF",
+  "framework_id" : "FINREP_REF",
+  "cube_structure_id" : "FINREP_REF_F_16.07.b_REF_FINREP 3.0",
+  "cube_type" : "RC",
+  "is_allowed" : null,
+  "valid_from" : "2021-06-30",
+  "valid_to" : "9999-12-31",
+  "version" : "FINREP 3.0",
+  "description" : null,
+  "published" : "false",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "FINREP_REF_F_16.07.b_REF_FINREP 3.0",
+    "combination_id" : "11791_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.07.b_REF_FINREP 3.0",
+    "combination_id" : "11793_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.07.b_REF_FINREP 3.0",
+    "combination_id" : "11774_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.07.b_REF_FINREP 3.0",
+    "combination_id" : "11912_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.07.b_REF_FINREP 3.0",
+    "combination_id" : "11794_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.07.b_REF_FINREP 3.0",
+    "combination_id" : "11792_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.07.b_REF_FINREP 3.0",
+    "combination_id" : "11920_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.07.b_REF_FINREP 3.0",
+    "combination_id" : "113111_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.07.b_REF_FINREP 3.0",
+    "combination_id" : "113112_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.07.b_REF_FINREP 3.0",
+    "combination_id" : "113114_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_16.07.b_REF_FINREP 3.0",
+    "combination_id" : "152641_REF"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "FINREP_REF_F_16.07.b_REF_FINREP 3.0",
+    "table_id" : "FINREP_REF_F_16.07.b_REF_FINREP 3.0"
+  } ]
+}

@@ -1,0 +1,82 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_MC136",
+  "code" : "MC136",
+  "domain_id" : "EBA_MC",
+  "name" : "Hierarchy for types of hedge",
+  "description" : "EBA_MC136",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_MC136",
+    "member_id" : "EBA_MC_EBA_x696",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "2018-03-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC136",
+    "member_id" : "EBA_MC_EBA_x680",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x696",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2018-03-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC136",
+    "member_id" : "EBA_MC_EBA_x679",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x696",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "2018-03-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC136",
+    "member_id" : "EBA_MC_EBA_x697",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x696",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "2018-03-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC136",
+    "member_id" : "EBA_MC_EBA_x678",
+    "level" : "3",
+    "parent_member_id" : "EBA_MC_EBA_x697",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "2018-03-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC136",
+    "member_id" : "EBA_MC_EBA_x681",
+    "level" : "3",
+    "parent_member_id" : "EBA_MC_EBA_x679",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2018-03-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC136",
+    "member_id" : "EBA_MC_EBA_x685",
+    "level" : "4",
+    "parent_member_id" : "EBA_MC_EBA_x678",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "2018-03-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC136",
+    "member_id" : "EBA_MC_EBA_x682",
+    "level" : "5",
+    "parent_member_id" : "EBA_MC_EBA_x685",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2018-03-30",
+    "valid_to" : "9999-12-31"
+  } ]
+}

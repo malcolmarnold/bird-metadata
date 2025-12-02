@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_RTNG_GRD_ISSR_BSD_RTNG_SYSTM_CNTRL_GVRNMNT_ELDM_1__BIRD_CNTRL_GVRNMNT_RTNG_SYSTM_ELDM_1__RTNG_SYSTM_NM_1",
+  "code" : "BIRD_RTNG_GRD_ISSR_BSD_RTNG_SYSTM_CNTRL_GVRNMNT_ELDM_1__BIRD_CNTRL_GVRNMNT_RTNG_SYSTM_ELDM_1__RTNG_SYSTM_NM",
+  "name" : "Central government rating system may have many Rating grade for issuer based rating system for central government",
+  "description" : "Central government rating system has Rating grade for issuer based rating system for central government",
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_CNTRL_GVRNMNT_RTNG_SYSTM_ELDM_1",
+  "primary_cube_variable_code" : "RTNG_SYSTM_NM",
+  "foreign_cube_id" : "BIRD_RTNG_GRD_ISSR_BSD_RTNG_SYSTM_CNTRL_GVRNMNT_ELDM_1",
+  "foreign_cube_variable_code" : "RTNG_SYSTM_NM",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "true"
+}

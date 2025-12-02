@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_SHRT_SCRTY_PSTN_TRDNG_BK_DRVD_DT_ELDM_1__BIRD_SHRT_SCRTY_PSTN_TRDNG_BK_ELDM_1__SHRT_SCRTY_PSTN_SCRTY_ACCNTNG_STNDRD_1",
+  "code" : "BIRD_SHRT_SCRTY_PSTN_TRDNG_BK_DRVD_DT_ELDM_1__BIRD_SHRT_SCRTY_PSTN_TRDNG_BK_ELDM_1__SHRT_SCRTY_PSTN_SCRTY_ACCNTNG_STNDRD",
+  "name" : "Short trading book security position may have many Short trading book security position derived data",
+  "description" : "Short trading book security position has derived data in Short trading book security position derived data",
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_SHRT_SCRTY_PSTN_TRDNG_BK_ELDM_1",
+  "primary_cube_variable_code" : "SHRT_SCRTY_PSTN_SCRTY_ACCNTNG_STNDRD",
+  "foreign_cube_id" : "BIRD_SHRT_SCRTY_PSTN_TRDNG_BK_DRVD_DT_ELDM_1",
+  "foreign_cube_variable_code" : "SHRT_SCRTY_PSTN_SCRTY_ACCNTNG_STNDRD",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "false"
+}

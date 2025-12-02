@@ -1,0 +1,280 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "EXPSR_CLSS_HIER_1",
+  "code" : "1",
+  "domain_id" : "EXPSR_CLSS",
+  "name" : "Exposure classes hierarchy",
+  "description" : "Hierarchical structure of the Member All type of exposure classes (-1)",
+  "is_main_hierarchy" : "true",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EXPSR_CLSS_HIER_1",
+    "member_id" : "EXPSR_CLSS_-1",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPSR_CLSS_HIER_1",
+    "member_id" : "EXPSR_CLSS_6",
+    "level" : "3",
+    "parent_member_id" : "EXPSR_CLSS_50",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPSR_CLSS_HIER_1",
+    "member_id" : "EXPSR_CLSS_4",
+    "level" : "3",
+    "parent_member_id" : "EXPSR_CLSS_50",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPSR_CLSS_HIER_1",
+    "member_id" : "EXPSR_CLSS_2",
+    "level" : "3",
+    "parent_member_id" : "EXPSR_CLSS_50",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPSR_CLSS_HIER_1",
+    "member_id" : "EXPSR_CLSS_8",
+    "level" : "3",
+    "parent_member_id" : "EXPSR_CLSS_50",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPSR_CLSS_HIER_1",
+    "member_id" : "EXPSR_CLSS_9",
+    "level" : "3",
+    "parent_member_id" : "EXPSR_CLSS_50",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPSR_CLSS_HIER_1",
+    "member_id" : "EXPSR_CLSS_3",
+    "level" : "3",
+    "parent_member_id" : "EXPSR_CLSS_50",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPSR_CLSS_HIER_1",
+    "member_id" : "EXPSR_CLSS_1",
+    "level" : "3",
+    "parent_member_id" : "EXPSR_CLSS_50",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPSR_CLSS_HIER_1",
+    "member_id" : "EXPSR_CLSS_7",
+    "level" : "3",
+    "parent_member_id" : "EXPSR_CLSS_50",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPSR_CLSS_HIER_1",
+    "member_id" : "EXPSR_CLSS_5",
+    "level" : "3",
+    "parent_member_id" : "EXPSR_CLSS_50",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPSR_CLSS_HIER_1",
+    "member_id" : "EXPSR_CLSS_75",
+    "level" : "2",
+    "parent_member_id" : "EXPSR_CLSS_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPSR_CLSS_HIER_1",
+    "member_id" : "EXPSR_CLSS_10",
+    "level" : "3",
+    "parent_member_id" : "EXPSR_CLSS_50",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPSR_CLSS_HIER_1",
+    "member_id" : "EXPSR_CLSS_12",
+    "level" : "3",
+    "parent_member_id" : "EXPSR_CLSS_50",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPSR_CLSS_HIER_1",
+    "member_id" : "EXPSR_CLSS_50",
+    "level" : "2",
+    "parent_member_id" : "EXPSR_CLSS_-1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPSR_CLSS_HIER_1",
+    "member_id" : "EXPSR_CLSS_59",
+    "level" : "3",
+    "parent_member_id" : "EXPSR_CLSS_75",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPSR_CLSS_HIER_1",
+    "member_id" : "EXPSR_CLSS_14",
+    "level" : "3",
+    "parent_member_id" : "EXPSR_CLSS_50",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPSR_CLSS_HIER_1",
+    "member_id" : "EXPSR_CLSS_60",
+    "level" : "3",
+    "parent_member_id" : "EXPSR_CLSS_75",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPSR_CLSS_HIER_1",
+    "member_id" : "EXPSR_CLSS_16",
+    "level" : "3",
+    "parent_member_id" : "EXPSR_CLSS_50",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPSR_CLSS_HIER_1",
+    "member_id" : "EXPSR_CLSS_55",
+    "level" : "3",
+    "parent_member_id" : "EXPSR_CLSS_75",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPSR_CLSS_HIER_1",
+    "member_id" : "EXPSR_CLSS_53",
+    "level" : "3",
+    "parent_member_id" : "EXPSR_CLSS_75",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPSR_CLSS_HIER_1",
+    "member_id" : "EXPSR_CLSS_51",
+    "level" : "3",
+    "parent_member_id" : "EXPSR_CLSS_75",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPSR_CLSS_HIER_1",
+    "member_id" : "EXPSR_CLSS_52",
+    "level" : "3",
+    "parent_member_id" : "EXPSR_CLSS_75",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPSR_CLSS_HIER_1",
+    "member_id" : "EXPSR_CLSS_56",
+    "level" : "3",
+    "parent_member_id" : "EXPSR_CLSS_75",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPSR_CLSS_HIER_1",
+    "member_id" : "EXPSR_CLSS_54",
+    "level" : "3",
+    "parent_member_id" : "EXPSR_CLSS_75",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPSR_CLSS_HIER_1",
+    "member_id" : "EXPSR_CLSS_15",
+    "level" : "3",
+    "parent_member_id" : "EXPSR_CLSS_50",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPSR_CLSS_HIER_1",
+    "member_id" : "EXPSR_CLSS_61",
+    "level" : "3",
+    "parent_member_id" : "EXPSR_CLSS_75",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPSR_CLSS_HIER_1",
+    "member_id" : "EXPSR_CLSS_58",
+    "level" : "3",
+    "parent_member_id" : "EXPSR_CLSS_75",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPSR_CLSS_HIER_1",
+    "member_id" : "EXPSR_CLSS_17",
+    "level" : "3",
+    "parent_member_id" : "EXPSR_CLSS_50",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPSR_CLSS_HIER_1",
+    "member_id" : "EXPSR_CLSS_11",
+    "level" : "3",
+    "parent_member_id" : "EXPSR_CLSS_50",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EXPSR_CLSS_HIER_1",
+    "member_id" : "EXPSR_CLSS_13",
+    "level" : "3",
+    "parent_member_id" : "EXPSR_CLSS_50",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

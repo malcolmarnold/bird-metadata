@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "subdomain_id" : "EBA_CONS_LEVEL",
+  "name" : "Subdomain for domain Consolidation level",
+  "domain_id" : "EBA_CONS_LEVEL",
+  "is_listed" : "true",
+  "code" : "CONS_LEVEL",
+  "facet_id" : null,
+  "description" : "Subdomain for domain Consolidation level",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "EBA_CONS_LEVEL_EBA_CONS",
+    "subdomain_id" : "EBA_CONS_LEVEL",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "1"
+  }, {
+    "member_id" : "EBA_CONS_LEVEL_EBA_SOLO",
+    "subdomain_id" : "EBA_CONS_LEVEL",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "2"
+  } ]
+}

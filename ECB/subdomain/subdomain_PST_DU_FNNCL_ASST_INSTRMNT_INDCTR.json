@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "PST_DU_FNNCL_ASST_INSTRMNT_INDCTR",
+  "name" : "Past due financial asset indicator",
+  "domain_id" : "ABSTRCT_INSTRMNT_RL_TYP",
+  "is_listed" : "true",
+  "code" : "PST_DU_FNNCL_ASST_INSTRMNT_INDCTR",
+  "facet_id" : null,
+  "description" : "Past due financial asset indicator",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "ABSTRCT_INSTRMNT_RL_TYP_48",
+    "subdomain_id" : "PST_DU_FNNCL_ASST_INSTRMNT_INDCTR",
+    "valid_from" : "2024-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "ABSTRCT_INSTRMNT_RL_TYP_49",
+    "subdomain_id" : "PST_DU_FNNCL_ASST_INSTRMNT_INDCTR",
+    "valid_from" : "2024-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

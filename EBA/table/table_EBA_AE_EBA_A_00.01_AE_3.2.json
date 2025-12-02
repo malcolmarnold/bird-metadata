@@ -1,0 +1,126 @@
+{
+  "table_id" : "EBA_AE_EBA_A_00.01_AE_3.2",
+  "name" : "A 00.01",
+  "code" : "A_00.01",
+  "description" : "A 00.01 Nature of Report (AE)",
+  "maintenance_agency_id" : "EBA",
+  "version" : "AE 3.2",
+  "valid_from" : "2023-06-30",
+  "valid_to" : "9999-12-31",
+  "table_cell" : [ {
+    "cell_id" : "EBA_3564260",
+    "is_shaded" : "false",
+    "combination_id" : "EBA_37969",
+    "table_id" : "EBA_AE_EBA_A_00.01_AE_3.2",
+    "system_data_code" : null,
+    "cell_position" : [ {
+      "cell_id" : "EBA_3564260",
+      "axis_ordinate_id" : "EBA_AE_EBA_A_00.01_AE_3.2_1_0010"
+    }, {
+      "cell_id" : "EBA_3564260",
+      "axis_ordinate_id" : "EBA_AE_EBA_A_00.01_AE_3.2_2_0020"
+    } ]
+  }, {
+    "cell_id" : "EBA_3564259",
+    "is_shaded" : "false",
+    "combination_id" : "EBA_31870",
+    "table_id" : "EBA_AE_EBA_A_00.01_AE_3.2",
+    "system_data_code" : null,
+    "cell_position" : [ {
+      "cell_id" : "EBA_3564259",
+      "axis_ordinate_id" : "EBA_AE_EBA_A_00.01_AE_3.2_1_0010"
+    }, {
+      "cell_id" : "EBA_3564259",
+      "axis_ordinate_id" : "EBA_AE_EBA_A_00.01_AE_3.2_2_0010"
+    } ]
+  } ],
+  "axis" : [ {
+    "axis_id" : "EBA_AE_EBA_A_00.01_AE_3.2_1",
+    "code" : "A_00.01_1",
+    "orientation" : "X",
+    "order" : "0",
+    "name" : "EBA_AE_EBA_A_00.01_AE_3.2_1",
+    "description" : null,
+    "table_id" : "EBA_AE_EBA_A_00.01_AE_3.2",
+    "is_open_axis" : "false",
+    "axis_ordinate" : [ {
+      "axis_ordinate_id" : "EBA_AE_EBA_A_00.01_AE_3.2_1_0010",
+      "is_abstract_header" : "false",
+      "code" : "0010",
+      "order" : "0",
+      "level" : "0",
+      "path" : "EBA_AE_EBA_A_00.01_AE_3.2_1_0010.",
+      "axis_id" : "EBA_AE_EBA_A_00.01_AE_3.2_1",
+      "parent_axis_ordinate_id" : null,
+      "name" : "Nature of Report",
+      "description" : null,
+      "ordinate_item" : [ ]
+    } ]
+  }, {
+    "axis_id" : "EBA_AE_EBA_A_00.01_AE_3.2_2",
+    "code" : "A_00.01_2",
+    "orientation" : "Y",
+    "order" : "0",
+    "name" : "EBA_AE_EBA_A_00.01_AE_3.2_2",
+    "description" : null,
+    "table_id" : "EBA_AE_EBA_A_00.01_AE_3.2",
+    "is_open_axis" : "false",
+    "axis_ordinate" : [ {
+      "axis_ordinate_id" : "EBA_AE_EBA_A_00.01_AE_3.2_2_0010",
+      "is_abstract_header" : "false",
+      "code" : "0010",
+      "order" : "0",
+      "level" : "0",
+      "path" : "EBA_AE_EBA_A_00.01_AE_3.2_2_0010.",
+      "axis_id" : "EBA_AE_EBA_A_00.01_AE_3.2_2",
+      "parent_axis_ordinate_id" : null,
+      "name" : "Accounting framework",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "EBA_AE_EBA_A_00.01_AE_3.2_2_0010",
+        "variable_id" : "EBA_ei4",
+        "member_id" : null,
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_AE_EBA_A_00.01_AE_3.2_2_0010",
+        "variable_id" : "EBA_BAS",
+        "member_id" : "EBA_BA_EBA_x17",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    }, {
+      "axis_ordinate_id" : "EBA_AE_EBA_A_00.01_AE_3.2_2_0020",
+      "is_abstract_header" : "false",
+      "code" : "0020",
+      "order" : "0",
+      "level" : "0",
+      "path" : "EBA_AE_EBA_A_00.01_AE_3.2_2_0020.",
+      "axis_id" : "EBA_AE_EBA_A_00.01_AE_3.2_2",
+      "parent_axis_ordinate_id" : null,
+      "name" : "Reporting Level",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "EBA_AE_EBA_A_00.01_AE_3.2_2_0020",
+        "variable_id" : "EBA_BAS",
+        "member_id" : "EBA_BA_EBA_x17",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_AE_EBA_A_00.01_AE_3.2_2_0020",
+        "variable_id" : "EBA_ei207",
+        "member_id" : null,
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    } ]
+  } ]
+}

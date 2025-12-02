@@ -1,0 +1,62 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "cube_id" : "EBA_FINREP_EBA_F_20.06_FINREP_3.0-Ind",
+  "name" : "Geographical breakdown of liabilities by residence of the counterparty",
+  "code" : "F_20.06",
+  "framework_id" : "EBA_FINREP",
+  "cube_structure_id" : "EBA_FINREP_EBA_F_20.06_FINREP_3.0-Ind",
+  "cube_type" : "D",
+  "is_allowed" : null,
+  "valid_from" : "2021-06-30",
+  "valid_to" : "9999-12-31",
+  "version" : "FINREP 3.0-Ind",
+  "description" : "Geographical breakdown of liabilities by residence of the counterparty",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_20.06_FINREP_3.0-Ind",
+    "combination_id" : "EBA_152167"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_20.06_FINREP_3.0-Ind",
+    "combination_id" : "EBA_152168"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_20.06_FINREP_3.0-Ind",
+    "combination_id" : "EBA_152169"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_20.06_FINREP_3.0-Ind",
+    "combination_id" : "EBA_152170"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_20.06_FINREP_3.0-Ind",
+    "combination_id" : "EBA_152171"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_20.06_FINREP_3.0-Ind",
+    "combination_id" : "EBA_152172"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_20.06_FINREP_3.0-Ind",
+    "combination_id" : "EBA_152160"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_20.06_FINREP_3.0-Ind",
+    "combination_id" : "EBA_152161"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_20.06_FINREP_3.0-Ind",
+    "combination_id" : "EBA_152162"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_20.06_FINREP_3.0-Ind",
+    "combination_id" : "EBA_152163"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_20.06_FINREP_3.0-Ind",
+    "combination_id" : "EBA_152164"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_20.06_FINREP_3.0-Ind",
+    "combination_id" : "EBA_152165"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_20.06_FINREP_3.0-Ind",
+    "combination_id" : "EBA_152166"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_20.06_FINREP_3.0-Ind",
+    "table_id" : "EBA_FINREP_EBA_F_20.06_FINREP_3.0-Ind"
+  } ]
+}

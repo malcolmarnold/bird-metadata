@@ -1,0 +1,1912 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "variable_set_id" : "RECL_PSTL_CD",
+  "name" : "Postal code where the collateral is located",
+  "code" : "RECL_PSTL_CD",
+  "description" : "Postal code where the collateral is located",
+  "variable_set_enumeration" : [ {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_KN",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_KN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_AU",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_4",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_NI",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_QA",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_BQ",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_MM",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_TF",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_CK",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_IE",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_MX",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_PN",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_PN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_BD",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_4",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_LB",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_LB",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_BZ",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_TM",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_ID_7_5D",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_PE",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_CU",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_CU",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_GH",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_MS",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_MS",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_IN",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_ID_1D_5D",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_LI",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_4",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_HT",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_HT",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_BO",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_FR",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_EC",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_ID_6",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_KE",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_ST",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_SA",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_SA",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_KP",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_OM",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_3",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_IM",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_IM",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_MP",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_MP",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_PF",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_PF",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_CV",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_4",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_UA",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_BY",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_ID_6",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_ME",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_TN",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_4",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_PS",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_PS",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_CC",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_CC",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_SB",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_DO",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_VE",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_1_TO_8_3D",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_DZ",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_NA",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_SI",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_SI",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_VN",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_ID_6",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_RS",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5_TO_6",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_KM",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_LA",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_BG",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_4",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_LT",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_LT",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_BR",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_BR",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_FO",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_3",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_CH",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_ID_1D_3D",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_GU",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_GU",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_MN",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_IS",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_ID_1D_2D",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_VC",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_VC",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_ES",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_JO",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_NR",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_NR",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_SD",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_NG",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_ID_1D_5D",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_BJ",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_UG",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_GM",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_MV",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_TH",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_LY",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_BA",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_TV",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_PK",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_ID_1D_5D",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_MH",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_MH",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_TC",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_TC",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_GS",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_GS",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_CN",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_ID_6",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_UY",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_ID_1D_5D",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_FI",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_BT",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_LR",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_4",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_AE",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_RU",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_ID_6",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_SO",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_SZ",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_SZ",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_NL",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_NL",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_CM",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_MK",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_4",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_BW",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_UZ",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_ID_6",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_FJ",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_BB",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_BB",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_CX",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_CX",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_PH",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_4",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_GE",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_4",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_NO",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_4",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_SY",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_AS",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_AS",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_KH",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5_TO_6",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_AF",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_4",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_NZ",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_4",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_SL",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_SR",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_VU",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_EE",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_AM",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_AM",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_SG",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_ID_6",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_DJ",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_ZM",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_TK",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_CF",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_N$",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_LTN_EXT_255",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_BI",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_HR",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_1_TO_5_4D",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_MU",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_MU",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_GN",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_3",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_TO",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_MD",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_MD",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_PG",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_3",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_CW",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_TZ",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_IL",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_7",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_LK",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_BM",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_BM",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_KG",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_ID_6",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_SV",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_4",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_NU",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_NU",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_SC",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_ET",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_4",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_AI",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_AI",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_KR",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_AW",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_SH",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_SH",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_DE",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_KY",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_KY",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_BS",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_LU",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_LU",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_IR",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_IR",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_MO",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_GT",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_TD",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_PY",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_4",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_CI",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_ZW",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_MZ",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_4",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_GA",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_PL",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_PL",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_BF",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_ID_1D_5D",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_SK",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_SK",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_KZ",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_KZ",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_AT",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_4",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_YE",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_GB",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_GB",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_TR",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_MY",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_ID",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_ID_1D_5D",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_LC",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_LC",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_BE",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_4",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_LV",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_LV",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_HK",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_HK",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_FM",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_FM",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_GW",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_4",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_TG",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_ML",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_IQ",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_ZA",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_4",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_IO",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_IO",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_MR",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_GI",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_GI",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_BN",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_BN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_HU",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_ID_1D_3D",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_MG",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_3",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_TL",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_CA",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_CA",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_DM",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_VG",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_VG",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_RO",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_ID_6",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_NC",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_NC",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_TT",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_ID_6",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_GD",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_CY",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_ID_1D_3D",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_GQ",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_CL",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_7",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_FK",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_FK",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_BV",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_HM",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_HM",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_AG",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_RW",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_SM",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_SM",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_SX",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_KI",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_KI",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_AR",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_AR",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_VA",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_VA",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_AL",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_4",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_KW",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_JM",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_JM",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_NP",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_DK",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_4",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_NE",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_4",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_SS",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_BH",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_BH",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_CR",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_MT",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_MT",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_CG",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_PW",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_PW",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_TJ",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_ID_7_5D",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_MA",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_ID_1D_5D",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_E$",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_LTN_EXT_255",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_NF",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_NF",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_AZ",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_AZ",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_EG",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_AO",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_ER",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_SE",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_SE",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_GY",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_CD",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_PT",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_PT",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_US",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_US",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_MW",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_ID_6",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_GL",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_ID_39_2D",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_PA",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_4",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_CO",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_ID_6",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_GR",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_GR",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_IT",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_LS",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_3",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_HN",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_5",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_UM",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_OPN",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_CZ",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_CZ",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_TW",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_TW",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_GG",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_GG",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_JP",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_JP",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_WF",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_WF",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_AQ",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_AQ",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_VI",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_VI",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_AD",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_AD",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_JE",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_JE",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_WS",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "PSTL_CD_WS",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "RECL_PSTL_CD",
+    "variable_id" : "PSTL_CD_SN",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "STRNG_NMRC_ID_1_TO_8_4D",
+    "is_flow" : "false",
+    "order" : "0"
+  } ]
+}

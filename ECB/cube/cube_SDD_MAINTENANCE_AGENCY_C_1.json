@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "SDD_MAINTENANCE_AGENCY_C_1",
+  "name" : "Maintenance agency",
+  "code" : "MAINTENANCE_AGENCY",
+  "framework_id" : "SDD",
+  "cube_structure_id" : "SDD_MAINTENANCE_AGENCY_C_1",
+  "cube_type" : "C",
+  "is_allowed" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "A Maintenance agency is the agency responsible for the maintenance of associated dictionary elements.\nThe concept of Maintenance agency allows the dictionary to manage different codification systems maintained by different Maintenance agencies.\nWe define the Maintenance agency SDD reference dictionary (ECB) as the reference Maintenance agency and refer to the dictionary elements associated with this Maintenance agency as reference objects or elements.",
+  "published" : "false",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

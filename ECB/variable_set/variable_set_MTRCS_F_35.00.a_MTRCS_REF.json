@@ -1,0 +1,72 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "variable_set_id" : "MTRCS_F_35.00.a_MTRCS_REF",
+  "name" : "Variable Set for MTRCS of the Cube F_35.00.a",
+  "code" : "MTRCS_F_35.00.a_MTRCS_REF",
+  "description" : "Variable Set for MTRCS of the Cube F_35.00.a",
+  "variable_set_enumeration" : [ {
+    "variable_set_id" : "MTRCS_F_35.00.a_MTRCS_REF",
+    "variable_id" : "ASST_SPCFC_VL",
+    "valid_from" : "2024-03-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "MNTRY",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "MTRCS_F_35.00.a_MTRCS_REF",
+    "variable_id" : "CRRYNG_AMNT",
+    "valid_from" : "2024-03-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "MNTRY",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "MTRCS_F_35.00.a_MTRCS_REF",
+    "variable_id" : "NMNL_AMNT",
+    "valid_from" : "2024-03-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "MNTRY",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "MTRCS_F_35.00.a_MTRCS_REF",
+    "variable_id" : "PRSNT_VL",
+    "valid_from" : "2024-03-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "MNTRY",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "MTRCS_F_35.00.a_MTRCS_REF",
+    "variable_id" : "ASST_SPCFC_VL",
+    "valid_from" : "2023-06-30",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "MNTRY",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "MTRCS_F_35.00.a_MTRCS_REF",
+    "variable_id" : "PRSNT_VL",
+    "valid_from" : "2023-06-30",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "MNTRY",
+    "is_flow" : "false",
+    "order" : "1"
+  }, {
+    "variable_set_id" : "MTRCS_F_35.00.a_MTRCS_REF",
+    "variable_id" : "NMNL_AMNT",
+    "valid_from" : "2023-06-30",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "MNTRY",
+    "is_flow" : "false",
+    "order" : "2"
+  }, {
+    "variable_set_id" : "MTRCS_F_35.00.a_MTRCS_REF",
+    "variable_id" : "CRRYNG_AMNT",
+    "valid_from" : "2023-06-30",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "MNTRY",
+    "is_flow" : "false",
+    "order" : "3"
+  } ]
+}

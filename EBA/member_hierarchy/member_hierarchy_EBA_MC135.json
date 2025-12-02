@@ -1,0 +1,55 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_MC135",
+  "code" : "MC135",
+  "domain_id" : "EBA_MC",
+  "name" : "Hierarchy for Fair value reserves",
+  "description" : "EBA_MC135",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_MC135",
+    "member_id" : "EBA_MC_EBA_x492",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC135",
+    "member_id" : "EBA_MC_EBA_x496",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x492",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC135",
+    "member_id" : "EBA_MC_EBA_x495",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x492",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC135",
+    "member_id" : "EBA_MC_EBA_x494",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x492",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC135",
+    "member_id" : "EBA_MC_EBA_x493",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x492",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

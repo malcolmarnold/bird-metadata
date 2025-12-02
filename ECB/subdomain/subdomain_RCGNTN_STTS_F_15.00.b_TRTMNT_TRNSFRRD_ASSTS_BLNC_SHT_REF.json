@@ -1,0 +1,36 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "RCGNTN_STTS_F_15.00.b_TRTMNT_TRNSFRRD_ASSTS_BLNC_SHT_REF",
+  "name" : "Subdomain for TRTMNT_TRNSFRRD_ASSTS_BLNC_SHT of the Cube F_15.00.b",
+  "domain_id" : "RCGNTN_STTS",
+  "is_listed" : "true",
+  "code" : "RCGNTN_STTS_F_15.00.b_TRTMNT_TRNSFRRD_ASSTS_BLNC_SHT_REF",
+  "facet_id" : null,
+  "description" : null,
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "RCGNTN_STTS_1",
+    "subdomain_id" : "RCGNTN_STTS_F_15.00.b_TRTMNT_TRNSFRRD_ASSTS_BLNC_SHT_REF",
+    "valid_from" : "2018-03-31",
+    "valid_to" : "2021-06-29",
+    "order" : "0"
+  }, {
+    "member_id" : "RCGNTN_STTS_2",
+    "subdomain_id" : "RCGNTN_STTS_F_15.00.b_TRTMNT_TRNSFRRD_ASSTS_BLNC_SHT_REF",
+    "valid_from" : "2018-03-31",
+    "valid_to" : "2021-06-29",
+    "order" : "1"
+  }, {
+    "member_id" : "RCGNTN_STTS_1",
+    "subdomain_id" : "RCGNTN_STTS_F_15.00.b_TRTMNT_TRNSFRRD_ASSTS_BLNC_SHT_REF",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "RCGNTN_STTS_2",
+    "subdomain_id" : "RCGNTN_STTS_F_15.00.b_TRTMNT_TRNSFRRD_ASSTS_BLNC_SHT_REF",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31",
+    "order" : "1"
+  } ]
+}

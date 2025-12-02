@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_FNNCL_GRNT_INSTRMNT_DBT_SCRT_DBT_SCRTY_ASSGNMNT_ELDM_1__BIRD_DBT_SCRTY_ELDM_1__DBT_SCRTY_ACCNTNG_CNSLDTN_LVL_ACCNTNG_CNSLDTN_LVL_1",
+  "code" : "BIRD_FNNCL_GRNT_INSTRMNT_DBT_SCRT_DBT_SCRTY_ASSGNMNT_ELDM_1__BIRD_DBT_SCRTY_ELDM_1__DBT_SCRTY_ACCNTNG_CNSLDTN_LVL_ACCNTNG_CNSLDTN_LVL",
+  "name" : "Debt security may have many Financial guarantee instrument covering a Debt security Debt security assignment",
+  "description" : "Debt security may have many Financial guarantee Debt security assignment(s) via Financial guarantee instrument covering a Debt security Debt security assignment",
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_DBT_SCRTY_ELDM_1",
+  "primary_cube_variable_code" : "SCRTY_EXCHNG_TRDBL_DRVTV_ACCNTNG_CNSLDTN_LVL",
+  "foreign_cube_id" : "BIRD_FNNCL_GRNT_INSTRMNT_DBT_SCRT_DBT_SCRTY_ASSGNMNT_ELDM_1",
+  "foreign_cube_variable_code" : "DBT_SCRTY_ACCNTNG_CNSLDTN_LVL_ACCNTNG_CNSLDTN_LVL",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "false"
+}

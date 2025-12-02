@@ -1,0 +1,82 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_link_id" : "WUDEN__BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_OTC_PSTNS_EIL_1__01_01_1990__BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_ELDM_1__1",
+  "code" : "WUDEN__BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_OTC_PSTNS_EIL_1__01_01_1990__BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_ELDM_1",
+  "name" : "The LDM: Fundamental review of the trading book standard approach risk measure (BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_ELDM) is forward engineered into the IL: Fundamental review of the trading book standard approach risk measure for OTC position",
+  "description" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "order_relevance" : "1",
+  "primary_cube_id" : "BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_ELDM_1",
+  "foreign_cube_id" : "BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_OTC_PSTNS_EIL_1",
+  "cube_link_type" : "TR",
+  "logical_transformation_rule_id" : "WUDEN__BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_OTC_PSTNS_EIL_1__01_01_1990",
+  "cube_structure_item_link" : [ {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_OTC_PSTNS_EIL_1__01_01_1990__BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_ELDM_1__1__RSK_FCTR_ID__RSK_FCTR_ID",
+    "cube_link_id" : "WUDEN__BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_OTC_PSTNS_EIL_1__01_01_1990__BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_ELDM_1__1",
+    "foreign_cube_variable_code" : "RSK_FCTR_ID",
+    "primary_cube_variable_code" : "RSK_FCTR_ID",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_OTC_PSTNS_EIL_1__01_01_1990__BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_ELDM_1__1__RSK_MSR_TYP__RSK_MSR_TYP",
+    "cube_link_id" : "WUDEN__BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_OTC_PSTNS_EIL_1__01_01_1990__BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_ELDM_1__1",
+    "foreign_cube_variable_code" : "RSK_MSR_TYP",
+    "primary_cube_variable_code" : "RSK_MSR_TYP",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ {
+      "cube_structure_item_link_id" : "WUDEN__BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_OTC_PSTNS_EIL_1__01_01_1990__BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_ELDM_1__1__RSK_MSR_TYP__RSK_MSR_TYP",
+      "foreign_member_id" : "FRTB_RSK_MSR_TYP_6",
+      "primary_member_id" : "FRTB_RSK_MSR_TYP_6",
+      "valid_from" : "1999-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "WUDEN__BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_OTC_PSTNS_EIL_1__01_01_1990__BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_ELDM_1__1__RSK_MSR_TYP__RSK_MSR_TYP",
+      "foreign_member_id" : "FRTB_RSK_MSR_TYP_5",
+      "primary_member_id" : "FRTB_RSK_MSR_TYP_5",
+      "valid_from" : "1999-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "WUDEN__BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_OTC_PSTNS_EIL_1__01_01_1990__BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_ELDM_1__1__RSK_MSR_TYP__RSK_MSR_TYP",
+      "foreign_member_id" : "FRTB_RSK_MSR_TYP_4",
+      "primary_member_id" : "FRTB_RSK_MSR_TYP_4",
+      "valid_from" : "1999-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    } ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_OTC_PSTNS_EIL_1__01_01_1990__BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_ELDM_1__1__RSK_MSR_TYP_PSTN__RSK_MSR_TYP_PSTN",
+    "cube_link_id" : "WUDEN__BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_OTC_PSTNS_EIL_1__01_01_1990__BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_ELDM_1__1",
+    "foreign_cube_variable_code" : "RSK_MSR_TYP_PSTN",
+    "primary_cube_variable_code" : "RSK_MSR_TYP_PSTN",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ {
+      "cube_structure_item_link_id" : "WUDEN__BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_OTC_PSTNS_EIL_1__01_01_1990__BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_ELDM_1__1__RSK_MSR_TYP_PSTN__RSK_MSR_TYP_PSTN",
+      "foreign_member_id" : "FRTB_RSK_MSR_TYP_1",
+      "primary_member_id" : "FRTB_RSK_MSR_TYP_1",
+      "valid_from" : "1999-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "WUDEN__BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_OTC_PSTNS_EIL_1__01_01_1990__BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_ELDM_1__1__RSK_MSR_TYP_PSTN__RSK_MSR_TYP_PSTN",
+      "foreign_member_id" : "FRTB_RSK_MSR_TYP_3",
+      "primary_member_id" : "FRTB_RSK_MSR_TYP_3",
+      "valid_from" : "1999-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "WUDEN__BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_OTC_PSTNS_EIL_1__01_01_1990__BIRD_FNDMNTL_RVW_TRDNG_BK_STNDRD_APPRCH_RSK_MSR_ELDM_1__1__RSK_MSR_TYP_PSTN__RSK_MSR_TYP_PSTN",
+      "foreign_member_id" : "FRTB_RSK_MSR_TYP_2",
+      "primary_member_id" : "FRTB_RSK_MSR_TYP_2",
+      "valid_from" : "1999-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    } ]
+  } ]
+}

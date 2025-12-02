@@ -1,0 +1,80 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_group_id" : "SDD_CORE",
+  "name" : "Core package",
+  "code" : "SDD_CORE",
+  "description" : "It contains those dictionary objects that are considered to build the core of the dictionary (e.g. variables, members,…).",
+  "cube_group_enumeration" : [ {
+    "order" : "0",
+    "cube_group_id" : "SDD_CORE",
+    "cube_id" : "SDD_MEMBER_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_CORE",
+    "cube_id" : "SDD_DOMAIN_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_CORE",
+    "cube_id" : "SDD_VARIABLE_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_CORE",
+    "cube_id" : "SDD_SUBDOMAIN_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_CORE",
+    "cube_id" : "SDD_VARIABLE_SET_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_CORE",
+    "cube_id" : "SDD_FACET_COLLECTION_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_CORE",
+    "cube_id" : "SDD_MEMBER_HIERARCHY_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_CORE",
+    "cube_id" : "SDD_FACET_ENUMERATION_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_CORE",
+    "cube_id" : "SDD_MAINTENANCE_AGENCY_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_CORE",
+    "cube_id" : "SDD_SUBDOMAIN_ENUMERATION_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_CORE",
+    "cube_id" : "SDD_MEMBER_HIERARCHY_NODE_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "0",
+    "cube_group_id" : "SDD_CORE",
+    "cube_id" : "SDD_VARIABLE_SET_ENUMERATION_C_1",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

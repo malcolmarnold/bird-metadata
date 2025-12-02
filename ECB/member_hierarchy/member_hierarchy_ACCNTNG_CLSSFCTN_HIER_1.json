@@ -1,0 +1,226 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_1",
+  "code" : "1",
+  "domain_id" : "ACCNTNG_CLSSFCTN",
+  "name" : "Accounting classification main hierarchy",
+  "description" : "Hierarchical structure of the Member Accounting portfolios for financial assets other than classified as held for sale (71)",
+  "is_main_hierarchy" : "true",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_1",
+    "member_id" : "ACCNTNG_CLSSFCTN_71",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_1",
+    "member_id" : "ACCNTNG_CLSSFCTN_3",
+    "level" : "2",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_71",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_1",
+    "member_id" : "ACCNTNG_CLSSFCTN_9",
+    "level" : "4",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_61",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_1",
+    "member_id" : "ACCNTNG_CLSSFCTN_7",
+    "level" : "4",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_61",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_1",
+    "member_id" : "ACCNTNG_CLSSFCTN_2",
+    "level" : "2",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_71",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_1",
+    "member_id" : "ACCNTNG_CLSSFCTN_8",
+    "level" : "4",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_61",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_1",
+    "member_id" : "ACCNTNG_CLSSFCTN_81",
+    "level" : "5",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_9",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_1",
+    "member_id" : "ACCNTNG_CLSSFCTN_6",
+    "level" : "3",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_60",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_1",
+    "member_id" : "ACCNTNG_CLSSFCTN_82",
+    "level" : "5",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_9",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_1",
+    "member_id" : "ACCNTNG_CLSSFCTN_16",
+    "level" : "3",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_60",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_1",
+    "member_id" : "ACCNTNG_CLSSFCTN_4",
+    "level" : "5",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_391",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_1",
+    "member_id" : "ACCNTNG_CLSSFCTN_61",
+    "level" : "3",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_60",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_1",
+    "member_id" : "ACCNTNG_CLSSFCTN_77",
+    "level" : "4",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_13",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_1",
+    "member_id" : "ACCNTNG_CLSSFCTN_74",
+    "level" : "4",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_15",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_1",
+    "member_id" : "ACCNTNG_CLSSFCTN_60",
+    "level" : "2",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_71",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_1",
+    "member_id" : "ACCNTNG_CLSSFCTN_13",
+    "level" : "3",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_60",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_1",
+    "member_id" : "ACCNTNG_CLSSFCTN_14",
+    "level" : "4",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_16",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_1",
+    "member_id" : "ACCNTNG_CLSSFCTN_76",
+    "level" : "4",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_13",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_1",
+    "member_id" : "ACCNTNG_CLSSFCTN_45",
+    "level" : "4",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_16",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_1",
+    "member_id" : "ACCNTNG_CLSSFCTN_41",
+    "level" : "4",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_61",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_1",
+    "member_id" : "ACCNTNG_CLSSFCTN_15",
+    "level" : "3",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_60",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_1",
+    "member_id" : "ACCNTNG_CLSSFCTN_73",
+    "level" : "4",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_15",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_1",
+    "member_id" : "ACCNTNG_CLSSFCTN_391",
+    "level" : "4",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_61",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "ACCNTNG_CLSSFCTN_HIER_1",
+    "member_id" : "ACCNTNG_CLSSFCTN_47",
+    "level" : "5",
+    "parent_member_id" : "ACCNTNG_CLSSFCTN_391",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

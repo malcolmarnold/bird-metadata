@@ -1,0 +1,37 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "TYP_PRTCTN_HIER_4",
+  "code" : "4",
+  "domain_id" : "TYP_PRTCTN",
+  "name" : "Real estate collateral hierarchy",
+  "description" : "Hierarchical structure of the member Real estate collateral (82)",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_4",
+    "member_id" : "TYP_PRTCTN_82",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_4",
+    "member_id" : "TYP_PRTCTN_90",
+    "level" : "2",
+    "parent_member_id" : "TYP_PRTCTN_82",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_PRTCTN_HIER_4",
+    "member_id" : "TYP_PRTCTN_91",
+    "level" : "2",
+    "parent_member_id" : "TYP_PRTCTN_82",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

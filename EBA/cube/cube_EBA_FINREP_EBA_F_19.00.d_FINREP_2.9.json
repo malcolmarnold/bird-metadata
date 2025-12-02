@@ -1,0 +1,62 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "cube_id" : "EBA_FINREP_EBA_F_19.00.d_FINREP_2.9",
+  "name" : "Information on forborne exposures (IV)",
+  "code" : "F_19.00.d",
+  "framework_id" : "EBA_FINREP",
+  "cube_structure_id" : "EBA_FINREP_EBA_F_19.00.d_FINREP_2.9",
+  "cube_type" : "D",
+  "is_allowed" : null,
+  "valid_from" : "2020-06-30",
+  "valid_to" : "2021-06-29",
+  "version" : "FINREP 2.9",
+  "description" : "Information on forborne exposures (IV)",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_19.00.d_FINREP_2.9",
+    "combination_id" : "EBA_149627"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_19.00.d_FINREP_2.9",
+    "combination_id" : "EBA_118993"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_19.00.d_FINREP_2.9",
+    "combination_id" : "EBA_118994"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_19.00.d_FINREP_2.9",
+    "combination_id" : "EBA_118996"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_19.00.d_FINREP_2.9",
+    "combination_id" : "EBA_118997"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_19.00.d_FINREP_2.9",
+    "combination_id" : "EBA_118998"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_19.00.d_FINREP_2.9",
+    "combination_id" : "EBA_118999"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_19.00.d_FINREP_2.9",
+    "combination_id" : "EBA_119000"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_19.00.d_FINREP_2.9",
+    "combination_id" : "EBA_119001"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_19.00.d_FINREP_2.9",
+    "combination_id" : "EBA_119002"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_19.00.d_FINREP_2.9",
+    "combination_id" : "EBA_119003"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_19.00.d_FINREP_2.9",
+    "combination_id" : "EBA_434040"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_19.00.d_FINREP_2.9",
+    "combination_id" : "EBA_434041"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_19.00.d_FINREP_2.9",
+    "table_id" : "EBA_FINREP_EBA_F_19.00.d_FINREP_2.9"
+  } ]
+}

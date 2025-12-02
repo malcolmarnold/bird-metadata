@@ -1,0 +1,30 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "subdomain_id" : "EBA_2433691056360170739",
+  "name" : "CT([x20|x5|x99])",
+  "domain_id" : "EBA_CT",
+  "is_listed" : "true",
+  "code" : "2433691056360170739",
+  "facet_id" : null,
+  "description" : "Counterparty sector",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "EBA_CT_EBA_x20",
+    "subdomain_id" : "EBA_2433691056360170739",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "EBA_CT_EBA_x5",
+    "subdomain_id" : "EBA_2433691056360170739",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "EBA_CT_EBA_x99",
+    "subdomain_id" : "EBA_2433691056360170739",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

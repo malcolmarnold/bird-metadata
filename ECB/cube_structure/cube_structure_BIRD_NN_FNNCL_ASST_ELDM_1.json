@@ -1,0 +1,27 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_structure_id" : "BIRD_NN_FNNCL_ASST_ELDM_1",
+  "name" : "Non-financial asset",
+  "code" : "BIRD_NN_FNNCL_ASST_ELDM",
+  "description" : "A Non-financial asset is an Asset that is not a Financial asset.",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "cube_structure_item" : [ {
+    "cube_structure_item_id" : "BIRD_NN_FNNCL_ASST_ELDM_1__NN_FNNCL_ASST_TYP",
+    "cube_structure_id" : "BIRD_NN_FNNCL_ASST_ELDM_1",
+    "cube_variable_code" : "NN_FNNCL_ASST_TYP",
+    "variable_id" : "NN_FNNCL_ASST_TYP",
+    "role" : "O",
+    "order" : "0",
+    "subdomain_id" : "TYP_NN_FNNCL_ASST",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "true",
+    "description" : "A discriminator to distinguish between different types of non-financial assets. For example intangible assets, tax assets.",
+    "is_implemented" : "true"
+  } ]
+}

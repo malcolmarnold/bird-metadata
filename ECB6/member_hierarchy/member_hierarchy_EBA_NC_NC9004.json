@@ -1,0 +1,46 @@
+{
+  "maintenance_agency_id" : "ECB6",
+  "member_hierarchy_id" : "EBA_NC_NC9004",
+  "code" : "NC9004",
+  "domain_id" : "EBA_NC",
+  "name" : "Hierarchy for C10-C12 subset of C - Manufacturing",
+  "description" : null,
+  "is_main_hierarchy" : null,
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_NC_NC9004",
+    "member_id" : "EBA_NC_EBA_C10",
+    "level" : "2",
+    "parent_member_id" : "EBA_NC_ECB6_C10-C12",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_NC_NC9004",
+    "member_id" : "EBA_NC_EBA_C11",
+    "level" : "2",
+    "parent_member_id" : "EBA_NC_ECB6_C10-C12",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_NC_NC9004",
+    "member_id" : "EBA_NC_EBA_C12",
+    "level" : "2",
+    "parent_member_id" : "EBA_NC_ECB6_C10-C12",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_NC_NC9004",
+    "member_id" : "EBA_NC_ECB6_C10-C12",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

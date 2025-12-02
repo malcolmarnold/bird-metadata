@@ -1,0 +1,46 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_AT3",
+  "code" : "AT3",
+  "domain_id" : "EBA_ATY",
+  "name" : "Hierarchy for calculating RWA in the IRB approach, applicable just for equities",
+  "description" : "This hierarchy shows the calculation of the RWA for the IRB, exposure class equities. The single steps were taken from the template CR IRB EQU.",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_AT3",
+    "member_id" : "EBA_ATY_EBA_mi212",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT3",
+    "member_id" : "EBA_ATY_EBA_mi125",
+    "level" : "2",
+    "parent_member_id" : "EBA_ATY_EBA_mi212",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT3",
+    "member_id" : "EBA_ATY_EBA_mi180",
+    "level" : "3",
+    "parent_member_id" : "EBA_ATY_EBA_mi125",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_AT3",
+    "member_id" : "EBA_ATY_EBA_mi100",
+    "level" : "3",
+    "parent_member_id" : "EBA_ATY_EBA_mi125",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

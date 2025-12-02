@@ -1,0 +1,30 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "GRP_CLNTS_TYP",
+  "name" : "Group of clients type",
+  "domain_id" : "GRP_TYP",
+  "is_listed" : "true",
+  "code" : "GRP_CLNTS_TYP",
+  "facet_id" : null,
+  "description" : "Group of clients type",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "GRP_TYP_13",
+    "subdomain_id" : "GRP_CLNTS_TYP",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "GRP_TYP_4",
+    "subdomain_id" : "GRP_CLNTS_TYP",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "GRP_TYP_6",
+    "subdomain_id" : "GRP_CLNTS_TYP",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

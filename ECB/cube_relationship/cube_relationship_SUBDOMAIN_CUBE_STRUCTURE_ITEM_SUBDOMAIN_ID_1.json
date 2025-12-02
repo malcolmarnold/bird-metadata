@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "SUBDOMAIN__CUBE_STRUCTURE_ITEM__SUBDOMAIN_ID__1",
+  "code" : "SUBDOMAIN__CUBE_STRUCTURE_ITEM__SUBDOMAIN_ID__1",
+  "name" : "a subdomain can have many cube structure items<br> and a cube structure item must be associated with a subdomain",
+  "description" : null,
+  "type_of_relationship" : "ASS",
+  "valid_from" : "1999-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "SDD_SUBDOMAIN_C_1",
+  "primary_cube_variable_code" : "SUBDOMAIN_ID",
+  "foreign_cube_id" : "SDD_CUBE_STRUCTURE_ITEM_C_1",
+  "foreign_cube_variable_code" : "SUBDOMAIN_ID",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "false",
+  "foreign_cube_mandatoriness" : "true"
+}

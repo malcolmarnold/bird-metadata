@@ -1,0 +1,65 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "cube_id" : "EBA_FINREP_EBA_F_16.04_FINREP_2017-A",
+  "name" : "Breakdown of selected statement of profit or loss items: Gains or losses on financial assets and liabilities held for trading and trading financial assets and trading financial liabilities by risk",
+  "code" : "F_16.04",
+  "framework_id" : "EBA_FINREP",
+  "cube_structure_id" : "EBA_FINREP_EBA_F_16.04_FINREP_2017-A",
+  "cube_type" : "D",
+  "is_allowed" : null,
+  "valid_from" : "2018-03-31",
+  "valid_to" : "2021-06-29",
+  "version" : "FINREP 2017-A",
+  "description" : "Breakdown of selected statement of profit or loss items: Gains or losses on financial assets and liabilities held for trading and trading financial assets and trading financial liabilities by risk",
+  "published" : "false",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_16.04_FINREP_2017-A",
+    "combination_id" : "EBA_151047"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.04_FINREP_2017-A",
+    "combination_id" : "EBA_151048"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.04_FINREP_2017-A",
+    "combination_id" : "EBA_151938"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.04_FINREP_2017-A",
+    "combination_id" : "EBA_151939"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.04_FINREP_2017-A",
+    "combination_id" : "EBA_151940"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.04_FINREP_2017-A",
+    "combination_id" : "EBA_151046"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.04_FINREP_2017-A",
+    "combination_id" : "EBA_151941"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.04_FINREP_2017-A",
+    "combination_id" : "EBA_151942"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.04_FINREP_2017-A",
+    "combination_id" : "EBA_151943"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.04_FINREP_2017-A",
+    "combination_id" : "EBA_10678"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.04_FINREP_2017-A",
+    "combination_id" : "EBA_46571"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.04_FINREP_2017-A",
+    "combination_id" : "EBA_151043"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.04_FINREP_2017-A",
+    "combination_id" : "EBA_151044"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.04_FINREP_2017-A",
+    "combination_id" : "EBA_151045"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_16.04_FINREP_2017-A",
+    "table_id" : "EBA_FINREP_EBA_F_16.04_FINREP_2017-A"
+  } ]
+}

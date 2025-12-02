@@ -1,0 +1,191 @@
+{
+  "table_id" : "EBA_FINREP_EBA_F_04.05_FINREP",
+  "name" : "F 04.05",
+  "code" : "F_04.05",
+  "description" : "F 04.05 Subordinated financial assets",
+  "maintenance_agency_id" : "EBA",
+  "version" : "FINREP",
+  "valid_from" : "2013-12-01",
+  "valid_to" : "2018-03-30",
+  "table_cell" : [ {
+    "cell_id" : "EBA_65760",
+    "is_shaded" : "false",
+    "combination_id" : "EBA_67750",
+    "table_id" : "EBA_FINREP_EBA_F_04.05_FINREP",
+    "system_data_code" : null,
+    "cell_position" : [ {
+      "cell_id" : "EBA_65760",
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_04.05_FINREP_1_010"
+    }, {
+      "cell_id" : "EBA_65760",
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_04.05_FINREP_2_010"
+    } ]
+  }, {
+    "cell_id" : "EBA_75086",
+    "is_shaded" : "false",
+    "combination_id" : "EBA_67716",
+    "table_id" : "EBA_FINREP_EBA_F_04.05_FINREP",
+    "system_data_code" : null,
+    "cell_position" : [ {
+      "cell_id" : "EBA_75086",
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_04.05_FINREP_1_010"
+    }, {
+      "cell_id" : "EBA_75086",
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_04.05_FINREP_2_020"
+    } ]
+  }, {
+    "cell_id" : "EBA_75087",
+    "is_shaded" : "false",
+    "combination_id" : "EBA_67718",
+    "table_id" : "EBA_FINREP_EBA_F_04.05_FINREP",
+    "system_data_code" : null,
+    "cell_position" : [ {
+      "cell_id" : "EBA_75087",
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_04.05_FINREP_1_010"
+    }, {
+      "cell_id" : "EBA_75087",
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_04.05_FINREP_2_030"
+    } ]
+  } ],
+  "axis" : [ {
+    "axis_id" : "EBA_FINREP_EBA_F_04.05_FINREP_1",
+    "code" : "F_04.05_1",
+    "orientation" : "X",
+    "order" : "0",
+    "name" : "EBA_FINREP_EBA_F_04.05_FINREP_1",
+    "description" : null,
+    "table_id" : "EBA_FINREP_EBA_F_04.05_FINREP",
+    "is_open_axis" : "false",
+    "axis_ordinate" : [ {
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_04.05_FINREP_1_010",
+      "is_abstract_header" : "false",
+      "code" : "010",
+      "order" : "0",
+      "level" : "0",
+      "path" : "EBA_FINREP_EBA_F_04.05_FINREP_1_010 .",
+      "axis_id" : "EBA_FINREP_EBA_F_04.05_FINREP_1",
+      "parent_axis_ordinate_id" : null,
+      "name" : "Carrying amount",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_04.05_FINREP_1_010",
+        "variable_id" : "EBA_mi53",
+        "member_id" : null,
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_04.05_FINREP_1_010",
+        "variable_id" : "EBA_BAS",
+        "member_id" : "EBA_BA_EBA_x6",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_04.05_FINREP_1_010",
+        "variable_id" : "EBA_APL",
+        "member_id" : "EBA_PL_EBA_x73",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    } ]
+  }, {
+    "axis_id" : "EBA_FINREP_EBA_F_04.05_FINREP_2",
+    "code" : "F_04.05_2",
+    "orientation" : "Y",
+    "order" : "0",
+    "name" : "EBA_FINREP_EBA_F_04.05_FINREP_2",
+    "description" : null,
+    "table_id" : "EBA_FINREP_EBA_F_04.05_FINREP",
+    "is_open_axis" : "false",
+    "axis_ordinate" : [ {
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_04.05_FINREP_2_030",
+      "is_abstract_header" : "false",
+      "code" : "030",
+      "order" : "0",
+      "level" : "0",
+      "path" : "EBA_FINREP_EBA_F_04.05_FINREP_2_030 .",
+      "axis_id" : "EBA_FINREP_EBA_F_04.05_FINREP_2",
+      "parent_axis_ordinate_id" : null,
+      "name" : "Subordinated [for the issuer] financial assets",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_04.05_FINREP_2_030",
+        "variable_id" : "EBA_MCY",
+        "member_id" : "EBA_MC_EBA_x223",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_04.05_FINREP_2_030",
+        "variable_id" : "EBA_SUB",
+        "member_id" : "EBA_MC_EBA_x361",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    }, {
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_04.05_FINREP_2_020",
+      "is_abstract_header" : "false",
+      "code" : "020",
+      "order" : "0",
+      "level" : "0",
+      "path" : "EBA_FINREP_EBA_F_04.05_FINREP_2_020 .",
+      "axis_id" : "EBA_FINREP_EBA_F_04.05_FINREP_2",
+      "parent_axis_ordinate_id" : null,
+      "name" : "Debt securities",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_04.05_FINREP_2_020",
+        "variable_id" : "EBA_MCY",
+        "member_id" : "EBA_MC_EBA_x60",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_04.05_FINREP_2_020",
+        "variable_id" : "EBA_SUB",
+        "member_id" : "EBA_MC_EBA_x361",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    }, {
+      "axis_ordinate_id" : "EBA_FINREP_EBA_F_04.05_FINREP_2_010",
+      "is_abstract_header" : "false",
+      "code" : "010",
+      "order" : "0",
+      "level" : "0",
+      "path" : "EBA_FINREP_EBA_F_04.05_FINREP_2_010 .",
+      "axis_id" : "EBA_FINREP_EBA_F_04.05_FINREP_2",
+      "parent_axis_ordinate_id" : null,
+      "name" : "Loans and advances",
+      "description" : null,
+      "ordinate_item" : [ {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_04.05_FINREP_2_010",
+        "variable_id" : "EBA_MCY",
+        "member_id" : "EBA_MC_EBA_x469",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      }, {
+        "axis_ordinate_id" : "EBA_FINREP_EBA_F_04.05_FINREP_2_010",
+        "variable_id" : "EBA_SUB",
+        "member_id" : "EBA_MC_EBA_x361",
+        "member_hierarchy_id" : null,
+        "member_hierarchy_valid_from" : null,
+        "starting_member_id" : null,
+        "is_starting_member_included" : "false"
+      } ]
+    } ]
+  } ]
+}

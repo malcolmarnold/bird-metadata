@@ -1,0 +1,35 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "cube_id" : "EBA_FINREP_EBA_F_17.02_FINREP_2017-A",
+  "name" : "Reconciliation between IFRS and CRR scope of consolidation: Off-balance sheet exposures - loan commitments, financial guarantees and other commitments given",
+  "code" : "F_17.02",
+  "framework_id" : "EBA_FINREP",
+  "cube_structure_id" : "EBA_FINREP_EBA_F_17.02_FINREP_2017-A",
+  "cube_type" : "D",
+  "is_allowed" : null,
+  "valid_from" : "2018-03-31",
+  "valid_to" : "2021-06-29",
+  "version" : "FINREP 2017-A",
+  "description" : "Reconciliation between IFRS and CRR scope of consolidation: Off-balance sheet exposures - loan commitments, financial guarantees and other commitments given",
+  "published" : "false",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_17.02_FINREP_2017-A",
+    "combination_id" : "EBA_39712"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_17.02_FINREP_2017-A",
+    "combination_id" : "EBA_39716"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_17.02_FINREP_2017-A",
+    "combination_id" : "EBA_39726"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_17.02_FINREP_2017-A",
+    "combination_id" : "EBA_39729"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_17.02_FINREP_2017-A",
+    "table_id" : "EBA_FINREP_EBA_F_17.02_FINREP_2017-A"
+  } ]
+}

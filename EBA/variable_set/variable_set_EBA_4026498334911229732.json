@@ -1,0 +1,24 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "variable_set_id" : "EBA_4026498334911229732",
+  "name" : "EBA_ATY([EBA_mi290|EBA_mi53])",
+  "code" : "4026498334911229732",
+  "description" : "Details the data type (e.g. monetary, percentage, string) of the data point. In XBRL, it is the \"primary item\". \nGenerally, it indicates the \"metrics\" of the Main category provided (i.e. answers the question: how is measured?).\nIt should be defined for each data point. \nIn the case of monetary values, when the data point is referred to a (change during a) period of time, the member name shall finish in \"(flow)\". When the member name has other terminations, the data point is a measurement at a date (i.e. \"stock\").",
+  "variable_set_enumeration" : [ {
+    "variable_set_id" : "EBA_4026498334911229732",
+    "variable_id" : "EBA_mi290",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "EBA_5775005538609596952",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "EBA_4026498334911229732",
+    "variable_id" : "EBA_mi53",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "EBA_5775005538609596952",
+    "is_flow" : "false",
+    "order" : "0"
+  } ]
+}

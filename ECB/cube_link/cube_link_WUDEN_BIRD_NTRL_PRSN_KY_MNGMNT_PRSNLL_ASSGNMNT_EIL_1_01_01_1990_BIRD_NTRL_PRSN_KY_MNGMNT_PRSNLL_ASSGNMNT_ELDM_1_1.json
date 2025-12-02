@@ -1,0 +1,31 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_link_id" : "WUDEN__BIRD_NTRL_PRSN_KY_MNGMNT_PRSNLL_ASSGNMNT_EIL_1__01_01_1990__BIRD_NTRL_PRSN_KY_MNGMNT_PRSNLL_ASSGNMNT_ELDM_1__1",
+  "code" : "WUDEN__BIRD_NTRL_PRSN_KY_MNGMNT_PRSNLL_ASSGNMNT_EIL_1__01_01_1990__BIRD_NTRL_PRSN_KY_MNGMNT_PRSNLL_ASSGNMNT_ELDM_1",
+  "name" : "The LDM: Natural person Key management personnel assignment (BIRD_NTRL_PRSN_KY_MNGMNT_PRSNLL_ASSGNMNT_ELDM) is forward engineered into the IL: Natural person Key management personnel assignment (BIRD_NTRL_PRSN_KY_MNGMNT_PRSNLL_ASSGNMNT_EIL)",
+  "description" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "order_relevance" : "1",
+  "primary_cube_id" : "BIRD_NTRL_PRSN_KY_MNGMNT_PRSNLL_ASSGNMNT_ELDM_1",
+  "foreign_cube_id" : "BIRD_NTRL_PRSN_KY_MNGMNT_PRSNLL_ASSGNMNT_EIL_1",
+  "cube_link_type" : "TR",
+  "logical_transformation_rule_id" : "WUDEN__BIRD_NTRL_PRSN_KY_MNGMNT_PRSNLL_ASSGNMNT_EIL_1__01_01_1990",
+  "cube_structure_item_link" : [ {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_NTRL_PRSN_KY_MNGMNT_PRSNLL_ASSGNMNT_EIL_1__01_01_1990__BIRD_NTRL_PRSN_KY_MNGMNT_PRSNLL_ASSGNMNT_ELDM_1__1__NTRL_PRSN_GRP_RL_TYP__NTRL_PRSN_GRP_RL_TYP",
+    "cube_link_id" : "WUDEN__BIRD_NTRL_PRSN_KY_MNGMNT_PRSNLL_ASSGNMNT_EIL_1__01_01_1990__BIRD_NTRL_PRSN_KY_MNGMNT_PRSNLL_ASSGNMNT_ELDM_1__1",
+    "foreign_cube_variable_code" : "NTRL_PRSN_GRP_RL_TYP",
+    "primary_cube_variable_code" : "NTRL_PRSN_GRP_RL_TYP",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ {
+      "cube_structure_item_link_id" : "WUDEN__BIRD_NTRL_PRSN_KY_MNGMNT_PRSNLL_ASSGNMNT_EIL_1__01_01_1990__BIRD_NTRL_PRSN_KY_MNGMNT_PRSNLL_ASSGNMNT_ELDM_1__1__NTRL_PRSN_GRP_RL_TYP__NTRL_PRSN_GRP_RL_TYP",
+      "foreign_member_id" : "ENTTY_RL_TYP_44",
+      "primary_member_id" : "ENTTY_RL_TYP_44",
+      "valid_from" : "1999-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    } ]
+  } ]
+}

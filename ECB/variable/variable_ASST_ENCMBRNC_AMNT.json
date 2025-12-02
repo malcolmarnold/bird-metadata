@@ -1,0 +1,10 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "variable_id" : "ASST_ENCMBRNC_AMNT",
+  "code" : "ASST_ENCMBRNC_AMNT",
+  "name" : "Asset encumbrance amount",
+  "domain_id" : "MNTRY",
+  "description" : "The Asset encumbrance amount is the amount that is used for specific items in AE.\nAccording to EBA ITS on Asset encumbrance, 2.4.3. Instructions concerning specific columns it is defined as:\n* the Carrying amount for financial liabilities\n* the Nominal amount for contingent liabilities\n* the Fair value for securities lent with non-cash collateral\nAdditionally, taking into account the annotated templates it is defined as the Fair value in F32.02.b and as the Nominal amount for Loan commitments and financial guarantees received and Other Sources of encumbrance.",
+  "primary_concept" : null,
+  "is_decomposed" : null
+}

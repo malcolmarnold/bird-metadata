@@ -1,0 +1,64 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "TYP_ACCNTNG_ITM_HIER_2",
+  "code" : "2",
+  "domain_id" : "TYP_ACCNTNG_ITM",
+  "name" : "Type of non financial items hierarchy for BIRD models and Finrep",
+  "description" : "Type of non financial items hierarchy for BIRD models and Finrep",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "TYP_ACCNTNG_ITM_HIER_2",
+    "member_id" : "TYP_ACCNTNG_ITM_416",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_ACCNTNG_ITM_HIER_2",
+    "member_id" : "TYP_ACCNTNG_ITM_4161",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_ACCNTNG_ITM_HIER_2",
+    "member_id" : "TYP_ACCNTNG_ITM_430",
+    "level" : "3",
+    "parent_member_id" : "TYP_ACCNTNG_ITM_1201",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_ACCNTNG_ITM_HIER_2",
+    "member_id" : "TYP_ACCNTNG_ITM_413",
+    "level" : "3",
+    "parent_member_id" : "TYP_ACCNTNG_ITM_4162",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_ACCNTNG_ITM_HIER_2",
+    "member_id" : "TYP_ACCNTNG_ITM_1201",
+    "level" : "2",
+    "parent_member_id" : "TYP_ACCNTNG_ITM_4161",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_ACCNTNG_ITM_HIER_2",
+    "member_id" : "TYP_ACCNTNG_ITM_4162",
+    "level" : "2",
+    "parent_member_id" : "TYP_ACCNTNG_ITM_4161",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

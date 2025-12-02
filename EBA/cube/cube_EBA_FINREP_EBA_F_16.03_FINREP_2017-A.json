@@ -1,0 +1,83 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "cube_id" : "EBA_FINREP_EBA_F_16.03_FINREP_2017-A",
+  "name" : "Breakdown of selected statement of profit or loss items: Gains or losses on financial assets and liabilities held for trading and trading financial assets and trading financial liabilities by instrument",
+  "code" : "F_16.03",
+  "framework_id" : "EBA_FINREP",
+  "cube_structure_id" : "EBA_FINREP_EBA_F_16.03_FINREP_2017-A",
+  "cube_type" : "D",
+  "is_allowed" : null,
+  "valid_from" : "2018-03-31",
+  "valid_to" : "2021-06-29",
+  "version" : "FINREP 2017-A",
+  "description" : "Breakdown of selected statement of profit or loss items: Gains or losses on financial assets and liabilities held for trading and trading financial assets and trading financial liabilities by instrument",
+  "published" : "false",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_16.03_FINREP_2017-A",
+    "combination_id" : "EBA_151041"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.03_FINREP_2017-A",
+    "combination_id" : "EBA_151042"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.03_FINREP_2017-A",
+    "combination_id" : "EBA_10674"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.03_FINREP_2017-A",
+    "combination_id" : "EBA_10675"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.03_FINREP_2017-A",
+    "combination_id" : "EBA_10676"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.03_FINREP_2017-A",
+    "combination_id" : "EBA_10677"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.03_FINREP_2017-A",
+    "combination_id" : "EBA_10678"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.03_FINREP_2017-A",
+    "combination_id" : "EBA_10679"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.03_FINREP_2017-A",
+    "combination_id" : "EBA_10680"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.03_FINREP_2017-A",
+    "combination_id" : "EBA_10681"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.03_FINREP_2017-A",
+    "combination_id" : "EBA_10682"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.03_FINREP_2017-A",
+    "combination_id" : "EBA_46567"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.03_FINREP_2017-A",
+    "combination_id" : "EBA_46568"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.03_FINREP_2017-A",
+    "combination_id" : "EBA_46569"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.03_FINREP_2017-A",
+    "combination_id" : "EBA_46570"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.03_FINREP_2017-A",
+    "combination_id" : "EBA_46571"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.03_FINREP_2017-A",
+    "combination_id" : "EBA_46572"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.03_FINREP_2017-A",
+    "combination_id" : "EBA_46573"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.03_FINREP_2017-A",
+    "combination_id" : "EBA_46574"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_16.03_FINREP_2017-A",
+    "combination_id" : "EBA_46575"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_16.03_FINREP_2017-A",
+    "table_id" : "EBA_FINREP_EBA_F_16.03_FINREP_2017-A"
+  } ]
+}

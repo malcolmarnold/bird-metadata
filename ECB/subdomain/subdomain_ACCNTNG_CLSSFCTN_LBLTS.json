@@ -1,0 +1,60 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "ACCNTNG_CLSSFCTN_LBLTS",
+  "name" : "Accounting classification for liabilities",
+  "domain_id" : "ACCNTNG_CLSSFCTN",
+  "is_listed" : "true",
+  "code" : "ACCNTNG_CLSSFCTN_LBLTS",
+  "facet_id" : null,
+  "description" : "Subdomain comprising all accounting classifications that are relevant for liabilities.",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "ACCNTNG_CLSSFCTN_0",
+    "subdomain_id" : "ACCNTNG_CLSSFCTN_LBLTS",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "2022-02-28",
+    "order" : "0"
+  }, {
+    "member_id" : "ACCNTNG_CLSSFCTN_21",
+    "subdomain_id" : "ACCNTNG_CLSSFCTN_LBLTS",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "ACCNTNG_CLSSFCTN_23",
+    "subdomain_id" : "ACCNTNG_CLSSFCTN_LBLTS",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "ACCNTNG_CLSSFCTN_25",
+    "subdomain_id" : "ACCNTNG_CLSSFCTN_LBLTS",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "ACCNTNG_CLSSFCTN_31",
+    "subdomain_id" : "ACCNTNG_CLSSFCTN_LBLTS",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "ACCNTNG_CLSSFCTN_33",
+    "subdomain_id" : "ACCNTNG_CLSSFCTN_LBLTS",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "ACCNTNG_CLSSFCTN_35",
+    "subdomain_id" : "ACCNTNG_CLSSFCTN_LBLTS",
+    "valid_from" : "2018-06-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "ACCNTNG_CLSSFCTN_85",
+    "subdomain_id" : "ACCNTNG_CLSSFCTN_LBLTS",
+    "valid_from" : "2025-02-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

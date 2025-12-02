@@ -1,0 +1,70 @@
+{
+  "combination_id" : "31984_REF",
+  "code" : "31984_REF",
+  "name" : "EBA_ATY(EBA_mi35)|EBA_BAS(EBA_BA_EBA_x17)|EBA_MCY(EBA_MC_EBA_x32)|EBA_TYA(EBA_TA_EBA_x8) - Reference",
+  "maintenance_agency_id" : "ECB",
+  "version" : "FINREP",
+  "valid_from" : "2013-12-01",
+  "valid_to" : "9999-12-31",
+  "combination_item" : [ {
+    "combination_id" : "31984_REF",
+    "variable_id" : "MTRCS",
+    "subdomain_id" : null,
+    "variable_set_id" : "2508521452773937215_REF",
+    "member_id" : null
+  }, {
+    "combination_id" : "31984_REF",
+    "variable_id" : "TYP_ACCNTNG_ITM",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "TYP_ACCNTNG_ITM_35"
+  }, {
+    "combination_id" : "31984_REF",
+    "variable_id" : "TYP_INSTRMNT",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "TYP_INSTRMNT_0"
+  }, {
+    "combination_id" : "31984_REF",
+    "variable_id" : "EXPNS_TYP",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "EXPNS_TYP_0"
+  }, {
+    "combination_id" : "31984_REF",
+    "variable_id" : "SUBA_CD",
+    "subdomain_id" : "STRNG",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "31984_REF",
+    "variable_id" : "DT_RFRNC",
+    "subdomain_id" : "DT",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "31984_REF",
+    "variable_id" : "ENTTY_RIAD_CD_RPRTNG_AGNT",
+    "subdomain_id" : "STRNG",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "31984_REF",
+    "variable_id" : "TYP_ACTVTY",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "TYP_ACTVTY_402"
+  }, {
+    "combination_id" : "31984_REF",
+    "variable_id" : "VALUE_DECIMAL",
+    "subdomain_id" : "MNTRY",
+    "variable_set_id" : null,
+    "member_id" : null
+  }, {
+    "combination_id" : "31984_REF",
+    "variable_id" : "NGTBL_SCRTY_INDCTR",
+    "subdomain_id" : null,
+    "variable_set_id" : null,
+    "member_id" : "NGTBL_SCRTY_0"
+  } ]
+}

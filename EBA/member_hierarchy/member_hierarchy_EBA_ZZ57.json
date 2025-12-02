@@ -1,0 +1,37 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_ZZ57",
+  "code" : "ZZ57",
+  "domain_id" : "EBA_ZZ",
+  "name" : "Minimum initial capital (predefined list)",
+  "description" : "Lists allowed values for the minimum initial capital (predefined list)",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_ZZ57",
+    "member_id" : "EBA_ZZ_EBA_x421",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2020-07-04",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ57",
+    "member_id" : "EBA_ZZ_EBA_x423",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2020-07-04",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ57",
+    "member_id" : "EBA_ZZ_EBA_x422",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2020-07-04",
+    "valid_to" : "9999-12-31"
+  } ]
+}

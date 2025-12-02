@@ -1,0 +1,11 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "domain_id" : "EBA_BA",
+  "name" : "Base items",
+  "is_enumerated" : "true",
+  "description" : "Defines the basic conceptual meaning of a data point. \nIdentifies the framework in which a data point is included. For FINREP, it indicates in which group of element of the financial statement should be included the data point (e.g. assets, liabilities, equity, income, expenses). For COREP, it indicates whether the data point should be computed in the numerator (own funds) or the denominator (exposures) of the Pillar I solvency ratio. \nIt may determine whether the data point has a \"debit\" or a \"credit\" attribute.",
+  "data_type" : null,
+  "code" : "BA",
+  "facet_id" : null,
+  "is_reference" : "false"
+}

@@ -1,0 +1,45 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_link_id" : "GEN_L__F_32.01_REF__BIRD_SBSDRY_JNT_VNTR_ASSCT_OTHR_ORGNSTN_ASSGNMNT_EIL__1",
+  "code" : "BIRD_SBSDRY_JNT_VNTR_ASSCT_OTHR_ORGNSTN_ASSGNMNT_EIL__F_32.01_REF__1",
+  "name" : "GEN_L__F_32.01_REF__BIRD_SBSDRY_JNT_VNTR_ASSCT_OTHR_ORGNSTN_ASSGNMNT_EIL__1",
+  "description" : null,
+  "valid_from" : "1990-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "order_relevance" : "1",
+  "primary_cube_id" : "BIRD_SBSDRY_JNT_VNTR_ASSCT_OTHR_ORGNSTN_ASSGNMNT_EIL_1",
+  "foreign_cube_id" : "AE_REF_F_32.01_REF_AE 3.2",
+  "cube_link_type" : "TR",
+  "logical_transformation_rule_id" : "GEN_L__F_32.01_REF__01_01_1990",
+  "cube_structure_item_link" : [ {
+    "cube_structure_item_link_id" : "GEN_L__F_32.01_REF__GEN_L__F_32.01_REF__BIRD_SBSDRY_JNT_VNTR_ASSCT_OTHR_ORGNSTN_ASSGNMNT_EIL__1__OTHR_ORGNSTN_RL_TYP__RLTD_PRTS_RLTNSHPS",
+    "cube_link_id" : "GEN_L__F_32.01_REF__BIRD_SBSDRY_JNT_VNTR_ASSCT_OTHR_ORGNSTN_ASSGNMNT_EIL__1",
+    "foreign_cube_variable_code" : "RLTD_PRTS_RLTNSHPS",
+    "primary_cube_variable_code" : "OTHR_ORGNSTN_RL_TYP",
+    "comparator" : "=",
+    "aggregation_function" : null,
+    "member_link" : [ {
+      "cube_structure_item_link_id" : "GEN_L__F_32.01_REF__GEN_L__F_32.01_REF__BIRD_SBSDRY_JNT_VNTR_ASSCT_OTHR_ORGNSTN_ASSGNMNT_EIL__1__OTHR_ORGNSTN_RL_TYP__RLTD_PRTS_RLTNSHPS",
+      "foreign_member_id" : "RLTNSHP_16",
+      "primary_member_id" : "ENTTY_RL_TYP_32",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_32.01_REF__GEN_L__F_32.01_REF__BIRD_SBSDRY_JNT_VNTR_ASSCT_OTHR_ORGNSTN_ASSGNMNT_EIL__1__OTHR_ORGNSTN_RL_TYP__RLTD_PRTS_RLTNSHPS",
+      "foreign_member_id" : "RLTNSHP_16",
+      "primary_member_id" : "ENTTY_RL_TYP_30",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_32.01_REF__GEN_L__F_32.01_REF__BIRD_SBSDRY_JNT_VNTR_ASSCT_OTHR_ORGNSTN_ASSGNMNT_EIL__1__OTHR_ORGNSTN_RL_TYP__RLTD_PRTS_RLTNSHPS",
+      "foreign_member_id" : "RLTNSHP_16",
+      "primary_member_id" : "ENTTY_RL_TYP_31",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    } ]
+  } ]
+}

@@ -1,0 +1,48 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "TYP_ACTVTY_F_30.02_TYP_ACTVTY_RLTD_PRTS_REF",
+  "name" : "Subdomain for TYP_ACTVTY_RLTD_PRTS of the Cube F_30.02",
+  "domain_id" : "TYP_ACTVTY",
+  "is_listed" : "true",
+  "code" : "TYP_ACTVTY_F_30.02_TYP_ACTVTY_RLTD_PRTS_REF",
+  "facet_id" : null,
+  "description" : null,
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "TYP_ACTVTY_9",
+    "subdomain_id" : "TYP_ACTVTY_F_30.02_TYP_ACTVTY_RLTD_PRTS_REF",
+    "valid_from" : "2018-12-31",
+    "valid_to" : "2021-06-29",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_ACTVTY_12",
+    "subdomain_id" : "TYP_ACTVTY_F_30.02_TYP_ACTVTY_RLTD_PRTS_REF",
+    "valid_from" : "2018-12-31",
+    "valid_to" : "2021-06-29",
+    "order" : "1"
+  }, {
+    "member_id" : "TYP_ACTVTY_40",
+    "subdomain_id" : "TYP_ACTVTY_F_30.02_TYP_ACTVTY_RLTD_PRTS_REF",
+    "valid_from" : "2018-12-31",
+    "valid_to" : "2021-06-29",
+    "order" : "2"
+  }, {
+    "member_id" : "TYP_ACTVTY_9",
+    "subdomain_id" : "TYP_ACTVTY_F_30.02_TYP_ACTVTY_RLTD_PRTS_REF",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_ACTVTY_12",
+    "subdomain_id" : "TYP_ACTVTY_F_30.02_TYP_ACTVTY_RLTD_PRTS_REF",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31",
+    "order" : "1"
+  }, {
+    "member_id" : "TYP_ACTVTY_40",
+    "subdomain_id" : "TYP_ACTVTY_F_30.02_TYP_ACTVTY_RLTD_PRTS_REF",
+    "valid_from" : "2021-06-30",
+    "valid_to" : "9999-12-31",
+    "order" : "2"
+  } ]
+}

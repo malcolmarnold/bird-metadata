@@ -1,0 +1,30 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "TYP_RL",
+  "name" : "Type of role",
+  "domain_id" : "TYP_RL",
+  "is_listed" : "true",
+  "code" : "TYP_RL",
+  "facet_id" : null,
+  "description" : "Type of role",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "TYP_RL_O",
+    "subdomain_id" : "TYP_RL",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_RL_A",
+    "subdomain_id" : "TYP_RL",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TYP_RL_D",
+    "subdomain_id" : "TYP_RL",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

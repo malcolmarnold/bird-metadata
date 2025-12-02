@@ -1,0 +1,64 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_MC_MC98",
+  "code" : "MC98",
+  "domain_id" : "EBA_MC",
+  "name" : "Hierarchy for intangible assets",
+  "description" : null,
+  "is_main_hierarchy" : null,
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_MC_MC98",
+    "member_id" : "EBA_MC_EBA_x209",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC98",
+    "member_id" : "EBA_MC_EBA_x185",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x209",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC98",
+    "member_id" : "EBA_MC_EBA_x211",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x209",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1970-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC98",
+    "member_id" : "EBA_MC_EBA_x211",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x209",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC98",
+    "member_id" : "EBA_MC_EBA_x185",
+    "level" : "2",
+    "parent_member_id" : "EBA_MC_EBA_x209",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_MC_MC98",
+    "member_id" : "EBA_MC_EBA_x209",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

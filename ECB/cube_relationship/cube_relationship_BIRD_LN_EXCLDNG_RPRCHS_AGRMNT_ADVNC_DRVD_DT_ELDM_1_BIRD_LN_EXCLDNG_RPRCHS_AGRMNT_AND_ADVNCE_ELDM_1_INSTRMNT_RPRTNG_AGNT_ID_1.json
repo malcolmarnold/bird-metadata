@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_LN_EXCLDNG_RPRCHS_AGRMNT_ADVNC_DRVD_DT_ELDM_1__BIRD_LN_EXCLDNG_RPRCHS_AGRMNT_AND_ADVNCE_ELDM_1__INSTRMNT_RPRTNG_AGNT_ID_1",
+  "code" : "BIRD_LN_EXCLDNG_RPRCHS_AGRMNT_ADVNC_DRVD_DT_ELDM_1__BIRD_LN_EXCLDNG_RPRCHS_AGRMNT_AND_ADVNCE_ELDM_1__INSTRMNT_RPRTNG_AGNT_ID",
+  "name" : "Loan (excluding repurchase agreement) and advance may have Loan (excluding repurchase agreement) and advance derived data",
+  "description" : "Loan (excluding repurchase agreement) and advance may have Loan (excluding repurchase agreement) and advance derived data",
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_LN_EXCLDNG_RPRCHS_AGRMNT_AND_ADVNCE_ELDM_1",
+  "primary_cube_variable_code" : "INSTRMNT_RPRTNG_AGNT_ID",
+  "foreign_cube_id" : "BIRD_LN_EXCLDNG_RPRCHS_AGRMNT_ADVNC_DRVD_DT_ELDM_1",
+  "foreign_cube_variable_code" : "INSTRMNT_RPRTNG_AGNT_ID",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "1",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "false"
+}

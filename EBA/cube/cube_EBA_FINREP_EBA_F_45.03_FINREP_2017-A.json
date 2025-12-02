@@ -1,0 +1,53 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "cube_id" : "EBA_FINREP_EBA_F_45.03_FINREP_2017-A",
+  "name" : "Other operating income and expenses",
+  "code" : "F_45.03",
+  "framework_id" : "EBA_FINREP",
+  "cube_structure_id" : "EBA_FINREP_EBA_F_45.03_FINREP_2017-A",
+  "cube_type" : "D",
+  "is_allowed" : null,
+  "valid_from" : "2018-03-31",
+  "valid_to" : "2021-06-29",
+  "version" : "FINREP 2017-A",
+  "description" : "Other operating income and expenses",
+  "published" : "false",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_45.03_FINREP_2017-A",
+    "combination_id" : "EBA_11780"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_45.03_FINREP_2017-A",
+    "combination_id" : "EBA_11789"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_45.03_FINREP_2017-A",
+    "combination_id" : "EBA_11790"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_45.03_FINREP_2017-A",
+    "combination_id" : "EBA_11925"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_45.03_FINREP_2017-A",
+    "combination_id" : "EBA_11926"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_45.03_FINREP_2017-A",
+    "combination_id" : "EBA_33831"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_45.03_FINREP_2017-A",
+    "combination_id" : "EBA_33832"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_45.03_FINREP_2017-A",
+    "combination_id" : "EBA_33896"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_45.03_FINREP_2017-A",
+    "combination_id" : "EBA_33897"
+  }, {
+    "cube_id" : "EBA_FINREP_EBA_F_45.03_FINREP_2017-A",
+    "combination_id" : "EBA_11779"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "EBA_FINREP_EBA_F_45.03_FINREP_2017-A",
+    "table_id" : "EBA_FINREP_EBA_F_45.03_FINREP_2017-A"
+  } ]
+}

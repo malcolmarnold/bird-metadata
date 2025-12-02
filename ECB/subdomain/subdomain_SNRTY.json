@@ -1,0 +1,30 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "SNRTY",
+  "name" : "Seniority",
+  "domain_id" : "SCRTY_RNK_LVL",
+  "is_listed" : "true",
+  "code" : "SNRTY",
+  "facet_id" : null,
+  "description" : "Seniority",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "SCRTY_RNK_LVL_5",
+    "subdomain_id" : "SNRTY",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "SCRTY_RNK_LVL_6",
+    "subdomain_id" : "SNRTY",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "SCRTY_RNK_LVL_7",
+    "subdomain_id" : "SNRTY",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

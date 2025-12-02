@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "VARIABLE_SET__COMBINATION_ITEM__VARIABLE_SET_ID__1",
+  "code" : "VARIABLE_SET__COMBINATION_ITEM__VARIABLE_SET_ID__1",
+  "name" : "a variable set must be associated with a combination item,<br> it can have many combination items<br> and a combination item can have one variable set",
+  "description" : null,
+  "type_of_relationship" : "ASS",
+  "valid_from" : "1999-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "SDD_VARIABLE_SET_C_1",
+  "primary_cube_variable_code" : "VARIABLE_SET_ID",
+  "foreign_cube_id" : "SDD_COMBINATION_ITEM_C_1",
+  "foreign_cube_variable_code" : "VARIABLE_SET_ID",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "false"
+}

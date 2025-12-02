@@ -1,0 +1,74 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_link_id" : "GEN_L__F_12.02_REF__BIRD_LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_ACCNTNG_CLSSFCTN_FNNCL_ASSTS_ASSGNMNT_EIL__1",
+  "code" : "BIRD_LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_ACCNTNG_CLSSFCTN_FNNCL_ASSTS_ASSGNMNT_EIL__F_12.02_REF__1",
+  "name" : "GEN_L__F_12.02_REF__BIRD_LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_ACCNTNG_CLSSFCTN_FNNCL_ASSTS_ASSGNMNT_EIL__1",
+  "description" : null,
+  "valid_from" : "1990-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "order_relevance" : "1",
+  "primary_cube_id" : "BIRD_LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_ACCNTNG_CLSSFCTN_FNNCL_ASSTS_ASSGNMNT_EIL_1",
+  "foreign_cube_id" : "FINREP_REF_F_12.02_REF_FINREP 3.0",
+  "cube_link_type" : "TR",
+  "logical_transformation_rule_id" : "GEN_L__F_12.02_REF__01_01_1990",
+  "cube_structure_item_link" : [ {
+    "cube_structure_item_link_id" : "GEN_L__F_12.02_REF__GEN_L__F_12.02_REF__BIRD_LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_ACCNTNG_CLSSFCTN_FNNCL_ASSTS_ASSGNMNT_EIL__1__TRNSFR_IMPRMNT_STGS__TRNSFR_IMPRMNT_STGS",
+    "cube_link_id" : "GEN_L__F_12.02_REF__BIRD_LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_ACCNTNG_CLSSFCTN_FNNCL_ASSTS_ASSGNMNT_EIL__1",
+    "foreign_cube_variable_code" : "TRNSFR_IMPRMNT_STGS",
+    "primary_cube_variable_code" : "TRNSFR_IMPRMNT_STGS",
+    "comparator" : "=",
+    "aggregation_function" : null,
+    "member_link" : [ {
+      "cube_structure_item_link_id" : "GEN_L__F_12.02_REF__GEN_L__F_12.02_REF__BIRD_LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_ACCNTNG_CLSSFCTN_FNNCL_ASSTS_ASSGNMNT_EIL__1__TRNSFR_IMPRMNT_STGS__TRNSFR_IMPRMNT_STGS",
+      "foreign_member_id" : "TRNSFR_IMPRMNT_STGS_3",
+      "primary_member_id" : "TRNSFR_IMPRMNT_STGS_3",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_12.02_REF__GEN_L__F_12.02_REF__BIRD_LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_ACCNTNG_CLSSFCTN_FNNCL_ASSTS_ASSGNMNT_EIL__1__TRNSFR_IMPRMNT_STGS__TRNSFR_IMPRMNT_STGS",
+      "foreign_member_id" : "TRNSFR_IMPRMNT_STGS_1",
+      "primary_member_id" : "TRNSFR_IMPRMNT_STGS_1",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_12.02_REF__GEN_L__F_12.02_REF__BIRD_LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_ACCNTNG_CLSSFCTN_FNNCL_ASSTS_ASSGNMNT_EIL__1__TRNSFR_IMPRMNT_STGS__TRNSFR_IMPRMNT_STGS",
+      "foreign_member_id" : "TRNSFR_IMPRMNT_STGS_6",
+      "primary_member_id" : "TRNSFR_IMPRMNT_STGS_6",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_12.02_REF__GEN_L__F_12.02_REF__BIRD_LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_ACCNTNG_CLSSFCTN_FNNCL_ASSTS_ASSGNMNT_EIL__1__TRNSFR_IMPRMNT_STGS__TRNSFR_IMPRMNT_STGS",
+      "foreign_member_id" : "TRNSFR_IMPRMNT_STGS_4",
+      "primary_member_id" : "TRNSFR_IMPRMNT_STGS_4",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_12.02_REF__GEN_L__F_12.02_REF__BIRD_LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_ACCNTNG_CLSSFCTN_FNNCL_ASSTS_ASSGNMNT_EIL__1__TRNSFR_IMPRMNT_STGS__TRNSFR_IMPRMNT_STGS",
+      "foreign_member_id" : "TRNSFR_IMPRMNT_STGS_5",
+      "primary_member_id" : "TRNSFR_IMPRMNT_STGS_5",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    }, {
+      "cube_structure_item_link_id" : "GEN_L__F_12.02_REF__GEN_L__F_12.02_REF__BIRD_LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_ACCNTNG_CLSSFCTN_FNNCL_ASSTS_ASSGNMNT_EIL__1__TRNSFR_IMPRMNT_STGS__TRNSFR_IMPRMNT_STGS",
+      "foreign_member_id" : "TRNSFR_IMPRMNT_STGS_2",
+      "primary_member_id" : "TRNSFR_IMPRMNT_STGS_2",
+      "valid_from" : "1990-01-01",
+      "valid_to" : "9999-12-31",
+      "is_linked" : "true"
+    } ]
+  }, {
+    "cube_structure_item_link_id" : "GEN_L__F_12.02_REF__GEN_L__F_12.02_REF__BIRD_LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_ACCNTNG_CLSSFCTN_FNNCL_ASSTS_ASSGNMNT_EIL__1__GRSS_CRRYNG_AMNT__GRSS_CRRYNG_AMNT",
+    "cube_link_id" : "GEN_L__F_12.02_REF__BIRD_LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_ACCNTNG_CLSSFCTN_FNNCL_ASSTS_ASSGNMNT_EIL__1",
+    "foreign_cube_variable_code" : "GRSS_CRRYNG_AMNT",
+    "primary_cube_variable_code" : "GRSS_CRRYNG_AMNT",
+    "comparator" : "=",
+    "aggregation_function" : "SUM",
+    "member_link" : [ ]
+  } ]
+}

@@ -1,0 +1,33 @@
+{
+  "semantic_transformation_rule_id" : "TM_SNC_INTL_RCGNTN_TR",
+  "transformation_url" : "https://gitlab.sofa.dev/bird-subgroups/bird-transformation-rules/-/blob/main/FinRep%20subgroup/final%20derivation%20rules/TM_SNC_INTL_RCGNTN/infosheet.md",
+  "type_of_transformation" : "D",
+  "maintenance_agency_id" : "ECB",
+  "name" : "Time elapsed since initial recognition derivation rule",
+  "code" : "TM_SNC_INTL_RCGNTN_TR",
+  "description" : "This derivation rule aims to obtain the Time elapsed since initial recognition from its building blocks.",
+  "algorithm" : "SET TM_SNC_RCGNTN = DT_RFRNC - TKN_PSSSSN_DT,\n        TM_SNC_INTL_RCGNTN = \n            CASE\n                WHEN TM_SNC_RCGNTN/365 > 0 AND TM_SNC_RCGNTN/365 <= 1 THEN 20\n                WHEN TM_SNC_RCGNTN/365 > 1 AND TM_SNC_RCGNTN/365 <= 2 THEN 27\n                WHEN TM_SNC_RCGNTN/365 > 2 AND TM_SNC_RCGNTN/365 <= 5 THEN 29\n                WHEN TM_SNC_RCGNTN/365 > 5 THEN 37\n            END;",
+  "valid_from" : "2024-02-28",
+  "valid_to" : "9999-12-31",
+  "logical_transformation_rule" : [ {
+    "logical_transformation_rule_id" : "DER__BIRD_CLLTRL_EIL_1__TM_SNC_INTL_RCGNTN__01_01_1990",
+    "semantic_transformation_rule_id" : "TM_SNC_INTL_RCGNTN_TR",
+    "algorithm" : "SET TM_SNC_RCGNTN = BIRD_CLLTRL_IL.DT_RFRNC - BIRD_CLLTRL_IL.TKN_PSSSSN_DT,\n        BIRD_CLLTRL_EIL.TM_SNC_INTL_RCGNTN = \n            CASE\n                WHEN TM_SNC_RCGNTN/365 > 0 AND TM_SNC_RCGNTN/365 <= 1 THEN 20\n                WHEN TM_SNC_RCGNTN/365 > 1 AND TM_SNC_RCGNTN/365 <= 2 THEN 27\n                WHEN TM_SNC_RCGNTN/365 > 2 AND TM_SNC_RCGNTN/365 <= 5 THEN 29\n                WHEN TM_SNC_RCGNTN/365 > 5 THEN 37\n            END;",
+    "additional_filters" : null,
+    "source_layer" : "IL",
+    "destination_layer" : "EIL",
+    "transformation_type" : "DER",
+    "valid_from" : "1990-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "logical_transformation_rule_id" : "DER__BIRD_INSTRMNT_RL_EIL_1__TM_SNC_INTL_RCGNTN__01_01_1990",
+    "semantic_transformation_rule_id" : "TM_SNC_INTL_RCGNTN_TR",
+    "algorithm" : "SET TM_SNC_RCGNTN = BIRD_INSTRMNT_RL_IL.DT_RFRNC - BIRD_INSTRMNT_RL_IL.TKN_PSSSSN_DT,\n        BIRD_INSTRMNT_RL_EIL.TM_SNC_INTL_RCGNTN = \n            CASE\n                WHEN TM_SNC_RCGNTN/365 > 0 AND TM_SNC_RCGNTN/365 <= 1 THEN 20\n                WHEN TM_SNC_RCGNTN/365 > 1 AND TM_SNC_RCGNTN/365 <= 2 THEN 27\n                WHEN TM_SNC_RCGNTN/365 > 2 AND TM_SNC_RCGNTN/365 <= 5 THEN 29\n                WHEN TM_SNC_RCGNTN/365 > 5 THEN 37\n            END;",
+    "additional_filters" : null,
+    "source_layer" : "IL",
+    "destination_layer" : "EIL",
+    "transformation_type" : "DER",
+    "valid_from" : "1990-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

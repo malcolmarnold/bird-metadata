@@ -1,0 +1,38 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "FINREP_REF_F_25.03.a_REF_FINREP 2.9",
+  "name" : "Collateral obtained by taking possession classified as Property Plant and Equipment (PP&E) (I) - Reference",
+  "code" : "F_25.03.a_REF",
+  "framework_id" : "FINREP_REF",
+  "cube_structure_id" : "FINREP_REF_F_25.03.a_REF_FINREP 2.9",
+  "cube_type" : "RC",
+  "is_allowed" : null,
+  "valid_from" : "2020-06-30",
+  "valid_to" : "9999-12-31",
+  "version" : "FINREP 2.9",
+  "description" : null,
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ {
+    "cube_id" : "FINREP_REF_F_25.03.a_REF_FINREP 2.9",
+    "combination_id" : "429254_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_25.03.a_REF_FINREP 2.9",
+    "combination_id" : "429250_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_25.03.a_REF_FINREP 2.9",
+    "combination_id" : "429255_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_25.03.a_REF_FINREP 2.9",
+    "combination_id" : "429251_REF"
+  }, {
+    "cube_id" : "FINREP_REF_F_25.03.a_REF_FINREP 2.9",
+    "combination_id" : "429256_REF"
+  } ],
+  "cube_to_table" : [ {
+    "cube_id" : "FINREP_REF_F_25.03.a_REF_FINREP 2.9",
+    "table_id" : "FINREP_REF_F_25.03.a_REF_FINREP 2.9"
+  } ]
+}

@@ -1,0 +1,20 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_id" : "BIRD_ADVNC_LDM_1",
+  "name" : "Advance",
+  "code" : "BIRD_ADVNC_LDM",
+  "framework_id" : "BIRD",
+  "cube_structure_id" : "BIRD_ADVNC_LDM_1",
+  "cube_type" : "LDM",
+  "is_allowed" : null,
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "description" : "An Advance is a Loan (excluding Reverse repurchase agreement) and Advance that is an Advance according to Annex V, Part 2.85(g):\n‘Advances that are not loans’ shall include advances that cannot be classified as ‘loans’ according to the ECB BSI Regulation. This item shall include, among others, gross amounts receivable in respect of suspense items (such as funds that are awaiting investment, transfer, or settlement) and transit items (such as cheques and other forms of payment that have been sent for collection).",
+  "published" : "true",
+  "dataset_url" : null,
+  "filters" : null,
+  "di_export" : null,
+  "cube_to_combination" : [ ],
+  "cube_to_table" : [ ]
+}

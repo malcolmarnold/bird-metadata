@@ -1,0 +1,144 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "variable_set_id" : "EBA_6553115306727480298",
+  "name" : "EBA_ATY([EBA_ei364|EBA_mi9|EBA_mi170|EBA_ei152|EBA_ei138|EBA_mi134|EBA_ei218|EBA_si476|EBA_pi221|EBA_mi53|EBA_pi223|EBA_di113|EBA_md103|EBA_ei365|EBA_si475|EBA_mi129|EBA_ei219])",
+  "code" : "6553115306727480298",
+  "description" : "Details the data type (e.g. monetary, percentage, string) of the data point. In XBRL, it is the \"primary item\". \nGenerally, it indicates the \"metrics\" of the Main category provided (i.e. answers the question: how is measured?).\nIt should be defined for each data point. \nIn the case of monetary values, when the data point is referred to a (change during a) period of time, the member name shall finish in \"(flow)\". When the member name has other terminations, the data point is a measurement at a date (i.e. \"stock\").",
+  "variable_set_enumeration" : [ {
+    "variable_set_id" : "EBA_6553115306727480298",
+    "variable_id" : "EBA_ei364",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "EBA_7110507731153512106",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "EBA_6553115306727480298",
+    "variable_id" : "EBA_mi9",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "EBA_5775005538609596952",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "EBA_6553115306727480298",
+    "variable_id" : "EBA_mi170",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "EBA_5775005538609596952",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "EBA_6553115306727480298",
+    "variable_id" : "EBA_ei152",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "EBA_4090703526257246116",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "EBA_6553115306727480298",
+    "variable_id" : "EBA_ei138",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "EBA_15684393304994434875",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "EBA_6553115306727480298",
+    "variable_id" : "EBA_mi134",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "EBA_5775005538609596952",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "EBA_6553115306727480298",
+    "variable_id" : "EBA_ei218",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "EBA_5821390239903113791",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "EBA_6553115306727480298",
+    "variable_id" : "EBA_si476",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "EBA_9060459832829800078",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "EBA_6553115306727480298",
+    "variable_id" : "EBA_pi221",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "EBA_2731169100589513655",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "EBA_6553115306727480298",
+    "variable_id" : "EBA_mi53",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "EBA_5775005538609596952",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "EBA_6553115306727480298",
+    "variable_id" : "EBA_pi223",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "EBA_2731169100589513655",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "EBA_6553115306727480298",
+    "variable_id" : "EBA_di113",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "EBA_11035014428738272585",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "EBA_6553115306727480298",
+    "variable_id" : "EBA_md103",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "EBA_5775005538609596952",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "EBA_6553115306727480298",
+    "variable_id" : "EBA_ei365",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "EBA_7110507731153512106",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "EBA_6553115306727480298",
+    "variable_id" : "EBA_si475",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "EBA_9060459832829800078",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "EBA_6553115306727480298",
+    "variable_id" : "EBA_mi129",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "EBA_5775005538609596952",
+    "is_flow" : "false",
+    "order" : "0"
+  }, {
+    "variable_set_id" : "EBA_6553115306727480298",
+    "variable_id" : "EBA_ei219",
+    "valid_from" : "2013-12-01",
+    "valid_to" : "9999-12-31",
+    "subdomain_id" : "EBA_12182081499295359265",
+    "is_flow" : "false",
+    "order" : "0"
+  } ]
+}

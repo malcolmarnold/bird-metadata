@@ -1,0 +1,64 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_ZZ56",
+  "code" : "ZZ56",
+  "domain_id" : "EBA_ZZ",
+  "name" : "Economic scenario to calculate the IFRS 9 PD",
+  "description" : "The benchmark (SBP) economic scenario used by the institution to calculate the IFRS 9 PD. The scenario ID shall be expressed as a value between 0 and 5.The economic scenario 1 shall be the baseline scenario. The economic scenarios 2 to 5 shall be ranked according to their severity, from the most favourable (number 2) to the most severe (number 5).",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_ZZ56",
+    "member_id" : "EBA_ZZ_EBA_x419",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2020-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ56",
+    "member_id" : "EBA_ZZ_EBA_x418",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2020-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ56",
+    "member_id" : "EBA_ZZ_EBA_x417",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2020-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ56",
+    "member_id" : "EBA_ZZ_EBA_x415",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2020-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ56",
+    "member_id" : "EBA_ZZ_EBA_x414",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2020-06-30",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_ZZ56",
+    "member_id" : "EBA_ZZ_EBA_x416",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2020-06-30",
+    "valid_to" : "9999-12-31"
+  } ]
+}

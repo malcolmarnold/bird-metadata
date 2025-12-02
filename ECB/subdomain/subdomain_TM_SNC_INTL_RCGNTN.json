@@ -1,0 +1,30 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "TM_SNC_INTL_RCGNTN",
+  "name" : "Time elapsed since initial recognition band",
+  "domain_id" : "TM_INTRVL",
+  "is_listed" : "true",
+  "code" : "TM_SNC_INTL_RCGNTN",
+  "facet_id" : null,
+  "description" : "Time elapsed since initial recognition band",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "TM_INTRVL_27",
+    "subdomain_id" : "TM_SNC_INTL_RCGNTN",
+    "valid_from" : "2024-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TM_INTRVL_29",
+    "subdomain_id" : "TM_SNC_INTL_RCGNTN",
+    "valid_from" : "2024-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "TM_INTRVL_37",
+    "subdomain_id" : "TM_SNC_INTL_RCGNTN",
+    "valid_from" : "2024-04-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

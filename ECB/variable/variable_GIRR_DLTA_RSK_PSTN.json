@@ -1,0 +1,10 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "variable_id" : "GIRR_DLTA_RSK_PSTN",
+  "code" : "GIRR_DLTA_RSK_PSTN",
+  "name" : "General interest rate risk (GIRR) delta Risk position (Kb)",
+  "domain_id" : "MNTRY",
+  "description" : "delta related  KB as defined in bcbs d457 21.4 (4)\n\nWithin bucket aggregation: the risk position for delta (respectively vega) bucket b, must be determined by aggregating the weighted sensitivities to risk factors within the same bucket using the prescribed correlation set out in the following formula, where the quantity within the square root function is floored at zero\n\nhttps://www.bis.org/bcbs/publ/d457.pdf",
+  "primary_concept" : null,
+  "is_decomposed" : null
+}

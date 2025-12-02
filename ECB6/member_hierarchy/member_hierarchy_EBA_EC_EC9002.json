@@ -1,0 +1,82 @@
+{
+  "maintenance_agency_id" : "ECB6",
+  "member_hierarchy_id" : "EBA_EC_EC9002",
+  "code" : "EC9002",
+  "domain_id" : "EBA_EC",
+  "name" : "Hierarchy for the SME/non-SME retail exposure classes in IRB Approach",
+  "description" : "Definition of exposures to SME in Retail exposures not secured by the Real Estate in IRB Approach",
+  "is_main_hierarchy" : null,
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_EC_EC9002",
+    "member_id" : "EBA_EC_ECB6_x1092",
+    "level" : "3",
+    "parent_member_id" : "EBA_EC_EBA_x7",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_EC_EC9002",
+    "member_id" : "EBA_EC_ECB6_x1093",
+    "level" : "3",
+    "parent_member_id" : "EBA_EC_EBA_x7",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_EC_EC9002",
+    "member_id" : "EBA_EC_EBA_x9",
+    "level" : "2",
+    "parent_member_id" : "EBA_EC_EBA_x26",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_EC_EC9002",
+    "member_id" : "EBA_EC_EBA_x8",
+    "level" : "2",
+    "parent_member_id" : "EBA_EC_EBA_x26",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_EC_EC9002",
+    "member_id" : "EBA_EC_ECB6_x6092",
+    "level" : "3",
+    "parent_member_id" : "EBA_EC_EBA_x7",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_EC_EC9002",
+    "member_id" : "EBA_EC_ECB6_x6093",
+    "level" : "3",
+    "parent_member_id" : "EBA_EC_EBA_x7",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_EC_EC9002",
+    "member_id" : "EBA_EC_EBA_x7",
+    "level" : "2",
+    "parent_member_id" : "EBA_EC_EBA_x26",
+    "comparator" : ">=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_EC_EC9002",
+    "member_id" : "EBA_EC_EBA_x26",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

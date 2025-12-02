@@ -1,0 +1,43 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_structure_id" : "SDD_COMBINATION_MAPPING_C_1",
+  "name" : "Combination mapping",
+  "code" : "COMBINATION_MAPPING",
+  "description" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "cube_structure_item" : [ {
+    "cube_structure_item_id" : "SDD_COMBINATION_MAPPING_C_1__SOURCE_COMBINATION_ID",
+    "cube_structure_id" : "SDD_COMBINATION_MAPPING_C_1",
+    "cube_variable_code" : "SOURCE_COMBINATION_ID",
+    "variable_id" : "SOURCE_COMBINATION_ID",
+    "role" : "D",
+    "order" : "1",
+    "subdomain_id" : "STRNG_255",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "true",
+    "description" : null,
+    "is_implemented" : "true"
+  }, {
+    "cube_structure_item_id" : "SDD_COMBINATION_MAPPING_C_1__DESTINATION_COMBINATION_ID",
+    "cube_structure_id" : "SDD_COMBINATION_MAPPING_C_1",
+    "cube_variable_code" : "DESTINATION_COMBINATION_ID",
+    "variable_id" : "DESTINATION_COMBINATION_ID",
+    "role" : "D",
+    "order" : "2",
+    "subdomain_id" : "STRNG_255",
+    "variable_set_id" : null,
+    "member_id" : null,
+    "dimension_type" : null,
+    "attribute_associated_variable" : null,
+    "is_flow" : "false",
+    "is_mandatory" : "true",
+    "description" : null,
+    "is_implemented" : "true"
+  } ]
+}

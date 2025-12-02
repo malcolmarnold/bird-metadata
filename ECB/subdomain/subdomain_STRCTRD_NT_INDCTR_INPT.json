@@ -1,0 +1,30 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "STRCTRD_NT_INDCTR_INPT",
+  "name" : "Structured note indicator (Input Layer)",
+  "domain_id" : "STRCTRD_NT_INDCTR",
+  "is_listed" : "true",
+  "code" : "STRCTRD_NT_INDCTR_INPT",
+  "facet_id" : null,
+  "description" : "Structured note indicator (Input Layer)",
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "STRCTRD_NT_INDCTR_0",
+    "subdomain_id" : "STRCTRD_NT_INDCTR_INPT",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "STRCTRD_NT_INDCTR_1",
+    "subdomain_id" : "STRCTRD_NT_INDCTR_INPT",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  }, {
+    "member_id" : "STRCTRD_NT_INDCTR_2",
+    "subdomain_id" : "STRCTRD_NT_INDCTR_INPT",
+    "valid_from" : "2022-03-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}

@@ -1,0 +1,33 @@
+{
+  "semantic_transformation_rule_id" : "CRRNT_LTV_RT_TR",
+  "transformation_url" : "https://gitlab.sofa.dev/bird-subgroups/bird-transformation-rules/-/blob/main/FinRep%20subgroup/final%20derivation%20rules/CRRNT_LTV_RT/infosheet.md",
+  "type_of_transformation" : "D",
+  "maintenance_agency_id" : "ECB",
+  "name" : "Current loan-to-value ratio derivation rule",
+  "code" : "CRRNT_LTV_RT_TR",
+  "description" : "This derivation rule aims to obtain the Current loan-to-value ratio from its building blocks.",
+  "algorithm" : "SET CRRNT_LTV_RT = NMNL_AMNT / MRKT_VL",
+  "valid_from" : "2024-02-28",
+  "valid_to" : "9999-12-31",
+  "logical_transformation_rule" : [ {
+    "logical_transformation_rule_id" : "DER__BIRD_INSTRMNT_EIL_1__CRRNT_LTV_RT__01_01_1990",
+    "semantic_transformation_rule_id" : "CRRNT_LTV_RT_TR",
+    "algorithm" : "SET BIRD_INSTRMNT_EIL.CRRNT_LTV_RT = BIRD_INSTRMNT_IL.NMNL_AMNT / BIRD_CLLTRL_IL.MRKT_VL",
+    "additional_filters" : null,
+    "source_layer" : "IL",
+    "destination_layer" : "EIL",
+    "transformation_type" : "DER",
+    "valid_from" : "1990-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "logical_transformation_rule_id" : "DER__BIRD_SCRTY_PSTN_EIL_1__CRRNT_LTV_RT__01_01_1990",
+    "semantic_transformation_rule_id" : "CRRNT_LTV_RT_TR",
+    "algorithm" : "SET BIRD_SCRTY_PSTN_EIL.CRRNT_LTV_RT = BIRD_SCRTY_PSTN_IL.NMNL_AMNT / BIRD_CLLTRL_IL.MRKT_VL",
+    "additional_filters" : null,
+    "source_layer" : "IL",
+    "destination_layer" : "EIL",
+    "transformation_type" : "DER",
+    "valid_from" : "1990-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_RSK_FAC_SA_IL__BIRD_SCRTY_EXCHNG_TRDBL_DRVTV_IL__ACCNTNG_STNDRD_1",
+  "code" : "BIRD_RSK_FAC_SA_IL_1__BIRD_SCRTY_EXCHNG_TRDBL_DRVTV_IL_1__ACCNTNG_STNDRD",
+  "name" : "Security and exchange tradable derivative has many Risk factor for standardised approach",
+  "description" : null,
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_SCRTY_EXCHNG_TRDBL_DRVTV_IL_1",
+  "primary_cube_variable_code" : "ACCNTNG_STNDRD",
+  "foreign_cube_id" : "BIRD_RSK_FAC_SA_IL_1",
+  "foreign_cube_variable_code" : "ACCNTNG_STNDRD",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "false"
+}

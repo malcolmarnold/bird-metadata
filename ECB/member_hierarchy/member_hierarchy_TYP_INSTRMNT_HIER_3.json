@@ -1,0 +1,82 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "TYP_INSTRMNT_HIER_3",
+  "code" : "3",
+  "domain_id" : "TYP_INSTRMNT",
+  "name" : "Derivatives, Deposits, Debt securities hierarchy",
+  "description" : "Hierarchical structure of the member Derivatives, Deposits, Debt securities (1664)",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_3",
+    "member_id" : "TYP_INSTRMNT_1664",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_3",
+    "member_id" : "TYP_INSTRMNT_310",
+    "level" : "2",
+    "parent_member_id" : "TYP_INSTRMNT_1664",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_3",
+    "member_id" : "TYP_INSTRMNT_210",
+    "level" : "3",
+    "parent_member_id" : "TYP_INSTRMNT_1661",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_3",
+    "member_id" : "TYP_INSTRMNT_549",
+    "level" : "3",
+    "parent_member_id" : "TYP_INSTRMNT_1661",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_3",
+    "member_id" : "TYP_INSTRMNT_1661",
+    "level" : "2",
+    "parent_member_id" : "TYP_INSTRMNT_1664",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_3",
+    "member_id" : "TYP_INSTRMNT_213",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_3",
+    "member_id" : "TYP_INSTRMNT_241",
+    "level" : "2",
+    "parent_member_id" : "TYP_INSTRMNT_213",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "TYP_INSTRMNT_HIER_3",
+    "member_id" : "TYP_INSTRMNT_210",
+    "level" : "2",
+    "parent_member_id" : "TYP_INSTRMNT_213",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

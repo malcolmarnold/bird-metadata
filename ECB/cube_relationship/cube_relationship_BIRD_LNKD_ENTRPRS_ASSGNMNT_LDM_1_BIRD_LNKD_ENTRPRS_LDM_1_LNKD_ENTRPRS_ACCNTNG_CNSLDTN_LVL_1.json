@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "BIRD_LNKD_ENTRPRS_ASSGNMNT_LDM_1__BIRD_LNKD_ENTRPRS_LDM_1__LNKD_ENTRPRS_ACCNTNG_CNSLDTN_LVL_1",
+  "code" : "BIRD_LNKD_ENTRPRS_ASSGNMNT_LDM_1__BIRD_LNKD_ENTRPRS_LDM_1__LNKD_ENTRPRS_ACCNTNG_CNSLDTN_LVL",
+  "name" : "Linked enterprise may have many Linked enterprise assignment",
+  "description" : "Linked enterprise has Linked enterprise via Linked enterprise assignment",
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-07-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "BIRD_LNKD_ENTRPRS_LDM_1",
+  "primary_cube_variable_code" : "CNTRL_BNK_PRVT_SCTR_CMPNY_ACCNTNG_CNSLDTN_LVL",
+  "foreign_cube_id" : "BIRD_LNKD_ENTRPRS_ASSGNMNT_LDM_1",
+  "foreign_cube_variable_code" : "LNKD_ENTRPRS_ACCNTNG_CNSLDTN_LVL",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "false"
+}

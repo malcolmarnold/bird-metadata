@@ -1,0 +1,19 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_relationship_id" : "ANCRDT_SRVCR_NN_ANNYMSD_GC_D__ANCRDT_PRTCTN_RCVD_FCT_GC_D__SRVCR_ID__1",
+  "code" : "ANCRDT_SRVCR_NN_ANNYMSD_GC_D__ANCRDT_PRTCTN_RCVD_FCT_GC_D__SRVCR_ID__1",
+  "name" : "Servicer - Protection received fact GOLDEN COPY in DISC",
+  "description" : "This relationship connects servicers from the servicer table with protections in the Protection received fact table. One servicer can be linked to many protections. (Golden copy)",
+  "type_of_relationship" : "ASS",
+  "valid_from" : "2023-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "primary_cube_id" : "ANCRDT_SRVCR_NN_ANNYMSD_GC_D_1",
+  "primary_cube_variable_code" : "SRVCR_ID",
+  "foreign_cube_id" : "ANCRDT_PRTCTN_RCVD_FCT_GC_D_1",
+  "foreign_cube_variable_code" : "ENTTY_RIAD_ID",
+  "primary_cube_cardinality" : "1",
+  "foreign_cube_cardinality" : "N",
+  "primary_cube_mandatoriness" : "true",
+  "foreign_cube_mandatoriness" : "true"
+}

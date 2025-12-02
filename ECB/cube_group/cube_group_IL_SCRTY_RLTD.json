@@ -1,0 +1,26 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_group_id" : "IL_SCRTY_RLTD",
+  "name" : "Security related",
+  "code" : "IL_SCRTY_RLTD",
+  "description" : "Security related",
+  "cube_group_enumeration" : [ {
+    "order" : "0",
+    "cube_group_id" : "IL_SCRTY_RLTD",
+    "cube_id" : "BIRD_DBT_SCRTY_ISSD_IL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "2",
+    "cube_group_id" : "IL_SCRTY_RLTD",
+    "cube_id" : "BIRD_SCRTY_EXCHNG_TRDBL_DRVTV_IL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "order" : "1",
+    "cube_group_id" : "IL_SCRTY_RLTD",
+    "cube_id" : "BIRD_DBT_SCRTY_ISSD_HDG_IL_1",
+    "valid_from" : "2023-07-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

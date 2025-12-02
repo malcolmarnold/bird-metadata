@@ -1,0 +1,64 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_4",
+  "code" : "4",
+  "domain_id" : "INSTTTNL_SCTR",
+  "name" : "Central government and post office giro institutions hierarhy",
+  "description" : "Hierarchical structure of the member Central government and post office giro institutions (S1_E)",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_4",
+    "member_id" : "INSTTTNL_SCTR_S1_E",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_4",
+    "member_id" : "INSTTTNL_SCTR_S13",
+    "level" : "2",
+    "parent_member_id" : "INSTTTNL_SCTR_S1_E",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_4",
+    "member_id" : "INSTTTNL_SCTR_S11_A",
+    "level" : "2",
+    "parent_member_id" : "INSTTTNL_SCTR_S1_E",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_4",
+    "member_id" : "INSTTTNL_SCTR_S1_E1",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : "=",
+    "operator" : null,
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_4",
+    "member_id" : "INSTTTNL_SCTR_S12_K",
+    "level" : "2",
+    "parent_member_id" : "INSTTTNL_SCTR_S1_E1",
+    "comparator" : null,
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "INSTTTNL_SCTR_HIER_4",
+    "member_id" : "INSTTTNL_SCTR_S1_E",
+    "level" : "2",
+    "parent_member_id" : "INSTTTNL_SCTR_S1_E1",
+    "comparator" : "=",
+    "operator" : "+",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31"
+  } ]
+}

@@ -1,0 +1,48 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "cube_link_id" : "WUDEN__BIRD_INSTRMNT_EIL_1__01_01_1990__BIRD_FCTRNG_CSH_RSRV_ELDM_1__1",
+  "code" : "WUDEN__BIRD_INSTRMNT_EIL_1__01_01_1990__BIRD_FCTRNG_CSH_RSRV_ELDM_1",
+  "name" : "The LDM: Factoring cash reserve (BIRD_FCTRNG_CSH_RSRV_ELDM) is forward engineered into the IL: Instrument (BIRD_INSTRMNT_EIL)",
+  "description" : null,
+  "valid_from" : "1900-01-01",
+  "valid_to" : "9999-12-31",
+  "version" : "1",
+  "order_relevance" : "1",
+  "primary_cube_id" : "BIRD_FCTRNG_CSH_RSRV_ELDM_1",
+  "foreign_cube_id" : "BIRD_INSTRMNT_EIL_1",
+  "cube_link_type" : "TR",
+  "logical_transformation_rule_id" : "WUDEN__BIRD_INSTRMNT_EIL_1__01_01_1990",
+  "cube_structure_item_link" : [ {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_EIL_1__01_01_1990__BIRD_FCTRNG_CSH_RSRV_ELDM_1__1__CSH_RSRV_AMNT__CSH_RSRV_AMNT",
+    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_EIL_1__01_01_1990__BIRD_FCTRNG_CSH_RSRV_ELDM_1__1",
+    "foreign_cube_variable_code" : "CSH_RSRV_AMNT",
+    "primary_cube_variable_code" : "CSH_RSRV_AMNT",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_EIL_1__01_01_1990__BIRD_FCTRNG_CSH_RSRV_ELDM_1__1__DT_CSH_RSRV_MTRTY__DT_CSH_RSRV_MTRTY",
+    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_EIL_1__01_01_1990__BIRD_FCTRNG_CSH_RSRV_ELDM_1__1",
+    "foreign_cube_variable_code" : "DT_CSH_RSRV_MTRTY",
+    "primary_cube_variable_code" : "DT_CSH_RSRV_MTRTY",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_EIL_1__01_01_1990__BIRD_FCTRNG_CSH_RSRV_ELDM_1__1__DT_ORGNL_CSH_RSRV_AMNT__DT_ORGNL_CSH_RSRV_AMNT",
+    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_EIL_1__01_01_1990__BIRD_FCTRNG_CSH_RSRV_ELDM_1__1",
+    "foreign_cube_variable_code" : "DT_ORGNL_CSH_RSRV_AMNT",
+    "primary_cube_variable_code" : "DT_ORGNL_CSH_RSRV_AMNT",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  }, {
+    "cube_structure_item_link_id" : "WUDEN__BIRD_INSTRMNT_EIL_1__01_01_1990__BIRD_FCTRNG_CSH_RSRV_ELDM_1__1__ORGNL_CSH_RSRV_AMNT__ORGNL_CSH_RSRV_AMNT",
+    "cube_link_id" : "WUDEN__BIRD_INSTRMNT_EIL_1__01_01_1990__BIRD_FCTRNG_CSH_RSRV_ELDM_1__1",
+    "foreign_cube_variable_code" : "ORGNL_CSH_RSRV_AMNT",
+    "primary_cube_variable_code" : "ORGNL_CSH_RSRV_AMNT",
+    "comparator" : null,
+    "aggregation_function" : null,
+    "member_link" : [ ]
+  } ]
+}

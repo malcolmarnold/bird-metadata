@@ -1,0 +1,10 @@
+{
+  "maintenance_agency_id" : "ECB2",
+  "variable_id" : "ECB2_IMPRMNT_ASSSSMNT_MTHD",
+  "code" : "IMPRMNT_ASSSSMNT_MTHD",
+  "name" : "Impairment assessment method",
+  "domain_id" : "ECB2_CL_SHS_IMPRMNT_ASSSSMNT_MTHD",
+  "description" : "The method by which it is assessed if the instrument is subject to impairment in accord-ance with applied accounting standards. Collective and individual methods are distin-guished. The attribute may not be available for the reporting of intra-group holdings (prudential scope) and “pure” short positions (i.e. those where no positive amount is held and recorded on the asset side) as well as equity. In this case, a dedicated code \"0\" (for \"not applicable\") has to be provided.\n\nPlease refer to the description of the attribute in the SHSG Guidance notes on the SHS Regulation for more detailed background information.",
+  "primary_concept" : null,
+  "is_decomposed" : null
+}

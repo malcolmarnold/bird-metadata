@@ -1,0 +1,46 @@
+{
+  "maintenance_agency_id" : "EBA",
+  "member_hierarchy_id" : "EBA_TI9",
+  "code" : "TI9",
+  "domain_id" : "EBA_TI",
+  "name" : "Hierarchy for estimated time for access to contracts (Resolution)",
+  "description" : "EBA_TI9",
+  "is_main_hierarchy" : "false",
+  "member_hierarchy_node" : [ {
+    "member_hierarchy_id" : "EBA_TI9",
+    "member_id" : "EBA_TI_EBA_x161",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2018-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_TI9",
+    "member_id" : "EBA_TI_EBA_x641",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2018-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_TI9",
+    "member_id" : "EBA_TI_EBA_x66",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2018-12-31",
+    "valid_to" : "9999-12-31"
+  }, {
+    "member_hierarchy_id" : "EBA_TI9",
+    "member_id" : "EBA_TI_EBA_x59",
+    "level" : "1",
+    "parent_member_id" : null,
+    "comparator" : ">=",
+    "operator" : null,
+    "valid_from" : "2018-12-31",
+    "valid_to" : "9999-12-31"
+  } ]
+}

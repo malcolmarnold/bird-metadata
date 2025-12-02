@@ -1,0 +1,30 @@
+{
+  "maintenance_agency_id" : "ECB",
+  "subdomain_id" : "ACCNTG_CNS_SCP_ISSR_INDCTR_SHSG4_NON_ISIN_ACCNTG_CNS_SCP_ISSR_INDCTR_REF",
+  "name" : "Subdomain for ACCNTG_CNS_SCP_ISSR_INDCTR of the Cube SHSG4_NON_ISIN",
+  "domain_id" : "ACCNTG_CNS_SCP_ISSR_INDCTR",
+  "is_listed" : "true",
+  "code" : "ACCNTG_CNS_SCP_ISSR_INDCTR_SHSG4_NON_ISIN_ACCNTG_CNS_SCP_ISSR_INDCTR_REF",
+  "facet_id" : null,
+  "description" : null,
+  "is_natural" : "false",
+  "subdomain_enumeration" : [ {
+    "member_id" : "ACCNTG_CNS_SCP_ISSR_INDCTR_1",
+    "subdomain_id" : "ACCNTG_CNS_SCP_ISSR_INDCTR_SHSG4_NON_ISIN_ACCNTG_CNS_SCP_ISSR_INDCTR_REF",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "1"
+  }, {
+    "member_id" : "ACCNTG_CNS_SCP_ISSR_INDCTR_2",
+    "subdomain_id" : "ACCNTG_CNS_SCP_ISSR_INDCTR_SHSG4_NON_ISIN_ACCNTG_CNS_SCP_ISSR_INDCTR_REF",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "2"
+  }, {
+    "member_id" : "ACCNTG_CNS_SCP_ISSR_INDCTR_-1",
+    "subdomain_id" : "ACCNTG_CNS_SCP_ISSR_INDCTR_SHSG4_NON_ISIN_ACCNTG_CNS_SCP_ISSR_INDCTR_REF",
+    "valid_from" : "1900-01-01",
+    "valid_to" : "9999-12-31",
+    "order" : "0"
+  } ]
+}
